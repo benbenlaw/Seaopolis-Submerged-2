@@ -1,0 +1,23 @@
+["Strainers Config File"]
+	#Show the strainer meshes in the world, default = true
+	"Show Meshes" = true
+	#Show items in / on the strainer in the world, default = true
+	"Show Items " = true
+	#The maximum progress of the strainer, default = 220,
+	# Default: 220
+	# Range: > 1
+	"Strainer Max Progress" = 220
+	#The durations of the blocks in the world, default = [], example "minecraft:cherry_leaves=1000"
+	"Block Durations" = []
+	#The speed reduction of the tier 1 upgrade, default = 50
+	"Speed Reduction 1" = 50
+	#The speed reduction of the tier 2 upgrade, default = 100
+	"Speed Reduction 2" = 100
+	#The speed reduction of the tier 3 upgrade, default = 150
+	"Speed Reduction 3" = 150
+	#The chance increase of the tier 1 upgrade, default = 0.5
+	"Chance Increase 1" = 0.5
+	#The chance increase of the tier 2 upgrade, default = 1.0
+	"Chance Increase 2" = 1.0
+	#The chance increase of the tier 3 upgrade, default = 1.5
+	"Chance Increase 3" = 1.5

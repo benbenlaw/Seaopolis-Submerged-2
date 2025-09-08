@@ -1,0 +1,3 @@
+["Strainers Config File"]
+	#Should Tin Ore Pieces/ Meshes/ recipe be loaded, default = false
+	Tin = false

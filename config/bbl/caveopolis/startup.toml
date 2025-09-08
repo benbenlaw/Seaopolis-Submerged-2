@@ -1,0 +1,6 @@
+#Caveopolis Startup Config
+[Caveopolis]
+	#Spray can durability, default = 2048
+	"Max Spray Can Durability" = 2048
+	#Light block emission, default = 15
+	"Light Block Emission" = 15

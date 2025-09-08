@@ -1,0 +1,295 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_fish"
+	group: "64828B4E59DB0E48"
+	id: "092C9843B11AA1ED"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7FF77CD147DD819F"]
+			id: "3F2EA9A5FA64673E"
+			tasks: [{
+				id: "72BFE78EE79EF557"
+				item: { count: 1, id: "strainers:redstone_ore_piece" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F2EA9A5FA64673E"]
+			id: "60037D4B23D755E0"
+			tasks: [{
+				id: "74CF92AF9EB4FCC4"
+				item: { count: 1, id: "minecraft:redstone_ore" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["60037D4B23D755E0"]
+			id: "133C8B93F7789357"
+			tasks: [{
+				id: "45657967A46BE70E"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["45B09F8E3743944D"]
+			id: "653DD2FF64F6A587"
+			tasks: [{
+				id: "4C133A829754D06F"
+				item: { count: 1, id: "minecraft:prismarine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["653DD2FF64F6A587"]
+			id: "3630BA4B03BB75D7"
+			tasks: [{
+				id: "16681DAB0A14E313"
+				item: { count: 1, id: "nautec:polished_prismarine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3630BA4B03BB75D7"
+				"6A1B1CD129176E37"
+			]
+			id: "65C92E5377A04743"
+			tasks: [{
+				id: "29C9A070D19D2ABA"
+				item: { count: 1, id: "nautec:aquatic_catalyst" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F4460BFEFEE379D"]
+			id: "45B09F8E3743944D"
+			tasks: [{
+				id: "4B05D7F73C282958"
+				item: { count: 1, id: "minecraft:prismarine_shard" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "2AA52DE765D3C50A"
+			tasks: [{
+				id: "5F66691A83461570"
+				item: { count: 1, id: "cloche:cloche" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["356B0DCCAA28ABF2"]
+			id: "6A1B1CD129176E37"
+			tasks: [{
+				id: "712DD69E906A70F7"
+				item: { count: 1, id: "submerged:prismarine_sphere_key" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4CADCE6BECDFD4C6"
+				"45B8AF674601C420"
+			]
+			dependency_requirement: "one_completed"
+			id: "5F4460BFEFEE379D"
+			tasks: [{
+				id: "15B51807E7FA267C"
+				item: { count: 1, id: "submerged:pressurized_sand" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F4460BFEFEE379D"]
+			id: "356B0DCCAA28ABF2"
+			tasks: [{
+				id: "34F5E74F25014BAD"
+				item: { count: 1, id: "minecraft:prismarine_crystals" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65C92E5377A04743"]
+			id: "57EFAA6AB7C0645B"
+			tasks: [{
+				id: "03457B47C4788578"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57EFAA6AB7C0645B"]
+			id: "354F57FD7D2FE51E"
+			tasks: [{
+				id: "7FD475FB5B8B39DB"
+				item: { count: 1, id: "nautec:aquarine_steel_compound" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["354F57FD7D2FE51E"]
+			id: "575F3A05822E7EF9"
+			tasks: [{
+				id: "59A6F27BEA85946D"
+				item: { count: 1, id: "nautec:aquarine_steel_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["575F3A05822E7EF9"]
+			id: "4AE6464EA488EBEF"
+			tasks: [{
+				id: "25F705E908EA1204"
+				item: { count: 1, id: "nautec:mixer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F89AE2059C84B1"]
+			id: "223FCBA474AD08C5"
+			tasks: [{
+				id: "032A2C277CFE6BCF"
+				item: { count: 1, id: "nautec:eas_bucket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["223FCBA474AD08C5"]
+			id: "7FF77CD147DD819F"
+			tasks: [{
+				id: "09BA40CEC2C39B2D"
+				item: { count: 1, id: "submerged:living_gravel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5F4460BFEFEE379D"]
+			id: "121B74AB42FF6E61"
+			tasks: [{
+				id: "7004E18303BC18EF"
+				item: { count: 1, id: "alltheores:salt" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["121B74AB42FF6E61"]
+			id: "7ED2175CCB3A787E"
+			tasks: [{
+				id: "3F1A9590DA4D3EE8"
+				item: { count: 1, id: "alltheores:salt_block" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7ED2175CCB3A787E"
+				"4AE6464EA488EBEF"
+			]
+			id: "46F89AE2059C84B1"
+			tasks: [{
+				id: "2FE4DA99C7A3E195"
+				item: { count: 1, id: "nautec:saltwater_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["133C8B93F7789357"]
+			id: "72D53308BD14BBFC"
+			tasks: [{
+				id: "2C964FFF6334A4B2"
+				item: { count: 1, id: "nautec:diving_chestplate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["72D53308BD14BBFC"]
+			id: "7319057BBC40D9AC"
+			tasks: [{
+				id: "2AEC6DAB35025C8D"
+				item: { count: 1, id: "nautec:diving_helmet" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["72D53308BD14BBFC"]
+			id: "212ACF5B313CA1E7"
+			tasks: [{
+				id: "4F3924CD17EFBCB1"
+				item: { count: 1, id: "nautec:diving_leggings" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["72D53308BD14BBFC"]
+			id: "26E934D53B20B4AD"
+			tasks: [{
+				id: "5223D8599ED88FA5"
+				item: { count: 1, id: "nautec:diving_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["72D53308BD14BBFC"]
+			id: "18E67396B01B34F1"
+			tasks: [{
+				id: "22D257151BBA30CA"
+				item: { count: 1, id: "nautec:air_bottle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+	]
+}

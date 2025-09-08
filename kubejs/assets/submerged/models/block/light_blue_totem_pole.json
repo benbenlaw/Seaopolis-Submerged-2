@@ -1,0 +1,8 @@
+{
+  "textures": {
+    "bark": "colors:block/light_blue_log",
+    "particle": "colors:block/light_blue_stripped_log",
+    "top": "colors:block/light_blue_stripped_log_top",
+    "wood": "colors:block/light_blue_stripped_log"
+  }
+}

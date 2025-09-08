@@ -1,0 +1,9 @@
+{
+  "parent": "totemic:block/totem_base",
+  "textures": {
+    "bark": "colors:block/purple_log",
+    "particle": "colors:block/purple_stripped_log",
+    "top": "colors:block/purple_stripped_log_top",
+    "wood": "colors:block/purple_stripped_log"
+  }
+}

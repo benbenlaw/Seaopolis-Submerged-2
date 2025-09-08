@@ -1,0 +1,8 @@
+#Caveopolis Recipes Config
+[Caveopolis]
+	#If the crafting table can color blocks, default = true
+	"Crafting Tables Color Blocks" = true
+	#If the crafting table can turn caveopolis flowers into dye, default = true
+	"Crafting Tables Flower to Dye" = true
+	#If the crafting table can make a caveopolis block lit, default = true
+	"Crafting Tables Light Blocks" = true

@@ -1,0 +1,371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "totemic_gravel"
+	group: "64828B4E59DB0E48"
+	id: "6E9731F1F8B73F6E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F1ED8B72044189C"]
+			id: "47C9B4CE6184D62C"
+			tasks: [{
+				id: "2DF4B26E19A97C70"
+				item: { count: 1, id: "strainers:zinc_ore_piece" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F0663E853CDA9D2"]
+			id: "5826AA79CCB4EF8D"
+			tasks: [{
+				id: "1270868E978EB030"
+				item: { count: 1, id: "minecraft:lapis_ore" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F1ED8B72044189C"]
+			id: "7F0663E853CDA9D2"
+			tasks: [{
+				id: "7EF61937176F6539"
+				item: { count: 1, id: "strainers:lapis_ore_piece" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F1ED8B72044189C"]
+			id: "70C73AE3429B8762"
+			tasks: [{
+				id: "0265B36F6C411450"
+				item: { count: 1, id: "strainers:iron_ore_piece" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["47C9B4CE6184D62C"]
+			id: "3F1485DBD4C71B66"
+			tasks: [{
+				id: "7921C924FD75DD73"
+				item: { count: 1, id: "alltheores:zinc_ore" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70C73AE3429B8762"]
+			id: "434900018C3E84D8"
+			tasks: [{
+				id: "6F00F28349E22616"
+				item: { count: 1, id: "minecraft:iron_ore" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F1485DBD4C71B66"]
+			id: "5157C8485FB04C97"
+			tasks: [{
+				id: "268BA100465AE6F3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/zinc)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5826AA79CCB4EF8D"]
+			id: "53B33F89E03C6CC6"
+			tasks: [{
+				id: "217F04BD3FC0ED75"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/lapis)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["434900018C3E84D8"]
+			id: "487CADD6A2A37D71"
+			tasks: [{
+				id: "0C912172E2017A45"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/iron)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["487CADD6A2A37D71"]
+			id: "3DDF1D2DEC7BF8B1"
+			tasks: [{
+				id: "0D71334EA6E5CF89"
+				item: { count: 1, id: "routers:exporter_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["487CADD6A2A37D71"]
+			id: "15E0192D10A8449B"
+			tasks: [{
+				id: "4F8A53F454829801"
+				item: { count: 1, id: "routers:importer_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["487CADD6A2A37D71"]
+			id: "7F7986A1E0E6E1A6"
+			tasks: [{
+				id: "1B89229B4C84218C"
+				item: { count: 1, id: "routers:router_connector" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BF80EEE23B6D9D7"]
+			id: "4D0964E34E575689"
+			optional: true
+			tasks: [{
+				id: "06DE52BFA43628EC"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "1F1ED8B72044189C"
+			tasks: [{
+				id: "0D8FC4882678DA43"
+				item: { count: 1, id: "submerged:totemic_infused_gravel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5157C8485FB04C97"
+				"487CADD6A2A37D71"
+			]
+			id: "3BF80EEE23B6D9D7"
+			tasks: [{
+				id: "5BB6CA183DCA0F18"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BF80EEE23B6D9D7"]
+			id: "04BDDA20594C6E0F"
+			optional: true
+			tasks: [{
+				id: "4DEF003F3C856AC5"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0392542B99ECECC1"]
+			id: "146CD5D3B7DA2955"
+			optional: true
+			tasks: [{
+				id: "0702FC3B47172956"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["203799D6E6FBC9DC"]
+			id: "0392542B99ECECC1"
+			optional: true
+			tasks: [{
+				id: "0415DF7DA092CC3D"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D0964E34E575689"]
+			id: "203799D6E6FBC9DC"
+			optional: true
+			tasks: [{
+				id: "057811EA5171E26B"
+				item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["146CD5D3B7DA2955"]
+			id: "45B8AF674601C420"
+			optional: true
+			tasks: [{
+				id: "5EA92CA4D7A0CE3F"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["203799D6E6FBC9DC"]
+			id: "4CD0811FAA3DE7BB"
+			optional: true
+			tasks: [{
+				id: "105AA2A9EFDA67D9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/pressure_chamber)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CD0811FAA3DE7BB"]
+			id: "47F53EBB8035510B"
+			optional: true
+			tasks: [{
+				id: "33BD15F75F4EA76F"
+				item: { count: 1, id: "submerged:pressure_chamber_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04BDDA20594C6E0F"]
+			id: "39A993D1CDEE8B15"
+			optional: true
+			tasks: [{
+				id: "495CAE3BD8CF3085"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39A993D1CDEE8B15"]
+			id: "00A7B243D1EC447B"
+			optional: true
+			tasks: [{
+				id: "6A14612087F24EB9"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04F9BDC2CA2325F5"]
+			id: "4AEC090CC03D33CB"
+			optional: true
+			tasks: [{
+				id: "062DB650DE12F088"
+				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D0964E34E575689"]
+			id: "04F9BDC2CA2325F5"
+			optional: true
+			tasks: [{
+				id: "693D879E3F9D016C"
+				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39A993D1CDEE8B15"]
+			id: "480B5C33BC671AB1"
+			optional: true
+			tasks: [{
+				id: "70A91818B068C684"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39A993D1CDEE8B15"]
+			id: "75F8391D5ABE6EBC"
+			optional: true
+			tasks: [{
+				id: "34642B7E79D5B05F"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"00A7B243D1EC447B"
+				"75F8391D5ABE6EBC"
+			]
+			id: "4EF14097D2724EF3"
+			optional: true
+			tasks: [{
+				id: "4F77A88564908B5B"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EF14097D2724EF3"]
+			id: "4CADCE6BECDFD4C6"
+			optional: true
+			tasks: [{
+				id: "05771BD55E54243D"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["487CADD6A2A37D71"]
+			id: "5850202E4FFE4DAB"
+			tasks: [{
+				id: "62DF55111FFA12DC"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+	]
+}

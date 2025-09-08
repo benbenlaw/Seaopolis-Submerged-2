@@ -1,0 +1,8 @@
+{
+  "textures": {
+    "bark": "colors:block/black_log",
+    "particle": "colors:block/black_stripped_log",
+    "top": "colors:block/black_stripped_log_top",
+    "wood": "colors:block/black_stripped_log"
+  }
+}

@@ -1,0 +1,10 @@
+#Wands Config
+[Wands]
+	#Amount of blocks that can be placed by a basic wand, default = 8
+	"Max blocks placed by basic wand" = 8
+	#Amount of blocks that can be placed by an advanced wand, default = 16
+	"Max blocks placed by advanced wand" = 32
+	#Amount of blocks that can be placed by an elite wand, default = 32
+	"Max blocks placed by elite wand" = 64
+	#Amount of blocks that can be placed by an ultimate wand, default = 64
+	"Max blocks placed by ultimate wand" = 128

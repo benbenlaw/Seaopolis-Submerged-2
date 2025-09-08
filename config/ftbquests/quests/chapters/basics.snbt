@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: "4612AF3A2F3FA9D5"
+	id: "7146FFDA00A9C873"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F4A52E1774ED5E2"]
+			id: "11D2CCBE4E5C471D"
+			tasks: [{
+				id: "0CE17CA550679354"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:terracotta_rocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11D2CCBE4E5C471D"]
+			id: "027CE0501A8D8201"
+			tasks: [{
+				id: "6D5C3E6B282D3A4B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:terracotta)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64D0F376AB8AFAE8"]
+			id: "158641ADBB04096F"
+			tasks: [{
+				id: "335C4FB54288E61C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_dirt)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64D0F376AB8AFAE8"]
+			id: "57EA71B3C8946BFD"
+			tasks: [{
+				id: "4B4094BCB854E74C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"57EA71B3C8946BFD"
+				"158641ADBB04096F"
+			]
+			id: "7B6DDB3DBC5D1336"
+			tasks: [{
+				id: "100D79E08BFA9DD0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B6DDB3DBC5D1336"]
+			id: "02EF5A87EA1F012A"
+			tasks: [{
+				id: "7ED628435CE48830"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02EF5A87EA1F012A"]
+			id: "5EA10BA03219C901"
+			tasks: [{
+				id: "10C7BAF3015071AA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "6350FF2F1BEA3683"
+			tasks: [{
+				id: "2E0359F68B0039C3"
+				item: { count: 1, id: "opolisutilities:crook" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "2BFC0C52F9BB8847"
+			tasks: [{
+				id: "2AD3BF948183423C"
+				item: { count: 1, id: "opolisutilities:wooden_shears" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BFC0C52F9BB8847"]
+			id: "11D5227DEC624C0B"
+			tasks: [{
+				id: "2663BC3B474B8A09"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "5FCFE4655665E0DF"
+			tasks: [{
+				id: "17F691BCF572BAA2"
+				item: { count: 1, id: "strainers:wooden_mesh" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FCFE4655665E0DF"]
+			id: "63A8E4C4009E42D5"
+			tasks: [{
+				id: "25F09F1FC4517CEC"
+				item: { count: 1, id: "strainers:wooden_strainer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "02B2B6A5A8D10FF7"
+			tasks: [{
+				id: "7D2613A4A496D744"
+				item: { count: 1, id: "ceramicbucket:ceramic_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6350FF2F1BEA3683"]
+			id: "4C741BBDCDB328CB"
+			tasks: [{
+				id: "6806F556BF524339"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_apples)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"63A8E4C4009E42D5"
+				"0780C94EA025B7E3"
+			]
+			id: "40AFDE0DB64954B8"
+			tasks: [{
+				id: "1E457F38A4AA3A1B"
+				item: { count: 1, id: "strainers:stone_pebble" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "0FD4274AA2B39020"
+			tasks: [{
+				id: "3FF08EA4B8654DD5"
+				item: { count: 1, id: "smartcrafting:smart_crafting_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11D5227DEC624C0B"]
+			id: "4426852988EE8AA6"
+			tasks: [{
+				id: "40CDD40105466460"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:strings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4426852988EE8AA6"]
+			id: "5AB9533D848E1D60"
+			tasks: [{
+				id: "084D68B83261F841"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5AB9533D848E1D60"]
+			id: "7DC9DC6BA567DF36"
+			tasks: [{
+				id: "34DA1A0FFDEA9C90"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4426852988EE8AA6"]
+			id: "40A550FBD47E8633"
+			tasks: [{
+				id: "454BC220A94976A1"
+				item: { count: 1, id: "strainers:string_mesh" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["229DB26A03BEB8D3"]
+			id: "299144ACC9C12B31"
+			tasks: [{
+				id: "2F2CAED6D9C67F67"
+				item: { count: 1, id: "strainers:mulch" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11D2CCBE4E5C471D"]
+			id: "64D0F376AB8AFAE8"
+			tasks: [{
+				id: "4C5F45591076DC3A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:flares)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7F4A52E1774ED5E2"
+			tasks: [{
+				id: "3DB1C5C2827FE127"
+				item: { count: 1, id: "submerged:unloaded_flare" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "1B57EAECDC1BB5E4"
+			tasks: [{
+				id: "11759F9E8DBBB076"
+				item: { count: 1, id: "minecraft:wooden_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1B57EAECDC1BB5E4"
+				"11D5227DEC624C0B"
+			]
+			id: "229DB26A03BEB8D3"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "1A5416F2C877D2D6"
+				item: { count: 1, id: "strainers:leaf_pile" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["299144ACC9C12B31"]
+			id: "0780C94EA025B7E3"
+			tasks: [{
+				id: "78749BFBEF307706"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+	]
+}

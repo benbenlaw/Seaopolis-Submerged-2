@@ -1,0 +1,6 @@
+#TIAB Charger Config
+["TIAB Charger"]
+	#The amount of RF needed to add a defined charge of time, default = 20000
+	"RF per charge" = 20000
+	#The amount of seconds added per charge, default = 10
+	"Seconds per charge" = 1

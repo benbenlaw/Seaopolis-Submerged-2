@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone"
+	group: "4612AF3A2F3FA9D5"
+	id: "3E77A3BEE08A4625"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40AFDE0DB64954B8"]
+			id: "4A4250E8D7E9B00D"
+			tasks: [{
+				id: "1BE4073471DFE579"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A4250E8D7E9B00D"]
+			id: "5E8C844ED9D1B309"
+			tasks: [{
+				id: "522E56F25C8FA699"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E8C844ED9D1B309"]
+			id: "7177E1FA31A3AAFB"
+			tasks: [{
+				id: "54229DDDB12D8B63"
+				item: { count: 1, id: "minecraft:charcoal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7177E1FA31A3AAFB"]
+			id: "4791A58937CDFD40"
+			tasks: [{
+				id: "1982500C85C02FE6"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4791A58937CDFD40"]
+			id: "1BC3F844965580B5"
+			tasks: [{
+				id: "3EBEF93CE7535797"
+				item: { count: 1, id: "bbllights:invisible_light" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"299144ACC9C12B31"
+				"7177E1FA31A3AAFB"
+			]
+			id: "46868DA16024DB68"
+			tasks: [{
+				id: "3EFD79C2773A22DA"
+				item: { count: 1, id: "strainers:eroding_salt_mulch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46868DA16024DB68"]
+			id: "7FA03D985029C6E5"
+			tasks: [{
+				id: "54EA5107E37F5DD0"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FA03D985029C6E5"]
+			id: "51B2B23CA507CF16"
+			tasks: [{
+				id: "47D3CFA69C9F6BEC"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B2B23CA507CF16"]
+			id: "6CEA085FCE1AE11D"
+			tasks: [{
+				id: "1D80B7525C2F67BC"
+				item: { count: 1, id: "strainers:purifying_salt_mulch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CEA085FCE1AE11D"]
+			id: "749E5D94D31ED8FE"
+			tasks: [{
+				id: "44CC019CD19E5A25"
+				item: { count: 1, id: "strainers:purified_dirt" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CEA085FCE1AE11D"]
+			id: "24D11865C7E087D9"
+			tasks: [{
+				id: "4F3B20214655C7D4"
+				item: { count: 1, id: "strainers:purified_sand" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CEA085FCE1AE11D"]
+			id: "418B15AAD9AAC544"
+			tasks: [{
+				id: "6F0B6D18D34EEE58"
+				item: { count: 1, id: "strainers:purified_gravel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["224FDE5540E81488"]
+			id: "7BCF5A38B322D62D"
+			tasks: [{
+				id: "6B50F3423BC39687"
+				item: { count: 1, id: "strainers:coal_ore_piece" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BCF5A38B322D62D"]
+			id: "757AE947783CC018"
+			tasks: [{
+				id: "62B84254E16BEC84"
+				item: { count: 1, id: "minecraft:coal_ore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["757AE947783CC018"]
+			id: "1B7B93DE3E0DE467"
+			tasks: [{
+				id: "777583F27A0AB521"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["51B2B23CA507CF16"]
+			id: "13FB4D0A5738FCD5"
+			tasks: [{
+				id: "4111CF39667379B7"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FA03D985029C6E5"]
+			id: "751A9028DAB1FE15"
+			tasks: [{
+				id: "76346E3098A0F773"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["749E5D94D31ED8FE"]
+			id: "02F116EBFE4FD4B4"
+			tasks: [{
+				id: "7E8DC115C4C1D1FB"
+				item: { count: 1, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02F116EBFE4FD4B4"]
+			id: "3E74342092C9CA80"
+			tasks: [{
+				id: "0CA6F85BECF16A09"
+				item: { count: 1, id: "minecraft:brick" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["418B15AAD9AAC544"]
+			id: "224FDE5540E81488"
+			tasks: [{
+				id: "3BF82B3EA305499A"
+				item: { count: 1, id: "strainers:flint_mesh" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E74342092C9CA80"]
+			id: "13C8D261320280C2"
+			tasks: [{
+				id: "2822437A1BADC2EE"
+				item: { count: 1, id: "casting:black_brick" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24D11865C7E087D9"]
+			id: "12F09E8E096AB651"
+			tasks: [{
+				id: "62F8E686D7955F6D"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24D11865C7E087D9"]
+			id: "1618D56C70832CF0"
+			tasks: [{
+				id: "5359A3AB9DEF2D51"
+				item: { count: 1, id: "minecraft:cactus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CEA085FCE1AE11D"]
+			id: "1F380688230A73A3"
+			tasks: [{
+				id: "2ED9AB7B66F6181B"
+				item: { count: 1, id: "strainers:purified_stone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+	]
+}

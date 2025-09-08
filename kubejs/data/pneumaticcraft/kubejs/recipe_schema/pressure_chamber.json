@@ -1,0 +1,19 @@
+{
+    "keys": [
+        {
+            "name": "inputs",
+            "role": "input",
+            "type": "flat_sized_ingredient[]"
+        },
+        {
+            "name": "pressure",
+            "role": "other",
+            "type": "double"
+        },
+        {
+            "name": "results",
+            "role": "output",
+            "type": "item_stack[]"
+        }
+    ]
+}

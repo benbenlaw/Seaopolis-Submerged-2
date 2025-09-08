@@ -1,0 +1,87 @@
+// Items
+
+StartupEvents.registry("item", (event) => {
+
+    // Items
+    event.create("submerged:unloaded_flare")
+    event.create("submerged:stone_key")
+    event.create("submerged:copper_key")
+    event.create("submerged:ceramic_solid_coal_bucket")
+    event.create("submerged:solid_coal_bucket")
+    event.create("submerged:key_mold").tag(['casting:mold/keys', 'casting:molds'])
+    event.create("submerged:mesh_mold").tag(['casting:molds/mesh', 'casting:molds'])
+
+    colors.forEach(color => {
+        event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
+        event.create(`submerged:${color}_dirt_pile`).tag('submerged:dirt_pile')
+        event.create(`submerged:${color}_flare`).tag('submerged:flares')
+    })
+
+    //Prismarine Sphere Keys 
+    event.create(`submerged:prismarine_sphere_key`, "roomopolis_key")
+        .templateId(`submerged:spheres/prismarine_sphere`)
+        .keyBlock(`#submerged:terracotta_lock`)
+        .heightAdjustment(0)
+        .frontAdjustment(-1)
+        .doorLeft(1) 
+        .doorRight(1)
+        .doorUp(1)
+        .doorDown(1)
+        .consumeKey(true)
+        .removeDoor(true)
+        .blocksRequired(false)
+        .overrideExistingBlocks(true)
+        .tag('submerged:keys/sphere')
+
+    //Colored Sphere Keys 
+    colors.forEach(color => {
+        event.create(`submerged:${color}_sphere_key`, "roomopolis_key")
+            .templateId(`submerged:spheres/${color}`)
+            .keyBlock(`submerged:${color}_terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/sphere')
+    })
+
+    event.create(`submerged:3x3_pressure_chamber`, "roomopolis_key")
+        .displayName('3x3 Pressure Chamber Key')
+        .templateId(`submerged:pressure_chamber/3x3_pressure_chamber`)
+        .keyBlock(`submerged:pressure_chamber_controller`)
+        .heightAdjustment(1)
+        .consumeKey(true)
+        .removeDoor(false)
+        .blocksRequired(true)
+        .overrideExistingBlocks(false)
+        .tag('submerged:keys/pressure_chamber')
+
+    event.create(`submerged:4x4_pressure_chamber`, "roomopolis_key")
+        .displayName('4x4 Pressure Chamber Key')
+        .templateId(`submerged:pressure_chamber/4x4_pressure_chamber`)
+        .keyBlock(`submerged:pressure_chamber_controller`)
+        .heightAdjustment(2)
+        .consumeKey(true)
+        .removeDoor(false)
+        .blocksRequired(true)
+        .overrideExistingBlocks(false)
+        .tag('submerged:keys/pressure_chamber')
+
+    event.create(`submerged:5x5_pressure_chamber`, "roomopolis_key")
+        .displayName('5x5 Pressure Chamber Key')
+        .templateId(`submerged:pressure_chamber/5x5_pressure_chamber`)
+        .keyBlock(`submerged:pressure_chamber_controller`)
+        .heightAdjustment(2)
+        .consumeKey(true)
+        .removeDoor(false)
+        .blocksRequired(true)
+        .overrideExistingBlocks(false)
+        .tag('submerged:keys/pressure_chamber')
+
+})

@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_per_line"
+	group: "11C31E5788D38E0E"
+	id: "1967BCB93EC31C5B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E5602F807CAA114"
+			tasks: [{
+				id: "2CC7C736FEE47D46"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "5C9499875B7852D6"
+			tasks: [{
+				id: "50D7E3916FD0CA68"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+	]
+}

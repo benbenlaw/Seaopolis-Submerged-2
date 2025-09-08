@@ -1,0 +1,10 @@
+#BBL Core Startup Config
+["BBL Core"]
+	#Speed that climbable blocks can be climbed, default = 0.15
+	"Climbable Block Speed" = 0.15
+	#Enable coloring recipes when coloring item are present, eg BBL Colors
+	#Uses item names and checks for 'color' in the name, if the item contains a color, coloring items can change it to that color
+	"Coloring Recipes in Crafting Tables" = true
+	#Enable Void Protection, default = false
+	#If enabled, players will be teleported to their spawn point if they fall into the void
+	"Enable Void Protection" = false

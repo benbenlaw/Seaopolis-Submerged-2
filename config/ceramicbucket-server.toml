@@ -1,0 +1,13 @@
+["Balance Options"]
+	#Minimum temperature of fluid at which the Ceramic Bucket breaks when emptied. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
+	# Default: 1000
+	# Range: -10000 ~ 10000
+	crackingTemperature = 1000
+	#Defines the maximum durability of Ceramic Bucket. (default: 0, 0: deactivates the durability)
+	# Default: 0
+	# Range: 0 ~ 10000
+	durability = 0
+	#Whether or not obtaining fish with a Ceramic Bucket should be enabled. (default: true)
+	fishObtainingEnabled = true
+	#Whether or not milking entities with a Ceramic Bucket should be enabled. (default: true)
+	milkingEnabled = true

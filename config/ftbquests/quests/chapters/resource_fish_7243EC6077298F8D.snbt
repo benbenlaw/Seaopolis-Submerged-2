@@ -1,0 +1,348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_fish_7243EC6077298F8D"
+	group: "64828B4E59DB0E48"
+	id: "7243EC6077298F8D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18E67396B01B34F1"
+				"3B13A6D359074E9C"
+			]
+			id: "7401658DBAF3F168"
+			tasks: [{
+				id: "7654C40F3E92FB2F"
+				item: { components: { "resourcefish:fish_type": "resourcefish:water" }, count: 1, id: "resourcefish:resource_fish_bucket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"18E67396B01B34F1"
+				"3B13A6D359074E9C"
+			]
+			id: "14989C1268104684"
+			tasks: [{
+				id: "58E05C935F7E2F01"
+				item: { components: { "resourcefish:fish_type": "resourcefish:lava" }, count: 1, id: "resourcefish:resource_fish_bucket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"18E67396B01B34F1"
+				"3B13A6D359074E9C"
+			]
+			id: "3D9944474C2C350A"
+			tasks: [{
+				id: "24936F6EE812263A"
+				item: { components: { "resourcefish:fish_type": "resourcefish:cobblestone" }, count: 1, id: "resourcefish:resource_fish_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"18E67396B01B34F1"
+				"3B13A6D359074E9C"
+			]
+			id: "546D6DC6F375CDE2"
+			tasks: [{
+				id: "5C06065312CE7D58"
+				item: { components: { "resourcefish:fish_type": "resourcefish:wood" }, count: 1, id: "resourcefish:resource_fish_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"18E67396B01B34F1"
+				"3B13A6D359074E9C"
+			]
+			id: "2835977C83D3072D"
+			tasks: [{
+				id: "43DDE35E065950F7"
+				item: { components: { "resourcefish:fish_type": "resourcefish:dirt" }, count: 1, id: "resourcefish:resource_fish_bucket" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "3B13A6D359074E9C"
+			tasks: [{
+				id: "1FB97E91C44DFE6F"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2835977C83D3072D"
+				"7401658DBAF3F168"
+				"3D9944474C2C350A"
+				"546D6DC6F375CDE2"
+				"14989C1268104684"
+			]
+			id: "57F452F179109301"
+			tasks: [{
+				id: "398B822910FE826E"
+				item: { count: 1, id: "resourcefish:tank_controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E732A6A8199E196"]
+			id: "0899612E4035D1D3"
+			tasks: [{
+				id: "754450C89610D118"
+				item: { count: 1, id: "resourcefish:caviar_processor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36438FB25436AE8D"]
+			id: "41F95D5BBDF66754"
+			tasks: [{
+				id: "33D03D3538E88266"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "59C48323520A5A31"
+			tasks: [{
+				id: "0DEC5BAABA3F3614"
+				item: { count: 1, id: "opolisutilities:resource_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36438FB25436AE8D"]
+			id: "298213BB57EBEC41"
+			tasks: [{
+				id: "416C7A0D21DEAF36"
+				item: { count: 1, id: "strainers:quartz_ore_piece" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["298213BB57EBEC41"]
+			id: "1105D4FEF8B5DF64"
+			tasks: [{
+				id: "27C8F15E5959E7CD"
+				item: { count: 1, id: "minecraft:nether_quartz_ore" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1105D4FEF8B5DF64"]
+			id: "56B40A25B587EFE0"
+			tasks: [{
+				id: "1A32377021B33E51"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "2769D5AE7B476E33"
+			tasks: [{
+				id: "634515A8215441D5"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "464968788465128D"
+			tasks: [{
+				id: "797947FCBF0E6B8D"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["464968788465128D"]
+			id: "5E29A852F20030C7"
+			tasks: [{
+				id: "56BA066B71AB51D6"
+				item: { components: { "ftbquests:missing_item": "naturesaura:gold_fiber" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "07351182B6D40C79"
+			tasks: [{
+				id: "4AEA472688C28AE3"
+				item: { components: { "ftbquests:missing_item": "naturesaura:gold_leaf" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57F452F179109301"]
+			id: "57DF2A7FC2115CBC"
+			tasks: [{
+				id: "2E1A6939EAB51E34"
+				item: { count: 1, id: "resourcefish:breeding_upgrade" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57F452F179109301"]
+			id: "30A65FB952B6ED83"
+			tasks: [{
+				id: "1DB6C793D60E318C"
+				item: { count: 1, id: "resourcefish:infusing_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57DF2A7FC2115CBC"]
+			id: "5E732A6A8199E196"
+			tasks: [{
+				id: "12A415B15CF04592"
+				item: { components: { "resourcefish:fish_type": "resourcefish:netherrack" }, count: 1, id: "resourcefish:caviar" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E732A6A8199E196"]
+			id: "406AB1F16C28F754"
+			tasks: [{
+				id: "358F81B2B1D8B919"
+				item: { components: { "resourcefish:fish_type": "resourcefish:soul_sand" }, count: 1, id: "resourcefish:caviar" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0899612E4035D1D3"]
+			id: "1E0DA17713291516"
+			tasks: [{
+				id: "32BD983E303192C3"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0899612E4035D1D3"
+				"406AB1F16C28F754"
+			]
+			id: "6716062455BA50CA"
+			tasks: [{
+				id: "30162D94D2648B9D"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6716062455BA50CA"]
+			id: "36438FB25436AE8D"
+			tasks: [{
+				id: "48290836D3CE8414"
+				item: { count: 1, id: "strainers:purified_soul_sand" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36438FB25436AE8D"]
+			id: "1D634F8B01E2B16B"
+			tasks: [{
+				id: "4DF4132F32375A14"
+				item: { count: 1, id: "strainers:gold_ore_piece" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1D634F8B01E2B16B"]
+			id: "4AA005B34310FA4A"
+			tasks: [{
+				id: "24B2B91D39B6E6CB"
+				item: { count: 1, id: "minecraft:gold_ore" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AA005B34310FA4A"]
+			id: "440ED6C58D5098C3"
+			tasks: [{
+				id: "3CE7725E35D3423D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/gold)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["554D9C55B752BD03"]
+			id: "295BFE722E1B5B84"
+			tasks: [{
+				id: "1371E1AD5B97FE45"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0899612E4035D1D3"]
+			id: "554D9C55B752BD03"
+			tasks: [{
+				id: "684D6F3B861EB495"
+				item: { count: 1, id: "resourcefish:tank_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+	]
+}

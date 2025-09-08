@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "submerged:pressurized_sand"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:sand"
+        },
+        {
+          "tag": "c:nuggets/bronze"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sand"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:sand"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "submerged:organic_water"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sand"
+        }
+      ]
+    },    
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sand"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:sand"
+  }
+}

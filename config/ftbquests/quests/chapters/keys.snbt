@@ -1,0 +1,340 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "keys"
+	group: "4612AF3A2F3FA9D5"
+	id: "5F8F21780228A78A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"13C8D261320280C2"
+				"66F69CB45413636C"
+			]
+			id: "24815AD753E56681"
+			tasks: [{
+				id: "6E4506E07FC0DC7D"
+				item: { count: 1, id: "casting:controller" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24815AD753E56681"]
+			id: "08561F042E6D27B0"
+			tasks: [{
+				id: "58EFEE31F102C7CD"
+				item: { count: 1, id: "casting:solidifier" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"24815AD753E56681"
+				"12148A7EE4FD868F"
+			]
+			id: "0D82DB8BCC19F8AC"
+			tasks: [{
+				id: "2BC1042E753AF0B2"
+				item: { count: 1, id: "casting:tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08561F042E6D27B0"]
+			id: "3CBAFD9766CFAB93"
+			tasks: [{
+				id: "12335B10D37A598A"
+				item: { count: 1, id: "submerged:mesh_mold" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08561F042E6D27B0"]
+			id: "5EEB852E9079D891"
+			tasks: [{
+				id: "7590AEF9A382DC6C"
+				item: { count: 1, id: "submerged:key_mold" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EEB852E9079D891"]
+			id: "7721E9269699E775"
+			tasks: [{
+				id: "6C2850B09075D3FE"
+				item: { count: 1, id: "submerged:stone_key" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7721E9269699E775"]
+			id: "6AAF56C47DDC7F4C"
+			tasks: [{
+				id: "6789F11A29021F67"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/sphere)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7E26A3D567D4E0BC"]
+			id: "12148A7EE4FD868F"
+			tasks: [{
+				id: "1083E9ED6D707003"
+				item: { components: { "bucketlib:fluid": { amount: 1000, id: "casting:molten_coal" } }, count: 1, id: "ceramicbucket:ceramic_bucket" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7459D3F20B64BD41"]
+			id: "7E26A3D567D4E0BC"
+			tasks: [{
+				id: "7BD2E92DFD7DD08D"
+				item: { count: 1, id: "submerged:ceramic_solid_coal_bucket" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B7B93DE3E0DE467"]
+			id: "7459D3F20B64BD41"
+			tasks: [{
+				id: "531F836AEAB51A31"
+				item: { count: 1, id: "opolisutilities:mini_coal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13C8D261320280C2"]
+			id: "66F69CB45413636C"
+			tasks: [{
+				id: "321B46BDAD324B1C"
+				item: { count: 1, id: "casting:black_bricks" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08561F042E6D27B0"]
+			id: "5114AF94FDBAECC8"
+			tasks: [{
+				id: "388ECE4538B869FD"
+				item: { count: 1, id: "casting:block_mold" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F08F02181B2EC7F"]
+			id: "0CA15E5798C79997"
+			tasks: [{
+				id: "41D3908E5E4F72AA"
+				item: { count: 1, id: "strainers:aluminum_ore_piece" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F08F02181B2EC7F"]
+			id: "7D4DAC84579ABBBF"
+			tasks: [{
+				id: "21FC9FE025A94E5F"
+				item: { count: 1, id: "strainers:copper_ore_piece" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F08F02181B2EC7F"]
+			id: "42BDAF333A0019BB"
+			tasks: [{
+				id: "2F69392625F57E65"
+				item: { count: 1, id: "strainers:tin_ore_piece" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D4DAC84579ABBBF"]
+			id: "02FBA5F06407D4D4"
+			tasks: [{
+				id: "7624AC2D41BEA24F"
+				item: { count: 1, id: "minecraft:copper_ore" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42BDAF333A0019BB"]
+			id: "42393D900A83296A"
+			tasks: [{
+				id: "3248ADBAE25B5C07"
+				item: { count: 1, id: "alltheores:tin_ore" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0CA15E5798C79997"]
+			id: "62E16AFDAD696318"
+			tasks: [{
+				id: "3A647C8ED8B0E8A2"
+				item: { count: 1, id: "alltheores:aluminum_ore" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["758E89DABDDEA6D7"]
+			id: "47685A5D46F0CFA2"
+			tasks: [{
+				id: "551B7D0F70CDBF1E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/copper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["70A7183B39127F1B"]
+			id: "4684B4C600A769A3"
+			tasks: [{
+				id: "7EF6A0EA559008A3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/tin)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["18CBF4FDD61F7F8E"]
+			id: "7CF98BC3AC368244"
+			tasks: [{
+				id: "37BDEC8BCFE7C54B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/aluminum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7CF98BC3AC368244"]
+			id: "4EEA6E416ABFE440"
+			tasks: [{
+				id: "5A958CC11C165313"
+				item: { count: 1, id: "pipez:wrench" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7CF98BC3AC368244"]
+			id: "29859FC9CF7B4A06"
+			tasks: [{
+				id: "2F2EB9EA12AF84EE"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5114AF94FDBAECC8"]
+			id: "6F08F02181B2EC7F"
+			tasks: [{
+				id: "4F4B01E76F2C02CA"
+				item: { count: 1, id: "submerged:refined_gravel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02FBA5F06407D4D4"]
+			id: "758E89DABDDEA6D7"
+			tasks: [{
+				id: "7D605D34BA84B4AA"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["42393D900A83296A"]
+			id: "70A7183B39127F1B"
+			tasks: [{
+				id: "2338B08AE9C729DC"
+				item: { count: 1, id: "alltheores:raw_tin" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["62E16AFDAD696318"]
+			id: "18CBF4FDD61F7F8E"
+			tasks: [{
+				id: "70115F03AB55650A"
+				item: { count: 1, id: "alltheores:raw_aluminum" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4684B4C600A769A3"
+				"47685A5D46F0CFA2"
+			]
+			id: "1250A2E0284B610A"
+			tasks: [{
+				id: "7FA054FE3CDC0BAE"
+				item: { count: 1, id: "casting:mixer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7CF98BC3AC368244"]
+			id: "57DD8F321E53526F"
+			tasks: [{
+				id: "55CA81B0E696B130"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+	]
+}

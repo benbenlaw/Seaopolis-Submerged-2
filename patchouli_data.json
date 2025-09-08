@@ -1,0 +1,33 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "totemic:totempedia": {
+      "viewedEntries": [
+        "totemic:basics/totem_poles",
+        "totemic:basics/totem_effects",
+        "totemic:basics/music",
+        "totemic:basics/totemic_staff",
+        "totemic:instruments/drum",
+        "totemic:ceremonies/ceremony_basics",
+        "totemic:ceremonies/depths",
+        "totemic:ceremonies/baykok_summon",
+        "totemic:ceremonies/eagle_dance",
+        "totemic:ceremonies/buffalo_dance",
+        "totemic:misc/medicine_bag",
+        "totemic:ceremonies/zaphkiel_waltz",
+        "totemic:ceremonies/cleansing",
+        "totemic:ceremonies/animal_growth"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:machines/imbuement_chamber"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+#Colors World Gen Config
+[Colors]
+	#If the colored stone should spawn in world, default = true
+	"Colored Stone Spawn" = true
+	#If the colored trees should spawn in world, default = true
+	"Colored Trees Spawn" = true

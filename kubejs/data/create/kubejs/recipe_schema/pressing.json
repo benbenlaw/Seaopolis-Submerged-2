@@ -1,0 +1,14 @@
+{
+    "keys": [
+        {
+            "name": "ingredients",
+            "role": "input",
+            "type": "ingredient[]"
+        },
+        {
+            "name": "results",
+            "role": "output",
+            "type": "item_stack[]"
+        }
+    ]
+}
