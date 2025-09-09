@@ -17,7 +17,8 @@ simplebackups/
 minecraftinstance.json
 options.txt
 local/
-mods/
+/mods/
+!kubejs/mods/kubejs/server_scripts/mods
 logs/
 crash-reports/
 saves/

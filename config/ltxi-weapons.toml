@@ -1,0 +1,115 @@
+[submachine_gun]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 3.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 3.0
+	#Common Energy Unit capacity when using applicable upgrades.
+	# Default: 1000000
+	# Range: > 1
+	energy_capacity = 1000000
+	#Ammo synthesis cost (in Common Energy Units) when using applicable upgrades.
+	# Default: 80000
+	# Range: > 1
+	energy_ammo_cost = 80000
+
+[shotgun]
+	#Base damage PER PELLET of the shotgun. The shotgun fires 7 pellets.
+	# Default: 9.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 9.0
+	#Common Energy Unit capacity when using applicable upgrades.
+	# Default: 5000000
+	# Range: > 1
+	energy_capacity = 5000000
+	#Ammo synthesis cost (in Common Energy Units) when using applicable upgrades.
+	# Default: 200000
+	# Range: > 1
+	energy_ammo_cost = 200000
+
+[grenade_launcher]
+	#Common Energy Unit capacity when using applicable upgrades.
+	# Default: 10000000
+	# Range: > 1
+	energy_capacity = 10000000
+	#Ammo synthesis cost (in Common Energy Units) when using applicable upgrades.
+	# Default: 1000000
+	# Range: > 1
+	energy_ammo_cost = 1000000
+	#Explosive grenades base damage
+	# Default: 30.0
+	# Range: 0.5 ~ 4096.0
+	explosive_base_damage = 30.0
+	#Flame grenades base damage
+	# Default: 10.0
+	# Range: 0.5 ~ 4096.0
+	flame_base_damage = 10.0
+	#Flame grenades damage multiplier to mobs that are weak to fire damage
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	flame_multiplier = 3.0
+	#Cryo grenades base damage
+	# Default: 4.0
+	# Range: 0.5 ~ 4096.0
+	cryo_base_damage = 4.0
+	#Cryo grenades damage multiplier to mobs that are weak to freeze damage
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cryo_multiplier = 8.0
+	#Electric grenades base damage
+	# Default: 30.0
+	# Range: 0.5 ~ 4096.0
+	electric_base_damage = 30.0
+	#Electric grenades damage multiplier to mobs in rain, water, or who are weak to electricity
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electric_multiplier = 3.0
+	#Acid grenades base damage
+	# Default: 50.0
+	# Range: 0.5 ~ 4096.0
+	acid_base_damage = 50.0
+	#Neuro grenades base damage
+	# Default: 4.0
+	# Range: 0.5 ~ 4096.0
+	neuro_base_damage = 4.0
+
+[linear_fusion_rifle]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 45.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 45.0
+	#Common Energy Unit capacity when using applicable upgrades.
+	# Default: 10000000
+	# Range: > 1
+	energy_capacity = 10000000
+	#Ammo synthesis cost (in Common Energy Units) when using applicable upgrades.
+	# Default: 1000000
+	# Range: > 1
+	energy_ammo_cost = 1000000
+
+[rocket_launcher]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 80.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 80.0
+	#Common Energy Unit capacity when using applicable upgrades.
+	# Default: 2000000
+	# Range: > 1
+	energy_capacity = 2000000
+	#Ammo synthesis cost (in Common Energy Units) when using applicable upgrades.
+	# Default: 1000000
+	# Range: > 1
+	energy_ammo_cost = 1000000
+
+[heavy_pistol]
+	#Weapon base damage (each full number is half a heart).
+	# Default: 75.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 75.0
+	#Common Energy Unit capacity when using applicable upgrades.
+	# Default: 20000000
+	# Range: > 1
+	energy_capacity = 20000000
+	#Ammo synthesis cost (in Common Energy Units) when using applicable upgrades.
+	# Default: 20000000
+	# Range: > 1
+	energy_ammo_cost = 20000000

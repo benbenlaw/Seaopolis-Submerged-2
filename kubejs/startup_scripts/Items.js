@@ -10,6 +10,7 @@ StartupEvents.registry("item", (event) => {
     event.create("submerged:solid_coal_bucket")
     event.create("submerged:key_mold").tag(['casting:mold/keys', 'casting:molds'])
     event.create("submerged:mesh_mold").tag(['casting:molds/mesh', 'casting:molds'])
+    event.create("submerged:quartz_enriched_gold").tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
 
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
@@ -83,5 +84,18 @@ StartupEvents.registry("item", (event) => {
         .blocksRequired(true)
         .overrideExistingBlocks(false)
         .tag('submerged:keys/pressure_chamber')
+
+    event.create(`submerged:overworld_altar`, "roomopolis_key")
+        .displayName('Overworld Altar Key')
+        .templateId(`submerged:altar`)
+        .keyBlock(`naturesaura:nature_altar`)
+        .heightAdjustment(2)
+        .frontAdjustment(-1)
+        .consumeKey(true)
+        .removeDoor(false)
+        .blocksRequired(true)
+        .overrideExistingBlocks(false)
+        .sideOnlyPlacement(false)
+        .tag('submerged:keys/altar')
 
 })

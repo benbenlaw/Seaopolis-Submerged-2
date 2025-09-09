@@ -77,6 +77,9 @@ colors:yellow_tree
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+ltxi:bilevine
+ltxi:niobium_ore
+ltxi:titanium_ore
 mekanism:ore_fluorite_buried
 mekanism:ore_fluorite_buried_retrogen
 mekanism:ore_fluorite_normal

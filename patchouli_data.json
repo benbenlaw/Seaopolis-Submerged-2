@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "totemic:totempedia": {
       "viewedEntries": [
@@ -18,6 +18,18 @@
         "totemic:ceremonies/zaphkiel_waltz",
         "totemic:ceremonies/cleansing",
         "totemic:ceremonies/animal_growth"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/aura",
+        "naturesaura:intro/intro",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:using/altar"
       ],
       "bookmarks": [],
       "completedManualQuests": []

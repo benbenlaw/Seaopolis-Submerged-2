@@ -34,6 +34,7 @@
   "jade_access:entity_variant": null,
   "jade_access:held_item": null,
   "jade_access:sign": null,
+  "maid_storage_manager:virtual_frame": null,
   "mekanism:data_provider": null,
   "mekanism:entity_data_provider": null,
   "mekanism:remove_builtin": null,
@@ -94,5 +95,10 @@
   "pneumaticcraft:pneumatic": null,
   "pneumaticcraft:redstone": null,
   "pneumaticcraft:semiblock": null,
-  "pneumaticcraft:tube_module": null
+  "pneumaticcraft:tube_module": null,
+  "touhou_little_maid:altar": null,
+  "touhou_little_maid:maid": null,
+  "touhou_little_maid:picnic_mat": null,
+  "touhou_little_maid:shrine_lamp": null,
+  "touhou_little_maid:tombstone": null
 }

@@ -88,6 +88,13 @@
   "pipez": {
     "pipe": true
   },
+  "maid_storage_manager": {
+    "virtual_frame": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -98,10 +105,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "occultism": {
-    "foliot": true,
-    "sacrificial": true
   },
   "ae2": {
     "part_icon": true,

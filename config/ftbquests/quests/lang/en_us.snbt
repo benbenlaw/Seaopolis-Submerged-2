@@ -24,14 +24,24 @@
 	quest.02F116EBFE4FD4B4.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.02FBA5F06407D4D4.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.030E93F8B9D95AFF.quest_desc: ["Crafted &lOre Piece&r"]
+	quest.0331F94A8DE5BF76.quest_desc: ["Use a &lBottle and Cork&r to obtain &lBottled Sunlight&r"]
 	quest.0392542B99ECECC1.quest_desc: ["The main wall of the &lPressure Chamber&r"]
+	quest.042B9882BBAED292.quest_desc: ["Placing a &lOak Sapling&r in the center of the &lRitual&r area and growing it will start the &lRitual.&r Providing you have the needed ingredients on the &lStands&r"]
 	quest.04BDDA20594C6E0F.quest_desc: ["The Heart of &lCreate&r"]
 	quest.04F9BDC2CA2325F5.quest_desc: ["Simple air pressure movement"]
+	quest.054CA537D1B76563.quest_desc: ["A special kind of &lStick&r"]
+	quest.0550FF2DF58AFA77.quest_desc: ["A strange &lBottle&r"]
 	quest.0780C94EA025B7E3.quest_desc: ["Normal dirt can be made from &lMulch Blocks&r"]
 	quest.08561F042E6D27B0.quest_desc: ["Used to turn molten resource into solid items. The &lSimple Controller&r auto pushes into adjacent &lSolidifiers&r"]
 	quest.085D8546E3ABDB6F.quest_desc: ["Right click on a &lLog Block&r with the &lTotem Whittling Knife&r when in &lBase Mode&r to create a &lTotem Base&r"]
 	quest.0899612E4035D1D3.quest_desc: ["The &lCaviar Processor&r takes &lCaviar&r and processes it into usable items. Most recipes are chance based and can be viewed in &lJEI&r"]
 	quest.0CA15E5798C79997.quest_desc: ["Made inside the &lStrainer&r"]
+	quest.0D7A91E84A6CE9CD.quest_desc: [
+		"A very basic ritual, the guide book will provide additional information"
+		"{image:submerged:textures/quests/natures_aura.png width:120 height:100 align:center}"
+		"&lGold Powder&r is used to create the dust pattern, any blocks can be used as a floor"
+	]
+	quest.0D7A91E84A6CE9CD.title: "Ritual of the Forest"
 	quest.0D82DB8BCC19F8AC.quest_desc: ["A &lSimple Tank&r used for fuel for the &lSimple Controller&r. &lMolten Coal&r is a great source of fuel"]
 	quest.0F0AE3A439A616B1.quest_desc: ["The &lBallard of the Skies&r can be used to summon 2 &lChickens,&r 2 &lParrots&r and a &lPhantom&r"]
 	quest.0F0AE3A439A616B1.title: "Ballad of the Skies"
@@ -48,11 +58,13 @@
 	quest.133C8B93F7789357.quest_desc: ["Smelted &lOre Block&r though breaking will yeild more!"]
 	quest.13C8D261320280C2.quest_desc: ["&lCasting&r allows you to process resources into there molten variants"]
 	quest.13FB4D0A5738FCD5.quest_desc: ["Smelted &lSand&r"]
+	quest.1449978D85CA074E.quest_desc: ["Up to 8 of these will be needed "]
 	quest.146CD5D3B7DA2955.quest_desc: ["The import for &lPressure&r"]
 	quest.158641ADBB04096F.quest_desc: ["From a &lSupply Crate&r"]
 	quest.158641ADBB04096F.title: "Colored Dirt"
 	quest.15E0192D10A8449B.quest_desc: ["Routers can be used to move &lItems, Fluids, Energy, Chemicals, Souls and Source&r"]
 	quest.1618D56C70832CF0.quest_desc: ["Made inside the &lStrainer&r"]
+	quest.170A4247974C1FAB.quest_desc: ["&lPlanks&r from &lLogs&r again...."]
 	quest.17C92075AF3E7685.quest_desc: ["Processed Ore"]
 	quest.18CBF4FDD61F7F8E.quest_desc: ["From &lBroken Ore&r "]
 	quest.18E67396B01B34F1.quest_desc: ["Surround the &lDiving Suit Chestplate&r with &lPressurized Air Bottles&r to provide it with &lOxygen&r"]
@@ -98,8 +110,17 @@
 	quest.2EA1F5D879D8AD5C.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
 	quest.30664A79505BAECA.quest_desc: ["Crafted &lKelp&r"]
 	quest.30F74BFAFDC236C0.quest_desc: ["The &lEagle Dance&r can be use to convert &lParrots&r into &lEagles&r"]
+	quest.31222C4285E3C269.quest_desc: [
+		"quartz gold alloy "
+		"quests below will be in own questline after a goal is found for natures aura and some sort of tech mod"
+	]
 	quest.31944EC752A8B0D3.quest_desc: ["Crafted &lOre Piece&r"]
 	quest.31C4AB16F12ECAFD.quest_desc: ["Your sphere is flooded with life. Just don't hit the fish!"]
+	quest.325E28C61A277DFD.quest_desc: [
+		"&lBrilliant Fiber&r can be used on &lLeaves&r in world to convert them into &lGolden Leaves&r.  "
+		""
+		"After a while when the &lLeaf&r has turned completely gold it can be broken into &lGold Leaf&r"
+	]
 	quest.34858FC6AB49B00E.quest_desc: ["Right click on a &lTotem Base&r for information. Left click to cancel ceremonies"]
 	quest.34D8E0C2C75EE0D5.quest_desc: ["Carving &lLogs&r into &lTotems&r. Use &lSHIFT&r and scroll to chose a type of &lTotem&r to carve. The first carve needs to be a &lTotem Base&r"]
 	quest.354F57FD7D2FE51E.quest_desc: ["A mix of &lRaw Iron, Steel Ingots&r and &lPrismarine Crystals&r"]
@@ -167,6 +188,7 @@
 	quest.4CD0811FAA3DE7BB.title: "Pressure Chamber Key"
 	quest.4D0964E34E575689.quest_desc: ["The Heart of &lPneumatic Craft&r"]
 	quest.4D0964E34E575689.quest_subtitle: "maybe use steel ingot coated in iron"
+	quest.4D8339ED45E8ADB1.quest_desc: ["Punch Tree Get Wood Again!"]
 	quest.4E2514A252EDF3E9.quest_desc: ["Smelted &lKelp&r"]
 	quest.4EEA6E416ABFE440.quest_desc: ["Used with &lPipez&r pipes"]
 	quest.4EF14097D2724EF3.quest_desc: ["Used to create belts"]
@@ -263,6 +285,7 @@
 	]
 	quest.729F314FB133558E.quest_desc: ["Right Clicking on a &lCaviar Processor&r with at least 1000mb of &lLava&r inside will give you a &lBucket of Lava&r"]
 	quest.72D53308BD14BBFC.quest_desc: ["The main part of the Diving Suit. "]
+	quest.72D53308BD14BBFC.quest_subtitle: "NOT SOLD ON THIS YET"
 	quest.7459D3F20B64BD41.quest_desc: ["Broken down &lCoal&r"]
 	quest.749E5D94D31ED8FE.quest_desc: ["&lPurified Dirt&r may contain useful loot"]
 	quest.751A9028DAB1FE15.quest_desc: ["From broken &lGravel&r can also be obtained through the &lStrainer&r"]
@@ -276,6 +299,7 @@
 	quest.76797EBAFC1C4B0A.quest_desc: ["Smelted &lGreen Planks&r"]
 	quest.76DF4A3E857E3F8B.quest_desc: ["All in One &lCobblestone&r and &lStone Generator&r"]
 	quest.7721E9269699E775.quest_desc: ["A simple &lKey&r"]
+	quest.77FC93088FF7ED69.quest_desc: ["Made with &lCreate&r or &lPneumatic Craft&r"]
 	quest.7897179292DC66FD.quest_desc: ["The &lCaviar Processor&r can be used to extract resource from &lCaviar&r"]
 	quest.7B4F60DC95B1A90A.quest_desc: ["Placing &lCobblestone&r inside a &lStrainer&r with &lEroding Water&r on top and a &lMesh&r inside will create &lGravel&r"]
 	quest.7B6DDB3DBC5D1336.quest_desc: ["From grown &lSaplings&r, you can use the &lSapling Grower&r"]
@@ -319,6 +343,7 @@
 	task.2A03751CABE68197.title: "More Kelp"
 	task.2CC7C736FEE47D46.title: "SUbmerged"
 	task.2DA0DAF078C9FD50.title: "Additional Dirt"
+	task.2EF98DCADEFBDCE1.title: "Some sort of gold and quartz allow"
 	task.30652DD8817ED7AF.title: "mini spher"
 	task.335C4FB54288E61C.title: "Any #submerged:colored_dirt"
 	task.34DA1A0FFDEA9C90.title: "Any #minecraft:beds"
@@ -347,6 +372,7 @@
 	task.6789F11A29021F67.title: "Any #submerged:keys/sphere"
 	task.6806F556BF524339.title: "Any #submerged:colored_apples"
 	task.6A9C7A848C7D27B1.title: "Symphonies"
+	task.6C8874050F9D2D14.title: "R"
 	task.6D5C3E6B282D3A4B.title: "Any #minecraft:terracotta"
 	task.6E034D5522B0F963.title: "Totem Base"
 	task.7600867C584B71B5.title: "Island"

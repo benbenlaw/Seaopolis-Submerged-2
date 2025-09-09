@@ -9,6 +9,7 @@ ServerEvents.tags("item", event => {
         event.get("submerged:colored_planks").add(`colors:${color}_planks`)
         event.get("submerged:colored_leaves").add(`colors:${color}_leaves`)
         event.get("submerged:colored_crafting_tables").add(`colors:${color}_crafting_table`)
+        event.get("submerged:colored_short_grass").add(`colors:${color}_short_grass`)
     })
 
     //Resources

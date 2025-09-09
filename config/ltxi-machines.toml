@@ -1,0 +1,151 @@
+[energy_cell_array]
+	#Base energy capacity of the Energy Cell Array
+	# Default: 1000000
+	# Range: > 1
+	energy_capacity = 1000000
+	#Base transfer rate (per tick) of the Energy Cell Array
+	# Default: 10000
+	# Range: > 1
+	transfer_rate = 10000
+
+[digital_furnace]
+	#Base energy capacity of the Digital Furnace
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Digital Furnace
+	# Default: 60
+	# Range: > 1
+	energy_usage = 60
+
+[digital_smoker]
+	#Base energy capacity of the Digital Smoker
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Digital Smoker
+	# Default: 20
+	# Range: > 1
+	energy_usage = 20
+
+[digital_blast_furnace]
+	#Base energy capacity of the Digital Blast Furnace
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Digital Blast Furnace
+	# Default: 30
+	# Range: > 1
+	energy_usage = 30
+
+[grinder]
+	#Base energy capacity of the Grinder
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Grinder
+	# Default: 80
+	# Range: > 1
+	energy_usage = 80
+
+[material_fusing_chamber]
+	#Base energy capacity of the Material Fusing Chamber
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Material Fusing Chamber
+	# Default: 120
+	# Range: > 1
+	energy_usage = 120
+
+[electrocentrifuge]
+	#Base energy capacity of the ElectroCentrifuge
+	# Default: 500000
+	# Range: > 1
+	energy_capacity = 500000
+	#Base energy usage per operation tick of the ElectroCentrifuge
+	# Default: 120
+	# Range: > 1
+	energy_usage = 120
+
+[mixer]
+	#Base energy capacity of the Mixer
+	# Default: 500000
+	# Range: > 1
+	energy_capacity = 500000
+	#Base energy usage per operation tick of the Mixer
+	# Default: 100
+	# Range: > 1
+	energy_usage = 100
+
+[voltaic_injector]
+	#Base energy capacity of the Voltaic Injector
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#Base energy usage per operation tick of the Voltaic Injector
+	# Default: 80
+	# Range: > 1
+	energy_usage = 80
+
+[chem_lab]
+	#Base energy capacity of the Chem Lab
+	# Default: 500000
+	# Range: > 1
+	energy_capacity = 500000
+	#Base energy usage per operation tick of the Chem Lab
+	# Default: 160
+	# Range: > 1
+	energy_usage = 160
+
+[fabricator]
+	#Base energy capacity of the Fabricator.
+	# Default: 250000
+	# Range: > 1
+	energy_capacity = 250000
+	#The energy usage of the Fabricator. Affects how quickly the fabricator completes recipes.
+	# Default: 2500
+	# Range: > 1
+	energy_usage = 2500
+
+[molecular_reconstructor]
+	#Base energy capacity of the Molecular Reconstructor.
+	# Default: 500000
+	# Range: > 1
+	energy_capacity = 500000
+	#Base energy usage per tick of the Molecular Reconstructor.
+	# Default: 160
+	# Range: > 1
+	energy_usage = 160
+	#Base operation time (in ticks) of the Molecular Reconstructor.
+	# Default: 20
+	# Range: > 1
+	operation_time = 20
+
+[atmos_turret]
+	#Base energy capacity of the Atmos turret.
+	# Default: 200000
+	# Range: > 1
+	energy_capacity = 200000
+	#Energy usage per target acquisition.
+	# Default: 10000
+	# Range: > 1
+	energy_per_target = 10000
+	#Base damage dealt by rockets from the Atmos turret.
+	# Default: 40.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	rocket_damage = 40.0
+
+[noctis_turret]
+	#Base energy capacity of the Noctis turret.
+	# Default: 1200000
+	# Range: > 1
+	energy_capacity = 1200000
+	#Energy usage per target acquisition.
+	# Default: 400000
+	# Range: > 1
+	energy_per_target = 400000
+	#Base damage per shot of the Noctis turret.
+	# Default: 200.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	base_damage = 200.0

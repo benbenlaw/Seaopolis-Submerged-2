@@ -344,5 +344,169 @@
 			x: -1.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["31222C4285E3C269"]
+			id: "325E28C61A277DFD"
+			tasks: [{
+				id: "7A34A9B470A66B6C"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			id: "31222C4285E3C269"
+			tasks: [{
+				id: "2EF98DCADEFBDCE1"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["325E28C61A277DFD"]
+			id: "627BC99C6F08DF88"
+			tasks: [{
+				id: "68EF00854D5DC870"
+				item: { count: 1, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["627BC99C6F08DF88"]
+			id: "1449978D85CA074E"
+			rewards: [{
+				id: "656F9BFB4F3191A4"
+				item: {
+					components: {
+						"patchouli:book": "naturesaura:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4628C0B0978C5EA7"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["627BC99C6F08DF88"]
+			id: "77FC93088FF7ED69"
+			tasks: [{
+				id: "6E963C73CE563E08"
+				item: { count: 1, id: "naturesaura:gold_powder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1449978D85CA074E"
+				"77FC93088FF7ED69"
+			]
+			id: "0D7A91E84A6CE9CD"
+			tasks: [{
+				id: "6C8874050F9D2D14"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0D7A91E84A6CE9CD"]
+			id: "042B9882BBAED292"
+			tasks: [{
+				id: "2A5A2F7A97C9BA11"
+				item: { count: 1, id: "naturesaura:ancient_sapling" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["042B9882BBAED292"]
+			id: "4D8339ED45E8ADB1"
+			tasks: [{
+				id: "0914BDB50D91CC7C"
+				item: { count: 1, id: "naturesaura:ancient_log" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			id: "054CA537D1B76563"
+			tasks: [{
+				id: "543698A4DDF1F35E"
+				item: { count: 1, id: "naturesaura:ancient_stick" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["170A4247974C1FAB"]
+			id: "0550FF2DF58AFA77"
+			tasks: [{
+				id: "341B2CF98CEBC0A2"
+				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4D8339ED45E8ADB1"]
+			id: "170A4247974C1FAB"
+			tasks: [{
+				id: "04EA8D9803B6DC79"
+				item: { count: 1, id: "naturesaura:ancient_planks" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0550FF2DF58AFA77"]
+			id: "0331F94A8DE5BF76"
+			tasks: [{
+				id: "373D25EF9C331B0F"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0331F94A8DE5BF76"]
+			id: "003EE194E3894230"
+			tasks: [{
+				id: "2CC8C525D9A3C6B6"
+				item: { count: 1, id: "naturesaura:token_joy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["003EE194E3894230"]
+			id: "05609948CC4023E4"
+			tasks: [{
+				id: "34C2DF71B79C8F5D"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 18.0d
+		}
 	]
 }
