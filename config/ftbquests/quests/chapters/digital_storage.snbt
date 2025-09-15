@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital_storage"
+	group: "1DC99ACF42B51C2F"
+	id: "1E9B63EA9FA08A4A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1AA8B7DC2F4CFECC"]
+			id: "3B694A316CDD67A8"
+			tasks: [{
+				id: "3C3C7AB7166F9919"
+				item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75EE8E1C409ADF61"]
+			id: "40E95BE654D1C3CA"
+			tasks: [{
+				id: "407C325D3DE02BB9"
+				item: { count: 1, id: "submerged:charged_sand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40E95BE654D1C3CA"]
+			id: "676CD62894F97419"
+			tasks: [{
+				id: "21AA9B6D2F44EE3B"
+				item: { count: 1, id: "ae2:certus_quartz_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["676CD62894F97419"]
+			id: "1AA8B7DC2F4CFECC"
+			tasks: [{
+				id: "1A73CF282D0569EC"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0ED7FDC5610FE8F9"
+			tasks: [{
+				id: "76FEE39A69A5DE65"
+				item: { count: 1, id: "submerged:basic_storage_component" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

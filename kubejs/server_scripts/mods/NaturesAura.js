@@ -19,4 +19,6 @@ ServerEvents.recipes(event => {
         B: 'submerged:quartz_enriched_gold',
     }).id('submerged:gold_fiber')
 
+    event.recipes.naturesaura.altar('minecraft:glowstone_dust', 'naturesaura:gold_powder', 1000).id('submerged:glowstone_dust')
+
 })

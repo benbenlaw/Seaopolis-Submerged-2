@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "industrialforegoing:plastic"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "pneumaticcraft:empty_pcb"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "industrialforegoing:plastic"
+        },
+        {
+          "tag": "pneumaticcraft:wiring"
+        }
+      ],
+      "results": [
+        {
+          "id": "industrialforegoing:plastic"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "industrialforegoing:plastic"
+        },
+        {
+          "tag": "pneumaticcraft:wiring"
+        }
+      ],
+      "results": [
+        {
+          "id": "industrialforegoing:plastic"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "industrialforegoing:plastic"
+        },
+        {
+          "tag": "pneumaticcraft:wiring"
+        }
+      ],
+      "results": [
+        {
+          "id": "industrialforegoing:plastic"
+        }
+      ]
+    },
+        {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "industrialforegoing:plastic"
+        },
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ],
+      "results": [
+        {
+          "id": "industrialforegoing:plastic"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "industrialforegoing:plastic"
+        },
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ],
+      "results": [
+        {
+          "id": "industrialforegoing:plastic"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "industrialforegoing:plastic"
+  }
+}

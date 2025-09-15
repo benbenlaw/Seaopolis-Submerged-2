@@ -1,10 +1,11 @@
 {
   "mod_priorities": [
+    "submerged",
     "minecraft",
-    "kubejs",
     "alltheores",
     "casting",
-    "immersiveengineering"
+    "refinedstorage",
+    "pneumaticcraft"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -28,7 +29,13 @@
     "c:rods/{material}",
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
-    "c:wires/{material}"
+    "c:wires/{material}",
+    "c:plastics",
+    "c:silicon",
+    "submerged:basic_storage_components",
+    "submerged:advanced_storage_components",
+    "submerged:elite_storage_components",
+    "submerged:ultimate_storage_components"
   ],
   "ignored_tags": [],
   "ignored_items": [],

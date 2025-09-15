@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      },
+      "id": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "pneumaticcraft:plastic"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "pneumaticcraft:etching_acid"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "64828B4E59DB0E48"
+	id: "0E2CBB174C1E841E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1449978D85CA074E"
+				"77FC93088FF7ED69"
+			]
+			id: "0D7A91E84A6CE9CD"
+			tasks: [{
+				id: "6C8874050F9D2D14"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D7A91E84A6CE9CD"]
+			id: "042B9882BBAED292"
+			tasks: [{
+				id: "2A5A2F7A97C9BA11"
+				item: { count: 1, id: "naturesaura:ancient_sapling" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["042B9882BBAED292"]
+			id: "4D8339ED45E8ADB1"
+			tasks: [{
+				id: "0914BDB50D91CC7C"
+				item: { count: 1, id: "naturesaura:ancient_log" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["170A4247974C1FAB"]
+			id: "054CA537D1B76563"
+			tasks: [{
+				id: "543698A4DDF1F35E"
+				item: { count: 1, id: "naturesaura:ancient_stick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["170A4247974C1FAB"]
+			id: "0550FF2DF58AFA77"
+			tasks: [{
+				id: "341B2CF98CEBC0A2"
+				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D8339ED45E8ADB1"]
+			id: "170A4247974C1FAB"
+			tasks: [{
+				id: "04EA8D9803B6DC79"
+				item: { count: 1, id: "naturesaura:ancient_planks" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0550FF2DF58AFA77"]
+			id: "0331F94A8DE5BF76"
+			tasks: [{
+				id: "373D25EF9C331B0F"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0331F94A8DE5BF76"]
+			id: "003EE194E3894230"
+			tasks: [{
+				id: "2CC8C525D9A3C6B6"
+				item: { count: 1, id: "naturesaura:token_joy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["440ED6C58D5098C3"]
+			id: "325E28C61A277DFD"
+			tasks: [{
+				id: "7A34A9B470A66B6C"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["325E28C61A277DFD"]
+			id: "627BC99C6F08DF88"
+			tasks: [{
+				id: "68EF00854D5DC870"
+				item: { count: 1, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["627BC99C6F08DF88"]
+			id: "77FC93088FF7ED69"
+			tasks: [{
+				id: "6E963C73CE563E08"
+				item: { count: 1, id: "naturesaura:gold_powder" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["627BC99C6F08DF88"]
+			id: "1449978D85CA074E"
+			rewards: [{
+				id: "656F9BFB4F3191A4"
+				item: {
+					components: {
+						"patchouli:book": "naturesaura:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4628C0B0978C5EA7"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["003EE194E3894230"]
+			id: "05609948CC4023E4"
+			tasks: [{
+				id: "34C2DF71B79C8F5D"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05609948CC4023E4"]
+			id: "14AF040645F38C7D"
+			tasks: [{
+				id: "0A326C07F33CAAA1"
+				item: { count: 1, id: "submerged:overworld_altar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05609948CC4023E4"]
+			id: "45DFA830778035DA"
+			tasks: [{
+				id: "60C9385ABB25C1F5"
+				item: { count: 1, id: "naturesaura:infused_iron" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05609948CC4023E4"]
+			id: "5183A6641C0915D5"
+			tasks: [{
+				id: "745ACEC89E0C20F0"
+				item: { count: 1, id: "naturesaura:tainted_gold" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D7A91E84A6CE9CD"]
+			id: "0BBCD3DE8AC14F78"
+			tasks: [{
+				id: "4B174ABB81A2C8CA"
+				item: { count: 1, id: "naturesaura:eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05609948CC4023E4"]
+			id: "3C9030D14EDAA327"
+			tasks: [{
+				id: "1E03FE0774291179"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C9030D14EDAA327"]
+			id: "44A7C3B914EDEAA0"
+			tasks: [{
+				id: "3CC97F06D465C736"
+				item: { count: 1, id: "minecraft:glowstone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+}

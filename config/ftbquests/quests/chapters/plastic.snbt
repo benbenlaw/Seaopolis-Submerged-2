@@ -1,0 +1,311 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "plastic"
+	group: "1DC99ACF42B51C2F"
+	id: "1AF122F4F516298A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["008050AFF2D392B5"]
+			id: "39AB090354EDB00A"
+			tasks: [{
+				id: "315A1C4461CDD4A7"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"434AAB69CBCC108E"
+				"1DBD68F81F4E6C1D"
+			]
+			id: "58859AADFDEF8FE2"
+			tasks: [{
+				id: "35054840AC10A3BD"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C7D8663CE541B54"]
+			id: "1DBD68F81F4E6C1D"
+			tasks: [{
+				id: "7380A0BFF3095B20"
+				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AF8F947F714C57B"]
+			id: "7C7D8663CE541B54"
+			tasks: [{
+				id: "6E32B784A3953382"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"45DFA830778035DA"
+				"5183A6641C0915D5"
+			]
+			id: "1AF8F947F714C57B"
+			tasks: [{
+				id: "30619372FCF01DD7"
+				item: { count: 1, id: "submerged:infused_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C7D8663CE541B54"]
+			id: "434AAB69CBCC108E"
+			tasks: [{
+				id: "420A7EC6E31BFC3B"
+				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58859AADFDEF8FE2"]
+			id: "008050AFF2D392B5"
+			tasks: [{
+				id: "789457FA77F6B556"
+				item: { count: 1, id: "industrialforegoing:dryrubber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "677FA0D4FF73978D"
+			tasks: [{
+				id: "76B31C0D9B4C7348"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39AB090354EDB00A"]
+			id: "452882060656F2ED"
+			tasks: [{
+				id: "3702A8E20FDA1D56"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["452882060656F2ED"]
+			id: "4CBDB3CCB170D9F3"
+			tasks: [{
+				id: "6D46C8392EBB5E00"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "7F34BC7D959E78FE"
+			tasks: [{
+				id: "4E508B601363BA45"
+				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CBDB3CCB170D9F3"]
+			id: "3C05BA3D71469DDD"
+			tasks: [{
+				id: "4FE9F8AA6020FEB5"
+				item: { count: 1, id: "industrialforegoing:material_stonework_factory" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C05BA3D71469DDD"]
+			id: "4E2A33A420B45C7D"
+			tasks: [{
+				id: "25A9995E072546F0"
+				item: { count: 1, id: "refinedstorage:silicon" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E2A33A420B45C7D"]
+			id: "5B99151FECCA1C27"
+			tasks: [{
+				id: "60BEA36ACB52D3E9"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39AB090354EDB00A"]
+			id: "772E29425FED6697"
+			tasks: [{
+				id: "6203D42C373548FB"
+				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["772E29425FED6697"]
+			id: "4CC34CF73486EB02"
+			optional: true
+			tasks: [{
+				id: "09BB3C9FC4E10AFC"
+				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["772E29425FED6697"]
+			id: "242855AD0C9FD843"
+			optional: true
+			tasks: [{
+				id: "373B2021F4C84DC8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:sandpaper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"242855AD0C9FD843"
+				"4CC34CF73486EB02"
+			]
+			id: "5CBC0FCC4F12353D"
+			tasks: [{
+				id: "522E5D2D9D110E1D"
+				item: { components: { "pneumaticcraft:uv_exposure": 100 }, count: 1, id: "pneumaticcraft:empty_pcb" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"433D889DEFC9E899"
+				"066605A8923EC7C2"
+				"03F26BF6244082FD"
+			]
+			id: "2928276EDC887172"
+			tasks: [{
+				id: "37827A9776538358"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5CBC0FCC4F12353D"]
+			icon: {
+				id: "pneumaticcraft:etching_acid_bucket"
+			}
+			id: "0C2AABFFD28944AA"
+			tasks: [{
+				id: "2B782F5FAE21B6E9"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C2AABFFD28944AA"]
+			id: "50F353C6D15C0062"
+			tasks: [{
+				id: "0B7C36C45C2341F9"
+				item: { count: 1, id: "pneumaticcraft:etching_tank" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50F353C6D15C0062"]
+			id: "433D889DEFC9E899"
+			tasks: [{
+				id: "5F4539D7FB283BB6"
+				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "5A560D95D95130FB"
+			tasks: [{
+				id: "3A05E332230BC2A0"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B99151FECCA1C27"]
+			id: "03F26BF6244082FD"
+			tasks: [{
+				id: "745A3E0D23EB1EAE"
+				item: { count: 1, id: "pneumaticcraft:transistor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B99151FECCA1C27"]
+			id: "066605A8923EC7C2"
+			tasks: [{
+				id: "4814090BAB4667C5"
+				item: { count: 1, id: "pneumaticcraft:capacitor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2928276EDC887172"]
+			id: "75EE8E1C409ADF61"
+			tasks: [{
+				id: "0B0066C35FEB281A"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+}

@@ -31,5 +31,8 @@ ServerEvents.tags("block", event => {
     colors.forEach(color => {
         event.get(`bblcore:tintable/${color}`).remove(`colors:${color}_log`, `colors:${color}_wood`, `colors:${color}_stripped_log`, `colors:${color}_stripped_wood`)
     })
+
+    //Roomopolis Non Counted Blocks
+    event.get("roomopolis:not_needed_for_block_requirements").add(["naturesaura:nature_altar"])
 })
 

@@ -11,6 +11,12 @@ StartupEvents.registry("item", (event) => {
     event.create("submerged:key_mold").tag(['casting:mold/keys', 'casting:molds'])
     event.create("submerged:mesh_mold").tag(['casting:molds/mesh', 'casting:molds'])
     event.create("submerged:quartz_enriched_gold").tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
+    event.create("submerged:infused_alloy")
+
+    event.create("submerged:basic_storage_component").tag('submerged:basic_storage_components').texture("ae2:item/cell_component_1k")
+    event.create("submerged:advanced_storage_component").tag('submerged:advanced_storage_components').texture("ae2:item/cell_component_4k")
+    event.create("submerged:elite_storage_component").tag('submerged:elite_storage_components').texture("ae2:item/cell_component_16k")
+    event.create("submerged:ultimate_storage_component").tag('submerged:ultimate_storage_components').texture("ae2:item/cell_component_64k")
 
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
@@ -94,8 +100,9 @@ StartupEvents.registry("item", (event) => {
         .consumeKey(true)
         .removeDoor(false)
         .blocksRequired(true)
-        .overrideExistingBlocks(false)
+        .overrideExistingBlocks(true)
         .sideOnlyPlacement(false)
+        .topOnlyPlacement(true)
         .tag('submerged:keys/altar')
 
 })

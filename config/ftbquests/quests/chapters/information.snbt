@@ -43,5 +43,20 @@
 			x: -3.0d
 			y: -1.5d
 		}
+		{
+			id: "1DCD1AEDE638FF38"
+			rewards: [{
+				command: "/player_balance add @p 10"
+				id: "0E5F258C0CE1EDDA"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				id: "709A85602318FE3F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
 	]
 }

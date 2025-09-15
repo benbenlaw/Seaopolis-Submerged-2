@@ -20,6 +20,12 @@ ServerEvents.recipes(event => {
     //Milling
     event.recipes.create.milling("naturesaura:gold_leaf", 200, "2x naturesaura:gold_powder").id('submerged:create/gold_powder')
 
+    //Sandpaper Polishing
+    event.recipes.create.sandpaper_polishing('pneumaticcraft:empty_pcb', 'pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]').id('submerged:create/uv_exposed_pcb')
+
+    //Mixing 
+    //These recipes are located in submerged:recipes/create/mixing
+
     //Sequenced Assembly
     //These recipes are located in submerged:recipes/create/sequenced_assembly
 

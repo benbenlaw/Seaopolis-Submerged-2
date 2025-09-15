@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]"
+      
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1,
+      "fluid": "pneumaticcraft:etching_acid"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id":   "pneumaticcraft:unassembled_pcb"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cc_ii"
+	group: "64828B4E59DB0E48"
+	id: "3DE775794F0DE900"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

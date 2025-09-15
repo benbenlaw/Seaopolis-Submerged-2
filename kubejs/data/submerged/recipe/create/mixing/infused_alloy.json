@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "naturesaura:infused_iron"
+    },
+    {
+      "item": "naturesaura:tainted_gold"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "results": [
+    {
+      "id": "submerged:infused_alloy",
+      "count": 2
+    }
+  ]
+}

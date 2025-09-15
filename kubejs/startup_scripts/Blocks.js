@@ -25,6 +25,11 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/shovel')
         .sandSoundType()
 
+    event.create('submerged:charged_sand')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/shovel')
+        .sandSoundType()
+
     event.create('submerged:pressure_chamber_controller')
         .hardness(2)
         .tagBlock('minecraft:mineable/pickaxe')

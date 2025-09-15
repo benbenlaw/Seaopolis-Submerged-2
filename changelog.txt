@@ -1,4 +1,4 @@
 //Changelog
 
 Make Routers waterloggable
-Roomopolis top only placement
+fix pnematicraft compat recipes for casting fuels

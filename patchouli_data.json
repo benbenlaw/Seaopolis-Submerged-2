@@ -29,7 +29,9 @@
         "naturesaura:practices/tree_ritual",
         "naturesaura:practices/gold_trees",
         "naturesaura:practices/aura_bottle",
-        "naturesaura:using/altar"
+        "naturesaura:using/altar",
+        "naturesaura:practices/aura_plants",
+        "naturesaura:intro/botany"
       ],
       "bookmarks": [],
       "completedManualQuests": []

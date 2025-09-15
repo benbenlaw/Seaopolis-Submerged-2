@@ -8,6 +8,9 @@ ServerEvents.recipes(event => {
     event.remove({id: "strainers:strainer/purified_sand/prismarine_shard"})
     event.remove({id: "strainers:strainer/purified_soul_sand/debris_ore_piece"})
     
+    //Charged Sand -> Certus
+    strainerAuto("submerged:charged_sand", "minecraft:water", "ae2:certus_quartz_dust", 0.35, 0.05, 6, 10);
+
     //Purifed Soul Sand -> Gold Ore Piece
     strainerAuto("strainers:purified_soul_sand", "minecraft:water", "strainers:gold_ore_piece", 0.2, 0.05, 6, 10);
 

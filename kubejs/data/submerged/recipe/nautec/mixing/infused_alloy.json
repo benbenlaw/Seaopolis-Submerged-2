@@ -1,0 +1,25 @@
+{
+  "type": "nautec:mixing",
+  "duration": 150,
+  "fluid_ingredient": {
+    "amount": 1000,
+    "id": "minecraft:water"
+  },
+  "fluid_result": {
+    "amount": 1000,
+    "id": "nautec:saltwater"
+  },
+  "ingredients": [
+    {
+      "item": "naturesaura:infused_iron"
+    },
+    {
+      "item": "naturesaura:tainted_gold"
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 6
+    }
+  ],
+  "result": {"id": "submerged:infused_alloy", "count": 2}
+}
