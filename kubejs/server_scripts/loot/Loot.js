@@ -4,16 +4,13 @@ LootJS.modifiers(event => {
         event.addBlockModifier(`minecraft:${color}_terracotta`).removeLoot(`*`).addLoot(`4x submerged:${color}_terracotta_rocks`)
     })
 
+    //Remove Diamond and Emerald Ore Loot
+    event.addBlockModifier('minecraft:diamond_ore').removeLoot('*')
+    event.addBlockModifier('minecraft:emerald_ore').removeLoot('*')
+    event.addBlockModifier('minecraft:deepslate_diamond_ore').removeLoot('*')
+    event.addBlockModifier('minecraft:deepslate_emerald_ore').removeLoot('*')
+
+    //Ancient Debris
+    event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addLoot('submerged:raw_ancient_debris')
 
 })
-
-/*
-LootJS.lootTables(event => {
-    event.getLootTable("minecraft:gameplay/fishing/fish")
-    .firstPool()
-    .addEntry(LootEntry.of('nautec:burnt_coil').withWeight(1))
-    .addEntry(LootEntry.of('nautec:ancient_valve').withWeight(1))
-    .addEntry(LootEntry.of('nautec:broken_whisk').withWeight(1))
-    .addEntry(LootEntry.of('nautec:rusty_gear').withWeight(1))
-})
-*/

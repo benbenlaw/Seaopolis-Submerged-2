@@ -1,22 +1,29 @@
 // Items
 
-StartupEvents.registry("item", (event) => {
+StartupEvents.registry('item', (event) => {
 
     // Items
-    event.create("submerged:unloaded_flare")
-    event.create("submerged:stone_key")
-    event.create("submerged:copper_key")
-    event.create("submerged:ceramic_solid_coal_bucket")
-    event.create("submerged:solid_coal_bucket")
-    event.create("submerged:key_mold").tag(['casting:mold/keys', 'casting:molds'])
-    event.create("submerged:mesh_mold").tag(['casting:molds/mesh', 'casting:molds'])
-    event.create("submerged:quartz_enriched_gold").tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
-    event.create("submerged:infused_alloy")
+    event.create('submerged:unloaded_flare')
+    event.create('submerged:stone_key')
+    event.create('submerged:copper_key')
+    event.create('submerged:ceramic_solid_coal_bucket')
+    event.create('submerged:solid_coal_bucket')
+    event.create('submerged:key_mold').tag(['casting:mold/keys', 'casting:molds'])
+    event.create('submerged:mesh_mold').tag(['casting:molds/mesh', 'casting:molds'])
+    event.create('submerged:quartz_enriched_gold').tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
+    event.create('submerged:infused_alloy')
+    event.create('submerged:ancient_lens')
+    event.create('submerged:raw_ancient_debris').tag(['c:raw_materials/ancient_debris', 'c:raw_materials'])
+    event.create('submerged:ancient_debris_dust').tag(['c:dusts/ancient_debris', 'c:dusts'])
 
-    event.create("submerged:basic_storage_component").tag('submerged:basic_storage_components').texture("ae2:item/cell_component_1k")
-    event.create("submerged:advanced_storage_component").tag('submerged:advanced_storage_components').texture("ae2:item/cell_component_4k")
-    event.create("submerged:elite_storage_component").tag('submerged:elite_storage_components').texture("ae2:item/cell_component_16k")
-    event.create("submerged:ultimate_storage_component").tag('submerged:ultimate_storage_components').texture("ae2:item/cell_component_64k")
+    event.create('submerged:basic_storage_component').tag('submerged:basic_storage_components').texture('ae2:item/cell_component_1k')
+    event.create('submerged:advanced_storage_component').tag('submerged:advanced_storage_components').texture('ae2:item/cell_component_4k')
+    event.create('submerged:elite_storage_component').tag('submerged:elite_storage_components').texture('ae2:item/cell_component_16k')
+    event.create('submerged:ultimate_storage_component').tag('submerged:ultimate_storage_components').texture('ae2:item/cell_component_64k')
+
+    event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')
+    event.create('submerged:calculation_processor').tag('submerged:calculation_processors').texture('ae2:item/calculation_processor')
+    event.create('submerged:engineering_processor').tag('submerged:engineering_processors').texture('ae2:item/engineering_processor')
 
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
@@ -25,7 +32,7 @@ StartupEvents.registry("item", (event) => {
     })
 
     //Prismarine Sphere Keys 
-    event.create(`submerged:prismarine_sphere_key`, "roomopolis_key")
+    event.create(`submerged:prismarine_sphere_key`, 'roomopolis_key')
         .templateId(`submerged:spheres/prismarine_sphere`)
         .keyBlock(`#submerged:terracotta_lock`)
         .heightAdjustment(0)
@@ -42,7 +49,7 @@ StartupEvents.registry("item", (event) => {
 
     //Colored Sphere Keys 
     colors.forEach(color => {
-        event.create(`submerged:${color}_sphere_key`, "roomopolis_key")
+        event.create(`submerged:${color}_sphere_key`, 'roomopolis_key')
             .templateId(`submerged:spheres/${color}`)
             .keyBlock(`submerged:${color}_terracotta_lock`)
             .heightAdjustment(0)
@@ -58,7 +65,7 @@ StartupEvents.registry("item", (event) => {
             .tag('submerged:keys/sphere')
     })
 
-    event.create(`submerged:3x3_pressure_chamber`, "roomopolis_key")
+    event.create(`submerged:3x3_pressure_chamber`, 'roomopolis_key')
         .displayName('3x3 Pressure Chamber Key')
         .templateId(`submerged:pressure_chamber/3x3_pressure_chamber`)
         .keyBlock(`submerged:pressure_chamber_controller`)
@@ -69,7 +76,7 @@ StartupEvents.registry("item", (event) => {
         .overrideExistingBlocks(false)
         .tag('submerged:keys/pressure_chamber')
 
-    event.create(`submerged:4x4_pressure_chamber`, "roomopolis_key")
+    event.create(`submerged:4x4_pressure_chamber`, 'roomopolis_key')
         .displayName('4x4 Pressure Chamber Key')
         .templateId(`submerged:pressure_chamber/4x4_pressure_chamber`)
         .keyBlock(`submerged:pressure_chamber_controller`)
@@ -80,7 +87,7 @@ StartupEvents.registry("item", (event) => {
         .overrideExistingBlocks(false)
         .tag('submerged:keys/pressure_chamber')
 
-    event.create(`submerged:5x5_pressure_chamber`, "roomopolis_key")
+    event.create(`submerged:5x5_pressure_chamber`, 'roomopolis_key')
         .displayName('5x5 Pressure Chamber Key')
         .templateId(`submerged:pressure_chamber/5x5_pressure_chamber`)
         .keyBlock(`submerged:pressure_chamber_controller`)
@@ -91,7 +98,7 @@ StartupEvents.registry("item", (event) => {
         .overrideExistingBlocks(false)
         .tag('submerged:keys/pressure_chamber')
 
-    event.create(`submerged:overworld_altar`, "roomopolis_key")
+    event.create(`submerged:overworld_altar`, 'roomopolis_key')
         .displayName('Overworld Altar Key')
         .templateId(`submerged:altar`)
         .keyBlock(`naturesaura:nature_altar`)

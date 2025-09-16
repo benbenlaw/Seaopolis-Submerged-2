@@ -3,8 +3,54 @@
 ServerEvents.recipes(event => {
 
     //Smelting
-    event.smelting('ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"casting:molten_coal"}]', "submerged:ceramic_solid_coal_bucket").id(`submerged:ceramic_molten_coal_bucket`)
-    event.smelting('casting:molten_coal_bucket', "submerged:solid_coal_bucket").id(`submerged:molten_coal_bucket`)
+    event.smelting('ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"casting:molten_coal"}]', 'submerged:ceramic_solid_coal_bucket').id(`submerged:ceramic_molten_coal_bucket`)
+    event.smelting('casting:molten_coal_bucket', 'submerged:solid_coal_bucket').id(`submerged:molten_coal_bucket`)
+    event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
+
+    //Ancient Lens
+    event.shaped('submerged:ancient_lens', ['ABA', 'BCB', 'ABA'], {
+        A: 'naturesaura:ancient_log',
+        B: 'enderio:grains_of_infinity',
+        C: 'nautec:prismarine_lens'
+    }).id('submerged:ancient_lens')
+
+    //Matter Gravel
+    event.shaped('4x submerged:matter_gravel', ['AAA', 'ABA', 'AAA'], {
+        A: 'minecraft:gravel',
+        B: 'ae2:matter_ball'
+    }).id('submerged:matter_gravel')
+
+    //Basic Storage Component
+    event.shaped('submerged:basic_storage_component', ['ADA', 'BCB', 'ABA'], {
+        A: '#c:silicon',
+        B: '#c:glass_blocks',
+        C: 'ae2:logic_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('submerged:basic_storage_component')
+
+    //Advanced Storage Component
+    event.shaped('submerged:advanced_storage_component', ['ADA', 'BCB', 'ABA'], {
+        A: 'minecraft:redstone',
+        B: 'submerged:basic_storage_component',
+        C: 'ae2:logic_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('submerged:advanced_storage_component')
+
+    //Elite Storage Component
+    event.shaped('submerged:elite_storage_component', ['ADA', 'BCB', 'ABA'], {
+        A: 'minecraft:glowstone_dust',
+        B: 'submerged:advanced_storage_component',
+        C: 'ae2:logic_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('submerged:elite_storage_component')
+
+    //Ultimate Storage Component
+    event.shaped('submerged:ultimate_storage_component', ['ADA', 'BCB', 'ABA'], {
+        A: 'submerged:infused_alloy',
+        B: 'submerged:elite_storage_component',
+        C: 'ae2:logic_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('submerged:ultimate_storage_component')
 
     //Mass Color Crafting
     colors.forEach(color => {

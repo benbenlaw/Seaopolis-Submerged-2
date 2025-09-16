@@ -1,0 +1,15 @@
+{
+  "type": "industrialforegoing:fluid_extractor",
+  "breakChance": 0.1,
+  "defaultRecipe": false,
+  "input": {
+    "item": "minecraft:emerald_ore"
+  },
+  "output": {
+    "amount": 2,
+    "id": "casting:molten_emerald"
+  },
+  "result": {
+    "Name": "minecraft:stone"
+  }
+}

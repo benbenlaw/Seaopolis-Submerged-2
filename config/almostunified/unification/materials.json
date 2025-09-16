@@ -35,7 +35,10 @@
     "submerged:basic_storage_components",
     "submerged:advanced_storage_components",
     "submerged:elite_storage_components",
-    "submerged:ultimate_storage_components"
+    "submerged:ultimate_storage_components",
+    "submerged:logic_processors",
+    "submerged:calculation_processors",
+    "submerged:engineering_processors"
   ],
   "ignored_tags": [],
   "ignored_items": [],

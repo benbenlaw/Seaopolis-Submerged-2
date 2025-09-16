@@ -135,38 +135,6 @@
 			y: 2.0d
 		}
 		{
-			id: "298213BB57EBEC41"
-			tasks: [{
-				id: "416C7A0D21DEAF36"
-				item: { count: 1, id: "strainers:quartz_ore_piece" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["298213BB57EBEC41"]
-			id: "1105D4FEF8B5DF64"
-			tasks: [{
-				id: "27C8F15E5959E7CD"
-				item: { count: 1, id: "minecraft:nether_quartz_ore" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1105D4FEF8B5DF64"]
-			id: "56B40A25B587EFE0"
-			tasks: [{
-				id: "1A32377021B33E51"
-				item: { count: 1, id: "minecraft:quartz" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 6.5d
-		}
-		{
 			id: "2769D5AE7B476E33"
 			tasks: [{
 				id: "634515A8215441D5"

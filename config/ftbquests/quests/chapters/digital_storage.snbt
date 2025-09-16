@@ -8,7 +8,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1AA8B7DC2F4CFECC"]
+			dependencies: [
+				"1AA8B7DC2F4CFECC"
+				"1A622AC289DE07F1"
+			]
 			id: "3B694A316CDD67A8"
 			tasks: [{
 				id: "3C3C7AB7166F9919"
@@ -37,7 +40,7 @@
 				item: { count: 1, id: "ae2:certus_quartz_dust" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -48,18 +51,205 @@
 				item: { count: 1, id: "ae2:certus_quartz_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
+			dependencies: ["5483722820D7B629"]
 			id: "0ED7FDC5610FE8F9"
 			tasks: [{
 				id: "76FEE39A69A5DE65"
 				item: { count: 1, id: "submerged:basic_storage_component" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B694A316CDD67A8"]
+			id: "4835A611E199F2B5"
+			tasks: [{
+				id: "2B5765D696D72502"
+				item: { count: 1, id: "ae2:printed_logic_processor" }
+				type: "item"
+			}]
+			x: -1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["3B694A316CDD67A8"]
+			id: "714080375257015A"
+			tasks: [{
+				id: "56153C051F1522EB"
+				item: { count: 1, id: "ae2:printed_calculation_processor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B694A316CDD67A8"]
+			id: "026E0CF5357A1E51"
+			tasks: [{
+				id: "198EF16D635F5188"
+				item: { count: 1, id: "ae2:printed_engineering_processor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["714080375257015A"]
+			id: "2E256A697720155A"
+			tasks: [{
+				id: "6962D39EDCEE74DD"
+				item: { count: 1, id: "submerged:calculation_processor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["026E0CF5357A1E51"]
+			id: "065989E16779ACEA"
+			tasks: [{
+				id: "636BA4B3E3BCB943"
+				item: { count: 1, id: "submerged:engineering_processor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4835A611E199F2B5"]
+			id: "5483722820D7B629"
+			tasks: [{
+				id: "4511FC9F1B3CE0F0"
+				item: { count: 1, id: "submerged:logic_processor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40E95BE654D1C3CA"]
+			id: "60081172124110BE"
+			tasks: [{
+				id: "7987CBCAE9E94029"
+				item: { count: 1, id: "mekanism:dust_quartz" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60081172124110BE"]
+			id: "1A622AC289DE07F1"
+			tasks: [{
+				id: "6B4DB036260C96A7"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ED7FDC5610FE8F9"]
+			id: "13CF44178FF0BA62"
+			tasks: [{
+				id: "4187CE2710651B5E"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CC8AA74377F80E5"]
+			id: "640DD34C04DCC7BD"
+			tasks: [{
+				id: "2BD950D7BB4DE806"
+				item: { count: 1, id: "ae2:condenser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["40E95BE654D1C3CA"]
+			id: "7F99E931E817553F"
+			tasks: [{
+				id: "607B4129221B955A"
+				item: { count: 1, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0ED7FDC5610FE8F9"]
+			id: "4520302A6DF7F2B5"
+			tasks: [{
+				id: "396DFAA369C01C42"
+				item: { count: 1, id: "submerged:advanced_storage_component" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4520302A6DF7F2B5"]
+			id: "0AC872B23F3FEF2D"
+			tasks: [{
+				id: "48A3A290F57CE4C9"
+				item: { count: 1, id: "submerged:elite_storage_component" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0AC872B23F3FEF2D"]
+			id: "118B3A02993C9272"
+			tasks: [{
+				id: "31D3E6B679BCF80B"
+				item: { count: 1, id: "submerged:ultimate_storage_component" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["118B3A02993C9272"]
+			id: "7CC8AA74377F80E5"
+			tasks: [{
+				id: "6B20941EB8AB66B4"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["640DD34C04DCC7BD"]
+			id: "16D9C95B76D8ED2D"
+			tasks: [{
+				id: "3811C6319CBEBA55"
+				item: { count: 1, id: "ae2:matter_ball" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["640DD34C04DCC7BD"]
+			id: "11A1ACC619FDAED8"
+			tasks: [{
+				id: "6B6050CC800D8B55"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
 		}
 	]
 }

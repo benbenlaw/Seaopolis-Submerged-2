@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "refinedstorage:quartz_enriched_iron"
+    }
+  ]
+}

@@ -19,9 +19,13 @@ ServerEvents.recipes(event => {
 
     //Pressurized Bottle
     event.recipes.pneumaticcraft.pressure_chamber(["minecraft:glass_bottle"], 1.0, ["nautec:air_bottle"] ).id('submerged:pneumaticcraft/air_bottle')
+    
+    //Gold Powder
     event.recipes.pneumaticcraft.pressure_chamber(["naturesaura:gold_leaf"], 1.0, ["2x naturesaura:gold_powder"] ).id('submerged:pneumaticcraft/gold_powder')
-    event.recipes.pneumaticcraft.pressure_chamber([
-        "naturesaura:infused_iron", "naturesaura:tainted_gold", "6x minecraft:redstone"
-    ], 1.0, ["2x submerged:infused_alloy"] ).id('submerged:pneumaticcraft/infused_alloy')
 
+    //Infused Alloy
+    event.recipes.pneumaticcraft.pressure_chamber(["naturesaura:infused_iron", "naturesaura:tainted_gold", "6x minecraft:redstone"], 1.0, ["2x submerged:infused_alloy"] ).id('submerged:pneumaticcraft/infused_alloy')
+
+    //Quartz Enriched Iron
+    event.recipes.pneumaticcraft.pressure_chamber(["minecraft:quartz", "ae2:certus_quartz_crystal", "3x minecraft:iron_ingot"], 2.0, ["4x refinedstorage:quartz_enriched_iron"] ).id('submerged:pneumaticcraft/quartz_enriched_iron')
 })

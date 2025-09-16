@@ -88,12 +88,11 @@
   "pipez": {
     "pipe": true
   },
-  "maid_storage_manager": {
-    "virtual_frame": true
-  },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   },
   "jade": {
     "coordinates.rel": false,

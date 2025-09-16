@@ -28,6 +28,9 @@ ServerEvents.tags("item", event => {
     event.get("submerged:elite_storage_components").add(['refinedstorage:16k_storage_part', 'refinedstorage:1024b_fluid_storage_part', 'refinedstorage_mekanism_integration:1024b_chemical_storage_part', 'ae2:cell_component_16k'])
     event.get("submerged:ultimate_storage_components").add(['refinedstorage:64k_storage_part', 'refinedstorage:4096b_fluid_storage_part', 'refinedstorage_mekanism_integration:8192b_chemical_storage_part', 'ae2:cell_component_64k'])
 
+    event.get("submerged:logic_processors").add(['refinedstorage:basic_processor', 'ae2:logic_processor'])
+    event.get("submerged:calculation_processors").add(['refinedstorage:improved_processor', 'ae2:calculation_processor'])
+    event.get("submerged:engineering_processors").add(['refinedstorage:advanced_processor', 'ae2:engineering_processor'])
 
 
 

@@ -91,16 +91,6 @@
 			y: -1.5d
 		}
 		{
-			id: "677FA0D4FF73978D"
-			tasks: [{
-				id: "76B31C0D9B4C7348"
-				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["39AB090354EDB00A"]
 			id: "452882060656F2ED"
 			tasks: [{
@@ -121,16 +111,6 @@
 			}]
 			x: 1.0d
 			y: 1.0d
-		}
-		{
-			id: "7F34BC7D959E78FE"
-			tasks: [{
-				id: "4E508B601363BA45"
-				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["4CBDB3CCB170D9F3"]
