@@ -297,5 +297,15 @@
 			x: -1.0d
 			y: 13.5d
 		}
+		{
+			id: "00D7B1B06459B415"
+			tasks: [{
+				id: "06C7821125E293C5"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
 	]
 }

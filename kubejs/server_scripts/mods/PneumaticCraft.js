@@ -28,4 +28,8 @@ ServerEvents.recipes(event => {
 
     //Quartz Enriched Iron
     event.recipes.pneumaticcraft.pressure_chamber(["minecraft:quartz", "ae2:certus_quartz_crystal", "3x minecraft:iron_ingot"], 2.0, ["4x refinedstorage:quartz_enriched_iron"] ).id('submerged:pneumaticcraft/quartz_enriched_iron')
+
+    //Netherite
+    event.recipes.pneumaticcraft.pressure_chamber(["4x minecraft:netherite_scrap", "4x minecraft:gold_ingot"], 3.0, ["1x minecraft:netherite_ingot"] ).id('submerged:pneumaticcraft/netherite_ingot')
+
 })

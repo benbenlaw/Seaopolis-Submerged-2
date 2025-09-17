@@ -6,6 +6,31 @@ ServerEvents.recipes(event => {
     event.smelting('ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"casting:molten_coal"}]', 'submerged:ceramic_solid_coal_bucket').id(`submerged:ceramic_molten_coal_bucket`)
     event.smelting('casting:molten_coal_bucket', 'submerged:solid_coal_bucket').id(`submerged:molten_coal_bucket`)
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
+    
+    //Nether Brick Sphere
+    event.shaped('submerged:nether_brick_sphere', [' A ', 'ABA', ' A '], {
+        A: 'minecraft:nether_bricks',
+        B: 'submerged:netherite_key'
+    }).id('submerged:nether_brick_sphere')
+
+    //Nether Brick Lock
+    event.shaped('submerged:nether_brick_lock', [' A ', 'ABA', ' A '], {
+        A: 'minecraft:nether_brick',
+        B: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
+    }).id('submerged:nether_brick_lock')
+
+    //Nether Portal Sphere
+    event.shaped('submerged:nether_portal_sphere', [' A ', 'ABA', ' A '], {
+        A: 'minecraft:nether_bricks',
+        B: 'submerged:netherite_key'
+    }).id('submerged:nether_portal_sphere')
+
+    //Prismarine Crystal Activator
+    event.shaped('submerged:prismarine_crystal_activator', [' BC', ' AB', 'A  '], {
+        A: 'minecraft:stick',
+        B: 'minecraft:prismarine_shard',
+        C: 'minecraft:prismarine_crystals'
+    }).id('submerged:prismarine_crystal_activator')
 
     //Ancient Lens
     event.shaped('submerged:ancient_lens', ['ABA', 'BCB', 'ABA'], {

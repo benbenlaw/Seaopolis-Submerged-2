@@ -45,6 +45,20 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/pickaxe')
         .stoneSoundType()
 
+    event.create('submerged:nether_brick_lock')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .stoneSoundType()
+
+    event.create('submerged:unactivated_prismarine_crystal')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .stoneSoundType()
+
+    event.create('submerged:nether_portal_frame')
+        .hardness(50)
+        .tagBlock(['minecraft:mineable/pickaxe', 'bblcore:nether_portal_frame'])
+
     //Terracotta Lock Blocks
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_lock`)

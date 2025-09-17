@@ -318,7 +318,7 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 4.0d
 		}
 	]

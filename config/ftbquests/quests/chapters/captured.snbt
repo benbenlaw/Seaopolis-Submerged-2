@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "captured"
+	group: "1DC99ACF42B51C2F"
+	id: "7E591E99954B9956"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["590DA5919D4D18B2"]
+			id: "1731145B318CB588"
+			tasks: [{
+				id: "084FD330ABD84F48"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1731145B318CB588"]
+			id: "2401B5B7F6D93BF6"
+			tasks: [{
+				id: "3729FD71388A12E4"
+				item: { count: 1, id: "submerged:netherite_key" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["532E2DA7ACCF42C2"]
+			id: "74E4B172FE96A069"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3B1623764B98CE01"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74E4B172FE96A069"]
+			id: "3D906CE528FBE462"
+			rewards: [{
+				auto: "enabled"
+				command: "/setblock ~7 ~ ~10 submerged:nether_brick_lock"
+				id: "437CA4D00DC99C87"
+				permission_level: 4
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3BC47B5061DF4C32"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2401B5B7F6D93BF6"]
+			id: "532E2DA7ACCF42C2"
+			tasks: [{
+				id: "36564ED59697D0DF"
+				item: { count: 1, id: "submerged:nether_portal_sphere" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D906CE528FBE462"]
+			icon: {
+				id: "submerged:nether_brick_lock"
+			}
+			id: "2F89E216060ED396"
+			tasks: [{
+				id: "41BEB9CDFDA927BD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "submerged:nether_brick_lock"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F89E216060ED396"]
+			id: "6D60D4F5300AED78"
+			tasks: [{
+				id: "4717C979125563E3"
+				item: { count: 1, id: "submerged:nether_brick_sphere" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D60D4F5300AED78"]
+			id: "702BDA4EBF2C24E3"
+			tasks: [{
+				id: "67E0D1195001DB4F"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["702BDA4EBF2C24E3"]
+			id: "5D1D465CD595E040"
+			tasks: [{
+				id: "3740CF06D75B5DBF"
+				item: { count: 1, id: "submerged:blank_spawn_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D1D465CD595E040"]
+			id: "3B743C16B341B375"
+			tasks: [{
+				id: "4D50607D4C21C673"
+				item: { count: 1, id: "minecraft:wither_skeleton_spawn_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B743C16B341B375"]
+			id: "072B502A9D9AF993"
+			tasks: [{
+				id: "2A8BDA95624B3A7D"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08AFA43CC9061096"]
+			id: "4E133436B599DA13"
+			tasks: [{
+				id: "30F24776F98A1993"
+				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["072B502A9D9AF993"]
+			id: "5FCEBCB684BB632F"
+			tasks: [{
+				id: "33FB7A66EDD4A3C7"
+				item: { count: 1, id: "naturesaura:conversion_catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5FCEBCB684BB632F"]
+			id: "08AFA43CC9061096"
+			tasks: [{
+				id: "2F102FFFA482857F"
+				item: { count: 1, id: "minecraft:ghast_tear" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E133436B599DA13"]
+			id: "17EF39CAF2DF34DC"
+			tasks: [{
+				id: "3851E4A59084682B"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["17EF39CAF2DF34DC"]
+			icon: {
+				id: "industrialforegoing:ether_gas_bucket"
+			}
+			id: "4A5997EEADDC7CB6"
+			tasks: [{
+				id: "5ED7FBAE617F68B7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4A5997EEADDC7CB6"]
+			id: "3FA8B9543700C855"
+			tasks: [{
+				id: "5C95D8A67A9EC00B"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["072B502A9D9AF993"]
+			id: "69A723B282099835"
+			tasks: [{
+				id: "65EFEF55A0A4D049"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["69A723B282099835"]
+			id: "10E23E6481414E79"
+			tasks: [{
+				id: "0A1FE886DD0E7727"
+				item: { count: 1, id: "naturesaura:clock_hand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["10E23E6481414E79"]
+			id: "35D86753E5065A98"
+			tasks: [{
+				id: "63884038568A3A3B"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3FA8B9543700C855"]
+			id: "5D385621A0300B63"
+			tasks: [{
+				id: "4124A0951BB8A572"
+				item: { count: 1, id: "tiab_charger:tiab_charger" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3FA8B9543700C855"
+				"1B15DCDB622B8B9F"
+			]
+			id: "3FFABEC4A01A0DB0"
+			tasks: [{
+				id: "2AEC988DD1DE86DF"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["08AFA43CC9061096"]
+			id: "1B15DCDB622B8B9F"
+			tasks: [{
+				id: "13F857855F17CD32"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+	]
+}

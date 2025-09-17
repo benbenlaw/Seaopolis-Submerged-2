@@ -12,5 +12,4 @@ LootJS.modifiers(event => {
 
     //Ancient Debris
     event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addLoot('submerged:raw_ancient_debris')
-
 })

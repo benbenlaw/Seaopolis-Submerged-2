@@ -2,6 +2,12 @@
 
 ServerEvents.recipes(event => {
 
+    //Prismarine Crystal
+    event.recipes.inworldrecipes.block_interaction(
+        "right", "submerged:unactivated_prismarine_crystal", "submerged:prismarine_crystal_activator",
+        false, true, false, false).outputBlockState("nautec:prismarine_crystal")
+    .id("submerged:prismarine_crystal")
+
     //Living Gravel
     event.custom({
         "type": "inworldrecipes:drop_item_in_fluid",

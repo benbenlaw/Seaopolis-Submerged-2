@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'industrialforegoing:machine_frame_pity'}, '#minecraft:logs', 'naturesaura:ancient_log')
     event.replaceInput({id: 'industrialforegoing:machine_frame_pity'}, 'minecraft:redstone_block', 'submerged:infused_alloy')
     event.replaceInput({id: 'industrialforegoing:ore_laser_base'}, 'industrialforegoing:machine_frame_advanced', 'industrialforegoing:machine_frame_simple')
+    event.replaceInput({id: 'industrialforegoing:mob_duplicator'}, 'industrialforegoing:machine_frame_advanced', 'industrialforegoing:machine_frame_supreme')
 
     //Remove
     event.remove({id: /industrialforegoing:fluid_extractor\/.*/})

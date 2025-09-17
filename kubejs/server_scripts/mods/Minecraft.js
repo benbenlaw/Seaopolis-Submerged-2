@@ -4,6 +4,14 @@ ServerEvents.recipes(event => {
 
     //Remove
     event.remove({id: 'minecraft:crafting_table'})
+    event.remove({id: 'minecraft:netherite_ingot'})
+
+    //Wither Skeleton Spawn Egg
+    event.shaped('minecraft:wither_skeleton_spawn_egg', ['CAC', 'ABA', 'CAC'], {
+        A: 'minecraft:coal',
+        B: 'submerged:blank_spawn_egg',
+        C: 'minecraft:bone'
+    }).id('submerged:wither_skeleton_spawn_egg')
 
     //Kelp
     event.shaped('minecraft:kelp', ['AA', 'AA'], {

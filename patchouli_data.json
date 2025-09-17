@@ -31,7 +31,9 @@
         "naturesaura:practices/aura_bottle",
         "naturesaura:using/altar",
         "naturesaura:practices/aura_plants",
-        "naturesaura:intro/botany"
+        "naturesaura:intro/botany",
+        "naturesaura:using/weather_changer",
+        "naturesaura:practices/offering"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -58,23 +58,3 @@ BlockEvents.rightClicked(event => {
         event.entity.tell("Loot Spawned");
     })
 })
-
-
-BlockEvents.rightClicked(event => {
-
-    const pos = event.getHitResult().getBlockPos();
-    const x = pos.getX();
-    const y = pos.getY();
-    const z = pos.getZ();
-
-    if (event.getItem() == "minecraft:stick"){
-
-        event.server.runCommandSilent(`summon firework_rocket ${x} ${y + 1} ${z} {LifeTime:60,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:3,explosions:[{shape:"large_ball",has_twinkle:0,has_trail:1,colors:[I;3949738],fade_colors:[I;3949738]}]}}}}`)
-        event.getItem().shrink(1);
-
-        // Schedule loot drop
-        event.server.scheduleInTicks(10, () => {
-            event.server.runCommandSilent(`summon cow ${x} ${y + 25} ${z} {NoAI:0b,PersistenceRequired:1b,FallDistance:0f,Attributes:[{Name:"generic.maxHealth",Base:10}],ActiveEffects:[{Id:feather_falling,Amplifier:0,Duration:2000,ShowParticles:0b}]}`)
-        })
-    }
-})

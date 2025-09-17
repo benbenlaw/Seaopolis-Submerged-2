@@ -18,6 +18,11 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier("#c:molds/dust", "250x submerged:molten_certus_quartz", "ae2:certus_quartz_dust").id("submerged:solidifier/certus_quartz_dust")
     event.recipes.casting.solidifier("#c:molds/gem", "250x submerged:molten_certus_quartz", "ae2:certus_quartz_crystal").id("submerged:solidifier/certus_quartz_crystal")
 
+    event.recipes.casting.solidifier("#c:molds/key", "360x casting:molten_copper", "submerged:copper_key").id("submerged:solidifier/copper_key")
+    event.recipes.casting.solidifier("#c:molds/key", "360x casting:molten_iron", "submerged:iron_key").id("submerged:solidifier/iron_key")
+    event.recipes.casting.solidifier("#c:molds/key", "360x casting:molten_netherite", "submerged:netherite_key").id("submerged:solidifier/netherite_key")
+
+
     //Mixer
     event.recipes.casting.mixing("360x casting:molten_quartz_enriched_iron", ["270x casting:molten_iron", "250x casting:molten_quartz", "250x submerged:molten_certus_quartz"]).id("casting:mixer/molten_quartz_enriched_iron")
 
