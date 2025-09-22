@@ -14,7 +14,11 @@
   //     "offset": [ 0, 0, 0 ],
   //     "surroundingBlocks": "default"
   // }
-  "mainSpawnIsland": null,
+  "mainSpawnIsland": {
+    "name": "Spawn",
+    "file": "spawn.snbt",
+    "spawns": "spawn_sphere"
+  },
   
   // A list of possible spawn points.
   // You may also directly use these in the template config, or use a reference created here.

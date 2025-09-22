@@ -1,0 +1,14 @@
+#BBL Shops Configs
+["Coin Values"]
+	#Value of a Copper Coin in base currency, default 1
+	# Default: 1
+	# Range: > 1
+	copperCoinValue = 1
+	#Value of an Iron Coin in base currency, default 10
+	# Default: 5
+	# Range: > 1
+	ironCoinValue = 5
+	#Value of a Gold Coin in base currency, default 25
+	# Default: 10
+	# Range: > 1
+	goldCoinValue = 10

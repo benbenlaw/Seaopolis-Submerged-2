@@ -8,22 +8,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4707A6E5670491BB"
-			tasks: [{
-				id: "7B93A52707438622"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			id: "71ED8FDC8116FA2E"
 			tasks: [{
 				id: "5051C2CCA54BECFC"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			id: "37BCD4377C90247F"
@@ -31,17 +22,18 @@
 				id: "4B5253909D3EE34C"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["5E101E9584E528BD"]
 			id: "6ACF9F582C35419D"
 			tasks: [{
 				id: "138872C7733EB8E2"
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "1DCD1AEDE638FF38"
@@ -55,8 +47,87 @@
 				id: "709A85602318FE3F"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 3.5d
 			y: -4.5d
+		}
+		{
+			id: "5E101E9584E528BD"
+			tasks: [{
+				id: "16149135D3D60984"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "51002D41A35D8D40"
+			tasks: [{
+				id: "04EE4437D44182A7"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "250A1F551823F2B1"
+			tasks: [{
+				id: "7D1158A249E82F29"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "5ACFB2D2ACB355B7"
+			tasks: [{
+				id: "69BF8F514CD47F08"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "05E84DFCD63503E7"
+			tasks: [{
+				id: "612BC77FF4F7B38E"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "39AEC7EC7659C646"
+			tasks: [{
+				id: "435FA03BBA861EF5"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "232393D07600071B"
+			tasks: [{
+				id: "659718B44F381FCB"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E101E9584E528BD"]
+			id: "2F79A1FE9DF2242F"
+			tasks: [{
+				id: "0FDF4021C7E68141"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 }

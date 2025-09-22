@@ -48,6 +48,10 @@
 	quest.054CA537D1B76563.quest_desc: ["A special kind of &lStick&r"]
 	quest.0550FF2DF58AFA77.quest_desc: ["A strange &lBottle&r"]
 	quest.05609948CC4023E4.quest_desc: ["The &lAltar&r is a mulitblock structure used to infuse items with aura "]
+	quest.05E84DFCD63503E7.quest_desc: [
+		"&lSubmerged 2&r has a &lPublic Server&r."
+		"Join from your multiplayer menu"
+	]
 	quest.065989E16779ACEA.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.066605A8923EC7C2.quest_desc: ["Used to make a &lPrinted Circuit Board&r"]
 	quest.072B502A9D9AF993.quest_desc: ["Have a chance to drop from &lWither Skeletons&r. Beheading is a 100% chance"]
@@ -131,12 +135,19 @@
 	quest.22724BA354777C5B.quest_desc: ["A reward for fully completing Chapter II"]
 	quest.227A319F037173CD.quest_desc: ["The &lMultiblock Controller&r allows for a lot of flexibility. Use \"G\" when hovering over the Multiblock Items to veiw additional infomration"]
 	quest.229DB26A03BEB8D3.quest_desc: ["&lLeaf Piles&r can be obtained when breaking &lLeaves&r with a &lSword.&r They can also be obtained through the Strainer from &lLeaves&r"]
+	quest.232393D07600071B.quest_desc: [
+		"You can use the &lDark Mode&r button at the bottom left of your inventory to enable various levels of &lDark Mode&r"
+		""
+		"By default, you can press the &lZ&r key to zoom in."
+	]
+	quest.232393D07600071B.title: "Useful Tips"
 	quest.2368948B16A73C16.quest_desc: ["Block of &lDried Kelp&r"]
 	quest.2401B5B7F6D93BF6.quest_desc: ["A strong key"]
 	quest.242855AD0C9FD843.quest_desc: ["&lPCB&r in one hand &lSandpaper&r in the other. Rub Rub Rub"]
 	quest.242855AD0C9FD843.title: "Sandpaper"
 	quest.24815AD753E56681.quest_desc: ["The heart of casting"]
 	quest.24D11865C7E087D9.quest_desc: ["&lPurified Sand&r may contain useful loot"]
+	quest.250A1F551823F2B1.quest_desc: ["&lSubmerged 2&r can be played with &lShaders&r. Open your&l Video Settings&r and click &lShader Packs&r on the top right!"]
 	quest.25D2032576886653.quest_desc: ["&lGravel&r inside an &lStrainer&r with &lEroding Water&r"]
 	quest.26CB9C3907B2D830.quest_desc: ["Very heavy"]
 	quest.27DBC76291B84F4A.quest_desc: ["A reward for fully completing Chapter III"]
@@ -155,6 +166,7 @@
 	quest.2E8998E7BEA8561E.quest_desc: ["Drops from &lKelp Resource Fish&r"]
 	quest.2E99980DBDED51CC.quest_desc: ["The next tier of &lMachine Frame&r"]
 	quest.2EA1F5D879D8AD5C.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
+	quest.2F79A1FE9DF2242F.quest_desc: ["The top right of your inventory has a &lBalance Icon&r. This can be used to purchase items from the shop"]
 	quest.2F89E216060ED396.quest_desc: ["Somewhere around the portal you may see a &lLock Block&r If not you can craft it"]
 	quest.2F89E216060ED396.title: "Nether Brick Lock"
 	quest.30664A79505BAECA.quest_desc: ["Crafted &lKelp&r"]
@@ -181,6 +193,7 @@
 		""
 		"This is not the only have to get plastic but its probably the easiest"
 	]
+	quest.39AEC7EC7659C646.quest_desc: ["This pack uses &lUltimine&r. Holding the selected key (grave) will allow you to break multiple blocks at once"]
 	quest.39E729D39BB42E9A.quest_desc: ["Used to smelt items"]
 	quest.3B13A6D359074E9C.quest_desc: ["The &lDiving Suit&r allows you to swim in the &lWater&r without taking damage. There are special kinds of fish swiming around"]
 	quest.3B694A316CDD67A8.quest_desc: ["&lQuartz Enriched Iron&r is an alloy of &lIron&r, &lCertus&r and &lQuartz&r. Can be made via &lCasting,&r &lCreate&r and &lPneumatic Craft&r"]
@@ -228,7 +241,6 @@
 	quest.4684B4C600A769A3.title: "Tin"
 	quest.46868DA16024DB68.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lEroding Water&r"]
 	quest.46F89AE2059C84B1.quest_desc: ["Made inside the &lMixer&r"]
-	quest.4707A6E5670491BB.quest_desc: ["Yep we are back again under the sea. Thanks for downloading &lSubmerged 2&r"]
 	quest.47685A5D46F0CFA2.quest_desc: ["Melting &lRaw Ores&r into there &lMolten&r version, Then use the &lSolidifier&r to create &lCopper&r"]
 	quest.47685A5D46F0CFA2.title: "Copper"
 	quest.4791A58937CDFD40.quest_desc: ["Let there be light"]
@@ -270,6 +282,7 @@
 	quest.4FC90D3B2F50FBED.quest_desc: ["Made inside the &lStrainer&r&l"]
 	quest.50BFF626432F1838.quest_desc: ["&lWater&r and &lLava&r can be mixed into &lMolten Obsidian&r and then &lSolidified&r into &lObsidian Blocks&r"]
 	quest.50F353C6D15C0062.quest_desc: ["Used to create &lUnassembled PCB&r"]
+	quest.51002D41A35D8D40.quest_desc: ["Follow the &lQuest Book&r, it will help you progress through the modpack "]
 	quest.5157C8485FB04C97.quest_desc: ["Smelted &lOre Block&r"]
 	quest.5157C8485FB04C97.title: "Zinc"
 	quest.5183A6641C0915D5.quest_desc: ["Made on the &lNatural Altar&r"]
@@ -307,6 +320,15 @@
 	quest.5A5C469E575BEA43.quest_desc: ["Another new &lInstrument&r"]
 	quest.5AB9533D848E1D60.quest_desc: ["Wool can be crafted from &lString&r"]
 	quest.5AB9533D848E1D60.title: "Wool"
+	quest.5ACFB2D2ACB355B7.quest_desc: [
+		"&lSubmerged 2 &ralso contains some optional &lResource Packs&r founds in the &lPause Menu&r -> Options -> &lResource Packs&r"
+		""
+		"&lBBL Colors Connected Textures&r, provides some connected texture for the colored blocks"
+		""
+		"&lSlightly Improved Font&r, provides a clean font"
+		""
+		"&lAE2 Blackout&r, Reduces the brightness of AE2 blocks and GUI's"
+	]
 	quest.5AF621FB37866959.quest_desc: ["Obtained through straining"]
 	quest.5B99151FECCA1C27.quest_desc: ["The inscriber is a way of creating circuits"]
 	quest.5BED0687ED3289A2.quest_desc: ["A powerful boss. Maybe your should make some armor for this"]
@@ -314,6 +336,11 @@
 	quest.5C9499875B7852D6.quest_desc: ["Routers, pnematiccraft, create, resource fish, nautec, natures aura"]
 	quest.5CBC0FCC4F12353D.quest_desc: ["Never fails"]
 	quest.5D385621A0300B63.quest_desc: ["Uses RF to charge a &lTime in a Bottle&r"]
+	quest.5E101E9584E528BD.quest_desc: [
+		"Welcome to &lSubmerged 2&r thanks for downloading."
+		""
+		"Please make sure you create your own &lSphere&r for your team before starting using &l/skyblock create&r or using the &lFull Stop&r button"
+	]
 	quest.5E732A6A8199E196.quest_desc: ["A &lNetherrite Fish&r can be created by breeding 2 &lLava Fish&r with &l64 Stone&r in a Tank Controller with a &lBreeding Upgrade&r. Most breeding recipe have a chance to work but most of the time will fail"]
 	quest.5E8C844ED9D1B309.quest_desc: ["A simple &lFurnace&r"]
 	quest.5EA10BA03219C901.quest_desc: ["Bigger Crafting"]
@@ -360,9 +387,9 @@
 	quest.6AAF56C47DDC7F4C.quest_desc: ["When used on a &lLock Block&r will create a new &lSphere&r. Caution these keys will over override all blocks in the area"]
 	quest.6AAF56C47DDC7F4C.title: "Sphere Key"
 	quest.6ACF9F582C35419D.quest_desc: [
-		"Chapter Challenges are for the ultimate completionist. You will be rewarded for each questline you fully complete."
+		"&lChapter Challenges&r are for the ultimate completionist. You will be rewarded for each questline you fully complete."
 		""
-		"After this new secret quests will be unlocked, Completing these will give you another rare reward!"
+		"After this new secret quests will be unlocked, Completing these will give you another reward!"
 	]
 	quest.6C8297AF7997580F.quest_desc: ["From the &lFluid Sieving Machine&r"]
 	quest.6CEA085FCE1AE11D.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lPurifying Water&r"]
@@ -439,17 +466,20 @@
 	quest.7FA03D985029C6E5.quest_desc: ["Made inside the &lStrainer&r from &lEroding Water&r and &lCobblestone&r, higher meshes give a higher chance"]
 	quest.7FAA02EEDC6D1384.quest_desc: ["Made inside the &lStrainer&r&l"]
 	quest.7FF77CD147DD819F.quest_desc: ["Dropping &lGravel&r in the Serum creates &lLiving Gravel&r"]
+	task.04EE4437D44182A7.title: "Quests"
 	task.05771BD55E54243D.title: "Suquenced Crafting"
 	task.0632451018DC9FE2.title: "Any #strainers:tier_4_meshes"
 	task.079D970DA99D9ECD.title: "Any #strainers:tier_4_meshes"
 	task.084D68B83261F841.title: "Any #minecraft:wool"
 	task.0C912172E2017A45.title: "Any #submerged:resources/iron"
 	task.0CE17CA550679354.title: "Any #submerged:terracotta_rocks"
+	task.0FDF4021C7E68141.title: "Shop"
 	task.100D79E08BFA9DD0.title: "Any #submerged:colored_logs"
 	task.105AA2A9EFDA67D9.title: "Any #submerged:keys/pressure_chamber"
 	task.10C7BAF3015071AA.title: "Any #submerged:colored_crafting_tables"
 	task.138872C7733EB8E2.title: "Chapter Challenges"
 	task.141AA1B900F36D13.title: "Any #submerged:terracotta_rocks"
+	task.16149135D3D60984.title: "Welcome To Submerged 2"
 	task.17D369EB5E6D81F5.title: "Any #submerged:resources/bronze"
 	task.190E4D1CD0FEA710.title: "Stone Fish"
 	task.1EB812EA3C8DCD75.title: "Something here to make tier 5 mesh not casting"
@@ -468,10 +498,12 @@
 	task.373B2021F4C84DC8.title: "Any #create:sandpaper"
 	task.37BDEC8BCFE7C54B.title: "Any #submerged:resources/aluminum"
 	task.3A05E332230BC2A0.title: "HMMMM"
+	task.3CC92D85977458D7.title: "Sphere"
 	task.3CE7725E35D3423D.title: "Any #submerged:resources/gold"
 	task.3E7898DCF1BE7505.title: "Smart Filter"
 	task.40CDD40105466460.title: "Any #c:strings"
 	task.4187CE2710651B5E.title: "Hmm"
+	task.435FA03BBA861EF5.title: "Ultimine"
 	task.450EA81646429A47.title: "Any #minecraft:terracotta"
 	task.4723A9AF61848794.title: "Chapter III"
 	task.4B4094BCB854E74C.title: "Any #submerged:colored_saplings"
@@ -489,11 +521,14 @@
 	task.5BB6CA183DCA0F18.title: "Hmm"
 	task.5ED7FBAE617F68B7.title: "Ether Gas"
 	task.5F7419E4B754650A.title: "Any #strainers:tier_6_meshes"
+	task.612BC77FF4F7B38E.title: "Public Server"
 	task.6344C1D56B51B602.title: "Fish Breeding Upgrade"
 	task.634515A8215441D5.title: "Gold?"
+	task.659718B44F381FCB.title: "Useful Tuips"
 	task.66A0260326E5EE3D.title: "Any #strainers:tier_5_meshes"
 	task.6789F11A29021F67.title: "Any #submerged:keys/sphere"
 	task.6806F556BF524339.title: "Any #submerged:colored_apples"
+	task.69BF8F514CD47F08.title: "Resource Packs"
 	task.6A9C7A848C7D27B1.title: "Symphonies"
 	task.6C8874050F9D2D14.title: "R"
 	task.6D5C3E6B282D3A4B.title: "Any #minecraft:terracotta"
@@ -505,6 +540,7 @@
 	task.797947FCBF0E6B8D.title: "Hmm"
 	task.7B2F85C0ECBAB928.title: "Something"
 	task.7B93A52707438622.title: "Welcome To Submerged 2"
+	task.7D1158A249E82F29.title: "Shaders"
 	task.7D891F7F6E1B417C.title: "Chapter II"
 	task.7ED628435CE48830.title: "Any #submerged:colored_planks"
 	task.7EF6A0EA559008A3.title: "Any #submerged:resources/tin"

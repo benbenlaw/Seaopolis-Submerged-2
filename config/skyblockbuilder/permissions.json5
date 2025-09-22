@@ -1,7 +1,7 @@
 {
   // Force the check if the world is skyblock
   // This enables the commands in worlds without any skyblock dimension
-  "forceSkyblockCheck": false,
+  "forceSkyblockCheck": true,
   
   // The minimum permission level to bypass the not-allowed permissions
   // Range: 0 - 4
