@@ -39,7 +39,7 @@ drainSaltWaterAmount = 500
 # Range: > 0
 drainCapacity = 128000
 #Determines whether to give the player a book when joining a new world
-spawnBookInInventory = true
+spawnBookInInventory = false
 #Determines whether the player should be able to collect salt water when picking up water in an ocean biome
 collectSaltWater = false
 #Determines whether the player should be able to collect pressurized air bottles by right-clicking on a bubble column

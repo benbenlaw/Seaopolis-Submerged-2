@@ -25,6 +25,9 @@ ServerEvents.tags('item', event => {
     function createResourceTag(resource, nugget, ingot, block) {
         event.get(`submerged:resources/${resource}`).add(nugget, ingot, block);
     }
+
+    //Duck Skins
+    event.get('submerged:duck_skins').add(['cute_companions_ducks:duck_collar', 'cute_companions_ducks:duck_crow', 'cute_companions_ducks:duck_donald', 'cute_companions_ducks:duck_parrot_01', 'cute_companions_ducks:duck_shopping_pants', 'cute_companions_ducks:duck_tshirt_black', 'cute_companions_ducks:duck_tshirt_blue', 'cute_companions_ducks:duck_zombie', 'cute_companions_ducks:duck_yellow', 'cute_companions_ducks:duck_wild', 'cute_companions_ducks:duck_tshirt_yellow', 'cute_companions_ducks:duck_tshirt_red', 'cute_companions_ducks:duck_tshirt_purple', 'cute_companions_ducks:duck_tshirt_pink', 'cute_companions_ducks:duck_tshirt_lime'])
 })
 
 ServerEvents.tags('block', event => {
@@ -38,4 +41,3 @@ ServerEvents.tags('block', event => {
     //Nether Portal Frame
     event.get('bblcore:nether_portal_frame').remove('minecraf:obsidian')
 })
-

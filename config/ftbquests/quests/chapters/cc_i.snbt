@@ -10,40 +10,332 @@
 		{
 			dependencies: ["7146FFDA00A9C873"]
 			id: "62145647753A3DEF"
+			rewards: [{
+				id: "081760C72A306261"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5208745F2AFCD032"
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3E77A3BEE08A4625"]
 			id: "22724BA354777C5B"
+			rewards: [{
+				id: "0E733FFF3170EE6C"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D891F7F6E1B417C"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 1.0d
+			y: -7.5d
 		}
 		{
+			dependencies: ["5F8F21780228A78A"]
 			id: "27DBC76291B84F4A"
+			rewards: [{
+				id: "48B33FF15E0FDF9E"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4723A9AF61848794"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["720357CCE1FC83FD"]
 			id: "55BE8F1D0B297B3F"
+			rewards: [{
+				id: "5C26B4FC1D33A442"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7653747AC529254F"
 				type: "checkmark"
 			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["62145647753A3DEF"]
+			id: "01B8A8A38428A291"
+			rewards: [{
+				id: "7B3E87F565A5488D"
+				item: {
+					count: 1
+					id: "minecraft:shears"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "1214BA696CADD77E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"01B8A8A38428A291"
+				"6636ED1448E42943"
+			]
+			id: "7A136D13050B2E25"
+			rewards: [{
+				id: "03BF76A0F0752137"
+				item: {
+					components: {
+						"casting:equipment_experience": 0
+						"casting:equipment_level": 1
+						"casting:unbreaking": 5
+					}
+					count: 1
+					id: "strainers:bamboo_mesh"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC5FA7BBF0D5512"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["62145647753A3DEF"]
+			id: "6636ED1448E42943"
+			rewards: [{
+				id: "3C8BBB552B319CDD"
+				item: {
+					count: 1
+					id: "minecraft:iron_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "0F905D9D1C7FC65F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22724BA354777C5B"]
+			id: "568CC680692389D0"
+			rewards: [{
+				count: 16
+				id: "54699782DB52EB2E"
+				item: {
+					count: 1
+					id: "strainers:purified_gravel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2D9C30341D2B3E8B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:coals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["22724BA354777C5B"]
+			id: "00D1B2C218714FA2"
+			rewards: [{
+				count: 32
+				id: "3E139125CB8193F8"
+				item: {
+					count: 1
+					id: "submerged:porcelain_clay"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "636D91D02A6098D4"
+				item: { count: 32, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
 			x: 0.5d
-			y: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"00D1B2C218714FA2"
+				"568CC680692389D0"
+			]
+			id: "0EC3C96555FA122A"
+			rewards: [{
+				id: "10F9213E32BC3AAB"
+				item: {
+					count: 1
+					id: "strainers:speed_upgrade_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05153BC108C01541"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27DBC76291B84F4A"]
+			id: "12F23F16840A8AAC"
+			rewards: [{
+				count: 12
+				id: "3F4AFA8608ED7A50"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "69DDED1A5C129CF6"
+				item: { count: 1, id: "submerged:stone_key" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"12F23F16840A8AAC"
+				"52AB60EFCCD14DDB"
+			]
+			id: "0DB0A6AA4BBC6530"
+			rewards: [{
+				count: 64
+				id: "5FD16F381D161ADB"
+				item: {
+					count: 1
+					id: "casting:black_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7242C7BE862210E5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27DBC76291B84F4A"]
+			icon: {
+				id: "minecraft:carved_pumpkin"
+			}
+			id: "52AB60EFCCD14DDB"
+			rewards: [{
+				count: 2
+				id: "05CFA48F3F29AB26"
+				item: {
+					count: 1
+					id: "minecraft:copper_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "everythingcopper:copper_golem"
+				id: "7AFE339DE24E7723"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55BE8F1D0B297B3F"]
+			id: "687DB89CA4CEB04E"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2070439419DE133A"
+				item: { count: 64, id: "minecraft:paper" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1BDD330117EFFB47"
+				"55BE8F1D0B297B3F"
+			]
+			id: "5BED0687ED3289A2"
+			tasks: [{
+				entity: "totemic:baykok"
+				id: "7AEF86D5AE117C18"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"687DB89CA4CEB04E"
+				"5BED0687ED3289A2"
+			]
+			id: "5666976BFCBC1AF9"
+			tasks: [{
+				id: "66CBC605A94596AD"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0EC3C96555FA122A"
+				"0DB0A6AA4BBC6530"
+				"5666976BFCBC1AF9"
+				"7A136D13050B2E25"
+			]
+			id: "7DD8B71FB620626E"
+			size: 2.0d
+			tasks: [{
+				id: "7065B414E85AA46D"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
 		}
 	]
 }

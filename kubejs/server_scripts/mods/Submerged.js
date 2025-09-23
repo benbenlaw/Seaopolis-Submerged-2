@@ -7,6 +7,26 @@ ServerEvents.recipes(event => {
     event.smelting('casting:molten_coal_bucket', 'submerged:solid_coal_bucket').id(`submerged:molten_coal_bucket`)
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
+    //Catalog Flares
+    event.shapeless('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {
+        A: 'minecraft:paper',
+        B: 'minecraft:book'
+    }).id('submerged:catalog_flares')
+
+    //Catalog Blocks
+    event.shapeless('submerged:catalog_simple_blocks', ['AAA', 'ABA', 'AAA'], {
+        A: 'minecraft:cobblestone',
+        B: 'minecraft:book'
+    }).id('submerged:catalog_simple_blocks')
+
+    //Wooden Key
+    event.shaped('submerged:wooden_key', ['AA ', 'AA ', ' A '], {
+        A: 'minecraft:stick'
+    }).id('submerged:wooden_key')
+
+    //Porcelain Clay
+    event.shapeless('2x submerged:porcelain_clay', ['minecraft:clay_ball', 'minecraft:bone_meal']).id('submerged:porcelain_clay')
+
     //Nether Brick Sphere
     event.shaped('submerged:nether_brick_sphere', [' A ', 'ABA', ' A '], {
         A: 'minecraft:nether_bricks',
@@ -116,7 +136,7 @@ ServerEvents.recipes(event => {
     //Key Mold
     event.shaped(`submerged:key_mold`, [' A ', 'ABA', ' A '], {
         A: 'casting:black_brick',
-        B: 'pipez:wrench'
+        B: 'submerged:wooden_key'
     }).id('submerged:key_mold')
 
     //Pressure Chamber Controller

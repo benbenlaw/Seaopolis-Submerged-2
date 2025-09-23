@@ -77,6 +77,11 @@ colors:yellow_tree
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+forcecraft:force_tree
+forcecraft:force_tree_with_bees
+forcecraft:ore_force
+forcecraft:ore_force_buried
+forcecraft:trees_force
 mekanism:ore_fluorite_buried
 mekanism:ore_fluorite_buried_retrogen
 mekanism:ore_fluorite_normal

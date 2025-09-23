@@ -10,50 +10,90 @@
 		{
 			dependencies: ["75F88A9D4B29EE85"]
 			id: "227A319F037173CD"
+			rewards: [{
+				id: "1C4C395DBA1D1AD1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2955FD20D1016B56"
 				item: { count: 1, id: "casting:multiblock_controller" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["227A319F037173CD"]
 			id: "421D6CB9883B8DB9"
+			rewards: [{
+				id: "27BD0E37A736BF84"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "22C1BFB5D73B2945"
 				item: { count: 1, id: "casting:multiblock_solidifier" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -9.5d
+			x: -5.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1250A2E0284B610A"]
 			id: "75F88A9D4B29EE85"
+			rewards: [{
+				id: "48C41F4D68959CC5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17D369EB5E6D81F5"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["75F88A9D4B29EE85"]
 			id: "34D8E0C2C75EE0D5"
+			rewards: [{
+				id: "02ADCDE91F705901"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74EB0278C3EC0FE8"
 				item: { count: 1, id: "totemic:totem_whittling_knife" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.5d
+			x: -2.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["34D8E0C2C75EE0D5"]
 			id: "085D8546E3ABDB6F"
+			rewards: [{
+				id: "4046F002FC4AD8C6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "totemic:totem_base"
@@ -64,36 +104,51 @@
 				to_observe: "totemic:totem_base"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: -9.5d
+			x: -4.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["085D8546E3ABDB6F"]
 			id: "34858FC6AB49B00E"
+			rewards: [{
+				id: "70B3D383C24D2DEC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "705FE294133C7D16"
 				item: { count: 1, id: "totemic:totemic_staff" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["34858FC6AB49B00E"]
 			id: "02248B9217CEB138"
+			rewards: [{
+				id: "634A855063E7DB8F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05C42642C44322D6"
 				item: { count: 1, id: "totemic:flute" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
 				"02248B9217CEB138"
 				"56449AFC28F7A38B"
-				"1CCA8DBA3CB8DC86"
 			]
 			id: "6326483E709D91E0"
 			rewards: [{
@@ -111,74 +166,126 @@
 				id: "4B9007842B48EFFA"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["34858FC6AB49B00E"]
 			id: "56449AFC28F7A38B"
+			rewards: [{
+				count: 2
+				id: "78781F8DA8588B25"
+				item: {
+					count: 1
+					id: "totemic:wind_chime"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36B8CC2F29525323"
 				item: { count: 1, id: "totemic:wind_chime" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.5d
+			x: -3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6326483E709D91E0"]
 			id: "427A8085194B782A"
+			rewards: [{
+				id: "42E6D80EC63586DA"
+				item: {
+					count: 1
+					id: "opolisutilities:animal_net"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AF2C619082B5F62"
 				item: { count: 1, id: "minecraft:leather" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["427A8085194B782A"]
 			id: "7E1ADA24FFF8E8D4"
+			rewards: [{
+				id: "00BA3E6FA64DE583"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D879282F4C7FB01"
 				item: { count: 1, id: "totemic:drum" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["7E1ADA24FFF8E8D4"]
+			dependencies: ["1CCA8DBA3CB8DC86"]
 			id: "54541BE73464F5CE"
+			rewards: [{
+				id: "4F4A3D2F7CFD207F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32B870D4260EC013"
 				item: { count: 1, id: "totemic:buffalo_tooth" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["54541BE73464F5CE"]
 			id: "5A5C469E575BEA43"
+			rewards: [{
+				id: "793B93D148B10CF5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "222B581B7759BBD0"
 				item: { count: 1, id: "totemic:rattle" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["34858FC6AB49B00E"]
+			dependencies: [
+				"49F58537A8E74821"
+				"04F08A8D2F5B1D11"
+			]
 			id: "1CCA8DBA3CB8DC86"
+			rewards: [{
+				id: "3A18A2249D279A6A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "415B436BED243030"
 				item: { count: 1, id: "totemic:jingle_dress" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A5C469E575BEA43"]
@@ -186,6 +293,14 @@
 				id: "minecraft:parrot_spawn_egg"
 			}
 			id: "0F0AE3A439A616B1"
+			rewards: [{
+				id: "71D8F0A10BFD0185"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1B126FE7BD337B0E"
@@ -202,75 +317,337 @@
 					type: "observation"
 				}
 			]
-			x: -1.5d
-			y: -1.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0F0AE3A439A616B1"]
 			id: "35E65E5A07F86141"
+			rewards: [{
+				id: "2A7BEAF6C779F336"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "224294D5809B98FE"
 				item: { count: 1, id: "totemic:eagle_bone" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["35E65E5A07F86141"]
 			id: "1BDD330117EFFB47"
+			rewards: [{
+				id: "0D68819142859587"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DBDE57C8BBD9ADB"
 				item: { count: 1, id: "totemic:eagle_bone_whistle" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1BDD330117EFFB47"]
-			id: "5BED0687ED3289A2"
-			tasks: [{
-				entity: "totemic:baykok"
-				id: "7AEF86D5AE117C18"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: 1.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0F0AE3A439A616B1"]
 			id: "30F74BFAFDC236C0"
+			rewards: [{
+				id: "387DCAFB151014BA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "26E61FD2B1352016"
 				item: { count: 1, id: "totemic:eagle_feather" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54541BE73464F5CE"]
+			id: "134FEAF3718FD7DD"
+			rewards: [{
+				id: "08170E10035FD93B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "721C2BCAD06FB252"
+				item: { count: 1, id: "totemic:buffalo_meat" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54541BE73464F5CE"]
+			id: "6C1C19F4F151D303"
+			rewards: [{
+				id: "211F0B657929411D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3396D7A714ABE73E"
+				item: { count: 1, id: "totemic:buffalo_hide" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75F88A9D4B29EE85"]
+			id: "3DDF1D2DEC7BF8B1"
+			rewards: [{
+				id: "74C4A954329E3937"
+				item: {
+					count: 1
+					id: "routers:exporter_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D71334EA6E5CF89"
+				item: { count: 1, id: "routers:exporter_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["75F88A9D4B29EE85"]
+			id: "7F7986A1E0E6E1A6"
+			rewards: [{
+				id: "5086E2B6083196BE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B89229B4C84218C"
+				item: { count: 1, id: "routers:router_connector" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["75F88A9D4B29EE85"]
+			id: "15E0192D10A8449B"
+			rewards: [{
+				id: "365B35AE99DCFC03"
+				item: {
+					count: 1
+					id: "routers:importer_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F8A53F454829801"
+				item: { count: 1, id: "routers:importer_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["541BEBD9686996FD"]
+			id: "49F58537A8E74821"
+			rewards: [{
+				id: "228FB92655AB26A5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA187B56211D266"
+				item: { count: 1, id: "minecraft:paper" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6874D44A0FBA0F2D"
+				"67A4C20CB8B19D6B"
+			]
+			id: "541BEBD9686996FD"
+			rewards: [{
+				id: "316D58D3BA38F92C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53D891297605ED89"
+				item: { count: 1, id: "opolisutilities:soaked_paper" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4426852988EE8AA6"]
+			id: "6874D44A0FBA0F2D"
+			rewards: [{
+				id: "65D1A6E8CD778E86"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F4A8FDB9FF2110C"
+				item: { count: 1, id: "opolisutilities:drying_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34D8E0C2C75EE0D5"]
+			id: "67A4C20CB8B19D6B"
+			rewards: [{
+				id: "640715F09D970D8B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17353E68992A6F5F"
+				item: { count: 1, id: "opolisutilities:log_sheet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7E1ADA24FFF8E8D4"]
+			id: "5DBD3E8914EA56F2"
+			rewards: [{
+				id: "429B9E813E6FA5B0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28159E67BB10AC6F"
+				item: { count: 1, id: "totemic:cedar_sapling" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DBD3E8914EA56F2"]
+			id: "04F08A8D2F5B1D11"
+			rewards: [{
+				id: "4F1EE8B1C70A12F1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "104ED172AD74E58F"
+				item: { count: 1, id: "totemic:cedar_leaves" }
 				type: "item"
 			}]
 			x: -2.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["54541BE73464F5CE"]
-			id: "134FEAF3718FD7DD"
+			dependencies: [
+				"427A8085194B782A"
+				"49F58537A8E74821"
+			]
+			id: "5159C74515CE1A17"
+			rewards: [{
+				id: "4A1321003AC1E640"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "721C2BCAD06FB252"
-				item: { count: 1, id: "totemic:buffalo_meat" }
+				id: "77348F457F08A3A2"
+				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["54541BE73464F5CE"]
-			id: "6C1C19F4F151D303"
-			tasks: [{
-				id: "3396D7A714ABE73E"
-				item: { count: 1, id: "totemic:buffalo_hide" }
+			dependencies: ["5159C74515CE1A17"]
+			id: "5940F59F6ECC844D"
+			rewards: [{
+				id: "6F40941FCC87DEE6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
 				type: "item"
 			}]
-			x: -2.5d
+			tasks: [{
+				id: "03BD2FC033600F15"
+				item: { count: 1, id: "submerged:catalog_simple_blocks" }
+				type: "item"
+			}]
+			x: -3.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["5A5C469E575BEA43"]
+			id: "41610C0D25DFEAAA"
+			rewards: [{
+				id: "1ADEC37E29A2ADE2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EB49752F29AF1B6"
+				item: { count: 1, id: "totemic:infused_flute" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 }

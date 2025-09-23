@@ -1,0 +1,24 @@
+{
+  "catalogue_item": {
+    "id": "submerged:catalog_flares"
+  },
+  "items": [
+    { "stack": { "id": "submerged:white_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:blue_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:green_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:red_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:yellow_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:black_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:orange_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:purple_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:pink_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:lime_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:cyan_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:magenta_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:brown_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:light_gray_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:gray_flare", "count": 1 }, "price": 5 },
+    { "stack": { "id": "submerged:light_blue_flare", "count": 1 }, "price": 5 }
+
+  ]
+}

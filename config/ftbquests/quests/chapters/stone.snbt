@@ -10,6 +10,14 @@
 		{
 			dependencies: ["40AFDE0DB64954B8"]
 			id: "4A4250E8D7E9B00D"
+			rewards: [{
+				id: "0E1891E5ADE8DC18"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BE4073471DFE579"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -21,6 +29,14 @@
 		{
 			dependencies: ["4A4250E8D7E9B00D"]
 			id: "5E8C844ED9D1B309"
+			rewards: [{
+				id: "30473C0B05E4E04B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "522E56F25C8FA699"
 				item: { count: 1, id: "minecraft:furnace" }
@@ -32,6 +48,14 @@
 		{
 			dependencies: ["5E8C844ED9D1B309"]
 			id: "7177E1FA31A3AAFB"
+			rewards: [{
+				id: "6D2E7226B83A9263"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54229DDDB12D8B63"
 				item: { count: 1, id: "minecraft:charcoal" }
@@ -43,6 +67,14 @@
 		{
 			dependencies: ["7177E1FA31A3AAFB"]
 			id: "4791A58937CDFD40"
+			rewards: [{
+				id: "1460F2E1225CA388"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1982500C85C02FE6"
 				item: { count: 1, id: "minecraft:torch" }
@@ -54,6 +86,14 @@
 		{
 			dependencies: ["4791A58937CDFD40"]
 			id: "1BC3F844965580B5"
+			rewards: [{
+				id: "35BB92DD09716D43"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EBEF93CE7535797"
 				item: { count: 1, id: "bbllights:invisible_light" }
@@ -68,6 +108,14 @@
 				"7177E1FA31A3AAFB"
 			]
 			id: "46868DA16024DB68"
+			rewards: [{
+				id: "11CFE307F812F347"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EFD79C2773A22DA"
 				item: { count: 1, id: "strainers:eroding_salt_mulch" }
@@ -79,6 +127,14 @@
 		{
 			dependencies: ["46868DA16024DB68"]
 			id: "7FA03D985029C6E5"
+			rewards: [{
+				id: "2A801150FB153AF2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54EA5107E37F5DD0"
 				item: { count: 1, id: "minecraft:gravel" }
@@ -90,6 +146,14 @@
 		{
 			dependencies: ["7FA03D985029C6E5"]
 			id: "51B2B23CA507CF16"
+			rewards: [{
+				id: "633BD1A3D9392D0D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "47D3CFA69C9F6BEC"
 				item: { count: 1, id: "minecraft:sand" }
@@ -101,6 +165,110 @@
 		{
 			dependencies: ["51B2B23CA507CF16"]
 			id: "6CEA085FCE1AE11D"
+			rewards: [{
+				id: "24ED18964E89B9E1"
+				item: {
+					components: {
+						"opolisutilities:entity_data": {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							Air: 300s
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							Datadroptimer: 0
+							Dataskin: 0
+							DeathTime: 0s
+							FallDistance: 0.0f
+							FallFlying: 0b
+							Fire: -1s
+							ForcedAge: 0
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 10.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							LeftHanded: 0b
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							NeoForgeData: {
+								"naturesaura:time_alive": 40
+							}
+							OnGround: 1b
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								8202.5d
+								138.0d
+								8.5d
+							]
+							Rotation: [
+								-6.1911316f
+								0.0f
+							]
+							Sitting: 0b
+							Texture: "duck-none"
+							UUID: [I;
+								1375371611
+								-1079163180
+								-1686565061
+								-835845975
+							]
+							attributes: [
+								{
+									base: 0.0d
+									id: "minecraft:generic.oxygen_bonus"
+								}
+								{
+									base: 16.0d
+									id: "minecraft:generic.follow_range"
+									modifiers: [{
+										amount: 0.04736211378122011d
+										id: "minecraft:random_spawn_bonus"
+										operation: "add_multiplied_base"
+									}]
+								}
+								{
+									base: 0.3d
+									id: "minecraft:generic.movement_speed"
+								}
+							]
+							"neoforge:attachments": {
+								"accessories:inventory_holder": { }
+							}
+							"neoforge:spawn_type": "SPAWN_EGG"
+						}
+						"opolisutilities:entity_type": "cute_companions_ducks:duck"
+					}
+					count: 1
+					id: "opolisutilities:animal_net"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D80B7525C2F67BC"
 				item: { count: 1, id: "strainers:purifying_salt_mulch" }
@@ -112,6 +280,15 @@
 		{
 			dependencies: ["6CEA085FCE1AE11D"]
 			id: "749E5D94D31ED8FE"
+			rewards: [{
+				count: 4
+				id: "2E3472D3A90A9F01"
+				item: {
+					count: 1
+					id: "strainers:purified_dirt"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "44CC019CD19E5A25"
 				item: { count: 1, id: "strainers:purified_dirt" }
@@ -123,6 +300,15 @@
 		{
 			dependencies: ["6CEA085FCE1AE11D"]
 			id: "24D11865C7E087D9"
+			rewards: [{
+				count: 4
+				id: "10DF52DEC063DC03"
+				item: {
+					count: 1
+					id: "strainers:purified_sand"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F3B20214655C7D4"
 				item: { count: 1, id: "strainers:purified_sand" }
@@ -134,6 +320,15 @@
 		{
 			dependencies: ["6CEA085FCE1AE11D"]
 			id: "418B15AAD9AAC544"
+			rewards: [{
+				count: 4
+				id: "6866423B406B944E"
+				item: {
+					count: 1
+					id: "strainers:purified_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F0B6D18D34EEE58"
 				item: { count: 1, id: "strainers:purified_gravel" }
@@ -145,6 +340,15 @@
 		{
 			dependencies: ["224FDE5540E81488"]
 			id: "7BCF5A38B322D62D"
+			rewards: [{
+				count: 4
+				id: "62E18D82AE2714BE"
+				item: {
+					count: 1
+					id: "strainers:coal_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B50F3423BC39687"
 				item: { count: 1, id: "strainers:coal_ore_piece" }
@@ -156,6 +360,14 @@
 		{
 			dependencies: ["7BCF5A38B322D62D"]
 			id: "757AE947783CC018"
+			rewards: [{
+				id: "4D3ABD69B0213F35"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62B84254E16BEC84"
 				item: { count: 1, id: "minecraft:coal_ore" }
@@ -167,6 +379,14 @@
 		{
 			dependencies: ["757AE947783CC018"]
 			id: "1B7B93DE3E0DE467"
+			rewards: [{
+				id: "68788768C91D33C9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "777583F27A0AB521"
 				item: { count: 1, id: "minecraft:coal" }
@@ -178,6 +398,14 @@
 		{
 			dependencies: ["51B2B23CA507CF16"]
 			id: "13FB4D0A5738FCD5"
+			rewards: [{
+				id: "71F8E357BFDC7D2B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4111CF39667379B7"
 				item: { count: 1, id: "minecraft:glass" }
@@ -189,6 +417,14 @@
 		{
 			dependencies: ["7FA03D985029C6E5"]
 			id: "751A9028DAB1FE15"
+			rewards: [{
+				id: "270583AD8B073507"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "76346E3098A0F773"
 				item: { count: 1, id: "minecraft:flint" }
@@ -198,30 +434,57 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["749E5D94D31ED8FE"]
+			dependencies: [
+				"749E5D94D31ED8FE"
+				"2CCD5830F7B08BD2"
+			]
 			id: "02F116EBFE4FD4B4"
+			rewards: [{
+				id: "596E848997B6382A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E8DC115C4C1D1FB"
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["02F116EBFE4FD4B4"]
 			id: "3E74342092C9CA80"
+			rewards: [{
+				id: "4BB00FF31BCB2CAD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CA6F85BECF16A09"
 				item: { count: 1, id: "minecraft:brick" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["418B15AAD9AAC544"]
 			id: "224FDE5540E81488"
+			rewards: [{
+				id: "30F0A16144729E0A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BF82B3EA305499A"
 				item: { count: 1, id: "strainers:flint_mesh" }
@@ -231,19 +494,36 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3E74342092C9CA80"]
+			dependencies: ["7DDF67381AA99130"]
 			id: "13C8D261320280C2"
+			rewards: [{
+				count: 8
+				id: "099EB06602633F67"
+				item: {
+					count: 1
+					id: "casting:black_brick"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2822437A1BADC2EE"
 				item: { count: 1, id: "casting:black_brick" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["24D11865C7E087D9"]
 			id: "12F09E8E096AB651"
+			rewards: [{
+				id: "5F4F5D6E5AC5A1EA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62F8E686D7955F6D"
 				item: { count: 1, id: "minecraft:kelp" }
@@ -255,6 +535,14 @@
 		{
 			dependencies: ["24D11865C7E087D9"]
 			id: "1618D56C70832CF0"
+			rewards: [{
+				id: "096C3B86AFC0A144"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5359A3AB9DEF2D51"
 				item: { count: 1, id: "minecraft:cactus" }
@@ -266,6 +554,15 @@
 		{
 			dependencies: ["6CEA085FCE1AE11D"]
 			id: "1F380688230A73A3"
+			rewards: [{
+				count: 4
+				id: "514791414C83EF60"
+				item: {
+					count: 1
+					id: "strainers:purified_stone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2ED9AB7B66F6181B"
 				item: { count: 1, id: "strainers:purified_stone" }
@@ -273,6 +570,119 @@
 			}]
 			x: -1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["751A9028DAB1FE15"]
+			id: "0FD4274AA2B39020"
+			rewards: [{
+				id: "36C98D247F9E4A64"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF08EA4B8654DD5"
+				item: { count: 1, id: "smartcrafting:smart_crafting_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13FB4D0A5738FCD5"]
+			id: "385909B22B2D74E3"
+			rewards: [{
+				id: "57C549E969481CC6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B26295FDDCB4FA2"
+				item: { count: 1, id: "connectedglass:borderless_glass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CE12BF1524E0C75"
+				"749E5D94D31ED8FE"
+			]
+			id: "2CCD5830F7B08BD2"
+			rewards: [{
+				id: "2E80355F691BADB0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7FF024AAFE532F"
+				item: { count: 1, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"02F116EBFE4FD4B4"
+				"2CCD5830F7B08BD2"
+			]
+			id: "7DDF67381AA99130"
+			rewards: [{
+				count: 4
+				id: "2D5A58346A510150"
+				item: {
+					count: 1
+					id: "submerged:porcelain_clay"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FA9DBB6BE22FC16"
+				item: { count: 1, id: "submerged:porcelain_clay" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13FB4D0A5738FCD5"]
+			id: "5020ADB35E4891F3"
+			rewards: [{
+				id: "52DDB024F11D294D"
+				item: {
+					count: 1
+					id: "strainers:wooden_strainer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D48C5A24882EF9E"
+				item: { count: 1, id: "strainers:strainer_tank" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13C8D261320280C2"]
+			id: "501775813AD19915"
+			tasks: [{
+				id: "53B77B628649D756"
+				item: { count: 1, id: "casting:fluid_mover" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
 		}
 	]
 }

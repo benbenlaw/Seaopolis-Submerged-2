@@ -7,4 +7,6 @@
 	#Example: diamond|Diamond Tools=EFFICIENCY,SILK_TOUCH,TORCH_PLACING;minecraft:diamond,#minecraft:planks 
 	#This defines a group 'diamond' with display name 'Diamond Tools' containing modifiers EFFICIENCY, SILK_TOUCH, TORCH_PLACING
 	#and applicable items 'minecraft:diamond' and all items with tag 'minecraft:planks'
-	modifier_groups = []
+	modifier_groups = [
+		"meshes|Meshes =UNBREAKING;#strainers:meshes"
+	]

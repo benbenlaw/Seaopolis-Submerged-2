@@ -1,0 +1,574 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Hand-delivers the sacred texts on first login. Read it—or don’t. I'm not your conscience.
+enableAutoGuidebookDelivery = true
+# Helpful whispers on what the heck that cucumber is for.
+enableItemTooltips = true
+# Little status mumbles when your co-pilot disembarks.
+enableShoulderDismountMessages = true
+# More stats than anyone asked for. Defaults to off—mercifully.
+enableJadeHamsterDebugInfo = false
+# Do we yeet the hamster? ('G' by default).
+enableHamsterThrowing = true
+# Gate cheek-pouch storage behind gourmet cuisine, because drama.
+requireFoodMixToUnlockCheeks = true
+# Changes the default entity name from 'Hamster' to 'Hampter'. Note: This has no visible effect in vanilla Minecraft, as mobs don't show nameplates by default. It's primarily for use with mods like Auto Leveling that display entity names.
+useHampterName = false
+# Should Ravagers, the hulking beasts of destruction, flee in terror from a tiny ball of fluff? Yes. Yes, they should.
+enableRavagerFlee = true
+# Turns your hamster into a mobile arachnid-repellent unit. Highly effective.
+enableSpiderFlee = true
+# How often a sitting hamster gets the sudden urge to clean. It's a 1-in-X chance per tick, so lower numbers mean a higher chance for cleaning. For example, 1200 means on average, it'll clean about once a minute. 300 ≈ every 15 secs, and 5000 ≈ every 4 mins. Congratulations— now you know enough to be dangerous.
+cleaningChanceDenominator = 1200
+# Time-out after using your living projectile. (20 ticks = 1 s)
+hamsterThrowCooldown = 2400
+# When the sugar rush ends, force a breather. (20 ticks = 1 s)
+steamedGreenBeansBuffCooldown = 6000
+# Force a cool-down after striking it rich. Off by default, since this can't happen again anyway without another mount/dismount on the shoulder.
+enableIndependentDiamondSeekCooldown = false
+# Cooldown before your hamster can go on another treasure hunt. (20 ticks = 1 s)
+independentOreSeekCooldownTicks = 2400
+# Mandatory time-out after a successful heist to prevent serial kleptomania. (20 ticks = 1s). WARNING: Increasing this cooldown can dramatically change the diamond stealing mechanic, since that AI goal sometimes re-runs multiple times in a row when the hamster has trouble pathfinding to the item that it wants to steal. So instead of increasing this, you should probably just stop dropping your diamonds on the ground everywhere, butter fingers.
+stealCooldownTicks = 100
+# Hamsters need their space. (20 ticks = 1 s)
+breedingCooldownTicks = 6000
+# The official list of bribes for convincing wild fluffballs to join your cause. By default, it's just sliced cucumbers. Feel free to add 'minecraft:nether_star' if you enjoy making poor life choices. Compatible with Cultural Delights by default!
+tamingFoods = [
+    "adorablehamsterpets:sliced_cucumber",
+    "culturaldelights:cut_cucumber"
+]
+# The hamster's everyday menu. These items will heal them or, if they're at full health, might give them... ideas about starting a family. Don't make it weird.
+standardFoods = [
+    "adorablehamsterpets:hamster_food_mix",
+    "adorablehamsterpets:sunflower_seeds",
+    "adorablehamsterpets:green_beans",
+    "adorablehamsterpets:cucumber",
+    "adorablehamsterpets:green_bean_seeds",
+    "adorablehamsterpets:cucumber_seeds",
+    "minecraft:apple",
+    "minecraft:carrot",
+    "minecraft:melon_slice",
+    "minecraft:sweet_berries",
+    "minecraft:beetroot",
+    "minecraft:wheat",
+    "minecraft:wheat_seeds",
+    "farmersdelight:cabbage_leaf",
+    "farmersdelight:cabbage_seeds",
+    "farmersdelight:tomato_seeds",
+    "farmersdelight:cooked_rice",
+    "farmersdelight:pumpkin_slice",
+    "culturaldelights:cut_cucumber",
+    "culturaldelights:cucumber_seeds",
+    "culturaldelights:corn_kernels"
+]
+# The list of items a hamster might try to... 'borrow' if you leave them on the ground. A chase will ensue. You have been warned.
+stealableItems = [
+    "minecraft:diamond"
+]
+# The list of questionable substances that grant your hamster temporary superpowers. By default, it's just steamed green beans.
+buffFoods = [
+    "adorablehamsterpets:steamed_green_beans"
+]
+# The specific item that convinces a tamed hamster your shoulder is the best seat in the house. Defaults to cheese, because of course it does.
+shoulderMountFoods = [
+    "adorablehamsterpets:cheese"
+]
+# The one-time offering required to earn a hamster's ultimate trust, unlocking their cheek inventory. Make it something special. Or don't. See if I care.
+pouchUnlockFoods = [
+    "adorablehamsterpets:hamster_food_mix"
+]
+# Items on this list are so delicious, your hamster will never refuse them, even if you feed it to them twice. For the truly spoiled rodent.
+repeatableFoods = [
+    "adorablehamsterpets:hamster_food_mix",
+    "adorablehamsterpets:steamed_green_beans"
+]
+# The specific items a hamster will eat directly from its cheek pouch to heal itself when injured. Keep it exclusive, or let them feast on enchanted apples. Your call.
+autoHealFoods = [
+    "adorablehamsterpets:hamster_food_mix"
+]
+# A specific list of items and tags that are allowed in the hamster's cheek pouch. You can add things to this list to bypass the default 'no tools or big blocks' rule, since this overrides the 'disallowed' settings.
+pouchAllowedItems = [
+    "minecraft:torch",
+    "minecraft:soul_torch",
+    "minecraft:redstone_torch",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "#minecraft:rails",
+    "#minecraft:pressure_plates"
+]
+# A list of specific item IDs that are NEVER allowed in the cheek pouch, unless they are on the 'Allowed' list above. Mostly stuff that's too big, too pointy, or just plain illogical. Lol.
+pouchDisallowedItems = [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:trident",
+    "minecraft:fishing_rod",
+    "minecraft:shield",
+    "minecraft:elytra",
+    "minecraft:turtle_helmet",
+    "minecraft:carved_pumpkin",
+    "minecraft:player_head",
+    "minecraft:zombie_head",
+    "minecraft:skeleton_skull",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:creeper_head",
+    "minecraft:dragon_head",
+    "minecraft:piglin_head",
+    "minecraft:minecart",
+    "minecraft:chest_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:saddle",
+    "minecraft:bucket",
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:milk_bucket",
+    "minecraft:powder_snow_bucket",
+    "minecraft:axolotl_bucket",
+    "minecraft:tadpole_bucket",
+    "minecraft:cod_bucket",
+    "minecraft:pufferfish_bucket",
+    "minecraft:salmon_bucket",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:painting",
+    "minecraft:armor_stand",
+    "minecraft:end_crystal",
+    "minecraft:spyglass",
+    "minecraft:nether_star",
+    "minecraft:dragon_egg",
+    "minecraft:bundle",
+    "adorablehamsterpets:hamster_guide_book"
+]
+# A list of item tags that are NEVER allowed in the cheek pouch, unless they are on the 'Allowed' list above. A broad-spectrum approach to preventing your hamster from swallowing an entire sword.
+pouchDisallowedTags = [
+    "#minecraft:axes",
+    "#minecraft:hoes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:swords",
+    "#minecraft:trimmable_armor",
+    "#minecraft:beds",
+    "#minecraft:banners",
+    "#minecraft:doors",
+    "#minecraft:boats"
+]
+# Adjusts hamster spawn frequency. Higher = more chaos. 1 = blissful silence.
+spawnWeight = 30
+# Maximum hamsters per spawn group. Because sometimes one just isn't cute enough.
+maxGroupSize = 1
+# A list of biome tags where hamsters can spawn. Format: 'mod_id:tag_name'. For example, 'minecraft:is_forest'.
+spawnBiomeTags = [
+    "minecraft:is_beach",
+    "minecraft:is_badlands",
+    "minecraft:is_savanna",
+    "minecraft:is_jungle",
+    "minecraft:is_forest",
+    "minecraft:is_taiga",
+    "minecraft:is_mountain"
+]
+# A list of 'c:' convention biome tags where hamsters can spawn. Used for broad mod compatibility. By default, this includes most overworld tags as a 'catch-all', and the filtering for different hamster variants in each biome is hard coded.
+spawnBiomeConventionTags = [
+    "c:is_cold",
+    "c:is_hot",
+    "c:is_temperate",
+    "c:is_dry",
+    "c:is_wet",
+    "c:is_dense_vegetation",
+    "c:is_sparse_vegetation"
+]
+# A list of specific biome IDs to ALWAYS allow spawns in, even if they don't match the tags above. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
+includeBiomes = [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:grove",
+    "minecraft:frozen_river",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:ice_spikes",
+    "minecraft:cherry_grove",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:desert",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_savanna",
+    "minecraft:stony_peaks",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:stony_shore",
+    "minecraft:mushroom_fields",
+    "minecraft:deep_dark",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:beach",
+    "terralith:desert_canyon",
+    "terralith:cave/andesite_caves",
+    "terralith:cave/crystal_caves",
+    "terralith:cave/deep_caves",
+    "terralith:cave/desert_caves",
+    "terralith:cave/diorite_caves",
+    "terralith:cave/frostfire_caves",
+    "terralith:cave/fungal_caves",
+    "terralith:cave/granite_caves",
+    "terralith:cave/ice_caves",
+    "terralith:cave/infested_caves",
+    "terralith:cave/mantle_caves",
+    "terralith:cave/thermal_caves",
+    "terralith:cave/tuff_caves",
+    "terralith:cave/underground_jungle",
+    "terralith:alpha_islands_winter",
+    "terralith:alpha_islands",
+    "terralith:alpine_grove",
+    "terralith:alpine_highlands",
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:ancient_sands",
+    "terralith:arid_highlands",
+    "terralith:ashen_savanna",
+    "terralith:basalt_cliffs",
+    "terralith:birch_taiga",
+    "terralith:blooming_plateau",
+    "terralith:blooming_valley",
+    "terralith:brushland",
+    "terralith:bryce_canyon",
+    "terralith:caldera",
+    "terralith:cloud_forest",
+    "terralith:cold_shrubland",
+    "terralith:desert_oasis",
+    "terralith:desert_spires",
+    "terralith:emerald_peaks",
+    "terralith:forested_highlands",
+    "terralith:fractured_savanna",
+    "terralith:frozen_cliffs",
+    "terralith:glacial_chasm",
+    "terralith:granite_cliffs",
+    "terralith:gravel_beach",
+    "terralith:gravel_desert",
+    "terralith:haze_mountain",
+    "terralith:highlands",
+    "terralith:hot_shrubland",
+    "terralith:ice_marsh",
+    "terralith:jungle_mountains",
+    "terralith:lavender_forest",
+    "terralith:lavender_valley",
+    "terralith:lush_desert",
+    "terralith:lush_valley",
+    "terralith:mirage_isles",
+    "terralith:moonlight_grove",
+    "terralith:moonlight_valley",
+    "terralith:mountain_steppe",
+    "terralith:orchid_swamp",
+    "terralith:painted_mountains",
+    "terralith:red_oasis",
+    "terralith:rocky_jungle",
+    "terralith:rocky_mountains",
+    "terralith:rocky_shrubland",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley",
+    "terralith:sandstone_valley",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:scarlet_mountains",
+    "terralith:shield_clearing",
+    "terralith:shield",
+    "terralith:shrubland",
+    "terralith:siberian_grove",
+    "terralith:siberian_taiga",
+    "terralith:skylands_autumn",
+    "terralith:skylands_spring",
+    "terralith:skylands_summer",
+    "terralith:skylands_winter",
+    "terralith:skylands",
+    "terralith:snowy_badlands",
+    "terralith:snowy_cherry_grove",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_shield",
+    "terralith:steppe",
+    "terralith:stony_spires",
+    "terralith:temperate_highlands",
+    "terralith:tropical_jungle",
+    "terralith:valley_clearing",
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks",
+    "terralith:warm_river",
+    "terralith:warped_mesa",
+    "terralith:white_cliffs",
+    "terralith:white_mesa",
+    "terralith:windswept_spires",
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands",
+    "terralith:yellowstone",
+    "terralith:yosemite_cliffs",
+    "terralith:yosemite_lowlands",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:wasteland_steppe",
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:mystic_grove",
+    "biomesoplenty:orchard",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:woodland",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "byg:lush_stacks",
+    "byg:orchard",
+    "byg:frosted_coniferous_forest",
+    "byg:allium_fields",
+    "byg:amaranth_fields",
+    "byg:rose_fields",
+    "byg:temperate_grove",
+    "byg:coconino_meadow",
+    "byg:skyris_vale",
+    "byg:prairie",
+    "byg:autumnal_valley",
+    "byg:cardinal_tundra",
+    "byg:firecracker_shrubland",
+    "byg:allium_shrubland",
+    "byg:amaranth_grassland",
+    "byg:araucaria_savanna",
+    "byg:aspen_boreal",
+    "byg:atacama_outback",
+    "byg:baobab_savanna",
+    "byg:basalt_barrera",
+    "byg:bayou",
+    "byg:black_forest",
+    "byg:canadian_shield",
+    "byg:cika_woods",
+    "byg:coniferous_forest",
+    "byg:crimson_tundra",
+    "byg:cypress_swamplands",
+    "byg:dacite_ridges",
+    "byg:dacite_shore",
+    "byg:dead_sea",
+    "byg:ebony_woods",
+    "byg:enchanted_tangle",
+    "byg:eroded_borealis",
+    "byg:firecracker_chaparral",
+    "byg:forgotten_forest",
+    "byg:fragment_jungle",
+    "byg:frosted_taiga",
+    "byg:howling_peaks",
+    "byg:ironwood_gour",
+    "byg:jacaranda_jungle",
+    "byg:maple_taiga",
+    "byg:mojave_desert",
+    "byg:overgrowth_woodlands",
+    "byg:pumpkin_valley",
+    "byg:rainbow_beach",
+    "byg:red_rock_valley",
+    "byg:redwood_thicket",
+    "byg:rugged_badlands",
+    "byg:sakura_grove",
+    "byg:shattered_glacier",
+    "byg:sierra_badlands",
+    "byg:skyrise_vale",
+    "byg:tropical_rainforest",
+    "byg:weeping_witch_forest",
+    "byg:white_mangrove_marshes",
+    "byg:windswept_desert",
+    "byg:zelkova_forest"
+]
+# A list of specific biome IDs to NEVER allow spawns in, even if they match a tag. This overrides all other settings. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
+excludeBiomes = [
+    "mod_id:biome_name"
+]
+# Taming difficulty (1 in X chance). Higher = more cucumbers sacrificed to fuzzy freeloaders.
+tamingChanceDenominator = 3
+# May save your inventory. Or your ears.
+enableShoulderCreeperDetection = true
+# Adjust paranoia levels.
+shoulderCreeperDetectionRadius = 16.0
+# Because who doesn’t enjoy unsolicited financial advice from a rodent?
+enableShoulderDiamondDetection = true
+# How close you need to be before the squeak says \"bling.\"
+shoulderDiamondDetectionRadius = 10.0
+# Determines the sequence for dismounting hamsters with a key press. LIFO (Last-In, First-Out) dismounts the most recently added hamster. FIFO (First-In, First-Out) dismounts the oldest one.
+dismountOrder = "LIFO"
+# Choose what action dismounts the hamster. 'SNEAK_KEY' uses your sneak key, obviously. 'CUSTOM_KEYBIND' uses a separate key you must set in Controls > Key Binds.
+dismountTriggerType = "SNEAK_KEY"
+# Choose whether a single press or a quick double‑tap dismounts the hamster.
+dismountPressType = "SINGLE_PRESS"
+# Max time between sneak key presses to count as a double-tap. (20 ticks = 1 second)
+doubleTapDelayTicks = 10
+# If true, hamsters on your shoulder will randomly cycle through standing, sitting, and laying down while on the shoulder. If false, they will remain in a single state defined below.
+enableDynamicShoulderAnimations = true
+# If dynamic animations are disabled, choose the single state shoulder pets should remain in. Sometimes this setting can have a delay before kicking in, but if it doesn't seem to be working at all, try switching the 'Forced State' from one option to another. Usually this just makes it \"work.\" I'm not sure why lol
+forcedShoulderState = "ALWAYS_STAND"
+# False by default. If true, shoulder hamsters will be forced into their 'laying down' animation when you move, as if trying not to fall off. If false, they will continue their normal animation cycle.
+forceLayDownOnWalk = false
+# If true, shoulder hamsters will be forced into their 'laying down' animation while you sprint, as if holding on for dear life. If false, they will continue their normal animation cycle.
+forceLayDownOnSprint = true
+# The minimum time (in seconds) a shoulder hamster will stay in any one animation state (standing, sitting, or laying down). A random duration between the min and max is chosen for each transition.
+shoulderMinStateSeconds = 20
+# The maximum time (in seconds) a shoulder hamster will stay in any one animation state (standing, sitting, or laying down). A random duration between the min and max is chosen for each transition.
+shoulderMaxStateSeconds = 45
+# Mutes the ambient squeaks from shoulder-mounted hamsters. The bounce and alert sounds will still play.
+silenceShoulderIdleSounds = false
+# Mutes the hamster landing/bounce sound effect from the physics simulation when you are in first-person view.
+silencePhysicsSoundsInFirstPerson = false
+# The base throw speed of your furry projectile.
+hamsterThrowVelocity = 1.5
+# The throw speed of your furry projectile when under the influence of Steamed Green Beans. Goes from 'yeet' to 'yote'.
+hamsterThrowVelocityBuffed = 2.5
+# Permit hamsters to embark on solo get-rich-quick schemes?
+enableIndependentDiamondSeeking = true
+# How far a hamster scans once it’s decided to play prospector.
+diamondSeekRadius = 10
+# The probability (0.0 to 1.0) that a hamster will seek gold instead of diamond, if both are available. At 0.5, it's a coin toss. At 1.0, it's guaranteed hamster sulking.
+goldMistakeChance = 0.33
+# Permits hamsters to engage in spontaneous, high-stakes games of keep-away with your valuables. A chase ensues. Obviously.
+enableDiamondStealing = true
+# Probability (0.1 to 1.0) a hamster will succumb to temptation. High by default. You shouldn't leave your diamonds lying around anyway.
+diamondPounceChance = 0.75
+# The hamster's personal space bubble.
+minFleeDistance = 5
+# The maximum distance before the hamster gets bored and stops running to taunt you.
+maxFleeDistance = 20
+# The shortest amount of time the hamster will entertain this little game before getting bored and dropping your stuff.
+minStealDurationSeconds = 5
+# The longest your cardio session can last before the hamster's attention span gives out.
+maxStealDurationSeconds = 15
+# How close a hostile mob can get before a hamster wakes up from it's power nap.
+tamedSleepThreatDetectionRadiusBlocks = 8
+# Night-owl hamsters? Your choice.
+requireDaytimeForTamedSleep = true
+# Minimum seconds before a sitting hamster gets sleepy.
+tamedQuiescentSitMinSeconds = 120
+# Maximum seconds before the inevitable deep snooze.
+tamedQuiescentSitMaxSeconds = 180
+# Tamed hamster melee damage. Mostly for show, let's be honest.
+meleeDamage = 2.0
+# Damage dealt by thrown hamster. Surprisingly effective against Creepers. How convenient.
+hamsterThrowDamage = 20.0
+# Healing amount from Hamster Food Mix. The good stuff.
+hamsterFoodMixHealing = 4.0
+# Healing from basic seeds/crops. Better than nothing… probably.
+standardFoodHealing = 2.0
+# How many little hunger shanks the cheese restores. Vanilla cooked steak is 8. I know you're thinking of moving it to 20, you monster.
+cheeseNutrition = 8
+# How long the hunger effect lasts. Cooked steak is 0.8. Don't get too crazy. Or do. I'm not your conscience.
+cheeseSaturation = 0.8
+# Steamed beans: power that fades faster than your attention span.
+greenBeanBuffDuration = 3600
+# Because someone has to go fast.
+greenBeanBuffAmplifierSpeed = 1
+# Slightly mightier nibbles.
+greenBeanBuffAmplifierStrength = 1
+# Extra fluff padding for those daring dives.
+greenBeanBuffAmplifierAbsorption = 1
+# Heals minor paper-cuts (and fragile egos).
+greenBeanBuffAmplifierRegen = 0
+# Higher = slower, lower = faster. Makes perfect sense.
+wildBushRegrowthModifier = 1.0
+# Higher = slower, lower = faster. Photosynthesis is hard, okay?
+sunflowerRegrowthModifier = 1.0
+# A list of biome tags where these custom Sunflowers can replace vanilla ones. The 'c:is_plains' tag provides wide compatibility with modded biomes.
+sunflowerBiomeTags = [
+    "c:is_plains",
+    "c:is_temperate",
+    "c:is_hot",
+    "c:is_dry"
+]
+# Specific biome IDs where these sunflowers can replace the vanilla ones. Format: 'mod_id:biome_name'. They’re picky.
+sunflowerBiomes = [
+    "minecraft:sunflower_plains"
+]
+# 1 in X chunks. Lower numbers means cucumbers take over the planet.
+wildCucumberBushRarity = 24
+# Biome tags where cucumbers feel at home. Format: 'mod_id:tag_name', for example: 'minecraft:is_jungle'.
+cucumberBushTags = [
+    "minecraft:is_jungle"
+]
+# Convention tags for maximum mod-pack harmony. Format: 'c:tag_name', for example: 'c:is_temperate'.
+cucumberBushConventionTags = [
+    "c:is_temperate",
+    "c:is_hot",
+    "c:is_dry"
+]
+# Specific biome IDs where cucumbers can sprout. Format: 'mod_id:biome_name', for example: 'minecraft:savanna'.
+cucumberBushBiomes = [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:meadow",
+    "minecraft:wooded_badlands",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle"
+]
+# Biomes where cucumbers are absolutely NOT allowed. Overrides everything else. Format: 'mod_id:biome_name', for example: 'minecraft:ocean'.
+cucumberBushExclusions = [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:mushroom_fields",
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:stony_peaks"
+]
+# 1 in X chunks. Lower = beanpocalypse. For those of you in the back, it means they'll spam everywhere.
+wildGreenBeanBushRarity = 24
+# Biome tags for bean growth. Empty by default—choose wisely. Format: 'mod_id:tag_name', for example: 'minecraft:is_jungle'.
+greenBeanBushTags = [
+    "mod_id:biome_name"
+]
+# Convention tags for mod-friendly bean spam. Format: 'c:tag_name', for example: 'c:is_wet'.
+greenBeanBushConventionTags = [
+    "c:is_wet",
+    "c:is_temperate"
+]
+# Specific biomes where beans sprout like gossip in chat. Format: 'mod_id:biome_name', for example: 'minecraft:swamp'.
+greenBeanBushBiomes = [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:lush_caves",
+    "minecraft:flower_forest"
+]
+# Absolutely no beans here, thank you very much. Overrides all other settings. Format: 'mod_id:biome_name', for example: 'minecraft:beach'.
+greenBeanBushExclusions = [
+    "minecraft:beach",
+    "minecraft:birch_forest",
+    "minecraft:cherry_grove",
+    "minecraft:dark_forest",
+    "minecraft:deep_ocean",
+    "minecraft:dripstone_caves",
+    "minecraft:forest",
+    "minecraft:meadow",
+    "minecraft:ocean",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:plains",
+    "minecraft:river",
+    "minecraft:sunflower_plains"
+]

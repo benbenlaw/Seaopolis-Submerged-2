@@ -1,0 +1,11 @@
+{
+  "catalogue_item": {
+    "id": "submerged:catalog_simple_blocks"
+  },
+  "items": [
+    { "stack": { "id": "minecraft:cobblestone", "count": 32 }, "price": 2 },
+    { "stack": { "id": "minecraft:gravel", "count": 32 }, "price": 4 },
+    { "stack": { "id": "minecraft:sand", "count": 32 }, "price": 6 },
+    { "stack": { "id": "minecraft:dirt", "count": 32 }, "price": 4 }
+  ]
+}

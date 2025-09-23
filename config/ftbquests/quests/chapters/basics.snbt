@@ -10,6 +10,14 @@
 		{
 			dependencies: ["7F4A52E1774ED5E2"]
 			id: "11D2CCBE4E5C471D"
+			rewards: [{
+				id: "52C75D9125420F67"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CE17CA550679354"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:terracotta_rocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -21,6 +29,14 @@
 		{
 			dependencies: ["11D2CCBE4E5C471D"]
 			id: "027CE0501A8D8201"
+			rewards: [{
+				id: "60585B1DA7EF031F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D5C3E6B282D3A4B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:terracotta)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -32,6 +48,14 @@
 		{
 			dependencies: ["64D0F376AB8AFAE8"]
 			id: "158641ADBB04096F"
+			rewards: [{
+				id: "1622134E585D7966"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "335C4FB54288E61C"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_dirt)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -43,6 +67,14 @@
 		{
 			dependencies: ["64D0F376AB8AFAE8"]
 			id: "57EA71B3C8946BFD"
+			rewards: [{
+				id: "660E1C9BB290F686"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B4094BCB854E74C"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -57,6 +89,14 @@
 				"158641ADBB04096F"
 			]
 			id: "7B6DDB3DBC5D1336"
+			rewards: [{
+				id: "7481648FDFB5BC30"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "100D79E08BFA9DD0"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -68,6 +108,14 @@
 		{
 			dependencies: ["7B6DDB3DBC5D1336"]
 			id: "02EF5A87EA1F012A"
+			rewards: [{
+				id: "06A745F18DA184BC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7ED628435CE48830"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -79,6 +127,14 @@
 		{
 			dependencies: ["02EF5A87EA1F012A"]
 			id: "5EA10BA03219C901"
+			rewards: [{
+				id: "6F2F0B06E9771CA1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10C7BAF3015071AA"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -90,6 +146,14 @@
 		{
 			dependencies: ["5EA10BA03219C901"]
 			id: "6350FF2F1BEA3683"
+			rewards: [{
+				id: "2FC3836863219CBA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E0359F68B0039C3"
 				item: { count: 1, id: "opolisutilities:crook" }
@@ -101,28 +165,52 @@
 		{
 			dependencies: ["5EA10BA03219C901"]
 			id: "2BFC0C52F9BB8847"
+			rewards: [{
+				id: "3D19B579F0D8E7E6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AD3BF948183423C"
 				item: { count: 1, id: "opolisutilities:wooden_shears" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2BFC0C52F9BB8847"]
 			id: "11D5227DEC624C0B"
+			rewards: [{
+				id: "609F08887ACD9773"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2663BC3B474B8A09"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5EA10BA03219C901"]
 			id: "5FCFE4655665E0DF"
+			rewards: [{
+				id: "1933CB7B1EB79D04"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17F691BCF572BAA2"
 				item: { count: 1, id: "strainers:wooden_mesh" }
@@ -132,8 +220,20 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5FCFE4655665E0DF"]
+			dependencies: [
+				"5FCFE4655665E0DF"
+				"40A550FBD47E8633"
+			]
+			dependency_requirement: "one_completed"
 			id: "63A8E4C4009E42D5"
+			rewards: [{
+				id: "1EBFA85F70F69BFE"
+				item: {
+					count: 1
+					id: "strainers:strainer_tank"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25F09F1FC4517CEC"
 				item: { count: 1, id: "strainers:wooden_strainer" }
@@ -145,6 +245,14 @@
 		{
 			dependencies: ["5EA10BA03219C901"]
 			id: "02B2B6A5A8D10FF7"
+			rewards: [{
+				id: "7DECDBACDDE762D3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D2613A4A496D744"
 				item: { count: 1, id: "ceramicbucket:ceramic_bucket" }
@@ -156,6 +264,15 @@
 		{
 			dependencies: ["6350FF2F1BEA3683"]
 			id: "4C741BBDCDB328CB"
+			rewards: [{
+				count: 4
+				id: "7E2E8B5CA76E751D"
+				item: {
+					count: 1
+					id: "create:honeyed_apple"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6806F556BF524339"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:colored_apples)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -170,6 +287,110 @@
 				"0780C94EA025B7E3"
 			]
 			id: "40AFDE0DB64954B8"
+			rewards: [{
+				id: "08561CB77E0A0D98"
+				item: {
+					components: {
+						"opolisutilities:entity_data": {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							Air: 300s
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							Datadroptimer: 0
+							Dataskin: 0
+							DeathTime: 0s
+							FallDistance: 0.0f
+							FallFlying: 0b
+							Fire: -1s
+							ForcedAge: 0
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 10.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							LeftHanded: 0b
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							NeoForgeData: {
+								"naturesaura:time_alive": 40
+							}
+							OnGround: 1b
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								8202.5d
+								138.0d
+								8.5d
+							]
+							Rotation: [
+								-6.1911316f
+								0.0f
+							]
+							Sitting: 0b
+							Texture: "duck-none"
+							UUID: [I;
+								1375371611
+								-1079163180
+								-1686565061
+								-835845975
+							]
+							attributes: [
+								{
+									base: 0.0d
+									id: "minecraft:generic.oxygen_bonus"
+								}
+								{
+									base: 16.0d
+									id: "minecraft:generic.follow_range"
+									modifiers: [{
+										amount: 0.04736211378122011d
+										id: "minecraft:random_spawn_bonus"
+										operation: "add_multiplied_base"
+									}]
+								}
+								{
+									base: 0.3d
+									id: "minecraft:generic.movement_speed"
+								}
+							]
+							"neoforge:attachments": {
+								"accessories:inventory_holder": { }
+							}
+							"neoforge:spawn_type": "SPAWN_EGG"
+						}
+						"opolisutilities:entity_type": "cute_companions_ducks:duck"
+					}
+					count: 1
+					id: "opolisutilities:animal_net"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E457F38A4AA3A1B"
 				item: { count: 1, id: "strainers:stone_pebble" }
@@ -179,19 +400,16 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["5EA10BA03219C901"]
-			id: "0FD4274AA2B39020"
-			tasks: [{
-				id: "3FF08EA4B8654DD5"
-				item: { count: 1, id: "smartcrafting:smart_crafting_table" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["11D5227DEC624C0B"]
 			id: "4426852988EE8AA6"
+			rewards: [{
+				id: "1561C610A8CBBFB1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "40CDD40105466460"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:strings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -203,17 +421,33 @@
 		{
 			dependencies: ["4426852988EE8AA6"]
 			id: "5AB9533D848E1D60"
+			rewards: [{
+				id: "5A00A8EC57C46A62"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "084D68B83261F841"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5AB9533D848E1D60"]
 			id: "7DC9DC6BA567DF36"
+			rewards: [{
+				id: "565DEADF2AB36D33"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34DA1A0FFDEA9C90"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -225,17 +459,33 @@
 		{
 			dependencies: ["4426852988EE8AA6"]
 			id: "40A550FBD47E8633"
+			rewards: [{
+				id: "41B2CC9686A26BFA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "454BC220A94976A1"
 				item: { count: 1, id: "strainers:string_mesh" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["229DB26A03BEB8D3"]
 			id: "299144ACC9C12B31"
+			rewards: [{
+				id: "4238CF11B2AABE05"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F2CAED6D9C67F67"
 				item: { count: 1, id: "strainers:mulch" }
@@ -247,6 +497,14 @@
 		{
 			dependencies: ["11D2CCBE4E5C471D"]
 			id: "64D0F376AB8AFAE8"
+			rewards: [{
+				id: "36D1AF14D074A62C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C5F45591076DC3A"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:flares)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -256,7 +514,16 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4DE9D3E26CC79511"]
 			id: "7F4A52E1774ED5E2"
+			rewards: [{
+				id: "78D83C492A323786"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DB1C5C2827FE127"
 				item: { count: 1, id: "submerged:unloaded_flare" }
@@ -268,6 +535,14 @@
 		{
 			dependencies: ["5EA10BA03219C901"]
 			id: "1B57EAECDC1BB5E4"
+			rewards: [{
+				id: "5D4EF567C39EBACA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "11759F9E8DBBB076"
 				item: { count: 1, id: "minecraft:wooden_sword" }
@@ -277,12 +552,17 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"1B57EAECDC1BB5E4"
-				"11D5227DEC624C0B"
-			]
+			dependencies: ["1B57EAECDC1BB5E4"]
 			id: "229DB26A03BEB8D3"
 			min_required_dependencies: 1
+			rewards: [{
+				id: "535F0FBA148AA68D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A5416F2C877D2D6"
 				item: { count: 1, id: "strainers:leaf_pile" }
@@ -294,6 +574,15 @@
 		{
 			dependencies: ["299144ACC9C12B31"]
 			id: "0780C94EA025B7E3"
+			rewards: [{
+				count: 4
+				id: "55BA706139E0ADCF"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "78749BFBEF307706"
 				item: { count: 1, id: "minecraft:dirt" }
@@ -301,6 +590,100 @@
 			}]
 			x: -1.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "0ED3992935FF6890"
+			rewards: [{
+				id: "10B936384B1F93A9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04E49C631E263F52"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0ED3992935FF6890"]
+			id: "1EAC5352AC8C6150"
+			rewards: [{
+				id: "770197211B5A147A"
+				item: {
+					count: 1
+					id: "woodenhopper:wooden_hopper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F29C7FFC2B12533"
+				item: { count: 1, id: "woodenhopper:wooden_hopper" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "0CE12BF1524E0C75"
+			rewards: [{
+				id: "766DFBDB91A6189B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59ECE768611F8A7E"
+				item: { count: 1, id: "minecraft:composter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5EA10BA03219C901"]
+			id: "25115D90756C1804"
+			rewards: [{
+				id: "55BF5504F29F1AB0"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CA59E83F311FFAB"
+				item: { count: 1, id: "shops:shop" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25115D90756C1804"]
+			id: "393353FC9EF4DFF4"
+			rewards: [{
+				id: "03A5B714FB4422B0"
+				item: {
+					count: 1
+					id: "submerged:catalog_catalog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "414739ADE5F09685"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 6.0d
 		}
 	]
 }

@@ -1,8 +1,16 @@
-// Items
+//Items
 
 StartupEvents.registry('item', (event) => {
 
-    // Items
+    //Catalogs
+    event.create('submerged:catalog_catalog').displayName('Catalog: Catalog').maxStackSize(1).glow(true)
+    
+    event.create('submerged:catalog_hats').displayName('Catalog: Hats').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_ducks').displayName('Catalog: Ducks').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_simple_blocks').displayName('Catalog: Simple Blocks').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_flares').displayName('Catalog: Flares').maxStackSize(1).glow(true)
+
+    //Items
     event.create('submerged:unloaded_flare')
     event.create('submerged:stone_key')
     event.create('submerged:copper_key')
@@ -10,8 +18,8 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:netherite_key')
     event.create('submerged:ceramic_solid_coal_bucket')
     event.create('submerged:solid_coal_bucket')
-    event.create('submerged:key_mold').tag(['casting:molds/keys', 'casting:molds'])
-    event.create('submerged:mesh_mold').tag(['casting:molds/mesh', 'casting:molds'])
+    event.create('submerged:key_mold').tag(['c:molds/key', 'casting:molds'])
+    event.create('submerged:mesh_mold').tag(['c:molds/mesh', 'casting:molds'])
     event.create('submerged:quartz_enriched_gold').tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
     event.create('submerged:infused_alloy')
     event.create('submerged:ancient_lens')
@@ -19,6 +27,8 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:raw_ancient_debris').tag(['c:raw_materials/ancient_debris', 'c:raw_materials'])
     event.create('submerged:ancient_debris_dust').tag(['c:dusts/ancient_debris', 'c:dusts'])
     event.create('submerged:prismarine_crystal_activator')
+    event.create('submerged:porcelain_clay')
+    event.create('submerged:wooden_key')
 
     event.create('submerged:basic_storage_component').tag('submerged:basic_storage_components').texture('ae2:item/cell_component_1k')
     event.create('submerged:advanced_storage_component').tag('submerged:advanced_storage_components').texture('ae2:item/cell_component_4k')
@@ -100,7 +110,7 @@ StartupEvents.registry('item', (event) => {
             .removeDoor(true)
             .blocksRequired(false)
             .overrideExistingBlocks(true)
-            .tag('submerged:keys/sphere')
+            .tag('submerged:keys/sphere_base')
     })
 
     event.create(`submerged:3x3_pressure_chamber`, 'roomopolis_key')

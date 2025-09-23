@@ -1,4 +1,8 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -6,8 +10,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,27 +56,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "nautec": {
-    "aquatic_catalyst": true,
-    "laser_junction": true,
-    "mixer": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
   },
   "ftbquests": {
     "barrier": true
@@ -85,15 +74,6 @@
     "camo": true,
     "semiblock": true
   },
-  "pipez": {
-    "pipe": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -104,6 +84,10 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "adorablehamsterpets": {
+    "hamster_debug_info": true,
+    "wild_bush_tooltips": true
   },
   "ae2": {
     "part_icon": true,
@@ -116,5 +100,29 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "nautec": {
+    "aquatic_catalyst": true,
+    "laser_junction": true,
+    "mixer": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   }
 }

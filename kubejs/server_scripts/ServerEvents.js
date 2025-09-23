@@ -1,5 +1,4 @@
-
-// Color to Interger Color
+// Color to Integer Color
 const dyeColors = {
     red: 11743532,
     orange: 15435844,
@@ -19,22 +18,44 @@ const dyeColors = {
     white: 15790320
 };
 
-// Loots
+// ----------------------
+// Group 1: Dye Flares
+// ----------------------
 const flareData = {};
 colors.forEach(color => {
     flareData[`submerged:${color}_flare`] = {
-        color: dyeColors[color],
+        colors: [dyeColors[color]], // single color fireworks
         loot: [
-            `colors:${color}_sapling`,  
-            `colors:${color}_dirt`,     
-            `opolisutilities:sapling_grower`  
+            `colors:${color}_sapling`,
+            `colors:${color}_dirt`,
+            `opolisutilities:sapling_grower`
         ]
     };
 });
 
+const rewardFlares = {
+    'minecraft:stick': {
+        colors: [11743532, 6719955, 14516874],
+        loot: [
+            'minecraft:diamond',
+            'minecraft:gold_ingot',
+            'minecraft:emerald'
+        ]
+    },
+    'submerged:mega_crate': {
+        colors: [3887386, 15435844],
+        loot: [
+            'minecraft:netherite_ingot',
+            'minecraft:enchanted_golden_apple',
+            'minecraft:totem_of_undying',
+            'minecraft:elytra'
+        ]
+    }
+};
+
 BlockEvents.rightClicked(event => {
     const itemId = event.getItem().id;
-    const data = flareData[itemId];
+    const data = flareData[itemId] || rewardFlares[itemId];
     if (!data) return;
 
     const pos = event.getHitResult().getBlockPos();
@@ -42,19 +63,32 @@ BlockEvents.rightClicked(event => {
     const y = pos.getY();
     const z = pos.getZ();
 
-    // Launch firework 
-    event.server.runCommandSilent(`summon firework_rocket ${x} ${y + 1} ${z} {LifeTime:60,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:3,explosions:[{shape:"large_ball",has_twinkle:0,has_trail:1,colors:[I;${data.color}],fade_colors:[I;${data.color}]}]}}}}`)
+    // Firework with multiple colors
+    const colorString = data.colors.map(c => c.toString()).join(",");
+    event.server.runCommandSilent(
+        `summon firework_rocket ${x} ${y + 1} ${z} ` +
+        `{LifeTime:60,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:3,explosions:[{shape:"large_ball",has_twinkle:0,has_trail:1,colors:[I;${colorString}],fade_colors:[I;${colorString}]}]}}}}`
+    );
     event.getItem().shrink(1);
 
-    const targetSlots = [4, 13, 22];
     const itemsString = data.loot
-    .map((lootItem, index) => `{Slot:${targetSlots[index]},id:"${lootItem}",Count:1b}`)
-    .join(",");
+        .map((lootItem, index) => `{Slot:${index},id:"${lootItem}",Count:1b}`)
+        .join(",");
 
-    // Schedule loot drop
+    // Drop barrel crate
     event.server.scheduleInTicks(100, () => {
         event.entity.tell(`Loot Incoming at ${x} ${y} ${z}`);
-        event.server.runCommandSilent(`summon falling_block ${x} ${y + 100} ${z} {BlockState:{Name:"minecraft:barrel"},Time:1,TileEntityData:{CustomName:'{"text":"Supply Crate"}',Items:[${itemsString}]}}`)
-        event.entity.tell("Loot Spawned");
-    })
-})
+
+        // Check if it's a reward flare or a dye flare
+        const customName = rewardFlares[itemId] ? "Rewards Barrel" : "Supply Crate";
+        const noDrop = rewardFlares[itemId] ? ",DropItem:0b" : "";
+
+        event.server.runCommandSilent(
+            `summon falling_block ${x} ${y + 100} ${z} ` +
+            `{BlockState:{Name:"minecraft:barrel"},Time:1${noDrop},TileEntityData:{CustomName:'{"text":"${customName}"}',Items:[${itemsString}]}}`
+        );
+
+        event.entity.tell(`${customName} Spawned`);
+    });
+});
+

@@ -15,9 +15,9 @@
 	"Speed Reduction 2" = 100
 	#The speed reduction of the tier 3 upgrade, default = 150
 	"Speed Reduction 3" = 150
-	#The chance increase of the tier 1 upgrade, default = 0.5
-	"Chance Increase 1" = 0.5
-	#The chance increase of the tier 2 upgrade, default = 1.0
-	"Chance Increase 2" = 1.0
-	#The chance increase of the tier 3 upgrade, default = 1.5
-	"Chance Increase 3" = 1.5
+	#The chance increase of the tier 1 upgrade, default = 0.1
+	"Chance Increase 1" = 0.1
+	#The chance increase of the tier 2 upgrade, default = 0.2
+	"Chance Increase 2" = 0.2
+	#The chance increase of the tier 3 upgrade, default = 0.3
+	"Chance Increase 3" = 0.3

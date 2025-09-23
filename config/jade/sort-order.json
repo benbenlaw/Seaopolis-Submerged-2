@@ -1,4 +1,6 @@
 {
+  "adorablehamsterpets:hamster_debug_info": null,
+  "adorablehamsterpets:wild_bush_tooltips": null,
   "ae2:base_cablebusblockentity": null,
   "ae2:charger": null,
   "ae2:crafting_monitor": null,
@@ -13,6 +15,8 @@
   "ae2:power_storage": null,
   "ars_nouveau:mob_jar": null,
   "fastpipes:energy_pipe_info": null,
+  "framedblocks:framed_block_generic": null,
+  "framedblocks:framed_item_frame": null,
   "ftbquests:barrier": null,
   "immersiveengineering:multiblock_icon": null,
   "immersiveengineering:multiblock_inventory": null,
@@ -104,5 +108,6 @@
   "touhou_little_maid:maid": null,
   "touhou_little_maid:picnic_mat": null,
   "touhou_little_maid:shrine_lamp": null,
-  "touhou_little_maid:tombstone": null
+  "touhou_little_maid:tombstone": null,
+  "untitledduckmod:lay_egg": null
 }
