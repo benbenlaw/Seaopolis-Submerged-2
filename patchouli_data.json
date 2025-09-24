@@ -34,6 +34,14 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "rftoolsbase:manual": {
+      "viewedEntries": [
+        "rftoolsbase:scanner/scanner",
+        "rftoolsbase:modularstorage/modularstorage"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "naturesaura:book": {
       "viewedEntries": [
         "naturesaura:intro/aura",

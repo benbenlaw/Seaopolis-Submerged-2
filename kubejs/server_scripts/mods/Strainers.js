@@ -9,6 +9,12 @@ ServerEvents.recipes(event => {
     event.remove({id: "strainers:strainer/purified_soul_sand/debris_ore_piece"})
     event.remove({id: "strainers:strainer/purified_soul_sand/quartz_ore_piece"})
     
+    //Compactor
+    event.shaped('strainers:compactor', ['AAA', 'ABA', 'AAA'], {
+        A: 'strainers:stone_pebble',
+        B: '#c:player_workstations/crafting_tables'
+    }).id('strainers:compactor')
+
     //Ancient Gravel -> Ancient Debris
     strainerAuto("submerged:ancient_gravel", "minecraft:water", "strainers:debris_ore_piece", 0.2, 0.05, 7, 10);
 

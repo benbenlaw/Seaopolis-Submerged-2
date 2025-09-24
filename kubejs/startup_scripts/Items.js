@@ -16,8 +16,6 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:copper_key')
     event.create('submerged:iron_key')
     event.create('submerged:netherite_key')
-    event.create('submerged:ceramic_solid_coal_bucket')
-    event.create('submerged:solid_coal_bucket')
     event.create('submerged:key_mold').tag(['c:molds/key', 'casting:molds'])
     event.create('submerged:mesh_mold').tag(['c:molds/mesh', 'casting:molds'])
     event.create('submerged:quartz_enriched_gold').tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
@@ -99,7 +97,7 @@ StartupEvents.registry('item', (event) => {
     colors.forEach(color => {
         event.create(`submerged:${color}_sphere_key`, 'roomopolis_key')
             .templateId(`submerged:spheres/${color}`)
-            .keyBlock(`submerged:${color}_terracotta_lock`)
+            .keyBlock(`#submerged:terracotta_lock`)
             .heightAdjustment(0)
             .frontAdjustment(-1)
             .doorLeft(1)

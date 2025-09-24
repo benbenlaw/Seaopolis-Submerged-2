@@ -22,7 +22,7 @@
 	chapter_group.64828B4E59DB0E48.title: "Expansion"
 	quest.003A9F65BD795592.quest_desc: ["Obtained through straining"]
 	quest.003EE194E3894230.quest_desc: ["Obtained through the &lRitural of the Forest&r"]
-	quest.00A7B243D1EC447B.quest_desc: ["Can use items and interact with the world"]
+	quest.00A7B243D1EC447B.quest_desc: ["Can use items and interact with the world. Requires &lBrass&r"]
 	quest.00D1B2C218714FA2.quest_desc: ["Remember the &lComposter&r and the &lStrainer&r can be used to get &lBone Meal&r"]
 	quest.00D1B2C218714FA2.title: "Bone Meal"
 	quest.0137B481ACF01CFF.quest_desc: ["A simple &lMesh&r"]
@@ -65,7 +65,9 @@
 	quest.085D8546E3ABDB6F.quest_desc: ["Right click on a &lLog Block&r with the &lTotem Whittling Knife&r when in &lBase Mode&r to create a &lTotem Base&r"]
 	quest.0899612E4035D1D3.quest_desc: ["The &lCaviar Processor&r takes &lCaviar&r and processes it into usable items. Most recipes are chance based and can be viewed in &lJEI&r"]
 	quest.08AFA43CC9061096.quest_desc: ["Made on the &lAltar&r"]
+	quest.0958CAAD8F7321A7.quest_desc: ["Allows the &lCloche&r to harvest &lLeaves&r from &lSaplings&r"]
 	quest.0AC872B23F3FEF2D.quest_desc: ["An &lElite Storage Compoment&r"]
+	quest.0BAB7C14CCD2BC21.quest_desc: ["Better &lCrushing&r"]
 	quest.0BBCD3DE8AC14F78.quest_desc: ["This can be used to track the amount of aura in the chunk"]
 	quest.0BD995BF839A78ED.quest_desc: ["Drops when mining &lAncient Debris&r"]
 	quest.0C2AABFFD28944AA.quest_desc: ["Made inside the &lPressure Chamber&r or &lCreate Mixing&r"]
@@ -94,7 +96,6 @@
 	quest.11D2CCBE4E5C471D.title: "Terracotta Rocks"
 	quest.11D5227DEC624C0B.quest_desc: ["Collected with &lShears&r"]
 	quest.11D5227DEC624C0B.title: "Colored Leaves"
-	quest.12148A7EE4FD868F.quest_desc: ["Smelted &lCeramic Solid Coal Bucket&r"]
 	quest.121B74AB42FF6E61.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.1250A2E0284B610A.quest_desc: ["The &lMixer&r allows for&l Molten materials&r to be mixed. The &lSimple Controller&r auto pushes into adjacent &lMixers&r"]
 	quest.12F09E8E096AB651.quest_desc: ["Made inside the &lStrainer&r"]
@@ -158,6 +159,7 @@
 	quest.232393D07600071B.title: "Useful Tips"
 	quest.2368948B16A73C16.quest_desc: ["Block of &lDried Kelp&r"]
 	quest.2401B5B7F6D93BF6.quest_desc: ["A strong key"]
+	quest.2418DF38A8E3D919.quest_desc: ["Compressed 2x2 and 3x3 &lCrafting Recipes&r like &lStone Pebbles&r to &lCobblestone&r"]
 	quest.242855AD0C9FD843.quest_desc: ["&lPCB&r in one hand &lSandpaper&r in the other. Rub Rub Rub"]
 	quest.242855AD0C9FD843.title: "Sandpaper"
 	quest.24815AD753E56681.quest_desc: ["The heart of casting"]
@@ -302,6 +304,7 @@
 	quest.4CD0811FAA3DE7BB.title: "Pressure Chamber Key"
 	quest.4D0964E34E575689.quest_desc: ["The Heart of &lPneumatic Craft&r"]
 	quest.4D0964E34E575689.quest_subtitle: "maybe use steel ingot coated in iron"
+	quest.4D610B1EA5DE8218.quest_desc: ["Automatically grows &lCrops&r and &lSaplings&r for you"]
 	quest.4D8339ED45E8ADB1.quest_desc: ["Punch Tree Get Wood Again!"]
 	quest.4E133436B599DA13.quest_desc: ["Keeps entities in place"]
 	quest.4E2514A252EDF3E9.quest_desc: ["Smelted &lKelp&r"]
@@ -321,6 +324,7 @@
 	quest.5157C8485FB04C97.title: "Zinc"
 	quest.5159C74515CE1A17.quest_desc: ["Books can be used to make &lBookshelfs&r and &lCatalogs&r"]
 	quest.5183A6641C0915D5.quest_desc: ["Made on the &lNatural Altar&r"]
+	quest.5187E2EA6F8557E8.quest_desc: ["Helps to prevent explosions"]
 	quest.51B2B23CA507CF16.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.52AB60EFCCD14DDB.quest_desc: ["Like an &lIron Golem&r but &lCopper&r"]
 	quest.52AB60EFCCD14DDB.title: "Kill a Copper Golem"
@@ -344,6 +348,7 @@
 	quest.5666976BFCBC1AF9.quest_subtitle: "needs reward"
 	quest.568CC680692389D0.quest_desc: ["&lCoal&r and &lCharcoal&r "]
 	quest.568CC680692389D0.title: "Coals"
+	quest.5703B5049E3E643D.quest_desc: ["Used inside the &lModular Storage&r to provide &lStorage&r"]
 	quest.57DD8F321E53526F.quest_desc: ["Simple &lFluid Transport&r"]
 	quest.57DF2A7FC2115CBC.quest_desc: ["The &lBreeding Upgrade&r allows the &lTank Controller&r to do &oBreeding Recipes&r"]
 	quest.57EA71B3C8946BFD.quest_desc: ["From a &lSupply Crate&r"]
@@ -355,6 +360,7 @@
 		"The range on the &lTank&r can be shown by Shift Right Clicking on the &lTank Controller&r"
 	]
 	quest.5826AA79CCB4EF8D.quest_desc: ["Crafted &lOre Pieces&r"]
+	quest.5850202E4FFE4DAB.quest_desc: ["&lSteel&r is an alloy of &lIron&r and &lCoal&r"]
 	quest.58859AADFDEF8FE2.quest_desc: ["Takes &lWater&r and &lLatex&r to produce &lDry Rubber&r"]
 	quest.590DA5919D4D18B2.quest_desc: ["Smelted &lAncient Debris Dust&r"]
 	quest.5940F59F6ECC844D.quest_desc: ["Buying those blocks"]
@@ -393,6 +399,7 @@
 	quest.5EA10BA03219C901.title: "Colored Crafting Table"
 	quest.5EEB852E9079D891.quest_desc: ["Allows the &lSolidifier&r to create &lKeys&r"]
 	quest.5F18F4FDCF219439.quest_desc: ["A better tier of &lMesh&r "]
+	quest.5F3EF864CF6D33A7.quest_desc: ["Buying those Flares, give more color options"]
 	quest.5F4460BFEFEE379D.quest_desc: ["Made inside the &lPressure Chamber&r or through &lSequenced Assembly&r"]
 	quest.5FCEBCB684BB632F.quest_desc: ["Allows the &lAltar&r to transmute certain items into others. You must add 4 of these to the top of the short towers of you &lAltar&r"]
 	quest.5FCFE4655665E0DF.quest_desc: ["&lStrainers&r can be used to get most resources in &lSubmerged.&r &lWood&r is a &lTier 1 Mesh&r"]
@@ -424,6 +431,7 @@
 	quest.65C92E5377A04743.quest_desc: ["Place down whilst facing the &lPrismarine Crystal&r and fill with &lPrismarine Shards&r or &lPrismarine Crystals&r"]
 	quest.6636ED1448E42943.quest_desc: ["Planks"]
 	quest.6636ED1448E42943.title: "Planks"
+	quest.665518BCBF63AEE0.quest_desc: ["Who needs &lAE2&r or &lRefined Storage&r"]
 	quest.66F69CB45413636C.quest_desc: ["Crafted &lBlack Brick&r"]
 	quest.6716062455BA50CA.quest_desc: ["Made inside the &lCaviar Processor&r"]
 	quest.676CD62894F97419.quest_desc: ["Made inside the &lStrainer&r&l"]
@@ -447,7 +455,7 @@
 	]
 	quest.6C1C19F4F151D303.quest_desc: ["Drops from &lBuffalos&r"]
 	quest.6C8297AF7997580F.quest_desc: ["From the &lFluid Sieving Machine&r"]
-	quest.6CEA085FCE1AE11D.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lPurifying Water&r"]
+	quest.6CEA085FCE1AE11D.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lPurifying Water&r. Also can be used to turn &lMulch&r into &lDirt&r"]
 	quest.6D60D4F5300AED78.quest_desc: ["Will open &lNether Fortress&r like &lSphere&r"]
 	quest.6E3B0B6AA3E54598.quest_desc: ["&lRaw Ore Meat&r through a &lFermentation Station&r will create &lFermented Ore Meat&r"]
 	quest.6EF8B2BCEB53422D.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -455,6 +463,7 @@
 	quest.702BDA4EBF2C24E3.quest_desc: ["Somewhere in the sphere there will be an &lEmpty Mob Spawner&r"]
 	quest.70A7183B39127F1B.quest_desc: ["From &lBroken Ore&r "]
 	quest.70C73AE3429B8762.quest_desc: ["Made inside the &lStrainer&r"]
+	quest.7122BBDACB1B1D5A.quest_desc: ["Uses water flow to rotate"]
 	quest.714080375257015A.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.7177E1FA31A3AAFB.quest_desc: ["Smelted &lLogs&r"]
 	quest.71ED8FDC8116FA2E.quest_desc: [
@@ -497,6 +506,7 @@
 	quest.7897179292DC66FD.quest_desc: ["The &lCaviar Processor&r can be used to extract resource from &lCaviar&r"]
 	quest.7A136D13050B2E25.quest_desc: ["&lUnbreaking&r 10 makes any valid tool &lUnbreakable&r"]
 	quest.7A136D13050B2E25.title: "Reward I"
+	quest.7A351105AE91FE1E.quest_desc: ["A bigger wheel"]
 	quest.7B4F60DC95B1A90A.quest_desc: ["Placing &lCobblestone&r inside a &lStrainer&r with &lEroding Water&r on top and a &lMesh&r inside will create &lGravel&r"]
 	quest.7B6DDB3DBC5D1336.quest_desc: ["From grown &lSaplings&r, you can use the &lSapling Grower&r"]
 	quest.7B6DDB3DBC5D1336.title: "Colored Logs"
@@ -509,10 +519,10 @@
 	quest.7DC9DC6BA567DF36.quest_desc: ["Crafted from &lWool&r and &lPlanks&r"]
 	quest.7DC9DC6BA567DF36.title: "Bed"
 	quest.7DD8B71FB620626E.quest_desc: ["You really did it!"]
+	quest.7DD8B71FB620626E.quest_subtitle: "need reward"
 	quest.7DD8B71FB620626E.title: "Final Reward"
 	quest.7DDF67381AA99130.quest_desc: ["&lBone Meal&r and &lClay Balls&r"]
 	quest.7E1ADA24FFF8E8D4.quest_desc: ["A placeable &lInstrument&r "]
-	quest.7E26A3D567D4E0BC.quest_desc: ["&lMini Coal&r plus a &lBucket&r"]
 	quest.7E5602F807CAA114.quest_desc: ["This contains, casting, minecraft, strainers, all totemic, pipez"]
 	quest.7E5602F807CAA114.title: "Submerged"
 	quest.7ED2175CCB3A787E.quest_desc: ["A block of &lSolid Salt&r"]

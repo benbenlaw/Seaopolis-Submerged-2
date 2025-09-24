@@ -40,4 +40,7 @@ ServerEvents.tags("block", event => {
 
     //Saplings 
     event.get("minecraft:saplings").add("naturesaura:ancient_sapling")
+
+    //Smart Crafting Table
+    event.get('smartcrafting:whitelisted_storage').add()
 })

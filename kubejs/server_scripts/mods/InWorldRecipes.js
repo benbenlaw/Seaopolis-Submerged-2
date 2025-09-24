@@ -22,4 +22,13 @@ ServerEvents.recipes(event => {
         "consume_fluid": false,
         "results": [{"item": {"id": "submerged:living_gravel"}}]
     }).id("submerged:living_gravel")
+
+    //Exothermic Water
+    event.custom({
+        "type": "inworldrecipes:drop_item_in_fluid_converts_fluid",
+        "dropped_item":{"item": "opolisutilities:mini_coal","count": 4},
+        "fluid": "minecraft:water",
+        "new_fluid": "submerged:exothermic_water",
+        "destroy_items": true
+    }).id("submerged:exothermic_water")
 })

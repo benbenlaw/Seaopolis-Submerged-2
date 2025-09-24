@@ -88,16 +88,6 @@
 			y: 1.5d
 		}
 		{
-			id: "2AA52DE765D3C50A"
-			tasks: [{
-				id: "5F66691A83461570"
-				item: { count: 1, id: "cloche:cloche" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["356B0DCCAA28ABF2"]
 			id: "6A1B1CD129176E37"
 			tasks: [{
@@ -304,6 +294,17 @@
 			}]
 			x: 3.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["53B33F89E03C6CC6"]
+			id: "4C15A7ABD171F566"
+			tasks: [{
+				id: "0F5F4C7D5423175A"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
 	]
 }

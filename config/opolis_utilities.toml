@@ -6,9 +6,9 @@
 	#Modpack Version
 	"Modpack Version" = "VERSION"
 	#Mobs basic loot bag drop chance 0.0 = always, 1.0 = never, 0.5 = 50% chance, default = 0.75
-	"Mob Drop Chance" = 0.95
+	"Mob Drop Chance" = 1.0
 	#Do wooden buttons make a doorbell sound, default = false
-	"Wooden Buttons Make Doorbell Sound" = false
+	"Wooden Buttons Make Doorbell Sound" = true
 	#Does the summoning block check for the same entity before spawning a new entity, default = true
 	"Summoning Block Checks For Same Entity Before Spawning New Entity" = true
 	#The range the summoning block checks for entities, default = 2

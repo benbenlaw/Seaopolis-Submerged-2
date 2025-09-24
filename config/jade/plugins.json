@@ -85,10 +85,6 @@
     "block_properties": false,
     "mod_name": true
   },
-  "adorablehamsterpets": {
-    "hamster_debug_info": true,
-    "wild_bush_tooltips": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -124,5 +120,11 @@
     "altar": true,
     "mortar": true,
     "cauldron": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
   }
 }

@@ -310,4 +310,8 @@ nautec:prismarine_sand_beach
 nautec:prismarine_sand_ocean
 opolisutilities:ender_ore
 pneumaticcraft:oil_lake
+rftoolsbase:dimshard_dimensions
+rftoolsbase:dimshard_end
+rftoolsbase:dimshard_nether
+rftoolsbase:dimshard_overworld
 totemic:cedar

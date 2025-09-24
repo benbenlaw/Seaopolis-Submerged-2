@@ -8,11 +8,16 @@ ServerEvents.recipes(event => {
     //Black Bricks
     event.smelting('casting:black_brick', 'submerged:porcelain_clay').id('submerged:black_brick')
 
+    //Fuel
+    event.recipes.casting.fuel("10x submerged:exothermic_water", 1000, 300 )
+
     //Melting 
     event.recipes.casting.melting("#minecraft:leaves", "50x submerged:organic_water", 100).id("submerged:melting/leaves")
     event.recipes.casting.melting("#minecraft:saplings", "15x submerged:organic_water", 100).id("submerged:melting/saplings")
     event.recipes.casting.melting("#submerged:colored_apples", "150x submerged:organic_water", 100).id("submerged:melting/colored_apples")
+    event.recipes.casting.melting("minecraft:apple", "150x submerged:organic_water", 100).id("submerged:melting/apple")
     event.recipes.casting.melting("#c:foods", "150x submerged:organic_water", 100).id("submerged:melting/crops")
+    event.recipes.casting.melting("strainers:mulch", "250x submerged:organic_water", 100).id("submerged:melting/mulch")
     event.recipes.casting.melting("#c:plastics", "1000x pneumaticcraft:plastic", 1000).id("submerged:melting/plastic")
     event.recipes.casting.melting("ae2:certus_quartz_dust", "250x submerged:molten_certus_quartz", 1000).id("submerged:melting/certus_quartz_dust")
     event.recipes.casting.melting("ae2:certus_quartz_crystal", "250x submerged:molten_certus_quartz", 1000).id("submerged:melting/certus_quartz_crystal")

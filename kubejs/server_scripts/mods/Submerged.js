@@ -3,18 +3,16 @@
 ServerEvents.recipes(event => {
 
     //Smelting
-    event.smelting('ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"casting:molten_coal"}]', 'submerged:ceramic_solid_coal_bucket').id(`submerged:ceramic_molten_coal_bucket`)
-    event.smelting('casting:molten_coal_bucket', 'submerged:solid_coal_bucket').id(`submerged:molten_coal_bucket`)
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
     //Catalog Flares
-    event.shapeless('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {
+    event.shaped('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:paper',
         B: 'minecraft:book'
     }).id('submerged:catalog_flares')
 
-    //Catalog Blocks
-    event.shapeless('submerged:catalog_simple_blocks', ['AAA', 'ABA', 'AAA'], {
+    //Catalog Simple Blocks
+    event.shaped('submerged:catalog_simple_blocks', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:cobblestone',
         B: 'minecraft:book'
     }).id('submerged:catalog_simple_blocks')
@@ -113,19 +111,12 @@ ServerEvents.recipes(event => {
             B: 'submerged:stone_key'
         }).id(`submerged:${color}_sphere_key`)
 
+        event.shaped(`submerged:${color}_sphere_key`, ['AAA', 'ABA', 'AAA'], {
+            A: `colors:${color}_leaves`,
+            B: 'submerged:stone_key'
+        }).id(`submerged:${color}_sphere_key_from_leaves`)
+
     })
-
-    //Ceramic Solid Coal Bucket 
-    event.shaped(`submerged:ceramic_solid_coal_bucket`, ['AAA', 'ABA', 'AAA'], {
-        A: 'opolisutilities:mini_coal',
-        B: 'ceramicbucket:ceramic_bucket'
-    }).id(`submerged:ceramic_solid_coal_bucket`)
-
-    //Solid Coal Bucket
-    event.shaped(`submerged:solid_coal_bucket`, ['AAA', 'ABA', 'AAA'], {
-        A: 'opolisutilities:mini_coal',
-        B: 'minecraft:bucket'
-    }).id(`submerged:solid_coal_bucket`)
 
     //Mesh Mold
     event.shaped(`submerged:mesh_mold`, [' A ', 'ABA', ' A '], {

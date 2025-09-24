@@ -10,123 +10,215 @@
 		{
 			dependencies: ["1F1ED8B72044189C"]
 			id: "47C9B4CE6184D62C"
+			rewards: [{
+				count: 4
+				id: "0F20F02A9B5E3044"
+				item: {
+					count: 1
+					id: "strainers:zinc_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DF4B26E19A97C70"
 				item: { count: 1, id: "strainers:zinc_ore_piece" }
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7F0663E853CDA9D2"]
 			id: "5826AA79CCB4EF8D"
+			rewards: [{
+				id: "59D05C4CFBD932D8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1270868E978EB030"
 				item: { count: 1, id: "minecraft:lapis_ore" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1F1ED8B72044189C"]
 			id: "7F0663E853CDA9D2"
+			rewards: [{
+				count: 4
+				id: "777074C6A47B7676"
+				item: {
+					count: 1
+					id: "strainers:lapis_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EF61937176F6539"
 				item: { count: 1, id: "strainers:lapis_ore_piece" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1F1ED8B72044189C"]
 			id: "70C73AE3429B8762"
+			rewards: [{
+				count: 4
+				id: "6B961065DB23CB24"
+				item: {
+					count: 1
+					id: "strainers:iron_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0265B36F6C411450"
 				item: { count: 1, id: "strainers:iron_ore_piece" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["47C9B4CE6184D62C"]
 			id: "3F1485DBD4C71B66"
+			rewards: [{
+				id: "318F6C7BE832267D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7921C924FD75DD73"
 				item: { count: 1, id: "alltheores:zinc_ore" }
 				type: "item"
 			}]
 			x: -4.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["70C73AE3429B8762"]
 			id: "434900018C3E84D8"
+			rewards: [{
+				id: "0F0269BC170D5E9B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F00F28349E22616"
 				item: { count: 1, id: "minecraft:iron_ore" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3F1485DBD4C71B66"]
 			id: "5157C8485FB04C97"
+			rewards: [{
+				id: "191FB79708BC9623"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "268BA100465AE6F3"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/zinc)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5826AA79CCB4EF8D"]
 			id: "53B33F89E03C6CC6"
+			rewards: [{
+				id: "44224640727D93AD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "217F04BD3FC0ED75"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/lapis)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["434900018C3E84D8"]
 			id: "487CADD6A2A37D71"
+			rewards: [{
+				id: "782434438FAA4CB9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C912172E2017A45"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/iron)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3BF80EEE23B6D9D7"]
+			dependencies: ["5850202E4FFE4DAB"]
 			id: "4D0964E34E575689"
 			optional: true
+			rewards: [{
+				id: "737B2B6AEB61DCBE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "06DE52BFA43628EC"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			id: "1F1ED8B72044189C"
+			rewards: [{
+				count: 4
+				id: "275F030E7139A865"
+				item: {
+					count: 1
+					id: "submerged:totemic_infused_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D8FC4882678DA43"
 				item: { count: 1, id: "submerged:totemic_infused_gravel" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -134,17 +226,34 @@
 				"487CADD6A2A37D71"
 			]
 			id: "3BF80EEE23B6D9D7"
+			rewards: [{
+				id: "0D1701860D0AFFDE"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BB6CA183DCA0F18"
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3BF80EEE23B6D9D7"]
 			id: "04BDDA20594C6E0F"
 			optional: true
+			rewards: [{
+				count: 4
+				id: "19917C222B5B8BF1"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DEF003F3C856AC5"
 				item: { count: 1, id: "create:andesite_alloy" }
@@ -157,78 +266,134 @@
 			dependencies: ["0392542B99ECECC1"]
 			id: "146CD5D3B7DA2955"
 			optional: true
+			rewards: [{
+				id: "762B56F31748BCD4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0702FC3B47172956"
 				item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["203799D6E6FBC9DC"]
 			id: "0392542B99ECECC1"
 			optional: true
+			rewards: [{
+				id: "508CA2AB924D5BB7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0415DF7DA092CC3D"
 				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4D0964E34E575689"]
 			id: "203799D6E6FBC9DC"
 			optional: true
+			rewards: [{
+				id: "55F9A640A49C4E80"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "057811EA5171E26B"
 				item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["146CD5D3B7DA2955"]
 			id: "45B8AF674601C420"
 			optional: true
+			rewards: [{
+				id: "53837737BBE96B5D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EA92CA4D7A0CE3F"
 				item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["203799D6E6FBC9DC"]
 			id: "4CD0811FAA3DE7BB"
 			optional: true
+			rewards: [{
+				id: "4EA15148441505AA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "105AA2A9EFDA67D9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/pressure_chamber)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CD0811FAA3DE7BB"]
 			id: "47F53EBB8035510B"
 			optional: true
+			rewards: [{
+				id: "1F3BD1280DC9A9EA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33BD15F75F4EA76F"
 				item: { count: 1, id: "submerged:pressure_chamber_controller" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["04BDDA20594C6E0F"]
 			id: "39A993D1CDEE8B15"
 			optional: true
+			rewards: [{
+				id: "44E82852BC432F8B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "495CAE3BD8CF3085"
 				item: { count: 1, id: "create:shaft" }
@@ -238,16 +403,24 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["39A993D1CDEE8B15"]
+			dependencies: ["75F8391D5ABE6EBC"]
 			id: "00A7B243D1EC447B"
 			optional: true
+			rewards: [{
+				id: "7FFE9BCBFA2BD4D3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A14612087F24EB9"
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["04F9BDC2CA2325F5"]
@@ -258,25 +431,41 @@
 				item: { count: 1, id: "pneumaticcraft:air_compressor" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4D0964E34E575689"]
 			id: "04F9BDC2CA2325F5"
 			optional: true
+			rewards: [{
+				id: "61A57AE2E0748055"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "693D879E3F9D016C"
 				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["39A993D1CDEE8B15"]
 			id: "480B5C33BC671AB1"
 			optional: true
+			rewards: [{
+				id: "40B4D106A592E151"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70A91818B068C684"
 				item: { count: 1, id: "create:hand_crank" }
@@ -289,50 +478,216 @@
 			dependencies: ["39A993D1CDEE8B15"]
 			id: "75F8391D5ABE6EBC"
 			optional: true
+			rewards: [{
+				id: "34DB00B322AE1C96"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34642B7E79D5B05F"
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"00A7B243D1EC447B"
-				"75F8391D5ABE6EBC"
-			]
+			dependencies: ["00A7B243D1EC447B"]
 			id: "4EF14097D2724EF3"
 			optional: true
+			rewards: [{
+				id: "7236399B4ECC3E56"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F77A88564908B5B"
 				item: { count: 1, id: "create:belt_connector" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4EF14097D2724EF3"]
 			id: "4CADCE6BECDFD4C6"
 			optional: true
+			rewards: [{
+				id: "7596AC89CCDC004C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05771BD55E54243D"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["487CADD6A2A37D71"]
+			dependencies: ["3BF80EEE23B6D9D7"]
 			id: "5850202E4FFE4DAB"
+			rewards: [{
+				count: 4
+				id: "4046EEA044D347E8"
+				item: {
+					count: 1
+					id: "alltheores:steel_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62DF55111FFA12DC"
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["487CADD6A2A37D71"]
+			id: "4D610B1EA5DE8218"
+			tasks: [{
+				id: "23AD18227EDB9DCB"
+				item: { count: 1, id: "cloche:cloche" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D610B1EA5DE8218"]
+			id: "0958CAAD8F7321A7"
+			tasks: [{
+				id: "7716A63EB0567F4F"
+				item: { count: 1, id: "cloche:shears_upgrade" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39A993D1CDEE8B15"]
+			id: "0BAB7C14CCD2BC21"
+			rewards: [{
+				id: "666EC7431391B114"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "229B26D22A36B39A"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["480B5C33BC671AB1"]
+			id: "7122BBDACB1B1D5A"
+			rewards: [{
+				id: "416CC44A542F6FB7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "669E78ED6421D242"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7122BBDACB1B1D5A"]
+			id: "7A351105AE91FE1E"
+			rewards: [{
+				id: "79C7AC1BBD62AFC0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D00A0A52416A280"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04F9BDC2CA2325F5"]
+			id: "5187E2EA6F8557E8"
+			rewards: [{
+				id: "338EBDFB0EF68E1F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F5BFBAFE5012BC7"
+				item: { count: 1, id: "pneumaticcraft:safety_tube_module" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53B33F89E03C6CC6"]
+			id: "665518BCBF63AEE0"
+			rewards: [{
+				id: "760AACA12FEE2608"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AE44182B9D3E5C"
+				item: { count: 1, id: "rftoolsstorage:modular_storage" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["665518BCBF63AEE0"]
+			id: "5703B5049E3E643D"
+			rewards: [{
+				id: "39E43ED38FB0379B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1882B1BA4EE01762"
+				item: { count: 1, id: "rftoolsstorage:storage_module0" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 }

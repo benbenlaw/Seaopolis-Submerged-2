@@ -649,5 +649,16 @@
 			x: 0.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["5159C74515CE1A17"]
+			id: "5F3EF864CF6D33A7"
+			tasks: [{
+				id: "60DCE9427184F46F"
+				item: { count: 1, id: "submerged:catalog_flares" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
 	]
 }

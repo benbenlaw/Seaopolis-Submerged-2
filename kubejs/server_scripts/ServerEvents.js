@@ -34,6 +34,7 @@ colors.forEach(color => {
 });
 
 const rewardFlares = {
+    /*
     'minecraft:stick': {
         colors: [11743532, 6719955, 14516874],
         loot: [
@@ -51,6 +52,7 @@ const rewardFlares = {
             'minecraft:elytra'
         ]
     }
+        */
 };
 
 BlockEvents.rightClicked(event => {
