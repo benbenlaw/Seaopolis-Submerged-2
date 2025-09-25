@@ -1,12 +1,12 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:sand"
+    "item": "minecraft:gravel"
   },
   "loops": 1,
   "results": [
     {
-      "id": "submerged:pressurized_sand"
+      "id": "submerged:assembled_gravel"
     }
   ],
   "sequence": [
@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:sand"
+          "item": "minecraft:gravel"
         },
         {
           "tag": "c:nuggets/bronze"
@@ -22,7 +22,7 @@
       ],
       "results": [
         {
-          "id": "minecraft:sand"
+          "id": "minecraft:gravel"
         }
       ]
     },
@@ -30,7 +30,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "minecraft:sand"
+          "item": "minecraft:gravel"
         },
         {
           "type": "fluid_stack",
@@ -40,7 +40,7 @@
       ],
       "results": [
         {
-          "id": "minecraft:sand"
+          "id": "minecraft:gravel"
         }
       ]
     },    
@@ -48,17 +48,17 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "minecraft:sand"
+          "item": "minecraft:gravel"
         }
       ],
       "results": [
         {
-          "id": "minecraft:sand"
+          "id": "minecraft:gravel"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "minecraft:sand"
+    "id": "minecraft:gravel"
   }
 }

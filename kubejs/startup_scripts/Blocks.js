@@ -20,10 +20,10 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/shovel')
         .gravelSoundType()
 
-    event.create('submerged:pressurized_sand')
+    event.create('submerged:assembled_gravel')
         .hardness(2)
         .tagBlock('minecraft:mineable/shovel')
-        .sandSoundType()
+        .gravelSoundType()
 
     event.create('submerged:charged_sand')
         .hardness(2)

@@ -28,6 +28,30 @@ ServerEvents.tags('item', event => {
 
     //Duck Skins
     event.get('submerged:duck_skins').add(['cute_companions_ducks:duck_collar', 'cute_companions_ducks:duck_crow', 'cute_companions_ducks:duck_donald', 'cute_companions_ducks:duck_parrot_01', 'cute_companions_ducks:duck_shopping_pants', 'cute_companions_ducks:duck_tshirt_black', 'cute_companions_ducks:duck_tshirt_blue', 'cute_companions_ducks:duck_zombie', 'cute_companions_ducks:duck_yellow', 'cute_companions_ducks:duck_wild', 'cute_companions_ducks:duck_tshirt_yellow', 'cute_companions_ducks:duck_tshirt_red', 'cute_companions_ducks:duck_tshirt_purple', 'cute_companions_ducks:duck_tshirt_pink', 'cute_companions_ducks:duck_tshirt_lime'])
+
+    //Gravel Tiers - Add to block tags when completed
+    event.get('submerged:tier_1_gravel').add([
+        'strainers:purified_gravel',
+        '#submerged:tier_2_gravel',
+        '#submerged:tier_3_gravel',
+        '#submerged:tier_4_gravel'
+    ])
+
+    event.get('submerged:tier_2_gravel').add([
+        'submerged:refined_gravel',
+        '#submerged:tier_3_gravel',
+        '#submerged:tier_4_gravel'
+    ])
+
+    event.get('submerged:tier_3_gravel').add([
+        'submerged:totemic_infused_gravel',
+        '#submerged:tier_4_gravel'
+    ])
+
+    event.get('submerged:tier_4_gravel').add([
+        'submerged:assembled_gravel'
+    ])
+
 })
 
 ServerEvents.tags('block', event => {

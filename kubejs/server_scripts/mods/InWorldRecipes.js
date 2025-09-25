@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     //Log Sheets
     event.recipes.inworldrecipes.block_interaction(
         "left", "#minecraft:logs", "totemic:totem_whittling_knife",
-        true, false, true, false).outputBlockState("minecraft:air").results(["6x opolisutilities:log_sheet"])
+        true, false, true, false).results(["6x opolisutilities:log_sheet"])
     .id("submerged:log_sheet")
 
     //Living Gravel

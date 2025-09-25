@@ -12,10 +12,10 @@ ServerEvents.recipes(event => {
 
     //Pressurized Sand
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["4x minecraft:sand", "4x #c:nuggets/bronze", "submerged:organic_water_bucket"],
+        ["4x minecraft:gravel", "4x #c:nuggets/bronze", "submerged:organic_water_bucket"],
         1.0,
-        ["4x submerged:pressurized_sand", "minecraft:bucket"]
-    ).id('submerged:pneumaticcraft/pressurized_sand')
+        ["4x submerged:assembled_gravel", "minecraft:bucket"]
+    ).id('submerged:pneumaticcraft/assembled_gravel')
 
     //Pressurized Bottle
     event.recipes.pneumaticcraft.pressure_chamber(["minecraft:glass_bottle"], 1.0, ["nautec:air_bottle"] ).id('submerged:pneumaticcraft/air_bottle')
