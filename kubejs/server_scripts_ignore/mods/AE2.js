@@ -1,6 +1,6 @@
 //Applied Energistics 2
 ServerEvents.recipes(event => {
- 
+
     //Replace Input
     event.replaceInput({id: 'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#c:silicon')
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
