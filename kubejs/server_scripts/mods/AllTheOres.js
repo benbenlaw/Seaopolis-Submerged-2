@@ -3,6 +3,6 @@
 ServerEvents.recipes(event => {
 
     //Remove
-    event.remove({input: '#alltheores:ore_hammers' })
+    event.remove({type: "shaped", input: '#alltheores:ore_hammers' })
 
 })

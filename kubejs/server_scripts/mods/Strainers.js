@@ -3,11 +3,11 @@
 ServerEvents.recipes(event => {
 
     //Remove
-    //event.remove({id: /strainers:strainer\/purified_gravel/})
-    //event.remove({id: "strainers:strainer/purified_sand/prismarine_crystals"})
-    //event.remove({id: "strainers:strainer/purified_sand/prismarine_shard"})
-    //event.remove({id: "strainers:strainer/purified_soul_sand/debris_ore_piece"})
-    //event.remove({id: "strainers:strainer/purified_soul_sand/quartz_ore_piece"})
+    event.remove({id: /strainers:strainer\/purified_gravel/})
+    event.remove({id: "strainers:strainer/purified_sand/prismarine_crystals"})
+    event.remove({id: "strainers:strainer/purified_sand/prismarine_shard"})
+    event.remove({id: "strainers:strainer/purified_soul_sand/debris_ore_piece"})
+    event.remove({id: "strainers:strainer/purified_soul_sand/quartz_ore_piece"})
     
     //Compactor
     event.shaped('strainers:compactor', ['AAA', 'ABA', 'AAA'], {
