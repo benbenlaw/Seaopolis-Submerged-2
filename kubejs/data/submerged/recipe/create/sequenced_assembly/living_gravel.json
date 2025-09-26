@@ -1,12 +1,12 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "submerged:totemic_infused_gravel"
+    "item": "submerged:assembled_gravel"
   },
   "loops": 1,
   "results": [
     {
-      "id": "submerged:assembled_gravel"
+      "id": "submerged:living_gravel"
     }
   ],
   "sequence": [
@@ -14,15 +14,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "submerged:totemic_infused_gravel"
+          "item": "submerged:assembled_gravel"
         },
         {
-          "item": "minecraft:sand"
+          "item": "submerged:living_mob_matter"
         }
       ],
       "results": [
         {
-          "id": "submerged:totemic_infused_gravel"
+          "id": "submerged:assembled_gravel"
         }
       ]
     },
@@ -30,17 +30,17 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "submerged:totemic_infused_gravel"
+          "item": "submerged:assembled_gravel"
         },
         {
           "type": "fluid_stack",
-          "amount": 250,
-          "fluid": "submerged:organic_water"
+          "amount": 1000,
+          "fluid": "mob_grinding_utils:fluid_xp"
         }
       ],
       "results": [
         {
-          "id": "submerged:totemic_infused_gravel"
+          "id": "submerged:assembled_gravel"
         }
       ]
     },    
@@ -48,17 +48,17 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "submerged:totemic_infused_gravel"
+          "item": "submerged:assembled_gravel"
         }
       ],
       "results": [
         {
-          "id": "submerged:totemic_infused_gravel"
+          "id": "submerged:assembled_gravel"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "submerged:totemic_infused_gravel"
+    "id": "submerged:assembled_gravel"
   }
 }

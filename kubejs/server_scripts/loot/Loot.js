@@ -12,4 +12,11 @@ LootJS.modifiers(event => {
 
     //Ancient Debris
     event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addLoot('submerged:raw_ancient_debris')
+
+    //Entity Tweaks
+    event.addEntityModifier('minecraft:witch').removeLoot('minecraft:redstone').removeLoot('minecraft:glass_bottle').removeLoot('minecraft:glowstone_dust')
+    event.addEntityModifier('minecraft:skeleton').removeLoot('minecraft:bow')
+    event.addEntityModifier('minecraft:drowned').removeLoot('minecraft:copper_ingot')
+    event.addEntityModifier('minecraft:zombie').removeLoot('minecraft:iron_ingot')
+
 })

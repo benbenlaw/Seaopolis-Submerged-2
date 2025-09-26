@@ -185,7 +185,7 @@
 				consume_items: true
 				count: 32L
 				id: "636D91D02A6098D4"
-				item: { count: 32, id: "minecraft:bone_meal" }
+				item: { count: 1, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -287,7 +287,7 @@
 				consume_items: true
 				count: 64L
 				id: "2070439419DE133A"
-				item: { count: 64, id: "minecraft:paper" }
+				item: { count: 1, id: "minecraft:paper" }
 				type: "item"
 			}]
 			x: 3.5d

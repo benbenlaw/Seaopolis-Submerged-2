@@ -182,7 +182,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["5850202E4FFE4DAB"]
+			dependencies: ["3BF80EEE23B6D9D7"]
 			id: "4D0964E34E575689"
 			optional: true
 			rewards: [{
@@ -198,8 +198,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			id: "1F1ED8B72044189C"
@@ -239,7 +239,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3BF80EEE23B6D9D7"]
@@ -260,7 +260,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0392542B99ECECC1"]
@@ -280,7 +280,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["203799D6E6FBC9DC"]
@@ -300,7 +300,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4D0964E34E575689"]
@@ -320,7 +320,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["146CD5D3B7DA2955"]
@@ -340,7 +340,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["203799D6E6FBC9DC"]
@@ -360,7 +360,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CD0811FAA3DE7BB"]
@@ -379,8 +379,8 @@
 				item: { count: 1, id: "submerged:pressure_chamber_controller" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["04BDDA20594C6E0F"]
@@ -399,8 +399,8 @@
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["75F8391D5ABE6EBC"]
@@ -419,8 +419,8 @@
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["04F9BDC2CA2325F5"]
@@ -432,7 +432,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4D0964E34E575689"]
@@ -452,7 +452,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["39A993D1CDEE8B15"]
@@ -471,8 +471,8 @@
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["39A993D1CDEE8B15"]
@@ -491,8 +491,8 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["00A7B243D1EC447B"]
@@ -511,8 +511,8 @@
 				item: { count: 1, id: "create:belt_connector" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4EF14097D2724EF3"]
@@ -530,28 +530,8 @@
 				id: "05771BD55E54243D"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3BF80EEE23B6D9D7"]
-			id: "5850202E4FFE4DAB"
-			rewards: [{
-				count: 4
-				id: "4046EEA044D347E8"
-				item: {
-					count: 1
-					id: "alltheores:steel_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "62DF55111FFA12DC"
-				item: { count: 1, id: "alltheores:steel_ingot" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -0.5d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["487CADD6A2A37D71"]
@@ -591,7 +571,7 @@
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -610,8 +590,8 @@
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7122BBDACB1B1D5A"]
@@ -629,8 +609,8 @@
 				item: { count: 1, id: "create:large_water_wheel" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["04F9BDC2CA2325F5"]
@@ -649,7 +629,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["53B33F89E03C6CC6"]
@@ -688,6 +668,43 @@
 			}]
 			x: -3.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["1F1ED8B72044189C"]
+			id: "374B2CA1A1A76F3B"
+			rewards: [{
+				id: "2ED26CB6FA271473"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E659BDA4F029E0"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00A7B243D1EC447B"]
+			id: "466D23B9B67ECCDF"
+			rewards: [{
+				id: "1654CD8ED0A7DFB0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B0E2ED72B436756"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
 		}
 	]
 }

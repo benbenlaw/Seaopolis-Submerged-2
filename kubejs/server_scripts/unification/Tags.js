@@ -32,6 +32,8 @@ ServerEvents.tags("item", event => {
     event.get("submerged:calculation_processors").add(['refinedstorage:improved_processor', 'ae2:calculation_processor'])
     event.get("submerged:engineering_processors").add(['refinedstorage:advanced_processor', 'ae2:engineering_processor'])
 
+    //Coral
+    event.get("submerged:coral_blocks").add(['minecraft:tube_coral_block', 'minecraft:brain_coral_block', 'minecraft:bubble_coral_block', 'minecraft:fire_coral_block', 'minecraft:horn_coral_block'])
 
 
 })

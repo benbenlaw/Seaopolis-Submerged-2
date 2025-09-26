@@ -4,7 +4,7 @@
 		"seasonalBagChance": 20,
 		"allowHatInHelmetSlot": false,
 		"entityLoot": {
-			"enableMobLoot": true,
+			"enableMobLoot": false,
 			"entityNoneWeight": 200,
 			"entityCommonWeight": 20,
 			"entityUncommonWeight": 15,
@@ -12,7 +12,7 @@
 			"entityEpicWeight": 5
 		},
 		"chestLoot": {
-			"enableChestLoot": true,
+			"enableChestLoot": false,
 			"chestNoneWeight": 150,
 			"chestCommonWeight": 20,
 			"chestUncommonWeight": 15,

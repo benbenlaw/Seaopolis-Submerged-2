@@ -36,9 +36,6 @@ minecraft:village_plains
 minecraft:village_savanna
 minecraft:village_snowy
 minecraft:village_taiga
-nautec:deepslate_crystal_geode
-nautec:ruins_1
-nautec:stone_crystal_geode
 underwater_village:cold_big_gate
 underwater_village:cold_broken_house
 underwater_village:cold_fountain

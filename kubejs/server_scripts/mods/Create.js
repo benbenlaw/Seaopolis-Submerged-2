@@ -17,9 +17,7 @@ ServerEvents.recipes(event => {
 
     //Replace Input
     event.replaceInput({id: 'create:crafting/kinetics/deployer'}, 'create:electron_tube', 'minecraft:lapis_lazuli')
-
-    //Pressing
-    event.recipes.create.pressing(['minecraft:glass_bottle'], ['nautec:air_bottle']).id('submerged:create/air_bottle')
+    event.replaceInput({id: 'create:crafting/kinetics/goggles'}, '#c:plates/gold', '#c:plates/brass')
 
     //Milling
     event.recipes.create.milling('naturesaura:gold_leaf', 200, '2x naturesaura:gold_powder').id('submerged:create/gold_powder')

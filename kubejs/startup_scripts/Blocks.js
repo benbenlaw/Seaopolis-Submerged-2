@@ -49,12 +49,7 @@ StartupEvents.registry("block", (event) => {
         .hardness(2)
         .tagBlock('minecraft:mineable/pickaxe')
         .stoneSoundType()
-
-    event.create('submerged:unactivated_prismarine_crystal')
-        .hardness(2)
-        .tagBlock('minecraft:mineable/pickaxe')
-        .stoneSoundType()
-
+        
     event.create('submerged:nether_portal_frame')
         .hardness(50)
         .tagBlock(['minecraft:mineable/pickaxe', 'bblcore:nether_portal_frame'])

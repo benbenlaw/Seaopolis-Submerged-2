@@ -2,12 +2,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Prismarine Crystal
-    event.recipes.inworldrecipes.block_interaction(
-        "right", "submerged:unactivated_prismarine_crystal", "submerged:prismarine_crystal_activator",
-        false, true, false, false).outputBlockState("nautec:prismarine_crystal")
-    .id("submerged:prismarine_crystal")
-
     //Log Sheets
     event.recipes.inworldrecipes.block_interaction(
         "left", "#minecraft:logs", "totemic:totem_whittling_knife",
@@ -17,9 +11,9 @@ ServerEvents.recipes(event => {
     //Living Gravel
     event.custom({
         "type": "inworldrecipes:drop_item_in_fluid",
-        "dropped_items": [{"item": "minecraft:gravel"}],
-        "fluid": "nautec:eas",
-        "consume_fluid": false,
+        "dropped_items": [{"item": "submerged:living_mob_matter"}],
+        "fluid": "mob_grinding_utils:fluid_xp",
+        "consume_fluid": true,
         "results": [{"item": {"id": "submerged:living_gravel"}}]
     }).id("submerged:living_gravel")
 
@@ -31,4 +25,23 @@ ServerEvents.recipes(event => {
         "new_fluid": "submerged:exothermic_water",
         "destroy_items": true
     }).id("submerged:exothermic_water")
+
+    //Totemic Infused Water
+    event.custom({
+        "type": "inworldrecipes:drop_item_in_fluid_converts_fluid",
+        "dropped_item":{"item": "submerged:totemic_infused_gravel","count": 64},
+        "fluid": "minecraft:water",
+        "new_fluid": "submerged:totemic_infused_water",
+        "destroy_items": true
+    }).id("submerged:totemic_infused_water")
+
+    //Salt Water
+    event.custom({
+        "type": "inworldrecipes:drop_item_in_fluid_converts_fluid",
+        "dropped_item":{"item": "mekanism:block_salt","count": 1},
+        "fluid": "minecraft:water",
+        "new_fluid": "submerged:salt_water",
+        "destroy_items": true
+    }).id("submerged:salt_water")
+
 })

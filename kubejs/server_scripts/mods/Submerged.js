@@ -5,6 +5,9 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
+    //Living Mob Matter
+    event.shapeless('submerged:living_mob_matter', ['minecraft:ender_pearl', 'minecraft:bone', 'minecraft:rotten_flesh', 'minecraft:slime_ball', 'minecraft:spider_eye']).id('submerged:living_mob_matter')
+
     //Catalog Flares
     event.shaped('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:paper',
@@ -43,18 +46,11 @@ ServerEvents.recipes(event => {
         B: 'submerged:netherite_key'
     }).id('submerged:nether_portal_sphere')
 
-    //Prismarine Crystal Activator
-    event.shaped('submerged:prismarine_crystal_activator', [' BC', ' AB', 'A  '], {
-        A: 'minecraft:stick',
-        B: 'minecraft:prismarine_shard',
-        C: 'minecraft:prismarine_crystals'
-    }).id('submerged:prismarine_crystal_activator')
-
     //Ancient Lens
     event.shaped('submerged:ancient_lens', ['ABA', 'BCB', 'ABA'], {
         A: 'naturesaura:ancient_log',
         B: 'enderio:grains_of_infinity',
-        C: 'nautec:prismarine_lens'
+        C: '#c:glass_panes'
     }).id('submerged:ancient_lens')
 
     //Matter Gravel
@@ -153,11 +149,5 @@ ServerEvents.recipes(event => {
         A: 'pneumaticcraft:reinforced_bricks',
         B: 'submerged:copper_key'
     }).id('submerged:5x5_pressure_chamber')
-
-    //Prismarine Sphere Key
-    event.shaped(`submerged:prismarine_sphere_key`, [' A ', 'ABA', ' A '], {
-        A: 'minecraft:prismarine_crystals',
-        B: 'submerged:copper_key'
-    }).id('submerged:prismarine_sphere_key')
 
 })

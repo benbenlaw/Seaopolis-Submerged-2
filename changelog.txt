@@ -5,3 +5,4 @@ Shops, show counts in shop gui
 Shops, balance not saving?
 Compat, leaves should produce 2 sapling colors, clochee
 Submerged, toxic water, toxic air, toxic rain
+ForceCraft Chu Chu Hitboxes to big https://github.com/Mrbysco/ForceCraft/issues/132

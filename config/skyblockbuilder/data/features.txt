@@ -77,6 +77,7 @@ colors:yellow_tree
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+cursedearth:blessed_flower
 forcecraft:force_tree
 forcecraft:force_tree_with_bees
 forcecraft:ore_force
@@ -306,8 +307,6 @@ naturesaura:aura_mushroom
 naturesaura:crimson_aura_mushroom
 naturesaura:nether_wart_mushroom
 naturesaura:warped_aura_mushroom
-nautec:prismarine_sand_beach
-nautec:prismarine_sand_ocean
 opolisutilities:ender_ore
 pneumaticcraft:oil_lake
 rftoolsbase:dimshard_dimensions

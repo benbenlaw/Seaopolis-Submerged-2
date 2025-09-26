@@ -8,5 +8,6 @@ ServerEvents.recipes(event => {
     event.remove({id: /alltheores:crafting\/.*\/rod/})
     event.remove({id: 'alltheores:crafting/enderium/alloy_blending_from_dust'})
     event.remove({id: 'alltheores:crafting/steel/alloy_blending_from_dust'})
+    event.remove({id: 'alltheores:crafting/salt/block_from_dust'})
 
 })

@@ -15,8 +15,8 @@
 				item: { count: 1, id: "strainers:redstone_ore_piece" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.0d
+			x: 3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3F2EA9A5FA64673E"]
@@ -26,8 +26,8 @@
 				item: { count: 1, id: "minecraft:redstone_ore" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 8.0d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["60037D4B23D755E0"]
@@ -37,66 +37,47 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.5d
+			x: 3.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["45B09F8E3743944D"]
 			id: "653DD2FF64F6A587"
+			rewards: [{
+				count: 2
+				id: "27A01A0ED500037B"
+				item: {
+					count: 1
+					id: "minecraft:prismarine"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C133A829754D06F"
 				item: { count: 1, id: "minecraft:prismarine" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["653DD2FF64F6A587"]
-			id: "3630BA4B03BB75D7"
-			tasks: [{
-				id: "16681DAB0A14E313"
-				item: { count: 1, id: "nautec:polished_prismarine" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"3630BA4B03BB75D7"
-				"6A1B1CD129176E37"
-			]
-			id: "65C92E5377A04743"
-			tasks: [{
-				id: "29C9A070D19D2ABA"
-				item: { count: 1, id: "nautec:aquatic_catalyst" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5F4460BFEFEE379D"]
 			id: "45B09F8E3743944D"
+			rewards: [{
+				id: "7F48DB447CF4415A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B05D7F73C282958"
 				item: { count: 1, id: "minecraft:prismarine_shard" }
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["356B0DCCAA28ABF2"]
-			id: "6A1B1CD129176E37"
-			tasks: [{
-				id: "712DD69E906A70F7"
-				item: { count: 1, id: "submerged:prismarine_sphere_key" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -105,9 +86,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5F4460BFEFEE379D"
+			rewards: [{
+				count: 4
+				id: "4E6C04DA039C22EC"
+				item: {
+					count: 1
+					id: "submerged:assembled_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "15B51807E7FA267C"
-				item: { count: 1, id: "submerged:pressurized_sand" }
+				id: "22EA6D6349791FAE"
+				item: { count: 1, id: "submerged:assembled_gravel" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -116,195 +106,320 @@
 		{
 			dependencies: ["5F4460BFEFEE379D"]
 			id: "356B0DCCAA28ABF2"
+			rewards: [{
+				id: "2CCE1D900A6F8B8A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34F5E74F25014BAD"
 				item: { count: 1, id: "minecraft:prismarine_crystals" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["65C92E5377A04743"]
-			id: "57EFAA6AB7C0645B"
-			tasks: [{
-				id: "03457B47C4788578"
-				item: { count: 1, id: "minecraft:raw_iron" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["57EFAA6AB7C0645B"]
-			id: "354F57FD7D2FE51E"
-			tasks: [{
-				id: "7FD475FB5B8B39DB"
-				item: { count: 1, id: "nautec:aquarine_steel_compound" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["354F57FD7D2FE51E"]
-			id: "575F3A05822E7EF9"
-			tasks: [{
-				id: "59A6F27BEA85946D"
-				item: { count: 1, id: "nautec:aquarine_steel_ingot" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["575F3A05822E7EF9"]
-			id: "4AE6464EA488EBEF"
-			tasks: [{
-				id: "25F705E908EA1204"
-				item: { count: 1, id: "nautec:mixer" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["46F89AE2059C84B1"]
-			id: "223FCBA474AD08C5"
-			tasks: [{
-				id: "032A2C277CFE6BCF"
-				item: { count: 1, id: "nautec:eas_bucket" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["223FCBA474AD08C5"]
+			dependencies: ["3900787DA4EE4805"]
 			id: "7FF77CD147DD819F"
 			tasks: [{
 				id: "09BA40CEC2C39B2D"
 				item: { count: 1, id: "submerged:living_gravel" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 3.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F4460BFEFEE379D"]
 			id: "121B74AB42FF6E61"
+			rewards: [{
+				id: "386B6A012CE489A1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7004E18303BC18EF"
 				item: { count: 1, id: "alltheores:salt" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["121B74AB42FF6E61"]
 			id: "7ED2175CCB3A787E"
-			tasks: [{
-				id: "3F1A9590DA4D3EE8"
-				item: { count: 1, id: "alltheores:salt_block" }
+			rewards: [{
+				id: "2C7801DEF74CA3B4"
+				item: {
+					count: 1
+					id: "mekanism:block_salt"
+				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"7ED2175CCB3A787E"
-				"4AE6464EA488EBEF"
-			]
-			id: "46F89AE2059C84B1"
 			tasks: [{
-				id: "2FE4DA99C7A3E195"
-				item: { count: 1, id: "nautec:saltwater_bucket" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["133C8B93F7789357"]
-			id: "72D53308BD14BBFC"
-			tasks: [{
-				id: "2C964FFF6334A4B2"
-				item: { count: 1, id: "nautec:diving_chestplate" }
+				id: "6F03FA7731D7CDC3"
+				item: { count: 1, id: "mekanism:block_salt" }
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["72D53308BD14BBFC"]
-			id: "7319057BBC40D9AC"
-			tasks: [{
-				id: "2AEC6DAB35025C8D"
-				item: { count: 1, id: "nautec:diving_helmet" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["72D53308BD14BBFC"]
-			id: "212ACF5B313CA1E7"
-			tasks: [{
-				id: "4F3924CD17EFBCB1"
-				item: { count: 1, id: "nautec:diving_leggings" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["72D53308BD14BBFC"]
-			id: "26E934D53B20B4AD"
-			tasks: [{
-				id: "5223D8599ED88FA5"
-				item: { count: 1, id: "nautec:diving_boots" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["72D53308BD14BBFC"]
-			id: "18E67396B01B34F1"
-			tasks: [{
-				id: "22D257151BBA30CA"
-				item: { count: 1, id: "nautec:air_bottle" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"45B09F8E3743944D"
-				"356B0DCCAA28ABF2"
+				"53B33F89E03C6CC6"
+				"2C4CFF42EE89DF97"
 			]
-			id: "017FF9AC4D6E0531"
-			tasks: [{
-				id: "2449EA08069F0A1F"
-				item: { count: 1, id: "submerged:prismarine_crystal_activator" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["53B33F89E03C6CC6"]
 			id: "4C15A7ABD171F566"
 			tasks: [{
 				id: "0F5F4C7D5423175A"
 				item: { count: 1, id: "storagedrawers:controller" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7ED2175CCB3A787E"]
+			id: "47EAC76AC52B2A6F"
+			tasks: [{
+				id: "63D5F662C8764B29"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["356B0DCCAA28ABF2"]
+			id: "08DCE8CDA477CF52"
+			tasks: [{
+				id: "7344B2BD248A217C"
+				item: { count: 1, id: "submerged:corrupted_prismarine_crystal" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"08DCE8CDA477CF52"
+				"47EAC76AC52B2A6F"
+			]
+			id: "0FF7B92264CCC09B"
+			tasks: [{
+				id: "1E4D022E78821167"
+				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed_cursed" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FF7B92264CCC09B"]
+			id: "44739AEBDE1974A7"
+			tasks: [{
+				id: "2ED4B0071E14D62A"
+				item: { count: 1, id: "mob_grinding_utils:rotten_egg" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44739AEBDE1974A7"]
+			id: "36791B9A62694AFA"
+			tasks: [{
+				id: "59BC4076D6DAAC3F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mob_grinding_utils:dreadful_dirt"
+				type: "observation"
+			}]
+			x: 3.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "188F0EC4C1AA72B0"
+			tasks: [{
+				id: "7DA47F72A8E96A37"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "75C0E4167CADCE16"
+			tasks: [{
+				id: "02BAA47EC0C82833"
+				item: { count: 1, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "51E14763F814E494"
+			tasks: [{
+				id: "48E8429FE39FE5ED"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "1804E1E4479B38ED"
+			tasks: [{
+				id: "44C6998B715005A7"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "220145EA53CEEA5F"
+			tasks: [{
+				id: "0D98E30F357C46DC"
+				item: { count: 1, id: "minecraft:spider_eye" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "342A24C12BC9903F"
+			tasks: [{
+				id: "6EED5D6FBA531AE0"
+				item: { count: 1, id: "mob_grinding_utils:spikes" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"36791B9A62694AFA"
+				"56DC474E41784B1D"
+			]
+			id: "719149B1FE51F56E"
+			tasks: [{
+				id: "7FA822F22925A1D4"
+				item: { count: 1, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["188F0EC4C1AA72B0"]
+			id: "420DB833C14869B9"
+			tasks: [{
+				id: "6FEAA6441D024152"
+				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"45B09F8E3743944D"
+				"356B0DCCAA28ABF2"
+			]
+			id: "56DC474E41784B1D"
+			tasks: [{
+				id: "750A1E4B27DD1C9B"
+				item: { count: 1, id: "minecraft:sea_lantern" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DBCC5C33F07A31A"]
+			id: "6EF53DBEA0BF9F54"
+			tasks: [{
+				id: "2830CF72D9BD9E07"
+				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["188F0EC4C1AA72B0"]
+			id: "60F282459AD66521"
+			tasks: [{
+				id: "2A274E5BD25370FB"
+				item: { count: 1, id: "mob_grinding_utils:ender_inhibitor_on" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"188F0EC4C1AA72B0"
+				"51E14763F814E494"
+				"1804E1E4479B38ED"
+				"220145EA53CEEA5F"
+				"75C0E4167CADCE16"
+			]
+			id: "3900787DA4EE4805"
+			tasks: [{
+				id: "02D62BB302AC2DE8"
+				item: { count: 1, id: "submerged:living_mob_matter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["188F0EC4C1AA72B0"]
+			id: "7DBCC5C33F07A31A"
+			tasks: [{
+				id: "3A4FD1BBD3F2041D"
+				item: { count: 1, id: "mob_grinding_utils:tank" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7FF77CD147DD819F"]
+			id: "2C4CFF42EE89DF97"
+			tasks: [{
+				id: "403B8E5191089AAF"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C4CFF42EE89DF97"]
+			id: "589E5BF4785702A7"
+			tasks: [{
+				id: "62363606171A9689"
+				item: { count: 1, id: "minecraft:tinted_glass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
 		}
 	]
 }

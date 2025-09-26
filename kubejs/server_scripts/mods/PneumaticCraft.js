@@ -10,15 +10,19 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: "pneumaticcraft:uv_light_box"}, "pneumaticcraft:pcb_blueprint", 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
 
-    //Pressurized Sand
+    //Living Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["4x minecraft:gravel", "4x #c:nuggets/bronze", "submerged:organic_water_bucket"],
+        ["submerged:living_mob_matter", 'mob_grinding_utils:fluid_xp_bucket'],
+        2.0,
+        ["submerged:living_gravel", 'minecraft:bucket']
+    ).id('submerged:pneumaticcraft/living_gravel')
+
+    //Assembled Gravel
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["4x submerged:totemic_infused_gravel", "4x minecraft:sand", "submerged:organic_water_bucket"],
         1.0,
         ["4x submerged:assembled_gravel", "minecraft:bucket"]
     ).id('submerged:pneumaticcraft/assembled_gravel')
-
-    //Pressurized Bottle
-    event.recipes.pneumaticcraft.pressure_chamber(["minecraft:glass_bottle"], 1.0, ["nautec:air_bottle"] ).id('submerged:pneumaticcraft/air_bottle')
     
     //Gold Powder
     event.recipes.pneumaticcraft.pressure_chamber(["naturesaura:gold_leaf"], 1.0, ["2x naturesaura:gold_powder"] ).id('submerged:pneumaticcraft/gold_powder')
