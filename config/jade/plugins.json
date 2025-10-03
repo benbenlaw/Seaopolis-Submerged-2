@@ -85,6 +85,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "balm": {
+    "jade": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -99,11 +102,6 @@
   },
   "ars_nouveau": {
     "mob_jar": true
-  },
-  "nautec": {
-    "aquatic_catalyst": true,
-    "laser_junction": true,
-    "mixer": true
   },
   "mekanism": {
     "chemical": true,
@@ -120,6 +118,9 @@
     "altar": true,
     "mortar": true,
     "cauldron": true
+  },
+  "gravestone": {
+    "grave": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

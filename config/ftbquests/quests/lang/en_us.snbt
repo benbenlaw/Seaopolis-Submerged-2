@@ -72,6 +72,7 @@
 	quest.0BD995BF839A78ED.quest_desc: ["Drops when mining &lAncient Debris&r"]
 	quest.0C2AABFFD28944AA.quest_desc: ["Made inside the &lPressure Chamber&r or &lCreate Mixing&r"]
 	quest.0C2AABFFD28944AA.title: "Etching Acid"
+	quest.0C36C386F76E0565.quest_desc: ["Drops from &lSpiders&r"]
 	quest.0CA15E5798C79997.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.0CE12BF1524E0C75.quest_desc: ["Can be used to turn orgnaic materials into &lBone Meal&r"]
 	quest.0D7A91E84A6CE9CD.quest_desc: [
@@ -148,6 +149,8 @@
 	quest.1F380688230A73A3.quest_desc: ["Can be used to get various different &lStone Types&r"]
 	quest.203799D6E6FBC9DC.quest_desc: ["Made with &lReinforced Stone&r"]
 	quest.207F4FFC4AD976E5.quest_desc: ["Crafted &lOre Pieces&r"]
+	quest.220145EA53CEEA5F.quest_desc: ["Drops from &lChu Slimes&r"]
+	quest.220145EA53CEEA5F.title: "Chu Slime"
 	quest.224FDE5540E81488.quest_desc: ["A &lTier 3 Mesh&r"]
 	quest.22724BA354777C5B.quest_desc: ["Keep going"]
 	quest.227A319F037173CD.quest_desc: ["The &lMultiblock Controller&r allows for a lot of flexibility. Use \"G\" when hovering over the Multiblock Items to veiw additional infomration"]
@@ -165,6 +168,8 @@
 	quest.242855AD0C9FD843.title: "Sandpaper"
 	quest.24815AD753E56681.quest_desc: ["The heart of casting"]
 	quest.24D11865C7E087D9.quest_desc: ["&lPurified Sand&r may contain useful loot"]
+	quest.24EFBEA5DD8BFFC6.quest_desc: ["Can be used to auto place and break blocks. Enable &lFake Players&r in &lFTB&r"]
+	quest.24EFBEA5DD8BFFC6.title: "Breaking and Placing"
 	quest.250A1F551823F2B1.quest_desc: ["&lSubmerged 2&r can be played with &lShaders&r. Open your&l Video Settings&r and click &lShader Packs&r on the top right!"]
 	quest.25115D90756C1804.quest_desc: ["A place to buy items. Requires a &lCatalog&r in the bottom left slot"]
 	quest.25D2032576886653.quest_desc: ["&lGravel&r inside an &lStrainer&r with &lEroding Water&r"]
@@ -361,6 +366,7 @@
 	quest.5666976BFCBC1AF9.quest_subtitle: "needs reward"
 	quest.568CC680692389D0.quest_desc: ["&lCoal&r and &lCharcoal&r "]
 	quest.568CC680692389D0.title: "Coals"
+	quest.56DC474E41784B1D.quest_desc: ["Let there be light"]
 	quest.5703B5049E3E643D.quest_desc: ["Used inside the &lModular Storage&r to provide &lStorage&r"]
 	quest.57DD8F321E53526F.quest_desc: ["Simple &lFluid Transport&r"]
 	quest.57DF2A7FC2115CBC.quest_desc: ["The &lBreeding Upgrade&r allows the &lTank Controller&r to do &oBreeding Recipes&r"]
@@ -464,6 +470,7 @@
 		""
 		"After this new secret quests will be unlocked, Completing these will give you another reward!"
 	]
+	quest.6C10C6ED74F0B769.quest_desc: ["Increases the width of the &lFan&r"]
 	quest.6C1C19F4F151D303.quest_desc: ["Drops from &lBuffalos&r"]
 	quest.6C8297AF7997580F.quest_desc: ["From the &lFluid Sieving Machine&r"]
 	quest.6CEA085FCE1AE11D.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lPurifying Water&r. Also can be used to turn &lMulch&r into &lDirt&r"]
@@ -478,6 +485,7 @@
 	quest.7122BBDACB1B1D5A.quest_desc: ["Uses water flow to rotate"]
 	quest.714080375257015A.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.7177E1FA31A3AAFB.quest_desc: ["Smelted &lLogs&r"]
+	quest.719149B1FE51F56E.quest_desc: ["Pushes mobs"]
 	quest.71ED8FDC8116FA2E.quest_desc: [
 		"Re make starting area with flooded sphere with kelp"
 		"Water, lava and kelp fish should also spawn in there"
@@ -613,6 +621,7 @@
 	task.552DB8FD59F41796.title: "Any #submerged:dirt_pile"
 	task.555CFC181186E1CB.title: "Any #bblcore:tintable/orange"
 	task.5BB6CA183DCA0F18.title: "Hmm"
+	task.5C1FFA47590FC075.title: "Any #forcecraft:chu_jelly"
 	task.5ED7FBAE617F68B7.title: "Ether Gas"
 	task.5F7419E4B754650A.title: "Any #strainers:tier_6_meshes"
 	task.603F8EAB07D4F2D4.title: "Any #submerged:coral_blocks"

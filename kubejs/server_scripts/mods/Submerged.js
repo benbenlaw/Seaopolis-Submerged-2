@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
     //Living Mob Matter
-    event.shapeless('submerged:living_mob_matter', ['minecraft:ender_pearl', 'minecraft:bone', 'minecraft:rotten_flesh', 'minecraft:slime_ball', 'minecraft:spider_eye']).id('submerged:living_mob_matter')
+    event.shapeless('2x submerged:living_mob_matter', ['5x #submerged:valid_living_mob_matter']).id('submerged:living_mob_matter')
 
     //Catalog Flares
     event.shaped('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {

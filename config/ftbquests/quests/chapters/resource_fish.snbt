@@ -233,6 +233,9 @@
 		}
 		{
 			dependencies: ["44739AEBDE1974A7"]
+			icon: {
+				id: "mob_grinding_utils:dreadful_dirt"
+			}
 			id: "36791B9A62694AFA"
 			tasks: [{
 				id: "59BC4076D6DAAC3F"
@@ -292,8 +295,8 @@
 			dependencies: ["36791B9A62694AFA"]
 			id: "220145EA53CEEA5F"
 			tasks: [{
-				id: "0D98E30F357C46DC"
-				item: { count: 1, id: "minecraft:spider_eye" }
+				id: "5C1FFA47590FC075"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forcecraft:chu_jelly)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -420,6 +423,28 @@
 			}]
 			x: 4.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["719149B1FE51F56E"]
+			id: "6C10C6ED74F0B769"
+			tasks: [{
+				id: "1562FD7C5BCDEEF9"
+				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_width" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36791B9A62694AFA"]
+			id: "0C36C386F76E0565"
+			tasks: [{
+				id: "2E82A17193F482D6"
+				item: { count: 1, id: "minecraft:spider_eye" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
 		}
 	]
 }

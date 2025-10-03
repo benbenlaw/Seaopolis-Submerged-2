@@ -542,7 +542,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4D610B1EA5DE8218"]
@@ -553,7 +553,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["39A993D1CDEE8B15"]
@@ -705,6 +705,34 @@
 			}]
 			x: -4.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["487CADD6A2A37D71"]
+			id: "24EFBEA5DD8BFFC6"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "52A564F38F7A45DD"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69591C4D64E011B7"
+					item: { count: 1, id: "opolisutilities:block_breaker" }
+					type: "item"
+				}
+				{
+					id: "2863F193C4AF85A3"
+					item: { count: 1, id: "opolisutilities:block_placer" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.5d
 		}
 	]
 }

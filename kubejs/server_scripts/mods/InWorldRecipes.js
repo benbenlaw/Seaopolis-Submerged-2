@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     //Living Gravel
     event.custom({
         "type": "inworldrecipes:drop_item_in_fluid",
-        "dropped_items": [{"item": "submerged:living_mob_matter"}],
+        "dropped_items": [{"item": "submerged:living_mob_matter"}, {"item": "submerged:assembled_gravel"}],
         "fluid": "mob_grinding_utils:fluid_xp",
         "consume_fluid": true,
         "results": [{"item": {"id": "submerged:living_gravel"}}]

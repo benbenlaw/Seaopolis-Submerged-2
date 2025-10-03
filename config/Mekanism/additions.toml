@@ -78,7 +78,7 @@
 	#Config options regarding the spawning of Baby Enderman.
 	[baby_mobs.baby_enderman]
 		#Enable the spawning of Baby Enderman. Think baby zombies.
-		shouldSpawn = true
+		shouldSpawn = false
 		#The multiplier for minimum group size of Baby Enderman spawns, compared to the adult mob.
 		# Default: 0.5
 		# Range: 0.0 ~ 100.0

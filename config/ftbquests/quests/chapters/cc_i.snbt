@@ -298,6 +298,13 @@
 				"1BDD330117EFFB47"
 				"55BE8F1D0B297B3F"
 			]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "totemic:baykok"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "5BED0687ED3289A2"
 			tasks: [{
 				entity: "totemic:baykok"

@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
         tin: ['minecraft:water', 'strainers:tin_ore_piece', 0.2, 0.05, 1, 10],
         copper: ['minecraft:water', 'strainers:copper_ore_piece', 0.2, 0.05, 1, 10],    
         aluminum: ['minecraft:water', 'strainers:aluminum_ore_piece', 0.2, 0.05, 1, 10],
-        iron: ['minecraft:water', 'strainers:iron_ore_piece', 0.2, 0.05, 4, 10],
+        iron: ['minecraft:water', 'strainers:iron_ore_piece', 0.5, 0.05, 4, 10],
         zinc: ['minecraft:water', 'strainers:zinc_ore_piece', 0.2, 0.05, 4, 10],
         lapis: ['minecraft:water', 'strainers:lapis_ore_piece', 0.2, 0.05, 4, 10],
         prismarine_crystal: ['minecraft:water', 'minecraft:prismarine_crystals', 0.1, 0.05, 5, 10],

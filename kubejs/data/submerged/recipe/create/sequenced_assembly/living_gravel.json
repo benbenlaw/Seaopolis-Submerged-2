@@ -43,19 +43,6 @@
           "id": "submerged:assembled_gravel"
         }
       ]
-    },    
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "submerged:assembled_gravel"
-        }
-      ],
-      "results": [
-        {
-          "id": "submerged:assembled_gravel"
-        }
-      ]
     }
   ],
   "transitional_item": {
