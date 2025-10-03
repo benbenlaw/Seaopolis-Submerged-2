@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting("ae2:certus_quartz_dust", "250x submerged:molten_certus_quartz", 1000).id("submerged:melting/certus_quartz_dust")
     event.recipes.casting.melting("ae2:certus_quartz_crystal", "250x submerged:molten_certus_quartz", 1000).id("submerged:melting/certus_quartz_crystal")
     event.recipes.casting.melting("submerged:porcelain_clay", "250x casting:molten_black_brick", 1000).id("submerged:melting/porcelain_clay")
+    event.recipes.casting.melting("submerged:living_mob_matter", "100x mob_grinding_utils:fluid_xp", 1000).id("submerged:melting/fluid_xp")
     
     //Solidifier
     event.recipes.casting.solidifier("minecraft:gravel", "100x submerged:organic_water", "submerged:refined_gravel").id("submerged:solidifier/refined_gravel")

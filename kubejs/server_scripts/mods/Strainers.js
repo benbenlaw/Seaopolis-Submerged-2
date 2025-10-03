@@ -71,14 +71,11 @@ ServerEvents.recipes(event => {
         prismarine_shard: ['minecraft:water', 'minecraft:prismarine_shard', 0.15, 0.05, 5, 10],
         salt: ['minecraft:water', 'alltheores:salt', 0.05, 0.05, 5, 10],
         redstone: ['minecraft:water', 'strainers:redstone_ore_piece', 0.25, 0.05, 5, 10],
-        amethyst: ['minecraft:water', 'minecraft:amethyst_shard', 0.15, 0.05, 4, 10]
+        amethyst: ['minecraft:water', 'minecraft:amethyst_shard', 0.15, 0.05, 4, 10],
+        scute: ['minecraft:water', 'minecraft:turtle_scute', 0.15, 0.05, 6, 10]
     }
 
-    function addStrainerGravelDrop(input, outputs) {
-        outputs.forEach(drop => {
-            strainerAuto(input, drop[0], drop[1], drop[2], drop[3], drop[4], drop[5]);
-        });
-    }
+
 
     //Purified Gravel -> Coal Ore Piece
     addStrainerGravelDrop('strainers:purified_gravel', [
@@ -112,8 +109,15 @@ ServerEvents.recipes(event => {
         gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
         gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
         gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
-        gravelDrops.redstone, gravelDrops.amethyst
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute
     ]);
+
+    //Tiered Gravel Recipes
+    function addStrainerGravelDrop(input, outputs) {
+        outputs.forEach(drop => {
+            strainerAuto(input, drop[0], drop[1], drop[2], drop[3], drop[4], drop[5]);
+        });
+    }
 
     //Auto Strainer Recipes
     colors.forEach(color => {

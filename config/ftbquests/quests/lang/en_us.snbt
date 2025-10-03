@@ -62,7 +62,11 @@
 	quest.0780C94EA025B7E3.quest_desc: ["Normal dirt can be made from &lMulch Blocks&r"]
 	quest.08561F042E6D27B0.quest_desc: ["Used to turn molten resource into solid items. The &lSimple Controller&r auto pushes into adjacent &lSolidifiers&r"]
 	quest.085D8546E3ABDB6F.quest_desc: ["Right click on a &lLog Block&r with the &lTotem Whittling Knife&r when in &lBase Mode&r to create a &lTotem Base&r"]
-	quest.0899612E4035D1D3.quest_desc: ["The &lCaviar Processor&r takes &lCaviar&r and processes it into usable items. Most recipes are chance based and can be viewed in &lJEI&r"]
+	quest.0899612E4035D1D3.quest_desc: [
+		"&lCaviar&r is obtained when a &lResource Fish&r is inside the area of a &lResource Fish Tank&r."
+		""
+		"The &lCaviar Processor&r is then used to turn &lCaviar&r into resources"
+	]
 	quest.08AFA43CC9061096.quest_desc: ["Made on the &lAltar&r"]
 	quest.08DCE8CDA477CF52.quest_desc: ["Filled with &lEvil&r"]
 	quest.0958CAAD8F7321A7.quest_desc: ["Allows the &lCloche&r to harvest &lLeaves&r from &lSaplings&r"]
@@ -92,6 +96,7 @@
 	quest.0F5D42B7A38855A5.quest_desc: ["&lGears&r can be created in the &lSolidifier&r"]
 	quest.0FD4274AA2B39020.quest_desc: ["Are you tired of remembering crafting recipes. Use the &lSmart Crafting Table&r, never remember a recipe again. The &lSmart Crafting Table&r will also use items within a 3 block range in its recipes"]
 	quest.0FF7B92264CCC09B.quest_desc: ["When fed to a &lChicken&r well find out for yourself"]
+	quest.10725128306E3CCB.quest_desc: ["A better mesh "]
 	quest.10E23E6481414E79.quest_desc: ["Used to control the &lShifting Sundial &r"]
 	quest.118B3A02993C9272.quest_desc: ["An &lUltimate Storage Compoment&r"]
 	quest.11D2CCBE4E5C471D.quest_desc: ["&lTerracotta&r can be punched to be broken into &lTerracotta Rocks&r. "]
@@ -119,7 +124,15 @@
 	quest.1618D56C70832CF0.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.170A4247974C1FAB.quest_desc: ["&lPlanks&r from &lLogs&r again...."]
 	quest.1731145B318CB588.quest_desc: ["Made inside the &lPressure Chamber&r or &lCreate Mixing&r"]
+	quest.179A1677750174F3.quest_desc: ["A full suit of &lTutle Armor&r protects you from the sea"]
 	quest.17C92075AF3E7685.quest_desc: ["Processed Ore"]
+	quest.17DB22880BE2B921.quest_desc: [
+		"Now you can travel into the Ocean you can find Resource Fish. These can be collected in &lIron Buckets&r, &lCeramic Bucket&r or &lAnimal Nets&r. "
+		""
+		"There are 5 types of naturally spawning &lResource Fish&r."
+		"&lLava, Water, Cobblestone, Dirt and Wood&r"
+	]
+	quest.17DB22880BE2B921.title: "Resource Fish"
 	quest.17EF39CAF2DF34DC.quest_desc: ["Just like the &lOre Base&r but for fluids"]
 	quest.1804E1E4479B38ED.quest_desc: ["Drops from &lSlimes&r"]
 	quest.188F0EC4C1AA72B0.quest_desc: ["Drops from &lEnder&r mobs"]
@@ -177,7 +190,6 @@
 	quest.27DBC76291B84F4A.quest_desc: ["Almost there"]
 	quest.2928276EDC887172.quest_desc: ["Now we are talking"]
 	quest.294CBD8297D7D0B3.quest_desc: ["From the &lAncient Lens&r in the &lOre Laser Base&r"]
-	quest.295BFE722E1B5B84.quest_desc: ["Longest time to get &lLava?&r"]
 	quest.2979DB50436DE78C.quest_desc: ["Drops from &lWater Resource Fish&r"]
 	quest.29859FC9CF7B4A06.quest_desc: ["Simple &lItem Transport&r"]
 	quest.299144ACC9C12B31.quest_desc: ["Crafted from &lLeaf Piles&r. Using a hoe on a &lMulch Block&r will create &lWater&r"]
@@ -200,6 +212,7 @@
 	quest.2F89E216060ED396.quest_desc: ["Somewhere around the portal you may see a &lLock Block&r If not you can craft it"]
 	quest.2F89E216060ED396.title: "Nether Brick Lock"
 	quest.30664A79505BAECA.quest_desc: ["Crafted &lKelp&r"]
+	quest.30A65FB952B6ED83.quest_desc: ["The &lInfusing Upgrade&r allows the &lTank Controller&r to do &lInfusing Recipes&r"]
 	quest.30F74BFAFDC236C0.quest_desc: ["The &lEagle Dance&r can be use to convert &lParrots&r into &lEagles&r"]
 	quest.31944EC752A8B0D3.quest_desc: ["Crafted &lOre Piece&r"]
 	quest.31C4AB16F12ECAFD.quest_desc: ["Your sphere is flooded with life. Just don't hit the fish!"]
@@ -208,6 +221,7 @@
 		""
 		"After a while when the &lLeaf&r has turned completely gold it can be broken into &lGold Leaf&r"
 	]
+	quest.33D338BB71A5FF80.quest_desc: ["There are various upgrades for both the &lResource Fish Tank&r and the &lCaviar Processor&r"]
 	quest.342A24C12BC9903F.quest_desc: ["&lIron Spikes&r can be used to damage mobs, these spikes do not count as player kills"]
 	quest.34858FC6AB49B00E.quest_desc: ["Right click on a &lTotem Base&r for information. Left click to cancel ceremonies"]
 	quest.34D8E0C2C75EE0D5.quest_desc: ["Carving &lLogs&r into &lTotems&r. Use &lSHIFT&r and scroll to chose a type of &lTotem&r to carve. The first carve needs to be a &lTotem Base&r"]
@@ -235,13 +249,13 @@
 	]
 	quest.39AEC7EC7659C646.quest_desc: ["This pack uses &lUltimine&r. Holding the selected key (grave) will allow you to break multiple blocks at once"]
 	quest.39E729D39BB42E9A.quest_desc: ["Used to smelt items"]
-	quest.3B13A6D359074E9C.quest_desc: ["The &lDiving Suit&r allows you to swim in the &lWater&r without taking damage. There are special kinds of fish swiming around"]
 	quest.3B694A316CDD67A8.quest_desc: ["&lQuartz Enriched Iron&r is an alloy of &lIron&r, &lCertus&r and &lQuartz&r. Can be made via &lCasting,&r &lCreate&r and &lPneumatic Craft&r"]
 	quest.3B743C16B341B375.quest_desc: ["&lSpawn Eggs&r can be used on a &lMonster Spawn&r to set it "]
 	quest.3BF80EEE23B6D9D7.quest_desc: ["&lZinc&r and &lIron&r are both very useful a time to make a choice. &lPneumaticCraft&r or &lCreate&r. Neither mod is locked depending on choice!"]
 	quest.3C05BA3D71469DDD.quest_desc: ["An even better &lResource Generator&r can be used to make various blocks like &lSand&r, &lGravel&r and more"]
 	quest.3C9030D14EDAA327.quest_desc: ["Made on the &lNatural Altar&r"]
 	quest.3CBAFD9766CFAB93.quest_desc: ["Allows the &lSolidifier&r to create &lMeshes&r"]
+	quest.3D41F2E88C009A56.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.3D906CE528FBE462.quest_desc: ["When in &lThe Nether&r using a &lCork and Bottle&r you can obtain &lBottled Ghosts&r"]
 	quest.3DDF1D2DEC7BF8B1.quest_desc: [
 		"Routers can be used to move &lItems, Fluids, Energy, Chemicals, Souls and Source&r"
@@ -254,6 +268,7 @@
 	quest.3F2EA9A5FA64673E.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.3FA8B9543700C855.quest_desc: ["The final tier of &lIndustrial Foregoing&r machine fram"]
 	quest.3FFABEC4A01A0DB0.quest_desc: ["Duplicates mobs inside the &lMob Imprisonment Tool&r using RF and &lEssence&r"]
+	quest.3FFDACC16BD545E5.quest_desc: ["A full suit of &lTutle Armor&r protects you from the sea"]
 	quest.406AB1F16C28F754.quest_desc: ["Made in the &lTank Controller &r"]
 	quest.40A550FBD47E8633.quest_desc: ["A &lTier 2 Mesh&r"]
 	quest.40AFDE0DB64954B8.quest_desc: ["With a block of &lWater&r above the main &lStrainer&r block, placing &lDirt&r inside will drop some items including &lPebbles&r"]
@@ -333,6 +348,7 @@
 	quest.4FC90D3B2F50FBED.quest_desc: ["Made inside the &lStrainer&r&l"]
 	quest.501775813AD19915.quest_desc: ["Used on &lSimple Casting Blocks&r to move fluid between them"]
 	quest.5020ADB35E4891F3.quest_desc: ["Less mess"]
+	quest.507D4776EE6DAB74.quest_desc: ["A full suit of &lTutle Armor&r protects you from the sea"]
 	quest.50BFF626432F1838.quest_desc: ["&lWater&r and &lLava&r can be mixed into &lMolten Obsidian&r and then &lSolidified&r into &lObsidian Blocks&r"]
 	quest.50F353C6D15C0062.quest_desc: ["Used to create &lUnassembled PCB&r"]
 	quest.51002D41A35D8D40.quest_desc: ["Follow the &lQuest Book&r, it will help you progress through the modpack "]
@@ -369,7 +385,7 @@
 	quest.56DC474E41784B1D.quest_desc: ["Let there be light"]
 	quest.5703B5049E3E643D.quest_desc: ["Used inside the &lModular Storage&r to provide &lStorage&r"]
 	quest.57DD8F321E53526F.quest_desc: ["Simple &lFluid Transport&r"]
-	quest.57DF2A7FC2115CBC.quest_desc: ["The &lBreeding Upgrade&r allows the &lTank Controller&r to do &oBreeding Recipes&r"]
+	quest.57DF2A7FC2115CBC.quest_desc: ["The &lBreeding Upgrade&r allows the &lTank Controller&r to do &lBreeding Recipes&r"]
 	quest.57EA71B3C8946BFD.quest_desc: ["From a &lSupply Crate&r"]
 	quest.57EA71B3C8946BFD.title: "Colored Sapling"
 	quest.57F452F179109301.quest_desc: [
@@ -411,7 +427,7 @@
 		""
 		"Please make sure you create your own &lSphere&r for your team before starting using &l/skyblock create&r or using the &lFull Stop&r button"
 	]
-	quest.5E732A6A8199E196.quest_desc: ["A &lNetherrite Fish&r can be created by breeding 2 &lLava Fish&r with &l64 Stone&r in a Tank Controller with a &lBreeding Upgrade&r. Most breeding recipe have a chance to work but most of the time will fail"]
+	quest.5E732A6A8199E196.quest_desc: ["A &lNetherrite Fish&r can be created by breeding 2 &lLava Fish&r with &l64 Stone&r in a Tank Controller with a &lBreeding Upgrade&r. A &lStone Fish&r is worth getting first as this breeding recipe can fail!"]
 	quest.5E8C844ED9D1B309.quest_desc: ["A simple &lFurnace&r"]
 	quest.5EA10BA03219C901.quest_desc: ["Bigger Crafting"]
 	quest.5EA10BA03219C901.title: "Colored Crafting Table"
@@ -526,6 +542,7 @@
 	quest.7A136D13050B2E25.quest_desc: ["&lUnbreaking&r 10 makes any valid tool &lUnbreakable&r"]
 	quest.7A136D13050B2E25.title: "Reward I"
 	quest.7A351105AE91FE1E.quest_desc: ["A bigger wheel"]
+	quest.7B0B598D5C319A91.quest_desc: ["A full suit of &lTutle Armor&r protects you from the sea"]
 	quest.7B4F60DC95B1A90A.quest_desc: ["Placing &lCobblestone&r inside a &lStrainer&r with &lEroding Water&r on top and a &lMesh&r inside will create &lGravel&r"]
 	quest.7B6DDB3DBC5D1336.quest_desc: ["From grown &lSaplings&r, you can use the &lSapling Grower&r"]
 	quest.7B6DDB3DBC5D1336.title: "Colored Logs"
@@ -560,6 +577,7 @@
 		""
 		"This can be made with &lCreate,&r &lPneumatic Craft&r or &lIn World&r"
 	]
+	reward_table.0600C7910AE551D1.title: "ResourceFish"
 	task.04EE4437D44182A7.title: "Quests"
 	task.05153BC108C01541.title: "Reward II"
 	task.05771BD55E54243D.title: "Suquenced Crafting"
@@ -607,6 +625,7 @@
 	task.4187CE2710651B5E.title: "Hmm"
 	task.435FA03BBA861EF5.title: "Ultimine"
 	task.450EA81646429A47.title: "Any #minecraft:terracotta"
+	task.457A6952275F6C31.title: "Resource FIsh"
 	task.4723A9AF61848794.title: "Chapter III"
 	task.4B4094BCB854E74C.title: "Any #submerged:colored_saplings"
 	task.4B5253909D3EE34C.title: "Add Cute Ducks to quests"

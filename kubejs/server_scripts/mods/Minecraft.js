@@ -3,8 +3,13 @@
 ServerEvents.recipes(event => {
 
     //Remove
-    event.remove({id: 'minecraft:crafting_table'})
     event.remove({id: 'minecraft:netherite_ingot'})
+
+    //Crafting Table
+    event.shaped('minecraft:crafting_table', ['AA', 'AA'], {
+        A: '#minecraft:planks'
+    }).id('minecraft:crafting_table')
+
 
     //Wither Skeleton Spawn Egg
     event.shaped('minecraft:wither_skeleton_spawn_egg', ['CAC', 'ABA', 'CAC'], {

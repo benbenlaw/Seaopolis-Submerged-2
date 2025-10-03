@@ -10,6 +10,15 @@
 		{
 			dependencies: ["7FF77CD147DD819F"]
 			id: "3F2EA9A5FA64673E"
+			rewards: [{
+				count: 4
+				id: "434801676E389166"
+				item: {
+					count: 1
+					id: "strainers:redstone_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72BFE78EE79EF557"
 				item: { count: 1, id: "strainers:redstone_ore_piece" }
@@ -21,6 +30,14 @@
 		{
 			dependencies: ["3F2EA9A5FA64673E"]
 			id: "60037D4B23D755E0"
+			rewards: [{
+				id: "5466794C8A30955D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74CF92AF9EB4FCC4"
 				item: { count: 1, id: "minecraft:redstone_ore" }
@@ -32,6 +49,14 @@
 		{
 			dependencies: ["60037D4B23D755E0"]
 			id: "133C8B93F7789357"
+			rewards: [{
+				id: "5F5E8CD188DA31D2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45657967A46BE70E"
 				item: { count: 1, id: "minecraft:redstone" }
@@ -125,6 +150,15 @@
 		{
 			dependencies: ["3900787DA4EE4805"]
 			id: "7FF77CD147DD819F"
+			rewards: [{
+				count: 4
+				id: "43D04CCF13A508CA"
+				item: {
+					count: 1
+					id: "submerged:living_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "09BA40CEC2C39B2D"
 				item: { count: 1, id: "submerged:living_gravel" }
@@ -177,6 +211,14 @@
 				"2C4CFF42EE89DF97"
 			]
 			id: "4C15A7ABD171F566"
+			rewards: [{
+				id: "261897439460A01F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F5F4C7D5423175A"
 				item: { count: 1, id: "storagedrawers:controller" }
@@ -188,6 +230,14 @@
 		{
 			dependencies: ["7ED2175CCB3A787E"]
 			id: "47EAC76AC52B2A6F"
+			rewards: [{
+				id: "4D7BDCAC176D2322"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "63D5F662C8764B29"
 				type: "checkmark"
@@ -198,6 +248,14 @@
 		{
 			dependencies: ["356B0DCCAA28ABF2"]
 			id: "08DCE8CDA477CF52"
+			rewards: [{
+				id: "3D51C94A0F9A416A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7344B2BD248A217C"
 				item: { count: 1, id: "submerged:corrupted_prismarine_crystal" }
@@ -212,6 +270,14 @@
 				"47EAC76AC52B2A6F"
 			]
 			id: "0FF7B92264CCC09B"
+			rewards: [{
+				id: "156985742B286E93"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E4D022E78821167"
 				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed_cursed" }
@@ -223,6 +289,14 @@
 		{
 			dependencies: ["0FF7B92264CCC09B"]
 			id: "44739AEBDE1974A7"
+			rewards: [{
+				id: "33149A74DEA50B9A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2ED4B0071E14D62A"
 				item: { count: 1, id: "mob_grinding_utils:rotten_egg" }
@@ -237,6 +311,14 @@
 				id: "mob_grinding_utils:dreadful_dirt"
 			}
 			id: "36791B9A62694AFA"
+			rewards: [{
+				id: "17E084C9E1B24311"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:dreadful_dirt"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59BC4076D6DAAC3F"
 				observe_type: 0
@@ -250,6 +332,14 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "188F0EC4C1AA72B0"
+			rewards: [{
+				id: "2C1DEC3754FCD6D0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7DA47F72A8E96A37"
 				item: { count: 1, id: "minecraft:ender_pearl" }
@@ -261,6 +351,14 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "75C0E4167CADCE16"
+			rewards: [{
+				id: "79A26340D24FFBAD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "02BAA47EC0C82833"
 				item: { count: 1, id: "minecraft:bone" }
@@ -272,6 +370,14 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "51E14763F814E494"
+			rewards: [{
+				id: "38CC48BA537168D2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "48E8429FE39FE5ED"
 				item: { count: 1, id: "minecraft:rotten_flesh" }
@@ -283,6 +389,14 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "1804E1E4479B38ED"
+			rewards: [{
+				id: "5F81783A4C012AA0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "44C6998B715005A7"
 				item: { count: 1, id: "minecraft:slime_ball" }
@@ -294,6 +408,14 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "220145EA53CEEA5F"
+			rewards: [{
+				id: "0CA40AA8C2F4B03D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C1FFA47590FC075"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forcecraft:chu_jelly)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -305,6 +427,15 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "342A24C12BC9903F"
+			rewards: [{
+				count: 3
+				id: "1637AAC23708F6FD"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:spikes"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EED5D6FBA531AE0"
 				item: { count: 1, id: "mob_grinding_utils:spikes" }
@@ -319,6 +450,14 @@
 				"56DC474E41784B1D"
 			]
 			id: "719149B1FE51F56E"
+			rewards: [{
+				id: "3CFF08994B455290"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FA822F22925A1D4"
 				item: { count: 1, id: "mob_grinding_utils:fan" }
@@ -330,6 +469,14 @@
 		{
 			dependencies: ["188F0EC4C1AA72B0"]
 			id: "420DB833C14869B9"
+			rewards: [{
+				id: "3E3235A9BB49463B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FEAA6441D024152"
 				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
@@ -344,6 +491,14 @@
 				"356B0DCCAA28ABF2"
 			]
 			id: "56DC474E41784B1D"
+			rewards: [{
+				id: "59077663883B726C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "750A1E4B27DD1C9B"
 				item: { count: 1, id: "minecraft:sea_lantern" }
@@ -355,6 +510,14 @@
 		{
 			dependencies: ["7DBCC5C33F07A31A"]
 			id: "6EF53DBEA0BF9F54"
+			rewards: [{
+				id: "1629EC81E009CC72"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2830CF72D9BD9E07"
 				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
@@ -366,6 +529,14 @@
 		{
 			dependencies: ["188F0EC4C1AA72B0"]
 			id: "60F282459AD66521"
+			rewards: [{
+				id: "0F27C225F03640F8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A274E5BD25370FB"
 				item: { count: 1, id: "mob_grinding_utils:ender_inhibitor_on" }
@@ -382,7 +553,17 @@
 				"220145EA53CEEA5F"
 				"75C0E4167CADCE16"
 			]
+			dependency_requirement: "one_completed"
 			id: "3900787DA4EE4805"
+			rewards: [{
+				count: 3
+				id: "3933CF105788FEB9"
+				item: {
+					count: 1
+					id: "submerged:living_mob_matter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "02D62BB302AC2DE8"
 				item: { count: 1, id: "submerged:living_mob_matter" }
@@ -394,6 +575,14 @@
 		{
 			dependencies: ["188F0EC4C1AA72B0"]
 			id: "7DBCC5C33F07A31A"
+			rewards: [{
+				id: "18CC5F08C655602C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A4FD1BBD3F2041D"
 				item: { count: 1, id: "mob_grinding_utils:tank" }
@@ -405,6 +594,15 @@
 		{
 			dependencies: ["7FF77CD147DD819F"]
 			id: "2C4CFF42EE89DF97"
+			rewards: [{
+				count: 2
+				id: "4FC70526E44CACC0"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "403B8E5191089AAF"
 				item: { count: 1, id: "minecraft:amethyst_shard" }
@@ -416,6 +614,14 @@
 		{
 			dependencies: ["2C4CFF42EE89DF97"]
 			id: "589E5BF4785702A7"
+			rewards: [{
+				id: "033AC253F9849602"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62363606171A9689"
 				item: { count: 1, id: "minecraft:tinted_glass" }
@@ -427,6 +633,14 @@
 		{
 			dependencies: ["719149B1FE51F56E"]
 			id: "6C10C6ED74F0B769"
+			rewards: [{
+				id: "19413F61F82AD07C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1562FD7C5BCDEEF9"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_width" }
@@ -438,6 +652,14 @@
 		{
 			dependencies: ["36791B9A62694AFA"]
 			id: "0C36C386F76E0565"
+			rewards: [{
+				id: "28E4CE1BF42F71BE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E82A17193F482D6"
 				item: { count: 1, id: "minecraft:spider_eye" }

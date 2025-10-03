@@ -60,7 +60,6 @@ StartupEvents.registry('item', (event) => {
         .overrideExistingBlocks(true)
         .tag('submerged:keys/sphere')
 
-
     //Nether Portal Sphere
     event.create('submerged:nether_portal_sphere', 'roomopolis_key')
         .templateId('submerged:spheres/nether_portal')
@@ -93,6 +92,42 @@ StartupEvents.registry('item', (event) => {
             .blocksRequired(false)
             .overrideExistingBlocks(true)
             .tag('submerged:keys/sphere_base')
+    })
+
+    //Colored Deep Sphere Keys 
+    colors.forEach(color => {
+        event.create(`submerged:${color}_deep_sphere_key`, 'roomopolis_key')
+            .templateId(`submerged:deep/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(-7)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/deep_sphere')
+    })
+
+    //Colored Long Sphere Keys 
+    colors.forEach(color => {
+        event.create(`submerged:${color}_long_sphere_key`, 'roomopolis_key')
+            .templateId(`submerged:long/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(6)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/long_sphere')
     })
 
     event.create(`submerged:3x3_pressure_chamber`, 'roomopolis_key')

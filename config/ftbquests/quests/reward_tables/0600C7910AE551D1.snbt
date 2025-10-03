@@ -1,0 +1,12 @@
+{
+	id: "0600C7910AE551D1"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "08455B7346302A53", item: { components: { "resourcefish:fish_type": "resourcefish:water" }, count: 1, id: "resourcefish:resource_fish_bucket" } }
+		{ id: "21A2615DC5EEED61", item: { components: { "resourcefish:fish_type": "resourcefish:lava" }, count: 1, id: "resourcefish:resource_fish_bucket" } }
+		{ id: "62C0AB423AECF920", item: { components: { "resourcefish:fish_type": "resourcefish:cobblestone" }, count: 1, id: "resourcefish:resource_fish_bucket" } }
+		{ id: "0459F245651DAC56", item: { components: { "resourcefish:fish_type": "resourcefish:wood" }, count: 1, id: "resourcefish:resource_fish_bucket" } }
+		{ id: "0611D8035F9F67DC", item: { components: { "resourcefish:fish_type": "resourcefish:dirt" }, count: 1, id: "resourcefish:resource_fish_bucket" } }
+	]
+}

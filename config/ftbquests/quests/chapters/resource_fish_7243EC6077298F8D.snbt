@@ -8,96 +8,42 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3B13A6D359074E9C"]
-			id: "7401658DBAF3F168"
-			tasks: [{
-				id: "7654C40F3E92FB2F"
-				item: { components: { "resourcefish:fish_type": "resourcefish:water" }, count: 1, id: "resourcefish:resource_fish_bucket" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3B13A6D359074E9C"]
-			id: "14989C1268104684"
-			tasks: [{
-				id: "58E05C935F7E2F01"
-				item: { components: { "resourcefish:fish_type": "resourcefish:lava" }, count: 1, id: "resourcefish:resource_fish_bucket" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3B13A6D359074E9C"]
-			id: "3D9944474C2C350A"
-			tasks: [{
-				id: "24936F6EE812263A"
-				item: { components: { "resourcefish:fish_type": "resourcefish:cobblestone" }, count: 1, id: "resourcefish:resource_fish_bucket" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3B13A6D359074E9C"]
-			id: "546D6DC6F375CDE2"
-			tasks: [{
-				id: "5C06065312CE7D58"
-				item: { components: { "resourcefish:fish_type": "resourcefish:wood" }, count: 1, id: "resourcefish:resource_fish_bucket" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3B13A6D359074E9C"]
-			id: "2835977C83D3072D"
-			tasks: [{
-				id: "43DDE35E065950F7"
-				item: { components: { "resourcefish:fish_type": "resourcefish:dirt" }, count: 1, id: "resourcefish:resource_fish_bucket" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
-		}
-		{
-			id: "3B13A6D359074E9C"
-			tasks: [{
-				id: "1FB97E91C44DFE6F"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"2835977C83D3072D"
-				"7401658DBAF3F168"
-				"3D9944474C2C350A"
-				"546D6DC6F375CDE2"
-				"14989C1268104684"
-			]
+			dependencies: ["17DB22880BE2B921"]
 			id: "57F452F179109301"
+			rewards: [{
+				id: "6BB234CB203884CD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "398B822910FE826E"
 				item: { count: 1, id: "resourcefish:tank_controller" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["5E732A6A8199E196"]
+			dependencies: ["57F452F179109301"]
 			id: "0899612E4035D1D3"
+			rewards: [{
+				id: "41F9E0195E49D8E8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "754450C89610D118"
 				item: { count: 1, id: "resourcefish:caviar_processor" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			id: "41F95D5BBDF66754"
@@ -161,24 +107,39 @@
 		{
 			dependencies: ["57F452F179109301"]
 			id: "57DF2A7FC2115CBC"
+			rewards: [{
+				id: "30FE6175110C9D72"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E1A6939EAB51E34"
 				item: { count: 1, id: "resourcefish:breeding_upgrade" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["57F452F179109301"]
 			id: "30A65FB952B6ED83"
+			rewards: [{
+				id: "7C42F07D71AE7BC2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DB6C793D60E318C"
 				item: { count: 1, id: "resourcefish:infusing_upgrade" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["57DF2A7FC2115CBC"]
@@ -189,8 +150,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5E732A6A8199E196"]
@@ -201,19 +162,18 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["0899612E4035D1D3"]
 			id: "1E0DA17713291516"
 			tasks: [{
 				id: "32BD983E303192C3"
 				item: { count: 1, id: "minecraft:netherrack" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -227,7 +187,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6716062455BA50CA"]
@@ -238,7 +198,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["36438FB25436AE8D"]
@@ -249,7 +209,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1D634F8B01E2B16B"]
@@ -260,7 +220,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4AA005B34310FA4A"]
@@ -274,37 +234,185 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["554D9C55B752BD03"]
-			id: "295BFE722E1B5B84"
-			tasks: [{
-				id: "1371E1AD5B97FE45"
-				item: { count: 1, id: "minecraft:lava_bucket" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["0899612E4035D1D3"]
 			id: "554D9C55B752BD03"
+			rewards: [{
+				id: "573E9F8AFD87C724"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "684D6F3B861EB495"
 				item: { count: 1, id: "resourcefish:tank_upgrade" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["295BFE722E1B5B84"]
+			dependencies: ["554D9C55B752BD03"]
 			id: "50BFF626432F1838"
 			tasks: [{
 				id: "6535A8007E15B1D0"
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10725128306E3CCB"]
+			id: "3D41F2E88C009A56"
+			rewards: [{
+				count: 3
+				id: "22DAAD4AE530EB5F"
+				item: {
+					count: 1
+					id: "minecraft:turtle_scute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B62AB1D607925D"
+				item: { count: 1, id: "minecraft:turtle_scute" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["133C8B93F7789357"]
+			id: "10725128306E3CCB"
+			tasks: [{
+				id: "51CF76D0DC7F6415"
+				item: { count: 1, id: "strainers:redstone_mesh" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3D41F2E88C009A56"]
+			id: "179A1677750174F3"
+			rewards: [{
+				count: 3
+				id: "4014C581FD1F87E6"
+				item: {
+					count: 1
+					id: "minecraft:turtle_scute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17EFBF1A5D0700BA"
+				item: { count: 1, id: "minecraft:turtle_helmet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D41F2E88C009A56"]
+			id: "507D4776EE6DAB74"
+			rewards: [{
+				count: 3
+				id: "70EA577549F10E8E"
+				item: {
+					count: 1
+					id: "minecraft:turtle_scute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08DC94B12D6CA1D5"
+				item: { count: 1, id: "aq:turtle_chestplate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D41F2E88C009A56"]
+			id: "3FFDACC16BD545E5"
+			rewards: [{
+				count: 3
+				id: "3926CA52ACC1207E"
+				item: {
+					count: 1
+					id: "minecraft:turtle_scute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F7BF8FAB6F133DD"
+				item: { count: 1, id: "aq:turtle_leggings" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D41F2E88C009A56"]
+			id: "7B0B598D5C319A91"
+			rewards: [{
+				count: 3
+				id: "0663732FB4FE3CAD"
+				item: {
+					count: 1
+					id: "minecraft:turtle_scute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B235A8296A3FF70"
+				item: { count: 1, id: "aq:turtle_boots" }
+				type: "item"
+			}]
 			x: -0.5d
-			y: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"507D4776EE6DAB74"
+				"7B0B598D5C319A91"
+				"3FFDACC16BD545E5"
+				"179A1677750174F3"
+			]
+			id: "17DB22880BE2B921"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "531B003EBE5F8315"
+				table_id: 432564989994553809L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "457A6952275F6C31"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0899612E4035D1D3"]
+			id: "33D338BB71A5FF80"
+			rewards: [{
+				id: "07B90B1A5547E434"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A1F5B39D5957B9"
+				item: { count: 1, id: "resourcefish:speed_upgrade_1" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
 		}
 	]
 }

@@ -93,6 +93,17 @@ ServerEvents.recipes(event => {
 
     //Mass Color Crafting
     colors.forEach(color => {
+
+        //Long Sphere Key
+        event.shaped(`submerged:${color}_long_sphere_key`, ['AA'], {
+            A: `submerged:${color}_sphere_key`
+        }).id(`submerged:${color}_long_sphere_key`)
+
+        //Deep Sphere Key
+        event.shaped(`submerged:${color}_deep_sphere_key`, ['A', 'A'], {
+            A: `submerged:${color}_sphere_key`
+        }).id(`submerged:${color}_deep_sphere_key`)
+
         //Terractotta Rock
         event.shapeless(`minecraft:${color}_terracotta`, 
             [`4x submerged:${color}_terracotta_rocks`
