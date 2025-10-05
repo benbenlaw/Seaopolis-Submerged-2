@@ -569,5 +569,43 @@
 			x: -0.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["6AAF56C47DDC7F4C"]
+			id: "1A38705E56A2A259"
+			rewards: [{
+				id: "400D304FAC7287E1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7878F3BF9E12372A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/deep_sphere)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AAF56C47DDC7F4C"]
+			id: "4D770786499F52C4"
+			rewards: [{
+				id: "1D89C8ECDE6F98C0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C0412EA50C9C515"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/long_sphere)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
 	]
 }

@@ -137,6 +137,7 @@
 	quest.1804E1E4479B38ED.quest_desc: ["Drops from &lSlimes&r"]
 	quest.188F0EC4C1AA72B0.quest_desc: ["Drops from &lEnder&r mobs"]
 	quest.18CBF4FDD61F7F8E.quest_desc: ["From &lBroken Ore&r "]
+	quest.1A38705E56A2A259.quest_desc: ["Will place an additional connected &lSphere&r below the placed &lSphere&r"]
 	quest.1A622AC289DE07F1.quest_desc: ["&lQuartz Dust&r can be melted in a &lCasting Controller&r into &lMolten Quartz&r then transformed into &lQuartz&r in the &lSolidifier&r"]
 	quest.1A896551F4F1F135.quest_desc: ["industrial forgoing, more create and pnematiccraft, ae2 and rs, more naturesaura a splash, tiab"]
 	quest.1AA8B7DC2F4CFECC.quest_desc: ["&lCertus Quartz Dust&r can be melted in a &lCasting Controller&r into &lMolten Certus Quartz&r then transformed into &lCertus Quartz Crystals&r in the &lSolidifier&r"]
@@ -337,6 +338,7 @@
 	quest.4D0964E34E575689.quest_desc: ["The Heart of &lPneumatic Craft&r"]
 	quest.4D0964E34E575689.quest_subtitle: "maybe use steel ingot coated in iron"
 	quest.4D610B1EA5DE8218.quest_desc: ["Automatically grows &lCrops&r and &lSaplings&r for you"]
+	quest.4D770786499F52C4.quest_desc: ["Will place an additional connected &lSphere&r behind the placed &lSphere&r"]
 	quest.4D8339ED45E8ADB1.quest_desc: ["Punch Tree Get Wood Again!"]
 	quest.4E133436B599DA13.quest_desc: ["Keeps entities in place"]
 	quest.4E2514A252EDF3E9.quest_desc: ["Smelted &lKelp&r"]
@@ -630,6 +632,7 @@
 	task.4B4094BCB854E74C.title: "Any #submerged:colored_saplings"
 	task.4B5253909D3EE34C.title: "Add Cute Ducks to quests"
 	task.4B9007842B48EFFA.title: "Ceremonies"
+	task.4C0412EA50C9C515.title: "Any #submerged:keys/long_sphere"
 	task.4C5F45591076DC3A.title: "Any #submerged:flares"
 	task.5051C2CCA54BECFC.title: "Todo"
 	task.50D7E3916FD0CA68.title: "Expansion"
@@ -663,6 +666,7 @@
 	task.740528962250E6B2.title: "automation"
 	task.7600867C584B71B5.title: "Island"
 	task.7653747AC529254F.title: "Chapter IV"
+	task.7878F3BF9E12372A.title: "Any #submerged:keys/deep_sphere"
 	task.797947FCBF0E6B8D.title: "Hmm"
 	task.7B2F85C0ECBAB928.title: "Something"
 	task.7B93A52707438622.title: "Welcome To Submerged 2"
