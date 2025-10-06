@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "submerged:living_gravel"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "submerged:nether_gravel"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "submerged:living_gravel"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        }
+      ],
+      "results": [
+        {
+          "id": "submerged:living_gravel"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "submerged:living_gravel"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "casting:molten_blaze"
+        }
+      ],
+      "results": [
+        {
+          "id": "submerged:living_gravel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "submerged:living_gravel"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        }
+      ],
+      "results": [
+        {
+          "id": "submerged:living_gravel"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "submerged:living_gravel"
+  }
+}

@@ -10,6 +10,26 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: "pneumaticcraft:uv_light_box"}, "pneumaticcraft:pcb_blueprint", 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
 
+    //Blaze Powder
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ['minecraft:blaze_rod'], 
+        1.0, 
+        ['3x minecraft:blaze_powder'])
+    .id('submerged:pneumaticcraft/blaze_powder')
+
+    //Nether Gravel 
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["4x submerged:living_gravel", "8x minecraft:nether_wart", "minecraft:lava_bucket"],
+        2.0,
+        ["4x submerged:nether_gravel", "minecraft:bucket"]
+    ).id('submerged:pneumaticcraft/nether_gravel')
+
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["4x submerged:living_gravel", "8x minecraft:nether_wart", "casting:molten_blaze_bucket"],
+        2.0,
+        ["4x submerged:nether_gravel", "minecraft:bucket"]
+    ).id('submerged:pneumaticcraft/nether_gravel_blaze')
+
     //Living Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
         ["submerged:assembled_gravel", "submerged:living_mob_matter", 'mob_grinding_utils:fluid_xp_bucket'],

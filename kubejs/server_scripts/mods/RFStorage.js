@@ -57,4 +57,26 @@ ServerEvents.recipes(event => {
         }
     }).id('rftoolsstorage:storage_module2')
 
+    //Storage Module 2
+    event.custom({
+        "type": "mcjtylib:copy_components",
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+            "A": {"item": "minecraft:obsidian"},
+            "B": {"item": "rftoolsstorage:storage_module2"}
+            },
+            "pattern": [
+            " A ",
+            "ABA",
+            " A "
+            ],
+            "result": {
+            "count": 1,
+            "id": "rftoolsstorage:storage_module3"
+            }
+        }
+    }).id('rftoolsstorage:storage_module3')
+
 })

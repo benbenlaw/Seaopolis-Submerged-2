@@ -13,6 +13,7 @@
 				"77FC93088FF7ED69"
 			]
 			id: "0D7A91E84A6CE9CD"
+			optional: true
 			tasks: [{
 				id: "6C8874050F9D2D14"
 				type: "checkmark"
@@ -23,6 +24,7 @@
 		{
 			dependencies: ["0D7A91E84A6CE9CD"]
 			id: "042B9882BBAED292"
+			optional: true
 			tasks: [{
 				id: "2A5A2F7A97C9BA11"
 				item: { count: 1, id: "naturesaura:ancient_sapling" }
@@ -34,6 +36,7 @@
 		{
 			dependencies: ["042B9882BBAED292"]
 			id: "4D8339ED45E8ADB1"
+			optional: true
 			tasks: [{
 				id: "0914BDB50D91CC7C"
 				item: { count: 1, id: "naturesaura:ancient_log" }
@@ -45,6 +48,7 @@
 		{
 			dependencies: ["170A4247974C1FAB"]
 			id: "054CA537D1B76563"
+			optional: true
 			tasks: [{
 				id: "543698A4DDF1F35E"
 				item: { count: 1, id: "naturesaura:ancient_stick" }
@@ -56,6 +60,7 @@
 		{
 			dependencies: ["170A4247974C1FAB"]
 			id: "0550FF2DF58AFA77"
+			optional: true
 			tasks: [{
 				id: "341B2CF98CEBC0A2"
 				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
@@ -67,6 +72,7 @@
 		{
 			dependencies: ["4D8339ED45E8ADB1"]
 			id: "170A4247974C1FAB"
+			optional: true
 			tasks: [{
 				id: "04EA8D9803B6DC79"
 				item: { count: 1, id: "naturesaura:ancient_planks" }
@@ -78,6 +84,7 @@
 		{
 			dependencies: ["0550FF2DF58AFA77"]
 			id: "0331F94A8DE5BF76"
+			optional: true
 			tasks: [{
 				id: "373D25EF9C331B0F"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -89,6 +96,7 @@
 		{
 			dependencies: ["0331F94A8DE5BF76"]
 			id: "003EE194E3894230"
+			optional: true
 			tasks: [{
 				id: "2CC8C525D9A3C6B6"
 				item: { count: 1, id: "naturesaura:token_joy" }
@@ -105,34 +113,37 @@
 				item: { count: 1, id: "naturesaura:gold_fiber" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -2.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["325E28C61A277DFD"]
+			dependencies: ["554308CA0151F99D"]
 			id: "627BC99C6F08DF88"
+			optional: true
 			tasks: [{
 				id: "68EF00854D5DC870"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["627BC99C6F08DF88"]
 			id: "77FC93088FF7ED69"
+			optional: true
 			tasks: [{
 				id: "6E963C73CE563E08"
 				item: { count: 1, id: "naturesaura:gold_powder" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["627BC99C6F08DF88"]
 			id: "1449978D85CA074E"
+			optional: true
 			rewards: [{
 				id: "656F9BFB4F3191A4"
 				item: {
@@ -149,12 +160,13 @@
 				item: { count: 1, id: "naturesaura:wood_stand" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["003EE194E3894230"]
 			id: "05609948CC4023E4"
+			optional: true
 			tasks: [{
 				id: "34C2DF71B79C8F5D"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -166,39 +178,49 @@
 		{
 			dependencies: ["05609948CC4023E4"]
 			id: "14AF040645F38C7D"
+			optional: true
 			tasks: [{
 				id: "0A326C07F33CAAA1"
 				item: { count: 1, id: "submerged:overworld_altar" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["05609948CC4023E4"]
+			dependencies: [
+				"05609948CC4023E4"
+				"6A701407E8948349"
+			]
+			dependency_requirement: "one_completed"
 			id: "45DFA830778035DA"
 			tasks: [{
 				id: "60C9385ABB25C1F5"
 				item: { count: 1, id: "naturesaura:infused_iron" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["05609948CC4023E4"]
+			dependencies: [
+				"05609948CC4023E4"
+				"6A701407E8948349"
+			]
+			dependency_requirement: "one_completed"
 			id: "5183A6641C0915D5"
 			tasks: [{
 				id: "745ACEC89E0C20F0"
 				item: { count: 1, id: "naturesaura:tainted_gold" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0D7A91E84A6CE9CD"]
 			id: "0BBCD3DE8AC14F78"
+			optional: true
 			tasks: [{
 				id: "4B174ABB81A2C8CA"
 				item: { count: 1, id: "naturesaura:eye" }
@@ -208,14 +230,18 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["05609948CC4023E4"]
+			dependencies: [
+				"05609948CC4023E4"
+				"5E50DF743F7E8876"
+			]
+			dependency_requirement: "one_completed"
 			id: "3C9030D14EDAA327"
 			tasks: [{
 				id: "1E03FE0774291179"
 				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
@@ -226,17 +252,214 @@
 				item: { count: 1, id: "minecraft:glowstone" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["554308CA0151F99D"]
+			id: "68E7E19B6DB6E0AF"
+			optional: true
+			tasks: [{
+				id: "0B2043A2C48730BD"
+				item: { count: 1, id: "forcecraft:force_sapling" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["325E28C61A277DFD"]
+			id: "554308CA0151F99D"
+			rewards: [{
+				id: "29DADBDA51872557"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED6C43EFAF3BE4D"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["68E7E19B6DB6E0AF"]
+			id: "7CF3932B66B929B7"
+			optional: true
+			tasks: [{
+				id: "14A8DE46C1E3D4E9"
+				item: { count: 1, id: "forcecraft:force_log" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["68E7E19B6DB6E0AF"]
+			id: "2D65E7C1E80F3FE1"
+			optional: true
+			tasks: [{
+				id: "2706F09C23801BC6"
+				item: { count: 1, id: "forcecraft:force_nugget" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D65E7C1E80F3FE1"]
+			id: "6F44CAD4EC313436"
+			optional: true
+			tasks: [{
+				id: "72C06B59FD6C20C6"
+				item: { count: 1, id: "forcecraft:force_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"168D4C8C48B81F3E"
+				"3420B2AA337E8474"
+			]
+			id: "3B3D7B574E31E97C"
+			optional: true
+			rewards: [{
+				id: "11622B2BE4B28E06"
+				item: {
+					components: {
+						"patchouli:book": "forcecraft:force_and_you"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11EBF86F8BF6078F"
+				item: { count: 1, id: "forcecraft:infuser" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F44CAD4EC313436"]
+			id: "013F43C55E90030B"
+			optional: true
+			tasks: [{
+				id: "043CE48BFD94EE55"
+				item: { count: 1, id: "forcecraft:force_gem" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"013F43C55E90030B"
+				"19BAB6741140C76D"
+			]
+			id: "168D4C8C48B81F3E"
+			optional: true
+			tasks: [{
+				id: "5A8A76F94AE40C04"
+				item: { count: 1, id: "forcecraft:force_engine" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F44CAD4EC313436"]
+			id: "19BAB6741140C76D"
+			optional: true
+			tasks: [{
+				id: "36B7440230D678BC"
+				item: { count: 1, id: "forcecraft:force_gear" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["013F43C55E90030B"]
+			id: "3420B2AA337E8474"
+			optional: true
+			tasks: [{
+				id: "4D7E333E6FF6AF9A"
+				item: { count: 1, id: "forcecraft:upgrade_tome" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B3D7B574E31E97C"]
+			id: "07C35F2DA8027E01"
+			optional: true
+			tasks: [{
+				id: "6E6CFD8C5D4AFDD2"
+				item: { count: 1, id: "forcecraft:experience_tome" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07C35F2DA8027E01"]
+			id: "36068890CA434FA7"
+			optional: true
+			tasks: [{
+				id: "1A001F3060DFA49D"
+				item: { count: 1, id: "forcecraft:upgrade_core" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36068890CA434FA7"]
+			id: "5E50DF743F7E8876"
+			optional: true
+			tasks: [{
+				id: "21ABB9B8FCAAAD9D"
+				item: { count: 1, id: "forcecraft:grinding_core" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5E50DF743F7E8876"
+				"35DE4F6DC0F02E7D"
+			]
+			id: "6A701407E8948349"
+			optional: true
+			tasks: [{
+				id: "2DD607C5936F574E"
+				item: { count: 1, id: "forcecraft:force_furnace" }
+				type: "item"
+			}]
+			x: -4.0d
 			y: 3.5d
 		}
 		{
-			id: "7EEEECA82C1BA045"
+			dependencies: ["36068890CA434FA7"]
+			id: "35DE4F6DC0F02E7D"
+			optional: true
 			tasks: [{
-				id: "6374588E7CDABF98"
-				type: "checkmark"
+				id: "7193C4662483F49B"
+				item: { count: 1, id: "forcecraft:freezing_core" }
+				type: "item"
 			}]
 			x: -4.5d
-			y: -5.0d
+			y: 2.5d
 		}
 	]
 }

@@ -4,10 +4,10 @@ ServerEvents.recipes(event => {
 
     //Remove
     event.remove({id: /strainers:strainer\/purified_gravel/})
+    event.remove({id: /strainers:strainer\/soul_soil/})
+    event.remove({id: /strainers:strainer\/purified_soul_sand/})
     event.remove({id: 'strainers:strainer/purified_sand/prismarine_crystals'})
     event.remove({id: 'strainers:strainer/purified_sand/prismarine_shard'})
-    event.remove({id: 'strainers:strainer/purified_soul_sand/debris_ore_piece'})
-    event.remove({id: 'strainers:strainer/purified_soul_sand/quartz_ore_piece'})
     
     //Replace Input
     event.replaceInput({id: 'strainers:speed_upgrade_1'}, 'minecraft:iron_block', 'minecraft:lapis_block')
@@ -45,7 +45,6 @@ ServerEvents.recipes(event => {
     strainerAuto('#submerged:coral_blocks', 'minecraft:water', 'minecraft:horn_coral', 0.2, 0.05, 1, 10);
     strainerAuto('#submerged:coral_blocks', 'minecraft:water', 'minecraft:tube_coral', 0.2, 0.05, 1, 10);
 
-
     //Ancient Gravel -> Ancient Debris
     strainerAuto('submerged:ancient_gravel', 'minecraft:water', 'strainers:debris_ore_piece', 0.2, 0.05, 7, 10);
 
@@ -54,8 +53,12 @@ ServerEvents.recipes(event => {
     strainerAuto('submerged:charged_sand', 'minecraft:water', 'mekanism:dust_quartz', 0.35, 0.05, 6, 10);
     strainerAuto('submerged:charged_sand', 'minecraft:water', 'ae2:sky_dust', 0.05, 0.05, 6, 10);
 
+    //Purified Soul Sand -> Nether Wart, Crimson Fungus, Warped Fungus
+    strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:nether_wart', 0.2, 0.05, 6, 10);
+    strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:crimson_fungus', 0.2, 0.05, 6, 10);
+    strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:warped_fungus', 0.2, 0.05, 6, 10); 
+
     //Purifed Soul Sand -> Gold Ore Piece
-    strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'strainers:gold_ore_piece', 0.2, 0.05, 6, 10);
 
 
     //Gravel Drops
@@ -72,7 +75,10 @@ ServerEvents.recipes(event => {
         salt: ['minecraft:water', 'alltheores:salt', 0.05, 0.05, 5, 10],
         redstone: ['minecraft:water', 'strainers:redstone_ore_piece', 0.25, 0.05, 5, 10],
         amethyst: ['minecraft:water', 'minecraft:amethyst_shard', 0.15, 0.05, 4, 10],
-        scute: ['minecraft:water', 'minecraft:turtle_scute', 0.15, 0.05, 6, 10]
+        scute: ['minecraft:water', 'minecraft:turtle_scute', 0.15, 0.05, 6, 10],
+        gold: ['minecraft:water', 'strainers:gold_ore_piece', 0.2, 0.05, 6, 10],
+        blaze: ['minecraft:water', 'minecraft:blaze_powder', 0.1, 0.05, 6, 10]
+    
     }
 
 
@@ -110,6 +116,16 @@ ServerEvents.recipes(event => {
         gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
         gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
         gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute
+    ]);
+
+    //Nether Gravel -> Gold, Blaze
+    addStrainerGravelDrop('submerged:nether_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze
     ]);
 
     //Tiered Gravel Recipes

@@ -94,6 +94,17 @@ ServerEvents.recipes(event => {
     //Mass Color Crafting
     colors.forEach(color => {
 
+        //Tunnel Key
+        event.shaped(`submerged:${color}_tunnel_key`, [' A ', 'ABA', ' A '], {
+            A: '#c:glass_blocks',
+            B: `submerged:${color}_sphere_key`
+        }).id(`submerged:${color}_tunnel_key`)
+
+        //Big Sphere Key
+        event.shaped(`submerged:${color}_big_sphere_key`, ['AAA', 'AAA', 'AAA'], {
+            A: `submerged:${color}_sphere_key`
+        }).id(`submerged:${color}_big_sphere_key`)
+
         //Long Sphere Key
         event.shaped(`submerged:${color}_long_sphere_key`, ['AA'], {
             A: `submerged:${color}_sphere_key`

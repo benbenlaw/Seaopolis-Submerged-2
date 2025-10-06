@@ -53,3 +53,5 @@ underwater_village:warm_big_gate
 underwater_village:warm_broken_house
 underwater_village:warm_fountain
 underwater_village:warm_gate
+warp_pipes:world_1-2
+warp_pipes:world_1-2_town

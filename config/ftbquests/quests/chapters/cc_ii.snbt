@@ -6,5 +6,333 @@
 	id: "3DE775794F0DE900"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6E9731F1F8B73F6E"]
+			id: "6733F528D38B6E09"
+			rewards: [{
+				id: "15ACE04406EDC9AF"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "001DA8E88C4D7F5B"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6733F528D38B6E09"]
+			id: "328D9CFD28FEAC63"
+			rewards: [{
+				id: "655890791E20FCB9"
+				item: {
+					count: 1
+					id: "mekanismtools:lapis_lazuli_chestplate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "02FBA27F747E9324"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6733F528D38B6E09"]
+			id: "6BC6E76718B9571E"
+			rewards: [{
+				count: 16
+				id: "5162319385019C23"
+				item: {
+					count: 1
+					id: "submerged:totemic_infused_gravel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2FC0E6BA653DD94E"
+				item: { count: 1, id: "submerged:totemic_infused_gravel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6BC6E76718B9571E"
+				"328D9CFD28FEAC63"
+			]
+			id: "02503953C66AF804"
+			rewards: [{
+				id: "5403221BB29707F3"
+				item: {
+					components: {
+						"casting:efficiency": 3
+						"casting:equipment_level": 3
+						"casting:fortune": 5
+						"casting:unbreaking": 3
+						"minecraft:custom_name": "\"Paxel of Luck\""
+					}
+					count: 1
+					id: "mekanismtools:lapis_lazuli_paxel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EE364285E590B2"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0BC9FFEAA96EEE0B"
+				"02503953C66AF804"
+				"258235914B947F02"
+				"4BC02BEE16C2D671"
+			]
+			id: "1B2C7E1A23DB9F8A"
+			size: 2.0d
+			tasks: [{
+				id: "326FC48E2D81D130"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3EB28B8A578DEE0F"
+				"764A642A6413219C"
+			]
+			id: "0BC9FFEAA96EEE0B"
+			rewards: [{
+				id: "6D86AA5E011EB33E"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:saw"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F2FF414226B9F04"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"645690194ABB48BD"
+				"5597C89668EA9E89"
+			]
+			id: "258235914B947F02"
+			rewards: [{
+				id: "2876DF078AD26C17"
+				item: {
+					count: 1
+					id: "strainers:speed_upgrade_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E648410529A16EA"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3136191190498951"
+				"02379CAA0CE6DE40"
+			]
+			id: "4BC02BEE16C2D671"
+			tasks: [{
+				id: "1DD3DB27B93A7528"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DDF22321E6D65F6"]
+			id: "764A642A6413219C"
+			rewards: [{
+				id: "47435FCA5C724064"
+				item: {
+					count: 1
+					id: "minecraft:budding_amethyst"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "5AAA2BBD6946D3E7"
+				item: { count: 1, id: "submerged:living_mob_matter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DDF22321E6D65F6"]
+			id: "3EB28B8A578DEE0F"
+			rewards: [{
+				id: "1F7B49F782E90034"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:solid_xp_mould_baby"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 64000
+					id: "mob_grinding_utils:fluid_xp"
+				}
+				id: "5A7A2FD2AB28007E"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["092C9843B11AA1ED"]
+			id: "2DDF22321E6D65F6"
+			rewards: [{
+				id: "4584EB73E2490C03"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15EA66544BCD744F"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D1CB1B9DF4B4313"]
+			id: "645690194ABB48BD"
+			rewards: [{
+				id: "2D080C0B414D086A"
+				item: {
+					count: 1
+					id: "resourcefish:speed_upgrade_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1B49377BBC8C21AE"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7243EC6077298F8D"]
+			id: "7D1CB1B9DF4B4313"
+			rewards: [{
+				id: "642F453F6DD44DCA"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FCAA4D18D96BE53"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D1CB1B9DF4B4313"]
+			id: "5597C89668EA9E89"
+			rewards: [{
+				count: 4
+				id: "3CC014A79CEBA358"
+				item: {
+					count: 1
+					id: "casting:super_coolant_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 32000
+					id: "casting:molten_blaze"
+				}
+				id: "581E61D1AC270969"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D096426F1F05C53"]
+			id: "3136191190498951"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "07C550E3A27646E2"
+				item: { count: 1, id: "minecraft:glowstone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D096426F1F05C53"]
+			id: "02379CAA0CE6DE40"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "381A22CB2739A8F9"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E2CBB174C1E841E"]
+			id: "5D096426F1F05C53"
+			rewards: [{
+				id: "3F3481D224DD6829"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7835F13B0AE63836"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
 }

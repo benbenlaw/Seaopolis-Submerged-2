@@ -8,6 +8,7 @@ StartupEvents.registry("fluid", (event) => {
     event.create('submerged:molten_certus_quartz', "thick").tint(0xAAE6FC)
     event.create('submerged:totemic_infused_water', "thick").tint(0xAAE6FC)
     event.create('submerged:salt_water', "thin").tint(0xAAE6FC)
+    event.create('submerged:molten_force', "thick").tint(0xCEB137)
 
 })
 

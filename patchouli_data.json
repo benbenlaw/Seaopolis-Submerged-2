@@ -58,6 +58,19 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "forcecraft:force_and_you": {
+      "viewedEntries": [
+        "forcecraft:infuser/inert_core",
+        "forcecraft:infuser/upgrade_core",
+        "forcecraft:tier_0/damage",
+        "forcecraft:tier_0/force",
+        "forcecraft:tier_1/lumberjack",
+        "forcecraft:tier_1/speed",
+        "forcecraft:tier_2/freezing_core"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
         "ars_nouveau:machines/imbuement_chamber"

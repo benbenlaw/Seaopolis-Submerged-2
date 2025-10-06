@@ -2,6 +2,13 @@
 
 ServerEvents.recipes(event => {
 
+    //Remove
+    event.remove({id: 'resourcefish:infusing/copper'})
+    event.remove({id: 'resourcefish:infusing/iron'})
+    event.remove({id: 'resourcefish:infusing/gold'})
+    event.remove({id: 'resourcefish:infusing/lapis'})
+    event.remove({id: 'resourcefish:infusing/redstone'})
+
     //Tank
     event.shaped('resourcefish:tank_controller', ['AAA', 'CBC', 'AAA'], {
         A: 'minecraft:copper_ingot',
@@ -21,5 +28,11 @@ ServerEvents.recipes(event => {
         A: 'minecraft:copper_ingot',
         B: 'resourcefish:caviar'
     }).id('resourcefish:breeding_upgrade')
+
+    //Breeding Upgrade
+    event.shaped('resourcefish:infusing_upgrade', ['ABA', 'A A', 'ABA'], {
+        A: 'minecraft:copper_ingot',
+        B: 'resourcefish:caviar'
+    }).id('resourcefish:infusing_upgrade')
 
 })

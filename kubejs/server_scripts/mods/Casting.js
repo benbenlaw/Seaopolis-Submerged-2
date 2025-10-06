@@ -23,6 +23,9 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting("ae2:certus_quartz_crystal", "250x submerged:molten_certus_quartz", 1000).id("submerged:melting/certus_quartz_crystal")
     event.recipes.casting.melting("submerged:porcelain_clay", "250x casting:molten_black_brick", 1000).id("submerged:melting/porcelain_clay")
     event.recipes.casting.melting("submerged:living_mob_matter", "100x mob_grinding_utils:fluid_xp", 1000).id("submerged:melting/fluid_xp")
+    event.recipes.casting.melting("forcecraft:force_nugget", "10x submerged:molten_force", 1000).id("submerged:melting/force_nugget")
+    event.recipes.casting.melting("forcecraft:force_ingot", "90x submerged:molten_force", 1000).id("submerged:melting/force_ingot")
+    event.recipes.casting.melting("forcecraft:force_gear", "360x submerged:molten_force", 1000).id("submerged:melting/force_ingot")
     
     //Solidifier
     event.recipes.casting.solidifier("minecraft:gravel", "100x submerged:organic_water", "submerged:refined_gravel").id("submerged:solidifier/refined_gravel")
@@ -35,6 +38,10 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier("#c:molds/key", "360x casting:molten_iron", "submerged:iron_key").id("submerged:solidifier/iron_key")
     event.recipes.casting.solidifier("#c:molds/key", "360x casting:molten_netherite", "submerged:netherite_key").id("submerged:solidifier/netherite_key")
     event.recipes.casting.solidifier("#c:molds/key", "4000x casting:molten_stone", "submerged:stone_key").id("submerged:solidifier/stone_key")
+
+    event.recipes.casting.solidifier("#c:molds/ingot", "90x submerged:molten_force", "forcecraft:force_ingot").id("submerged:solidifier/force_ingot")
+    event.recipes.casting.solidifier("#c:molds/nugget", "10x submerged:molten_force", "forcecraft:force_nugget").id("submerged:solidifier/force_nugget")
+    event.recipes.casting.solidifier("#c:molds/gear", "360x submerged:molten_force", "forcecraft:force_gear").id("submerged:solidifier/force_gear")
 
 
     //Mixer
@@ -52,7 +59,25 @@ ServerEvents.recipes(event => {
         B: 'casting:solidifier'
     }).id('casting:solidifier/multiblock/solidifier')
 
-    //Multiblock 
+    //Multiblock Valve
+    event.shaped('casting:multiblock_valve', [' A ', 'ABA', ' A '], {
+        A: '#c:ingots/bronze',
+        B: 'casting:black_bricks'
+    }).id('casting:solidifier/multiblock/valve')
+
+    //Multiblock Fuel Tank
+    event.shaped('casting:multiblock_fuel_tank', [' A ', 'ABA', ' A '], {
+        A: '#c:ingots/bronze',
+        B: 'casting:tank'
+    }).id('casting:solidifier/multiblock/fuel_tank')
+
+    //Multiblock Coolant Tank
+    event.shaped('casting:multiblock_coolant_tank', ['A A', ' B ', 'A A'], {
+        A: '#c:ingots/bronze',
+        B: 'casting:tank'
+    }).id('casting:solidifier/multiblock/coolant_tank')
+
+    //
 })
 
 

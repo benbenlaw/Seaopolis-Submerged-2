@@ -130,6 +130,42 @@ StartupEvents.registry('item', (event) => {
             .tag('submerged:keys/long_sphere')
     })
 
+    //Colored Tunnel Keys 
+    colors.forEach(color => {
+        event.create(`submerged:${color}_tunnel_key`, 'roomopolis_key')
+            .templateId(`submerged:tunnel/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(4)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/tunnel')
+    })
+
+    //Colored Big Keys 
+    colors.forEach(color => {
+        event.create(`submerged:${color}_big_sphere_key`, 'roomopolis_key')
+            .templateId(`submerged:big/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/big_sphere')
+    })
+
     event.create(`submerged:3x3_pressure_chamber`, 'roomopolis_key')
         .displayName('3x3 Pressure Chamber Key')
         .templateId(`submerged:pressure_chamber/3x3_pressure_chamber`)

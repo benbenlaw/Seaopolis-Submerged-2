@@ -46,63 +46,24 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7C4A2CEF96F49D3A"]
 			id: "41F95D5BBDF66754"
+			rewards: [{
+				count: 3
+				id: "6FA01EE3550AF989"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33D03D3538E88266"
 				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
-			id: "59C48323520A5A31"
-			tasks: [{
-				id: "0DEC5BAABA3F3614"
-				item: { count: 1, id: "opolisutilities:resource_generator" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			id: "2769D5AE7B476E33"
-			tasks: [{
-				id: "634515A8215441D5"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 0.5d
-		}
-		{
-			id: "464968788465128D"
-			tasks: [{
-				id: "797947FCBF0E6B8D"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["464968788465128D"]
-			id: "5E29A852F20030C7"
-			tasks: [{
-				id: "56BA066B71AB51D6"
-				item: { components: { "ftbquests:missing_item": "naturesaura:gold_fiber" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
-		}
-		{
-			id: "07351182B6D40C79"
-			tasks: [{
-				id: "4AEA472688C28AE3"
-				item: { components: { "ftbquests:missing_item": "naturesaura:gold_leaf" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["57F452F179109301"]
@@ -124,26 +85,16 @@
 			y: -2.5d
 		}
 		{
-			id: "30A65FB952B6ED83"
+			dependencies: ["57DF2A7FC2115CBC"]
+			id: "5E732A6A8199E196"
 			rewards: [{
-				id: "7C42F07D71AE7BC2"
+				id: "2F5E710BC9557143"
 				item: {
 					count: 1
 					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "1DB6C793D60E318C"
-				item: { count: 1, id: "resourcefish:infusing_upgrade" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["57DF2A7FC2115CBC"]
-			id: "5E732A6A8199E196"
 			tasks: [{
 				id: "12A415B15CF04592"
 				item: { components: { "resourcefish:fish_type": "resourcefish:netherrack" }, count: 1, id: "resourcefish:caviar" }
@@ -156,25 +107,42 @@
 		{
 			dependencies: ["5E732A6A8199E196"]
 			id: "406AB1F16C28F754"
+			rewards: [{
+				id: "201F3C9DB6D1EDE0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "358F81B2B1D8B919"
 				item: { components: { "resourcefish:fish_type": "resourcefish:soul_sand" }, count: 1, id: "resourcefish:caviar" }
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5E732A6A8199E196"]
 			id: "1E0DA17713291516"
+			rewards: [{
+				count: 4
+				id: "3044F9AFBE71F9BB"
+				item: {
+					count: 1
+					id: "minecraft:netherrack"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32BD983E303192C3"
 				item: { count: 1, id: "minecraft:netherrack" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -182,57 +150,99 @@
 				"406AB1F16C28F754"
 			]
 			id: "6716062455BA50CA"
+			rewards: [{
+				count: 4
+				id: "13C6AB660EB37E35"
+				item: {
+					count: 1
+					id: "minecraft:soul_sand"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30162D94D2648B9D"
 				item: { count: 1, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6716062455BA50CA"]
 			id: "36438FB25436AE8D"
+			rewards: [{
+				id: "2C62234C6F255C52"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "48290836D3CE8414"
 				item: { count: 1, id: "strainers:purified_soul_sand" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["36438FB25436AE8D"]
+			dependencies: ["7C4A2CEF96F49D3A"]
 			id: "1D634F8B01E2B16B"
+			rewards: [{
+				count: 4
+				id: "6C70B7BFCD02401B"
+				item: {
+					count: 1
+					id: "strainers:gold_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DF4132F32375A14"
 				item: { count: 1, id: "strainers:gold_ore_piece" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1D634F8B01E2B16B"]
 			id: "4AA005B34310FA4A"
+			rewards: [{
+				id: "5314500D71F553D8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "24B2B91D39B6E6CB"
 				item: { count: 1, id: "minecraft:gold_ore" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4AA005B34310FA4A"]
 			id: "440ED6C58D5098C3"
+			rewards: [{
+				id: "20B025DE6E6090F1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CE7725E35D3423D"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/gold)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0899612E4035D1D3"]
@@ -250,19 +260,27 @@
 				item: { count: 1, id: "resourcefish:tank_upgrade" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["554D9C55B752BD03"]
 			id: "50BFF626432F1838"
+			rewards: [{
+				id: "70618D5D0D5C0ECC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6535A8007E15B1D0"
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["10725128306E3CCB"]
@@ -413,7 +431,132 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57F452F179109301"]
+			id: "6D2761D542F9C707"
+			rewards: [{
+				id: "6C4FE5D88ACA0FB0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D96FCDA30DEE42"
+				item: { count: 1, id: "resourcefish:infusing_upgrade" }
+				type: "item"
+			}]
+			x: -0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1D5F4113AC1B52C7"
+				"633171475E43523A"
+			]
+			id: "7C4A2CEF96F49D3A"
+			rewards: [{
+				count: 4
+				id: "080EDA376A4CAFDF"
+				item: {
+					count: 1
+					id: "submerged:nether_gravel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "053B99C5155A7921"
+				item: { count: 1, id: "submerged:nether_gravel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["554D9C55B752BD03"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "633171475E43523A"
+			tasks: [{
+				id: "645CC3BF2BCECEF1"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41F95D5BBDF66754"]
+			id: "13862E4ECDAADCB0"
+			rewards: [{
+				id: "634E788033927C05"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F5D65F066615024"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36438FB25436AE8D"]
+			id: "1D5F4113AC1B52C7"
+			tasks: [{
+				id: "4C1F95666733283D"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41F95D5BBDF66754"]
+			icon: {
+				id: "casting:molten_blaze_bucket"
+			}
+			id: "56D1EEA15D1E722E"
+			rewards: [{
+				id: "4F921C7A00A80AE9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5DFA6ACBBF4AAE"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50BFF626432F1838"]
+			id: "3FF8CCC69D6FDC76"
+			rewards: [{
+				id: "07F00AC9F8C1B9A9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E1A2D8C64B1885C"
+				item: { count: 1, id: "rftoolsstorage:storage_module3" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
 		}
 	]
 }
