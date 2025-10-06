@@ -43,7 +43,6 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier("#c:molds/nugget", "10x submerged:molten_force", "forcecraft:force_nugget").id("submerged:solidifier/force_nugget")
     event.recipes.casting.solidifier("#c:molds/gear", "360x submerged:molten_force", "forcecraft:force_gear").id("submerged:solidifier/force_gear")
 
-
     //Mixer
     event.recipes.casting.mixing("360x casting:molten_quartz_enriched_iron", ["270x casting:molten_iron", "250x casting:molten_quartz", "250x submerged:molten_certus_quartz"]).id("casting:mixer/molten_quartz_enriched_iron")
 

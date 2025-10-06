@@ -8,4 +8,4 @@ ServerEvents.recipes(event => {
     event.shaped('bblcore:upgrade_base', ['AAA', 'A A', 'AAA'], {
         A: 'minecraft:iron_nugget'
     }).id('submerged:upgrade_base')
-})
+}) 
