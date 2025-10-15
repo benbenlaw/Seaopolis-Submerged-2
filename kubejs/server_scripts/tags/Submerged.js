@@ -32,6 +32,9 @@ ServerEvents.tags('item', event => {
     //Valid Submerged Living Mob Matter
     event.get('submerged:valid_living_mob_matter').add(['minecraft:ender_pearl', 'minecraft:bone', 'minecraft:rotten_flesh', 'minecraft:slime_ball', 'minecraft:spider_eye', 'minecraft:gunpowder', '#forcecraft:chu_jelly'])
 
+    //Pity Frame Logs
+    event.get('submerged:pity_frame_logs').add(['naturesaura:ancient_log', 'naturesaura:ancient_bark', 'forcecraft:force_log'])
+
 })
 
 ServerEvents.tags('block', event => {

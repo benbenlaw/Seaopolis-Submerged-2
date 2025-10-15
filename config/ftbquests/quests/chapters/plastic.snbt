@@ -169,30 +169,21 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["772E29425FED6697"]
-			id: "242855AD0C9FD843"
-			optional: true
-			tasks: [{
-				id: "373B2021F4C84DC8"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:sandpaper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"242855AD0C9FD843"
-				"4CC34CF73486EB02"
-			]
+			dependencies: ["4CC34CF73486EB02"]
+			icon: {
+				components: {
+					"pneumaticcraft:uv_exposure": 100
+				}
+				id: "pneumaticcraft:empty_pcb"
+			}
 			id: "5CBC0FCC4F12353D"
 			tasks: [{
-				id: "522E5D2D9D110E1D"
+				id: "288B8C0730CEAE3C"
 				item: { components: { "pneumaticcraft:uv_exposure": 100 }, count: 1, id: "pneumaticcraft:empty_pcb" }
-				match_components: "strict"
+				optional_task: true
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -207,11 +198,11 @@
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 6.5d
 		}
 		{
-			dependencies: ["5CBC0FCC4F12353D"]
+			dependencies: ["772E29425FED6697"]
 			icon: {
 				id: "pneumaticcraft:etching_acid_bucket"
 			}
@@ -220,12 +211,16 @@
 				id: "2B782F5FAE21B6E9"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0C2AABFFD28944AA"]
+			dependencies: [
+				"0C2AABFFD28944AA"
+				"5CBC0FCC4F12353D"
+			]
 			id: "50F353C6D15C0062"
+			optional: true
 			tasks: [{
 				id: "0B7C36C45C2341F9"
 				item: { count: 1, id: "pneumaticcraft:etching_tank" }
@@ -235,7 +230,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["50F353C6D15C0062"]
+			dependencies: [
+				"50F353C6D15C0062"
+				"0C2AABFFD28944AA"
+			]
 			id: "433D889DEFC9E899"
 			tasks: [{
 				id: "5F4539D7FB283BB6"
@@ -244,15 +242,6 @@
 			}]
 			x: -1.0d
 			y: 5.0d
-		}
-		{
-			id: "5A560D95D95130FB"
-			tasks: [{
-				id: "3A05E332230BC2A0"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["5B99151FECCA1C27"]
@@ -284,8 +273,109 @@
 				item: { count: 1, id: "ae2:charger" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["066605A8923EC7C2"]
+			id: "54D4C8B3C0933A20"
+			tasks: [{
+				id: "16EA7CBBB260AC4C"
+				item: { count: 1, id: "enderio:basic_capacitor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E2A33A420B45C7D"]
+			id: "04EDAE52AEA4F157"
+			tasks: [{
+				id: "36E06C6435655FE2"
+				item: { count: 1, id: "enderio:photovoltaic_composite" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04EDAE52AEA4F157"]
+			id: "6A4265C9F724EEAE"
+			tasks: [{
+				id: "31FD4B57EAC6306D"
+				item: { count: 1, id: "enderio:photovoltaic_plate" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6A4265C9F724EEAE"
+				"54D4C8B3C0933A20"
+			]
+			id: "7A799412015F62DF"
+			tasks: [{
+				id: "7EEF417325B0E82E"
+				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54D4C8B3C0933A20"]
+			id: "72844E6B5F22DC9D"
+			optional: true
+			tasks: [{
+				id: "2DF9AC7F65CFED42"
+				item: { count: 1, id: "enderio:double_layer_capacitor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7A799412015F62DF"
+				"72844E6B5F22DC9D"
+			]
+			id: "5AF9A9F1EF193926"
+			optional: true
+			tasks: [{
+				id: "2B80B5EE4EEAB54A"
+				item: { count: 1, id: "enderio:pulsating_photovoltaic_module" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72844E6B5F22DC9D"]
+			id: "368192A5697843F8"
+			optional: true
+			tasks: [{
+				id: "61F7FE58FF8B6698"
+				item: { count: 1, id: "enderio:octadic_capacitor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"368192A5697843F8"
+				"5AF9A9F1EF193926"
+			]
+			id: "08D1ED5AEAF876D9"
+			optional: true
+			tasks: [{
+				id: "15727FC48D0C5072"
+				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
 		}
 	]
 }

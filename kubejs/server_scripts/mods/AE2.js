@@ -11,6 +11,12 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ae2:inscriber/logic_processor_print'})
     event.remove({id: 'ae2:inscriber/silicon_print'})
 
+    //Photovoltaic Plate
+    addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/iron', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
+
+    //Basic Capacitor
+    addInscriberRecipe('#c:ingots/aluminum', 'pneumaticcraft:capacitor', 'minecraft:copper_ingot', 'enderio:basic_capacitor')
+
     //Transistor
     addInscriberRecipe('#pneumaticcraft:wiring', 'pneumaticcraft:plastic', 'minecraft:redstone', 'pneumaticcraft:transistor')
 
@@ -21,7 +27,7 @@ ServerEvents.recipes(event => {
     addInscriberRecipe('pneumaticcraft:transistor', 'pneumaticcraft:unassembled_pcb', 'pneumaticcraft:capacitor', 'pneumaticcraft:printed_circuit_board')
 
     //Charged Sand
-    addChargerRecipe('minecraft:sand', 'submerged:charged_sand')
+    addChargerRecipe('submerged:nether_gravel', 'submerged:charged_gravel')
 
     //Printed Logic Circuit
     addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot' , '4x ae2:printed_logic_processor')

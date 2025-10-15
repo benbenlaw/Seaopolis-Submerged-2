@@ -49,7 +49,7 @@ StartupEvents.registry('item', (event) => {
         .templateId('submerged:spheres/nether_brick')
         .keyBlock('submerged:nether_brick_lock')
         .heightAdjustment(0)
-        .frontAdjustment(1)
+        .frontAdjustment(-1)
         .doorLeft(1) 
         .doorRight(1)
         .doorUp(1)

@@ -6,5 +6,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'enderio:fire_crafting/deepslate_infinity'})
     event.remove({id: 'enderio:fire_crafting/bedrock_infinity'})
     event.remove({id: 'enderio:sag_milling/cobbled_deepslate'})
+    event.remove({id: 'enderio:basic_capacitor'})
+    event.remove({id: 'enderio:alloy_smelting/photovoltaic_plate'})
 
 })

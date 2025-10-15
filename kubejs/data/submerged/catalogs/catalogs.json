@@ -1,9 +1,7 @@
 {
-  "catalogue_item": {
-    "id": "submerged:catalog_catalog"
-  },
-  "items": [
-    { "stack": { "id": "submerged:catalog_hats", "count": 1 }, "price": 5 },
-    { "stack": { "id": "submerged:catalog_ducks", "count": 1 }, "price": 5 }
+  "catalog": { "id": "submerged:catalog_catalog" },
+  "entries": [
+    { "stack": { "id": "submerged:catalog_hats", "count": 1 }, "price": 5, "mode": "player_buys" },
+    { "stack": { "id": "submerged:catalog_ducks", "count": 1 }, "price": 5, "mode": "player_buys" }
   ]
 }

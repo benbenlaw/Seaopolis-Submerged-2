@@ -119,6 +119,9 @@
     "mortar": true,
     "cauldron": true
   },
+  "woot_revived": {
+    "machines": true
+  },
   "gravestone": {
     "grave": true
   },

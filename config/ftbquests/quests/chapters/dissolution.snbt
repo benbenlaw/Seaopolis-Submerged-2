@@ -43,6 +43,15 @@
 		{
 			dependencies: ["26CB9C3907B2D830"]
 			id: "7FAA02EEDC6D1384"
+			rewards: [{
+				count: 4
+				id: "159A222B205964F8"
+				item: {
+					count: 1
+					id: "strainers:diamond_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0015FC3C230D276A"
 				item: { count: 1, id: "strainers:diamond_ore_piece" }
@@ -54,6 +63,15 @@
 		{
 			dependencies: ["26CB9C3907B2D830"]
 			id: "4FC90D3B2F50FBED"
+			rewards: [{
+				count: 4
+				id: "2D019AF8535761AF"
+				item: {
+					count: 1
+					id: "strainers:emerald_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "510D56565640F938"
 				item: { count: 1, id: "strainers:emerald_ore_piece" }
@@ -163,15 +181,6 @@
 			}]
 			x: -1.0d
 			y: 3.5d
-		}
-		{
-			id: "5CAE0BC53789212D"
-			tasks: [{
-				id: "306A59BA05868F7D"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["613AC75202FB54CF"]
@@ -296,16 +305,6 @@
 			}]
 			x: -1.0d
 			y: 13.5d
-		}
-		{
-			id: "00D7B1B06459B415"
-			tasks: [{
-				id: "06C7821125E293C5"
-				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 14.5d
 		}
 	]
 }

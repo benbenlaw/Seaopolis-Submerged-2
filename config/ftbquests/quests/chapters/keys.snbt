@@ -561,6 +561,14 @@
 		{
 			dependencies: ["7459D3F20B64BD41"]
 			id: "6B4B69BB66102A30"
+			rewards: [{
+				id: "1437FAAA31B4FB3D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70EEC0FD93DF940D"
 				item: { components: { "bucketlib:fluid": { amount: 1000, id: "submerged:exothermic_water" } }, count: 1, id: "ceramicbucket:ceramic_bucket" }

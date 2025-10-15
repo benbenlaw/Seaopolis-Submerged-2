@@ -16,7 +16,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1731145B318CB588"]
@@ -27,7 +27,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["532E2DA7ACCF42C2"]
@@ -38,20 +38,11 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["74E4B172FE96A069"]
 			id: "3D906CE528FBE462"
-			rewards: [{
-				auto: "enabled"
-				command: "/setblock ~7 ~ ~10 submerged:nether_brick_lock"
-				id: "437CA4D00DC99C87"
-				permission_level: 4
-				silent: true
-				team_reward: true
-				type: "command"
-			}]
 			tasks: [{
 				id: "3BC47B5061DF4C32"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -59,7 +50,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2401B5B7F6D93BF6"]
@@ -70,26 +61,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D906CE528FBE462"]
-			icon: {
-				id: "submerged:nether_brick_lock"
-			}
-			id: "2F89E216060ED396"
-			tasks: [{
-				id: "41BEB9CDFDA927BD"
-				observe_type: 0
-				timer: 0L
-				to_observe: "submerged:nether_brick_lock"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2F89E216060ED396"]
 			id: "6D60D4F5300AED78"
 			tasks: [{
 				id: "4717C979125563E3"
@@ -157,16 +132,20 @@
 		{
 			dependencies: ["072B502A9D9AF993"]
 			id: "5FCEBCB684BB632F"
+			optional: true
 			tasks: [{
 				id: "33FB7A66EDD4A3C7"
 				item: { count: 1, id: "naturesaura:conversion_catalyst" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{
-			dependencies: ["5FCEBCB684BB632F"]
+			dependencies: [
+				"5FCEBCB684BB632F"
+				"0F6C39A38FE558B9"
+			]
 			id: "08AFA43CC9061096"
 			tasks: [{
 				id: "2F102FFFA482857F"
@@ -219,7 +198,7 @@
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 8.5d
 		}
 		{
@@ -230,7 +209,7 @@
 				item: { count: 1, id: "naturesaura:clock_hand" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 9.5d
 		}
 		{
@@ -241,7 +220,7 @@
 				item: { count: 1, id: "tiab:time_in_a_bottle" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 10.5d
 		}
 		{
@@ -279,6 +258,17 @@
 			}]
 			x: -1.0d
 			y: 10.5d
+		}
+		{
+			dependencies: ["072B502A9D9AF993"]
+			id: "0F6C39A38FE558B9"
+			tasks: [{
+				id: "48D8D4FD6580DE02"
+				item: { count: 1, id: "enderio:withering_powder" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
 		}
 	]
 }

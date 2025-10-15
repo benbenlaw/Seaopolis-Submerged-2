@@ -30,6 +30,12 @@ ServerEvents.recipes(event => {
         ["4x submerged:nether_gravel", "minecraft:bucket"]
     ).id('submerged:pneumaticcraft/nether_gravel_blaze')
 
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["8x submerged:living_gravel", "16x minecraft:nether_wart", "industrialforegoing:meat_bucket"],
+        2.0,
+        ["8x submerged:nether_gravel", "minecraft:bucket"]
+    ).id('submerged:pneumaticcraft/nether_gravel_meat')
+
     //Living Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
         ["submerged:assembled_gravel", "submerged:living_mob_matter", 'mob_grinding_utils:fluid_xp_bucket'],

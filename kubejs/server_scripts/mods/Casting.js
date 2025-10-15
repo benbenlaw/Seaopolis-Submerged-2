@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting("forcecraft:force_gear", "360x submerged:molten_force", 1000).id("submerged:melting/force_ingot")
     
     //Solidifier
-    event.recipes.casting.solidifier("minecraft:gravel", "100x submerged:organic_water", "submerged:refined_gravel").id("submerged:solidifier/refined_gravel")
+    event.recipes.casting.solidifier("strainers:purified_'20x strainers:stone_pebble''64x strainers:stone_pebble''21x minecraft:cobblestone''3x strainers:copper_ore_piece''2x strainers:aluminum_ore_piece''3x strainers:coal_ore_piece''2x strainers:tin_ore_piece''19x strainers:copper_ore_piece''4x alltheores:aluminum_ore''3x strainers:copper_ore_piece''3x strainers:coal_ore_piece'gravel", "100x submerged:organic_water", "submerged:refined_gravel").id("submerged:solidifier/refined_gravel")
     event.recipes.casting.solidifier("#c:glass_panes/colorless", "500x industrialforegoing:pink_slime", "industrialforegoing:pink_slime").id("submerged:solidifier/pink_slime")
     event.recipes.casting.solidifier("#c:molds/ingot", "1000x pneumaticcraft:plastic", "pneumaticcraft:plastic").id("submerged:solidifier/plastic")
     event.recipes.casting.solidifier("#c:molds/dust", "250x submerged:molten_certus_quartz", "ae2:certus_quartz_dust").id("submerged:solidifier/certus_quartz_dust")
@@ -45,6 +45,12 @@ ServerEvents.recipes(event => {
 
     //Mixer
     event.recipes.casting.mixing("360x casting:molten_quartz_enriched_iron", ["270x casting:molten_iron", "250x casting:molten_quartz", "250x submerged:molten_certus_quartz"]).id("casting:mixer/molten_quartz_enriched_iron")
+
+    //Gear Mold
+    event.shaped('casting:gear_mold', [' A ', 'ABA', ' A '], {
+        A: 'casting:black_brick',
+        B: '#c:plastics'
+    }).id('submerged:gear_mold')
 
     //Multiblock Controller
     event.shaped('casting:multiblock_controller', [' A ', 'ABA', ' A '], {

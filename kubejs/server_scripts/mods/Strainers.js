@@ -49,9 +49,9 @@ ServerEvents.recipes(event => {
     strainerAuto('submerged:ancient_gravel', 'minecraft:water', 'strainers:debris_ore_piece', 0.2, 0.05, 7, 10);
 
     //Charged Sand -> Certus, Quartz
-    strainerAuto('submerged:charged_sand', 'minecraft:water', 'ae2:certus_quartz_dust', 0.35, 0.05, 6, 10);
-    strainerAuto('submerged:charged_sand', 'minecraft:water', 'mekanism:dust_quartz', 0.35, 0.05, 6, 10);
-    strainerAuto('submerged:charged_sand', 'minecraft:water', 'ae2:sky_dust', 0.05, 0.05, 6, 10);
+    strainerAuto('submerged:charged_gravel', 'minecraft:water', 'ae2:certus_quartz_dust', 0.35, 0.05, 6, 10);
+    strainerAuto('submerged:charged_gravel', 'minecraft:water', 'mekanism:dust_quartz', 0.35, 0.05, 6, 10);
+    strainerAuto('submerged:charged_gravel', 'minecraft:water', 'ae2:sky_dust', 0.05, 0.05, 6, 10);
 
     //Purified Soul Sand -> Nether Wart, Crimson Fungus, Warped Fungus
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:nether_wart', 0.2, 0.05, 6, 10);

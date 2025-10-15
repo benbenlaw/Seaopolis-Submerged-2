@@ -7,6 +7,12 @@ ServerEvents.recipes(event => {
     event.remove({id: 'forcecraft:force_ingot_from_gold'})
     event.remove({id: 'forcecraft:force_ingot_from_iron'})
 
+    //Withering Dust
+    addGrindingRecipe('minecraft:wither_skeleton_skull', 'enderio:withering_powder')
+
+    //Ghast Tear
+    addFreezingRecipe('enderio:withering_powder', 'minecraft:ghast_tear')
+
     //Force Sapling
     event.shapeless('forcecraft:force_sapling', ['#minecraft:saplings', 'naturesaura:gold_fiber']).id('forcecraft:force_sapling')
 
@@ -62,5 +68,6 @@ ServerEvents.recipes(event => {
             secondaryChance: 0.0
         }).id(`submerged:grinding/${input.split(':')[1]}_to_${output.split(':')[1]}`)
     }
+
 
 })

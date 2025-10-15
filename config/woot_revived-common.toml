@@ -1,0 +1,81 @@
+#Cell
+[cell]
+	#The tank capacity of the Copper Vitality Cell [Default: 10000]
+	copperCapacity = 10000
+	#The tank capacity of the Iron Vitality Cell [Default: 50000]
+	ironCapacity = 50000
+	#The tank capacity of the Gold Vitality Cell [Default: 100000]
+	goldCapacity = 100000
+	#The tank capacity of the Diamond Vitality Cell [Default: 500000]
+	diamondCapacity = 500000
+	#The tank capacity of the Netherite Vitality Cell [Default: 1000000]
+	netheriteCapacity = 1000000
+
+#Dye Liquifier
+[dye_liquifier]
+	#The energy capacity of the Dye Liquifier [Default: 10000]
+	energyCapacity = 10000
+	#The max energy in/out transfer rate of the Dye Liquifier [Default: 1000]
+	energyMaxTransfer = 1000
+	#The energy transfer rate of the Dye Liquifier [Default: 25]
+	energyProcessTransfer = 25
+	#The output tank capacity of the Dye Liquifier [Default: 10000]
+	outputTankCapacity = 10000
+	#The reference amount of color produce per dye [Default: 72]
+	colorProduceAmount = 72
+	#Amount of pure dye produced after conversion conditions are met [Default: 288]
+	pureDyeProduceAmount = 288
+	#The internal red tank capacity of the Dye Liquifier [Default: 7200]
+	redTankCapacity = 7200
+	#The internal yellow tank capacity of the Dye Liquifier [Default: 7200]
+	yellowTankCapacity = 7200
+	#The internal blue tank capacity of the Dye Liquifier [Default: 7200]
+	blueTankCapacity = 7200
+	#The internal white tank capacity of the Dye Liquifier [Default: 7200]
+	whiteTankCapacity = 7200
+
+#Enchanted Liquifier
+[enchanted_liquifier]
+	#The energy capacity of the Enchanted Liquifier [Default: 50000]
+	energyCapacity = 50000
+	#The max energy in/out transfer rate of the Enchanted Liquifier [Default: 1000]
+	energyMaxTransfer = 1000
+	#The energy transfer rate of the Enchanted Liquifier [Default: 100]
+	energyProcessTransfer = 100
+	#The output tank capacity of the Enchanted Liquifier [Default: 25000]
+	outputTankCapacity = 25000
+	#The enchanted fluid produced per enchant level [Default: 1000]
+	perEnchantFluid = 1000
+	#The energy used per enchant level [Default: 4000]
+	perEnchantEnergy = 4000
+	#The max level of enchantment that can be converted [Default: 10]
+	maxEnchantLevel = 10
+
+#Fluid Infuser
+[fluid_infuser]
+	#The energy capacity of the Fluid Infuser [Default: 10000]
+	energyCapacity = 10000
+	#The max energy in/out transfer rate of the Fluid Infuser [Default: 1000]
+	energyMaxTransfer = 1000
+	#The energy transfer rate of the Fluid Infuser [Default: 50]
+	energyProcessTransfer = 50
+	#The input tank capacity of the Fluid Infuser [Default: 10000]
+	inputTankCapacity = 10000
+	#The output tank capacity of the Fluid Infuser [Default: 10000]
+	outputTankCapacity = 10000
+
+#Item Infuser
+[item_infuser]
+	#The energy capacity of the Item Infuser [Default: 10000]
+	energyCapacity = 10000
+	#The max energy in/out transfer rate of the Item Infuser [Default: 1000]
+	energyMaxTransfer = 1000
+	#The energy transfer rate of the Item Infuser [Default: 50]
+	energyProcessTransfer = 50
+	#The input tank capacity of the Item Infuser [Default: 10000]
+	inputTankCapacity = 10000
+
+#Guide
+[guide]
+	#Should give the woot guide book on player first connection [Default: true]
+	shouldGiveOnSpawn = true

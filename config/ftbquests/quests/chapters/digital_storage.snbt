@@ -26,7 +26,7 @@
 			id: "40E95BE654D1C3CA"
 			tasks: [{
 				id: "407C325D3DE02BB9"
-				item: { count: 1, id: "submerged:charged_sand" }
+				item: { count: 1, id: "submerged:charged_gravel" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -160,19 +160,22 @@
 				id: "4187CE2710651B5E"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -2.5d
 			y: 6.5d
 		}
 		{
-			dependencies: ["7CC8AA74377F80E5"]
+			dependencies: [
+				"7CC8AA74377F80E5"
+				"2EF5C929A8D42C3B"
+			]
 			id: "640DD34C04DCC7BD"
 			tasks: [{
 				id: "2BD950D7BB4DE806"
 				item: { count: 1, id: "ae2:condenser" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["40E95BE654D1C3CA"]
@@ -215,8 +218,8 @@
 				item: { count: 1, id: "submerged:ultimate_storage_component" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["118B3A02993C9272"]
@@ -226,8 +229,8 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["640DD34C04DCC7BD"]
@@ -237,8 +240,8 @@
 				item: { count: 1, id: "ae2:matter_ball" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: -1.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["640DD34C04DCC7BD"]
@@ -248,8 +251,66 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 11.0d
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["13CF44178FF0BA62"]
+			id: "0065973DDCBE9AEB"
+			optional: true
+			tasks: [{
+				id: "5AC93F9E8151A1D6"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74C2DEC788DB58F4"]
+			id: "5DCAD7240C6D683E"
+			tasks: [{
+				id: "379644D6E5AAAEF1"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["13CF44178FF0BA62"]
+			id: "26ACB544DBFECA7C"
+			optional: true
+			tasks: [{
+				id: "5BF08ABD8663B248"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5DCAD7240C6D683E"]
+			id: "2EF5C929A8D42C3B"
+			tasks: [{
+				id: "14AB16F7EA1DF778"
+				item: { count: 1, id: "ae2:fluix_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1AA8B7DC2F4CFECC"]
+			hide_dependency_lines: true
+			id: "74C2DEC788DB58F4"
+			tasks: [{
+				id: "301E471A5DFBE113"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 }

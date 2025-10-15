@@ -3,7 +3,7 @@
 ServerEvents.recipes(event => {
 
     //Replace Input
-    event.replaceInput({id: 'industrialforegoing:machine_frame_pity'}, '#minecraft:logs', 'naturesaura:ancient_log')
+    event.replaceInput({id: 'industrialforegoing:machine_frame_pity'}, '#minecraft:logs', '#submerged:pity_frame_logs')
     event.replaceInput({id: 'industrialforegoing:machine_frame_pity'}, 'minecraft:redstone_block', 'submerged:infused_alloy')
     event.replaceInput({id: 'industrialforegoing:ore_laser_base'}, 'industrialforegoing:machine_frame_advanced', 'industrialforegoing:machine_frame_simple')
     event.replaceInput({id: 'industrialforegoing:mob_duplicator'}, 'industrialforegoing:machine_frame_advanced', 'industrialforegoing:machine_frame_supreme')
@@ -27,6 +27,17 @@ ServerEvents.recipes(event => {
     //Fluid Extractor Recipes
     //In data/submerged/recipe/industrialforgoing/fluid_extractor/
 
+    //Blank Spawn Egg
+    addDissolutionRecipe([
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson(),
+        Ingredient.of('minecraft:egg').toJson()
+    ], 'industrialforegoing:ether_gas', 500, 'submerged:blank_spawn_egg', 300)
 
     //Advanced Machine Frame
     addDissolutionRecipe([

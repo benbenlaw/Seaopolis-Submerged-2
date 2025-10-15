@@ -602,8 +602,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1B26295FDDCB4FA2"
-				item: { count: 1, id: "connectedglass:borderless_glass" }
+				id: "0112BEC3498AAFED"
+				item: { count: 1, id: "connectedglass:clear_glass" }
 				type: "item"
 			}]
 			x: 2.0d

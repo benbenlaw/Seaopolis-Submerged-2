@@ -1,0 +1,16 @@
+{
+  "type": "forcecraft:infuser",
+  "center": {
+    "item": "forcecraft:upgrade_core"
+  },
+  "ingredient": {
+    "item": "minecraft:wither_skull"
+  },
+  "output": {
+    "count": 1,
+    "id": "forcecraft:heat_core"
+  },
+  "resultType": "item",
+  "tier": "4",
+  "time": 60
+}

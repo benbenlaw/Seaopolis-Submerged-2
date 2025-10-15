@@ -338,7 +338,9 @@
 								0.0d
 							]
 							NeoForgeData: {
-								"naturesaura:time_alive": 40
+								droptimer: 0.0d
+								"naturesaura:time_alive": 160
+								"warp_pipes:prevent_warp": 0b
 							}
 							OnGround: 1b
 							PersistenceRequired: 0b

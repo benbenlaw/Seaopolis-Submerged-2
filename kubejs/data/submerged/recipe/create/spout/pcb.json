@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:empty_pcb"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "pneumaticcraft:etching_acid"
+    }
+  ],
+  "results": [
+    {
+      "id": "pneumaticcraft:unassembled_pcb"
+    }
+  ]
+}

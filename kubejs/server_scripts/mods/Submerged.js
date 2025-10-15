@@ -26,19 +26,14 @@ ServerEvents.recipes(event => {
     }).id('submerged:wooden_key')
 
     //Porcelain Clay
-    event.shapeless('2x submerged:porcelain_clay', ['minecraft:clay_ball', 'minecraft:bone_meal']).id('submerged:porcelain_clay')
+    event.shapeless('3x submerged:porcelain_clay', ['minecraft:clay_ball', 'minecraft:clay_ball',  'minecraft:bone_meal']).id('submerged:porcelain_clay')
 
     //Nether Brick Sphere
-    event.shaped('submerged:nether_brick_sphere', [' A ', 'ABA', ' A '], {
+    event.shaped('submerged:nether_brick_sphere', ['CAC', 'ABA', 'CAC'], {
         A: 'minecraft:nether_bricks',
+        C: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]',
         B: 'submerged:netherite_key'
     }).id('submerged:nether_brick_sphere')
-
-    //Nether Brick Lock
-    event.shaped('submerged:nether_brick_lock', [' A ', 'ABA', ' A '], {
-        A: 'minecraft:nether_brick',
-        B: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
-    }).id('submerged:nether_brick_lock')
 
     //Nether Portal Sphere
     event.shaped('submerged:nether_portal_sphere', [' A ', 'ABA', ' A '], {
@@ -54,8 +49,8 @@ ServerEvents.recipes(event => {
     }).id('submerged:ancient_lens')
 
     //Matter Gravel
-    event.shaped('4x submerged:matter_gravel', ['AAA', 'ABA', 'AAA'], {
-        A: 'minecraft:gravel',
+    event.shaped('8x submerged:matter_gravel', ['AAA', 'ABA', 'AAA'], {
+        A: 'submerged:charged_gravel',
         B: 'ae2:matter_ball'
     }).id('submerged:matter_gravel')
 
@@ -171,5 +166,11 @@ ServerEvents.recipes(event => {
         A: 'pneumaticcraft:reinforced_bricks',
         B: 'submerged:copper_key'
     }).id('submerged:5x5_pressure_chamber')
+
+    //Overworld Altar Key
+    event.shaped(`submerged:overworld_altar`, [' A ', 'ABA', ' A '], {
+        A: 'naturesaura:ancient_log',
+        B: 'submerged:stone_key'
+    }).id('submerged:overworld_altar')
 
 })

@@ -2,6 +2,12 @@
 
 ServerEvents.recipes(event => {
 
+    //Grass Block
+    event.recipes.inworldrecipes.block_interaction(
+        "right", "minecraft:dirt", "minecraft:bone_meal",
+        false, true, false, true).outputBlockState("minecraft:grass_block")
+    .id("submerged:grass_block")
+
     //Log Sheets
     event.recipes.inworldrecipes.block_interaction(
         "left", "#minecraft:logs", "totemic:totem_whittling_knife",
