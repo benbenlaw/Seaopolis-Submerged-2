@@ -5,9 +5,6 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
-    //Living Mob Matter
-    event.shapeless('2x submerged:living_mob_matter', ['5x #submerged:valid_living_mob_matter']).id('submerged:living_mob_matter')
-
     //Catalog Flares
     event.shaped('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:paper',
@@ -53,38 +50,6 @@ ServerEvents.recipes(event => {
         A: 'submerged:charged_gravel',
         B: 'ae2:matter_ball'
     }).id('submerged:matter_gravel')
-
-    //Basic Storage Component
-    event.shaped('submerged:basic_storage_component', ['ADA', 'BCB', 'ABA'], {
-        A: '#c:silicon',
-        B: '#c:glass_blocks',
-        C: 'ae2:logic_processor',
-        D: 'refinedstorage:quartz_enriched_iron'
-    }).id('submerged:basic_storage_component')
-
-    //Advanced Storage Component
-    event.shaped('submerged:advanced_storage_component', ['ADA', 'BCB', 'ABA'], {
-        A: 'minecraft:redstone',
-        B: 'submerged:basic_storage_component',
-        C: 'ae2:logic_processor',
-        D: 'refinedstorage:quartz_enriched_iron'
-    }).id('submerged:advanced_storage_component')
-
-    //Elite Storage Component
-    event.shaped('submerged:elite_storage_component', ['ADA', 'BCB', 'ABA'], {
-        A: 'minecraft:glowstone_dust',
-        B: 'submerged:advanced_storage_component',
-        C: 'ae2:logic_processor',
-        D: 'refinedstorage:quartz_enriched_iron'
-    }).id('submerged:elite_storage_component')
-
-    //Ultimate Storage Component
-    event.shaped('submerged:ultimate_storage_component', ['ADA', 'BCB', 'ABA'], {
-        A: 'submerged:infused_alloy',
-        B: 'submerged:elite_storage_component',
-        C: 'ae2:logic_processor',
-        D: 'refinedstorage:quartz_enriched_iron'
-    }).id('submerged:ultimate_storage_component')
 
     //Mass Color Crafting
     colors.forEach(color => {

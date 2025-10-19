@@ -57,9 +57,17 @@
 		{
 			dependencies: ["5483722820D7B629"]
 			id: "0ED7FDC5610FE8F9"
+			rewards: [{
+				id: "21AFC179EA3F73E4"
+				item: {
+					count: 1
+					id: "ae2:cell_component_1k"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "76FEE39A69A5DE65"
-				item: { count: 1, id: "submerged:basic_storage_component" }
+				id: "5A0B5E32259D9100"
+				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -165,8 +173,8 @@
 		}
 		{
 			dependencies: [
-				"7CC8AA74377F80E5"
 				"2EF5C929A8D42C3B"
+				"0AC872B23F3FEF2D"
 			]
 			id: "640DD34C04DCC7BD"
 			tasks: [{
@@ -174,8 +182,8 @@
 				item: { count: 1, id: "ae2:condenser" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.5d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["40E95BE654D1C3CA"]
@@ -191,45 +199,50 @@
 		{
 			dependencies: ["0ED7FDC5610FE8F9"]
 			id: "4520302A6DF7F2B5"
-			tasks: [{
-				id: "396DFAA369C01C42"
-				item: { count: 1, id: "submerged:advanced_storage_component" }
+			rewards: [{
+				id: "1DB63BA9CE96015B"
+				item: {
+					count: 1
+					id: "ae2:cell_component_4k"
+				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			tasks: [{
+				id: "1323BFFDB203191C"
+				item: { count: 1, id: "ae2:cell_component_4k" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4520302A6DF7F2B5"]
 			id: "0AC872B23F3FEF2D"
-			tasks: [{
-				id: "48A3A290F57CE4C9"
-				item: { count: 1, id: "submerged:elite_storage_component" }
+			rewards: [{
+				id: "0C4CD803D6ED9EC0"
+				item: {
+					count: 1
+					id: "ae2:cell_component_16k"
+				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.5d
+			tasks: [{
+				id: "48A3A290F57CE4C9"
+				item: { count: 1, id: "ae2:cell_component_16k" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0AC872B23F3FEF2D"]
 			id: "118B3A02993C9272"
 			tasks: [{
-				id: "31D3E6B679BCF80B"
-				item: { count: 1, id: "submerged:ultimate_storage_component" }
+				id: "2E084AD0E85A7066"
+				item: { count: 1, id: "ae2:cell_component_64k" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["118B3A02993C9272"]
-			id: "7CC8AA74377F80E5"
-			tasks: [{
-				id: "6B20941EB8AB66B4"
-				item: { count: 1, id: "ae2:cell_component_256k" }
-				type: "item"
-			}]
-			x: -1.0d
+			x: 0.5d
 			y: 9.5d
 		}
 		{
@@ -240,8 +253,8 @@
 				item: { count: 1, id: "ae2:matter_ball" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.5d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["640DD34C04DCC7BD"]
@@ -251,8 +264,8 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.5d
+			x: -0.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["13CF44178FF0BA62"]
@@ -263,8 +276,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.5d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["74C2DEC788DB58F4"]
@@ -274,8 +287,8 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["13CF44178FF0BA62"]
@@ -286,7 +299,7 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 7.5d
 		}
 		{
@@ -297,20 +310,30 @@
 				item: { count: 1, id: "ae2:fluix_dust" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["1AA8B7DC2F4CFECC"]
-			hide_dependency_lines: true
+			dependencies: ["0ED7FDC5610FE8F9"]
 			id: "74C2DEC788DB58F4"
 			tasks: [{
 				id: "301E471A5DFBE113"
 				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["118B3A02993C9272"]
+			id: "55BED80ACBF62499"
+			tasks: [{
+				id: "266EFECB8586D116"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
 		}
 	]
 }

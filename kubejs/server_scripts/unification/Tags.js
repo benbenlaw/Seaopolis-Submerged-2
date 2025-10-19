@@ -35,6 +35,8 @@ ServerEvents.tags("item", event => {
     //Coral
     event.get("submerged:coral_blocks").add(['minecraft:tube_coral_block', 'minecraft:brain_coral_block', 'minecraft:bubble_coral_block', 'minecraft:fire_coral_block', 'minecraft:horn_coral_block'])
 
+    //Diving Gear
+    event.get('submerged:diving_gear').add(['minecraft:turtle_helmet', 'aq:turtle_master_helmet', 'aq:turtle_master_chestplate', 'aq:turtle_master_leggings', 'aq:turtle_master_boots', 'aq:turtle_chestplate', 'aq:turtle_leggings', 'aq:turtle_boots'])
 
 })
 

@@ -127,8 +127,8 @@
 			dependencies: ["3C05BA3D71469DDD"]
 			id: "4E2A33A420B45C7D"
 			tasks: [{
-				id: "25A9995E072546F0"
-				item: { count: 1, id: "refinedstorage:silicon" }
+				id: "66ED350803FAAB2F"
+				item: { count: 1, id: "ae2:silicon" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -234,6 +234,7 @@
 				"50F353C6D15C0062"
 				"0C2AABFFD28944AA"
 			]
+			dependency_requirement: "one_completed"
 			id: "433D889DEFC9E899"
 			tasks: [{
 				id: "5F4539D7FB283BB6"

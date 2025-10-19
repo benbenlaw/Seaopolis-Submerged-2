@@ -48,11 +48,6 @@ ServerEvents.recipes(event => {
     //Ancient Gravel -> Ancient Debris
     strainerAuto('submerged:ancient_gravel', 'minecraft:water', 'strainers:debris_ore_piece', 0.2, 0.05, 7, 10);
 
-    //Charged Sand -> Certus, Quartz
-    strainerAuto('submerged:charged_gravel', 'minecraft:water', 'ae2:certus_quartz_dust', 0.35, 0.05, 6, 10);
-    strainerAuto('submerged:charged_gravel', 'minecraft:water', 'mekanism:dust_quartz', 0.35, 0.05, 6, 10);
-    strainerAuto('submerged:charged_gravel', 'minecraft:water', 'ae2:sky_dust', 0.05, 0.05, 6, 10);
-
     //Purified Soul Sand -> Nether Wart, Crimson Fungus, Warped Fungus
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:nether_wart', 0.2, 0.05, 6, 10);
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:crimson_fungus', 0.2, 0.05, 6, 10);
@@ -77,7 +72,12 @@ ServerEvents.recipes(event => {
         amethyst: ['minecraft:water', 'minecraft:amethyst_shard', 0.15, 0.05, 4, 10],
         scute: ['minecraft:water', 'minecraft:turtle_scute', 0.15, 0.05, 6, 10],
         gold: ['minecraft:water', 'strainers:gold_ore_piece', 0.2, 0.05, 6, 10],
-        blaze: ['minecraft:water', 'minecraft:blaze_powder', 0.1, 0.05, 6, 10]
+        blaze: ['minecraft:water', 'minecraft:blaze_powder', 0.1, 0.05, 6, 10],
+        certrusDust: ['minecraft:water', 'ae2:certus_quartz_dust', 0.2, 0.05, 6, 10],
+        quartzDust: ['minecraft:water', 'mekanism:dust_quartz', 0.2, 0.05, 6, 10],
+        skyDust: ['minecraft:water', 'ae2:sky_dust', 0.05, 0.05, 6, 10],
+        diamond: ['minecraft:water', 'strainers:diamond_ore_piece', 0.05, 0.05, 6, 10],
+        emerald: ['minecraft:water', 'strainers:emerald_ore_piece', 0.05, 0.05, 6, 10]
     
     }
 
@@ -127,6 +127,30 @@ ServerEvents.recipes(event => {
         gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
         gravelDrops.gold, gravelDrops.blaze
     ]);
+
+    //Charged Gravel -> Certus Dust, Quartz Dust, Sky Dust
+    addStrainerGravelDrop('submerged:charged_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust
+    ]);
+
+    //Matter Gravel -> Diamond, Emerald
+    addStrainerGravelDrop('submerged:matter_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
+        gravelDrops.diamond, gravelDrops.emerald
+    ]);
+
 
     //Tiered Gravel Recipes
     function addStrainerGravelDrop(input, outputs) {

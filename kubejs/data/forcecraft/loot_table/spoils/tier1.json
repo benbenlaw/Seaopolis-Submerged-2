@@ -63,13 +63,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 11.0,
                 "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli",
+          "name": "forcecraft:claw",
           "weight": 15
         },
         {
@@ -85,7 +85,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "forcecraft:claw",
+          "name": "minecraft:spider_eye",
           "weight": 15
         },
         {
@@ -97,6 +97,22 @@
           "type": "minecraft:item",
           "name": "minecraft:cake",
           "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shops:copper_coin",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shops:iron_coin",
+          "weight": 6
+
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shops:gold_coin",
+          "weight": 1
         }
       ],
       "name": "Force Loot",

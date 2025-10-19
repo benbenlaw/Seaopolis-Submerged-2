@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "submerged:block/pressure_chamber_controller_front",
+    "side": "submerged:block/pressure_chamber_controller_side",
+    "top": "submerged:block/pressure_chamber_controller_side"
+  }
+}

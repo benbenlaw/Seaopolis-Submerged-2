@@ -12,3 +12,5 @@
 	# Default: 600
 	# Range: > 20
 	"Time In Ticks That Multiblock Controller Does A Structure Check" = 600
+	#The fluid used for experience, default = casting:molten_experience
+	"Experience Fluid" = "mob_grinding_utils:fluid_xp"

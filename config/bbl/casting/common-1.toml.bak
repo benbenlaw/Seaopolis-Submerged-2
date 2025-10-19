@@ -8,3 +8,7 @@
 	# Default: 1000000
 	# Range: 1 ~ 512
 	"Max Multiblock Controller Held Items" = 512
+	#The time in ticks that the multiblock controller does a structure check, Multiblock validation is done when blocks are placed near the mutliblock, this check is just to confirm that the blocks are still present, default = 600 (30 seconds)
+	# Default: 600
+	# Range: > 20
+	"Time In Ticks That Multiblock Controller Does A Structure Check" = 600

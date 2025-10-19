@@ -4,3 +4,7 @@
 	"Ore Multiplier" = 1.5
 	#The amount of experience given when melting a valid ore in the casting:melting_produces_experience tag, default = 25
 	"Experience Given When Melting A Valid Ore" = 25
+	#The total mb that can be stores in multiblock controller, default = 1000000
+	# Default: 1000000
+	# Range: 1 ~ 512
+	"Max Multiblock Controller Held Items" = 512

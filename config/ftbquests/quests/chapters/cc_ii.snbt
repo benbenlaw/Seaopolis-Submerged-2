@@ -182,7 +182,7 @@
 				consume_items: true
 				count: 128L
 				id: "5AAA2BBD6946D3E7"
-				item: { count: 1, id: "submerged:living_mob_matter" }
+				item: { components: { "ftbquests:missing_item": "submerged:living_mob_matter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d

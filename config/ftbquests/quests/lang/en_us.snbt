@@ -268,7 +268,6 @@
 	quest.368192A5697843F8.quest_desc: ["The best &lCapacitor&r"]
 	quest.374B2CA1A1A76F3B.quest_desc: ["Can be used instead of manually starting the &lInfusion of the Totem&r cermony"]
 	quest.385909B22B2D74E3.quest_desc: ["Crafting &l4 Glass Blocks&r together make the &lConnected Glass Blocks&r"]
-	quest.3900787DA4EE4805.quest_desc: ["A mix of mobs"]
 	quest.393353FC9EF4DFF4.quest_desc: ["The &lCatalog: Catalog&r will show all the &lCatalogs&r that you can buy"]
 	quest.393353FC9EF4DFF4.title: "Catalog: Catalog"
 	quest.39A993D1CDEE8B15.quest_desc: ["The Base of &lCreate&r"]
@@ -385,6 +384,7 @@
 	quest.4E2514A252EDF3E9.quest_desc: ["Smelted &lKelp&r"]
 	quest.4E2A33A420B45C7D.quest_desc: ["Made inside the &lMaterial StoneWork Factory&r"]
 	quest.4E2DC38E6F273353.quest_desc: ["The &lFluid Extractor&r can be used extract &lMolten Diamond&r from &lDiamond Ore&r"]
+	quest.4E9EABDE303A6760.quest_desc: ["The air above the &lWater&r level is &lTOXIC&r. Going above the &lWater&r level is very dangerous"]
 	quest.4EEA6E416ABFE440.quest_desc: ["Used with &lPipez&r pipes"]
 	quest.4EF14097D2724EF3.quest_desc: ["Used to create belts"]
 	quest.4FA0936665F1096F.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -538,6 +538,7 @@
 	quest.687DB89CA4CEB04E.title: "Paper"
 	quest.68967A6429DEB55A.quest_desc: ["The &lAncient Lens&r can be used to get &lAncient Gravel&r from teh &lOre Laser Base&r"]
 	quest.68E7E19B6DB6E0AF.quest_desc: ["Its a sapling rich in &lThe Force&r"]
+	quest.6937CBC4E6BAE6FD.quest_desc: ["The &lWater&r is &lTOXIC&r is will kill you. &lRain&r will also damage you as well"]
 	quest.69A723B282099835.quest_desc: ["Obtained from killing &lThe Wither&r"]
 	quest.6A4265C9F724EEAE.quest_desc: ["The base for &lSolar Energy&r"]
 	quest.6A701407E8948349.quest_desc: ["Can smelt and can accept upgrades"]
@@ -624,7 +625,6 @@
 	quest.7BCF5A38B322D62D.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.7C4A2CEF96F49D3A.quest_desc: ["&lLiving Gravel&r with &oNether Wart&r and &lLava&r will create &lNether Gravel&r with &lCreate&r or &lPneumatic Craft&r"]
 	quest.7C7D8663CE541B54.quest_desc: ["A very simple &lMachine Frame&r used for very basic machines"]
-	quest.7CC8AA74377F80E5.quest_desc: ["Better than all the rest!"]
 	quest.7CF98BC3AC368244.quest_desc: ["Ore can be &lSmelted&r or &lBroken&r"]
 	quest.7CF98BC3AC368244.title: "Aluminum"
 	quest.7D1CB1B9DF4B4313.quest_desc: ["Almost there"]
@@ -672,6 +672,7 @@
 	task.10C7BAF3015071AA.title: "Any #submerged:colored_crafting_tables"
 	task.1214BA696CADD77E.title: "Any #minecraft:leaves"
 	task.138872C7733EB8E2.title: "Chapter Challenges"
+	task.14093A3069C01F2E.title: "Toxic Air"
 	task.141AA1B900F36D13.title: "Any #submerged:terracotta_rocks"
 	task.15EA66544BCD744F.title: "Chapter II"
 	task.16149135D3D60984.title: "Welcome To Submerged 2"
@@ -734,6 +735,7 @@
 	task.612BC77FF4F7B38E.title: "Public Server"
 	task.6344C1D56B51B602.title: "Fish Breeding Upgrade"
 	task.634515A8215441D5.title: "Gold?"
+	task.6355E76BCE6AA0BB.title: "Toxic Water"
 	task.6374588E7CDABF98.title: "ForceCraft?"
 	task.63D5F662C8764B29.title: "Salt Water"
 	task.659718B44F381FCB.title: "Useful Tuips"

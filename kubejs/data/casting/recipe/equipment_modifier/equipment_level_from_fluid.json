@@ -1,0 +1,8 @@
+{
+  "type": "casting:equipment_modifier",
+  "effect": "equipment_level",
+  "upgrade_fluid": {
+    "amount": 8000,
+    "id": "mob_grinding_utils:fluid_xp"
+  }
+}

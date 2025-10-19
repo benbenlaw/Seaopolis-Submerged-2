@@ -1,9 +1,13 @@
 //Changelog
 
+//DO NOT UPDATE KUBEJS or COMPAT until ALL kubejs addon are updated, pending KubeJE EnderIO and Natures Arua
+
 Compat, leaves should produce 2 sapling colors, clochee
-Submerged, toxic water, toxic air, toxic rain
 Submerged, remove all ores
-Submerged, change glass to clear glass 
 Submerged, wooden gear for casting gear mold 
 Ceramic Bucket, saving reosurce fish data when empty, reported fix in works
 UPDATE ROOMOPOLIS, add maxHeight to Big Sphere keys to only allow placing below a sphere 104
+
+A2.0
+- Updated Mods
+- Updated Yuki Textures

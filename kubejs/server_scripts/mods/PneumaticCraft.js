@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
 
     //Living Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["submerged:assembled_gravel", "submerged:living_mob_matter", 'mob_grinding_utils:fluid_xp_bucket'],
+        ["submerged:assembled_gravel", "opolisutilities:ender_pearl_fragment", 'mob_grinding_utils:fluid_xp_bucket'],
         2.0,
         ["submerged:living_gravel", 'minecraft:bucket']
     ).id('submerged:pneumaticcraft/living_gravel')

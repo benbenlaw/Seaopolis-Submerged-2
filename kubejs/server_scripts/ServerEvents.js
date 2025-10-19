@@ -111,11 +111,22 @@ BlockEvents.rightClicked(event => {
         event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y - 1} ${z} nautec:prismarine_crystal_part[index=3]`)
         event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y - 2} ${z} nautec:prismarine_crystal_part[index=4]`)
         event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y - 3} ${z} nautec:prismarine_crystal_part[index=5]`)
-//
-        
-
 
     }
+})
 
+// World Events
+PlayerEvents.tick(event => {
 
+    let player = event.player
+
+    if (player.getFeetArmorItem().hasTag('submerged:diving_gear') && player.getChestArmorItem().hasTag('submerged:diving_gear') && player.getHeadArmorItem().hasTag('submerged:diving_gear') && player.getLegsArmorItem().hasTag('submerged:diving_gear')) {
+        if (player.y > 149) {
+            player.attack(4)
+        } else {
+            return
+        }
+    } else if (player.isInWater() || player.isInRain() || player.isInBubbleColumn() || player.y > 149) {
+        player.attack(4)
+    }
 })

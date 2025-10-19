@@ -11,8 +11,58 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ae2:inscriber/logic_processor_print'})
     event.remove({id: 'ae2:inscriber/silicon_print'})
 
+    //Matter Condenser
+    event.shaped('ae2:condenser', ['AAA', 'BCB', 'AAA'], {
+        A: 'minecraft:iron_ingot',
+        B: 'ae2:fluix_dust',
+        C: 'ae2:cell_component_16k'
+    }).id('ae2:network/blocks/io_condenser')
+
+    //Basic Storage Component
+    event.shaped('ae2:cell_component_1k', ['ADA', 'BCB', 'ABA'], {
+        A: '#c:silicon',
+        B: '#c:glass_blocks',
+        C: 'submerged:logic_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('ae2:cell_component_1k')
+
+    //Advanced Storage Component
+    event.shaped('ae2:cell_component_4k', ['ADA', 'BCB', 'ABA'], {
+        A: 'minecraft:redstone',
+        B: 'ae2:cell_component_1k',
+        C: 'submerged:logic_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('ae2:cell_component_4k')
+
+    //Elite Storage Component
+    event.shaped('ae2:cell_component_16k', ['ADA', 'BCB', 'ABA'], {
+        A: 'minecraft:glowstone_dust',
+        B: 'ae2:cell_component_4k',
+        C: 'submerged:engineering_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('ae2:cell_component_16k')
+
+    //Ultimate Storage Component
+    event.shaped('ae2:cell_component_64k', ['ADA', 'BCB', 'ABA'], {
+        A: 'submerged:infused_alloy',
+        B: 'ae2:cell_component_16k',
+        C: 'submerged:engineering_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('ae2:cell_component_64k')
+
+    //Best
+    event.shaped('ae2:cell_component_256k', ['ADA', 'BCB', 'ABA'], {
+        A: 'submerged:infused_alloy',
+        B: 'ae2:cell_component_64k',
+        C: 'submerged:calculation_processor',
+        D: 'refinedstorage:quartz_enriched_iron'
+    }).id('ae2:cell_component_256k')
+
     //Photovoltaic Plate
-    addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/iron', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
+    addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/iron', 'enderio:photovoltaic_composite', '2x enderio:photovoltaic_plate')
+    addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/aluminum', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
+    addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/zinc', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
+    addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/tin', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
 
     //Basic Capacitor
     addInscriberRecipe('#c:ingots/aluminum', 'pneumaticcraft:capacitor', 'minecraft:copper_ingot', 'enderio:basic_capacitor')
@@ -52,7 +102,7 @@ ServerEvents.recipes(event => {
             },
             mode: 'press',
             result: Item.of(result).toJson()
-        }).id(`ae2:inscriber/${result.split(':')[1]}`)
+        }).id(`ae2:inscriber/${result.split(':')[1]}_from_${bottom.split(':')[1]}_${middle.split(':')[1]}_${top.split(':')[1]}`)
     }
 
     //Inscriber Function

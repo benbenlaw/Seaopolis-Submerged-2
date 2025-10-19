@@ -27,13 +27,7 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:porcelain_clay')
     event.create('submerged:wooden_key')
     event.create('submerged:corrupted_prismarine_crystal')
-    event.create('submerged:living_mob_matter')
-
-    event.create('submerged:basic_storage_component').tag('submerged:basic_storage_components').texture('ae2:item/cell_component_1k')
-    event.create('submerged:advanced_storage_component').tag('submerged:advanced_storage_components').texture('ae2:item/cell_component_4k')
-    event.create('submerged:elite_storage_component').tag('submerged:elite_storage_components').texture('ae2:item/cell_component_16k')
-    event.create('submerged:ultimate_storage_component').tag('submerged:ultimate_storage_components').texture('ae2:item/cell_component_64k')
-
+    
     event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')
     event.create('submerged:calculation_processor').tag('submerged:calculation_processors').texture('ae2:item/calculation_processor')
     event.create('submerged:engineering_processor').tag('submerged:engineering_processors').texture('ae2:item/engineering_processor')

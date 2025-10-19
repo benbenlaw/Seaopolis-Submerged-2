@@ -1,6 +1,7 @@
 {
   "mod_priorities": [
     "submerged",
+    "ae2",
     "minecraft",
     "alltheores",
     "casting",
