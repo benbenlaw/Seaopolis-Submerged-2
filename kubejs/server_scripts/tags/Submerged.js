@@ -31,7 +31,6 @@ ServerEvents.tags('item', event => {
 
     //Pity Frame Logs
     event.get('submerged:pity_frame_logs').add(['naturesaura:ancient_log', 'naturesaura:ancient_bark', 'forcecraft:force_log'])
-
 })
 
 ServerEvents.tags('block', event => {
@@ -43,5 +42,5 @@ ServerEvents.tags('block', event => {
     event.get('roomopolis:not_needed_for_block_requirements').add(['naturesaura:nature_altar'])
 
     //Nether Portal Frame
-    event.get('bblcore:nether_portal_frame').remove('minecraf:obsidian')
+    event.get('bblcore:nether_portal_frame').remove('minecraft:obsidian')
 })

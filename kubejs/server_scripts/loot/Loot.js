@@ -19,4 +19,6 @@ LootJS.modifiers(event => {
     event.addEntityModifier('minecraft:drowned').removeLoot('minecraft:copper_ingot')
     event.addEntityModifier('minecraft:zombie').removeLoot('minecraft:iron_ingot')
 
+    event.addEntityModifier('minecraft:cow').addLoot('minecraft:leather')
+
 })

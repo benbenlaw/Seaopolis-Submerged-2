@@ -19,6 +19,7 @@
 	chapter_group.11C31E5788D38E0E.title: "MISC"
 	chapter_group.1DC99ACF42B51C2F.title: "Automation"
 	chapter_group.4612AF3A2F3FA9D5.title: "Submerged"
+	chapter_group.621AB11E96FBBC5F.title: "Souls"
 	chapter_group.64828B4E59DB0E48.title: "Expansion"
 	quest.003A9F65BD795592.quest_desc: ["Obtained through straining"]
 	quest.003EE194E3894230.quest_desc: ["Obtained through the &lRitural of the Forest&r"]
@@ -93,7 +94,7 @@
 	quest.0C2AABFFD28944AA.title: "Etching Acid"
 	quest.0C36C386F76E0565.quest_desc: ["Drops from &lSpiders&r"]
 	quest.0CA15E5798C79997.quest_desc: ["Made inside the &lStrainer&r"]
-	quest.0CE12BF1524E0C75.quest_desc: ["Can be used to turn orgnaic materials into &lBone Meal&r"]
+	quest.0CE12BF1524E0C75.quest_desc: ["Can be used to turn organic materials into &lBone Meal&r"]
 	quest.0D7A91E84A6CE9CD.quest_desc: [
 		"A very basic ritual, the guide book will provide additional information"
 		"{image:submerged:textures/quests/natures_aura.png width:120 height:100 align:center}"
@@ -144,6 +145,7 @@
 	quest.16D9C95B76D8ED2D.quest_desc: ["Made inside the &lMatter Condenser&r"]
 	quest.170A4247974C1FAB.quest_desc: ["&lPlanks&r from &lLogs&r again...."]
 	quest.1731145B318CB588.quest_desc: ["Made inside the &lPressure Chamber&r or &lCreate Mixing&r"]
+	quest.177486449790C2F3.quest_desc: ["Allows the &lSolidifier&r to make &lGears&r, A &lWooden Gear&r can be used to make this"]
 	quest.179A1677750174F3.quest_desc: ["A full suit of &lTutle Armor&r protects you from the sea"]
 	quest.17C92075AF3E7685.quest_desc: ["Processed Ore"]
 	quest.17DB22880BE2B921.quest_desc: [
@@ -182,7 +184,7 @@
 	quest.1F1ED8B72044189C.quest_desc: [
 		"The &lInfusion of the Totem&r ceremoney is used to covert blocks in a certain range into others"
 		""
-		"It can be used to turn &lGravel&r into &lTotemic Infused Gravel&r"
+		"It can be used to turn &lRefined Gravel&r into &lTotemic Infused Gravel&r"
 	]
 	quest.1F380688230A73A3.quest_desc: ["Can be used to get various different &lStone Types&r"]
 	quest.203799D6E6FBC9DC.quest_desc: ["Made with &lReinforced Stone&r"]
@@ -266,7 +268,7 @@
 	]
 	quest.36791B9A62694AFA.title: "Dreadful Dirt"
 	quest.368192A5697843F8.quest_desc: ["The best &lCapacitor&r"]
-	quest.374B2CA1A1A76F3B.quest_desc: ["Can be used instead of manually starting the &lInfusion of the Totem&r cermony"]
+	quest.374B2CA1A1A76F3B.quest_desc: ["&lTotemic Water&r can be used instead of manually starting the &lInfusion of the Totem&r cermony"]
 	quest.385909B22B2D74E3.quest_desc: ["Crafting &l4 Glass Blocks&r together make the &lConnected Glass Blocks&r"]
 	quest.393353FC9EF4DFF4.quest_desc: ["The &lCatalog: Catalog&r will show all the &lCatalogs&r that you can buy"]
 	quest.393353FC9EF4DFF4.title: "Catalog: Catalog"
@@ -341,7 +343,7 @@
 	quest.45DFA830778035DA.quest_desc: ["Made on the &lNatural Altar or &r"]
 	quest.463CBB975E47A5CB.quest_desc: ["When used on &lMulch&r create &lEroding Water&r"]
 	quest.466D23B9B67ECCDF.quest_desc: ["See your stress levels, mine are high"]
-	quest.4684B4C600A769A3.quest_desc: ["Ore can be &lSmelted&r or &lBroken&r"]
+	quest.4684B4C600A769A3.quest_desc: ["Melting &lRaw Ores&r into there &lMolten&r version, Then use the &lSolidifier&r to create &lTin&r"]
 	quest.4684B4C600A769A3.title: "Tin"
 	quest.46868DA16024DB68.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lEroding Water&r"]
 	quest.47685A5D46F0CFA2.quest_desc: ["Melting &lRaw Ores&r into there &lMolten&r version, Then use the &lSolidifier&r to create &lCopper&r"]
@@ -449,7 +451,7 @@
 	quest.5AB9533D848E1D60.quest_desc: ["Wool can be crafted from &lString&r"]
 	quest.5AB9533D848E1D60.title: "Wool"
 	quest.5ACFB2D2ACB355B7.quest_desc: [
-		"&lSubmerged 2 &ralso contains some optional &lResource Packs&r founds in the &lPause Menu&r -> Options -> &lResource Packs&r"
+		"&lSubmerged 2 &ralso contains some optional &lResource Packs&r found in the &lPause Menu&r -> Options -> &lResource Packs&r"
 		""
 		"&lBBL Colors Connected Textures&r, provides some connected texture for the colored blocks"
 		""
@@ -538,12 +540,12 @@
 	quest.687DB89CA4CEB04E.title: "Paper"
 	quest.68967A6429DEB55A.quest_desc: ["The &lAncient Lens&r can be used to get &lAncient Gravel&r from teh &lOre Laser Base&r"]
 	quest.68E7E19B6DB6E0AF.quest_desc: ["Its a sapling rich in &lThe Force&r"]
-	quest.6937CBC4E6BAE6FD.quest_desc: ["The &lWater&r is &lTOXIC&r is will kill you. &lRain&r will also damage you as well"]
+	quest.6937CBC4E6BAE6FD.quest_desc: ["The &lWater&r is &lTOXIC&r it will kill you. &lRain&r will also damage you as well"]
 	quest.69A723B282099835.quest_desc: ["Obtained from killing &lThe Wither&r"]
 	quest.6A4265C9F724EEAE.quest_desc: ["The base for &lSolar Energy&r"]
 	quest.6A701407E8948349.quest_desc: ["Can smelt and can accept upgrades"]
 	quest.6A94E9D14675586E.quest_desc: ["The &lWashing Factory&r can be used to turn &lRaw Ores&r into &lRaw Ore Meat&r"]
-	quest.6AAF56C47DDC7F4C.quest_desc: ["When used on a &lLock Block&r will create a new &lSphere&r. Caution these keys will over override all blocks in the area"]
+	quest.6AAF56C47DDC7F4C.quest_desc: ["When used on a &lLock Block&r will create a new &lSphere&r. Caution these keys will override all blocks in the area"]
 	quest.6AAF56C47DDC7F4C.title: "Sphere Key"
 	quest.6ACF9F582C35419D.quest_desc: [
 		"&lChapter Challenges&r are for the ultimate completionist. You will be rewarded for each questline you fully complete."
@@ -620,12 +622,12 @@
 	quest.7A799412015F62DF.quest_desc: ["The power of the sun"]
 	quest.7B0B598D5C319A91.quest_desc: ["A full suit of &lTutle Armor&r protects you from the sea"]
 	quest.7B4F60DC95B1A90A.quest_desc: ["Placing &lCobblestone&r inside a &lStrainer&r with &lEroding Water&r on top and a &lMesh&r inside will create &lGravel&r"]
-	quest.7B6DDB3DBC5D1336.quest_desc: ["From grown &lSaplings&r, you can use the &lSapling Grower&r"]
+	quest.7B6DDB3DBC5D1336.quest_desc: ["From &lSaplings&r, you can use the &lSapling Grower&r"]
 	quest.7B6DDB3DBC5D1336.title: "Colored Logs"
 	quest.7BCF5A38B322D62D.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.7C4A2CEF96F49D3A.quest_desc: ["&lLiving Gravel&r with &oNether Wart&r and &lLava&r will create &lNether Gravel&r with &lCreate&r or &lPneumatic Craft&r"]
 	quest.7C7D8663CE541B54.quest_desc: ["A very simple &lMachine Frame&r used for very basic machines"]
-	quest.7CF98BC3AC368244.quest_desc: ["Ore can be &lSmelted&r or &lBroken&r"]
+	quest.7CF98BC3AC368244.quest_desc: ["Melting &lRaw Ores&r into there &lMolten&r version, Then use the &lSolidifier&r to create &lAluminum&r"]
 	quest.7CF98BC3AC368244.title: "Aluminum"
 	quest.7D1CB1B9DF4B4313.quest_desc: ["Almost there"]
 	quest.7D4DAC84579ABBBF.quest_desc: ["Made inside the &lStrainer&r"]

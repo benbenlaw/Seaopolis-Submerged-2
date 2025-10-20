@@ -122,11 +122,11 @@ PlayerEvents.tick(event => {
 
     if (player.getFeetArmorItem().hasTag('submerged:diving_gear') && player.getChestArmorItem().hasTag('submerged:diving_gear') && player.getHeadArmorItem().hasTag('submerged:diving_gear') && player.getLegsArmorItem().hasTag('submerged:diving_gear')) {
         if (player.y > 149) {
-            player.attack(4)
+            player.attack(3)
         } else {
             return
         }
     } else if (player.isInWater() || player.isInRain() || player.isInBubbleColumn() || player.y > 149) {
-        player.attack(4)
+        player.attack(3)
     }
 })

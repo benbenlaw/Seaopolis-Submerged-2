@@ -26,6 +26,7 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:ancient_debris_dust').tag(['c:dusts/ancient_debris', 'c:dusts'])
     event.create('submerged:porcelain_clay')
     event.create('submerged:wooden_key')
+    event.create('submerged:wooden_gear').tag(['c:gears/wooden', 'c:gears'])
     event.create('submerged:corrupted_prismarine_crystal')
     
     event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')

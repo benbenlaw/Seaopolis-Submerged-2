@@ -5,6 +5,12 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
+    //Wooden Gear
+    event.shaped('submerged:wooden_gear', [' A ', 'ABA', ' A '], {
+        A: 'minecraft:stick',
+        B: '#minecraft:planks'
+    }).id('submerged:wooden_gear')
+
     //Catalog Flares
     event.shaped('submerged:catalog_flares', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:paper',

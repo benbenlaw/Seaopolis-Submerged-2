@@ -8,6 +8,31 @@ Submerged, wooden gear for casting gear mold
 Ceramic Bucket, saving reosurce fish data when empty, reported fix in works
 UPDATE ROOMOPOLIS, add maxHeight to Big Sphere keys to only allow placing below a sphere 104
 
+A3.0
+- UPDATE TOTEMIC BBL MOD
+
+
 A2.0
+- Updated NeoForge to 21.1.211
 - Updated Mods
 - Updated Yuki Textures
+- Added Smooth Swapping
+- Tweaked fish spawn rates
+- Cows now always drop at least 1 leather
+- Fixed Exothermic water bucket quest
+- Block Interaction recipes now support Ultimine (Update I W R)
+- Fixed Catalog: Catalog not having recipes
+- Fixed typos
+- Reduced water and toxic air damage to 3 instead of 4
+- Fixed Colored Crafting Table recipes not having prority over vanilla ones
+- Cows now spawn around the totem now in the Song of the Cows cermony (UPDATE TOTEMIC BBL MOD)
+- Reduce the music count needed for cow spawning to 1200 from 2000
+- Reduce the music count needed for avian spawning to 4500 from 8000
+- Fixed shop block not dropping
+- Added Configured
+- Added Iron Chests
+- Added Wooden Gear
+- Added Flare to emergency items
+- Wooden Gear is used to make gear mold
+- Changed quest location for clay and bone meal, added flint mesh as a dependency to those as well
+- Banned Opolis Utilities Catalogue, Catalogue Book, Cloche, Resource Generator and Fluid Generator

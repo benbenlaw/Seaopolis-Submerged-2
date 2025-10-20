@@ -10,7 +10,12 @@ ServerEvents.tags('item', event => {
         'nautec:whisk',
         'refinedstorage:raw_basic_processor', 
         'refinedstorage:raw_advanced_processor', 
-        'refinedstorage:raw_improved_processor'
+        'refinedstorage:raw_improved_processor',
+        'opolisutilities:cloche',
+        'opolisutilities:catalogue',
+        'opolisutilities:catalogue_book',
+        'opolisutilities:fluid_generator',
+        'opolisutilities:resource_generator'
     ])
 })
 
