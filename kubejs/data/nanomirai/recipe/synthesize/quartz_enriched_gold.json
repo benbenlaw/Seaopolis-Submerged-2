@@ -1,0 +1,15 @@
+{
+  "type": "nanomirai:synthesize",
+  "block": {
+    "Name": "minecraft:gold_block"
+  },
+  "catalyst": {
+    "item": "refinedstorage:quartz_enriched_iron"
+  },
+  "duration": 60,
+  "result": {
+    "count": 6,
+    "id": "submerged:quartz_enriched_gold"
+  },
+  "tier": 2
+}

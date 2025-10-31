@@ -193,7 +193,7 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -208,7 +208,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["613AC75202FB54CF"]
@@ -218,19 +218,19 @@
 				item: { count: 1, id: "submerged:ancient_lens" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["68967A6429DEB55A"]
+			dependencies: ["1F6EE7917E96E547"]
 			id: "294CBD8297D7D0B3"
 			tasks: [{
 				id: "169DD3B5098DA8B1"
 				item: { count: 1, id: "submerged:ancient_gravel" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["294CBD8297D7D0B3"]
@@ -240,8 +240,8 @@
 				item: { count: 1, id: "strainers:debris_ore_piece" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F258DC3441DEF13"]
@@ -251,8 +251,8 @@
 				item: { count: 1, id: "minecraft:ancient_debris" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["207F4FFC4AD976E5"]
@@ -262,8 +262,8 @@
 				item: { count: 1, id: "submerged:raw_ancient_debris" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6A94E9D14675586E"]
@@ -274,7 +274,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6E3B0B6AA3E54598"]
@@ -285,7 +285,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6172D0840A1104CD"]
@@ -296,7 +296,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6C8297AF7997580F"]
@@ -307,7 +307,31 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["68967A6429DEB55A"]
+			id: "747EFDBE6FE6A0A8"
+			tasks: [{
+				id: "57697877116DEAB0"
+				item: { count: 1, id: "submerged:grains_of_time" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["747EFDBE6FE6A0A8"]
+			icon: {
+				id: "submerged:time_fluid_bucket"
+			}
+			id: "1F6EE7917E96E547"
+			tasks: [{
+				id: "2E4F0A08219B2DC4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 }

@@ -1,0 +1,8 @@
+#Compressor energy capacity
+# Default: 10000
+# Range: > 0
+compressor_capacity = 10000
+#Compressor energy usage per tick
+# Default: 20
+# Range: > 0
+compressor_usage = 20

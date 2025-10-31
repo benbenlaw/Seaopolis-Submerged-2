@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "star_power"
+	group: "621AB11E96FBBC5F"
+	id: "3220729F6DAE9D8C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FA8B9543700C855"]
+			id: "3BD519303B7F28DA"
+			tasks: [{
+				id: "3AB633765E4FEA8E"
+				item: { count: 1, id: "industrialforegoing:wither_builder" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BD519303B7F28DA"]
+			id: "1E2CE04704DD42D7"
+			tasks: [{
+				id: "05DFB4BCFE2F93C9"
+				item: { count: 1, id: "submerged:nether_star_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A3313703AA534A4"]
+			id: "205FC386BAE185FB"
+			tasks: [{
+				id: "619B75DBD9E95D00"
+				item: { count: 1, id: "submerged:starry_key" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E2CE04704DD42D7"]
+			id: "3A3313703AA534A4"
+			tasks: [{
+				id: "34532F887D0738F3"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A3313703AA534A4"]
+			id: "1C456EBF7FB9E457"
+			tasks: [{
+				id: "21663FC20212783B"
+				item: { count: 1, id: "enderio:soularium_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25BCDE7DF3601756"]
+			id: "334E5EE2F71C2968"
+			tasks: [{
+				id: "1064403E7E7EFA8D"
+				item: { count: 1, id: "enderio:ensouled_chassis" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C456EBF7FB9E457"]
+			id: "25BCDE7DF3601756"
+			tasks: [{
+				id: "0D2CAFA2FD72A31D"
+				item: { count: 1, id: "enderio:soul_chain" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["334E5EE2F71C2968"]
+			id: "5565D57385D98C99"
+			tasks: [{
+				id: "1B6D5F3644DA9FDA"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5565D57385D98C99"]
+			id: "2E943CC38971E197"
+			tasks: [{
+				id: "3DA0357BA6DDB1BE"
+				item: { count: 1, id: "enderio:z_logic_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5565D57385D98C99"]
+			id: "7DF32C9395F17380"
+			tasks: [{
+				id: "1EF4F88B6C805708"
+				item: { count: 1, id: "enderio:guardian_diode" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5565D57385D98C99"]
+			id: "14D513E6A87E6DAE"
+			tasks: [{
+				id: "66A4D9B05B7564A4"
+				item: { count: 1, id: "enderio:skeletal_contractor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5565D57385D98C99"]
+			id: "322ED9A226DF2CDC"
+			tasks: [{
+				id: "3BE2613E6B88B5A7"
+				item: { count: 1, id: "enderio:ender_resonator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5565D57385D98C99"]
+			id: "436BDBD8D99422B5"
+			tasks: [{
+				id: "5DF77ABC5CEE124B"
+				item: { count: 1, id: "enderio:zombie_electrode" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E943CC38971E197"]
+			id: "4969DCB6A2E0BE91"
+			tasks: [{
+				id: "5B2944C239283847"
+				item: { count: 1, id: "enderio:frank_n_zombie" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["322ED9A226DF2CDC"]
+			id: "63D3001F8C82610D"
+			tasks: [{
+				id: "3CBF09D7937BB144"
+				item: { count: 1, id: "enderio:sentient_ender" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["436BDBD8D99422B5"]
+			id: "107C2FCB14CEAC4F"
+			tasks: [{
+				id: "50B60DBB7BF38A40"
+				item: { count: 1, id: "enderio:mind_killer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"63D3001F8C82610D"
+				"107C2FCB14CEAC4F"
+				"4969DCB6A2E0BE91"
+				"7DF32C9395F17380"
+				"14D513E6A87E6DAE"
+			]
+			id: "735BC07C8557017F"
+			tasks: [{
+				id: "0263B1C8D56B4521"
+				item: { count: 1, id: "submerged:ai_controller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["735BC07C8557017F"]
+			id: "165178C531A77404"
+			tasks: [{
+				id: "185335EAAC37E35F"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["165178C531A77404"]
+			id: "399473C275A8FD0C"
+			tasks: [{
+				id: "6E0C0D6600E81088"
+				item: { count: 1, id: "enderio:vat" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["399473C275A8FD0C"]
+			id: "2FA47EEE8EBB16E1"
+			tasks: [{
+				id: "4479099A535A8435"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["399473C275A8FD0C"]
+			id: "41A32D95D63A1901"
+			tasks: [{
+				id: "166483937B863DD0"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2FA47EEE8EBB16E1"
+				"41A32D95D63A1901"
+			]
+			id: "2E14A02F1F3B9A4C"
+			tasks: [{
+				id: "08F3C2ECE595AAE4"
+				item: { count: 1, id: "submerged:solclipsium_nugget" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+	]
+}

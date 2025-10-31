@@ -1,0 +1,15 @@
+{
+  "type": "nanomirai:synthesize",
+  "block": {
+    "Name": "minecraft:amethyst_block"
+  },
+  "catalyst": {
+    "tag": "submerged:industrial_lenses"
+  },
+  "duration": 60,
+  "result": {
+    "count": 1,
+    "id": "nanomirai:amethyst_lens"
+  },
+  "tier": 2
+}

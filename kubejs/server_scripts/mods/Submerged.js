@@ -5,6 +5,29 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
+    //Sculk Shrieker
+    event.shaped('minecraft:sculk_shrieker', ['A', 'B'], {
+        A: 'nanomirai:sculk_lens',
+        B: 'minecraft:sculk_catalyst'
+    }).id('submerged:sculk_shrieker')
+
+    //Solclipsium Ingot
+    event.shapeless('9x submerged:solclipsium_nugget', ['submerged:solclipsium_ingot']).id('submerged:solclipsium_nugget_from_ingot')
+    
+    //Solclipsium Nugget
+    event.shaped('submerged:solclipsium_ingot', ['AAA', 'AAA', 'AAA'], {
+        A: 'submerged:solclipsium_nugget'
+    }).id('submerged:solclipsium_ingot_from_nugget')
+
+
+    //Nether Star Block
+    event.shaped('submerged:nether_star_block', ['AAA', 'AAA', 'AAA'], {
+        A: 'minecraft:nether_star'
+    }).id('submerged:nether_star_block')
+
+    //Nether Star
+    event.shapeless('9x minecraft:nether_star', ['submerged:nether_star_block']).id('submerged:nether_star_from_block')
+
     //Wooden Gear
     event.shaped('submerged:wooden_gear', [' A ', 'ABA', ' A '], {
         A: 'minecraft:stick',

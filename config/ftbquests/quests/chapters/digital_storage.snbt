@@ -110,7 +110,7 @@
 			dependencies: ["714080375257015A"]
 			id: "2E256A697720155A"
 			tasks: [{
-				id: "6962D39EDCEE74DD"
+				id: "05809679BC29AF35"
 				item: { count: 1, id: "submerged:calculation_processor" }
 				type: "item"
 			}]
@@ -121,7 +121,7 @@
 			dependencies: ["026E0CF5357A1E51"]
 			id: "065989E16779ACEA"
 			tasks: [{
-				id: "636BA4B3E3BCB943"
+				id: "5605D4153185E95A"
 				item: { count: 1, id: "submerged:engineering_processor" }
 				type: "item"
 			}]
@@ -132,7 +132,7 @@
 			dependencies: ["4835A611E199F2B5"]
 			id: "5483722820D7B629"
 			tasks: [{
-				id: "4511FC9F1B3CE0F0"
+				id: "094236C3D553DDA9"
 				item: { count: 1, id: "submerged:logic_processor" }
 				type: "item"
 			}]

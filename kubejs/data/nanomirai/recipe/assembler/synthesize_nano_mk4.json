@@ -1,0 +1,30 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "nanomirai:sculmium_circuit"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:note_block"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:amethyst_shard"
+      }
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:rarity": "epic"
+    },
+    "count": 1,
+    "id": "nanomirai:synthesize_nano"
+  }
+}

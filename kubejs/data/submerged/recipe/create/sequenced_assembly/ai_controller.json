@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "enderio:mind_killer"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "submerged:ai_controller"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "enderio:mind_killer"
+        },
+        {
+          "item": "enderio:frank_n_zombie"
+        }
+      ],
+      "results": [
+        {
+          "id": "enderio:mind_killer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "enderio:mind_killer"
+        },
+        {
+          "item": "enderio:guardian_diode"
+        }
+      ],
+      "results": [
+        {
+          "id": "enderio:mind_killer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "enderio:mind_killer"
+        },
+        {
+          "item": "enderio:skeletal_contractor"
+        }
+      ],
+      "results": [
+        {
+          "id": "enderio:mind_killer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "enderio:mind_killer"
+        },
+        {
+          "item": "enderio:sentient_ender"
+        }
+      ],
+      "results": [
+        {
+          "id": "enderio:mind_killer"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "enderio:mind_killer"
+  }
+}

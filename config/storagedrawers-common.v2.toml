@@ -60,7 +60,7 @@
 		# 
 		# Compacting drawers require 2-way 2x2 or 3x3 recipes to associate items.
 		# Add additional rules here in the form: <big_item>, <small_item>, <amount>
-		compactingRules = ["minecraft:clay, minecraft:clay_ball, 4"]
+		compactingRules = ["minecraft:gunpowder, forcecraft:pile_of_gunpowder, 4", "minecraft:charcoal, opolisutilities:mini_charcoal, 8", "minecraft:coal, opolisutilities:mini_coal, 8", "minecraft:clay, minecraft:clay_ball, 4", "minecraft:ender_pearl, opolisutilities:ender_pearl_fragment, 8"]
 
 	# Configuration around detached drawers, which are individual drawer slots pulled from a drawer block.
 	[Drawers.Detached]

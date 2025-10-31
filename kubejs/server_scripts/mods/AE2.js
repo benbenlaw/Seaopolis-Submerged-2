@@ -6,10 +6,10 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
 
     //Remove
-    event.remove({id: 'ae2:inscriber/engineering_processor_print'})
-    event.remove({id: 'ae2:inscriber/calculation_processor_print'})
-    event.remove({id: 'ae2:inscriber/logic_processor_print'})
-    event.remove({id: 'ae2:inscriber/silicon_print'})
+    //event.remove({id: 'ae2:inscriber/engineering_processor_print'})
+    //event.remove({id: 'ae2:inscriber/calculation_processor_print'})
+    //event.remove({id: 'ae2:inscriber/logic_processor_print'})
+    //event.remove({id: 'ae2:inscriber/silicon_print'})
 
     //Matter Condenser
     event.shaped('ae2:condenser', ['AAA', 'BCB', 'AAA'], {
@@ -68,10 +68,10 @@ ServerEvents.recipes(event => {
     addInscriberRecipe('#c:ingots/aluminum', 'pneumaticcraft:capacitor', 'minecraft:copper_ingot', 'enderio:basic_capacitor')
 
     //Transistor
-    addInscriberRecipe('#pneumaticcraft:wiring', 'pneumaticcraft:plastic', 'minecraft:redstone', 'pneumaticcraft:transistor')
+    addInscriberRecipe('#pneumaticcraft:wiring', 'minecraft:redstone', 'pneumaticcraft:plastic', 'pneumaticcraft:transistor')
 
     //Capacitor
-    addInscriberRecipe('#pneumaticcraft:wiring', 'pneumaticcraft:plastic', '#c:silicon', 'pneumaticcraft:capacitor')
+    addInscriberRecipe('#pneumaticcraft:wiring', '#c:silicon', 'pneumaticcraft:plastic', 'pneumaticcraft:capacitor')
 
     //Finished PCB
     addInscriberRecipe('pneumaticcraft:transistor', 'pneumaticcraft:unassembled_pcb', 'pneumaticcraft:capacitor', 'pneumaticcraft:printed_circuit_board')
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
     //Charged Sand
     addChargerRecipe('submerged:nether_gravel', 'submerged:charged_gravel')
 
-    //Printed Logic Circuit
+    //Logic Circuit
     addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot' , '4x ae2:printed_logic_processor')
 
     //Printed Calculation Circuit

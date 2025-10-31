@@ -27,6 +27,18 @@ ServerEvents.recipes(event => {
     //Fluid Extractor Recipes
     //In data/submerged/recipe/industrialforgoing/fluid_extractor/
 
+    //Ancient Gravel
+    addDissolutionRecipe([
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson(),
+        Ingredient.of('submerged:matter_gravel').toJson()
+    ], 'submerged:time_fluid', 250, '8x submerged:ancient_gravel', 300)
+
     //Blank Spawn Egg
     addDissolutionRecipe([
         Ingredient.of('minecraft:egg').toJson(),
@@ -51,11 +63,21 @@ ServerEvents.recipes(event => {
         Ingredient.of('minecraft:gold_ingot').toJson()
     ], 'industrialforegoing:pink_slime', 500, 'industrialforegoing:machine_frame_advanced', 300)
 
+    //Sculk 
+    addOreLaserBase('nanomirai:sculk_lens', 'minecraft:sculk', 1)
+
     //Ancient Gravel
-    addOreLaserBase('submerged:ancient_lens', 'submerged:ancient_gravel', 100)
+    addOreLaserBase('submerged:ancient_lens', 'submerged:grains_of_time', 1)
 
     //Grains of Infinity
-    addOreLaserBase('industrialforegoing:black_laser_lens', 'enderio:grains_of_infinity', 100)
+    addOreLaserBase('industrialforegoing:black_laser_lens', 'enderio:grains_of_infinity', 1)
+    
+    //Stone 
+    addOreLaserBase('industrialforegoing:light_gray_laser_lens', 'minecraft:stone', 1000)
+
+    //Warden 
+    addFluidLaserBase('nanomirai:sculk_lens', 'minecraft:warden', 'submerged:warden_tears', 25)
+
 
     //Dissolution Chamber Function
     function addDissolutionRecipe(inputs, fluidIn, fluidAmount, output, time) {
@@ -83,7 +105,7 @@ ServerEvents.recipes(event => {
                     "blacklist": [],
                     "whitelist": []
                 },
-                "depth_max": 122,
+                "depth_max": 200,
                 "depth_min": -64,
                 "dimension_filter": {
                     "blacklist": [
@@ -93,6 +115,40 @@ ServerEvents.recipes(event => {
                     ]
                 },
                 "weight": weight
+                }
+            ]
+        }).id(`submerged:industrialforgoing/laser_drill_ore/${output.split(':')[1]}`)
+    }
+
+    //Fluid Laser Base Function
+    function addFluidLaserBase(catalyst, entity, output, outputAmount) {
+        event.custom({
+            "type": "industrialforegoing:laser_drill_fluid",
+            "catalyst": {"item": catalyst},
+            "entity_data": {
+                "data": {},
+                "display": "",
+                "entity": {
+                "type": entity
+                }
+            },
+            "output": {
+                "amount": outputAmount,
+                "fluid": output
+            },
+            "rarity": [
+                {
+                "biome_filter": {
+                    "blacklist": [],
+                    "whitelist": []
+                },
+                "depth_max": 256,
+                "depth_min": -64,
+                "dimension_filter": {
+                    "blacklist": [],
+                    "whitelist": []
+                },
+                "weight": 8
                 }
             ]
         })

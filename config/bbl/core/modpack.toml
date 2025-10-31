@@ -7,13 +7,13 @@
 
 ["Discord URL use /discord command to get the link"]
 	#Add a URL to link your discord, BBL Discord = https://discord.gg/benbenlaw
-	"Discord URL" = ""
+	"Discord URL" = "https://discord.gg/benbenlaw"
 
 ["Modpack information handy for modpack makers use /modpack in game to get the information"]
 	#Modpack name
-	"Modpack name" = ""
+	"Modpack name" = "Submerged 2"
 	#Modpack Version
-	"Modpack Version" = ""
+	"Modpack Version" = "A3.0"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false

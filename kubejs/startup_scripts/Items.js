@@ -19,7 +19,7 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:key_mold').tag(['c:molds/key', 'casting:molds'])
     event.create('submerged:mesh_mold').tag(['c:molds/mesh', 'casting:molds'])
     event.create('submerged:quartz_enriched_gold').tag(['c:ingots/quartz_enriched_gold', 'c:ingots'])
-    event.create('submerged:infused_alloy')
+    event.create('submerged:infused_alloy').displayName('Infused Tainted Alloy')
     event.create('submerged:ancient_lens')
     event.create('submerged:blank_spawn_egg')
     event.create('submerged:raw_ancient_debris').tag(['c:raw_materials/ancient_debris', 'c:raw_materials'])
@@ -28,16 +28,38 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:wooden_key')
     event.create('submerged:wooden_gear').tag(['c:gears/wooden', 'c:gears'])
     event.create('submerged:corrupted_prismarine_crystal')
+    event.create('submerged:starry_key')    
+    event.create('submerged:ai_controller')    
+    event.create('submerged:grains_of_time').displayName('Grains of Time Gone By')
     
     event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')
     event.create('submerged:calculation_processor').tag('submerged:calculation_processors').texture('ae2:item/calculation_processor')
     event.create('submerged:engineering_processor').tag('submerged:engineering_processors').texture('ae2:item/engineering_processor')
+    
+    event.create('submerged:solclipsium_ingot').tag(['c:ingots/solclipsium', 'c:ingots'])
+    event.create('submerged:solclipsium_nugget').tag(['c:nuggets/solclipsium', 'c:nuggets'])
 
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
         event.create(`submerged:${color}_dirt_pile`).tag('submerged:dirt_pile')
         event.create(`submerged:${color}_flare`).tag('submerged:flares')
     })
+
+    //Nether Brick Sphere
+    event.create('submerged:shrieking_sphere', 'roomopolis_key')
+        .templateId('submerged:spheres/shrieking_sphere')
+        .keyBlock('#submerged:terracotta_lock')
+        .heightAdjustment(0)
+        .frontAdjustment(-1)
+        .doorLeft(1) 
+        .doorRight(1)
+        .doorUp(1)
+        .doorDown(1)
+        .consumeKey(true)
+        .removeDoor(true)
+        .blocksRequired(false)
+        .overrideExistingBlocks(true)
+        .tag('submerged:keys/sphere')
 
     //Nether Brick Sphere
     event.create('submerged:nether_brick_sphere', 'roomopolis_key')
@@ -158,6 +180,7 @@ StartupEvents.registry('item', (event) => {
             .removeDoor(true)
             .blocksRequired(false)
             .overrideExistingBlocks(true)
+            .maxHeight(130)
             .tag('submerged:keys/big_sphere')
     })
 

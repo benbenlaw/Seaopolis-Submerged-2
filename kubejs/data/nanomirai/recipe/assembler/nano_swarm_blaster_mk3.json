@@ -1,0 +1,36 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "nanomirai:nano_circuit"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:sculk_shrieker"
+      }
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:rarity": "rare"
+    },
+    "count": 1,
+    "id": "nanomirai:nano_swarm_blaster"
+  }
+}

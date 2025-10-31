@@ -1,0 +1,12 @@
+{
+  "type": "nanomirai:synthesize",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "submerged:ignore_all_this"
+      }
+    }
+  ]
+}

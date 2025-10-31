@@ -49,7 +49,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 3.0d
 		}
 		{
@@ -64,7 +64,11 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3D906CE528FBE462"]
+			dependencies: [
+				"3D906CE528FBE462"
+				"6C85616A5C6A060E"
+			]
+			dependency_requirement: "one_completed"
 			id: "6D60D4F5300AED78"
 			tasks: [{
 				id: "4717C979125563E3"
@@ -76,11 +80,16 @@
 		}
 		{
 			dependencies: ["6D60D4F5300AED78"]
+			icon: {
+				id: "minecraft:spawner"
+			}
 			id: "702BDA4EBF2C24E3"
 			tasks: [{
-				id: "67E0D1195001DB4F"
-				item: { count: 1, id: "minecraft:spawner" }
-				type: "item"
+				id: "78A550476C9D9FBE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:spawner"
+				type: "observation"
 			}]
 			x: 0.0d
 			y: 5.0d
@@ -269,6 +278,16 @@
 			}]
 			x: -0.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["74E4B172FE96A069"]
+			id: "6C85616A5C6A060E"
+			tasks: [{
+				id: "07EC6513357AAB91"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
 		}
 	]
 }

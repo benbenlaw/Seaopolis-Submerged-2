@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "submerged:ancient_gravel"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 125,
+      "fluid": "submerged:warden_tears"
+    }
+  ],
+  "results": [
+    {
+      "id": "submerged:teary_gravel"
+    }
+  ]
+}

@@ -1,11 +1,10 @@
 {
   "mod_priorities": [
-    "submerged",
-    "ae2",
     "minecraft",
+    "submerged",
     "alltheores",
+    "ae2",
     "casting",
-    "refinedstorage",
     "pneumaticcraft"
   ],
   "priority_overrides": {},
@@ -33,10 +32,6 @@
     "c:wires/{material}",
     "c:plastics",
     "c:silicon",
-    "submerged:basic_storage_components",
-    "submerged:advanced_storage_components",
-    "submerged:elite_storage_components",
-    "submerged:ultimate_storage_components",
     "submerged:logic_processors",
     "submerged:calculation_processors",
     "submerged:engineering_processors"

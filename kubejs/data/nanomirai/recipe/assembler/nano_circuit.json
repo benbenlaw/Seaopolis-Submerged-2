@@ -1,0 +1,39 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "nanomirai:silicon_wafer"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "nanomirai:reinforced_obsidian"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:observer"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "nanomirai:nano_circuit"
+  }
+}

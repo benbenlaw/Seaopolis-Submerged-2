@@ -1,0 +1,15 @@
+{
+  "type": "nanomirai:synthesize",
+  "block": {
+    "Name": "minecraft:raw_copper_block"
+  },
+  "catalyst": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "duration": 200,
+  "result": {
+    "count": 1,
+    "id": "minecraft:budding_amethyst"
+  },
+  "tier": 0
+}

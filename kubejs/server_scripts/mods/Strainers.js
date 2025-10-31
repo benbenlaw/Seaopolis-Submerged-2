@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
     event.remove({id: /strainers:strainer\/purified_soul_sand/})
     event.remove({id: 'strainers:strainer/purified_sand/prismarine_crystals'})
     event.remove({id: 'strainers:strainer/purified_sand/prismarine_shard'})
+    event.remove({id: 'strainers:strainer/sculk/echo_shard'})
     
     //Replace Input
     event.replaceInput({id: 'strainers:speed_upgrade_1'}, 'minecraft:iron_block', 'minecraft:lapis_block')
@@ -45,9 +46,6 @@ ServerEvents.recipes(event => {
     strainerAuto('#submerged:coral_blocks', 'minecraft:water', 'minecraft:horn_coral', 0.2, 0.05, 1, 10);
     strainerAuto('#submerged:coral_blocks', 'minecraft:water', 'minecraft:tube_coral', 0.2, 0.05, 1, 10);
 
-    //Ancient Gravel -> Ancient Debris
-    strainerAuto('submerged:ancient_gravel', 'minecraft:water', 'strainers:debris_ore_piece', 0.2, 0.05, 7, 10);
-
     //Purified Soul Sand -> Nether Wart, Crimson Fungus, Warped Fungus
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:nether_wart', 0.2, 0.05, 6, 10);
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:crimson_fungus', 0.2, 0.05, 6, 10);
@@ -77,8 +75,12 @@ ServerEvents.recipes(event => {
         quartzDust: ['minecraft:water', 'mekanism:dust_quartz', 0.2, 0.05, 6, 10],
         skyDust: ['minecraft:water', 'ae2:sky_dust', 0.05, 0.05, 6, 10],
         diamond: ['minecraft:water', 'strainers:diamond_ore_piece', 0.05, 0.05, 6, 10],
-        emerald: ['minecraft:water', 'strainers:emerald_ore_piece', 0.05, 0.05, 6, 10]
-    
+        emerald: ['minecraft:water', 'strainers:emerald_ore_piece', 0.05, 0.05, 6, 10],
+        debris: ['minecraft:water', 'strainers:debris_ore_piece', 0.05, 0.05, 7, 10],
+        echoShard : ['minecraft:water', 'minecraft:echo_shard', 0.05, 0.05, 7, 10],
+        osmium: ['minecraft:water', 'strainers:osmium_ore_piece', 0.05, 0.05, 6, 10],
+        lead: ['minecraft:water', 'strainers:lead_ore_piece', 0.05, 0.05, 6, 10],
+        uranium: ['minecraft:water', 'strainers:uranium_ore_piece', 0.05, 0.05, 7, 10]
     }
 
 
@@ -151,6 +153,47 @@ ServerEvents.recipes(event => {
         gravelDrops.diamond, gravelDrops.emerald
     ]);
 
+    //Ancient Gravel -> Ancient Debris
+    addStrainerGravelDrop('submerged:ancient_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
+        gravelDrops.diamond, gravelDrops.emerald,
+        gravelDrops.debris
+    ]);
+
+    //Teary Gravel -> Echo Shard, Osmium, Lead
+    addStrainerGravelDrop('submerged:teary_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
+        gravelDrops.diamond, gravelDrops.emerald,
+        gravelDrops.debris,
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead
+    ]);
+
+    //Toxic Gravel -> Uranium
+    addStrainerGravelDrop('submerged:toxic_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
+        gravelDrops.diamond, gravelDrops.emerald,
+        gravelDrops.debris,
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead,
+        gravelDrops.uranium
+    ]);
 
     //Tiered Gravel Recipes
     function addStrainerGravelDrop(input, outputs) {

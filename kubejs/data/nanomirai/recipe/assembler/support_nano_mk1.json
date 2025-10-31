@@ -1,0 +1,33 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "submerged:logic_processor"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:kelp"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:axolotl_bucket"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "nanomirai:support_nano"
+  }
+}

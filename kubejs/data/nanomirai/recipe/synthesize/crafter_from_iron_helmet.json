@@ -1,0 +1,15 @@
+{
+  "type": "nanomirai:synthesize",
+  "block": {
+    "Name": "minecraft:crafting_table"
+  },
+  "catalyst": {
+    "item": "minecraft:iron_helmet"
+  },
+  "duration": 20,
+  "result": {
+    "count": 1,
+    "id": "minecraft:crafter"
+  },
+  "tier": 0
+}

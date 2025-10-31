@@ -378,5 +378,16 @@
 			x: 2.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["54D4C8B3C0933A20"]
+			id: "0723858D65C38A91"
+			tasks: [{
+				id: "320DCC9A8D1FD211"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
 	]
 }

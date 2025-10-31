@@ -11,4 +11,9 @@ ItemEvents.modifyTooltips(event => {
         Text.of('§bDucks can be tamed with Seeds.')
     ])
 
+    event.modify('ars_nouveau:source_gem', tooltip => {
+        // Remove block title
+        tooltip.removeLine(1)
+        // Insert text at top of list
+    })
 })

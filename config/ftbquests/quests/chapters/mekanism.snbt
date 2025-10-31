@@ -1,0 +1,420 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "621AB11E96FBBC5F"
+	id: "323791C40AB86271"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["454C4B72C4BD8B5D"]
+			id: "7CA44780676A3BF9"
+			tasks: [{
+				id: "43A59AC2714F0B0F"
+				item: { count: 1, id: "strainers:osmium_ore_piece" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E577393A44F6AE9"]
+			id: "015A08651D3B542C"
+			tasks: [{
+				id: "59E05E919F87D998"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["015A08651D3B542C"]
+			id: "311CDCBDE6F65094"
+			tasks: [{
+				id: "2E78368522ECFD2E"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["311CDCBDE6F65094"]
+			id: "767E9DAC85F27A99"
+			tasks: [{
+				id: "65E2EDF01FF814A3"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["767E9DAC85F27A99"]
+			id: "121DF060CBAA0DE2"
+			tasks: [{
+				id: "6CC23EA879ED66BA"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: -2.2857142857142847d
+			y: 1.232142857142854d
+		}
+		{
+			dependencies: ["311CDCBDE6F65094"]
+			id: "49C3A248C5D098D0"
+			tasks: [{
+				id: "62801FB4C9252952"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"767E9DAC85F27A99"
+				"49C3A248C5D098D0"
+			]
+			id: "6A2C62D3132E4C31"
+			tasks: [{
+				id: "5DB895E2A2516198"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2C62D3132E4C31"]
+			id: "2FDC97E38C599C16"
+			tasks: [{
+				id: "00FEE54A17E007C1"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CA44780676A3BF9"]
+			id: "5E577393A44F6AE9"
+			tasks: [{
+				id: "4E47465A34738CEC"
+				item: { count: 1, id: "alltheores:osmium_ore" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2FDC97E38C599C16"
+				"7BC8EE9BCA7F777D"
+			]
+			id: "2D6E284209B7540A"
+			tasks: [{
+				id: "0F653E89B1CA605A"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"121DF060CBAA0DE2"
+				"6216B853D6934F02"
+			]
+			id: "7BC8EE9BCA7F777D"
+			tasks: [{
+				id: "44347A8EB885DB24"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49C3A248C5D098D0"]
+			id: "16CF8FAC5D6304B5"
+			tasks: [{
+				id: "439DA78D10E3683D"
+				item: { count: 1, id: "mekmm:cnc_stamper" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D164927A49569D4"]
+			id: "2787F04686A57891"
+			tasks: [{
+				id: "051ACB2A96241CC5"
+				item: { count: 1, id: "mekmm:cnc_lathe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2FDC97E38C599C16"]
+			id: "2B6F1D688DB91CC1"
+			tasks: [{
+				id: "7CD756F3F548A983"
+				item: { count: 1, id: "mekmm:cnc_rolling_mill" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A2C62D3132E4C31"
+				"767E9DAC85F27A99"
+			]
+			id: "7851E7E81DDE9B19"
+			tasks: [{
+				id: "5229703C106D81DB"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7851E7E81DDE9B19"]
+			id: "6216B853D6934F02"
+			tasks: [{
+				id: "6003A5CCEA373BE3"
+				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BC8EE9BCA7F777D"]
+			id: "4D164927A49569D4"
+			tasks: [{
+				id: "5D1EC520B1286B97"
+				item: { count: 1, id: "mekanism:robit" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2787F04686A57891"]
+			id: "0848325A066E464E"
+			tasks: [{
+				id: "1EE61E718ABF32D7"
+				item: { count: 1, id: "dysoncubeproject:beam" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0848325A066E464E"]
+			id: "414E7B7FF6200C77"
+			tasks: [{
+				id: "44EC54687989C867"
+				item: { count: 1, id: "dysoncubeproject:beam_package" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B6F1D688DB91CC1"]
+			id: "63E8179ADF580C7F"
+			tasks: [{
+				id: "013DFD9BC8346954"
+				item: { count: 1, id: "dysoncubeproject:solar_sail" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63E8179ADF580C7F"]
+			id: "3182B75B829A99BA"
+			tasks: [{
+				id: "03DB7737F92409C9"
+				item: { count: 1, id: "dysoncubeproject:solar_sail_package" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"414E7B7FF6200C77"
+				"3182B75B829A99BA"
+				"244C5BD547A20FF1"
+			]
+			id: "420F15159D984FC4"
+			tasks: [{
+				id: "580A68061AAC7B90"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"414E7B7FF6200C77"
+				"3182B75B829A99BA"
+				"0F56BA8CE2B5490C"
+			]
+			id: "3CED81F6D8A203DA"
+			tasks: [{
+				id: "6D5890249DE7CE4B"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D6E284209B7540A"]
+			id: "0F56BA8CE2B5490C"
+			tasks: [{
+				id: "484C05AE411CF8CE"
+				item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D6E284209B7540A"]
+			id: "244C5BD547A20FF1"
+			tasks: [{
+				id: "4625B8EA8206E030"
+				item: { count: 1, id: "mekanism:ultimate_induction_provider" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0F56BA8CE2B5490C"
+				"244C5BD547A20FF1"
+			]
+			id: "411CC7AB0D039805"
+			tasks: [{
+				id: "3073471F66B3F749"
+				item: { count: 1, id: "mekmm:ambient_gas_collector" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["454C4B72C4BD8B5D"]
+			id: "26EB0062A463B6F7"
+			tasks: [{
+				id: "0623111EE83C5BE8"
+				item: { count: 1, id: "strainers:lead_ore_piece" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26EB0062A463B6F7"]
+			id: "4E0FB439E586F687"
+			tasks: [{
+				id: "3D7F7F127395A6C7"
+				item: { count: 1, id: "alltheores:lead_ore" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E0FB439E586F687"]
+			id: "67513813BDA00138"
+			tasks: [{
+				id: "1CA8F007A4D7CAE5"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/lead)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"177FF565976CEEF2"
+				"67513813BDA00138"
+			]
+			id: "05A9A98106ECB726"
+			tasks: [{
+				id: "7D72DCF7DB6EE6A4"
+				item: { count: 1, id: "mekanism:hazmat_mask" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"177FF565976CEEF2"
+				"67513813BDA00138"
+			]
+			id: "236A9FFF9F537BDF"
+			tasks: [{
+				id: "1C829E9100085321"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"177FF565976CEEF2"
+				"67513813BDA00138"
+			]
+			id: "468E963876597E0F"
+			tasks: [{
+				id: "5DA9667F5996F262"
+				item: { count: 1, id: "mekanism:hazmat_pants" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"177FF565976CEEF2"
+				"67513813BDA00138"
+			]
+			id: "347C9F004FB27856"
+			tasks: [{
+				id: "6DFCA19315508EFF"
+				item: { count: 1, id: "mekanism:hazmat_boots" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2FDC97E38C599C16"]
+			id: "177FF565976CEEF2"
+			tasks: [{
+				id: "028C24AF8D5D4845"
+				item: { count: 1, id: "mekanism:combiner" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+}

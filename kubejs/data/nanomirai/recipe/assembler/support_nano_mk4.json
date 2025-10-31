@@ -1,0 +1,36 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "nanomirai:sculmium_circuit"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:kelp"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:axolotl_bucket"
+      }
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:rarity": "epic"
+    },
+    "count": 1,
+    "id": "nanomirai:support_nano"
+  }
+}

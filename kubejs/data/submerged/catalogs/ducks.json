@@ -1,24 +1,24 @@
 {
-  "catalogue_item": {
-    "id": "submerged:catalog_ducks"
+  "catalog": { 
+    "id": "submerged:catalog_ducks" 
   },
-  "items": [
-    { "stack": { "id": "cute_companions_ducks:duck_spawn_egg", "count": 1 }, "price": 10 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_blue", "count": 1 }, "price": 3 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_pink", "count": 1 }, "price": 3 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_purple", "count": 1 }, "price": 3 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_red", "count": 1 }, "price": 3 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_yellow", "count": 1 }, "price": 3 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_black", "count": 1 }, "price": 3 },
+  "entries": [
+    { "stack": { "id": "cute_companions_ducks:duck_spawn_egg", "count": 1 }, "price": 10, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_blue", "count": 1 }, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_pink", "count": 1 }, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_purple", "count": 1 }, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_red", "count": 1 }, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_yellow", "count": 1 }, "price": 3, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_black", "count": 1 }, "price": 3, "mode": "player_buys"  },
 
-    { "stack": { "id": "cute_companions_ducks:duck_crow", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_donald", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_parrot_01", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_collar", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_wild", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_shopping_pants", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_yellow", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_zombie", "count": 1 }, "price": 6 },
-    { "stack": { "id": "cute_companions_ducks:duck_tshirt_lime", "count": 1 }, "price": 6 }
+    { "stack": { "id": "cute_companions_ducks:duck_crow", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_donald", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_parrot_01", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_collar", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_wild", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_shopping_pants", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_yellow", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_zombie", "count": 1 }, "price": 6, "mode": "player_buys"  },
+    { "stack": { "id": "cute_companions_ducks:duck_tshirt_lime", "count": 1 }, "price": 6, "mode": "player_buys"  }
   ]
 }

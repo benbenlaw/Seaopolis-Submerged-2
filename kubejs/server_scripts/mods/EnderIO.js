@@ -9,8 +9,19 @@ ServerEvents.recipes(event => {
     event.remove({id: 'enderio:basic_capacitor'})
     event.remove({id: 'enderio:alloy_smelting/photovoltaic_plate'})
     event.remove({id: 'enderio:photovoltaic_composite'})
- 
+    event.remove({id: 'enderio:alloy_smelting/soularium_ingot'})
+    event.remove({id: 'enderio:void_chassis'})
+    event.remove({id: 'enderio:fermenting/fluid_liquid_darkness_still'})
+    event.remove({id: 'enderio:fermenting/fluid_liquid_sunshine_still'})
+
     //Photovoltaic Composite
     event.shapeless('enderio:photovoltaic_composite', ['#c:gems/lapis', 'minecraft:coal', 'ae2:silicon']).id('submerged:enderio/photovoltaic_composite')
+
+    //Void Chassis
+    event.shaped('enderio:void_chassis', ['ABA', 'BCB', 'ABA'], {
+        A: 'enderio:dark_steel_ingot',
+        B: 'enderio:grains_of_infinity',
+        C: 'submerged:ai_controller'
+    }).id('submerged:enderio/void_chassis')
 
 })

@@ -1,11 +1,11 @@
 {
-  "catalogue_item": {
-    "id": "submerged:catalog_hats"
+  "catalog": { 
+    "id": "submerged:catalog_hats" 
   },
-  "items": [
-    { "stack": { "id": "simplehats:hatbag_common", "count": 1 }, "price": 5 },
-    { "stack": { "id": "simplehats:hatbag_uncommon", "count": 1 }, "price": 10 },
-    { "stack": { "id": "simplehats:hatbag_rare", "count": 1 }, "price": 20 },
-    { "stack": { "id": "simplehats:hatbag_epic", "count": 1 }, "price": 40 }
+  "entries": [
+    { "stack": { "id": "simplehats:hatbag_common", "count": 1 }, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "simplehats:hatbag_uncommon", "count": 1 }, "price": 10, "mode": "player_buys"  },
+    { "stack": { "id": "simplehats:hatbag_rare", "count": 1 }, "price": 20, "mode": "player_buys"  },
+    { "stack": { "id": "simplehats:hatbag_epic", "count": 1 }, "price": 40, "mode": "player_buys"  }
   ]
 }

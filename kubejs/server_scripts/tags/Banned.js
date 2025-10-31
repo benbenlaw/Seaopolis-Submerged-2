@@ -15,7 +15,14 @@ ServerEvents.tags('item', event => {
         'opolisutilities:catalogue',
         'opolisutilities:catalogue_book',
         'opolisutilities:fluid_generator',
-        'opolisutilities:resource_generator'
+        'opolisutilities:resource_generator',
+        'nanomirai:simple_circuit',
+        'nanomirai:normal_circuit',
+        'mekmm:basic_planting_factory',
+        'mekmm:advanced_planting_factory',
+        'mekmm:elite_planting_factory',
+        'mekmm:ultimate_planting_factory',
+        'mekmm:planting_station'
     ])
 })
 

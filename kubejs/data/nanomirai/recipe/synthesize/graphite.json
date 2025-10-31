@@ -1,0 +1,15 @@
+{
+  "type": "nanomirai:synthesize",
+  "block": {
+    "Name": "minecraft:coal_block"
+  },
+  "catalyst": {
+    "item": "submerged:quartz_enriched_gold"
+  },
+  "duration": 60,
+  "result": {
+    "count": 6,
+    "id": "nanomirai:graphite"
+  },
+  "tier": 2
+}

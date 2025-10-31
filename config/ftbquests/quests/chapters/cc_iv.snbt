@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cc_iv"
+	group: "621AB11E96FBBC5F"
+	id: "713B01C02D31073C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "2D63F4F162114011"
+		tasks: [{
+			id: "3F31E2EDBB6FC03C"
+			type: "checkmark"
+		}]
+		x: -1.0d
+		y: -0.5d
+	}]
+}

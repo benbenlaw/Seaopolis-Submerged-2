@@ -9,6 +9,10 @@ StartupEvents.registry("fluid", (event) => {
     event.create('submerged:totemic_infused_water', "thick").tint(0xAAE6FC)
     event.create('submerged:salt_water', "thin").tint(0xAAE6FC)
     event.create('submerged:molten_force', "thick").tint(0xCEB137)
+    event.create('submerged:molten_star', "thick").tint(0xFFFFFF)
+    event.create('submerged:molten_solclipsium', "thick").tint(0xFFC04C)
+    event.create('submerged:warden_tears', "thick").tint(0x052A32)
+    event.create('submerged:time_fluid', "thin").tint(0x38FF63)
 
 })
 

@@ -56,6 +56,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "spaceploitation": {
+    "planet_simulator": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -73,6 +76,13 @@
     "redstone": true,
     "camo": true,
     "semiblock": true
+  },
+  "extrastorage": {
+    "advanced_crafter": true
+  },
+  "fluiddrawerslegacy": {
+    "controller": true,
+    "fluiddrawer": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -118,9 +128,6 @@
     "altar": true,
     "mortar": true,
     "cauldron": true
-  },
-  "woot_revived": {
-    "machines": true
   },
   "gravestone": {
     "grave": true

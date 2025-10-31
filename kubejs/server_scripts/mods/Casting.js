@@ -31,11 +31,17 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting('minecraft:slime_ball', '25x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/slime_ball')
     event.recipes.casting.melting('minecraft:arrow', '10x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/arrow')
     
-    
+    event.recipes.casting.melting('submerged:nether_star_block', '500x submerged:molten_star', 1400).id('submerged:melting/nether_star_block')
+    event.recipes.casting.melting('submerged:grains_of_time', '500x submerged:time_fluid', 1400).id('submerged:melting/grains_of_time')
+
     event.recipes.casting.melting('forcecraft:force_nugget', '10x submerged:molten_force', 1000).id('submerged:melting/force_nugget')
     event.recipes.casting.melting('forcecraft:force_ingot', '90x submerged:molten_force', 1000).id('submerged:melting/force_ingot')
-    event.recipes.casting.melting('forcecraft:force_gear', '360x submerged:molten_force', 1000).id('submerged:melting/force_ingot')
-    
+    event.recipes.casting.melting('forcecraft:force_gear', '360x submerged:molten_force', 1000).id('submerged:melting/force_gear')
+
+    event.recipes.casting.melting('submerged:solclipsium_ingot', '90x submerged:molten_solclipsium', 1400).id('submerged:melting/solclipsium_ingot')
+    event.recipes.casting.melting('submerged:solclipsium_nugget', '10x submerged:molten_solclipsium', 1400).id('submerged:melting/solclipsium_nugget')
+
+
     //Solidifier
     event.recipes.casting.solidifier('strainers:purified_gravel', '100x submerged:organic_water', 'submerged:refined_gravel').id('submerged:solidifier/refined_gravel')
     event.recipes.casting.solidifier('#c:glass_panes/colorless', '500x industrialforegoing:pink_slime', 'industrialforegoing:pink_slime').id('submerged:solidifier/pink_slime')
@@ -47,19 +53,36 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('#c:molds/key', '360x casting:molten_iron', 'submerged:iron_key').id('submerged:solidifier/iron_key')
     event.recipes.casting.solidifier('#c:molds/key', '360x casting:molten_netherite', 'submerged:netherite_key').id('submerged:solidifier/netherite_key')
     event.recipes.casting.solidifier('#c:molds/key', '4000x casting:molten_stone', 'submerged:stone_key').id('submerged:solidifier/stone_key')
+    event.recipes.casting.solidifier('#c:molds/key', '250x submerged:molten_star', 'submerged:starry_key').id('submerged:solidifier/starry_key')
 
     event.recipes.casting.solidifier('#c:molds/ingot', '90x submerged:molten_force', 'forcecraft:force_ingot').id('submerged:solidifier/force_ingot')
     event.recipes.casting.solidifier('#c:molds/nugget', '10x submerged:molten_force', 'forcecraft:force_nugget').id('submerged:solidifier/force_nugget')
     event.recipes.casting.solidifier('#c:molds/gear', '360x submerged:molten_force', 'forcecraft:force_gear').id('submerged:solidifier/force_gear')
 
+    event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_energetic_alloy', 'enderio:energized_gear').id('submerged:solidifier/energized_gear')
+    event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_vibrant_alloy', 'enderio:vibrant_gear').id('submerged:solidifier/vibrant_gear')
+    event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_dark_steel', 'enderio:dark_bimetal_gear').id('submerged:solidifier/dark_bimetal_gear')
+    event.recipes.casting.solidifier('#c:molds/dust', '500x submerged:time_fluid', 'submerged:grains_of_time').id('submerged:solidifier/grains_of_time')
+
+    event.recipes.casting.solidifier('#c:molds/ingot', '90x submerged:molten_solclipsium', 'submerged:solclipsium_ingot').id('submerged:solidifier/solclipsium_ingot')
+    event.recipes.casting.solidifier('#c:molds/nugget', '10x submerged:molten_solclipsium', 'submerged:solclipsium_nugget').id('submerged:solidifier/solclipsium_nugget')
+
     //Mixer
     event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x submerged:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')
+    event.recipes.casting.mixing('360x casting:molten_soularium', ['250x submerged:molten_star', '4000x casting:molten_soul']).id('casting:mixer/soularium')
+    event.recipes.casting.mixing('180x submerged:molten_solclipsium', ['1000x enderio:fluid_liquid_sunshine_still', '1000x enderio:fluid_liquid_darkness_still']).id('casting:mixer/solclipsium')
 
     //Gear Mold
     event.shaped('casting:gear_mold', [' A ', 'ABA', ' A '], {
         A: 'casting:black_brick',
         B: '#c:plastics'
     }).id('submerged:gear_mold')
+
+    //Multiblock Mixer
+    event.shaped('casting:multiblock_mixer', [' A ', 'ABA', ' A '], {
+        A: '#c:ingots/bronze',
+        B: 'casting:mixer'
+    }).id('casting/mixer/multiblock/mixer')
 
     //Multiblock Controller
     event.shaped('casting:multiblock_controller', [' A ', 'ABA', ' A '], {

@@ -1,0 +1,3 @@
+["Industrial Foregoing Fuel Config"]
+	#TEST, item, fluid, fluid amount, energy per tick, duration
+	magma_generator_fuels = ["minecraft:redstone, casting:molten_blaze, 250, 600, 400"]

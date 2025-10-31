@@ -1,8 +1,8 @@
 {
-  "catalogue_item": {
-    "id": "submerged:catalog_catalog"
+  "catalog": { 
+    "id": "submerged:catalog_catalog" 
   },
-  "items": [
+  "entries": [
     { "stack": { "id": "submerged:catalog_hats", "count": 1 }, "price": 5, "mode": "player_buys" },
     { "stack": { "id": "submerged:catalog_ducks", "count": 1 }, "price": 5, "mode": "player_buys" }
   ]

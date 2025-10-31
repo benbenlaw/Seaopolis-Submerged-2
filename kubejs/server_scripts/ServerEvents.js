@@ -117,16 +117,34 @@ BlockEvents.rightClicked(event => {
 
 // World Events
 PlayerEvents.tick(event => {
-
     let player = event.player
 
-    if (player.getFeetArmorItem().hasTag('submerged:diving_gear') && player.getChestArmorItem().hasTag('submerged:diving_gear') && player.getHeadArmorItem().hasTag('submerged:diving_gear') && player.getLegsArmorItem().hasTag('submerged:diving_gear')) {
-        if (player.y > 149) {
-            player.attack(3)
-        } else {
-            return
-        }
-    } else if (player.isInWater() || player.isInRain() || player.isInBubbleColumn() || player.y > 149) {
+    let fullHazmat =
+        player.getFeetArmorItem().hasTag('submerged:hazmat') &&
+        player.getChestArmorItem().hasTag('submerged:hazmat') &&
+        player.getHeadArmorItem().hasTag('submerged:hazmat') &&
+        player.getLegsArmorItem().hasTag('submerged:hazmat');
+
+    // Diving gear protection from high altitude
+    if (
+        player.getFeetArmorItem().hasTag('submerged:diving_gear') &&
+        player.getChestArmorItem().hasTag('submerged:diving_gear') &&
+        player.getHeadArmorItem().hasTag('submerged:diving_gear') &&
+        player.getLegsArmorItem().hasTag('submerged:diving_gear')
+    ) {
+        if (player.y > 149) player.attack(3)
+        return
+    }
+
+    // Environmental toxicity
+    if (!fullHazmat && (player.isInWater() || player.isInRain() || player.isInBubbleColumn() || player.y > 149)) {
         player.attack(3)
+        return
+    }
+
+    // Holding toxic gravel
+    if (!fullHazmat && player.getInventory().contains('submerged:toxic_gravel')) {
+        player.attack(5)
+        return
     }
 })

@@ -4,13 +4,46 @@
 
 Compat, leaves should produce 2 sapling colors, clochee
 Submerged, remove all ores
-Submerged, wooden gear for casting gear mold 
 Ceramic Bucket, saving reosurce fish data when empty, reported fix in works
-UPDATE ROOMOPOLIS, add maxHeight to Big Sphere keys to only allow placing below a sphere 104
+RS DRIVES, CRAFT TO CYCLE NEEDED
 
 A3.0
-- UPDATE TOTEMIC BBL MOD
-
+- Updated Mods
+- Added new quest chapter group theres a lot of new recipes and tweaks there
+- Updated to release version of roomopolis, strainers, in world recipes, cermonies and colors 
+- Fixes a bunch of missing fixes that were marked as complete but not present in A2.1
+- Added Nether Star Block
+- Added Molten Nether Star
+- Added Starry Key
+- Added some custom Storage drawers compacting 
+- Added AI Controller
+- Added Open block Elevator (ADD TO CATALOG SOMEWHERE)
+- Big keys can now only be used one sphere level below the starting sphere level
+- Avian spawns now around the totem instead of on top
+- Fixed Multiblock Mixer recipe not using bronze
+- Adjust Ore Laser drops for grains of infinity and 
+- Reworked Ancient Gravel slightly
+- Removed Pnumaticcraft diamond recipe
+- Fixed catalogs again
+- Changed Infused Alloy name to Infused Tainted Alloy
+- Fixed AE2 Inscriber recipes acting odd when trying to autocraft
+- Increase height of ore laser area 
+- Added Solclipsium ingot and nugget 
+- Added Trash cans
+- Added Industrial Forgoing - Recipes
+- Added RS - Quartz Arsenal
+- Added RS - Curio Integration (DISABLED)
+- Added RS - Extra Storage
+- Added Expanded AE (DISABLED)
+- Added Building Gadgets
+- Added Charging Gadgets 
+- Added Kubejs Mekanism
+- Added Kubejs Ars Nouveau 
+- Added Nano Mirai
+- Added Mekanism Weapons
+- Added Mekanism Unleashed
+- Added Dyson Cube Project
+- Removed Mekanism Generators 
 
 A2.0
 - Updated NeoForge to 21.1.211

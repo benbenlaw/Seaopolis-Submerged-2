@@ -1,0 +1,15 @@
+{
+  "type": "nanomirai:synthesize",
+  "block": {
+    "Name": "minecraft:obsidian"
+  },
+  "catalyst": {
+    "item": "alltheores:steel_plate"
+  },
+  "duration": 600,
+  "result": {
+    "count": 1,
+    "id": "nanomirai:reinforced_obsidian"
+  },
+  "tier": 1
+}

@@ -1,0 +1,9 @@
+{
+	id: "46C19A204BFF7ED4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "7AEB891B061AEB8B", item: { count: 1, id: "routers:chemical_upgrade_2" } }
+		{ id: "1ED1B286266E93CD", item: { count: 1, id: "routers:source_upgrade_2" } }
+	]
+}

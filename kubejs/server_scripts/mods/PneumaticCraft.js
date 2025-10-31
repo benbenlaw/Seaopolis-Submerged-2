@@ -5,10 +5,25 @@ ServerEvents.recipes(event => {
     //Remove
     event.remove({id: "pneumaticcraft:pressure_chamber/transistor"})
     event.remove({id: "pneumaticcraft:pressure_chamber/capacitor"})
+    event.remove({id: "pneumaticcraft:pressure_chamber/coal_to_diamond"})
     event.remove({id: "pneumaticcraft:printed_circuit_board"})
 
     //Replace Input
     event.replaceInput({id: "pneumaticcraft:uv_light_box"}, "pneumaticcraft:pcb_blueprint", 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
+
+    //Teary Gravel
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["8x submerged:ancient_gravel", "submerged:warden_tears_bucket"],
+        2.0,
+        ["8x submerged:teary_gravel", "minecraft:bucket"]
+    ).id('submerged:pneumaticcraft/teary_gravel')
+
+    //Ai Controller
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ['enderio:mind_killer', 'enderio:frank_n_zombie', 'enderio:guardian_diode', 'enderio:skeletal_contractor', 'enderio:sentient_ender'],
+        3.0,
+        ['submerged:ai_controller']
+    ).id('submerged:pneumaticcraft/ai_controller')
 
     //Blaze Powder
     event.recipes.pneumaticcraft.pressure_chamber(

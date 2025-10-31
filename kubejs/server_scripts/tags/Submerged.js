@@ -21,6 +21,9 @@ ServerEvents.tags('item', event => {
     createResourceTag('lapis', 'minecraft:lapis_lazuli', 'minecraft:lapis_block')
     createResourceTag('iron', 'minecraft:iron_nugget', 'minecraft:iron_ingot', 'minecraft:iron_block')
     createResourceTag('gold', 'minecraft:gold_nugget', 'minecraft:gold_ingot', 'minecraft:gold_block')
+    createResourceTag('osmium', 'alltheores:osmium_nugget', 'alltheores:osmium_ingot', 'alltheores:osmium_block')
+    createResourceTag('lead', 'alltheores:lead_nugget', 'alltheores:lead_ingot', 'alltheores:lead_block')
+    createResourceTag('uranium', 'alltheores:uranium_nugget', 'alltheores:uranium_ingot', 'alltheores:uranium_block')
 
     function createResourceTag(resource, nugget, ingot, block) {
         event.get(`submerged:resources/${resource}`).add(nugget, ingot, block);
@@ -31,6 +34,25 @@ ServerEvents.tags('item', event => {
 
     //Pity Frame Logs
     event.get('submerged:pity_frame_logs').add(['naturesaura:ancient_log', 'naturesaura:ancient_bark', 'forcecraft:force_log'])
+
+    //Liquid Sunshine Crafting tag
+    event.get('submerged:sunshine').add(['naturesaura:gold_leaf', 'forcecraft:force_sapling'])
+
+    //Liquid Darkness Crafting tag
+    event.get('submerged:darkness').add('enderio:withering_powder')
+
+    //Raw Materials 
+    event.get('c:raw_materials').remove(['alltheores:salt', '#c:dusts/salt'])
+
+    //Ars Nouveau Saplings
+    event.get('submerged:ars_nouveau_saplings').add(['ars_nouveau:blue_archwood_sapling', 'ars_nouveau:red_archwood_sapling', 'ars_nouveau:purple_archwood_sapling', 'ars_nouveau:green_archwood_sapling'])
+
+    //Industrial Foregoing Lenses
+    event.get('submerged:industrial_lenses').add(['submerged:ancient_lens', 'industrialforegoing:black_laser_lens', 'industrialforegoing:red_laser_lens', 'industrialforegoing:green_laser_lens', 'industrialforegoing:brown_laser_lens', 'industrialforegoing:blue_laser_lens', 'industrialforegoing:purple_laser_lens', 'industrialforegoing:cyan_laser_lens', 'industrialforegoing:white_laser_lens', 'industrialforegoing:orange_laser_lens', 'industrialforegoing:magenta_laser_lens', 'industrialforegoing:light_blue_laser_lens', 'industrialforegoing:yellow_laser_lens', 'industrialforegoing:lime_laser_lens', 'industrialforegoing:pink_laser_lens', 'industrialforegoing:gray_laser_lens', 'industrialforegoing:light_gray_laser_lens'])
+
+    //Top Induction Mek
+    event.get('submerged:top_induction_mek').add(['mekanism:ultimate_induction_provider', 'mekanism:ultimate_induction_cell'])
+
 })
 
 ServerEvents.tags('block', event => {

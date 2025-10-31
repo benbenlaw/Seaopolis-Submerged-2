@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "enderio:mind_killer"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "enderio:frank_n_zombie"
+    },
+    {
+      "item": "enderio:guardian_diode"
+    },
+    {
+      "item": "enderio:skeletal_contractor"
+    },
+    {
+      "item": "enderio:sentient_ender"
+    }
+  ],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "industrialforegoing:pink_slime"
+  },
+  "output": {
+    "count": 1,
+    "id": "submerged:ai_controller"
+  },
+  "processingTime": 300
+}
