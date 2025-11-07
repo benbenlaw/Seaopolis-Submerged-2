@@ -1,7 +1,14 @@
 LootJS.modifiers(event => {
     
     colors.forEach(color => {
-        event.addBlockModifier(`minecraft:${color}_terracotta`).removeLoot(`*`).addLoot(`4x submerged:${color}_terracotta_rocks`)
+
+        // Rocks
+        const coloredTerracottaRocks = LootEntry.alternative(
+            LootEntry.of(`minecraft:${color}_terracotta`).matchTool("#minecraft:pickaxes"),
+            LootEntry.of(`4x submerged:${color}_terracotta_rocks`)
+        )
+
+        event.addBlockModifier(`minecraft:${color}_terracotta`).removeLoot('*').addLoot(coloredTerracottaRocks)
     })
 
     //Remove Diamond and Emerald Ore Loot

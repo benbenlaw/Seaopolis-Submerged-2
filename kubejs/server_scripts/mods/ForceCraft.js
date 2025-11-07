@@ -6,6 +6,10 @@ ServerEvents.recipes(event => {
     event.remove({id: /forcecraft:transmutation\/(?!upgrade_core)/})
     event.remove({id: 'forcecraft:force_ingot_from_gold'})
     event.remove({id: 'forcecraft:force_ingot_from_iron'})
+    event.remove({id: 'forcecraft:golden_power_source'})
+
+    //Golden Power Source
+    event.blasting('forcecraft:golden_power_source', '#forcecraft:force_logs').id('forcecraft:force_ingot_from_gold')
 
     //Withering Dust
     addGrindingRecipe('minecraft:wither_skeleton_skull', 'enderio:withering_powder')

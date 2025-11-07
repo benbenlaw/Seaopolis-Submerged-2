@@ -3,7 +3,12 @@
         {
             "name": "inputs",
             "role": "input",
-            "type": "flat_sized_ingredient[]"
+            "type": {
+				"type": "list",
+				"component": {
+					"type": "flat_sized_ingredient"
+				}
+			}
         },
         {
             "name": "pressure",
@@ -13,7 +18,13 @@
         {
             "name": "results",
             "role": "output",
-            "type": "item_stack[]"
+            "type": {
+				"type": "list",
+				"component": {
+					"type": "item_stack"
+				}
+			}
+
         }
     ]
 }

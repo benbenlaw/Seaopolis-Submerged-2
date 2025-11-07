@@ -226,7 +226,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 18.0d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -326,18 +326,21 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["6B88CC2111A105E5"]
+			dependencies: ["40D7A06604365794"]
 			id: "319B384675352C9C"
 			tasks: [{
 				id: "6EC824BE7602F3C5"
 				item: { count: 1, id: "submerged:shrieking_sphere" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.5d
+			x: 0.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["319B384675352C9C"]
+			dependencies: [
+				"6B88CC2111A105E5"
+				"319B384675352C9C"
+			]
 			icon: {
 				id: "minecraft:sculk_shrieker"
 			}
@@ -350,13 +353,10 @@
 				type: "observation"
 			}]
 			x: 1.5d
-			y: 14.5d
+			y: 13.5d
 		}
 		{
-			dependencies: [
-				"319B384675352C9C"
-				"733D52E21425D81F"
-			]
+			dependencies: ["733D52E21425D81F"]
 			id: "6AC936C9166BD437"
 			tasks: [{
 				id: "5474E0FF649ADC33"
@@ -364,7 +364,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 15.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["6AC936C9166BD437"]
@@ -376,7 +376,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 16.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["697CCAC6BB19751C"]
@@ -388,7 +388,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 19.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["697CCAC6BB19751C"]
@@ -400,7 +400,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 19.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["2E62D820CA280E51"]
@@ -412,17 +412,20 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 20.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6AC936C9166BD437"]
+			icon: {
+				id: "submerged:warden_tears_bucket"
+			}
 			id: "6CB2AD0DB043B3D6"
 			tasks: [{
 				id: "0F9031E7157AA518"
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: 16.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6CB2AD0DB043B3D6"]
@@ -433,7 +436,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 17.0d
+			y: 16.0d
 		}
 	]
 }

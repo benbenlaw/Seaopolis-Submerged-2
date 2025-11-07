@@ -41,12 +41,13 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["411CC7AB0D039805"]
 			id: "1F088278448F315E"
 			tasks: [{
 				id: "1C43F4B534C5A61A"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -6.0d
 		}
 		{
@@ -57,7 +58,7 @@
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -5.0d
 		}
 		{
@@ -68,7 +69,7 @@
 				item: { count: 1, id: "submerged:toxic_gravel" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -79,7 +80,7 @@
 				item: { count: 1, id: "mekmm:recycler" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -90,8 +91,8 @@
 				item: { count: 1, id: "mekmm:scrap" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19F22BF091B160F4"]
@@ -102,7 +103,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7D777D261669E62C"]
@@ -112,18 +113,210 @@
 				item: { count: 1, id: "mekmm:empty_crystal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
+			dependencies: [
+				"50620FC2CCE63785"
+				"2DCF9924D57575C5"
+			]
 			id: "1BC72E740B20B36C"
 			tasks: [{
 				id: "2F77125E828ED878"
 				item: { count: 1, id: "mekmm:uu_matter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3A32DE5882D09C24"]
+			id: "380A9FFA97186521"
+			tasks: [{
+				id: "099E4AB08145DA19"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["380A9FFA97186521"]
+			id: "099CFC27976AEC93"
+			tasks: [{
+				id: "7A03C4151BF6E4D0"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"099CFC27976AEC93"
+				"607ADE90EDB07ACD"
+				"3C24648D65719003"
+			]
+			id: "149CE980BCDE5FFD"
+			tasks: [{
+				id: "79727C06B39E3D58"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["149CE980BCDE5FFD"]
+			id: "4F26945C04B38E75"
+			tasks: [{
+				id: "7540ADF73A490F00"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33051267AA478748"]
+			id: "607ADE90EDB07ACD"
+			tasks: [{
+				id: "37E6151C73478B7D"
+				item: { count: 1, id: "alltheores:fluorite_dust" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4F26945C04B38E75"
+				"2F22D9516ABB189B"
+			]
+			id: "2DCF9924D57575C5"
+			tasks: [{
+				id: "6F46A5CF3AB5B342"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["149CE980BCDE5FFD"]
+			id: "2F22D9516ABB189B"
+			tasks: [{
+				id: "396E4A6BA090DB0E"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["380A9FFA97186521"]
+			id: "3C24648D65719003"
+			tasks: [{
+				id: "258C751A3117C3D5"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BC72E740B20B36C"]
+			id: "0E8BE4C6A61FB9C2"
+			tasks: [{
+				id: "1C77B04DD2234E91"
+				item: { count: 1, id: "mekmm:replicator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1BC72E740B20B36C"]
+			id: "75B72147773BDB32"
+			tasks: [{
+				id: "33DA569EF93741FD"
+				item: { count: 1, id: "mekmm:fluid_replicator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BC72E740B20B36C"]
+			id: "4C2D89C661588B24"
+			tasks: [{
+				id: "058A5DFDD62687CE"
+				item: { count: 1, id: "mekmm:chemical_replicator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5FDA01473E1F6ABA"
+				"1BC72E740B20B36C"
+			]
+			id: "2765E775331F1C60"
+			tasks: [{
+				id: "2E0FC2BBFB5514ED"
+				item: { count: 1, id: "submerged:essence_of_the_sea" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DCF9924D57575C5"]
+			id: "5FDA01473E1F6ABA"
+			tasks: [{
+				id: "63313165F59B4198"
+				item: { count: 1, id: "minecraft:heart_of_the_sea" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DCF9924D57575C5"]
+			id: "7249C61886206724"
+			tasks: [{
+				id: "0A468306B1C3B7BE"
+				item: { count: 1, id: "infinitystorage:empty_infinity_drive" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2765E775331F1C60"
+				"5FCE425776F60E87"
+			]
+			id: "7992FB0B330435F7"
+			tasks: [{
+				id: "0188F7B2B9D238A1"
+				item: { count: 1, id: "infinitystorage:infinity_storage_drive" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7249C61886206724"]
+			id: "5FCE425776F60E87"
+			tasks: [{
+				id: "08F00ACDF6C83C89"
+				item: { count: 1, id: "infinitystorage:infinity_cobblestone_drive" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
 		}
 	]
 }

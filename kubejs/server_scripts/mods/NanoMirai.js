@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'nanomirai:assembler/normal_circuit'}) 
     event.remove({id: 'nanomirai:graphite'}) 
     event.remove({id: 'nanomirai:laser/echo_shard_from_amethyst_shard'}) 
-
+    event.remove({id: 'nanomirai:silicon_from_blasting'})
     //Replace Input 
     event.replaceInput({mod: 'nanomirai'}, 'nanomirai:simple_circuit', 'submerged:logic_processor')
     event.replaceInput({mod: 'nanomirai'}, 'nanomirai:normal_circuit', 'submerged:calculation_processor')

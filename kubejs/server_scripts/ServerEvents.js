@@ -34,13 +34,14 @@ colors.forEach(color => {
 });
 
 const rewardFlares = {
-    /*
-    'minecraft:stick': {
+    
+    //CC I
+    'submerged:reward_flare_ccI': {
         colors: [11743532, 6719955, 14516874],
         loot: [
-            'minecraft:diamond',
-            'minecraft:gold_ingot',
-            'minecraft:emerald'
+            'minecraft:frog_spawn_egg',
+            'minecraft:frog_spawn_egg',
+            '3x opolisutilities:mini_coal'
         ]
     },
     'submerged:mega_crate': {
@@ -52,7 +53,7 @@ const rewardFlares = {
             'minecraft:elytra'
         ]
     }
-        */
+        
 };
 
 BlockEvents.rightClicked(event => {
@@ -93,27 +94,6 @@ BlockEvents.rightClicked(event => {
         event.entity.tell(`${customName} Spawned`);
     });
 });
-
-BlockEvents.rightClicked(event => {
-
-    if (event.block.id == 'submerged:unactivated_prismarine_crystal' && event.getItem().id == 'submerged:prismarine_crystal_activator') {
-        event.server.runCommandSilent('say please works')
-
-        let x = event.getBlock().x
-        let y = event.getBlock().y
-        let z = event.getBlock().z
-
-
-        
-        event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y} ${z} nautec:prismarine_crystal`)
-        event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y + 2} ${z} nautec:prismarine_crystal_part[index=0]`)
-        event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y + 1} ${z} nautec:prismarine_crystal_part[index=1]`)
-        event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y - 1} ${z} nautec:prismarine_crystal_part[index=3]`)
-        event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y - 2} ${z} nautec:prismarine_crystal_part[index=4]`)
-        event.server.runCommandSilent(`execute in minecraft:overworld run setblock ${x} ${y - 3} ${z} nautec:prismarine_crystal_part[index=5]`)
-
-    }
-})
 
 // World Events
 PlayerEvents.tick(event => {

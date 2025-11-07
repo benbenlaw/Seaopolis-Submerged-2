@@ -5,7 +5,7 @@
       "item": "pneumaticcraft:empty_pcb"
     },
     {
-      "type": "fluid_stack",
+      "type": "neoforge:single",
       "amount": 100,
       "fluid": "pneumaticcraft:etching_acid"
     }

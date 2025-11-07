@@ -1,11 +1,39 @@
 //Changelog
 
-//DO NOT UPDATE KUBEJS or COMPAT until ALL kubejs addon are updated, pending KubeJE EnderIO and Natures Arua
-
-Compat, leaves should produce 2 sapling colors, clochee
-Submerged, remove all ores
 Ceramic Bucket, saving reosurce fish data when empty, reported fix in works
-RS DRIVES, CRAFT TO CYCLE NEEDED
+ENDGAME Mods
+- Project E?
+- Draconic
+- extended crafting
+
+A4.0
+- Updated Mods
+- Updated Yuki Textures
+- Updated to KubeJS 7.2
+- Added KubeJS create
+- Added Skrieking Sphere recipe
+- Tweaked Solclipsium quest line order
+- Somewhat finished the 4th main chapter 
+- Added ExtendedAE (AE2) 
+- Added AE2 Things (AE2)
+- Added What is this Structure
+- Added What Are They Up To
+- Added Legendary Tooltips
+- Added Infinity Storage 
+- Added Visual Crafting Table
+- Removed My Infinity Gauntlet
+- Changed all storage disk, drives and block recipes including item, fluid and chemical
+- Removed Buried Treasure
+- Ores now removed from world gen
+- Leaves recipes fixed
+- Balanced Underlater Villges Chests
+- Balanced Shipwrecks chests 
+- Added spheres to world gen, half spawn on top of the ocean floor other half spawn slightly buried, sometimes have 
+zombie villagers spawning inside 
+- Changed Golden Power Source recipe to Blasting
+- Terracotta now drops itself when mined with a pickaxe
+- Updated Title Screen
+- Added Drippy Loading Screen
 
 A3.0
 - Updated Mods
@@ -58,7 +86,7 @@ A2.0
 - Fixed typos
 - Reduced water and toxic air damage to 3 instead of 4
 - Fixed Colored Crafting Table recipes not having prority over vanilla ones
-- Cows now spawn around the totem now in the Song of the Cows cermony (UPDATE TOTEMIC BBL MOD)
+- Cows now spawn around the totem now in the Song of the Cows ceremony (UPDATE TOTEMIC BBL MOD)
 - Reduce the music count needed for cow spawning to 1200 from 2000
 - Reduce the music count needed for avian spawning to 4500 from 8000
 - Fixed shop block not dropping

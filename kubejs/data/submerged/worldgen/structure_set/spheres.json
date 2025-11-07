@@ -1,0 +1,74 @@
+{
+  "structures": [
+    {
+      "structure": "submerged:black",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:white",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:blue",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:red",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:green",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:yellow",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:gray",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:light_gray",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:light_blue",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:cyan",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:purple",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:magenta",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:pink",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:orange",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:lime",
+      "weight": 1
+    },
+    {
+      "structure": "submerged:brown",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 1,
+    "salt": 123123
+  }
+}

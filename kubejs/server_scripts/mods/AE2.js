@@ -6,6 +6,12 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
 
     //Remove
+    event.remove({id: 'extendedae:quartz_blend'})
+    event.remove({id: 'extendedae:quartz_blend_alt'})
+    event.remove({id: 'extendedae:blasting/quartz_blend'})
+
+
+    //Remove
     //event.remove({id: 'ae2:inscriber/engineering_processor_print'})
     //event.remove({id: 'ae2:inscriber/calculation_processor_print'})
     //event.remove({id: 'ae2:inscriber/logic_processor_print'})

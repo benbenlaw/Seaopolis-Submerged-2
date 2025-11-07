@@ -2,3 +2,5 @@
 ["BBL Compat"]
 	#Enables the in world conversion of caveopolis to colors blocks, will increase load times and may cause lag
 	"Caveopolis to Colors World Conversion" = false
+	#When enables all ores will be removed from world generation, only triggers during new chunk generation
+	"Disable Ore Gen" = true

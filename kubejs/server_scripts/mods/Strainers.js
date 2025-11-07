@@ -80,7 +80,8 @@ ServerEvents.recipes(event => {
         echoShard : ['minecraft:water', 'minecraft:echo_shard', 0.05, 0.05, 7, 10],
         osmium: ['minecraft:water', 'strainers:osmium_ore_piece', 0.05, 0.05, 6, 10],
         lead: ['minecraft:water', 'strainers:lead_ore_piece', 0.05, 0.05, 6, 10],
-        uranium: ['minecraft:water', 'strainers:uranium_ore_piece', 0.05, 0.05, 7, 10]
+        uranium: ['minecraft:water', 'strainers:uranium_ore_piece', 0.05, 0.05, 7, 10],
+        fluorite: ['minecraft:water', 'alltheores:fluorite_dust', 0.1, 0.05, 5, 10]
     }
 
 
@@ -192,7 +193,7 @@ ServerEvents.recipes(event => {
         gravelDrops.diamond, gravelDrops.emerald,
         gravelDrops.debris,
         gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead,
-        gravelDrops.uranium
+        gravelDrops.uranium, gravelDrops.fluorite
     ]);
 
     //Tiered Gravel Recipes

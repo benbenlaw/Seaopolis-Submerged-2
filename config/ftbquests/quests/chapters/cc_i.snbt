@@ -283,6 +283,15 @@
 		{
 			dependencies: ["55BE8F1D0B297B3F"]
 			id: "687DB89CA4CEB04E"
+			rewards: [{
+				count: 16
+				id: "635AACD2554F2C63"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -306,6 +315,11 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5BED0687ED3289A2"
+			rewards: [{
+				id: "21001055001A0044"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
 			tasks: [{
 				entity: "totemic:baykok"
 				id: "7AEF86D5AE117C18"
@@ -321,6 +335,14 @@
 				"5BED0687ED3289A2"
 			]
 			id: "5666976BFCBC1AF9"
+			rewards: [{
+				id: "4AD6C26E82ACA26D"
+				item: {
+					count: 1
+					id: "strainers:chance_upgrade_2"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66CBC605A94596AD"
 				type: "checkmark"

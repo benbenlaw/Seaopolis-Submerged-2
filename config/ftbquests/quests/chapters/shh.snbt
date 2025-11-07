@@ -6,13 +6,24 @@
 	id: "569B9AD19E082D9A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "61407878B26F51F4"
-		tasks: [{
-			id: "73FE814B16C7BAFF"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: -2.5d
-	}]
+	quests: [
+		{
+			id: "61407878B26F51F4"
+			tasks: [{
+				id: "73FE814B16C7BAFF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "5F89E60322EC48B5"
+			tasks: [{
+				id: "1421FD9E6219FAD5"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+	]
 }

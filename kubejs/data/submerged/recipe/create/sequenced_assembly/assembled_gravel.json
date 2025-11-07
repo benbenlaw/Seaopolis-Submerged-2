@@ -33,7 +33,7 @@
           "item": "submerged:totemic_infused_gravel"
         },
         {
-          "type": "fluid_stack",
+          "type": "neoforge:single",
           "amount": 250,
           "fluid": "submerged:organic_water"
         }

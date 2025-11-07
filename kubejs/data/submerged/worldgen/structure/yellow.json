@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#c:is_ocean",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:zombie_villager",
+          "maxCount": 5,
+          "minCount": 3,
+          "weight": 100
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "bury",
+  "start_pool": "submerged:yellow",
+  "size": 1,
+  "start_height": {
+    "absolute": -12
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

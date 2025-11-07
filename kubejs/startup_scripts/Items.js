@@ -39,6 +39,14 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:solclipsium_ingot').tag(['c:ingots/solclipsium', 'c:ingots'])
     event.create('submerged:solclipsium_nugget').tag(['c:nuggets/solclipsium', 'c:nuggets'])
 
+    event.create('submerged:essence_of_the_sea')
+
+    event.create('submerged:reward_flare_ccI')
+    event.create('submerged:reward_flare_ccII')
+    event.create('submerged:reward_flare_ccIII')
+    event.create('submerged:reward_flare_ccIV')
+
+
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
         event.create(`submerged:${color}_dirt_pile`).tag('submerged:dirt_pile')

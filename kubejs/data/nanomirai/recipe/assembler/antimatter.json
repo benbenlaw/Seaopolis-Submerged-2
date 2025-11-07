@@ -1,0 +1,39 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "submerged:solclipsium_ingot"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "alltheores:uranium_ingot"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "alltheores:fluorite"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "mekanism:pellet_plutonium"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "mekanism:pellet_polonium"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanism:pellet_antimatter"
+  }
+}

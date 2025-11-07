@@ -56,9 +56,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "spaceploitation": {
-    "planet_simulator": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -94,6 +91,10 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "balm": {
     "jade": true

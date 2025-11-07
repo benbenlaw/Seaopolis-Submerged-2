@@ -5,6 +5,19 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
     
+    //Essence of the Sea
+    event.shaped('submerged:essence_of_the_sea', ['ABA', 'BCB', 'ABA'], {
+        A: 'minecraft:nautilus_shell',
+        B: 'minecraft:heart_of_the_sea',
+        C: 'mekmm:uu_matter'
+    }).id('submerged:essence_of_the_sea')
+
+    //Shrieking Sphere
+    event.shaped('submerged:shrieking_sphere', [' A ', 'ABA', ' A '], {
+        A: 'nanomirai:sculmium_ingot',
+        B: 'submerged:netherite_key'
+    }).id('submerged:shrieking_sphere')
+
     //Sculk Shrieker
     event.shaped('minecraft:sculk_shrieker', ['A', 'B'], {
         A: 'nanomirai:sculk_lens',

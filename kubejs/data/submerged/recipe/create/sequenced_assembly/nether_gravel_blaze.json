@@ -33,7 +33,7 @@
           "item": "submerged:living_gravel"
         },
         {
-          "type": "fluid_stack",
+          "type": "neoforge:single",
           "amount": 250,
           "fluid": "casting:molten_blaze"
         }

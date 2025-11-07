@@ -33,7 +33,7 @@
           "item": "submerged:assembled_gravel"
         },
         {
-          "type": "fluid_stack",
+          "type": "neoforge:single",
           "amount": 1000,
           "fluid": "mob_grinding_utils:fluid_xp"
         }

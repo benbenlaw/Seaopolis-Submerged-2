@@ -13,10 +13,14 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'mekmm:recycler'}, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
 
     //Recycler Recipes
-    addRecyclerRecipe('alltheores:uranium_nugget', 0.1)
+    addRecyclerRecipe('#c:stones', 0.25)
+    addRecyclerRecipe('#c:cobblestones', 0.25)
+
+    //Nuclear Waste
+    addOxidizingRecipe('mekanism:nuclear_waste', 25, 'alltheores:uranium_nugget')
 
     //Toxic Gravel
-    event.recipes.mekanism.injecting('submerged:toxic_gravel', 'submerged:teary_gravel', '1x mekmm:unstable_dimensional_gas', true).id('submerged:toxic_gravel')
+    addInjectingRecipe('submerged:toxic_gravel', 'submerged:teary_gravel', 'mekmm:unstable_dimensional_gas', 25)
 
     //Hazmat Suit Pieces
     event.recipes.mekanism.combining('mekanism:hazmat_mask', '5x alltheores:lead_ingot', 'mekanismtools:bronze_helmet').id('mekanism:hazmat_mask')
@@ -107,15 +111,39 @@ ServerEvents.recipes(event => {
     function addRecyclerRecipe(input, chance) {
         event.custom({
             "type": "mekmm:recycler",
-            "input": {
-                "count": 1,
-                "item": input
-            },
+            "input": Ingredient.of(input).toJson(),
             "chance": chance,
             "output": {
                 "count": 1,
                 "id": "mekmm:scrap"
             }
-        }).id(`submerged:mekanism_recycler/${input.replace(':', '_')}`)
+        }).id(`submerged:mekanism_recycler/${input.replace(':', '_').replace('#', '')}`)
     } 
+
+    //Oxidizing Function
+    function addOxidizingRecipe(output, outputAmount, input) {
+        event.custom({
+            "type":"mekanism:oxidizing",
+            "input":Ingredient.of(input).toJson(),
+            "output":{
+                "amount":outputAmount,
+                "id":output
+            }
+        }).id(`submerged:mekanism_oxidizing/${output.replace(':', '_')}`)
+    }
+
+    //Injecting Function
+    function addInjectingRecipe(output, input, gas, gasAmount) {
+        event.custom({
+            "type":"mekanism:injecting",
+            "chemical_input":{
+                "amount":gasAmount,
+                "chemical":gas
+            },
+            "item_input":Ingredient.of(input).toJson(),
+            "output":Item.of(output).toJson(),
+            "per_tick_usage":true
+        }).id(`submerged:mekanism_injecting/${output.replace(':', '_')}`)
+    }
+
 })

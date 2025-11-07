@@ -1,0 +1,10 @@
+#Determines whether or not the optic blast is goofy
+goofyOpticBlast = false
+#Number of blocks the Spider Sense can detect mobs from
+# Default: 20.0
+# Range: 0.0 ~ 1024.0
+spiderSenseRange = 20.0
+#Number of blocks you can call Mjölnir from
+# Default: 128.0
+# Range: 0.0 ~ 1024.0
+mjolnirCallRange = 128.0
