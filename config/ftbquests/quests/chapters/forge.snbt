@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forge"
+	group: "79FA05351D416013"
+	id: "530CA56928BAC006"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5FCE425776F60E87"]
+			id: "2A1F1E03DA03326A"
+			tasks: [{
+				id: "465A30D2289FC9A5"
+				item: { count: 1, id: "compressedblocks:c5_cobblestone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A1F1E03DA03326A"]
+			id: "3053A88D0EA6D5AB"
+			tasks: [{
+				id: "7FFAD6BD67D44440"
+				item: { count: 1, id: "submerged:cobblestone_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3053A88D0EA6D5AB"]
+			id: "7FD3ABE8D02DA42A"
+			tasks: [{
+				id: "60B14FC45D9FBF87"
+				item: { components: { "minecraft:custom_data": { last_layer: 0b, the_end: 0b }, "minecraft:max_damage": 100 }, count: 1, id: "bedrock_breaker:bedrock_breaker" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FD3ABE8D02DA42A"]
+			id: "4566350060E4C2D2"
+			tasks: [{
+				id: "7453CE3FC799556A"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4566350060E4C2D2"]
+			id: "3026F8E3C51960F0"
+			tasks: [{
+				id: "02C4BB0CB56F4494"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3026F8E3C51960F0"]
+			id: "778DFD152ED55CD5"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "6E4FFB677153DAEE"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["778DFD152ED55CD5"]
+			id: "53A1079E58AFB069"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3DBCC81AB6E69107"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["53A1079E58AFB069"]
+			id: "5E5CD47AF654EE33"
+			tasks: [{
+				id: "610B6DB62FEAF502"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2CEDE0093151D227"]
+			id: "3628AF19074228D8"
+			tasks: [{
+				id: "493B962D80528AB0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:lightning_dragon_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3654F6EAD94C0B0F"]
+			id: "67508416E28B7B10"
+			tasks: [{
+				id: "79E92B198334CFA2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:fire_dragon_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5CF28EFD4A21F4A8"]
+			id: "6E2DEE2B413756E4"
+			tasks: [{
+				id: "01D7B4F6D5108C26"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:ice_dragon_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C02564985E87DE8"]
+			id: "71BA49846B89E745"
+			tasks: [{
+				id: "587B7164EAC472A0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon/fire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6C02564985E87DE8"]
+			id: "69035FC798DB8B20"
+			tasks: [{
+				id: "06DFA782028321F9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon/lightning)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C02564985E87DE8"]
+			id: "7937A1E7EA149493"
+			tasks: [{
+				id: "4D2AF28456A5276E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon/ice)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["71BA49846B89E745"]
+			id: "3654F6EAD94C0B0F"
+			tasks: [{
+				id: "5F24EF1853749D89"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:storage_blocks/scales/dragon/fire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7937A1E7EA149493"]
+			id: "5CF28EFD4A21F4A8"
+			tasks: [{
+				id: "4D84D12B3FB9ED17"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:storage_blocks/scales/dragon/ice)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["69035FC798DB8B20"]
+			id: "2CEDE0093151D227"
+			tasks: [{
+				id: "4E9D562A3916A2C2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:storage_blocks/scales/dragon/lightning)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4B0318D59CB6DE3F"
+				"1075E784003933C1"
+			]
+			id: "6A0F60DED55ACD7B"
+			tasks: [{
+				id: "2ADA1B4673597562"
+				item: { count: 1, id: "iceandfire:dragon_stick" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B0318D59CB6DE3F"]
+			id: "4495BFDF5DDE65E4"
+			tasks: [{
+				id: "2B662FE140A59A42"
+				item: { count: 1, id: "iceandfire:dragon_flute" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["53A1079E58AFB069"]
+			id: "4070FF72EABE1FE7"
+			optional: true
+			tasks: [{
+				id: "4C0CAE2898C3F180"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"778DFD152ED55CD5"
+				"4070FF72EABE1FE7"
+			]
+			dependency_requirement: "one_completed"
+			id: "48E7381C1D516967"
+			tasks: [{
+				id: "214A2BE0C52DE2CF"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"48E7381C1D516967"
+				"4070FF72EABE1FE7"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C02564985E87DE8"
+			tasks: [{
+				id: "27E830AAEAB5778A"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C02564985E87DE8"]
+			id: "4B0318D59CB6DE3F"
+			tasks: [{
+				id: "67E23703A1BD3636"
+				item: { count: 1, id: "iceandfire:dragonbone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B0318D59CB6DE3F"]
+			id: "245248E08A1E87E1"
+			tasks: [{
+				id: "242889387C68BF65"
+				item: { count: 1, id: "iceandfire:dragon_bone_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C02564985E87DE8"]
+			id: "76FD1426381CACB0"
+			tasks: [{
+				id: "5B0E9303F6167C25"
+				item: { count: 1, id: "iceandfire:chain" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["53A1079E58AFB069"]
+			id: "1075E784003933C1"
+			tasks: [{
+				id: "0ED0F257C7B83699"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6E2DEE2B413756E4"
+				"3628AF19074228D8"
+				"67508416E28B7B10"
+			]
+			dependency_requirement: "one_completed"
+			id: "40578F951A22ABCC"
+			tasks: [{
+				id: "76DB97844F6B742C"
+				item: { count: 1, id: "iceandfire:dragon_meal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+	]
+}

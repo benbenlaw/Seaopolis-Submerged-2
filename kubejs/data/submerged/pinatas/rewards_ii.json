@@ -1,0 +1,165 @@
+{
+  "rewards": [
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:zinc_ore_piece"
+        }
+    },  
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:lapis_ore_piece"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },      
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:iron_ore_piece"
+        }
+    },  
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },    
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 4,
+            "id": "mob_grinding_utils:gm_chicken_feed_cursed"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:redstone_ore_piece"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:gold_ore_piece"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 1,
+            "id": "opolisutilities:fluid_generator"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 1,
+            "id": "opolisutilities:resource_generator"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 16,
+            "id": "naturesaura:infused_iron"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 16,
+            "id": "naturesaura:tainted_gold"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 1,
+            "id": "pneumaticcraft:micromissiles"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 1,
+            "id": "shops:gold_coin"
+        }
+    }
+  ]
+}

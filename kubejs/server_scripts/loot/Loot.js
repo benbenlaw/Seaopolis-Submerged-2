@@ -17,6 +17,9 @@ LootJS.modifiers(event => {
     event.addBlockModifier('minecraft:deepslate_diamond_ore').removeLoot('*')
     event.addBlockModifier('minecraft:deepslate_emerald_ore').removeLoot('*')
 
+    //Bedrock 
+    event.addBlockModifier('minecraft:bedrock').addLoot('submerged:bedrock_nugget')
+
     //Ancient Debris
     event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addLoot('submerged:raw_ancient_debris')
 
@@ -25,6 +28,8 @@ LootJS.modifiers(event => {
     event.addEntityModifier('minecraft:skeleton').removeLoot('minecraft:bow')
     event.addEntityModifier('minecraft:drowned').removeLoot('minecraft:copper_ingot')
     event.addEntityModifier('minecraft:zombie').removeLoot('minecraft:iron_ingot')
+    event.addEntityModifier('minecraft:pillager').removeLoot('minecraft:emerald')
+    event.addEntityModifier('minecraft:vindicator').removeLoot('minecraft:emerald')
 
     event.addEntityModifier('minecraft:cow').addLoot('minecraft:leather')
 

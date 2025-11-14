@@ -1,0 +1,224 @@
+{
+  "rewards": [
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:copper_ore_piece"
+        }
+    },  
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:tin_ore_piece"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },      
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:aluminum_ore_piece"
+        }
+    },  
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },    
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:purified_stone"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:purified_sand"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 64,
+            "id": "strainers:purified_dirt"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 1,
+            "id": "cloche:cloche"
+        }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+        "id": "opolisutilities:animal_net",
+		"count": 2,
+		"components": {
+			"opolisutilities:entity_type": "minecraft:frog",
+			"opolisutilities:entity_data": {
+				"Brain": {
+					"memories": {
+						"minecraft:long_jump_cooling_down": {
+							"value": 45
+						}
+					}
+				},
+				"HurtByTimestamp": 0,
+				"neoforge:attachments": {
+					"accessories:inventory_holder": {}
+				},
+				"FallFlying": 0,
+				"ForcedAge": 0,
+				"Invulnerable": 0,
+				"AbsorptionAmount": 0.0,
+				"PortalCooldown": 0,
+				"FallDistance": 0.0,
+				"InLove": 0,
+				"DeathTime": 0,
+				"variant": "minecraft:temperate",
+				"HandDropChances": [
+					0.085,
+					0.085
+				],
+				"PersistenceRequired": 0,
+				"UUID": [
+					2141748509,
+					895173077,
+					-1371261543,
+					-7713715
+				],
+				"NeoForgeData": {
+					"naturesaura:time_alive": 40
+				},
+				"Age": 0,
+				"Motion": [
+					0.008297059474387606,
+					-0.0784000015258789,
+					0.008370567989119842
+				],
+				"Health": 10.0,
+				"LeftHanded": 0,
+				"Air": 300,
+				"OnGround": 1,
+				"Rotation": [
+					315.25284,
+					-29.660965
+				],
+				"HandItems": [
+					{},
+					{}
+				],
+				"ArmorDropChances": [
+					0.085,
+					0.085,
+					0.085,
+					0.085
+				],
+				"neoforge:spawn_type": "SPAWN_EGG",
+				"Pos": [
+					8253.317667939844,
+					160.0,
+					8153.307189826938
+				],
+				"warp_pipes:prevent_warp": 0,
+				"warp_pipes:warp_cooldown": 0,
+				"ArmorItems": [
+					{},
+					{},
+					{},
+					{}
+				],
+				"Fire": -1,
+				"CanPickUpLoot": 0,
+				"attributes": [
+					{
+						"id": "minecraft:generic.movement_speed",
+						"base": 1.0
+					},
+					{
+						"id": "minecraft:generic.oxygen_bonus",
+						"base": 0.0
+					},
+					{
+						"modifiers": [
+							{
+								"operation": "add_multiplied_base",
+								"amount": 0.09051523900136964,
+								"id": "minecraft:random_spawn_bonus"
+							}
+						],
+						"id": "minecraft:generic.follow_range",
+						"base": 16.0
+					}
+				],
+				"HurtTime": 0
+			}
+        }
+      }
+    },
+    {
+        "chance": 0.5,
+        "item": {
+            "count": 2,
+            "id": "shops:copper_coin"
+        }
+    },  
+    {
+        "chance": 1.0,
+        "item": {
+            "count": 1,
+            "id": "shops:gold_coin"
+        }
+    }
+  ]
+}

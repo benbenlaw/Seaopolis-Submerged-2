@@ -13,6 +13,7 @@ StartupEvents.registry("fluid", (event) => {
     event.create('submerged:molten_solclipsium', "thick").tint(0xFFC04C)
     event.create('submerged:warden_tears', "thick").tint(0x052A32)
     event.create('submerged:time_fluid', "thin").tint(0x38FF63)
+    event.create('submerged:dragons_breath', "thin").tint(0xdb9bc3)
 
 })
 

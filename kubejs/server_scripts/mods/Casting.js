@@ -66,6 +66,8 @@ ServerEvents.recipes(event => {
 
     event.recipes.casting.solidifier('#c:molds/ingot', '90x submerged:molten_solclipsium', 'submerged:solclipsium_ingot').id('submerged:solidifier/solclipsium_ingot')
     event.recipes.casting.solidifier('#c:molds/nugget', '10x submerged:molten_solclipsium', 'submerged:solclipsium_nugget').id('submerged:solidifier/solclipsium_nugget')
+    
+    event.recipes.casting.solidifier('minecraft:glass_bottle', '250x submerged:dragons_breath', 'minecraft:dragon_breath').id('submerged:solidifier/dragon_breath')
 
     //Mixer
     event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x submerged:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')

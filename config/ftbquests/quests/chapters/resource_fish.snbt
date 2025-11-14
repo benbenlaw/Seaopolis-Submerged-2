@@ -3,6 +3,10 @@
 	default_quest_shape: ""
 	filename: "resource_fish"
 	group: "64828B4E59DB0E48"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mob_grinding_utils:spikes"
+	}
 	id: "092C9843B11AA1ED"
 	order_index: 1
 	quest_links: [ ]
@@ -24,8 +28,8 @@
 				item: { count: 1, id: "strainers:redstone_ore_piece" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.5d
+			x: 2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3F2EA9A5FA64673E"]
@@ -43,8 +47,8 @@
 				item: { count: 1, id: "minecraft:redstone_ore" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.5d
+			x: 2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["60037D4B23D755E0"]
@@ -62,8 +66,8 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.5d
+			x: 2.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["45B09F8E3743944D"]
@@ -230,8 +234,8 @@
 				item: { count: 1, id: "storagedrawers:controller" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7ED2175CCB3A787E"]
@@ -587,8 +591,8 @@
 				item: { count: 1, id: "minecraft:amethyst_shard" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.5d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2C4CFF42EE89DF97"]
@@ -606,8 +610,8 @@
 				item: { count: 1, id: "minecraft:tinted_glass" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.5d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["719149B1FE51F56E"]
@@ -646,6 +650,55 @@
 			}]
 			x: 5.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["7FF77CD147DD819F"]
+			id: "6B778C2A911A1FF9"
+			rewards: [{
+				id: "7CFA1691FFA42D8E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "235DF8214A80372A"
+				item: { count: 1, id: "submerged:zombie_trial_sphere" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6B778C2A911A1FF9"]
+			id: "47C8DAEDA3918B23"
+			rewards: [{
+				id: "1D538B09DC6BF11A"
+				item: {
+					count: 1
+					id: "mekanismtools:bronze_shield"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7536BBBAEB1906AC"
+				item: { count: 1, id: "submerged:ominous_drink" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["47C8DAEDA3918B23"]
+			id: "5B2590D5D45C53A6"
+			tasks: [{
+				id: "12DD6AB962243F7D"
+				item: { count: 1, id: "submerged:skeleton_trial_sphere" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
 		}
 	]
 }

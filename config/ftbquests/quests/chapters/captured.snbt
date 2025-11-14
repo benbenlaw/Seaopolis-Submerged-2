@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "captured"
 	group: "1DC99ACF42B51C2F"
+	hide_quest_until_deps_complete: true
 	id: "7E591E99954B9956"
 	order_index: 3
 	quest_links: [ ]

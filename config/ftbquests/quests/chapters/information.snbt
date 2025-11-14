@@ -4,6 +4,14 @@
 	filename: "information"
 	group: ""
 	id: "4DE9D3E26CC79511"
+	images: [{
+		height: 3.0d
+		image: "submerged:textures/quests/title.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -3.0d
+		y: -8.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -13,8 +21,8 @@
 				id: "5051C2CCA54BECFC"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -8.0d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -222,8 +230,8 @@
 				id: "7457F8602FE4F21B"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -9.0d
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 }

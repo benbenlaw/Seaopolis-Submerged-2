@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "621AB11E96FBBC5F"
+	hide_quest_until_deps_complete: true
 	id: "323791C40AB86271"
 	order_index: 2
 	quest_links: [ ]

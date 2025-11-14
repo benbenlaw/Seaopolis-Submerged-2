@@ -1,0 +1,21 @@
+{
+  "text_formatting": {
+    "configNameDisplayColour": "#00dfff",
+    "grayFormattingColour": "#bec7d2"
+  },
+  "debug_options": {
+    "listClientModsOnJoin": false
+  },
+  "test_options": {
+    "testItem": {
+      "id": "minecraft:apple",
+      "count": 18
+    },
+    "testObject": {},
+    "testEnum": "foo",
+    "testString": "foo",
+    "testBool": true,
+    "testInt": 1,
+    "testDouble": 0.0
+  }
+}

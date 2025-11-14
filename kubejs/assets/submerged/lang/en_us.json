@@ -1,4 +1,10 @@
 {
     "item.ae2.cell_component_256k": "Simply The Best Storage Component",
-    "item.totemic.iron_bells": "Bronze Bells"
+    "item.totemic.iron_bells": "Bronze Bells",
+
+    "item.iceandfire.ice_dragon_blood": "Ice Dragon Breath",
+    "item.iceandfire.fire_dragon_blood": "Fire Dragon Breath",
+    "item.iceandfire.lightning_dragon_blood": "Lightning Dragon Breath"
+
+
 }

@@ -78,6 +78,9 @@ ServerEvents.recipes(event => {
     //Warden 
     addFluidLaserBase('nanomirai:sculk_lens', 'minecraft:warden', 'submerged:warden_tears', 25)
 
+    //Ender Dragon
+    addFluidLaserBase('industrialforegoing:pink_laser_lens', 'minecraft:ender_dragon', 'submerged:dragons_breath', 50)
+
 
     //Dissolution Chamber Function
     function addDissolutionRecipe(inputs, fluidIn, fluidAmount, output, time) {

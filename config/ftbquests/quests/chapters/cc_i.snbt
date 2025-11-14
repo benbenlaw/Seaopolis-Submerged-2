@@ -3,12 +3,19 @@
 	default_quest_shape: ""
 	filename: "cc_i"
 	group: "4612AF3A2F3FA9D5"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "simplehats:presentsstack"
+	}
 	id: "006EF0F89F057098"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7146FFDA00A9C873"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "62145647753A3DEF"
 			rewards: [{
 				id: "081760C72A306261"
@@ -27,6 +34,9 @@
 		}
 		{
 			dependencies: ["3E77A3BEE08A4625"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "22724BA354777C5B"
 			rewards: [{
 				id: "0E733FFF3170EE6C"
@@ -45,6 +55,9 @@
 		}
 		{
 			dependencies: ["5F8F21780228A78A"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "27DBC76291B84F4A"
 			rewards: [{
 				id: "48B33FF15E0FDF9E"
@@ -63,6 +76,9 @@
 		}
 		{
 			dependencies: ["720357CCE1FC83FD"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "55BE8F1D0B297B3F"
 			rewards: [{
 				id: "5C26B4FC1D33A442"
@@ -105,6 +121,9 @@
 				"01B8A8A38428A291"
 				"6636ED1448E42943"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "7A136D13050B2E25"
 			rewards: [{
 				id: "03BF76A0F0752137"
@@ -196,6 +215,9 @@
 				"00D1B2C218714FA2"
 				"568CC680692389D0"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "0EC3C96555FA122A"
 			rewards: [{
 				id: "10F9213E32BC3AAB"
@@ -239,6 +261,9 @@
 				"12F23F16840A8AAC"
 				"52AB60EFCCD14DDB"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "0DB0A6AA4BBC6530"
 			rewards: [{
 				count: 64
@@ -334,6 +359,9 @@
 				"687DB89CA4CEB04E"
 				"5BED0687ED3289A2"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "5666976BFCBC1AF9"
 			rewards: [{
 				id: "4AD6C26E82ACA26D"
@@ -357,7 +385,21 @@
 				"5666976BFCBC1AF9"
 				"7A136D13050B2E25"
 			]
+			icon: {
+				id: "simplehats:presentsstack"
+			}
 			id: "7DD8B71FB620626E"
+			rewards: [{
+				id: "12F3FACA754CD92F"
+				item: {
+					components: {
+						"shops:pinata_id": "submerged:rewards_i"
+					}
+					count: 1
+					id: "shops:pinata_flare"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "7065B414E85AA46D"

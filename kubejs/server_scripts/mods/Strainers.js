@@ -51,8 +51,25 @@ ServerEvents.recipes(event => {
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:crimson_fungus', 0.2, 0.05, 6, 10);
     strainerAuto('strainers:purified_soul_sand', 'minecraft:water', 'minecraft:warped_fungus', 0.2, 0.05, 6, 10); 
 
-    //Purifed Soul Sand -> Gold Ore Piece
+    //Ruby, Sapphire, Peridot
+    strainerAuto('submerged:fiery_gravel', 'minecraft:water', 'alltheores:ruby', 0.05, 0.01, 6, 10);
+    strainerAuto('submerged:icy_gravel', 'minecraft:water', 'alltheores:sapphire', 0.05, 0.01, 6, 10);
+    strainerAuto('submerged:stormy_gravel', 'minecraft:water', 'alltheores:peridot', 0.05, 0.01, 6, 10);
 
+    //Dragon Scales
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_red', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_white', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_green', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_bronze', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_gray', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_blue', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_sapphire', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_silver', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_electric', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_amethyst', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_copper', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_black', 0.4, 0.05, 8, 10);
+    strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', '2x iceandfire:dragonbone', 0.5, 0.05, 6, 10);
 
     //Gravel Drops
     const gravelDrops = {

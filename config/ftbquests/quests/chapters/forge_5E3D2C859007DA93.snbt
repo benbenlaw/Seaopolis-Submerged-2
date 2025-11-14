@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forge_5E3D2C859007DA93"
+	group: "79FA05351D416013"
+	id: "5E3D2C859007DA93"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["361C8A78593BD91A"]
+			id: "2D3E4DE0A3948581"
+			tasks: [{
+				id: "791DD961011B9DD5"
+				item: { count: 1, id: "iceandfire:dragonforge_ice_brick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["361C8A78593BD91A"]
+			id: "4A0FE892829AE59B"
+			tasks: [{
+				id: "2F1BA9EA4DCE5C7B"
+				item: { count: 1, id: "iceandfire:dragonforge_fire_brick" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["361C8A78593BD91A"]
+			id: "1DDF348261CD6F63"
+			tasks: [{
+				id: "188F9C4691C96565"
+				item: { count: 1, id: "iceandfire:dragonforge_lightning_brick" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D3E4DE0A3948581"]
+			id: "527BBCEB19C3A3BE"
+			tasks: [{
+				id: "02B49F0E8ECD9273"
+				item: { count: 1, id: "iceandfire:dragonforge_ice_input" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A0FE892829AE59B"]
+			id: "6E5B41421760C162"
+			tasks: [{
+				id: "152F9C70CE827B07"
+				item: { count: 1, id: "iceandfire:dragonforge_fire_input" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1DDF348261CD6F63"]
+			id: "06C261FCC3C27272"
+			tasks: [{
+				id: "44B081A825877AEB"
+				item: { count: 1, id: "iceandfire:dragonforge_lightning_input" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["527BBCEB19C3A3BE"]
+			id: "7B6703D0DE950CC2"
+			tasks: [{
+				id: "4F63FE3AAC3A360A"
+				item: { count: 1, id: "iceandfire:dragonforge_ice_core_disabled" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E5B41421760C162"]
+			id: "5C10405E7300D7A5"
+			tasks: [{
+				id: "28DE01644605BA36"
+				item: { count: 1, id: "iceandfire:dragonforge_fire_core_disabled" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06C261FCC3C27272"]
+			id: "09C97F3578D079A5"
+			tasks: [{
+				id: "286544CB612623DD"
+				item: { count: 1, id: "iceandfire:dragonforge_lightning_core_disabled" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ED061CF3D76EC1C"]
+			id: "5468A49A8F8F9382"
+			tasks: [{
+				id: "2A290E5093CAD8FA"
+				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B92C7D2731FB70C"]
+			id: "15F04539C2CE5186"
+			tasks: [{
+				id: "05CC3E1B0BBF6B43"
+				item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66DDB1035A1DF5B1"]
+			id: "607109E844CC7406"
+			tasks: [{
+				id: "11C71F1416FD12C4"
+				item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["607109E844CC7406"]
+			id: "2D82B1942A15AB01"
+			tasks: [{
+				id: "2CEE198DBCF3D8A5"
+				item: { count: 1, id: "submerged:stormy_gravel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5468A49A8F8F9382"]
+			id: "0D4E597700F0520B"
+			tasks: [{
+				id: "2583FD12C5797B04"
+				item: { count: 1, id: "submerged:fiery_gravel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15F04539C2CE5186"]
+			id: "25E4714517DC70A2"
+			tasks: [{
+				id: "32CA9AD55C4DFF3D"
+				item: { count: 1, id: "submerged:icy_gravel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E2DEE2B413756E4"
+				"3628AF19074228D8"
+				"67508416E28B7B10"
+			]
+			dependency_requirement: "one_completed"
+			id: "361C8A78593BD91A"
+			tasks: [{
+				id: "6E17B02A23135B35"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C10405E7300D7A5"]
+			id: "4ED061CF3D76EC1C"
+			tasks: [{
+				id: "1ADCE90704C6355D"
+				item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B6703D0DE950CC2"]
+			id: "1B92C7D2731FB70C"
+			tasks: [{
+				id: "6C89FB2BB3CC10E7"
+				item: { count: 1, id: "iceandfire:ice_dragon_blood" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09C97F3578D079A5"]
+			id: "66DDB1035A1DF5B1"
+			tasks: [{
+				id: "07ED12ABB818AE19"
+				item: { count: 1, id: "iceandfire:lightning_dragon_blood" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25E4714517DC70A2"]
+			id: "1B8EE3218801C5CE"
+			tasks: [{
+				id: "3BD287A4FC8410A7"
+				item: { count: 1, id: "alltheores:sapphire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D4E597700F0520B"]
+			id: "7B5643707552150B"
+			tasks: [{
+				id: "687326E23402F9C2"
+				item: { count: 1, id: "alltheores:ruby" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D82B1942A15AB01"]
+			id: "35C0D109C374AA34"
+			tasks: [{
+				id: "1F5562BF7023DBE0"
+				item: { count: 1, id: "alltheores:peridot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+}

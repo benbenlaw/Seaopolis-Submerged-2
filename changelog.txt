@@ -1,10 +1,67 @@
 //Changelog
 
-Ceramic Bucket, saving reosurce fish data when empty, reported fix in works
 ENDGAME Mods
 - Project E?
 - Draconic
 - extended crafting
+
+SHOPS - jei to add types of flare
+SHOPS - make amount of hit track between world reloads
+SHOPS - translations
+SHOPS - random amount and item mode
+
+Do Not Update IceAndFire crashes when opening GUI of forges
+
+A5.0
+- Updated Mods
+- Changed Simply the best componet recipe
+- Added all chapter rewards to CC II, final rewards are wip
+- Added all chapter rewards to CC III, final rewards are wip
+- Added ME Requester (AE2)
+- Added Refined Storage: Requestify (RS)
+- Added Custom Machinery, Mekanism, Pnematticraft, Ars Nouveau, Create addons
+- Added Holycube - Bedrock Breaker
+- Added LootR
+- Added IceAndFire Community Edition
+- Added Farmer's Delight
+- Added first CC rewards, using the new Shops Pinata System
+- Resource and Fluid Generator can now be obtained though CC reward II, 
+limited to one of each, JEI shows this information
+- Made the quest book look a lot better 
+- Submerged and Expansions chapters now complete only minor tweaks expected now
+- Shrieking Key can now only be used on nether brick locks 
+- Tweaked Shrieking Sphere structure 
+- Nether is now submerged in lava 
+- Removed AFK Satus 
+- Added the first Trial Spheres, using custom trail spawners, grant rewards, will be a linear 
+    progression through most mods with the final one likely giving something for the end game
+- Trail spheres are meant to be tricky !
+- Added Illagers Wear Armor
+- Pillagers and Vindicators no longer drop Emeralds
+- Ceramic Buckets should now clear components from resource fish (fixes stacking issues)
+- Infintiy Water and Infinity Cobblestone Cells now banned, use Infinity Storage versions instead
+- Added Infinity Dirt, Gravel, Sand and Stone drives for Infinity Storage
+- Flares can now do multistack items 
+- Colored flares now give a stack of that colors terracotta when used
+
+Resource Fish Changes
+- Full recipe overhaul for breeding and infusing, breeding recipes allow you to get from base fish (water, lava, dirt, stone, wood)
+    to every other type of resource fish through a series of breeding steps and new breeding items.
+    Infusion recipes allow you to infuse a fish with a resource to change its type directly.
+    This helps modpack makers control the availability of certain fish types and restrict in ways they see fit.
+- Added Colored Fish for all base colors, produce dyes
+- Added Glowstone, Quartz Fish
+- Added fish should be obtainable through breeding and infusing.
+- Tweaked a lot of caviar processor recipes
+- Added Basic, Metallic, Crystal, Nether and Basic Mob Fish Foods, these are used in breeding recipes
+- Reduced spawning of resource fish in the world
+- Fixed missing round robin
+- Removed some debus logs
+- Fixed spawn eggs not working correctly on water blocks
+- Caviar processor now uses SizedIngredientChanceResult to allow for tag based outputs, this recipe json has changed check the data/recipes/caviar jsons for examples
+- Fixed JEI always showing an empty fluid stack in the caviar processor recipes
+- Added support for most common resource types, only show when detected in the game
+- Fixed conditional loading of resource fish not working correctly
 
 A4.0
 - Updated Mods

@@ -74,9 +74,6 @@
     "camo": true,
     "semiblock": true
   },
-  "extrastorage": {
-    "advanced_crafter": true
-  },
   "fluiddrawerslegacy": {
     "controller": true,
     "fluiddrawer": true
@@ -96,8 +93,15 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "iceandfire": {
+    "multipart": true,
+    "dragon": true
+  },
   "balm": {
     "jade": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,

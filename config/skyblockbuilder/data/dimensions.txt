@@ -1,4 +1,5 @@
 minecraft:overworld
+iceandfire:dread_land
 minecraft:the_end
 minecraft:the_nether
 ae2:spatial_storage

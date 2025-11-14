@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "dissolution"
 	group: "1DC99ACF42B51C2F"
+	hide_quest_until_deps_complete: true
 	id: "4DCA4E15279048E5"
 	order_index: 2
 	quest_links: [ ]
@@ -194,7 +195,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [

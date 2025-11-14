@@ -1,8 +1,13 @@
 {
+	autofocus_id: "0D82DB8BCC19F8AC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "keys"
 	group: "4612AF3A2F3FA9D5"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "submerged:key_mold"
+	}
 	id: "5F8F21780228A78A"
 	order_index: 2
 	quest_links: [ ]

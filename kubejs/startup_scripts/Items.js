@@ -31,21 +31,31 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:starry_key')    
     event.create('submerged:ai_controller')    
     event.create('submerged:grains_of_time').displayName('Grains of Time Gone By')
-    
+    event.create('submerged:essence_of_the_sea')
+
     event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')
     event.create('submerged:calculation_processor').tag('submerged:calculation_processors').texture('ae2:item/calculation_processor')
     event.create('submerged:engineering_processor').tag('submerged:engineering_processors').texture('ae2:item/engineering_processor')
     
     event.create('submerged:solclipsium_ingot').tag(['c:ingots/solclipsium', 'c:ingots'])
     event.create('submerged:solclipsium_nugget').tag(['c:nuggets/solclipsium', 'c:nuggets'])
+    event.create('submerged:cobblestone_ingot').tag(['c:ingots/cobblestone', 'c:ingots'])
+    event.create('submerged:cobblestone_nugget').tag(['c:nuggets/cobblestone', 'c:nuggets'])
+    event.create('submerged:bedrock_ingot').tag(['c:ingots/bedrock', 'c:ingots'])
+    event.create('submerged:bedrock_nugget').tag(['c:nuggets/bedrock', 'c:nuggets'])
 
-    event.create('submerged:essence_of_the_sea')
+    //Infinity Drives
+    event.create("submerged:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")
+    event.create("submerged:infinity_gravel_drive", 'infinity_drive').infinityStack("minecraft:gravel")
+    event.create("submerged:infinity_dirt_drive", 'infinity_drive').infinityStack("minecraft:dirt")
+    event.create("submerged:infinity_stone_drive", 'infinity_drive').infinityStack("minecraft:stone")
 
-    event.create('submerged:reward_flare_ccI')
-    event.create('submerged:reward_flare_ccII')
-    event.create('submerged:reward_flare_ccIII')
-    event.create('submerged:reward_flare_ccIV')
-
+    event.create('submerged:ominous_drink').food(food => {food
+            .nutrition(0)
+            .saturation(0)
+            .alwaysEdible(true)
+            .effect("minecraft:bad_omen", 10*20, 0, 1.0)
+    }).displayName('Ominous Drink')
 
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
@@ -56,7 +66,7 @@ StartupEvents.registry('item', (event) => {
     //Nether Brick Sphere
     event.create('submerged:shrieking_sphere', 'roomopolis_key')
         .templateId('submerged:spheres/shrieking_sphere')
-        .keyBlock('#submerged:terracotta_lock')
+        .keyBlock('submerged:nether_brick_lock')
         .heightAdjustment(0)
         .frontAdjustment(-1)
         .doorLeft(1) 
@@ -239,4 +249,41 @@ StartupEvents.registry('item', (event) => {
         .topOnlyPlacement(true)
         .tag('submerged:keys/altar')
 
+    event.create(`submerged:zombie_trial_sphere`, 'roomopolis_key')
+        .templateId(`submerged:trial_spheres/zombie`)
+        .keyBlock(`#submerged:terracotta_lock`)
+        .heightAdjustment(0)
+        .frontAdjustment(-1)
+        .doorLeft(1)
+        .doorRight(1)
+        .doorUp(1)
+        .doorDown(1)
+        .consumeKey(true)
+        .removeDoor(true)
+        .blocksRequired(false)
+        .overrideExistingBlocks(true)
+        .tag('submerged:keys/trial_sphere')
+
+    const trialSphere = ["skeleton", "creeper", "pirate", "slime", "spider"]
+
+    trialSphere.forEach(sphere => {
+        event.create(`submerged:${sphere}_trial_sphere`, 'roomopolis_key')
+            .templateId(`submerged:trial_spheres/${sphere}`)
+            .keyBlock(`submerged:tuff_brick_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/trial_sphere')
+    })
+
+
+
+    
 })

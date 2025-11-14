@@ -1,0 +1,23 @@
+{
+	id: "6F71628574E661FA"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "0214734235FC249B"
+			item: {
+				count: 1
+				id: "refinedstorage:speed_upgrade"
+			}
+		}
+		{
+			count: 4
+			id: "345BB6DE3B5AFD26"
+			item: {
+				count: 1
+				id: "ae2:speed_card"
+			}
+		}
+	]
+}

@@ -3,8 +3,367 @@
 	default_quest_shape: ""
 	filename: "cc_iii"
 	group: "1DC99ACF42B51C2F"
+	hide_quest_until_deps_complete: true
 	id: "1F7AEF9A41AE6F54"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1AF122F4F516298A"]
+			id: "6B6ABEEF598AF230"
+			rewards: [{
+				id: "4A60D0EE9857423F"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5815D279EA35B195"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B6ABEEF598AF230"]
+			id: "066F33EDCEBC7E86"
+			rewards: [{
+				id: "7A192F1C7CA5C06D"
+				item: {
+					components: {
+						"titanium:augments": {
+							Speed: 3.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:speed_addon_tier_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "10DCC42DC7254157"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B6ABEEF598AF230"]
+			id: "3ED2A57EA80E8B4B"
+			rewards: [{
+				id: "10C93A40AA73CAE4"
+				item: {
+					components: {
+						"titanium:augments": {
+							Efficiency: 0.8f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:efficiency_addon_tier_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "24A76B4A66092A40"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"066F33EDCEBC7E86"
+				"3ED2A57EA80E8B4B"
+			]
+			id: "4542CF8ED6E6A67F"
+			rewards: [{
+				id: "0472EA9B2A8293AC"
+				item: {
+					components: {
+						"titanium:augments": {
+							Processing: 3.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:processing_addon_tier_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "041ED6436F43EDD5"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E9B63EA9FA08A4A"]
+			id: "47DCF6A5AF212C81"
+			rewards: [{
+				id: "3FB534B5A6875A7D"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CDF2A334D526438"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47DCF6A5AF212C81"]
+			id: "1C898317035D7B5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "480A1356640A87DE"
+				table_id: 8030307935909732858L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "55F63C0A241B310D"
+				item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47DCF6A5AF212C81"]
+			id: "22D478D330521CB2"
+			rewards: [{
+				id: "5A69203DA5606492"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "067556E7CF7FCE9E"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"22D478D330521CB2"
+				"1C898317035D7B5F"
+			]
+			id: "7E417EC6DDAD2F90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE9A894A23069F0"
+				table_id: 2019840144407634539L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "01F3DBB100B86DDE"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4542CF8ED6E6A67F"
+				"7E417EC6DDAD2F90"
+				"22AC677A42AE1F35"
+				"6642B6226116D094"
+			]
+			id: "7001FF8CE9F800BB"
+			size: 2.0d
+			tasks: [{
+				id: "0C73FBFA6C3A200A"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DCA4E15279048E5"]
+			id: "50819594C402FD66"
+			rewards: [{
+				id: "67A93EBAB58EB439"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C972A3BDC9E1039"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50819594C402FD66"]
+			id: "0658C0498D73F76D"
+			rewards: [{
+				count: 4
+				id: "606C11614B1C73DD"
+				item: {
+					count: 1
+					id: "industrialforegoing:laser_drill"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "30CFF0ACE199C25D"
+				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0658C0498D73F76D"
+				"72680F59328DB9E5"
+			]
+			id: "22AC677A42AE1F35"
+			rewards: [{
+				id: "6CA82BA74BACE1D5"
+				item: {
+					count: 1
+					id: "create:wand_of_symmetry"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C77B779FDFFA39A"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50819594C402FD66"]
+			id: "72680F59328DB9E5"
+			rewards: [{
+				id: "58E9D371CE043559"
+				item: {
+					count: 1
+					id: "routers:speed_upgrade_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7977CED1D9417C83"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E591E99954B9956"]
+			id: "17470B72F99B356B"
+			rewards: [{
+				id: "59C61499DEDFE148"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "429A7CD75D4A4768"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17470B72F99B356B"]
+			id: "628C9F109EC033ED"
+			rewards: [{
+				id: "7C248AF551938120"
+				item: {
+					components: {
+						"casting:beheading": 1b
+						"casting:equipment_level": 4
+						"casting:looting": 3
+						"casting:sharpness": 5
+						"minecraft:custom_name": "\"Sword of Justice\""
+					}
+					count: 1
+					id: "minecraft:diamond_sword"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "6C34A71E12D38338"
+				type: "kill"
+				value: 12L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"628C9F109EC033ED"
+				"65B25965701EAA49"
+			]
+			id: "6642B6226116D094"
+			rewards: [{
+				id: "651873CF7824F2D8"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			tasks: [{
+				id: "525BE29BBB0F90A0"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17470B72F99B356B"]
+			id: "65B25965701EAA49"
+			rewards: [{
+				count: 4
+				id: "5422A3C4D84F7810"
+				item: {
+					count: 1
+					id: "industrialforegoing:machine_frame_supreme"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "industrialforegoing:ether_gas"
+				}
+				id: "08F7883F1CCDDF11"
+				type: "fluid"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+	]
 }

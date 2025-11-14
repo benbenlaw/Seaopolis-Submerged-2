@@ -1,8 +1,13 @@
 {
+	autofocus_id: "4A4250E8D7E9B00D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stone"
 	group: "4612AF3A2F3FA9D5"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:stone"
+	}
 	id: "3E77A3BEE08A4625"
 	order_index: 1
 	quest_links: [ ]

@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "resource_fish_7243EC6077298F8D"
 	group: "64828B4E59DB0E48"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"resourcefish:fish_type": "resourcefish:water"
+		}
+		id: "resourcefish:resource_fish_spawn_egg"
+	}
 	id: "7243EC6077298F8D"
 	order_index: 2
 	quest_links: [ ]
@@ -481,6 +488,14 @@
 				id: "minecraft:lava_bucket"
 			}
 			id: "633171475E43523A"
+			rewards: [{
+				id: "4499A36BEA2E9B9F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "645CC3BF2BCECEF1"
 				type: "checkmark"
@@ -510,6 +525,15 @@
 		{
 			dependencies: ["36438FB25436AE8D"]
 			id: "1D5F4113AC1B52C7"
+			rewards: [{
+				count: 4
+				id: "55EA78EB359A9D53"
+				item: {
+					count: 1
+					id: "minecraft:nether_wart"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C1F95666733283D"
 				item: { count: 1, id: "minecraft:nether_wart" }

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "star_power"
 	group: "621AB11E96FBBC5F"
+	hide_quest_until_deps_complete: true
 	id: "3220729F6DAE9D8C"
 	order_index: 0
 	quest_links: [ ]

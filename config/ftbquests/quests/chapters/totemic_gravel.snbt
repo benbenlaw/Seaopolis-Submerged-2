@@ -3,6 +3,10 @@
 	default_quest_shape: ""
 	filename: "totemic_gravel"
 	group: "64828B4E59DB0E48"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "submerged:totemic_infused_gravel"
+	}
 	id: "6E9731F1F8B73F6E"
 	order_index: 0
 	quest_links: [ ]

@@ -1,0 +1,9 @@
+{
+	id: "1C07E9E8E67DA26B"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "04C19BA496A717EC", item: { count: 1, id: "merequester:requester" } }
+		{ id: "6AD65E7C62A7B0D2", item: { count: 1, id: "rsrequestify:requester" } }
+	]
+}

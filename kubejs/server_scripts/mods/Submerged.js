@@ -4,6 +4,43 @@ ServerEvents.recipes(event => {
 
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
+ 
+    //Infinity Drives
+    addInfinityDrive('sand')
+    addInfinityDrive('gravel')
+    addInfinityDrive('dirt')
+    addInfinityDrive('stone')
+
+    //Infinity Drives Function
+    function addInfinityDrive(stack) {
+        event.shaped(`submerged:infinity_${stack}_drive`, ['AAA', 'ABA', 'AAA'], {
+            A: stack,
+            B: 'infinitystorage:empty_infinity_drive'
+        }).id(`submerged:infinity_${stack}_drive`)
+    }
+    //Fiery Gravel
+    event.shaped('8x submerged:fiery_gravel', ['AAA', 'ABA', 'AAA'], {
+        A: 'submerged:teary_gravel',
+        B: 'iceandfire:dragonsteel_fire_ingot'
+    }).id('submerged:fiery_gravel')
+
+    //Stormy Gravel
+    event.shaped('8x submerged:stormy_gravel', ['AAA', 'ABA', 'AAA'], {
+        A: 'submerged:teary_gravel',
+        B: 'iceandfire:dragonsteel_lightning_ingot'
+    }).id('submerged:stormy_gravel')
+
+    //Icy Gravel
+    event.shaped('8x submerged:icy_gravel', ['AAA', 'ABA', 'AAA'], {
+        A: 'submerged:teary_gravel',
+        B: 'iceandfire:dragonsteel_ice_ingot'
+    }).id('submerged:icy_gravel')
+
+    //Zombie Trial Sphere
+    event.shaped('submerged:zombie_trial_sphere', ['AAA', 'ABA', 'AAA'], {
+        A: 'submerged:living_gravel',
+        B: 'submerged:copper_key'
+    }).id('submerged:zombie_trial_sphere')
     
     //Essence of the Sea
     event.shaped('submerged:essence_of_the_sea', ['ABA', 'BCB', 'ABA'], {

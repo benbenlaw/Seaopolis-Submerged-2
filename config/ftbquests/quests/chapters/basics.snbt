@@ -1,8 +1,13 @@
 {
+	autofocus_id: "7F4A52E1774ED5E2"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basics"
 	group: "4612AF3A2F3FA9D5"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "submerged:unloaded_flare"
+	}
 	id: "7146FFDA00A9C873"
 	order_index: 0
 	quest_links: [ ]

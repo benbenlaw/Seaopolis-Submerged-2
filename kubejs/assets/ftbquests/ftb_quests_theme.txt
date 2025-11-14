@@ -1,0 +1,12 @@
+[*]
+background: submerged:textures/quests/bg.png
+chapter_panel_background: submerged:textures/quests/panel.png; hollow_rectangle:{{widget_border}}; round_edges + {{widget_background}}; padding=1
+context_menu: hollow_rectangle:{{widget_border}}; round_edges + {{chapter_panel_background}}; padding=1
+
+dependency_line_completed_color:    #B7EAF4
+dependency_line_selected_speed:     1.2
+dependency_line_unselected_speed:   0.0
+dependency_line_thickness:          0.17
+widget_border:     #1B1D1E
+
+wiki_url: discord.gg/benbenlaw

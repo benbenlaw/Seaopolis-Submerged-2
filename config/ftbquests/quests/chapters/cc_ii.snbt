@@ -3,12 +3,19 @@
 	default_quest_shape: ""
 	filename: "cc_ii"
 	group: "64828B4E59DB0E48"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "simplehats:presentsstack"
+	}
 	id: "3DE775794F0DE900"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6E9731F1F8B73F6E"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "6733F528D38B6E09"
 			rewards: [{
 				id: "15ACE04406EDC9AF"
@@ -73,6 +80,9 @@
 				"6BC6E76718B9571E"
 				"328D9CFD28FEAC63"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "02503953C66AF804"
 			rewards: [{
 				id: "5403221BB29707F3"
@@ -103,7 +113,21 @@
 				"258235914B947F02"
 				"4BC02BEE16C2D671"
 			]
+			icon: {
+				id: "simplehats:presentsstack"
+			}
 			id: "1B2C7E1A23DB9F8A"
+			rewards: [{
+				id: "330EBE7C7F758E18"
+				item: {
+					components: {
+						"shops:pinata_id": "submerged:rewards_ii"
+					}
+					count: 1
+					id: "shops:pinata_flare"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "326FC48E2D81D130"
@@ -117,6 +141,9 @@
 				"3EB28B8A578DEE0F"
 				"764A642A6413219C"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "0BC9FFEAA96EEE0B"
 			rewards: [{
 				id: "6D86AA5E011EB33E"
@@ -138,6 +165,9 @@
 				"645690194ABB48BD"
 				"5597C89668EA9E89"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "258235914B947F02"
 			rewards: [{
 				id: "2876DF078AD26C17"
@@ -159,7 +189,18 @@
 				"3136191190498951"
 				"02379CAA0CE6DE40"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "4BC02BEE16C2D671"
+			rewards: [{
+				id: "2E06BD5AEC3A8D54"
+				item: {
+					count: 1
+					id: "cloche:percentage_speed_upgrade_3"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DD3DB27B93A7528"
 				type: "checkmark"
@@ -180,9 +221,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 128L
-				id: "5AAA2BBD6946D3E7"
-				item: { components: { "ftbquests:missing_item": "submerged:living_mob_matter" }, count: 1, id: "ftbquests:missing_item" }
+				count: 32L
+				id: "2D1DE6FD08AA47BA"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -212,6 +253,9 @@
 		}
 		{
 			dependencies: ["092C9843B11AA1ED"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "2DDF22321E6D65F6"
 			rewards: [{
 				id: "4584EB73E2490C03"
@@ -251,6 +295,9 @@
 		}
 		{
 			dependencies: ["7243EC6077298F8D"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "7D1CB1B9DF4B4313"
 			rewards: [{
 				id: "642F453F6DD44DCA"
@@ -293,6 +340,15 @@
 		{
 			dependencies: ["5D096426F1F05C53"]
 			id: "3136191190498951"
+			rewards: [{
+				count: 12
+				id: "49B8935E1582F202"
+				item: {
+					count: 1
+					id: "mekanism:ingot_refined_glowstone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -306,6 +362,19 @@
 		{
 			dependencies: ["5D096426F1F05C53"]
 			id: "02379CAA0CE6DE40"
+			rewards: [{
+				id: "12035B0A1E899F44"
+				item: {
+					components: {
+						"casting:equipment_experience": 0
+						"casting:equipment_level": 1
+						"casting:jets": 3
+					}
+					count: 1
+					id: "minecraft:golden_boots"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -318,6 +387,9 @@
 		}
 		{
 			dependencies: ["0E2CBB174C1E841E"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "5D096426F1F05C53"
 			rewards: [{
 				id: "3F3481D224DD6829"

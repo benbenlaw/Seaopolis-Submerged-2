@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'mekmm:ambient_gas_collector'}, 'mekanism:steel_casing', '#submerged:top_induction_mek')
     event.replaceInput({id: 'mekmm:recycler'}, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
 
+    //Cobblestone Ingot
+    addSimpleStamperRecipe('compressedblocks:c5_cobblestone', 1, 'c:molds/ingot', 'submerged:cobblestone_ingot')
+
     //Recycler Recipes
     addRecyclerRecipe('#c:stones', 0.25)
     addRecyclerRecipe('#c:cobblestones', 0.25)
@@ -65,6 +68,22 @@ ServerEvents.recipes(event => {
         addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/rod`, Item.of(AlmostUnified.getTagTargetItem(`c:rods/${type}`), 2))
         addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/plate`, AlmostUnified.getTagTargetItem(`c:plates/${type}`))
         //addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/dust`, AlmostUnified.getTagTargetItem(`c:dusts/${type}`))
+    }
+
+    //Stamper Function
+    function addSimpleStamperRecipe(input, inputCount, mold, output) {
+        event.custom({
+            "type": "mekmm:stamper",
+            "input": {
+                "count": inputCount,
+                "item": input
+            },
+            "mold": {
+                "count": 1,
+                "tag": mold
+            },
+            "output": Item.of(output).toJson()
+        }).id(`submerged:mekanism_stamper/${output.replace(':', '_')}`)
     }
 
     //Stamper Function

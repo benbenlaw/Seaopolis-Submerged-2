@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "rays"
 	group: "621AB11E96FBBC5F"
+	hide_quest_until_deps_complete: true
 	id: "5577046F02F66456"
 	order_index: 3
 	quest_links: [ ]

@@ -28,37 +28,15 @@ colors.forEach(color => {
         loot: [
             `colors:${color}_sapling`,
             `colors:${color}_dirt`,
-            `opolisutilities:sapling_grower`
+            `opolisutilities:sapling_grower`,
+            `64x minecraft:${color}_terracotta`,
         ]
     };
 });
 
-const rewardFlares = {
-    
-    //CC I
-    'submerged:reward_flare_ccI': {
-        colors: [11743532, 6719955, 14516874],
-        loot: [
-            'minecraft:frog_spawn_egg',
-            'minecraft:frog_spawn_egg',
-            '3x opolisutilities:mini_coal'
-        ]
-    },
-    'submerged:mega_crate': {
-        colors: [3887386, 15435844],
-        loot: [
-            'minecraft:netherite_ingot',
-            'minecraft:enchanted_golden_apple',
-            'minecraft:totem_of_undying',
-            'minecraft:elytra'
-        ]
-    }
-        
-};
-
 BlockEvents.rightClicked(event => {
     const itemId = event.getItem().id;
-    const data = flareData[itemId] || rewardFlares[itemId];
+    const data = flareData[itemId];
     if (!data) return;
 
     const pos = event.getHitResult().getBlockPos();
@@ -74,17 +52,27 @@ BlockEvents.rightClicked(event => {
     );
     event.getItem().shrink(1);
 
-    const itemsString = data.loot
-        .map((lootItem, index) => `{Slot:${index},id:"${lootItem}",Count:1b}`)
-        .join(",");
+        const itemsString = data.loot
+            .map((lootItem, index) => {
+                // allow "64x minecraft:foo", "64 x minecraft:foo", or "minecraft:foo"
+                const match = lootItem.trim().match(/^\s*(\d+)\s*x\s*(.+)$/i);
+                const parsed = match ? parseInt(match[1], 10) : 1;
+                // if parseInt somehow fails, fallback to 1
+                const count = Number.isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), 127);
+                const id = match ? match[2].trim() : lootItem.trim();
+                return `{Slot:${index}b,id:"${id}",Count:${count}b}`;
+            })
+            .join(",");
+
+    
 
     // Drop barrel crate
     event.server.scheduleInTicks(100, () => {
         event.entity.tell(`Loot Incoming at ${x} ${y} ${z}`);
 
         // Check if it's a reward flare or a dye flare
-        const customName = rewardFlares[itemId] ? "Rewards Barrel" : "Supply Crate";
-        const noDrop = rewardFlares[itemId] ? ",DropItem:0b" : "";
+        const customName = "Supply Crate";
+        const noDrop = ",DropItem:0b";
 
         event.server.runCommandSilent(
             `summon falling_block ${x} ${y + 100} ${z} ` +
@@ -98,6 +86,39 @@ BlockEvents.rightClicked(event => {
 // World Events
 PlayerEvents.tick(event => {
     let player = event.player
+    let level = player.level
+
+    // --- Mining Fatigue near Trial Spawner ---
+
+    /*
+    const range = 7 
+    let foundSpawner = false
+
+    let pos = player.blockPosition()
+
+    // Loop through nearby blocks
+    for (let x = -range; x <= range; x++) {
+        for (let y = -range; y <= range; y++) {
+            for (let z = -range; z <= range; z++) {
+                let checkPos = pos.offset(x, y, z)
+                let block = level.getBlock(checkPos)
+                if (block.id === 'minecraft:trial_spawner') {
+                    foundSpawner = true
+                    break
+                }
+            }
+            if (foundSpawner) break
+        }
+        if (foundSpawner) break
+    }
+
+    if (foundSpawner) {
+        player.addTag('submerged:mining_fatigue')
+    } else {
+        player.removeTag('submerged:mining_fatigue')
+    }
+
+    */
 
     let fullHazmat =
         player.getFeetArmorItem().hasTag('submerged:hazmat') &&

@@ -1,8 +1,13 @@
 {
+	autofocus_id: "554308CA0151F99D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "natures_aura"
 	group: "64828B4E59DB0E48"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:gold_ingot"
+	}
 	id: "0E2CBB174C1E841E"
 	order_index: 3
 	quest_links: [ ]
@@ -14,6 +19,14 @@
 			]
 			id: "0D7A91E84A6CE9CD"
 			optional: true
+			rewards: [{
+				id: "2F6A421FD1A0F18C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C8874050F9D2D14"
 				type: "checkmark"
@@ -25,6 +38,14 @@
 			dependencies: ["0D7A91E84A6CE9CD"]
 			id: "042B9882BBAED292"
 			optional: true
+			rewards: [{
+				id: "5FBD4A4DFF51FCCA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A5A2F7A97C9BA11"
 				item: { count: 1, id: "naturesaura:ancient_sapling" }
@@ -37,6 +58,14 @@
 			dependencies: ["042B9882BBAED292"]
 			id: "4D8339ED45E8ADB1"
 			optional: true
+			rewards: [{
+				id: "5054EF857293C799"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0914BDB50D91CC7C"
 				item: { count: 1, id: "naturesaura:ancient_log" }
@@ -49,6 +78,14 @@
 			dependencies: ["170A4247974C1FAB"]
 			id: "054CA537D1B76563"
 			optional: true
+			rewards: [{
+				id: "1DA9BAAF8DC5919D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "543698A4DDF1F35E"
 				item: { count: 1, id: "naturesaura:ancient_stick" }
@@ -61,6 +98,14 @@
 			dependencies: ["170A4247974C1FAB"]
 			id: "0550FF2DF58AFA77"
 			optional: true
+			rewards: [{
+				id: "0DCF33499A17DFD3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "341B2CF98CEBC0A2"
 				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
@@ -73,6 +118,14 @@
 			dependencies: ["4D8339ED45E8ADB1"]
 			id: "170A4247974C1FAB"
 			optional: true
+			rewards: [{
+				id: "7D9E2DE2B8ED5ACF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "04EA8D9803B6DC79"
 				item: { count: 1, id: "naturesaura:ancient_planks" }
@@ -85,6 +138,14 @@
 			dependencies: ["0550FF2DF58AFA77"]
 			id: "0331F94A8DE5BF76"
 			optional: true
+			rewards: [{
+				id: "2BADFA5E9613AB78"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "373D25EF9C331B0F"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -97,6 +158,14 @@
 			dependencies: ["0331F94A8DE5BF76"]
 			id: "003EE194E3894230"
 			optional: true
+			rewards: [{
+				id: "7B445608DB9EA5C6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CC8C525D9A3C6B6"
 				item: { count: 1, id: "naturesaura:token_joy" }
@@ -108,6 +177,14 @@
 		{
 			dependencies: ["440ED6C58D5098C3"]
 			id: "325E28C61A277DFD"
+			rewards: [{
+				id: "105C4D20F8D63EE0"
+				item: {
+					count: 1
+					id: "naturesaura:gold_fiber"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A34A9B470A66B6C"
 				item: { count: 1, id: "naturesaura:gold_fiber" }
@@ -120,6 +197,14 @@
 			dependencies: ["554308CA0151F99D"]
 			id: "627BC99C6F08DF88"
 			optional: true
+			rewards: [{
+				id: "0F71F883B6043098"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68EF00854D5DC870"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
@@ -132,6 +217,14 @@
 			dependencies: ["627BC99C6F08DF88"]
 			id: "77FC93088FF7ED69"
 			optional: true
+			rewards: [{
+				id: "48BAC97408A66408"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E963C73CE563E08"
 				item: { count: 1, id: "naturesaura:gold_powder" }
@@ -144,17 +237,27 @@
 			dependencies: ["627BC99C6F08DF88"]
 			id: "1449978D85CA074E"
 			optional: true
-			rewards: [{
-				id: "656F9BFB4F3191A4"
-				item: {
-					components: {
-						"patchouli:book": "naturesaura:book"
+			rewards: [
+				{
+					id: "656F9BFB4F3191A4"
+					item: {
+						components: {
+							"patchouli:book": "naturesaura:book"
+						}
+						count: 1
+						id: "patchouli:guide_book"
 					}
-					count: 1
-					id: "patchouli:guide_book"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "655E1CC5942EE328"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4628C0B0978C5EA7"
 				item: { count: 1, id: "naturesaura:wood_stand" }
@@ -167,6 +270,14 @@
 			dependencies: ["003EE194E3894230"]
 			id: "05609948CC4023E4"
 			optional: true
+			rewards: [{
+				id: "682534BB6CC376D5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34C2DF71B79C8F5D"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -179,6 +290,14 @@
 			dependencies: ["05609948CC4023E4"]
 			id: "14AF040645F38C7D"
 			optional: true
+			rewards: [{
+				id: "3B6B61DAC0D975F7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A326C07F33CAAA1"
 				item: { count: 1, id: "submerged:overworld_altar" }
@@ -194,6 +313,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "45DFA830778035DA"
+			rewards: [{
+				id: "4F56235C03481C65"
+				item: {
+					count: 1
+					id: "naturesaura:infused_iron"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60C9385ABB25C1F5"
 				item: { count: 1, id: "naturesaura:infused_iron" }
@@ -209,6 +336,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5183A6641C0915D5"
+			rewards: [{
+				id: "6698F809DD8491D0"
+				item: {
+					count: 1
+					id: "naturesaura:tainted_gold"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "745ACEC89E0C20F0"
 				item: { count: 1, id: "naturesaura:tainted_gold" }
@@ -221,6 +356,14 @@
 			dependencies: ["0D7A91E84A6CE9CD"]
 			id: "0BBCD3DE8AC14F78"
 			optional: true
+			rewards: [{
+				id: "698381219EF038D5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B174ABB81A2C8CA"
 				item: { count: 1, id: "naturesaura:eye" }
@@ -236,6 +379,15 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3C9030D14EDAA327"
+			rewards: [{
+				count: 5
+				id: "447DCD3BB539DCCC"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E03FE0774291179"
 				item: { count: 1, id: "minecraft:glowstone_dust" }
@@ -247,6 +399,14 @@
 		{
 			dependencies: ["3C9030D14EDAA327"]
 			id: "44A7C3B914EDEAA0"
+			rewards: [{
+				id: "443C1894245210C9"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CC97F06D465C736"
 				item: { count: 1, id: "minecraft:glowstone" }
@@ -259,6 +419,14 @@
 			dependencies: ["554308CA0151F99D"]
 			id: "68E7E19B6DB6E0AF"
 			optional: true
+			rewards: [{
+				id: "118C1CA47BF873E1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B2043A2C48730BD"
 				item: { count: 1, id: "forcecraft:force_sapling" }
@@ -289,6 +457,14 @@
 			dependencies: ["68E7E19B6DB6E0AF"]
 			id: "7CF3932B66B929B7"
 			optional: true
+			rewards: [{
+				id: "513682AF91E1E759"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14A8DE46C1E3D4E9"
 				item: { count: 1, id: "forcecraft:force_log" }
@@ -301,6 +477,14 @@
 			dependencies: ["68E7E19B6DB6E0AF"]
 			id: "2D65E7C1E80F3FE1"
 			optional: true
+			rewards: [{
+				id: "0328647FB48055A6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2706F09C23801BC6"
 				item: { count: 1, id: "forcecraft:force_nugget" }
@@ -313,6 +497,14 @@
 			dependencies: ["2D65E7C1E80F3FE1"]
 			id: "6F44CAD4EC313436"
 			optional: true
+			rewards: [{
+				id: "6798DA565F69623C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72C06B59FD6C20C6"
 				item: { count: 1, id: "forcecraft:force_ingot" }
@@ -328,17 +520,27 @@
 			]
 			id: "3B3D7B574E31E97C"
 			optional: true
-			rewards: [{
-				id: "11622B2BE4B28E06"
-				item: {
-					components: {
-						"patchouli:book": "forcecraft:force_and_you"
+			rewards: [
+				{
+					id: "11622B2BE4B28E06"
+					item: {
+						components: {
+							"patchouli:book": "forcecraft:force_and_you"
+						}
+						count: 1
+						id: "patchouli:guide_book"
 					}
-					count: 1
-					id: "patchouli:guide_book"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6810479B5C048572"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "11EBF86F8BF6078F"
 				item: { count: 1, id: "forcecraft:infuser" }
@@ -351,6 +553,14 @@
 			dependencies: ["6F44CAD4EC313436"]
 			id: "013F43C55E90030B"
 			optional: true
+			rewards: [{
+				id: "7944860CAF611D1F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "043CE48BFD94EE55"
 				item: { count: 1, id: "forcecraft:force_gem" }
@@ -366,6 +576,14 @@
 			]
 			id: "168D4C8C48B81F3E"
 			optional: true
+			rewards: [{
+				id: "340B6CB043DB3019"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A8A76F94AE40C04"
 				item: { count: 1, id: "forcecraft:force_engine" }
@@ -381,6 +599,14 @@
 			]
 			id: "19BAB6741140C76D"
 			optional: true
+			rewards: [{
+				id: "792808A550744818"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36B7440230D678BC"
 				item: { count: 1, id: "forcecraft:force_gear" }
@@ -393,6 +619,14 @@
 			dependencies: ["013F43C55E90030B"]
 			id: "3420B2AA337E8474"
 			optional: true
+			rewards: [{
+				id: "696A0E714D1BEF4D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D7E333E6FF6AF9A"
 				item: { count: 1, id: "forcecraft:upgrade_tome" }
@@ -405,6 +639,14 @@
 			dependencies: ["3B3D7B574E31E97C"]
 			id: "07C35F2DA8027E01"
 			optional: true
+			rewards: [{
+				id: "7F5BCFA1853B95B6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E6CFD8C5D4AFDD2"
 				item: { count: 1, id: "forcecraft:experience_tome" }
@@ -417,6 +659,14 @@
 			dependencies: ["07C35F2DA8027E01"]
 			id: "36068890CA434FA7"
 			optional: true
+			rewards: [{
+				id: "442C706275D2E221"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A001F3060DFA49D"
 				item: { count: 1, id: "forcecraft:upgrade_core" }
@@ -429,6 +679,14 @@
 			dependencies: ["36068890CA434FA7"]
 			id: "5E50DF743F7E8876"
 			optional: true
+			rewards: [{
+				id: "2531F58B142D30B4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21ABB9B8FCAAAD9D"
 				item: { count: 1, id: "forcecraft:grinding_core" }
@@ -444,6 +702,14 @@
 			]
 			id: "6A701407E8948349"
 			optional: true
+			rewards: [{
+				id: "17747F80C1995DCC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DD607C5936F574E"
 				item: { count: 1, id: "forcecraft:force_furnace" }
@@ -456,6 +722,14 @@
 			dependencies: ["36068890CA434FA7"]
 			id: "35DE4F6DC0F02E7D"
 			optional: true
+			rewards: [{
+				id: "7F1C6A27DDC8F089"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7193C4662483F49B"
 				item: { count: 1, id: "forcecraft:freezing_core" }

@@ -24,7 +24,6 @@ ServerEvents.recipes(event => {
 
     //Sandpaper Polishing
     event.recipes.create.sandpaper_polishing('pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]', 'pneumaticcraft:empty_pcb').id('submerged:create/uv_exposed_pcb')
-
     //Mixing 
     //These recipes are located in submerged:recipes/create/mixing
 

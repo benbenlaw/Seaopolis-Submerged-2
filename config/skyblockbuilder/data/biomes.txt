@@ -1,5 +1,7 @@
 ae2:spatial_storage
 ars_nouveau:archwood_forest
+iceandfire:dread_forest
+iceandfire:dread_plain
 minecraft:badlands
 minecraft:bamboo_jungle
 minecraft:basalt_deltas
@@ -64,3 +66,4 @@ minecraft:windswept_gravelly_hills
 minecraft:windswept_hills
 minecraft:windswept_savanna
 minecraft:wooded_badlands
+submerged:submerged_nether

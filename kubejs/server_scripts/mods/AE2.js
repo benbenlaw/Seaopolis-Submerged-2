@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'extendedae:quartz_blend'})
     event.remove({id: 'extendedae:quartz_blend_alt'})
     event.remove({id: 'extendedae:blasting/quartz_blend'})
+    event.remove({id: 'ae2:network/cells/item_storage_components_cell_256k_part'})
 
 
     //Remove
@@ -58,7 +59,7 @@ ServerEvents.recipes(event => {
 
     //Best
     event.shaped('ae2:cell_component_256k', ['ADA', 'BCB', 'ABA'], {
-        A: 'submerged:infused_alloy',
+        A: 'ae2:singularity',
         B: 'ae2:cell_component_64k',
         C: 'submerged:calculation_processor',
         D: 'refinedstorage:quartz_enriched_iron'

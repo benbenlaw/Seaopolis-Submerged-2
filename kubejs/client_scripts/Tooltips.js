@@ -16,4 +16,13 @@ ItemEvents.modifyTooltips(event => {
         tooltip.removeLine(1)
         // Insert text at top of list
     })
+
+    
+    event.add('opolisutilities:resource_generator',[
+        Text.of('§bFrom CC Rewards II!'),
+    ])
+    
+    event.add('opolisutilities:fluid_generator',[
+        Text.of('§bFrom CC Rewards II!'),
+    ])
 })

@@ -1,8 +1,13 @@
 {
+	autofocus_id: "75F88A9D4B29EE85"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "burning"
 	group: "4612AF3A2F3FA9D5"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "totemic:wind_chime"
+	}
 	id: "720357CCE1FC83FD"
 	order_index: 3
 	quest_links: [ ]
@@ -212,10 +217,10 @@
 			dependencies: ["427A8085194B782A"]
 			id: "7E1ADA24FFF8E8D4"
 			rewards: [{
-				id: "00BA3E6FA64DE583"
+				id: "5C198375475EB567"
 				item: {
 					count: 1
-					id: "shops:copper_coin"
+					id: "totemic:drum"
 				}
 				type: "item"
 			}]

@@ -55,12 +55,32 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/shovel')
         .gravelSoundType()
 
+    event.create('submerged:fiery_gravel')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/shovel')
+        .gravelSoundType()
+
+    event.create('submerged:stormy_gravel')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/shovel')
+        .gravelSoundType()
+
+    event.create('submerged:icy_gravel')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/shovel')
+        .gravelSoundType()
+
     event.create('submerged:pressure_chamber_controller', 'cardinal')
         .hardness(2)
         .tagBlock('minecraft:mineable/pickaxe')
         .stoneSoundType()
 
     event.create('submerged:nether_brick_lock')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .stoneSoundType()
+
+    event.create('submerged:tuff_brick_lock')
         .hardness(2)
         .tagBlock('minecraft:mineable/pickaxe')
         .stoneSoundType()

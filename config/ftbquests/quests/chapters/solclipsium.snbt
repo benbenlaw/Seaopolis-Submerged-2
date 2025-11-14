@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "solclipsium"
 	group: "621AB11E96FBBC5F"
+	hide_quest_until_deps_complete: true
 	id: "5CDD1A10F73F113B"
 	order_index: 1
 	quest_links: [ ]

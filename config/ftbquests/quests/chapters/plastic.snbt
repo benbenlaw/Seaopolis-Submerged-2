@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "plastic"
 	group: "1DC99ACF42B51C2F"
+	hide_quest_until_deps_complete: true
 	id: "1AF122F4F516298A"
 	order_index: 0
 	quest_links: [ ]

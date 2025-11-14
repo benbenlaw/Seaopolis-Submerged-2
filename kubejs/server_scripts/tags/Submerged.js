@@ -53,6 +53,15 @@ ServerEvents.tags('item', event => {
     //Top Induction Mek
     event.get('submerged:top_induction_mek').add(['mekanism:ultimate_induction_provider', 'mekanism:ultimate_induction_cell'])
 
+    //Fire Dragon Eggs
+    event.get('submerged:fire_dragon_eggs').add(['iceandfire:dragonegg_red', 'iceandfire:dragonegg_green', 'iceandfire:dragonegg_bronze', 'iceandfire:dragonegg_gray'])
+
+    //Ice Dragon Eggs
+    event.get('submerged:ice_dragon_eggs').add(['iceandfire:dragonegg_blue', 'iceandfire:dragonegg_white', 'iceandfire:dragonegg_sapphire', 'iceandfire:dragonegg_silver'])
+
+    //Lightning Dragon Eggs
+    event.get('submerged:lightning_dragon_eggs').add(['iceandfire:dragonegg_electric', 'iceandfire:dragonegg_amethyst', 'iceandfire:dragonegg_copper', 'iceandfire:dragonegg_black'])
+
 })
 
 ServerEvents.tags('block', event => {
