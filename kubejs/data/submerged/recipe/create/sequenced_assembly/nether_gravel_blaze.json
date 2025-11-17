@@ -34,7 +34,7 @@
         },
         {
           "type": "neoforge:single",
-          "amount": 250,
+          "amount": 100,
           "fluid": "casting:molten_blaze"
         }
       ],

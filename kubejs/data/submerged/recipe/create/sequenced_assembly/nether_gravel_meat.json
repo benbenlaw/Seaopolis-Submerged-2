@@ -11,13 +11,15 @@
   ],
   "sequence": [
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         {
           "item": "submerged:living_gravel"
         },
         {
-          "item": "minecraft:nether_wart"
+          "type": "neoforge:single",
+          "amount": 25,
+          "fluid": "industrialforegoing:pink_slime"
         }
       ],
       "results": [

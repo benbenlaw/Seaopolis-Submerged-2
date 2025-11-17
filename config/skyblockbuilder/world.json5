@@ -68,7 +68,7 @@
     ],
     "minecraft:the_nether": [
       {
-        "block": "minecraft:lava"
+        "block": "minecraft:lava",
         "height": 144
       }
     ],

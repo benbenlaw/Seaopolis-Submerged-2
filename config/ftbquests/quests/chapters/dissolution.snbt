@@ -4,6 +4,9 @@
 	filename: "dissolution"
 	group: "1DC99ACF42B51C2F"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "industrialforegoing:dissolution_chamber"
+	}
 	id: "4DCA4E15279048E5"
 	order_index: 2
 	quest_links: [ ]
@@ -11,6 +14,14 @@
 		{
 			dependencies: ["0F5D42B7A38855A5"]
 			id: "677FA0D4FF73978D"
+			rewards: [{
+				id: "3CCEC42E38ACDBE9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "76B31C0D9B4C7348"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
@@ -22,6 +33,14 @@
 		{
 			dependencies: ["677FA0D4FF73978D"]
 			id: "7F34BC7D959E78FE"
+			rewards: [{
+				id: "16369B8BDEB4F073"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E508B601363BA45"
 				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
@@ -33,6 +52,15 @@
 		{
 			dependencies: ["16D9C95B76D8ED2D"]
 			id: "26CB9C3907B2D830"
+			rewards: [{
+				count: 4
+				id: "199D8A6C397FAE74"
+				item: {
+					count: 1
+					id: "submerged:matter_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5164E4D606E66F04"
 				item: { count: 1, id: "submerged:matter_gravel" }
@@ -84,6 +112,14 @@
 		{
 			dependencies: ["7FAA02EEDC6D1384"]
 			id: "6EF8B2BCEB53422D"
+			rewards: [{
+				id: "7681616E7ECEAAFB"
+				item: {
+					count: 1
+					id: "minecraft:diamond_ore"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0119D64CE95A2355"
 				item: { count: 1, id: "minecraft:diamond_ore" }
@@ -95,6 +131,14 @@
 		{
 			dependencies: ["4FC90D3B2F50FBED"]
 			id: "4FA0936665F1096F"
+			rewards: [{
+				id: "6128C38BF8F1F28C"
+				item: {
+					count: 1
+					id: "minecraft:emerald_ore"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58071361BD04C69C"
 				item: { count: 1, id: "minecraft:emerald_ore" }
@@ -106,6 +150,14 @@
 		{
 			dependencies: ["6EF8B2BCEB53422D"]
 			id: "4E2DC38E6F273353"
+			rewards: [{
+				id: "5A9A6A252BEFCB15"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DB76D5ED6EA005F"
 				item: { count: 1, id: "minecraft:diamond" }
@@ -117,6 +169,14 @@
 		{
 			dependencies: ["4FA0936665F1096F"]
 			id: "762B0710294D8288"
+			rewards: [{
+				id: "1CA23033D63BCA34"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2677B67E0B60977E"
 				item: { count: 1, id: "minecraft:emerald" }
@@ -131,6 +191,14 @@
 				"177486449790C2F3"
 			]
 			id: "0F5D42B7A38855A5"
+			rewards: [{
+				id: "297CFF6C02890C27"
+				item: {
+					count: 1
+					id: "alltheores:diamond_gear"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F88E7A4B1774D76"
 				item: { count: 1, id: "alltheores:diamond_gear" }
@@ -142,6 +210,14 @@
 		{
 			dependencies: ["677FA0D4FF73978D"]
 			id: "2E99980DBDED51CC"
+			rewards: [{
+				id: "7EC58A0D0763BB1D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "31C9903CC9497CC1"
 				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
@@ -153,6 +229,14 @@
 		{
 			dependencies: ["2E99980DBDED51CC"]
 			id: "15A2CEE0B41AA0C6"
+			rewards: [{
+				id: "6B0721254DAE2EF3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18858888E1CFB544"
 				item: { count: 1, id: "industrialforegoing:laser_drill" }
@@ -164,6 +248,14 @@
 		{
 			dependencies: ["2E99980DBDED51CC"]
 			id: "6149135AC902C409"
+			rewards: [{
+				id: "587384EB92CA06C3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "469D6F902F334452"
 				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
@@ -178,6 +270,15 @@
 				"15A2CEE0B41AA0C6"
 			]
 			id: "613AC75202FB54CF"
+			rewards: [{
+				count: 4
+				id: "3D8F666D9ADF7628"
+				item: {
+					count: 1
+					id: "enderio:grains_of_infinity"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BB2E04340B2FB3F"
 				item: { count: 1, id: "enderio:grains_of_infinity" }
@@ -189,6 +290,14 @@
 		{
 			dependencies: ["613AC75202FB54CF"]
 			id: "484882B219622A73"
+			rewards: [{
+				id: "564F04549FBE1D5A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25CCDE387CA291ED"
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
@@ -203,6 +312,14 @@
 				"484882B219622A73"
 			]
 			id: "6A94E9D14675586E"
+			rewards: [{
+				id: "3CBA1B39710AF51F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D86468E43C280A7"
 				item: { count: 1, id: "industrialforegoing:washing_factory" }
@@ -214,6 +331,14 @@
 		{
 			dependencies: ["613AC75202FB54CF"]
 			id: "68967A6429DEB55A"
+			rewards: [{
+				id: "1983FE78D4D6B412"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5140D0E921DA38BE"
 				item: { count: 1, id: "submerged:ancient_lens" }
@@ -225,6 +350,15 @@
 		{
 			dependencies: ["1F6EE7917E96E547"]
 			id: "294CBD8297D7D0B3"
+			rewards: [{
+				count: 4
+				id: "18009768F64E6B46"
+				item: {
+					count: 1
+					id: "submerged:ancient_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "169DD3B5098DA8B1"
 				item: { count: 1, id: "submerged:ancient_gravel" }
@@ -236,6 +370,15 @@
 		{
 			dependencies: ["294CBD8297D7D0B3"]
 			id: "3F258DC3441DEF13"
+			rewards: [{
+				count: 4
+				id: "7659A05AED6BA9D6"
+				item: {
+					count: 1
+					id: "strainers:debris_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "321222C8FE90F1D8"
 				item: { count: 1, id: "strainers:debris_ore_piece" }
@@ -247,6 +390,14 @@
 		{
 			dependencies: ["3F258DC3441DEF13"]
 			id: "207F4FFC4AD976E5"
+			rewards: [{
+				id: "290616CF865200BF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B3FC83F4AC80BC4"
 				item: { count: 1, id: "minecraft:ancient_debris" }
@@ -258,6 +409,14 @@
 		{
 			dependencies: ["207F4FFC4AD976E5"]
 			id: "0BD995BF839A78ED"
+			rewards: [{
+				id: "3C9A22971D77AD69"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E3ADDFC9EDC5FBA"
 				item: { count: 1, id: "submerged:raw_ancient_debris" }
@@ -269,6 +428,14 @@
 		{
 			dependencies: ["6A94E9D14675586E"]
 			id: "6E3B0B6AA3E54598"
+			rewards: [{
+				id: "711CD978F20B8F5E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C24C5F55B839E11"
 				item: { count: 1, id: "industrialforegoing:fermentation_station" }
@@ -280,6 +447,14 @@
 		{
 			dependencies: ["6E3B0B6AA3E54598"]
 			id: "6172D0840A1104CD"
+			rewards: [{
+				id: "240AD1A5F8D566DC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "64E902E29FB22C9D"
 				item: { count: 1, id: "industrialforegoing:fluid_sieving_machine" }
@@ -291,6 +466,14 @@
 		{
 			dependencies: ["6172D0840A1104CD"]
 			id: "6C8297AF7997580F"
+			rewards: [{
+				id: "39BEE41106803163"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "19F6C49783B6B07B"
 				item: { count: 1, id: "submerged:ancient_debris_dust" }
@@ -302,6 +485,14 @@
 		{
 			dependencies: ["6C8297AF7997580F"]
 			id: "590DA5919D4D18B2"
+			rewards: [{
+				id: "51DD8CD2ED4F0801"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59DCD7487EF188A5"
 				item: { count: 1, id: "minecraft:netherite_scrap" }
@@ -313,6 +504,15 @@
 		{
 			dependencies: ["68967A6429DEB55A"]
 			id: "747EFDBE6FE6A0A8"
+			rewards: [{
+				count: 4
+				id: "141BB45E605FA8B0"
+				item: {
+					count: 1
+					id: "submerged:grains_of_time"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57697877116DEAB0"
 				item: { count: 1, id: "submerged:grains_of_time" }
@@ -327,6 +527,14 @@
 				id: "submerged:time_fluid_bucket"
 			}
 			id: "1F6EE7917E96E547"
+			rewards: [{
+				id: "1D1547229A5CA014"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E4F0A08219B2DC4"
 				type: "checkmark"

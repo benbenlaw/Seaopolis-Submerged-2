@@ -89,6 +89,11 @@ StartupEvents.registry("block", (event) => {
         .hardness(3)
         .tagBlock('minecraft:mineable/pickaxe')
         .stoneSoundType()
+
+    event.create('submerged:nether_force_bricks')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .stoneSoundType()
         
     event.create('submerged:nether_portal_frame')
         .hardness(50)

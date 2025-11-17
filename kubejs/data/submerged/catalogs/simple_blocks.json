@@ -6,6 +6,9 @@
     { "stack": { "id": "minecraft:cobblestone", "count": 32 }, "price": 2, "mode": "player_buys"  },
     { "stack": { "id": "minecraft:gravel", "count": 32 }, "price": 4, "mode": "player_buys"  },
     { "stack": { "id": "minecraft:sand", "count": 32 }, "price": 6, "mode": "player_buys"  },
-    { "stack": { "id": "minecraft:dirt", "count": 32 }, "price": 4, "mode": "player_buys"  }
+    { "stack": { "id": "minecraft:dirt", "count": 32 }, "price": 4, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:granite", "count": 32 }, "price": 8, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:andesite", "count": 32 }, "price": 8, "mode": "player_buys"  },
+    { "stack": { "id": "minecraft:diorite", "count": 32 }, "price": 8, "mode": "player_buys"  }
   ]
 }

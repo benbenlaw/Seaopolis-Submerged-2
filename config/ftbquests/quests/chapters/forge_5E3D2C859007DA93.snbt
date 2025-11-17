@@ -253,5 +253,52 @@
 			x: 2.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["1B8EE3218801C5CE"]
+			id: "2221A299A773BD46"
+			tasks: [{
+				id: "3879F785C33E7F5E"
+				item: { count: 1, id: "alltheores:sapphire_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B5643707552150B"]
+			id: "5F9526C910DA00E3"
+			tasks: [{
+				id: "15BFDA3E419873E0"
+				item: { count: 1, id: "alltheores:ruby_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35C0D109C374AA34"]
+			id: "1FEDEBF39AC6E4F8"
+			tasks: [{
+				id: "2721D7667EEFA2B6"
+				item: { count: 1, id: "alltheores:peridot_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1FEDEBF39AC6E4F8"
+				"5F9526C910DA00E3"
+				"2221A299A773BD46"
+			]
+			id: "3F6BE594208CE662"
+			tasks: [{
+				id: "2195B6BC56064F54"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
 	]
 }

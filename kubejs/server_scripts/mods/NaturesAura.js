@@ -13,9 +13,6 @@ ServerEvents.recipes(event => {
     //Blaze Powder
     event.recipes.naturesaura.altar('6x minecraft:blaze_powder', 'minecraft:blaze_rod', 500).id('submerged:blaze_powder')
 
-    //Blank Spawn Egg
-    event.recipes.naturesaura.tree_ritual('submerged:blank_spawn_egg', ['naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]', 'minecraft:egg', 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]', 'minecraft:egg', 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]', 'minecraft:egg', 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]', 'minecraft:egg']).id('submerged:naturesaura/blank_spawn_egg')
-
     //Transmutation
     event.recipes.naturesaura.tree_ritual('naturesaura:conversion_catalyst', ['naturesaura:gold_brick', 'minecraft:wither_skeleton_skull', 'minecraft:brewing_stand', 'naturesaura:tainted_gold', 'minecraft:glowstone', 'naturesaura:infused_stone']).id('submerged:naturesaura/conversion_catalyst')
 

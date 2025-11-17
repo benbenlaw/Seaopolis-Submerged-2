@@ -1,21 +1,21 @@
 #Routers Config
 ["RF Upgrades"]
-	#The maximum RF per tick that tier 1 can provide.
-	# Default: 10
-	# Range: > 1
-	"RF Per Operation 1" = 10
-	#The maximum RF per tick that tier 2 can provide.
-	# Default: 240
-	# Range: > 1
-	"RF Per Operation 2" = 240
-	#The maximum RF per tick that tier 3 can provide.
-	# Default: 12000
-	# Range: > 1
-	"RF Per Operation 3" = 12000
 	#The maximum RF per tick that tier 4 can provide.
 	# Default: 50000
 	# Range: > 1
-	"RF Per Operation 4" = 50000
+	"RF Per Operation 4" = 1000000
+	#The maximum RF per tick that tier 1 can provide.
+	# Default: 10
+	# Range: > 1
+	"RF Per Operation 1" = 100
+	#The maximum RF per tick that tier 3 can provide.
+	# Default: 12000
+	# Range: > 1
+	"RF Per Operation 3" = 50000
+	#The maximum RF per tick that tier 2 can provide.
+	# Default: 240
+	# Range: > 1
+	"RF Per Operation 2" = 1000
 
 ["Item Upgrades"]
 	#The maximum items per operation that tier 1 can provide.

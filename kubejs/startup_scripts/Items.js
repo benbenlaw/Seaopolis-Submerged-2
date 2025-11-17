@@ -9,6 +9,7 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:catalog_ducks').displayName('Catalog: Ducks').maxStackSize(1).glow(true)
     event.create('submerged:catalog_simple_blocks').displayName('Catalog: Simple Blocks').maxStackSize(1).glow(true)
     event.create('submerged:catalog_flares').displayName('Catalog: Flares').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_relics').displayName('Catalog: Relics').maxStackSize(1).glow(true)
 
     //Items
     event.create('submerged:unloaded_flare')

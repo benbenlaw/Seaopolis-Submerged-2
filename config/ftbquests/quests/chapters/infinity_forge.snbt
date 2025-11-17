@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infinity_forge"
+	group: "79FA05351D416013"
+	id: "461454D1C5EE2D4E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "05A782F53F37BECC"
+		tasks: [{
+			id: "12808B3C08A90D8A"
+			item: { components: { "custommachinery:machine": "submerged:infinity_forge" }, count: 1, id: "custommachinery:custom_machine_item" }
+			match_components: "fuzzy"
+			type: "item"
+		}]
+		x: 1.0d
+		y: 0.5d
+	}]
+}

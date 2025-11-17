@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 
 TotemicEvents.ceremonyStartupSuccess(event => {
     
-    event.server.runCommandSilent(`say A Totemic ceremony has started: ${event.ceremony}`)
+    //event.server.runCommandSilent(`say A Totemic ceremony has started: ${event.ceremony}`)
 
     // event.cancel()
 })

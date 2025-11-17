@@ -25,4 +25,8 @@ ItemEvents.modifyTooltips(event => {
     event.add('opolisutilities:fluid_generator',[
         Text.of('§bFrom CC Rewards II!'),
     ])
+
+    event.add('submerged:catalog_relics',[
+        Text.of('§bFrom CC Rewards II!'),
+    ])
 })

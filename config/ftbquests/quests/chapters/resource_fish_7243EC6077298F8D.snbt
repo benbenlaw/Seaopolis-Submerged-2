@@ -31,10 +31,9 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["57F452F179109301"]
 			id: "0899612E4035D1D3"
 			rewards: [{
 				id: "41F9E0195E49D8E8"
@@ -50,7 +49,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7C4A2CEF96F49D3A"]
@@ -69,8 +68,8 @@
 				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["57F452F179109301"]
@@ -88,11 +87,11 @@
 				item: { count: 1, id: "resourcefish:breeding_upgrade" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["57DF2A7FC2115CBC"]
+			dependencies: ["3095A05A44AE9B69"]
 			id: "5E732A6A8199E196"
 			rewards: [{
 				id: "2F5E710BC9557143"
@@ -108,11 +107,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["5E732A6A8199E196"]
+			dependencies: ["3095A05A44AE9B69"]
 			id: "406AB1F16C28F754"
 			rewards: [{
 				id: "201F3C9DB6D1EDE0"
@@ -129,7 +128,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5E732A6A8199E196"]
@@ -171,8 +170,8 @@
 				item: { count: 1, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6716062455BA50CA"]
@@ -190,8 +189,8 @@
 				item: { count: 1, id: "strainers:purified_soul_sand" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7C4A2CEF96F49D3A"]
@@ -210,8 +209,8 @@
 				item: { count: 1, id: "strainers:gold_ore_piece" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D634F8B01E2B16B"]
@@ -229,8 +228,8 @@
 				item: { count: 1, id: "minecraft:gold_ore" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4AA005B34310FA4A"]
@@ -248,8 +247,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/gold)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0899612E4035D1D3"]
@@ -267,8 +266,8 @@
 				item: { count: 1, id: "resourcefish:tank_upgrade" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["554D9C55B752BD03"]
@@ -286,8 +285,8 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["10725128306E3CCB"]
@@ -307,7 +306,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["133C8B93F7789357"]
@@ -318,7 +317,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -338,7 +337,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -358,7 +357,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -378,7 +377,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -398,7 +397,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -419,7 +418,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0899612E4035D1D3"]
@@ -437,27 +436,8 @@
 				item: { count: 1, id: "resourcefish:speed_upgrade_1" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["57F452F179109301"]
-			id: "6D2761D542F9C707"
-			rewards: [{
-				id: "6C4FE5D88ACA0FB0"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "32D96FCDA30DEE42"
-				item: { count: 1, id: "resourcefish:infusing_upgrade" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.5d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -479,8 +459,8 @@
 				item: { count: 1, id: "submerged:nether_gravel" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["554D9C55B752BD03"]
@@ -500,8 +480,8 @@
 				id: "645CC3BF2BCECEF1"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["41F95D5BBDF66754"]
@@ -519,8 +499,8 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["36438FB25436AE8D"]
@@ -539,8 +519,8 @@
 				item: { count: 1, id: "minecraft:nether_wart" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["41F95D5BBDF66754"]
@@ -560,8 +540,8 @@
 				id: "5A5DFA6ACBBF4AAE"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["50BFF626432F1838"]
@@ -579,8 +559,46 @@
 				item: { count: 1, id: "rftoolsstorage:storage_module3" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57DF2A7FC2115CBC"]
+			id: "089F4B041828BCD2"
+			rewards: [{
+				id: "53E98DB28801A8F3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "587FAB9412D12AB5"
+				item: { count: 1, id: "resourcefish:basic_fish_food" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["089F4B041828BCD2"]
+			id: "3095A05A44AE9B69"
+			rewards: [{
+				id: "46037553C191D8AD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "067E81DD2C9B6174"
+				item: { count: 1, id: "resourcefish:nether_fish_food" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 }

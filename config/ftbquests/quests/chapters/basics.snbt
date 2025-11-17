@@ -505,10 +505,10 @@
 			dependencies: ["11D2CCBE4E5C471D"]
 			id: "64D0F376AB8AFAE8"
 			rewards: [{
-				id: "36D1AF14D074A62C"
+				id: "2A67642E1AB71961"
 				item: {
 					count: 1
-					id: "shops:copper_coin"
+					id: "submerged:unloaded_flare"
 				}
 				type: "item"
 			}]

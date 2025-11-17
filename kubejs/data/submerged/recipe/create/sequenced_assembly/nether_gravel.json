@@ -11,13 +11,10 @@
   ],
   "sequence": [
     {
-      "type": "create:deploying",
+      "type": "create:pressing",
       "ingredients": [
         {
           "item": "submerged:living_gravel"
-        },
-        {
-          "item": "minecraft:nether_wart"
         }
       ],
       "results": [

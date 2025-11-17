@@ -109,7 +109,13 @@ ServerEvents.recipes(event => {
         A: 'minecraft:nether_bricks',
         C: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]',
         B: 'submerged:netherite_key'
-    }).id('submerged:nether_brick_sphere')
+    }).id('submerged:nether_brick_sphere_naturesaura')
+
+    event.shaped('submerged:nether_brick_sphere', ['CAC', 'ABA', 'CAC'], {
+        A: 'minecraft:nether_bricks',
+        C: 'submerged:nether_force_bricks',
+        B: 'submerged:netherite_key'
+    }).id('submerged:nether_brick_sphere_forcecraft')
 
     //Nether Portal Sphere
     event.shaped('submerged:nether_portal_sphere', [' A ', 'ABA', ' A '], {
@@ -133,6 +139,12 @@ ServerEvents.recipes(event => {
     //Mass Color Crafting
     colors.forEach(color => {
 
+        //Pinata Terracotta
+        event.shaped(`shops:pinata_flare[shops:pinata_id="submerged:${color}_terracotta"]`, ['AAA', 'ABA', 'AAA'], {
+            A: `submerged:${color}_terracotta_rocks`,
+            B: `submerged:${color}_flare`
+        }).id(`submerged:${color}_terracotta_pinata`)
+    
         //Tunnel Key
         event.shaped(`submerged:${color}_tunnel_key`, [' A ', 'ABA', ' A '], {
             A: '#c:glass_blocks',

@@ -4,6 +4,9 @@
 	filename: "plastic"
 	group: "1DC99ACF42B51C2F"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "pneumaticcraft:plastic"
+	}
 	id: "1AF122F4F516298A"
 	order_index: 0
 	quest_links: [ ]
@@ -11,6 +14,14 @@
 		{
 			dependencies: ["008050AFF2D392B5"]
 			id: "39AB090354EDB00A"
+			rewards: [{
+				id: "1CFCA24489F6F538"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "315A1C4461CDD4A7"
 				item: { count: 1, id: "pneumaticcraft:plastic" }
@@ -25,6 +36,14 @@
 				"1DBD68F81F4E6C1D"
 			]
 			id: "58859AADFDEF8FE2"
+			rewards: [{
+				id: "277E11C430AFDA8F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "35054840AC10A3BD"
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
@@ -36,6 +55,14 @@
 		{
 			dependencies: ["7C7D8663CE541B54"]
 			id: "1DBD68F81F4E6C1D"
+			rewards: [{
+				id: "52075AF5960FE3F9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7380A0BFF3095B20"
 				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
@@ -47,6 +74,14 @@
 		{
 			dependencies: ["1AF8F947F714C57B"]
 			id: "7C7D8663CE541B54"
+			rewards: [{
+				id: "5A0688FEBBCD4F82"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E32B784A3953382"
 				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
@@ -61,6 +96,15 @@
 				"5183A6641C0915D5"
 			]
 			id: "1AF8F947F714C57B"
+			rewards: [{
+				count: 4
+				id: "4B1F0DC23771A3D2"
+				item: {
+					count: 1
+					id: "submerged:infused_alloy"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30619372FCF01DD7"
 				item: { count: 1, id: "submerged:infused_alloy" }
@@ -72,6 +116,14 @@
 		{
 			dependencies: ["7C7D8663CE541B54"]
 			id: "434AAB69CBCC108E"
+			rewards: [{
+				id: "20762E8307ADC1F5"
+				item: {
+					count: 1
+					id: "industrialforegoing:pitiful_generator"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "420A7EC6E31BFC3B"
 				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
@@ -83,6 +135,15 @@
 		{
 			dependencies: ["58859AADFDEF8FE2"]
 			id: "008050AFF2D392B5"
+			rewards: [{
+				count: 3
+				id: "3643A52DC1BE1A52"
+				item: {
+					count: 1
+					id: "industrialforegoing:dryrubber"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "789457FA77F6B556"
 				item: { count: 1, id: "industrialforegoing:dryrubber" }
@@ -94,6 +155,14 @@
 		{
 			dependencies: ["39AB090354EDB00A"]
 			id: "452882060656F2ED"
+			rewards: [{
+				id: "5D3B81AD7FF1840F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3702A8E20FDA1D56"
 				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
@@ -105,6 +174,14 @@
 		{
 			dependencies: ["452882060656F2ED"]
 			id: "4CBDB3CCB170D9F3"
+			rewards: [{
+				id: "7206FA2A2B9CBA0E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D46C8392EBB5E00"
 				item: { count: 1, id: "industrialforegoing:pink_slime" }
@@ -116,6 +193,14 @@
 		{
 			dependencies: ["4CBDB3CCB170D9F3"]
 			id: "3C05BA3D71469DDD"
+			rewards: [{
+				id: "18EF3A4CAE91477A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FE9F8AA6020FEB5"
 				item: { count: 1, id: "industrialforegoing:material_stonework_factory" }
@@ -127,6 +212,14 @@
 		{
 			dependencies: ["3C05BA3D71469DDD"]
 			id: "4E2A33A420B45C7D"
+			rewards: [{
+				id: "39A94D1704F7EA32"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66ED350803FAAB2F"
 				item: { count: 1, id: "ae2:silicon" }
@@ -138,6 +231,14 @@
 		{
 			dependencies: ["4E2A33A420B45C7D"]
 			id: "5B99151FECCA1C27"
+			rewards: [{
+				id: "0BE9396388CA6319"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60BEA36ACB52D3E9"
 				item: { count: 1, id: "ae2:inscriber" }
@@ -149,6 +250,14 @@
 		{
 			dependencies: ["39AB090354EDB00A"]
 			id: "772E29425FED6697"
+			rewards: [{
+				id: "628EE4F79E805853"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6203D42C373548FB"
 				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
@@ -161,6 +270,14 @@
 			dependencies: ["772E29425FED6697"]
 			id: "4CC34CF73486EB02"
 			optional: true
+			rewards: [{
+				id: "1E81AB59D7AE9B05"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "09BB3C9FC4E10AFC"
 				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
@@ -178,6 +295,14 @@
 				id: "pneumaticcraft:empty_pcb"
 			}
 			id: "5CBC0FCC4F12353D"
+			rewards: [{
+				id: "3D258D2E2F152490"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "288B8C0730CEAE3C"
 				item: { components: { "pneumaticcraft:uv_exposure": 100 }, count: 1, id: "pneumaticcraft:empty_pcb" }
@@ -208,6 +333,14 @@
 				id: "pneumaticcraft:etching_acid_bucket"
 			}
 			id: "0C2AABFFD28944AA"
+			rewards: [{
+				id: "22874AE631D25254"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B782F5FAE21B6E9"
 				type: "checkmark"
@@ -222,6 +355,14 @@
 			]
 			id: "50F353C6D15C0062"
 			optional: true
+			rewards: [{
+				id: "6B6F6B826815A52A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B7C36C45C2341F9"
 				item: { count: 1, id: "pneumaticcraft:etching_tank" }
@@ -237,6 +378,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "433D889DEFC9E899"
+			rewards: [{
+				id: "2008E00A35EBD7C8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F4539D7FB283BB6"
 				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
@@ -248,6 +397,14 @@
 		{
 			dependencies: ["5B99151FECCA1C27"]
 			id: "03F26BF6244082FD"
+			rewards: [{
+				id: "4A32D74AC4B3A60C"
+				item: {
+					count: 1
+					id: "pneumaticcraft:transistor"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "745A3E0D23EB1EAE"
 				item: { count: 1, id: "pneumaticcraft:transistor" }
@@ -259,6 +416,14 @@
 		{
 			dependencies: ["5B99151FECCA1C27"]
 			id: "066605A8923EC7C2"
+			rewards: [{
+				id: "0496BA08073D53B3"
+				item: {
+					count: 1
+					id: "pneumaticcraft:capacitor"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4814090BAB4667C5"
 				item: { count: 1, id: "pneumaticcraft:capacitor" }
@@ -281,6 +446,14 @@
 		{
 			dependencies: ["066605A8923EC7C2"]
 			id: "54D4C8B3C0933A20"
+			rewards: [{
+				id: "44A8001FC1A857E1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "16EA7CBBB260AC4C"
 				item: { count: 1, id: "enderio:basic_capacitor" }
@@ -292,6 +465,15 @@
 		{
 			dependencies: ["4E2A33A420B45C7D"]
 			id: "04EDAE52AEA4F157"
+			rewards: [{
+				count: 3
+				id: "4F93666583BB86D0"
+				item: {
+					count: 1
+					id: "enderio:photovoltaic_composite"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36E06C6435655FE2"
 				item: { count: 1, id: "enderio:photovoltaic_composite" }
@@ -303,6 +485,14 @@
 		{
 			dependencies: ["04EDAE52AEA4F157"]
 			id: "6A4265C9F724EEAE"
+			rewards: [{
+				id: "5F00F76282420165"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "31FD4B57EAC6306D"
 				item: { count: 1, id: "enderio:photovoltaic_plate" }
@@ -317,6 +507,14 @@
 				"54D4C8B3C0933A20"
 			]
 			id: "7A799412015F62DF"
+			rewards: [{
+				id: "1B21A6322FFDFA15"
+				item: {
+					count: 1
+					id: "enderio:energetic_photovoltaic_module"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EEF417325B0E82E"
 				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
@@ -329,6 +527,14 @@
 			dependencies: ["54D4C8B3C0933A20"]
 			id: "72844E6B5F22DC9D"
 			optional: true
+			rewards: [{
+				id: "423064F34869BBA4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DF9AC7F65CFED42"
 				item: { count: 1, id: "enderio:double_layer_capacitor" }
@@ -344,6 +550,14 @@
 			]
 			id: "5AF9A9F1EF193926"
 			optional: true
+			rewards: [{
+				id: "308980C369428A7B"
+				item: {
+					count: 1
+					id: "enderio:pulsating_photovoltaic_module"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B80B5EE4EEAB54A"
 				item: { count: 1, id: "enderio:pulsating_photovoltaic_module" }
@@ -356,6 +570,14 @@
 			dependencies: ["72844E6B5F22DC9D"]
 			id: "368192A5697843F8"
 			optional: true
+			rewards: [{
+				id: "308B9C93CFC47A62"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "61F7FE58FF8B6698"
 				item: { count: 1, id: "enderio:octadic_capacitor" }
@@ -371,6 +593,14 @@
 			]
 			id: "08D1ED5AEAF876D9"
 			optional: true
+			rewards: [{
+				id: "65A130CEB3954FBB"
+				item: {
+					count: 1
+					id: "enderio:vibrant_photovoltaic_module"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15727FC48D0C5072"
 				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
@@ -382,6 +612,14 @@
 		{
 			dependencies: ["54D4C8B3C0933A20"]
 			id: "0723858D65C38A91"
+			rewards: [{
+				id: "47F1E0532C9C233E"
+				item: {
+					count: 1
+					id: "enderio:advanced_capacitor_bank"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "320DCC9A8D1FD211"
 				item: { count: 1, id: "enderio:basic_capacitor_bank" }

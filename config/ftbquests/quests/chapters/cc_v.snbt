@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cc_v"
+	group: "79FA05351D416013"
+	id: "67760D9BDF2AD905"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "42D9BC5D2DB0D10A"
+		tasks: [{
+			id: "1ED2B601939757B6"
+			item: { count: 1, id: "iceandfire:hippogryph_egg" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

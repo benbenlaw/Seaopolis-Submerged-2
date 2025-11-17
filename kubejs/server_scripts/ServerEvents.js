@@ -68,7 +68,7 @@ BlockEvents.rightClicked(event => {
 
     // Drop barrel crate
     event.server.scheduleInTicks(100, () => {
-        event.entity.tell(`Loot Incoming at ${x} ${y} ${z}`);
+        //event.entity.tell(`Loot Incoming at ${x} ${y} ${z}`);
 
         // Check if it's a reward flare or a dye flare
         const customName = "Supply Crate";
@@ -79,7 +79,7 @@ BlockEvents.rightClicked(event => {
             `{BlockState:{Name:"minecraft:barrel"},Time:1${noDrop},TileEntityData:{CustomName:'{"text":"${customName}"}',Items:[${itemsString}]}}`
         );
 
-        event.entity.tell(`${customName} Spawned`);
+        //event.entity.tell(`${customName} Spawned`);
     });
 });
 

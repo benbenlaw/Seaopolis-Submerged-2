@@ -18,6 +18,7 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: 'create:crafting/kinetics/deployer'}, 'create:electron_tube', 'minecraft:lapis_lazuli')
     event.replaceInput({id: 'create:crafting/kinetics/goggles'}, '#c:plates/gold', '#c:plates/brass')
+    event.replaceInput({id: 'create:crafting/kinetics/wrench'}, '#c:plates/gold', '#c:plates/brass')
 
     //Milling
     event.recipes.create.milling('2x naturesaura:gold_powder', 'naturesaura:gold_leaf')

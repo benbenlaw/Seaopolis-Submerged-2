@@ -3,11 +3,28 @@
 ServerEvents.recipes(event => {
 
     //Remove
-    event.remove({id: 'resourcefish:infusing/copper'})
-    event.remove({id: 'resourcefish:infusing/iron'})
-    event.remove({id: 'resourcefish:infusing/gold'})
-    event.remove({id: 'resourcefish:infusing/lapis'})
-    event.remove({id: 'resourcefish:infusing/redstone'})
+    event.remove({id: 'resourcefish:infusing_upgrade'})
+
+    //Infusing Upgrade
+    event.shaped('resourcefish:infusing_upgrade', ['ABA', 'A A', 'ABA'], {
+        A: 'minecraft:copper_ingot',
+        B: 'alltheores:fluorite_dust'
+    }).id('resourcefish:infusing_upgrade')
+
+    //Metallic Fish Food
+    event.shaped('resourcefish:metallic_fish_food', [' A ', 'ABA', ' A '], {
+        A: 'resourcefish:basic_fish_food',
+        B: 'alltheores:fluorite_dust'
+    }).id('resourcefish:metallic_fish_food')
+
+    //Crystal Fish Food
+
+
+    //Nether Fish Food
+    event.shaped('resourcefish:nether_fish_food', [' A ', 'ABA', ' A '], {
+        A: 'resourcefish:basic_fish_food',
+        B: 'minecraft:lava_bucket'
+    }).id('resourcefish:nether_fish_food')
 
     //Tank
     event.shaped('resourcefish:tank_controller', ['AAA', 'CBC', 'AAA'], {

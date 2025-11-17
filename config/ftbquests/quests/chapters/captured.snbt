@@ -4,6 +4,9 @@
 	filename: "captured"
 	group: "1DC99ACF42B51C2F"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "industrialforegoing:mob_imprisonment_tool"
+	}
 	id: "7E591E99954B9956"
 	order_index: 3
 	quest_links: [ ]
@@ -11,6 +14,15 @@
 		{
 			dependencies: ["590DA5919D4D18B2"]
 			id: "1731145B318CB588"
+			rewards: [{
+				count: 3
+				id: "6798D090220AEF42"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "084FD330ABD84F48"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
@@ -22,6 +34,14 @@
 		{
 			dependencies: ["1731145B318CB588"]
 			id: "2401B5B7F6D93BF6"
+			rewards: [{
+				id: "4D66580A3ED3F7CD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3729FD71388A12E4"
 				item: { count: 1, id: "submerged:netherite_key" }
@@ -33,6 +53,14 @@
 		{
 			dependencies: ["532E2DA7ACCF42C2"]
 			id: "74E4B172FE96A069"
+			rewards: [{
+				id: "0A75F9BA0ECECCD5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "3B1623764B98CE01"
@@ -44,6 +72,14 @@
 		{
 			dependencies: ["74E4B172FE96A069"]
 			id: "3D906CE528FBE462"
+			rewards: [{
+				id: "08BAF6F7BFE9F329"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BC47B5061DF4C32"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -56,6 +92,14 @@
 		{
 			dependencies: ["2401B5B7F6D93BF6"]
 			id: "532E2DA7ACCF42C2"
+			rewards: [{
+				id: "1C16FD6AA4D2AFE3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36564ED59697D0DF"
 				item: { count: 1, id: "submerged:nether_portal_sphere" }
@@ -67,10 +111,18 @@
 		{
 			dependencies: [
 				"3D906CE528FBE462"
-				"6C85616A5C6A060E"
+				"478F95B10D884601"
 			]
 			dependency_requirement: "one_completed"
 			id: "6D60D4F5300AED78"
+			rewards: [{
+				id: "01115229A29772B8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4717C979125563E3"
 				item: { count: 1, id: "submerged:nether_brick_sphere" }
@@ -85,6 +137,14 @@
 				id: "minecraft:spawner"
 			}
 			id: "702BDA4EBF2C24E3"
+			rewards: [{
+				id: "29E921D6B977A63E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "78A550476C9D9FBE"
 				observe_type: 0
@@ -98,6 +158,14 @@
 		{
 			dependencies: ["702BDA4EBF2C24E3"]
 			id: "5D1D465CD595E040"
+			rewards: [{
+				id: "51A01CF8236B741E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3740CF06D75B5DBF"
 				item: { count: 1, id: "submerged:blank_spawn_egg" }
@@ -109,6 +177,14 @@
 		{
 			dependencies: ["5D1D465CD595E040"]
 			id: "3B743C16B341B375"
+			rewards: [{
+				id: "65F2E6A0F01F09C2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D50607D4C21C673"
 				item: { count: 1, id: "minecraft:wither_skeleton_spawn_egg" }
@@ -120,6 +196,14 @@
 		{
 			dependencies: ["3B743C16B341B375"]
 			id: "072B502A9D9AF993"
+			rewards: [{
+				id: "33C58D9436F9317E"
+				item: {
+					count: 1
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A8BDA95624B3A7D"
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
@@ -131,6 +215,14 @@
 		{
 			dependencies: ["08AFA43CC9061096"]
 			id: "4E133436B599DA13"
+			rewards: [{
+				id: "393857D6BD1AB17C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30F24776F98A1993"
 				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
@@ -143,6 +235,14 @@
 			dependencies: ["072B502A9D9AF993"]
 			id: "5FCEBCB684BB632F"
 			optional: true
+			rewards: [{
+				id: "4F1E75BD29A23071"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33FB7A66EDD4A3C7"
 				item: { count: 1, id: "naturesaura:conversion_catalyst" }
@@ -156,7 +256,16 @@
 				"5FCEBCB684BB632F"
 				"0F6C39A38FE558B9"
 			]
+			dependency_requirement: "one_completed"
 			id: "08AFA43CC9061096"
+			rewards: [{
+				id: "425B99CF5A7CB32D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F102FFFA482857F"
 				item: { count: 1, id: "minecraft:ghast_tear" }
@@ -168,6 +277,14 @@
 		{
 			dependencies: ["4E133436B599DA13"]
 			id: "17EF39CAF2DF34DC"
+			rewards: [{
+				id: "7F64AB838F83B5C0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3851E4A59084682B"
 				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
@@ -182,6 +299,14 @@
 				id: "industrialforegoing:ether_gas_bucket"
 			}
 			id: "4A5997EEADDC7CB6"
+			rewards: [{
+				id: "5BBE247486395877"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5ED7FBAE617F68B7"
 				type: "checkmark"
@@ -192,6 +317,14 @@
 		{
 			dependencies: ["4A5997EEADDC7CB6"]
 			id: "3FA8B9543700C855"
+			rewards: [{
+				id: "085EEE8C387ABC0C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C95D8A67A9EC00B"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
@@ -203,6 +336,14 @@
 		{
 			dependencies: ["072B502A9D9AF993"]
 			id: "69A723B282099835"
+			rewards: [{
+				id: "6F3DF80758CBA250"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65EFEF55A0A4D049"
 				item: { count: 1, id: "minecraft:nether_star" }
@@ -214,6 +355,14 @@
 		{
 			dependencies: ["69A723B282099835"]
 			id: "10E23E6481414E79"
+			rewards: [{
+				id: "4E8BFCB0526EB8E0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A1FE886DD0E7727"
 				item: { count: 1, id: "naturesaura:clock_hand" }
@@ -225,6 +374,14 @@
 		{
 			dependencies: ["10E23E6481414E79"]
 			id: "35D86753E5065A98"
+			rewards: [{
+				id: "44B670A79B8DE03A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "63884038568A3A3B"
 				item: { count: 1, id: "tiab:time_in_a_bottle" }
@@ -236,6 +393,14 @@
 		{
 			dependencies: ["3FA8B9543700C855"]
 			id: "5D385621A0300B63"
+			rewards: [{
+				id: "3A263E8E70FAE05A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4124A0951BB8A572"
 				item: { count: 1, id: "tiab_charger:tiab_charger" }
@@ -250,6 +415,14 @@
 				"1B15DCDB622B8B9F"
 			]
 			id: "3FFABEC4A01A0DB0"
+			rewards: [{
+				id: "18E02247DD62AAB3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AEC988DD1DE86DF"
 				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
@@ -261,6 +434,14 @@
 		{
 			dependencies: ["08AFA43CC9061096"]
 			id: "1B15DCDB622B8B9F"
+			rewards: [{
+				id: "0F5346EB215F85EF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "13F857855F17CD32"
 				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
@@ -272,6 +453,14 @@
 		{
 			dependencies: ["072B502A9D9AF993"]
 			id: "0F6C39A38FE558B9"
+			rewards: [{
+				id: "5CE5B29F0C583431"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "48D8D4FD6580DE02"
 				item: { count: 1, id: "enderio:withering_powder" }
@@ -282,10 +471,19 @@
 		}
 		{
 			dependencies: ["74E4B172FE96A069"]
-			id: "6C85616A5C6A060E"
+			id: "478F95B10D884601"
+			rewards: [{
+				id: "59AE608C2E357FBB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "07EC6513357AAB91"
-				type: "checkmark"
+				id: "4DFCA3D027AB0BD1"
+				item: { count: 1, id: "submerged:nether_force_bricks" }
+				type: "item"
 			}]
 			x: -0.5d
 			y: 3.0d

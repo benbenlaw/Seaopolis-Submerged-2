@@ -3,6 +3,17 @@
 ServerEvents.recipes(event => {
 
 
+    //Nether Force Bricks
+    event.custom({
+        "type": "inworldrecipes:block_conversion",
+        "block_to_convert": "forcecraft:force_brick",
+        "converted_block": "submerged:nether_force_bricks",
+        "pop_block": false,
+        "requires_sunlight": false,
+        "dimension": "minecraft:the_nether",
+        "duration": 200
+    }).id('submerged:nether_force_bricks')
+
     //Dragon Eggs
     const dragonColors = ['red', 'white', 'green', 'bronze', 'gray', 'blue', 'sapphire', 'silver', 'electric', 'amethyst', 'copper', 'black']
     dragonColors.forEach(color => {
@@ -32,10 +43,10 @@ ServerEvents.recipes(event => {
     //Living Gravel
     event.custom({
         'type': 'inworldrecipes:drop_item_in_fluid',
-        'dropped_items': [{'item': 'opolisutilities:ender_pearl_fragment'}, {'item': 'submerged:assembled_gravel'}],
+        'dropped_items': [{'item': 'opolisutilities:ender_pearl_fragment', "count": 8}, {'item': 'submerged:assembled_gravel', "count": 8}],
         'fluid': 'mob_grinding_utils:fluid_xp',
         'consume_fluid': true,
-        'results': [{'item': {'id': 'submerged:living_gravel'}}]
+        'results': [{'item': {'id': 'submerged:living_gravel', "count": 8}}]
     }).id('submerged:living_gravel')
 
     //Exothermic Water

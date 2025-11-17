@@ -9,8 +9,44 @@ SHOPS - jei to add types of flare
 SHOPS - make amount of hit track between world reloads
 SHOPS - translations
 SHOPS - random amount and item mode
+SUB - Black starting sphere has white locks
+
+Missing Textures;
+- Infinity Storage missing everything
+
+- change the colors terracotta flare to shops pinate 
 
 Do Not Update IceAndFire crashes when opening GUI of forges
+
+A7.0
+- Updated Mods
+
+A6.0
+- Updated Mods
+- Updated Yuki Textures
+- Moved to official IF Recipe mod
+- Tweaked Resource Fish Chapter to better fit the changes in resource fish
+- Infusion upgrade is now a lot later in the quests as well as the metallic and crystal fish Foods
+- This allows for all previous disabled infusion recipe to be re enabled
+- Finallized Automation questline, added CCIII Pinata
+- Added Relics Catalog, obtained in CCII allows you to buy relics and relic experience
+- Added AllTheLeaks
+- Blocks Catalog now sells Granite, Diorite, Andesite
+- Added Force Craft alternative recipe for the nether brick sphere key
+- Removed Natures Auro Blank Spawn Egg recipe
+- Changes Industrial Foregoing Blank Spawn Egg recipe 
+- Updated Quests information to explain that quests are hidden until previous are completed
+- Disabled logging of what totem ceremony is active
+- Buffed routers RF upgrades 
+- Updated to latest Shops with improved pinatas, CC rewards may be slightly teaked now
+- Disabled logging for loot crates 
+- Added Colored Terracotta pinatas, there flares can be crafted and produce colored terracotta rocks and blocks
+- Create Wrench now uses brass plate not gold in its recipe
+- Fixed crashes when viewing strucutre on server from Roomopolis
+- Nether Gravel recipes tweaked, i think its the correct ratios between create and pneumaticraft but if someone could check
+    would be useful 
+- Fixed JSON malformation in skyblock builder
+- Enabled update checking for public releases, not this will show a no file error in game dont worry about it 
 
 A5.0
 - Updated Mods

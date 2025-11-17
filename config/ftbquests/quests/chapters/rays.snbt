@@ -319,5 +319,46 @@
 			x: 7.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["607ADE90EDB07ACD"]
+			id: "6D2761D542F9C707"
+			rewards: [{
+				id: "6C4FE5D88ACA0FB0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D96FCDA30DEE42"
+				item: { count: 1, id: "resourcefish:infusing_upgrade" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["607ADE90EDB07ACD"]
+			id: "6981A5411E206718"
+			tasks: [{
+				id: "5E1D22AB1C0D36C3"
+				item: { count: 1, id: "resourcefish:metallic_fish_food" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6981A5411E206718"]
+			id: "61B490318EEC440C"
+			tasks: [{
+				id: "0A1368A99ACF7C89"
+				item: { count: 1, id: "resourcefish:crystal_fish_food" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
 	]
 }

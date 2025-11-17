@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"casting:tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"strainers:wooden_strainer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":"mekanism:antimatter","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:pellet_antimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:pellet_polonium"},"type":"item_stack","bookmarkType":"INGREDIENT"}

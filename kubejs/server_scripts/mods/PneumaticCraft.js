@@ -34,28 +34,28 @@ ServerEvents.recipes(event => {
 
     //Nether Gravel 
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["4x submerged:living_gravel", "8x minecraft:nether_wart", "minecraft:lava_bucket"],
+        ["4x submerged:living_gravel", "4x minecraft:nether_wart", "minecraft:lava_bucket"],
         2.0,
         ["4x submerged:nether_gravel", "minecraft:bucket"]
     ).id('submerged:pneumaticcraft/nether_gravel')
 
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["4x submerged:living_gravel", "8x minecraft:nether_wart", "casting:molten_blaze_bucket"],
+        ["10x submerged:living_gravel", "16x minecraft:nether_wart", "casting:molten_blaze_bucket"],
         2.0,
-        ["4x submerged:nether_gravel", "minecraft:bucket"]
+        ["10x submerged:nether_gravel", "minecraft:bucket"]
     ).id('submerged:pneumaticcraft/nether_gravel_blaze')
 
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["8x submerged:living_gravel", "16x minecraft:nether_wart", "industrialforegoing:meat_bucket"],
+        ["40x submerged:living_gravel", "40x minecraft:nether_wart", "1x industrialforegoing:pink_slime_bucket", "5x industrialforegoing:meat_bucket"],
         2.0,
-        ["8x submerged:nether_gravel", "minecraft:bucket"]
+        ["40x submerged:nether_gravel", "2x minecraft:bucket"]
     ).id('submerged:pneumaticcraft/nether_gravel_meat')
 
     //Living Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["submerged:assembled_gravel", "opolisutilities:ender_pearl_fragment", 'mob_grinding_utils:fluid_xp_bucket'],
+        ["8x submerged:assembled_gravel", "8x opolisutilities:ender_pearl_fragment", 'mob_grinding_utils:fluid_xp_bucket'],
         2.0,
-        ["submerged:living_gravel", 'minecraft:bucket']
+        ["8x ubmerged:living_gravel", 'minecraft:bucket']
     ).id('submerged:pneumaticcraft/living_gravel')
 
     //Assembled Gravel

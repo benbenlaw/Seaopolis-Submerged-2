@@ -18,8 +18,8 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting('minecraft:apple', '150x submerged:organic_water', 100).id('submerged:melting/apple')
     event.recipes.casting.melting('strainers:mulch', '250x submerged:organic_water', 100).id('submerged:melting/mulch')
     event.recipes.casting.melting('#c:plastics', '1000x pneumaticcraft:plastic', 1000).id('submerged:melting/plastic')
-    event.recipes.casting.melting('ae2:certus_quartz_dust', '250x submerged:molten_certus_quartz', 1000).id('submerged:melting/certus_quartz_dust')
-    event.recipes.casting.melting('ae2:certus_quartz_crystal', '250x submerged:molten_certus_quartz', 1000).id('submerged:melting/certus_quartz_crystal')
+    event.recipes.casting.melting('ae2:certus_quartz_dust', '250x casting:molten_certus_quartz', 1000).id('submerged:melting/certus_quartz_dust')
+    event.recipes.casting.melting('ae2:certus_quartz_crystal', '250x casting:molten_certus_quartz', 1000).id('submerged:melting/certus_quartz_crystal')
     event.recipes.casting.melting('submerged:porcelain_clay', '250x casting:molten_black_brick', 1000).id('submerged:melting/porcelain_clay')
     
     event.recipes.casting.melting('minecraft:rotten_flesh', '20x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/rotten_flesh')
@@ -46,8 +46,8 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('strainers:purified_gravel', '100x submerged:organic_water', 'submerged:refined_gravel').id('submerged:solidifier/refined_gravel')
     event.recipes.casting.solidifier('#c:glass_panes/colorless', '500x industrialforegoing:pink_slime', 'industrialforegoing:pink_slime').id('submerged:solidifier/pink_slime')
     event.recipes.casting.solidifier('#c:molds/ingot', '1000x pneumaticcraft:plastic', 'pneumaticcraft:plastic').id('submerged:solidifier/plastic')
-    event.recipes.casting.solidifier('#c:molds/dust', '250x submerged:molten_certus_quartz', 'ae2:certus_quartz_dust').id('submerged:solidifier/certus_quartz_dust')
-    event.recipes.casting.solidifier('#c:molds/gem', '250x submerged:molten_certus_quartz', 'ae2:certus_quartz_crystal').id('submerged:solidifier/certus_quartz_crystal')
+    event.recipes.casting.solidifier('#c:molds/dust', '250x casting:molten_certus_quartz', 'ae2:certus_quartz_dust').id('submerged:solidifier/certus_quartz_dust')
+    event.recipes.casting.solidifier('#c:molds/gem', '250x casting:molten_certus_quartz', 'ae2:certus_quartz_crystal').id('submerged:solidifier/certus_quartz_crystal')
 
     event.recipes.casting.solidifier('#c:molds/key', '360x casting:molten_copper', 'submerged:copper_key').id('submerged:solidifier/copper_key')
     event.recipes.casting.solidifier('#c:molds/key', '360x casting:molten_iron', 'submerged:iron_key').id('submerged:solidifier/iron_key')

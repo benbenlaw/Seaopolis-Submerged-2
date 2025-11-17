@@ -4,12 +4,18 @@
 	filename: "cc_iii"
 	group: "1DC99ACF42B51C2F"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "simplehats:presentsstack"
+	}
 	id: "1F7AEF9A41AE6F54"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1AF122F4F516298A"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "6B6ABEEF598AF230"
 			rewards: [{
 				id: "4A60D0EE9857423F"
@@ -83,6 +89,9 @@
 				"066F33EDCEBC7E86"
 				"3ED2A57EA80E8B4B"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "4542CF8ED6E6A67F"
 			rewards: [{
 				id: "0472EA9B2A8293AC"
@@ -106,6 +115,9 @@
 		}
 		{
 			dependencies: ["1E9B63EA9FA08A4A"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "47DCF6A5AF212C81"
 			rewards: [{
 				id: "3FB534B5A6875A7D"
@@ -167,6 +179,9 @@
 				"22D478D330521CB2"
 				"1C898317035D7B5F"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "7E417EC6DDAD2F90"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -188,6 +203,9 @@
 				"22AC677A42AE1F35"
 				"6642B6226116D094"
 			]
+			icon: {
+				id: "simplehats:presentsstack"
+			}
 			id: "7001FF8CE9F800BB"
 			size: 2.0d
 			tasks: [{
@@ -199,6 +217,9 @@
 		}
 		{
 			dependencies: ["4DCA4E15279048E5"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "50819594C402FD66"
 			rewards: [{
 				id: "67A93EBAB58EB439"
@@ -242,6 +263,9 @@
 				"0658C0498D73F76D"
 				"72680F59328DB9E5"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "22AC677A42AE1F35"
 			rewards: [{
 				id: "6CA82BA74BACE1D5"
@@ -281,6 +305,9 @@
 		}
 		{
 			dependencies: ["7E591E99954B9956"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "17470B72F99B356B"
 			rewards: [{
 				id: "59C61499DEDFE148"
@@ -329,11 +356,17 @@
 				"628C9F109EC033ED"
 				"65B25965701EAA49"
 			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
 			id: "6642B6226116D094"
 			rewards: [{
-				id: "651873CF7824F2D8"
-				type: "xp_levels"
-				xp_levels: 0
+				id: "27CBC81896F98B65"
+				item: {
+					count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "525BE29BBB0F90A0"

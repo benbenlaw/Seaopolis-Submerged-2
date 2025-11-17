@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
         Ingredient.of('minecraft:egg').toJson(),
         Ingredient.of('minecraft:egg').toJson(),
         Ingredient.of('minecraft:egg').toJson()
-    ], 'industrialforegoing:ether_gas', 500, 'submerged:blank_spawn_egg', 300)
+    ], 'submerged:time_fluid', 500, 'submerged:blank_spawn_egg', 300)
 
     //Advanced Machine Frame
     addDissolutionRecipe([

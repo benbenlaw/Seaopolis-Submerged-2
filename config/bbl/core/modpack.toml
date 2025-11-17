@@ -13,10 +13,10 @@
 	#Modpack name
 	"Modpack name" = "Submerged 2"
 	#Modpack Version
-	"Modpack Version" = "A5.0"
+	"Modpack Version" = "A6.0"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false
-	"Update Checker" = false
+	"Update Checker" = true
 	#Project ID for the modpack, found on curse forge
 	"Project ID" = 0

@@ -4,6 +4,9 @@
 	filename: "digital_storage"
 	group: "1DC99ACF42B51C2F"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "refinedstorage:quartz_enriched_iron"
+	}
 	id: "1E9B63EA9FA08A4A"
 	order_index: 1
 	quest_links: [ ]
@@ -14,6 +17,15 @@
 				"1A622AC289DE07F1"
 			]
 			id: "3B694A316CDD67A8"
+			rewards: [{
+				count: 8
+				id: "1DFB360DC1F8C7BF"
+				item: {
+					count: 1
+					id: "refinedstorage:quartz_enriched_iron"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C3C7AB7166F9919"
 				item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
@@ -25,6 +37,15 @@
 		{
 			dependencies: ["75EE8E1C409ADF61"]
 			id: "40E95BE654D1C3CA"
+			rewards: [{
+				count: 4
+				id: "681EEF1AF2D855E8"
+				item: {
+					count: 1
+					id: "submerged:charged_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "407C325D3DE02BB9"
 				item: { count: 1, id: "submerged:charged_gravel" }
@@ -36,6 +57,14 @@
 		{
 			dependencies: ["40E95BE654D1C3CA"]
 			id: "676CD62894F97419"
+			rewards: [{
+				id: "07115D469132E295"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21AA9B6D2F44EE3B"
 				item: { count: 1, id: "ae2:certus_quartz_dust" }
@@ -47,6 +76,14 @@
 		{
 			dependencies: ["676CD62894F97419"]
 			id: "1AA8B7DC2F4CFECC"
+			rewards: [{
+				id: "7FE19DFACAE55FE3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A73CF282D0569EC"
 				item: { count: 1, id: "ae2:certus_quartz_crystal" }
@@ -77,6 +114,14 @@
 		{
 			dependencies: ["3B694A316CDD67A8"]
 			id: "4835A611E199F2B5"
+			rewards: [{
+				id: "4B4C9C6DCDABE95D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B5765D696D72502"
 				item: { count: 1, id: "ae2:printed_logic_processor" }
@@ -88,6 +133,14 @@
 		{
 			dependencies: ["3B694A316CDD67A8"]
 			id: "714080375257015A"
+			rewards: [{
+				id: "0DA07C6095D6316F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "56153C051F1522EB"
 				item: { count: 1, id: "ae2:printed_calculation_processor" }
@@ -99,6 +152,14 @@
 		{
 			dependencies: ["3B694A316CDD67A8"]
 			id: "026E0CF5357A1E51"
+			rewards: [{
+				id: "026E3E44DE04EF2E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "198EF16D635F5188"
 				item: { count: 1, id: "ae2:printed_engineering_processor" }
@@ -110,6 +171,14 @@
 		{
 			dependencies: ["714080375257015A"]
 			id: "2E256A697720155A"
+			rewards: [{
+				id: "0CE24CA9280CE63E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05809679BC29AF35"
 				item: { count: 1, id: "submerged:calculation_processor" }
@@ -121,6 +190,14 @@
 		{
 			dependencies: ["026E0CF5357A1E51"]
 			id: "065989E16779ACEA"
+			rewards: [{
+				id: "3755AAAB1484CCE0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5605D4153185E95A"
 				item: { count: 1, id: "submerged:engineering_processor" }
@@ -132,6 +209,14 @@
 		{
 			dependencies: ["4835A611E199F2B5"]
 			id: "5483722820D7B629"
+			rewards: [{
+				id: "35AE4D34CDE14EB9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "094236C3D553DDA9"
 				item: { count: 1, id: "submerged:logic_processor" }
@@ -143,6 +228,14 @@
 		{
 			dependencies: ["40E95BE654D1C3CA"]
 			id: "60081172124110BE"
+			rewards: [{
+				id: "625F4EA62EC1B7F7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7987CBCAE9E94029"
 				item: { count: 1, id: "mekanism:dust_quartz" }
@@ -154,6 +247,14 @@
 		{
 			dependencies: ["60081172124110BE"]
 			id: "1A622AC289DE07F1"
+			rewards: [{
+				id: "3C99CD3BDB45A5DC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B4DB036260C96A7"
 				item: { count: 1, id: "minecraft:quartz" }
@@ -165,6 +266,14 @@
 		{
 			dependencies: ["0ED7FDC5610FE8F9"]
 			id: "13CF44178FF0BA62"
+			rewards: [{
+				id: "12936CCA6A3A4295"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4187CE2710651B5E"
 				type: "checkmark"
@@ -178,6 +287,14 @@
 				"0AC872B23F3FEF2D"
 			]
 			id: "640DD34C04DCC7BD"
+			rewards: [{
+				id: "49363E37B603D507"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BD950D7BB4DE806"
 				item: { count: 1, id: "ae2:condenser" }
@@ -189,6 +306,15 @@
 		{
 			dependencies: ["40E95BE654D1C3CA"]
 			id: "7F99E931E817553F"
+			rewards: [{
+				count: 4
+				id: "04346EB382FEA9BD"
+				item: {
+					count: 1
+					id: "ae2:sky_dust"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "607B4129221B955A"
 				item: { count: 1, id: "ae2:sky_dust" }
@@ -238,6 +364,14 @@
 		{
 			dependencies: ["0AC872B23F3FEF2D"]
 			id: "118B3A02993C9272"
+			rewards: [{
+				id: "20FA73EE8FBF7CA6"
+				item: {
+					count: 1
+					id: "ae2:cell_component_64k"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E084AD0E85A7066"
 				item: { count: 1, id: "ae2:cell_component_64k" }
@@ -249,6 +383,14 @@
 		{
 			dependencies: ["640DD34C04DCC7BD"]
 			id: "16D9C95B76D8ED2D"
+			rewards: [{
+				id: "5CFC0E310B4C59DD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3811C6319CBEBA55"
 				item: { count: 1, id: "ae2:matter_ball" }
@@ -260,6 +402,14 @@
 		{
 			dependencies: ["640DD34C04DCC7BD"]
 			id: "11A1ACC619FDAED8"
+			rewards: [{
+				id: "6166288F8807EF6D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B6050CC800D8B55"
 				item: { count: 1, id: "ae2:singularity" }
@@ -272,6 +422,14 @@
 			dependencies: ["13CF44178FF0BA62"]
 			id: "0065973DDCBE9AEB"
 			optional: true
+			rewards: [{
+				id: "319078B32D00ABD2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AC93F9E8151A1D6"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -283,6 +441,14 @@
 		{
 			dependencies: ["74C2DEC788DB58F4"]
 			id: "5DCAD7240C6D683E"
+			rewards: [{
+				id: "40EDB79E1AEA8165"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "379644D6E5AAAEF1"
 				item: { count: 1, id: "ae2:fluix_crystal" }
@@ -295,6 +461,14 @@
 			dependencies: ["13CF44178FF0BA62"]
 			id: "26ACB544DBFECA7C"
 			optional: true
+			rewards: [{
+				id: "323FEA9F2ACCA7DA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BF08ABD8663B248"
 				item: { count: 1, id: "ae2:controller" }
@@ -306,6 +480,14 @@
 		{
 			dependencies: ["5DCAD7240C6D683E"]
 			id: "2EF5C929A8D42C3B"
+			rewards: [{
+				id: "5F10DD5AE3A562AE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14AB16F7EA1DF778"
 				item: { count: 1, id: "ae2:fluix_dust" }
@@ -317,6 +499,15 @@
 		{
 			dependencies: ["0ED7FDC5610FE8F9"]
 			id: "74C2DEC788DB58F4"
+			rewards: [{
+				count: 4
+				id: "0ACA7080895F0C81"
+				item: {
+					count: 1
+					id: "ae2:charged_certus_quartz_crystal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "301E471A5DFBE113"
 				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
@@ -328,6 +519,14 @@
 		{
 			dependencies: ["118B3A02993C9272"]
 			id: "55BED80ACBF62499"
+			rewards: [{
+				id: "3788C2F5B6C4EA1D"
+				item: {
+					count: 1
+					id: "ae2:cell_component_256k"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "266EFECB8586D116"
 				item: { count: 1, id: "ae2:cell_component_256k" }
