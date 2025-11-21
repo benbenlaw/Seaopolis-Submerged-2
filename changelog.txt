@@ -4,22 +4,66 @@ ENDGAME Mods
 - Project E?
 - Draconic
 - extended crafting
-
-SHOPS - jei to add types of flare
-SHOPS - make amount of hit track between world reloads
-SHOPS - translations
-SHOPS - random amount and item mode
-SUB - Black starting sphere has white locks
-
-Missing Textures;
-- Infinity Storage missing everything
-
-- change the colors terracotta flare to shops pinate 
+- avaratia
 
 Do Not Update IceAndFire crashes when opening GUI of forges
+Do Not Update Relics, Articfacts or Relics: Artifact Compat Crashes on startup
+
+@benbenlaw Looks like sb4 had artifacts and compact on the latest and the relic on 10.7.6
 
 A7.0
 - Updated Mods
+- Living Gravel recipe now uses 125mb of fluid xp not 1000mb
+- Removed Submerged Molten Certus Quartz
+- Increased Wireless Crafting Grid energy storage 
+- Increased Storage Drawers label rendering
+- Added Ceramic Bucket recipe for Assembled Gravel
+- Iron Ore now drops between 1 and 3 raw iron, fortune still works
+- Moved to public version of Infintiy Storage
+- Updated trial spheres to have the same 3 block range for ominous and normal, this doesnt effect already plced ones
+- Revert quests from being hidden
+- Updated some Chapter Challenges not unlocking there rewards when the parent quest line has optional quests
+- Jellyfish Relic now banned, I cannot be bother to deal with 100s of people killing there resource fish lol
+- Added Accessories Compatibility Layer
+- Re Enabled Curio RS and Gravestone Curios
+- Removed ExpandedAE from modlist
+- Logo now shows in taskbar
+- Updated CC 1,2,3 rewards to the new Pinata Flares
+- Curios and Accessories now use the Accessories menu 
+- Added additional Tiny TNT recipe which can be used to create Compressed Iron Ingot without using Gunpowder
+- Removed EnderIO Dark Steel Armor recipes, the item is disabled by EnderIO at the moment
+- Casting Multiblock Controller quest now gives the casting guide book
+- Fixed Black Starting Sphere having White Terracotta Locks
+- Shop now has buttons to show more items 
+- Resource Fish spawning now fixed, this is now completely data driven, at the moment the 5 naturally spawning fish for submerged are Water, Lava, Wood, Dirt and Cobblestone
+- Added Nests, these spawn on the floor of the ocean and will spawn Resource Fish between 1 and 4 based on the biome the nest is in. EG Ocean can spawn the 5 previously mentioned fish
+- Added new resource fish including ruby, sapphire, peridot, obsdian and more! 
+- Updated Compator texture in strainers (UPDATE STRAINERS)
+- Added Simple Discord Rich Presents show playing submerged in discord
+- Removed Opolis Utilities Smart Crafting Table
+- Added Ars Nouveau Saplings, ForceCraft Sapling and Nature Aura Sapling to the cloche
+- Added Artifacts
+- Added Relics: Articfacts Compat
+- Added Reliquified Ars Nouveau
+- Reworked relic catlog no longer sells exact relics now sells relic xp, relic pinata and mimi dust 
+- Added relic pinatas to trail spawner ominous loot (this change works with excisting trial spheres)
+- Resource fish tick box now gives a nest reward 
+- Banned pneumaticraft spawner stuff
+- Added prevention for mimic spawn eggs being used on spawners because @Szszabi was getting ideas 
+- Tweaked early game, now using Shops Crates instead of KubeJS events 
+- Removed Submeged colored flares, replaced with Shops versions
+- Flare catalog now sells shops colored flares 
+- Flipped unloaded flare texture
+- Removed all Submerged Based flare like events, everything goes through shops now 
+- Colored flares now give a stack of that colors terracotta when used
+- Terracotta pinatas moved location, old ones invalid
+- The pinata and crates should now be in there final locations going forward so no major changes to excisting ones
+- Soul Vial recipe now uses any glass block not fused glass
+- Added new secret quests, actually made the secret quest that are implemented secret
+
+
+
+
 
 A6.0
 - Updated Mods
@@ -78,7 +122,6 @@ limited to one of each, JEI shows this information
 - Infintiy Water and Infinity Cobblestone Cells now banned, use Infinity Storage versions instead
 - Added Infinity Dirt, Gravel, Sand and Stone drives for Infinity Storage
 - Flares can now do multistack items 
-- Colored flares now give a stack of that colors terracotta when used
 
 Resource Fish Changes
 - Full recipe overhaul for breeding and infusing, breeding recipes allow you to get from base fish (water, lava, dirt, stone, wood)
@@ -98,6 +141,7 @@ Resource Fish Changes
 - Fixed JEI always showing an empty fluid stack in the caviar processor recipes
 - Added support for most common resource types, only show when detected in the game
 - Fixed conditional loading of resource fish not working correctly
+
 
 A4.0
 - Updated Mods

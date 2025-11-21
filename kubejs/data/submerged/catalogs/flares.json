@@ -3,22 +3,23 @@
     "id": "submerged:catalog_flares" 
   },
   "entries": [
-    { "stack": { "id": "submerged:white_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:blue_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:green_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:red_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:yellow_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:black_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:orange_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:purple_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:pink_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:lime_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:cyan_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:magenta_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:brown_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:light_gray_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:gray_flare", "count": 1 }, "price": 5, "mode": "player_buys"  },
-    { "stack": { "id": "submerged:light_blue_flare", "count": 1 }, "price": 5, "mode": "player_buys"  }
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/white" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/blue" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/green" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/red" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/yellow" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/black" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/orange" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/purple" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/pink" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/lime" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/cyan" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/magenta" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/brown" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/gray" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/light_gray" }}, "price": 5, "mode": "player_buys"  },
+    { "stack": { "id": "shops:crate_flare", "count": 1, "components": {"shops:crate_id": "submerged:starting/light_blue" }}, "price": 5, "mode": "player_buys"  }
+
 
   ]
 }

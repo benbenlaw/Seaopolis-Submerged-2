@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "burning"
 	group: "4612AF3A2F3FA9D5"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "totemic:wind_chime"
 	}
@@ -16,10 +15,13 @@
 			dependencies: ["75F88A9D4B29EE85"]
 			id: "227A319F037173CD"
 			rewards: [{
-				id: "1C4C395DBA1D1AD1"
+				id: "5693A8CD6FAFF272"
 				item: {
+					components: {
+						"guideme:guide_id": "casting:guide"
+					}
 					count: 1
-					id: "shops:copper_coin"
+					id: "guideme:guide"
 				}
 				type: "item"
 			}]

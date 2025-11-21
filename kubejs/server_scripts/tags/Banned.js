@@ -14,6 +14,7 @@ ServerEvents.tags('item', event => {
         'opolisutilities:cloche',
         'opolisutilities:catalogue',
         'opolisutilities:catalogue_book',
+        'opolisutilities:smart_crafting_table',
         'nanomirai:simple_circuit',
         'nanomirai:normal_circuit',
         'mekmm:basic_planting_factory',
@@ -22,7 +23,14 @@ ServerEvents.tags('item', event => {
         'mekmm:ultimate_planting_factory',
         'mekmm:planting_station',
         'extendedae:infinity_water_cell',
-        'extendedae:infinity_cobblestone_cell'
+        'extendedae:infinity_cobblestone_cell',
+        'relics:jellyfish_necklace',
+        'pneumaticcraft:empty_spawner', 
+        'pneumaticcraft:pressurized_spawner', 
+        'pneumaticcraft:spawner_extractor', 
+        'pneumaticcraft:spawner_agitator',
+        'pneumaticcraft:spawner_core_shell',
+        'pneumaticcraft:spawner_core'
     ])
 })
 

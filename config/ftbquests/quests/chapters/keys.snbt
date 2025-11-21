@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "keys"
 	group: "4612AF3A2F3FA9D5"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "submerged:key_mold"
 	}

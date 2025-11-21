@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "plastic"
 	group: "1DC99ACF42B51C2F"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "pneumaticcraft:plastic"
 	}
@@ -295,6 +294,7 @@
 				id: "pneumaticcraft:empty_pcb"
 			}
 			id: "5CBC0FCC4F12353D"
+			optional: true
 			rewards: [{
 				id: "3D258D2E2F152490"
 				item: {

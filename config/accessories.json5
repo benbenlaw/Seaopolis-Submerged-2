@@ -8,15 +8,15 @@
 		"disabledDefaultRenders": []
 	},
 	"screenOptions": {
-		"selectedScreenType": "ORIGINAL",
+		"selectedScreenType": "EXPERIMENTAL_V1",
 		"showUnusedSlots": false,
 		"allowSlotScrolling": true,
 		"inventoryButtonOffset": {
-			"x": 66,
+			"x": 27,
 			"y": 8
 		},
 		"creativeInventoryButtonOffset": {
-			"x": 96,
+			"x": 25,
 			"y": 6
 		},
 		"isDarkMode": false,

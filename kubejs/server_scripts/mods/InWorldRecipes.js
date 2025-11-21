@@ -2,6 +2,11 @@
 
 ServerEvents.recipes(event => {
 
+    //No Szazabi
+    event.recipes.inworldrecipes.block_interaction(
+        'right', 'minecraft:spawner', 'artifacts:mimic_spawn_egg',
+        false, true, false, true).outputBlockState('minecraft:air')
+    .id('submerged:no_mimic_spawner')
 
     //Nether Force Bricks
     event.custom({

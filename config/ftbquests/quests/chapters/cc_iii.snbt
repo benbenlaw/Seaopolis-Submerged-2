@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "cc_iii"
 	group: "1DC99ACF42B51C2F"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "simplehats:presentsstack"
 	}
@@ -12,11 +11,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1AF122F4F516298A"]
+			dependencies: [
+				"24BA44F8889A7308"
+				"09F2CD05A368D0D7"
+			]
 			icon: {
 				id: "minecraft:chest"
 			}
 			id: "6B6ABEEF598AF230"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "4A60D0EE9857423F"
 				item: {
@@ -207,6 +210,17 @@
 				id: "simplehats:presentsstack"
 			}
 			id: "7001FF8CE9F800BB"
+			rewards: [{
+				id: "586CF418CBDA9BE1"
+				item: {
+					components: {
+						"shops:pinata_id": "submerged:rewards_iii"
+					}
+					count: 1
+					id: "shops:pinata_flare"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0C73FBFA6C3A200A"
@@ -304,7 +318,11 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7E591E99954B9956"]
+			dependencies: [
+				"3FFABEC4A01A0DB0"
+				"35D86753E5065A98"
+				"5D385621A0300B63"
+			]
 			icon: {
 				id: "minecraft:chest"
 			}

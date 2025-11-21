@@ -26,6 +26,7 @@ ars_nouveau:natural_flourishing_tree
 ars_nouveau:natural_vexing_tree
 ars_nouveau:patch_berry
 ars_nouveau:vexing_tree
+artifacts:campsite
 colors:black_stone
 colors:black_tree
 colors:blue_stone
@@ -333,6 +334,7 @@ naturesaura:nether_wart_mushroom
 naturesaura:warped_aura_mushroom
 opolisutilities:ender_ore
 pneumaticcraft:oil_lake
+resourcefish:nest
 rftoolsbase:dimshard_dimensions
 rftoolsbase:dimshard_end
 rftoolsbase:dimshard_nether

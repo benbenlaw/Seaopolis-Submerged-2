@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "resource_fish_7243EC6077298F8D"
 	group: "64828B4E59DB0E48"
-	hide_quest_until_deps_complete: true
 	icon: {
 		components: {
 			"resourcefish:fish_type": "resourcefish:water"
@@ -30,8 +29,8 @@
 				item: { count: 1, id: "resourcefish:tank_controller" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			id: "0899612E4035D1D3"
@@ -87,7 +86,7 @@
 				item: { count: 1, id: "resourcefish:breeding_upgrade" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -4.5d
 		}
 		{
@@ -305,8 +304,8 @@
 				item: { count: 1, id: "minecraft:turtle_scute" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.0d
+			x: -3.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["133C8B93F7789357"]
@@ -316,8 +315,8 @@
 				item: { count: 1, id: "strainers:redstone_mesh" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -10.0d
+			x: -3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -336,8 +335,8 @@
 				item: { count: 1, id: "minecraft:turtle_helmet" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.5d
+			x: -5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -356,8 +355,8 @@
 				item: { count: 1, id: "aq:turtle_chestplate" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -376,8 +375,8 @@
 				item: { count: 1, id: "aq:turtle_leggings" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3D41F2E88C009A56"]
@@ -396,8 +395,8 @@
 				item: { count: 1, id: "aq:turtle_boots" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.5d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -408,17 +407,20 @@
 			]
 			id: "17DB22880BE2B921"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "531B003EBE5F8315"
-				table_id: 432564989994553809L
-				type: "choice"
+				count: 4
+				id: "5AD0DE41CB6E53E6"
+				item: {
+					count: 1
+					id: "resourcefish:nest"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "457A6952275F6C31"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0899612E4035D1D3"]

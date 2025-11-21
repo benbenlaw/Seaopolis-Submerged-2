@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "captured"
 	group: "1DC99ACF42B51C2F"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "industrialforegoing:mob_imprisonment_tool"
 	}
@@ -72,6 +71,7 @@
 		{
 			dependencies: ["74E4B172FE96A069"]
 			id: "3D906CE528FBE462"
+			optional: true
 			rewards: [{
 				id: "08BAF6F7BFE9F329"
 				item: {
@@ -472,6 +472,7 @@
 		{
 			dependencies: ["74E4B172FE96A069"]
 			id: "478F95B10D884601"
+			optional: true
 			rewards: [{
 				id: "59AE608C2E357FBB"
 				item: {

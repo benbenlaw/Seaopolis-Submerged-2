@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "natures_aura"
 	group: "64828B4E59DB0E48"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:gold_ingot"
 	}

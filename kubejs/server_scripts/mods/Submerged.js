@@ -140,9 +140,9 @@ ServerEvents.recipes(event => {
     colors.forEach(color => {
 
         //Pinata Terracotta
-        event.shaped(`shops:pinata_flare[shops:pinata_id="submerged:${color}_terracotta"]`, ['AAA', 'ABA', 'AAA'], {
+        event.shaped(`shops:pinata_flare[shops:pinata_id="submerged:terracotta/${color}"]`, ['AAA', 'ABA', 'AAA'], {
             A: `submerged:${color}_terracotta_rocks`,
-            B: `submerged:${color}_flare`
+            B: `shops:crate_flare[shops:crate_id="submerged:starting/${color}"]`
         }).id(`submerged:${color}_terracotta_pinata`)
     
         //Tunnel Key
@@ -171,8 +171,9 @@ ServerEvents.recipes(event => {
             [`4x submerged:${color}_terracotta_rocks`
         ]).id(`submerged:${color}_terracotta`)
 
-        //Colored Flare
-        event.shapeless(`submerged:${color}_flare`, ['submerged:unloaded_flare', `submerged:${color}_terracotta_rocks`]).id(`submerged:${color}_dirt`)
+        //Starting Colored Flare
+        event.shapeless(`shops:crate_flare[shops:crate_id="submerged:starting/${color}"]`, 
+            ['submerged:unloaded_flare', `submerged:${color}_terracotta_rocks`]).id(`submerged:${color}_dirt`)
     
         //Sphere Key
         event.shaped(`submerged:${color}_sphere_key`, ['AAA', 'ABA', 'AAA'], {

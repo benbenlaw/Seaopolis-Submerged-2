@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "basics"
 	group: "4612AF3A2F3FA9D5"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "submerged:unloaded_flare"
 	}
@@ -51,7 +50,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["64D0F376AB8AFAE8"]
+			dependencies: ["3BDB27D2F740D427"]
 			id: "158641ADBB04096F"
 			rewards: [{
 				id: "1622134E585D7966"
@@ -70,7 +69,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["64D0F376AB8AFAE8"]
+			dependencies: ["3BDB27D2F740D427"]
 			id: "57EA71B3C8946BFD"
 			rewards: [{
 				id: "660E1C9BB290F686"
@@ -502,25 +501,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["11D2CCBE4E5C471D"]
-			id: "64D0F376AB8AFAE8"
-			rewards: [{
-				id: "2A67642E1AB71961"
-				item: {
-					count: 1
-					id: "submerged:unloaded_flare"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4C5F45591076DC3A"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:flares)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["4DE9D3E26CC79511"]
 			id: "7F4A52E1774ED5E2"
 			rewards: [{
@@ -602,10 +582,13 @@
 			dependencies: ["5EA10BA03219C901"]
 			id: "0ED3992935FF6890"
 			rewards: [{
-				id: "10B936384B1F93A9"
+				id: "11E5C262ECC78D7B"
 				item: {
+					components: {
+						"minecraft:custom_name": "\"Do Not Open\""
+					}
 					count: 1
-					id: "shops:copper_coin"
+					id: "iceandfire:ghost_chest"
 				}
 				type: "item"
 			}]
@@ -710,6 +693,30 @@
 			}]
 			x: 0.0d
 			y: 10.5d
+		}
+		{
+			dependencies: ["11D2CCBE4E5C471D"]
+			icon: {
+				components: {
+					"shops:crate_id": "submerged:starting/blue"
+				}
+				id: "shops:crate_flare"
+			}
+			id: "3BDB27D2F740D427"
+			rewards: [{
+				id: "25D9EAB2C81355CE"
+				item: {
+					count: 1
+					id: "submerged:unloaded_flare"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6469B44ECA1511E5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 }

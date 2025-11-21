@@ -13,6 +13,13 @@ ServerEvents.recipes(event => {
     event.remove({id: 'enderio:void_chassis'})
     event.remove({id: 'enderio:fermenting/fluid_liquid_darkness_still'})
     event.remove({id: 'enderio:fermenting/fluid_liquid_sunshine_still'})
+    event.remove({id: 'enderio:dark_steel_helmet'})
+    event.remove({id: 'enderio:dark_steel_chestplate'})
+    event.remove({id: 'enderio:dark_steel_leggings'})
+    event.remove({id: 'enderio:dark_steel_boots'})
+
+    //Replace 
+    event.replaceInput({id: 'enderio:soul_vial'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
 
     //Photovoltaic Composite
     event.shapeless('enderio:photovoltaic_composite', ['#c:gems/lapis', 'minecraft:coal', 'ae2:silicon']).id('submerged:enderio/photovoltaic_composite')

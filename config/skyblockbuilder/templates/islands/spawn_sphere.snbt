@@ -3401,7 +3401,7 @@
         },	    
 		{
           "minecraft:blue_terracotta": "minecraft:black_terracotta",
-          "submerged:blue_terracotta_lock": "submerged:white_terracotta_lock",
+          "submerged:blue_terracotta_lock": "submerged:black_terracotta_lock",
 		  "connectedglass:clear_glass": "connectedglass:clear_glass",
           "minecraft:water{level:0}": "minecraft:water{level:0}"
         },	    

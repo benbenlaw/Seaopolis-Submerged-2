@@ -1,7 +1,7 @@
 [wirelessCraftingGrid]
 	# Default: 1000
 	# Range: 0 ~ 9223372036854775807
-	energyCapacity = 1000
+	energyCapacity = 100000
 	# Default: 5
 	# Range: 0 ~ 9223372036854775807
 	openEnergyUsage = 5

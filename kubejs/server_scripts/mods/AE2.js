@@ -11,13 +11,18 @@ ServerEvents.recipes(event => {
     event.remove({id: 'extendedae:blasting/quartz_blend'})
     event.remove({id: 'ae2:network/cells/item_storage_components_cell_256k_part'})
 
-
     //Remove
     //event.remove({id: 'ae2:inscriber/engineering_processor_print'})
     //event.remove({id: 'ae2:inscriber/calculation_processor_print'})
     //event.remove({id: 'ae2:inscriber/logic_processor_print'})
     //event.remove({id: 'ae2:inscriber/silicon_print'})
 
+    //Tiny TNT
+    event.shaped('3x ae2:tiny_tnt', ['ABA', 'BAB', 'ABA'], {
+        A: 'minecraft:coal',
+        B: 'minecraft:sand'
+    }).id('ae2:tiny_tnt')
+    
     //Matter Condenser
     event.shaped('ae2:condenser', ['AAA', 'BCB', 'AAA'], {
         A: 'minecraft:iron_ingot',

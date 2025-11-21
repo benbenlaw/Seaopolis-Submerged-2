@@ -42,6 +42,10 @@ LootJS.lootTables(event => {
         })
 
         .createPool(pool => {
+            pool.addEntry('shops:pinata_flare[shops:pinata_id="submerged:relics"]')
+        })
+
+        .createPool(pool => {
             pool.addEntry(LootEntry.of("minecraft:skeleton_skull").setCount([1, 2])) 
         })
         
@@ -94,7 +98,7 @@ LootJS.lootTables(event => {
         loot_tables_to_eject:[{data:"submerged:trial_spheres/skeleton",weight:1}]
     },
     ominous_config:{
-        spawn_range:4,
+        spawn_range:3,
         total_mobs:16,
         simultaneous_mobs:8,
         total_mobs_added_per_player:4,

@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "dissolution"
 	group: "1DC99ACF42B51C2F"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "industrialforegoing:dissolution_chamber"
 	}

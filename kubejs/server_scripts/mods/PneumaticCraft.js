@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
     event.recipes.pneumaticcraft.pressure_chamber(
         ["8x submerged:assembled_gravel", "8x opolisutilities:ender_pearl_fragment", 'mob_grinding_utils:fluid_xp_bucket'],
         2.0,
-        ["8x ubmerged:living_gravel", 'minecraft:bucket']
+        ["8x submerged:living_gravel", 'minecraft:bucket']
     ).id('submerged:pneumaticcraft/living_gravel')
 
     //Assembled Gravel
@@ -64,6 +64,12 @@ ServerEvents.recipes(event => {
         1.0,
         ["4x submerged:assembled_gravel", "minecraft:bucket"]
     ).id('submerged:pneumaticcraft/assembled_gravel')
+    
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["4x submerged:totemic_infused_gravel", "4x minecraft:sand", 'ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"submerged:organic_water"}]'],
+        1.0,
+        ["4x submerged:assembled_gravel", "ceramicbucket:ceramic_bucket"]
+    ).id('submerged:pneumaticcraft/assembled_gravel_ceramic')
     
     //Gold Powder
     event.recipes.pneumaticcraft.pressure_chamber(["naturesaura:gold_leaf"], 1.0, ["2x naturesaura:gold_powder"] ).id('submerged:pneumaticcraft/gold_powder')

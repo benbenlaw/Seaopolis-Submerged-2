@@ -35,6 +35,10 @@ LootJS.lootTables(event => {
         })
 
         .createPool(pool => {
+            pool.addEntry('shops:pinata_flare[shops:pinata_id="submerged:relics"]')
+        })
+
+        .createPool(pool => {
             pool.addEntry(LootEntry.of("minecraft:creeper_head").setCount([1, 2])) 
         })
 
@@ -56,22 +60,22 @@ LootJS.lootTables(event => {
         simultaneous_mobs_added_per_player:2,
         ticks_between_spawn:20,
         spawn_potentials:[
-            {data:{entity:{id:"mekanismadditions:baby_creeper",CustomName:"\"Baby Creeper\""}},weight:1},
             {data:{entity:{id:"minecraft:creeper",CustomName:"\"Creeper\""}},weight:1},
+            {data:{entity:{id:"mekanismadditions:baby_creeper",CustomName:"\"Baby Creeper\""}},weight:1},
             {data:{entity:{id:"forcecraft:creeper_tot",CustomName:"\"Creeper Tot\""}},weight:1}
         ],
         loot_tables_to_eject:[{data:"submerged:trial_spheres/creeper",weight:1}]
     },
     ominous_config:{
-        spawn_range:4,
+        spawn_range:3,
         total_mobs:16,
         simultaneous_mobs:8,
         total_mobs_added_per_player:4,
         simultaneous_mobs_added_per_player:2,
         ticks_between_spawn:15,
         spawn_potentials:[
-            {data:{entity:{id:"mekanismadditions:baby_creeper",CustomName:"\"Ominous Baby Creeper\""}},weight:1},
             {data:{entity:{id:"minecraft:creeper",CustomName:"\"Ominous Creeper\""}},weight:1},
+            {data:{entity:{id:"mekanismadditions:baby_creeper",CustomName:"\"Ominous Baby Creeper\""}},weight:1},
             {data:{entity:{id:"forcecraft:creeper_tot",CustomName:"\"Ominous Creeper Tot\""}},weight:1}
         ],
         loot_tables_to_eject:[{data:"submerged:trial_spheres/ominous_creeper",weight:1}]

@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "cc_i"
 	group: "4612AF3A2F3FA9D5"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "simplehats:presentsstack"
 	}
@@ -390,7 +389,7 @@
 			}
 			id: "7DD8B71FB620626E"
 			rewards: [{
-				id: "12F3FACA754CD92F"
+				id: "50E924EFCD2CB664"
 				item: {
 					components: {
 						"shops:pinata_id": "submerged:rewards_i"

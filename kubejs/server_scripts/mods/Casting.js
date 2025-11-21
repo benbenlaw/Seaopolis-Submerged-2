@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('minecraft:glass_bottle', '250x submerged:dragons_breath', 'minecraft:dragon_breath').id('submerged:solidifier/dragon_breath')
 
     //Mixer
-    event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x submerged:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')
+    event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x casting:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')
     event.recipes.casting.mixing('360x casting:molten_soularium', ['250x submerged:molten_star', '4000x casting:molten_soul']).id('casting:mixer/soularium')
     event.recipes.casting.mixing('180x submerged:molten_solclipsium', ['1000x enderio:fluid_liquid_sunshine_still', '1000x enderio:fluid_liquid_darkness_still']).id('casting:mixer/solclipsium')
 

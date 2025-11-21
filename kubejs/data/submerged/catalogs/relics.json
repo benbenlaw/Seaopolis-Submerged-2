@@ -3,15 +3,8 @@
     "id": "submerged:catalog_relics" 
   },
   "entries": [
-    { "stack": { "id": "relics:relic_experience_bottle", "count": 8 }, "price": 6, "mode": "player_buys"  },
-    { "stack": { "id": "relics:leafy_mantle", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:springy_boot", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:kinetic_belt", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:reflective_necklace", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:jellyfish_necklass", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:midnight_mantle", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:roller_skate", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:chorus_staff", "count": 1 }, "price": 24, "mode": "player_buys"  },
-    { "stack": { "id": "relics:piglin_mask", "count": 1 }, "price": 24, "mode": "player_buys"  }
+    { "stack": { "id": "relics:relic_experience_bottle", "count": 8 }, "price": 8, "mode": "player_buys"  },
+    { "stack": { "id": "shops:pinata_flare", "count": 1, "components": {"shops:pinata_id": "submerged:relics"}}, "price": 12, "mode": "player_buys"  },
+    { "stack": { "id": "rarcompat:mimi_dust", "count": 1 }, "price": 64, "mode": "player_buys"  }
   ]
 }

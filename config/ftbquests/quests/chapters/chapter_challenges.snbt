@@ -1,0 +1,216 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_challenges"
+	group: ""
+	id: "48A607A602E88F55"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"53B33F89E03C6CC6"
+				"5703B5049E3E643D"
+				"5826AA79CCB4EF8D"
+				"665518BCBF63AEE0"
+				"3F1485DBD4C71B66"
+				"434900018C3E84D8"
+				"47C9B4CE6184D62C"
+				"1F1ED8B72044189C"
+				"7F0663E853CDA9D2"
+				"374B2CA1A1A76F3B"
+				"3BF80EEE23B6D9D7"
+				"5157C8485FB04C97"
+				"487CADD6A2A37D71"
+				"70C73AE3429B8762"
+			]
+			id: "3E3118FE9CD69202"
+			tasks: [{
+				id: "34B7678D1FA6577F"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"39A993D1CDEE8B15"
+				"00A7B243D1EC447B"
+				"466D23B9B67ECCDF"
+				"75F8391D5ABE6EBC"
+				"4EF14097D2724EF3"
+				"7122BBDACB1B1D5A"
+				"0BAB7C14CCD2BC21"
+				"04BDDA20594C6E0F"
+				"480B5C33BC671AB1"
+				"7A351105AE91FE1E"
+				"4CADCE6BECDFD4C6"
+			]
+			id: "59EB0E553332ADBA"
+			tasks: [{
+				id: "1739ED5316AB9D25"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5187E2EA6F8557E8"
+				"47F53EBB8035510B"
+				"146CD5D3B7DA2955"
+				"4D0964E34E575689"
+				"0392542B99ECECC1"
+				"203799D6E6FBC9DC"
+				"4AEC090CC03D33CB"
+				"4CD0811FAA3DE7BB"
+				"04F9BDC2CA2325F5"
+				"45B8AF674601C420"
+			]
+			id: "2DF6ADF200A5A8DB"
+			tasks: [{
+				id: "503DAE47983DD123"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"325E28C61A277DFD"
+				"44A7C3B914EDEAA0"
+				"554308CA0151F99D"
+				"45DFA830778035DA"
+				"5183A6641C0915D5"
+				"3C9030D14EDAA327"
+			]
+			id: "66212BAD4E0D8DEE"
+			tasks: [{
+				id: "2047F2B61F299894"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3420B2AA337E8474"
+				"013F43C55E90030B"
+				"19BAB6741140C76D"
+				"68E7E19B6DB6E0AF"
+				"3B3D7B574E31E97C"
+				"168D4C8C48B81F3E"
+				"6A701407E8948349"
+				"2D65E7C1E80F3FE1"
+				"5E50DF743F7E8876"
+				"07C35F2DA8027E01"
+				"36068890CA434FA7"
+				"7CF3932B66B929B7"
+				"6F44CAD4EC313436"
+				"35DE4F6DC0F02E7D"
+			]
+			id: "66C659968F59733F"
+			tasks: [{
+				id: "51459A76BB59535D"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0550FF2DF58AFA77"
+				"1449978D85CA074E"
+				"14AF040645F38C7D"
+				"627BC99C6F08DF88"
+				"0331F94A8DE5BF76"
+				"170A4247974C1FAB"
+				"77FC93088FF7ED69"
+				"05609948CC4023E4"
+				"054CA537D1B76563"
+				"003EE194E3894230"
+				"0D7A91E84A6CE9CD"
+				"042B9882BBAED292"
+				"4D8339ED45E8ADB1"
+				"0BBCD3DE8AC14F78"
+			]
+			id: "3729E735997EB1FD"
+			tasks: [{
+				id: "61092F88CD84E36A"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"434AAB69CBCC108E"
+				"6A4265C9F724EEAE"
+				"3C05BA3D71469DDD"
+				"58859AADFDEF8FE2"
+				"4E2A33A420B45C7D"
+				"008050AFF2D392B5"
+				"75EE8E1C409ADF61"
+				"5B99151FECCA1C27"
+				"7A799412015F62DF"
+				"04EDAE52AEA4F157"
+				"39AB090354EDB00A"
+				"1AF8F947F714C57B"
+				"433D889DEFC9E899"
+				"4CBDB3CCB170D9F3"
+				"066605A8923EC7C2"
+				"54D4C8B3C0933A20"
+				"452882060656F2ED"
+				"1DBD68F81F4E6C1D"
+				"772E29425FED6697"
+				"0C2AABFFD28944AA"
+				"03F26BF6244082FD"
+				"0723858D65C38A91"
+				"2928276EDC887172"
+				"7C7D8663CE541B54"
+			]
+			id: "09F2CD05A368D0D7"
+			tasks: [{
+				id: "32690F2D6C7EBFD0"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4CC34CF73486EB02"
+				"72844E6B5F22DC9D"
+				"368192A5697843F8"
+				"5AF9A9F1EF193926"
+				"08D1ED5AEAF876D9"
+				"50F353C6D15C0062"
+				"5CBC0FCC4F12353D"
+			]
+			id: "24BA44F8889A7308"
+			tasks: [{
+				id: "1D0793A3B5AD1234"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+}

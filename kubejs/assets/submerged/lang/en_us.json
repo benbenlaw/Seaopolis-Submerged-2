@@ -4,7 +4,50 @@
 
     "item.iceandfire.ice_dragon_blood": "Ice Dragon Breath",
     "item.iceandfire.fire_dragon_blood": "Fire Dragon Breath",
-    "item.iceandfire.lightning_dragon_blood": "Lightning Dragon Breath"
+    "item.iceandfire.lightning_dragon_blood": "Lightning Dragon Breath",
+
+
+    "item.shops.crate_flare.starting/blue": "§1Supply Crate: Blue Starting Materials",
+    "item.shops.crate_flare.starting/green": "§2Supply Crate: Green Starting Materials",
+    "item.shops.crate_flare.starting/red": "§cSupply Crate: Red Starting Materials",
+    "item.shops.crate_flare.starting/pink": "§dSupply Crate: Pink Starting Materials",
+    "item.shops.crate_flare.starting/purple": "§5Supply Crate: Purple Starting Materials",
+    "item.shops.crate_flare.starting/lime": "§aSupply Crate: Lime Starting Materials",
+    "item.shops.crate_flare.starting/cyan": "§3Supply Crate: Cyan Starting Materials",
+    "item.shops.crate_flare.starting/magenta": "§dSupply Crate: Magenta Starting Materials",
+    "item.shops.crate_flare.starting/brown": "§6Supply Crate: Brown Starting Materials",
+    "item.shops.crate_flare.starting/gray": "§8Supply Crate: Gray Starting Materials",
+    "item.shops.crate_flare.starting/light_gray": "§7Supply Crate: Light Gray Starting Materials",
+    "item.shops.crate_flare.starting/light_blue": "§bSupply Crate: Light Blue Starting Materials",
+    "item.shops.crate_flare.starting/white": "§fSupply Crate: White Starting Materials",
+    "item.shops.crate_flare.starting/black": "§7Supply Crate: Black Starting Materials",
+    "item.shops.crate_flare.starting/yellow": "§eSupply Crate: Yellow Starting Materials",
+    "item.shops.crate_flare.starting/orange": "§6Supply Crate: Orange Starting Materials",
+
+    "item.shops.pinata_flare.terracotta/blue": "§1Pinata: Blue Terracotta",
+    "item.shops.pinata_flare.terracotta/green": "§2Pinata: Green Terracotta",
+    "item.shops.pinata_flare.terracotta/red": "§cPinata: Red Terracotta",
+    "item.shops.pinata_flare.terracotta/pink": "§dPinata: Pink Terracotta",
+    "item.shops.pinata_flare.terracotta/purple": "§5Pinata: Purple Terracotta",
+    "item.shops.pinata_flare.terracotta/lime": "§aPinata: Lime Terracotta",
+    "item.shops.pinata_flare.terracotta/cyan": "§3Pinata: Cyan Terracotta",
+    "item.shops.pinata_flare.terracotta/magenta": "§dPinata: Magenta Terracotta",
+    "item.shops.pinata_flare.terracotta/brown": "§6Pinata: Brown Terracotta",
+    "item.shops.pinata_flare.terracotta/gray": "§8Pinata: Gray Terracotta",
+    "item.shops.pinata_flare.terracotta/light_gray": "§7Pinata: Light Gray Terracotta",
+    "item.shops.pinata_flare.terracotta/light_blue": "§bPinata: Light Blue Terracotta",
+    "item.shops.pinata_flare.terracotta/white": "§fPinata: White Terracotta",
+    "item.shops.pinata_flare.terracotta/black": "§7Pinata: Black Terracotta",
+    "item.shops.pinata_flare.terracotta/yellow": "§ePinata: Yellow Terracotta",
+    "item.shops.pinata_flare.terracotta/orange": "§6Pinata: Orange Terracotta",
+
+    "item.shops.pinata_flare.relics": "§ePinata: Random Relic",
+    "item.shops.pinata_flare.rewards_i": "§ePinata: Chapter Challenge I Rewards",
+    "item.shops.pinata_flare.rewards_ii": "§ePinata: Chapter Challenge II Rewards",
+    "item.shops.pinata_flare.rewards_iii": "§ePinata: Chapter Challenge III Rewards"
+
+
+
 
 
 }

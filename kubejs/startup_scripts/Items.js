@@ -61,7 +61,6 @@ StartupEvents.registry('item', (event) => {
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
         event.create(`submerged:${color}_dirt_pile`).tag('submerged:dirt_pile')
-        event.create(`submerged:${color}_flare`).tag('submerged:flares')
     })
 
     //Nether Brick Sphere

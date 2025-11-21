@@ -17,6 +17,24 @@ LootJS.modifiers(event => {
     event.addBlockModifier('minecraft:deepslate_diamond_ore').removeLoot('*')
     event.addBlockModifier('minecraft:deepslate_emerald_ore').removeLoot('*')
 
+    //Ore Tweaks
+    event.addBlockModifier('minecraft:iron_ore').removeLoot('*').addAlternativesLoot(
+        LootEntry.of('minecraft:iron_ore').when(c =>
+            c.matchTool(ItemFilter.anyOf(ItemFilter.hasEnchantment("minecraft:silk_touch")))), 
+            
+        LootEntry.of('minecraft:raw_iron').setCount([1, 3]).applyOreBonus("minecraft:fortune").when(c =>
+            c.matchTool(ItemFilter.not(ItemFilter.hasEnchantment("minecraft:silk_touch"))))
+    )
+
+    event.addBlockModifier('minecraft:deepslate_iron_ore').removeLoot('*').addAlternativesLoot(
+        LootEntry.of('minecraft:deepslate_iron_ore').when(c =>
+            c.matchTool(ItemFilter.anyOf(ItemFilter.hasEnchantment("minecraft:silk_touch")))), 
+            
+        LootEntry.of('minecraft:raw_iron').setCount([1, 3]).applyOreBonus("minecraft:fortune").when(c =>
+            c.matchTool(ItemFilter.not(ItemFilter.hasEnchantment("minecraft:silk_touch"))))
+    )
+
+
     //Bedrock 
     event.addBlockModifier('minecraft:bedrock').addLoot('submerged:bedrock_nugget')
 

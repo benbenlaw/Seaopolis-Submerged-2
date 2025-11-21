@@ -56,6 +56,10 @@ LootJS.lootTables(event => {
         })
 
         .createPool(pool => {
+            pool.addEntry('shops:pinata_flare[shops:pinata_id="submerged:relics"]')
+        })
+
+        .createPool(pool => {
             pool.addEntry(LootEntry.of("lfpirates:skull_1_helmet"))
             pool.addEntry(LootEntry.of("lfpirates:skull_2_helmet"))
             pool.addEntry(LootEntry.of("lfpirates:skull_3_helmet"))
@@ -145,7 +149,7 @@ LootJS.lootTables(event => {
         loot_tables_to_eject:[{data:"submerged:trial_spheres/pirate",weight:1}]
     },
     ominous_config:{
-        spawn_range:4,
+        spawn_range:3,
         total_mobs:20,
         simultaneous_mobs:8,
         total_mobs_added_per_player:4,
