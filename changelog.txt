@@ -60,7 +60,7 @@ A7.0
 - The pinata and crates should now be in there final locations going forward so no major changes to excisting ones
 - Soul Vial recipe now uses any glass block not fused glass
 - Added new secret quests, actually made the secret quest that are implemented secret
-
+- Re added dirt piles to dirt recipes
 
 
 

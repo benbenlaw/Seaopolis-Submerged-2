@@ -139,6 +139,11 @@ ServerEvents.recipes(event => {
     //Mass Color Crafting
     colors.forEach(color => {
 
+        //Colored Dirt
+        event.shaped(`colors:${color}_dirt`, ['AA', 'AA'], {
+            A: `submerged:${color}_dirt_pile`
+        }).id(`submerged:${color}_dirt`)
+
         //Pinata Terracotta
         event.shaped(`shops:pinata_flare[shops:pinata_id="submerged:terracotta/${color}"]`, ['AAA', 'ABA', 'AAA'], {
             A: `submerged:${color}_terracotta_rocks`,
