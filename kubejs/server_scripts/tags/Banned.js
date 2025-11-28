@@ -25,13 +25,13 @@ ServerEvents.tags('item', event => {
         'extendedae:infinity_water_cell',
         'extendedae:infinity_cobblestone_cell',
         'relics:jellyfish_necklace',
-        'pneumaticcraft:empty_spawner', 
-        'pneumaticcraft:pressurized_spawner', 
-        'pneumaticcraft:spawner_extractor', 
-        'pneumaticcraft:spawner_agitator',
-        'pneumaticcraft:spawner_core_shell',
-        'pneumaticcraft:spawner_core'
+        'relics:infinity_ham',
+        'industrialforegoing:meat_feeder'
     ])
+
+    //Mimic Loot
+    event.get('rarcompat:mimificable').remove(['relics:jellyfish_necklace', 'relics:infinity_ham'])
+    event.get('rarcompat:mimic_loot').remove(['relics:jellyfish_necklace', 'relics:infinity_ham'])
 })
 
 ServerEvents.tags('block', event => {

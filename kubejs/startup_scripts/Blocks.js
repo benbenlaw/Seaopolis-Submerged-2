@@ -70,6 +70,11 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/shovel')
         .gravelSoundType()
 
+    event.create('submerged:star_gravel', 'cardinal')
+        .hardness(2)
+        .tagBlock('minecraft:mineable/shovel')
+        .gravelSoundType()
+
     event.create('submerged:pressure_chamber_controller', 'cardinal')
         .hardness(2)
         .tagBlock('minecraft:mineable/pickaxe')
@@ -98,6 +103,11 @@ StartupEvents.registry("block", (event) => {
     event.create('submerged:nether_portal_frame')
         .hardness(50)
         .tagBlock(['minecraft:mineable/pickaxe', 'bblcore:nether_portal_frame'])
+
+    event.create('submerged:solclipsium_block')
+        .hardness(5)
+        .tagBlock('minecraft:mineable/pickaxe').tagBlock('c:blocks/solclipsium')
+        .soundType('metal')
 
     //Terracotta Lock Blocks
     colors.forEach(color => {

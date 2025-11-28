@@ -7,9 +7,78 @@ ENDGAME Mods
 - avaratia
 
 Do Not Update IceAndFire crashes when opening GUI of forges
-Do Not Update Relics, Articfacts or Relics: Artifact Compat Crashes on startup
+Do Not Update Relics (BETA VERSION) Crashes on startup
+Do Not Update TIAB (Breaks)
 
-@benbenlaw Looks like sb4 had artifacts and compact on the latest and the relic on 10.7.6
+SUB - way to make night time
+SUBMERGED - reliquary alkahestry tome change recipes and make UU matter the way to charge it  
+
+# A9.0
+**---Mods---**
+**---Fixes---**
+- Server Files and pack zip namiung should now be consistent to Submerged 2 
+**---Changes---**
+# A8.0
+**BACK UP YOUR WORLD**
+**---Mods---**
+- Updated Mods
+- Added Hybrid Aquatic
+- Added Star Forge
+- Added Tips
+- Added Advanced Loot Info
+- Added Packet Fixer
+- Removed Carry On 
+- Removed Iglee's Libary (not sure what/ how it got in the pack)
+- Removed Skyblock builder
+- Added non official Skyblock Builder for testing (Possible called Skyblock Breaker)
+- Downgraded TIAB
+**---Fixes---**
+- Custom Machinery now allows source via routers
+- Ancient Logs now disappear with the Fluid Extractor has finished on it
+- Quest description for Skulk Vein
+- Resource and Fluid Generators now show what they can produce in JEI
+- Colored Dirt recipes now working
+- Force Craft Stick recipe
+- Some inconsistent recipes for gravel in Pnematticraft
+- Resource fish from buckets work correctly
+- Synthesize Nano quests check data components now
+- Recipes using the NanoMirai cicuits now use the correct ones 
+- Fixed submerged resource fish food recipes returning the wrong count on output
+- Quartz Enriched Gold and Amethyst Lens now only require one quest before to be completed
+- Transformation Catalyst quest information fixed
+- Mimics can no longer drop banned relics/artifacts/other relics
+- Nature Altar key now works without needing the Altar
+- Roomopolis Strucutre now show on servers correctly
+- Fixed environmental effects not working correctly with armor that protects from both effects
+**---Changes---**
+- Resource Fish Tank quest reward to be Ethereal Glass blocks instead
+- Added ForceCraft Logs to Latex via Fluid Extractor
+- Added ForceCraft leaves in the strainer to get forge nuggets
+- TIAB now works correctly 
+- XP Tap uses Aluminium Block not Obsidian in its recipe
+- Added XP Tap quest
+- Ender Pearls now stack to 64
+- Snowballs now stack to 64
+- Added Ice Ball
+- CCII Chapter IV now requires Snowballs not Brilliant Fiber
+- Gold Chapter now has a couple of new quests to get Powder Snow Bucket, Snowballs and Ice Balls, uses Strainers
+- Resource Fish name formatting changed
+- Ceramic buckets now (should) show the Resource Fish name in its name
+- Changed Double Layer Capacitor recipe to use lapis blocks not coal dust
+- Added new fortune cookie messages
+- Banned Infinity Ham
+- Banned Meat Feeder this will come back when this is fixed https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/issues/1597
+- Unbanned Spawner stuff from pneumaticraft, hopefully its not to exploitable 
+- Moved diving and toxic tags into submerged 
+- Turtle Master Ingot uses lead not gold now
+- Tutlle Master Armor now prevent toxic damage
+- Change Turtle Master Template recipe to use lead
+- Added Triarchium, alloy of ruby sapphire and peridot
+- Added Solclipsium Block
+- Added Star Gravel
+- Added Iridium Ore Piece
+- Removed Bedrock ingot and Bedrock nugget (not used)
+- Star Power questline changed to include lithium as part of the quests and used in both liquide sunshrine and liquid darkness
 
 A7.0
 - Updated Mods

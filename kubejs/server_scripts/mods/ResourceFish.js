@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     }).id('resourcefish:infusing_upgrade')
 
     //Metallic Fish Food
-    event.shaped('resourcefish:metallic_fish_food', [' A ', 'ABA', ' A '], {
+    event.shaped('6x resourcefish:metallic_fish_food', [' A ', 'ABA', ' A '], {
         A: 'resourcefish:basic_fish_food',
         B: 'alltheores:fluorite_dust'
     }).id('resourcefish:metallic_fish_food')
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
 
 
     //Nether Fish Food
-    event.shaped('resourcefish:nether_fish_food', [' A ', 'ABA', ' A '], {
+    event.shaped('6x resourcefish:nether_fish_food', [' A ', 'ABA', ' A '], {
         A: 'resourcefish:basic_fish_food',
         B: 'minecraft:lava_bucket'
     }).id('resourcefish:nether_fish_food')

@@ -40,15 +40,15 @@ ServerEvents.recipes(event => {
     ).id('submerged:pneumaticcraft/nether_gravel')
 
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["10x submerged:living_gravel", "16x minecraft:nether_wart", "casting:molten_blaze_bucket"],
+        ["10x submerged:living_gravel", "20x minecraft:nether_wart", "casting:molten_blaze_bucket"],
         2.0,
         ["10x submerged:nether_gravel", "minecraft:bucket"]
     ).id('submerged:pneumaticcraft/nether_gravel_blaze')
 
     event.recipes.pneumaticcraft.pressure_chamber(
-        ["40x submerged:living_gravel", "40x minecraft:nether_wart", "1x industrialforegoing:pink_slime_bucket", "5x industrialforegoing:meat_bucket"],
+        ["40x submerged:living_gravel", "40x minecraft:nether_wart", "1x industrialforegoing:pink_slime_bucket", "industrialforegoing:meat_bucket", "industrialforegoing:meat_bucket", "industrialforegoing:meat_bucket", "industrialforegoing:meat_bucket", "industrialforegoing:meat_bucket"],
         2.0,
-        ["40x submerged:nether_gravel", "2x minecraft:bucket"]
+        ["40x submerged:nether_gravel", "6x minecraft:bucket"]
     ).id('submerged:pneumaticcraft/nether_gravel_meat')
 
     //Living Gravel

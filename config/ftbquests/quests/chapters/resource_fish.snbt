@@ -699,5 +699,24 @@
 			x: 3.5d
 			y: 12.5d
 		}
+		{
+			dependencies: ["7DBCC5C33F07A31A"]
+			id: "7297805A24B60778"
+			rewards: [{
+				id: "17BED3D8BBAF7368"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7C9898CA93CF73"
+				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
 	]
 }

@@ -6,13 +6,47 @@
 	id: "713B01C02D31073C"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "2D63F4F162114011"
-		tasks: [{
-			id: "3F31E2EDBB6FC03C"
-			type: "checkmark"
-		}]
-		x: -1.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "2D63F4F162114011"
+			tasks: [{
+				id: "3F31E2EDBB6FC03C"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3220729F6DAE9D8C"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "68DE4B59B786F018"
+			rewards: [{
+				id: "4D1153F1A8DE44A2"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BF34BF0EF5AABA9"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "04B51BFD20783E19"
+			tasks: [{
+				count: 1024L
+				id: "56E8B36A6D776F9F"
+				item: { count: 1, id: "alltheores:salt" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+	]
 }

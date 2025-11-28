@@ -1,0 +1,14 @@
+{
+  "type": "enderio:vat_fermenting",
+  "input": {
+    "amount": 1000,
+    "fluid": "minecraft:water"
+  },
+  "left_reagent": "c:dusts/sugar",
+  "output": {
+    "amount": 100,
+    "id": "mekanism:brine"
+  },
+  "right_reagent": "c:dusts/salt",
+  "ticks": 100
+}

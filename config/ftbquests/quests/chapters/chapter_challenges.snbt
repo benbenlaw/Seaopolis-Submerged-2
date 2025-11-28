@@ -84,25 +84,6 @@
 		}
 		{
 			dependencies: [
-				"325E28C61A277DFD"
-				"44A7C3B914EDEAA0"
-				"554308CA0151F99D"
-				"45DFA830778035DA"
-				"5183A6641C0915D5"
-				"3C9030D14EDAA327"
-			]
-			id: "66212BAD4E0D8DEE"
-			tasks: [{
-				id: "2047F2B61F299894"
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 1
-			}]
-			x: -2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
 				"3420B2AA337E8474"
 				"013F43C55E90030B"
 				"19BAB6741140C76D"
@@ -211,6 +192,28 @@
 			}]
 			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"325E28C61A277DFD"
+				"44A7C3B914EDEAA0"
+				"554308CA0151F99D"
+				"45DFA830778035DA"
+				"5183A6641C0915D5"
+				"3C9030D14EDAA327"
+				"7D4D2C5A0BBDCFC2"
+				"6C8C89386FF0F05D"
+				"69E361BDE59A00EA"
+			]
+			id: "66212BAD4E0D8DEE"
+			tasks: [{
+				id: "2047F2B61F299894"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 }

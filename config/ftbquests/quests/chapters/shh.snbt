@@ -24,8 +24,8 @@
 				item: { count: 1, id: "minecraft:nautilus_shell" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: -10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["46F74A14A57947FA"]
@@ -199,6 +199,14 @@
 			dependencies: ["0A4CC189B522A195"]
 			id: "73AE5CF9E4F3B6CC"
 			invisible: true
+			rewards: [{
+				id: "6A5E3756314AE1A4"
+				item: {
+					count: 1
+					id: "shops:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F21DDD6CBC167E2"
 				structure: "#betterstrongholds:better_strongholds"
@@ -410,6 +418,58 @@
 			}]
 			x: -6.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "5FC6E9DB090F4FCC"
+			tasks: [{
+				id: "77DBE6AC47C0AF40"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FC6E9DB090F4FCC"]
+			id: "78986A636095D63A"
+			invisible: true
+			rewards: [{
+				id: "1D87A81B74C91495"
+				item: {
+					count: 1
+					id: "shops:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31C9B9A1F3030806"
+				item: { count: 1, id: "mob_grinding_utils:jumbo_tank" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "1981EF8AD2465D02"
+			tasks: [{
+				id: "503C95CB8F860577"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1981EF8AD2465D02"]
+			id: "28F4B6DD5C0CB5E3"
+			invisible: true
+			tasks: [{
+				id: "4F18B724C1E7A416"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
 		}
 	]
 }

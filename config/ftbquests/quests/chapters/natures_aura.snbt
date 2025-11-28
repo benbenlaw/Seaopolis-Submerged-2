@@ -303,7 +303,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -325,8 +325,8 @@
 				item: { count: 1, id: "naturesaura:infused_iron" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -348,8 +348,8 @@
 				item: { count: 1, id: "naturesaura:tainted_gold" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D7A91E84A6CE9CD"]
@@ -736,6 +736,67 @@
 			}]
 			x: -4.5d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6A701407E8948349"
+				"05609948CC4023E4"
+			]
+			dependency_requirement: "one_completed"
+			id: "69E361BDE59A00EA"
+			rewards: [{
+				id: "356BEAB6A4B862BB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E2B86F39EDA0B07"
+				item: { count: 1, id: "minecraft:powder_snow_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["69E361BDE59A00EA"]
+			id: "7D4D2C5A0BBDCFC2"
+			rewards: [{
+				id: "5F81342B529156AD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "642D01254BC02D1D"
+				item: { count: 1, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69E361BDE59A00EA"]
+			id: "6C8C89386FF0F05D"
+			rewards: [{
+				id: "3A10DAAAFCC82885"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE981BD5353FB50"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
 		}
 	]
 }

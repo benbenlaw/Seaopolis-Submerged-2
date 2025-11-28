@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: 'mob_grinding_utils:recipe_fan'}, 'minecraft:redstone_block', 'minecraft:sea_lantern')
     event.replaceInput({id: 'mob_grinding_utils:recipe_tank_sink'}, 'minecraft:ender_eye', 'minecraft:ender_pearl')
+    event.replaceInput({id: 'mob_grinding_utils:recipe_xp_tap'}, '#c:obsidians', 'alltheores:aluminum_block')
 
     //Ender Inhibitor
     event.shaped('mob_grinding_utils:ender_inhibitor_on', ['AAA', 'BBB', 'AAA'], {

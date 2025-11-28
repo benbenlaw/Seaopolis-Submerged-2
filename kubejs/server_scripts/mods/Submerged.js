@@ -5,6 +5,16 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
  
+    //Iridium Ore
+    event.shaped('alltheores:iridium_ore', ['AA', 'AA'], {
+        A: 'submerged:iridium_ore_piece'
+    }).id('submerged:iridium_ore')
+
+    //Ice 
+    event.shaped('minecraft:ice', ['AA', 'AA'], {
+        A: 'submerged:ice_ball'
+    }).id('submerged:ice')
+
     //Infinity Drives
     addInfinityDrive('sand')
     addInfinityDrive('gravel')
@@ -61,14 +71,15 @@ ServerEvents.recipes(event => {
         B: 'minecraft:sculk_catalyst'
     }).id('submerged:sculk_shrieker')
 
-    //Solclipsium Ingot
-    event.shapeless('9x submerged:solclipsium_nugget', ['submerged:solclipsium_ingot']).id('submerged:solclipsium_nugget_from_ingot')
-    
-    //Solclipsium Nugget
-    event.shaped('submerged:solclipsium_ingot', ['AAA', 'AAA', 'AAA'], {
-        A: 'submerged:solclipsium_nugget'
-    }).id('submerged:solclipsium_ingot_from_nugget')
+    //Solclipsium Block
+    event.shapeless('submerged:solclipsium_block', ['9x submerged:solclipsium_ingot']).id('submerged:solclipsium_block_from_ingot')
 
+    //Solclipsium Ingot
+    event.shapeless('9x submerged:solclipsium_ingot', ['submerged:solclipsium_block']).id('submerged:solclipsium_ingot_from_block')
+    event.shapeless('submerged:solclipsium_ingot', ['9x submerged:solclipsium_nugget']).id('submerged:solclipsium_ingot_from_nuggets')
+
+    //Solclipsium Nugget
+    event.shapeless('9x submerged:solclipsium_nugget', ['submerged:solclipsium_ingot']).id('submerged:solclipsium_nugget_from_ingot')
 
     //Nether Star Block
     event.shaped('submerged:nether_star_block', ['AAA', 'AAA', 'AAA'], {
@@ -178,7 +189,7 @@ ServerEvents.recipes(event => {
 
         //Starting Colored Flare
         event.shapeless(`shops:crate_flare[shops:crate_id="submerged:starting/${color}"]`, 
-            ['submerged:unloaded_flare', `submerged:${color}_terracotta_rocks`]).id(`submerged:${color}_dirt`)
+            ['submerged:unloaded_flare', `submerged:${color}_terracotta_rocks`]).id(`submerged:${color}_starting_flare`)
     
         //Sphere Key
         event.shaped(`submerged:${color}_sphere_key`, ['AAA', 'ABA', 'AAA'], {

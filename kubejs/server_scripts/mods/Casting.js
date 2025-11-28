@@ -66,13 +66,18 @@ ServerEvents.recipes(event => {
 
     event.recipes.casting.solidifier('#c:molds/ingot', '90x submerged:molten_solclipsium', 'submerged:solclipsium_ingot').id('submerged:solidifier/solclipsium_ingot')
     event.recipes.casting.solidifier('#c:molds/nugget', '10x submerged:molten_solclipsium', 'submerged:solclipsium_nugget').id('submerged:solidifier/solclipsium_nugget')
+   
+    event.recipes.casting.solidifier('#c:molds/gem', '90x submerged:molten_triarchium', 'submerged:triarchium_gem').id('submerged:solidifier/triarchium_gem')
     
     event.recipes.casting.solidifier('minecraft:glass_bottle', '250x submerged:dragons_breath', 'minecraft:dragon_breath').id('submerged:solidifier/dragon_breath')
+    
+    event.recipes.casting.solidifier('#c:molds/dust', '250x mekanism:liquid_lithium', 'mekanism:dust_lithium').id('submerged:solidifier/dust_lithium')
 
     //Mixer
     event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x casting:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')
     event.recipes.casting.mixing('360x casting:molten_soularium', ['250x submerged:molten_star', '4000x casting:molten_soul']).id('casting:mixer/soularium')
     event.recipes.casting.mixing('180x submerged:molten_solclipsium', ['1000x enderio:fluid_liquid_sunshine_still', '1000x enderio:fluid_liquid_darkness_still']).id('casting:mixer/solclipsium')
+    event.recipes.casting.mixing('90x submerged:molten_triarchium', ['360x casting:molten_sapphire', '360x casting:molten_ruby', '360x casting:molten_peridot']).id('casting:mixer/triarchium')
 
     //Gear Mold
     event.shaped('casting:gear_mold', [' A ', 'ABA', ' A '], {

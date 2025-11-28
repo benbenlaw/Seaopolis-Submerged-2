@@ -1,0 +1,14 @@
+#Star Forge Startup Config
+["Star Forge"]
+	#Base Star Forge star power capacity, default = 500
+	"Ore Multiplier" = 500
+	#Tier 1 Star Forge Cap star power capacity, default = 1000
+	"Tier 1 Cap" = 1000
+	#Tier 2 Star Forge Cap star power capacity, default = 2000
+	"Tier 2 Cap" = 2000
+	#Tier 3 Star Forge Cap star power capacity, default = 4000
+	"Tier 3 Cap" = 4000
+	#Tier 4 Star Forge Cap star power capacity, default = 8000
+	"Tier 4 Cap" = 8000
+	#Tier 5 Star Forge Cap star power capacity, default = 16000
+	"Tier 5 Cap" = 16000

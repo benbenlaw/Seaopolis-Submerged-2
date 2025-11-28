@@ -19,6 +19,15 @@ ServerEvents.recipes(event => {
         B: '#c:player_workstations/crafting_tables'
     }).id('strainers:compactor')
 
+    //Force Nuggets
+    strainerAuto('forcecraft:force_leaves', 'minecraft:water', 'forcecraft:force_nugget', 0.5, 0.1, 3, 10)
+    strainerAuto('forcecraft:force_leaves', 'minecraft:water', '4x forcecraft:force_nugget', 0.1, 0.1, 3, 10)
+
+    //Ice and Snow
+    strainerAuto('submerged:living_gravel', 'minecraft:powder_snow', 'minecraft:snowball', 0.25, 0.05, 1, 10)
+    strainerAuto('submerged:living_gravel', 'minecraft:powder_snow', 'submerged:ice_ball', 0.25, 0.05, 1, 10)
+    strainerAuto('minecraft:cookie', 'minecraft:powder_snow', 'forcecraft:snow_cookie', 0.25, 0.05, 1, 10)
+
     //Corrupted Prismarine Crystal
     strainerAuto('minecraft:prismarine_crystals', 'submerged:salt_water', 'submerged:corrupted_prismarine_crystal', 0.4, 0.05, 4, 10);
 

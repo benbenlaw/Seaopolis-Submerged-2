@@ -15,7 +15,7 @@
 				item: { count: 1, id: "industrialforegoing:wither_builder" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -26,7 +26,7 @@
 				item: { count: 1, id: "submerged:nether_star_block" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
@@ -37,8 +37,8 @@
 				item: { count: 1, id: "submerged:starry_key" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1E2CE04704DD42D7"]
@@ -47,7 +47,7 @@
 				id: "34532F887D0738F3"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -218,28 +218,34 @@
 				item: { count: 1, id: "enderio:vat" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 8.5d
 		}
 		{
-			dependencies: ["399473C275A8FD0C"]
+			dependencies: ["5EDD763909EE0A92"]
+			icon: {
+				id: "enderio:liquid_sunshine_bucket"
+			}
 			id: "2FA47EEE8EBB16E1"
 			tasks: [{
 				id: "4479099A535A8435"
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: 9.5d
+			y: 12.5d
 		}
 		{
-			dependencies: ["399473C275A8FD0C"]
+			dependencies: ["5EDD763909EE0A92"]
+			icon: {
+				id: "enderio:liquid_darkness_bucket"
+			}
 			id: "41A32D95D63A1901"
 			tasks: [{
 				id: "166483937B863DD0"
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -251,6 +257,57 @@
 				id: "08F3C2ECE595AAE4"
 				item: { count: 1, id: "submerged:solclipsium_nugget" }
 				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4984877524CA1F66"]
+			id: "5EDD763909EE0A92"
+			tasks: [{
+				id: "51FF9EBC7AC80FE8"
+				item: { count: 1, id: "mekanism:dust_lithium" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["165178C531A77404"]
+			id: "695B787CF160A2B6"
+			tasks: [{
+				id: "5BB278376C06105E"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"695B787CF160A2B6"
+				"399473C275A8FD0C"
+			]
+			icon: {
+				id: "mekanism:brine_bucket"
+			}
+			id: "5489D38689D5C759"
+			tasks: [{
+				id: "2CAC0E378EE8A4FC"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5489D38689D5C759"]
+			icon: {
+				id: "mekanism:lithium_bucket"
+			}
+			id: "4984877524CA1F66"
+			tasks: [{
+				id: "1B6E49C8553D6552"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 10.5d

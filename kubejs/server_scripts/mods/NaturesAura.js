@@ -27,6 +27,11 @@ ServerEvents.recipes(event => {
         B: 'minecraft:gold_ingot',
     }).id('submerged:gold_fiber')
 
+    //Glowstone
     event.recipes.naturesaura.altar('minecraft:glowstone_dust', 'naturesaura:gold_powder', 1000).id('submerged:glowstone_dust')
+
+    //Powder Snow Bucket
+    event.recipes.naturesaura.altar('minecraft:powder_snow_bucket', 'minecraft:milk_bucket', 1000).id('submerged:powder_snow_bucket')
+
 
 })

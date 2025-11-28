@@ -33,6 +33,15 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:ai_controller')    
     event.create('submerged:grains_of_time').displayName('Grains of Time Gone By')
     event.create('submerged:essence_of_the_sea')
+    event.create('submerged:ice_ball')
+    event.create('submerged:iridium_ore_piece')
+    event.create('submerged:amethyst_dust')
+
+    event.create('submerged:triarchium_gem').tag(['c:gems/triarchium', 'c:gems'])
+    event.create('submerged:triarchium_ingot').tag(['c:ingots/triarchium', 'c:ingots'])
+
+    event.create('submerged:prime_ingot').tag(['c:ingots/prime', 'c:ingots'])
+    event.create('submerged:prime_alloy_ingot').tag(['c:ingots/prime_alloy', 'c:ingots'])
 
     event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')
     event.create('submerged:calculation_processor').tag('submerged:calculation_processors').texture('ae2:item/calculation_processor')
@@ -42,8 +51,6 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:solclipsium_nugget').tag(['c:nuggets/solclipsium', 'c:nuggets'])
     event.create('submerged:cobblestone_ingot').tag(['c:ingots/cobblestone', 'c:ingots'])
     event.create('submerged:cobblestone_nugget').tag(['c:nuggets/cobblestone', 'c:nuggets'])
-    event.create('submerged:bedrock_ingot').tag(['c:ingots/bedrock', 'c:ingots'])
-    event.create('submerged:bedrock_nugget').tag(['c:nuggets/bedrock', 'c:nuggets'])
 
     //Infinity Drives
     event.create("submerged:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")

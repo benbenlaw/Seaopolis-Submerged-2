@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
 
     //Replace 
     event.replaceInput({id: 'enderio:soul_vial'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
+    event.replaceInput({id: 'enderio:double_layer_capacitor'}, '#c:dusts/coal', 'minecraft:lapis_block')
 
     //Photovoltaic Composite
     event.shapeless('enderio:photovoltaic_composite', ['#c:gems/lapis', 'minecraft:coal', 'ae2:silicon']).id('submerged:enderio/photovoltaic_composite')

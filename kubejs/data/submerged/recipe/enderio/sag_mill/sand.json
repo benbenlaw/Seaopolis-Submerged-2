@@ -1,0 +1,37 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "c:sands"
+  },
+  "outputs": [
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "alltheores:salt"
+      }
+    },
+    {
+      "chance": 0.3,
+      "item": {
+        "count": 1,
+        "id": "alltheores:salt"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "count": 1,
+        "id": "alltheores:salt"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "count": 1,
+        "id": "alltheores:salt"
+      }
+    }
+  ]
+}

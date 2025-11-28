@@ -33,11 +33,7 @@ LootJS.modifiers(event => {
         LootEntry.of('minecraft:raw_iron').setCount([1, 3]).applyOreBonus("minecraft:fortune").when(c =>
             c.matchTool(ItemFilter.not(ItemFilter.hasEnchantment("minecraft:silk_touch"))))
     )
-
-
-    //Bedrock 
-    event.addBlockModifier('minecraft:bedrock').addLoot('submerged:bedrock_nugget')
-
+    
     //Ancient Debris
     event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addLoot('submerged:raw_ancient_debris')
 
@@ -50,5 +46,7 @@ LootJS.modifiers(event => {
     event.addEntityModifier('minecraft:vindicator').removeLoot('minecraft:emerald')
 
     event.addEntityModifier('minecraft:cow').addLoot('minecraft:leather')
+
+    
 
 })

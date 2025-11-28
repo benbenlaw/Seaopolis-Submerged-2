@@ -24,6 +24,8 @@ ServerEvents.tags('item', event => {
     createResourceTag('osmium', 'alltheores:osmium_nugget', 'alltheores:osmium_ingot', 'alltheores:osmium_block')
     createResourceTag('lead', 'alltheores:lead_nugget', 'alltheores:lead_ingot', 'alltheores:lead_block')
     createResourceTag('uranium', 'alltheores:uranium_nugget', 'alltheores:uranium_ingot', 'alltheores:uranium_block')
+    createResourceTag('iridium', 'alltheores:iridium_nugget', 'alltheores:iridium_ingot', 'alltheores:iridium_block')
+    createResourceTag('platinum', 'alltheores:platinum_nugget', 'alltheores:platinum_ingot', 'alltheores:platinum_block')
 
     function createResourceTag(resource, nugget, ingot, block) {
         event.get(`submerged:resources/${resource}`).add(nugget, ingot, block);
@@ -62,6 +64,38 @@ ServerEvents.tags('item', event => {
     //Lightning Dragon Eggs
     event.get('submerged:lightning_dragon_eggs').add(['iceandfire:dragonegg_electric', 'iceandfire:dragonegg_amethyst', 'iceandfire:dragonegg_copper', 'iceandfire:dragonegg_black'])
 
+    //Sugar
+    event.get('c:dusts/sugar').add('minecraft:sugar')
+
+    //Sky Dust
+    event.get('submerged:sky_dust').add('ae2:sky_dust')
+
+    //Amethyst Dust
+    event.get('submerged:amethyst_dust').add('submerged:amethyst_dust')
+
+    //Diving Gear
+    event.get('submerged:diving_gear').add([
+        'minecraft:turtle_helmet', 
+        'aq:turtle_master_helmet', 
+        'aq:turtle_master_chestplate', 
+        'aq:turtle_master_leggings', 
+        'aq:turtle_master_boots', 
+        'aq:turtle_chestplate', 
+        'aq:turtle_leggings', 
+        'aq:turtle_boots'
+    ])
+
+    //Hazmat Suit
+    event.get('submerged:hazmat').add([
+        'mekanism:hazmat_mask', 
+        'mekanism:hazmat_gown', 
+        'mekanism:hazmat_pants', 
+        'mekanism:hazmat_boots',
+        'aq:turtle_master_helmet',
+        'aq:turtle_master_chestplate',
+        'aq:turtle_master_leggings',
+        'aq:turtle_master_boots'
+    ])
 })
 
 ServerEvents.tags('block', event => {
@@ -74,4 +108,9 @@ ServerEvents.tags('block', event => {
 
     //Nether Portal Frame
     event.get('bblcore:nether_portal_frame').remove('minecraft:obsidian')
+
+    //Test
+    event.get('better_beacons:beacon_redirect').add('#minecraft:logs')
+    //event.get('better_beacons:beacon_transparent').add('#minecraft:logs')
+    //event.get('better_beacons:beacon_transparency').add('#minecraft:logs')
 })

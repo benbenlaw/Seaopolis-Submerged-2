@@ -1,0 +1,14 @@
+{
+  "type": "enderio:vat_fermenting",
+  "input": {
+    "amount": 1000,
+    "fluid": "mekanism:brine"
+  },
+  "left_reagent": "submerged:amethyst_dust",
+  "output": {
+    "amount": 100,
+    "id": "mekanism:lithium"
+  },
+  "right_reagent": "submerged:sky_dust",
+  "ticks": 100
+}

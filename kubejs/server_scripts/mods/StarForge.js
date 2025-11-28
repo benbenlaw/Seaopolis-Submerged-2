@@ -1,0 +1,220 @@
+//Star Forge
+
+ServerEvents.recipes(event => {
+
+    //Remove
+    event.remove({id: 'starforge:forge/blue_star'});
+    event.remove({id: 'starforge:forge/white_star'});
+    event.remove({id: 'starforge:forge/yellow_star'});
+    event.remove({id: 'starforge:forge/orange_star'});
+    event.remove({id: 'starforge:forge/red_star'});
+    event.remove({id: 'starforge:forge/tier_1_star_forge_cap'});
+    event.remove({id: 'starforge:forge/tier_2_star_forge_cap'});
+    event.remove({id: 'starforge:forge/tier_3_star_forge_cap'});
+    event.remove({id: 'starforge:forge/tier_4_star_forge_cap'});
+    event.remove({id: 'starforge:forge/tier_5_star_forge_cap'});
+    event.remove({id: 'starforge:forge/star_ingot'});
+
+    //Replace Input
+    event.replaceInput({id: 'starforge:star_forge'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
+    event.replaceInput({id: 'starforge:pedestal'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
+    
+    //Blue Star
+    createStarForgeRecipe('starforge:blue_star', 'submerged:nether_star_block', 
+        [
+            'alltheores:sapphire_block', 
+            'alltheores:sapphire_block', 
+            'alltheores:sapphire_block', 
+            'alltheores:sapphire_block',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem'
+        ], 
+        0, 0, 200);
+
+    //Tier 1 Cap
+    createStarForgeRecipe('starforge:tier_1_star_forge_cap', 'minecraft:nether_star', 
+        [
+            'alltheores:sapphire_block', 
+            'alltheores:sapphire_block', 
+            'alltheores:sapphire_block', 
+            'alltheores:sapphire_block',
+        ], 
+        0, 250, 200);
+
+    //White Star
+    createStarForgeRecipe('starforge:white_star', 'starforge:blue_star',
+        [
+            'minecraft:quartz_block',
+            'minecraft:quartz_block',
+            'minecraft:quartz_block',
+            'minecraft:quartz_block',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem'
+        ],
+        1, 1000, 200);
+
+    //Tier 2 Cap
+    createStarForgeRecipe('starforge:tier_2_star_forge_cap', 'starforge:tier_1_star_forge_cap',
+        [
+            'minecraft:quartz_block',
+            'minecraft:quartz_block',
+            'minecraft:quartz_block',
+            'minecraft:quartz_block',
+        ],
+        1, 500, 200);
+
+    //Yellow Star
+    createStarForgeRecipe('starforge:yellow_star', 'starforge:white_star',
+        [
+            'alltheores:lumium_block',
+            'alltheores:lumium_block',
+            'alltheores:lumium_block',
+            'alltheores:lumium_block',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem'
+        ],
+        2, 2000, 200);
+
+    //Tier 3 Cap
+    createStarForgeRecipe('starforge:tier_3_star_forge_cap', 'starforge:tier_2_star_forge_cap',
+        [
+            'alltheores:lumium_block',
+            'alltheores:lumium_block',
+            'alltheores:lumium_block',
+            'alltheores:lumium_block',
+        ],
+        2, 1000, 200);
+
+    //Orange Star
+    createStarForgeRecipe('starforge:orange_star', 'starforge:yellow_star',
+        [
+            'submerged:solclipsium_block',
+            'submerged:solclipsium_block',
+            'submerged:solclipsium_block',
+            'submerged:solclipsium_block',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem'
+        ],
+        3, 4000, 200);
+
+    //Tier 4 Cap
+    createStarForgeRecipe('starforge:tier_4_star_forge_cap', 'starforge:tier_3_star_forge_cap',
+        [
+            'submerged:solclipsium_block',
+            'submerged:solclipsium_block',
+            'submerged:solclipsium_block',
+            'submerged:solclipsium_block',
+        ],
+        3, 2000, 200);
+
+    //Red Star
+    createStarForgeRecipe('starforge:red_star', 'starforge:orange_star',
+        [
+            'alltheores:platinum_block',
+            'alltheores:iridium_block',
+            'alltheores:platinum_block',
+            'alltheores:iridium_block',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem',
+            'submerged:triarchium_gem'
+        ],
+        4, 8000, 200);
+
+    //Tier 5 Cap
+    createStarForgeRecipe('starforge:tier_5_star_forge_cap', 'starforge:tier_4_star_forge_cap',
+        [
+            'alltheores:platinum_block',
+            'alltheores:iridium_block',
+            'alltheores:platinum_block',
+            'alltheores:iridium_block'
+        ],
+        4, 4000, 200);
+
+    //Star Gravel
+    createStarForgeRecipe('submerged:star_gravel', 'submerged:toxic_gravel',
+        [
+        ],
+        4, 1000, 100);
+
+    //Prime Ingot
+    createStarForgeRecipe('submerged:prime_ingot', 'submerged:triarchium_ingot',
+        [
+            "minecraft:iron_ingot",
+            "minecraft:copper_ingot",
+            "minecraft:gold_ingot",
+            "alltheores:aluminum_ingot",
+            "alltheores:osmium_ingot",
+            "alltheores:lead_ingot",
+            "alltheores:nickel_ingot",
+            "alltheores:silver_ingot",
+            "alltheores:tin_ingot",
+            "alltheores:uranium_ingot",
+            "alltheores:zinc_ingot",
+            "alltheores:iridium_ingot",
+            "alltheores:platinum_ingot",
+            "submerged:cobblestone_ingot"
+        ], 
+        5, 8000, 200);
+
+    //Prime Alloy Ingot
+    createStarForgeRecipe('submerged:prime_alloy_ingot', 'submerged:triarchium_ingot',
+        [
+            "mekanism:ingot_refined_glowstone",
+            "industrialforegoing:pink_slime_ingot",
+            "alltheores:brass_ingot",
+            "submerged:solclipsium_ingot",
+            "alltheores:electrum_ingot",
+            "alltheores:invar_ingot",
+            "alltheores:steel_ingot",
+            "alltheores:constantan_ingot",
+            "alltheores:enderium_ingot",
+            "enderio:vibrant_alloy_ingot",
+            "submerged:quartz_enriched_gold",
+            "enderio:dark_steel_ingot",
+            "enderio:soularium_ingot",
+            "mekanism:ingot_refined_obsidian"
+        ],
+        5, 8000, 200);
+
+    //Star Ingot
+    createStarForgeRecipe('starforge:star_ingot', 'submerged:prime_alloy_ingot',
+        [
+            'submerged:prime_ingot',
+            'submerged:prime_alloy_ingot'
+        ],
+        5, 16000, 200);
+            
+
+
+
+    function createStarForgeRecipe(output, input, extraIngredients, tier, starPower, duration) {
+        const formattedExtras = extraIngredients.map(item => {
+            if (typeof item === 'string') {
+                return { item: item };
+            }
+            return item; // assume it's already an object with "item" key
+        });
+
+        event.custom({
+            type: "starforge:star_forge",
+            tier: tier,
+            star_power: starPower,
+            duration: duration,
+            input: {
+                item: input
+            },
+            result: Item.of(output).toJson(),
+            extra_ingredients: formattedExtras
+        }).id(`submerged:starforge/${output.split(':')[1]}`);
+    }
+
+})

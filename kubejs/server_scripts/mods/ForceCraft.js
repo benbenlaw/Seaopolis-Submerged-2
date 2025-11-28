@@ -8,8 +8,16 @@ ServerEvents.recipes(event => {
     event.remove({id: 'forcecraft:force_ingot_from_iron'})
     event.remove({id: 'forcecraft:golden_power_source'})
 
+    //Force Stick
+    event.shaped('forcecraft:force_stick', ['AA'], {
+        A: 'forcecraft:force_planks'
+    }).id('forcecraft:force_stick')
+
+    //Powder Snow Bucket
+    addFreezingRecipe('minecraft:milk_bucket', 'minecraft:powder_snow_bucket')
+
     //Golden Power Source
-    event.blasting('forcecraft:golden_power_source', '#forcecraft:force_logs').id('forcecraft:force_ingot_from_gold')
+    event.blasting('forcecraft:golden_power_source', '#forcecraft:force_logs').id('submerged:forcecraft/force_ingot_from_gold')
 
     //Withering Dust
     addGrindingRecipe('minecraft:wither_skeleton_skull', 'enderio:withering_powder')
@@ -18,7 +26,7 @@ ServerEvents.recipes(event => {
     addFreezingRecipe('enderio:withering_powder', 'minecraft:ghast_tear')
 
     //Force Sapling
-    event.shapeless('forcecraft:force_sapling', ['#minecraft:saplings', 'naturesaura:gold_fiber']).id('forcecraft:force_sapling')
+    event.shapeless('forcecraft:force_sapling', ['#minecraft:saplings', 'naturesaura:gold_fiber']).id('submerged:forcecraft/force_sapling')
 
     //Infuser
     event.shaped('forcecraft:infuser', ['AAA', 'BBB', 'A A'], {

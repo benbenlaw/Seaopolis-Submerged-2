@@ -359,5 +359,41 @@
 			x: 7.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["2D6E284209B7540A"]
+			id: "244C5BD547A20FF1"
+			tasks: [{
+				id: "4625B8EA8206E030"
+				item: { count: 1, id: "mekanism:ultimate_induction_provider" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2D6E284209B7540A"]
+			id: "0F56BA8CE2B5490C"
+			tasks: [{
+				id: "484C05AE411CF8CE"
+				item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0F56BA8CE2B5490C"
+				"244C5BD547A20FF1"
+			]
+			id: "411CC7AB0D039805"
+			tasks: [{
+				id: "3073471F66B3F749"
+				item: { count: 1, id: "mekmm:ambient_gas_collector" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
 	]
 }

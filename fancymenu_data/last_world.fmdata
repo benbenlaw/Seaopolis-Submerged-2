@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/benla/curseforge/minecraft/Instances/Seaopolis/saves/Play Test 5
+  is_server = true
+  world = localhost:25565
 }
 

@@ -17,10 +17,11 @@
 			dependencies: ["17DB22880BE2B921"]
 			id: "57F452F179109301"
 			rewards: [{
-				id: "6BB234CB203884CD"
+				count: 8
+				id: "18E1874B62C938A3"
 				item: {
 					count: 1
-					id: "shops:copper_coin"
+					id: "glassential:glass_ethereal"
 				}
 				type: "item"
 			}]
