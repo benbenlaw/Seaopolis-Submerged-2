@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     //Remove 
     event.remove({id: 'ars_nouveau:imbuement_amethyst'})
     event.remove({id: 'ars_nouveau:imbuement_lapis'})
+    event.remove({id: 'ars_nouveau:imbuement_amethyst_block'})
 
     //Antimatter
     event.recipes.ars_nouveau.enchanting_apparatus(

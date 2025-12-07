@@ -173,7 +173,7 @@
     "generateHydraCaveChance": 1.0,
     "generateMausoleumChance": 1.0,
     "generatePixieVillageChance": 1.0,
-    "generateSirenIslandChance": 1.0
+    "generateSirenIslandChance": 0.0
   },
   "misc": {
     "enableDragonSeeker": true,

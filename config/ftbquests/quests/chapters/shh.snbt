@@ -24,8 +24,8 @@
 				item: { count: 1, id: "minecraft:nautilus_shell" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -5.0d
+			x: -12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["46F74A14A57947FA"]
@@ -470,6 +470,136 @@
 			}]
 			x: -8.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "7DF1F62965BA3105"
+			tasks: [{
+				id: "2ADF945CFA667657"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DF1F62965BA3105"]
+			id: "273FB2D7287CA829"
+			invisible: true
+			rewards: [{
+				id: "5C95E2752A3524C6"
+				item: {
+					count: 1
+					id: "simplehats:chickenhead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "602E60EFF054F0D2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "forcecraft:cold_chicken"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DF1F62965BA3105"]
+			id: "43820A9BC52032DB"
+			invisible: true
+			rewards: [{
+				id: "19A5F957073B03DC"
+				item: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									cowboy: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											speed: {
+												initialValue: 0.20309d
+											}
+										}
+									}
+									overlord: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											time: {
+												initialValue: 4.47483d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					count: 1
+					id: "artifacts:cowboy_hat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FBCF4AB45587373"
+				observe_type: 5
+				timer: 0L
+				to_observe: "forcecraft:cold_cow"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DF1F62965BA3105"]
+			id: "7151EB7EB5BB01C9"
+			invisible: true
+			rewards: [{
+				id: "3EAF3B1EA2A2EB8F"
+				item: {
+					count: 1
+					id: "simplehats:pighead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DBF0A287DD0DE53"
+				observe_type: 5
+				timer: 0L
+				to_observe: "forcecraft:cold_pig"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -0.5d
 		}
 	]
 }

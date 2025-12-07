@@ -6,6 +6,12 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mekmm:recycler/from_substrate'})
     event.remove({id: 'mekmm:recycler/from_stone'})
     event.remove({id: 'mekmm:recycler/from_dirt'})
+    event.remove({id: 'mekanism:evaporating/lithium'})
+    event.remove({id: 'mekanism:evaporating/brine'})
+    event.remove({id: 'mekmm:compat/extendedae/stamper/concurrent_processor_print'})
+    event.remove({id: 'mekmm:compat/ae2/stamper/printed_engineering_processor'})
+    event.remove({id: 'mekmm:compat/ae2/stamper/printed_logic_processor'})
+    event.remove({id: 'mekmm:compat/ae2/stamper/printed_calculation_processor'})
 
     //Replace Input 
     event.replaceInput({id: 'mekmm:cnc_rolling_mill'}, 'mekanism:basic_control_circuit', 'mekanism:elite_control_circuit')
@@ -23,7 +29,7 @@ ServerEvents.recipes(event => {
     addOxidizingRecipe('mekanism:nuclear_waste', 25, 'alltheores:uranium_nugget')
 
     //Toxic Gravel
-    addInjectingRecipe('submerged:toxic_gravel', 'submerged:teary_gravel', 'mekmm:unstable_dimensional_gas', 25)
+    addInjectingRecipe('submerged:toxic_gravel', 'submerged:teary_gravel', 'mekmm:unstable_dimensional_gas', 1)
 
     //Hazmat Suit Pieces
     event.recipes.mekanism.combining('mekanism:hazmat_mask', '5x alltheores:lead_ingot', 'mekanismtools:bronze_helmet').id('mekanism:hazmat_mask')

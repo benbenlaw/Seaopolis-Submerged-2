@@ -6,7 +6,8 @@
   "loops": 1,
   "results": [
     {
-      "id": "pneumaticcraft:empty_pcb"
+      "id": "pneumaticcraft:empty_pcb",
+      "count": 3
     }
   ],
   "sequence": [

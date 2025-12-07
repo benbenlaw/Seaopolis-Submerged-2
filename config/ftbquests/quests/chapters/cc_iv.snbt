@@ -3,19 +3,13 @@
 	default_quest_shape: ""
 	filename: "cc_iv"
 	group: "621AB11E96FBBC5F"
+	icon: {
+		id: "simplehats:presentsstack"
+	}
 	id: "713B01C02D31073C"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
-		{
-			id: "2D63F4F162114011"
-			tasks: [{
-				id: "3F31E2EDBB6FC03C"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: -0.5d
-		}
 		{
 			dependencies: ["3220729F6DAE9D8C"]
 			icon: {
@@ -38,8 +32,24 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["68DE4B59B786F018"]
 			id: "04B51BFD20783E19"
+			rewards: [{
+				id: "45D9584F46297EBB"
+				item: {
+					components: {
+						"casting:equipment_experience": 0
+						"casting:equipment_level": 1
+						"casting:excavation": 3
+						"minecraft:custom_name": "\"The Salty Shovel\""
+					}
+					count: 1
+					id: "minecraft:diamond_shovel"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				consume_items: true
 				count: 1024L
 				id: "56E8B36A6D776F9F"
 				item: { count: 1, id: "alltheores:salt" }
@@ -47,6 +57,341 @@
 			}]
 			x: -3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["68DE4B59B786F018"]
+			id: "14328A824FB836AE"
+			rewards: [{
+				id: "553835DECE650BB2"
+				item: {
+					count: 1
+					id: "enderio:sentient_ender"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "66A18357427D382E"
+				item: { count: 1, id: "submerged:ai_controller" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14328A824FB836AE"
+				"04B51BFD20783E19"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "599BFD5136B2823B"
+			rewards: [{
+				id: "08714C7A853E884B"
+				item: {
+					count: 1
+					id: "submerged:catalog_capacitor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F675DD675ADF782"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "2C0046E53A11C63E"
+			tasks: [{
+				id: "0C10FFFD0460B7FD"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C0046E53A11C63E"]
+			id: "2989F829508EE93D"
+			rewards: [{
+				count: 8
+				id: "0782EEB6313C012E"
+				item: {
+					count: 1
+					id: "nanomirai:sculmium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "2E52B89A4AA7A810"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C0046E53A11C63E"]
+			id: "67ABF6BA123753B8"
+			rewards: [{
+				id: "59BB4387E8B6315B"
+				item: {
+					count: 1
+					id: "industrialforegoing:fluid_laser_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "submerged:warden_tears"
+				}
+				id: "726B6D40B08F5EC5"
+				type: "fluid"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2989F829508EE93D"
+				"67ABF6BA123753B8"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "75B3B7C61805DC9E"
+			rewards: [{
+				id: "37D42754E0844820"
+				item: {
+					components: {
+						"mekanism:fluids": {
+							fluid_tanks: [{
+								amount: 64000
+								id: "submerged:warden_tears"
+							}]
+						}
+						"mekanism:owner": [I;
+							1109753370
+							2103592887
+							-2023103023
+							62750564
+						]
+					}
+					count: 1
+					id: "mekanism:ultimate_fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D58F263F8EACF72"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "1BE1D8281A3695D7"
+			rewards: [{
+				id: "71B03D06C4DE7E14"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F4095945A540135"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BE1D8281A3695D7"]
+			id: "38EECA0C035B2432"
+			rewards: [{
+				count: 12
+				id: "5E13F798148298E6"
+				item: {
+					count: 1
+					id: "dysoncubeproject:beam_package"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7D06CB5F76363783"
+				item: { count: 1, id: "alltheores:osmium_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37901ADB320939A4"
+				"38EECA0C035B2432"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "285744DC6862CFB7"
+			rewards: [{
+				count: 4
+				id: "23D51D3559B772CF"
+				item: {
+					count: 1
+					id: "mekanism:quantum_entangloporter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "368A6CCF1C361F6E"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BE1D8281A3695D7"]
+			id: "37901ADB320939A4"
+			rewards: [{
+				count: 12
+				id: "532057503B39FF84"
+				item: {
+					count: 1
+					id: "dysoncubeproject:solar_sail_package"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A0B0F04D33A36D3"
+				max_input: 1000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "31E247D00EE3EDBD"
+			rewards: [{
+				id: "1D19059E8A5F4FD1"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36F3809179D33184"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31E247D00EE3EDBD"]
+			id: "51D7F514A10F7C01"
+			rewards: [{
+				count: 2
+				id: "0DC8C3D45F91D076"
+				item: {
+					count: 1
+					id: "mekmm:uu_matter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5FBD30B1F9B9DC01"
+				item: { count: 1, id: "mekmm:uu_matter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31E247D00EE3EDBD"]
+			id: "4ABD8B0B39579374"
+			rewards: [{
+				id: "0566EFDFE66345F2"
+				item: {
+					count: 1
+					id: "submerged:toxic_gravel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "358C86798F5D31FE"
+				item: { count: 1, id: "submerged:toxic_gravel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4ABD8B0B39579374"
+				"51D7F514A10F7C01"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "0B19FD0CF3A8C20D"
+			rewards: [{
+				id: "43618FEE1DF2EF43"
+				item: {
+					count: 1
+					id: "reliquary:alkahestry_tome"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6104961A7DA444F1"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0B19FD0CF3A8C20D"
+				"599BFD5136B2823B"
+				"285744DC6862CFB7"
+				"75B3B7C61805DC9E"
+			]
+			id: "0D0D7CD17519A348"
+			rewards: [{
+				id: "54952E2309260668"
+				item: {
+					components: {
+						"shops:pinata_id": "submerged:rewards_iv"
+					}
+					count: 1
+					id: "shops:pinata_flare"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2E6B6C175A4E2949"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
 		}
 	]
 }

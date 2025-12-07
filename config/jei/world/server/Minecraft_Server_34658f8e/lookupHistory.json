@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"submerged:nether_force_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:multiblock_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cherry_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

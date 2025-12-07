@@ -1,3 +1,13 @@
 ["Industrial Foregoing Fuel Config"]
 	#"minecraft:glowstone_dust, minecraft:water, 250, 500, 100", energy per tick, duration
 	magma_generator_fuels = ["minecraft:redstone, casting:molten_blaze, 250, 600, 400"]
+
+["Latex Processing Unit Config"]
+	#Amount of latex consumed per operation, default 750
+	# Default: 750
+	# Range: 1 ~ 16000
+	latex_amount = 250
+	#Amount of water consumed per operation, default 500
+	# Default: 500
+	# Range: 1 ~ 16000
+	water_amount = 500

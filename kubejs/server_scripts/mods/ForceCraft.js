@@ -8,6 +8,11 @@ ServerEvents.recipes(event => {
     event.remove({id: 'forcecraft:force_ingot_from_iron'})
     event.remove({id: 'forcecraft:golden_power_source'})
 
+    //Force Shears
+    event.shaped('forcecraft:force_shears', [' A', 'A '], {
+        A: '#submerged:pity_frame_logs'
+    }).id('forcecraft:force_shears')
+
     //Force Stick
     event.shaped('forcecraft:force_stick', ['AA'], {
         A: 'forcecraft:force_planks'

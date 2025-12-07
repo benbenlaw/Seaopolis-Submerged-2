@@ -1,0 +1,179 @@
+{
+  "name": {
+    "text": "Mini Pressure Chamber"
+  },
+  "appearance": {
+    "custommachinery:block": "submerged:pressure_chamber_controller",
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "max_output": 10000,
+      "id": "fluidInput1",
+      "capacity": 32000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "max_output": 10000,
+      "id": "fluidInput2",
+      "capacity": 32000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "max_output": 10000,
+      "id": "fluidOutput",
+      "capacity": 32000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:pressure",
+      "volume": 100000,
+      "danger": 8.0,
+      "critical": 10.0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 217,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput1",
+      "x": 69,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput2",
+      "x": 88,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidOutput",
+      "x": 192,
+      "y": 24,
+      "width": 18,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 27,
+      "y": 85
+    },
+    {
+      "type": "custommachinery:pressure",
+      "x": 11,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 146,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 108,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 126,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 108,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input4",
+      "x": 126,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 172,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output2",
+      "x": 172,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 4,
+      "y": 5,
+      "text": {
+        "text": "Mini Pressure Chamber"
+      }
+    }
+  ]
+}

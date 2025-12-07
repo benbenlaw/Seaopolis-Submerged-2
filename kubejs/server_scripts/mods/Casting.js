@@ -4,6 +4,13 @@ ServerEvents.recipes(event => {
 
     //Remove
     event.remove({id: 'casting:smelting/black_brick'})
+    event.remove({id: 'casting:solidifier/experience/bottle'})
+
+    //Plate Mold
+    event.shaped('casting:plate_mold', [' A ', 'ABA', ' A '], {
+        A: 'casting:black_brick',
+        B: '#minecraft:wooden_pressure_plates'
+    }).id('submerged:plate_mold')
 
     //Black Bricks
     event.smelting('casting:black_brick', 'submerged:porcelain_clay').id('submerged:black_brick')
@@ -63,15 +70,16 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_vibrant_alloy', 'enderio:vibrant_gear').id('submerged:solidifier/vibrant_gear')
     event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_dark_steel', 'enderio:dark_bimetal_gear').id('submerged:solidifier/dark_bimetal_gear')
     event.recipes.casting.solidifier('#c:molds/dust', '500x submerged:time_fluid', 'submerged:grains_of_time').id('submerged:solidifier/grains_of_time')
-
+    
     event.recipes.casting.solidifier('#c:molds/ingot', '90x submerged:molten_solclipsium', 'submerged:solclipsium_ingot').id('submerged:solidifier/solclipsium_ingot')
     event.recipes.casting.solidifier('#c:molds/nugget', '10x submerged:molten_solclipsium', 'submerged:solclipsium_nugget').id('submerged:solidifier/solclipsium_nugget')
    
     event.recipes.casting.solidifier('#c:molds/gem', '90x submerged:molten_triarchium', 'submerged:triarchium_gem').id('submerged:solidifier/triarchium_gem')
     
     event.recipes.casting.solidifier('minecraft:glass_bottle', '250x submerged:dragons_breath', 'minecraft:dragon_breath').id('submerged:solidifier/dragon_breath')
+    event.recipes.casting.solidifier('minecraft:glass_bottle', '250x mob_grinding_utils:fluid_xp', 'minecraft:experience_bottle').id('submerged:solidifier/experience_bottle')
     
-    event.recipes.casting.solidifier('#c:molds/dust', '250x mekanism:liquid_lithium', 'mekanism:dust_lithium').id('submerged:solidifier/dust_lithium')
+    event.recipes.casting.solidifier('#c:molds/dust', '250x mekanism:lithium', 'mekanism:dust_lithium').id('submerged:solidifier/dust_lithium')
 
     //Mixer
     event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x casting:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')

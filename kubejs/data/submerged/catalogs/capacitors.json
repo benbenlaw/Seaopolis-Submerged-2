@@ -1,0 +1,30 @@
+{
+  "catalog": { 
+    "id": "submerged:catalog_capacitor" 
+  },
+  "entries": [
+
+    { "stack": { "id": "enderio:loot_capacitor", "count": 1, "components": {"enderio:capacitor_data": {
+    		"base": 3.5, "specializations": {"fuel_efficiency": 3.5}}}}, "price": 20, "mode": "player_buys" },
+
+    { "stack": { "id": "enderio:loot_capacitor", "count": 1, "components": {"enderio:capacitor_data": {
+    		"base": 4.0, "specializations": {"fuel_efficiency": 4.0}}}}, "price": 25, "mode": "player_buys" },
+
+    { "stack": { "id": "enderio:loot_capacitor", "count": 1, "components": {"enderio:capacitor_data": {
+    		"base": 4.5, "specializations": {"fuel_efficiency": 4.5}}}}, "price": 30, "mode": "player_buys" },
+
+    { "stack": { "id": "enderio:loot_capacitor", "count": 1, "components": {"enderio:capacitor_data": {
+    		"base": 5.0, "specializations": {"fuel_efficiency": 5.0}}}}, "price": 40, "mode": "player_buys" },
+
+    { "stack": { "id": "enderio:loot_capacitor", "count": 1, "components": {"enderio:capacitor_data": {
+    		"base": 10.0, "specializations": {"fuel_efficiency": 1.0}}}}, "price": 50, "mode": "player_buys" },
+
+    { "stack": { "id": "enderio:loot_capacitor", "count": 1, "components": {"enderio:capacitor_data": {
+    		"base": 1.0, "specializations": {"fuel_efficiency": 10.0}}}}, "price": 50, "mode": "player_buys" },
+
+    
+    { "stack": { "id": "enderio:basic_capacitor", "count": 8 }, "price": 1, "mode": "player_sells" },
+    { "stack": { "id": "enderio:double_layer_capacitor", "count": 8 }, "price": 8, "mode": "player_sells" },
+    { "stack": { "id": "enderio:octadic_capacitor", "count": 8 }, "price": 16, "mode": "player_sells" }
+  ]
+}

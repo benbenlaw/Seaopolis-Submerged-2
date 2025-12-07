@@ -98,7 +98,7 @@
 	#Spawn chances for pieces of Osmium gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.osmium]
 		#If enabled, zombies can spawn with Osmium weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Osmium swords rather than Osmium shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -106,19 +106,19 @@
 		#The chance that mobs can spawn with Osmium helmets.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		helmetChance = 1.0
+		helmetChance = 0.0
 		#The chance that mobs can spawn with Osmium chestplates.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		chestplateChance = 1.0
+		chestplateChance = 0.0
 		#The chance that mobs can spawn with Osmium leggings.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		leggingsChance = 1.0
+		leggingsChance = 0.0
 		#The chance that mobs can spawn with Osmium boots.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		bootsChance = 1.0
+		bootsChance = 0.0
 		#The chance that after each piece of Osmium armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 		# Default: 0.25
 		# Range: 0.0 ~ 1.0

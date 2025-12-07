@@ -381,6 +381,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 256L
 				id: "21987DA3DFC2870D"
 				item: { count: 1, id: "minecraft:snowball" }

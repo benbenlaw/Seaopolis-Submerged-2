@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     //Replace Input
     event.replaceInput({id: 'naturesaura:bottle_two_the_rebottling'}, '#minecraft:planks', 'naturesaura:ancient_planks')
-
+    
     //Blaze Powder
     event.recipes.naturesaura.altar('6x minecraft:blaze_powder', 'minecraft:blaze_rod', 500).id('submerged:blaze_powder')
 
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     }).id('submerged:gold_fiber')
 
     //Glowstone
-    event.recipes.naturesaura.altar('minecraft:glowstone_dust', 'naturesaura:gold_powder', 1000).id('submerged:glowstone_dust')
+    event.recipes.naturesaura.altar('minecraft:glowstone_dust', 'naturesaura:gold_fiber', 1000).id('submerged:glowstone_dust')
 
     //Powder Snow Bucket
     event.recipes.naturesaura.altar('minecraft:powder_snow_bucket', 'minecraft:milk_bucket', 1000).id('submerged:powder_snow_bucket')

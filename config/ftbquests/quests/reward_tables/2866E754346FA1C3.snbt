@@ -1,0 +1,23 @@
+{
+	id: "2866E754346FA1C3"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 4
+			id: "3E367B859CA8E29A"
+			item: {
+				count: 1
+				id: "refinedstorage:range_upgrade"
+			}
+		}
+		{
+			count: 4
+			id: "1C08C5D6CDA781EB"
+			item: {
+				count: 1
+				id: "ae2:wireless_booster"
+			}
+		}
+	]
+}

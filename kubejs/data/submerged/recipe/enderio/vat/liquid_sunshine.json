@@ -6,9 +6,9 @@
   },
   "left_reagent": "submerged:sunshine",
   "output": {
-    "amount": 1000,
+    "amount": 4000,
     "id": "enderio:fluid_liquid_sunshine_still"
   },
   "right_reagent": "c:dusts/lithium",
-  "ticks": 600
+  "ticks": 400
 }

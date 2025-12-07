@@ -1,15 +1,20 @@
-//Applied Energistics 2
+//Applied Energistics 2 && Extended AE
 ServerEvents.recipes(event => {
  
     //Replace Input
     event.replaceInput({id: 'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#c:silicon')
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
+    event.replaceInput({id: 'extendedae:entro_seed'}, 'ae2:sky_dust', 'submerged:grains_of_time')
 
     //Remove
     event.remove({id: 'extendedae:quartz_blend'})
     event.remove({id: 'extendedae:quartz_blend_alt'})
     event.remove({id: 'extendedae:blasting/quartz_blend'})
     event.remove({id: 'ae2:network/cells/item_storage_components_cell_256k_part'})
+    event.remove({id: 'extendedae:inscriber/concurrent_print'})
+    event.remove({id: 'ae2:inscriber/engineering_processor_print'})
+    event.remove({id: 'ae2:inscriber/calculation_processor_print'})
+    event.remove({id: 'ae2:inscriber/logic_processor_print'})
 
     //Remove
     //event.remove({id: 'ae2:inscriber/engineering_processor_print'})
@@ -70,6 +75,9 @@ ServerEvents.recipes(event => {
         D: 'refinedstorage:quartz_enriched_iron'
     }).id('ae2:cell_component_256k')
 
+    //Processor Catalog
+    addInscriberRecipe('extendedae:concurrent_processor', 'minecraft:book', 'extendedae:concurrent_processor', 'submerged:catalog_processor')
+
     //Photovoltaic Plate
     addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/iron', 'enderio:photovoltaic_composite', '2x enderio:photovoltaic_plate')
     addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/aluminum', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
@@ -77,7 +85,7 @@ ServerEvents.recipes(event => {
     addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/tin', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
 
     //Basic Capacitor
-    addInscriberRecipe('#c:ingots/aluminum', 'pneumaticcraft:capacitor', 'minecraft:copper_ingot', 'enderio:basic_capacitor')
+    addInscriberRecipe('#c:ingots/aluminum', 'minecraft:copper_ingot', 'pneumaticcraft:capacitor',  'enderio:basic_capacitor')
 
     //Transistor
     addInscriberRecipe('#pneumaticcraft:wiring', 'minecraft:redstone', 'pneumaticcraft:plastic', 'pneumaticcraft:transistor')
@@ -90,6 +98,9 @@ ServerEvents.recipes(event => {
 
     //Charged Sand
     addChargerRecipe('submerged:nether_gravel', 'submerged:charged_gravel')
+
+    //Concurrent Processor
+    addInscriberRecipe('extendedae:entro_crystal', 'pneumaticcraft:printed_circuit_board', 'minecraft:redstone', '4x extendedae:concurrent_processor_print')
 
     //Logic Circuit
     addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot' , '4x ae2:printed_logic_processor')

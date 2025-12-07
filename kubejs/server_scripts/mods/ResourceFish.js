@@ -46,10 +46,5 @@ ServerEvents.recipes(event => {
         B: 'resourcefish:caviar'
     }).id('resourcefish:breeding_upgrade')
 
-    //Breeding Upgrade
-    event.shaped('resourcefish:infusing_upgrade', ['ABA', 'A A', 'ABA'], {
-        A: 'minecraft:copper_ingot',
-        B: 'resourcefish:caviar'
-    }).id('resourcefish:infusing_upgrade')
 
 })

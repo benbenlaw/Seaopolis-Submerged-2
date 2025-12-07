@@ -596,7 +596,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["13FB4D0A5738FCD5"]
+			dependencies: ["7C9EE68B848EFF41"]
 			id: "385909B22B2D74E3"
 			rewards: [{
 				id: "57C549E969481CC6"
@@ -611,7 +611,7 @@
 				item: { count: 1, id: "connectedglass:clear_glass" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -689,6 +689,25 @@
 			}]
 			x: -2.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["13FB4D0A5738FCD5"]
+			id: "7C9EE68B848EFF41"
+			rewards: [{
+				id: "072AC17C0AC5BB0C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27A21802487F3776"
+				item: { count: 1, id: "connectedglass:borderless_glass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 }

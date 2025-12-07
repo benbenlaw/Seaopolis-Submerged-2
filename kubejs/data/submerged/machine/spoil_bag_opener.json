@@ -1,0 +1,224 @@
+{
+  "name": {
+    "text": "Spoil Bag Opener"
+  },
+  "appearance": {
+    "custommachinery:block": "industrialforegoing:machine_frame_supreme",
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output6",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output7",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output8",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output9",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 66,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 25,
+      "y": 32,
+      "ghost": {
+        "items": {
+          "item": "forcecraft:spoils_bag"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 111,
+      "y": 13
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output2",
+      "x": 130,
+      "y": 13
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output3",
+      "x": 149,
+      "y": 13
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output4",
+      "x": 111,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output5",
+      "x": 130,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output6",
+      "x": 149,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output7",
+      "x": 111,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output8",
+      "x": 130,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output9",
+      "x": 149,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 4,
+      "y": 5,
+      "text": {
+        "text": "Spoil Bag Opener"
+      }
+    }
+  ]
+}

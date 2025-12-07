@@ -20,11 +20,11 @@
       }
     }
   ],
-  "result": {
-    "components": {
-      "minecraft:rarity": "uncommon"
-    },
-    "count": 1,
-    "id": "nanomirai:synthesize_nano"
-  }
+	"result": {
+		"id": "nanomirai:synthesize_nano",
+		"count": 1,
+		"components": {
+			"minecraft:rarity": "uncommon"
+		}
+	}
 }

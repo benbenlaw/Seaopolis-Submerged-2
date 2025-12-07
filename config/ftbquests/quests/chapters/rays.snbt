@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "rays"
 	group: "621AB11E96FBBC5F"
+	icon: {
+		id: "mekmm:uu_matter"
+	}
 	id: "5577046F02F66456"
 	order_index: 3
 	quest_links: [ ]
@@ -10,6 +13,15 @@
 		{
 			dependencies: ["33051267AA478748"]
 			id: "22627F2093D0AFE5"
+			rewards: [{
+				count: 4
+				id: "78FDE275D8085939"
+				item: {
+					count: 1
+					id: "strainers:uranium_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B7BFBD9D872B4EE"
 				item: { count: 1, id: "strainers:uranium_ore_piece" }
@@ -21,6 +33,14 @@
 		{
 			dependencies: ["22627F2093D0AFE5"]
 			id: "269CF4E2E2561793"
+			rewards: [{
+				id: "27A7125D5765E5C4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65D25E1BFECAAC3B"
 				item: { count: 1, id: "alltheores:uranium_ore" }
@@ -32,6 +52,14 @@
 		{
 			dependencies: ["269CF4E2E2561793"]
 			id: "3A32DE5882D09C24"
+			rewards: [{
+				id: "1AA099D0C5D2D2EF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "153F3DE61F968747"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/uranium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -75,6 +103,14 @@
 		{
 			dependencies: ["3A32DE5882D09C24"]
 			id: "1C2A65B01045D504"
+			rewards: [{
+				id: "1026D5BE1433591A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D3B9F464BC55BB5"
 				item: { count: 1, id: "mekmm:recycler" }
@@ -86,6 +122,14 @@
 		{
 			dependencies: ["1C2A65B01045D504"]
 			id: "19F22BF091B160F4"
+			rewards: [{
+				id: "520F7364CD083411"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B586BD0250482AC"
 				item: { count: 1, id: "mekmm:scrap" }
@@ -97,6 +141,14 @@
 		{
 			dependencies: ["19F22BF091B160F4"]
 			id: "7D777D261669E62C"
+			rewards: [{
+				id: "3AE94ED962A35029"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A25ACCC4AD4A7F0"
 				item: { count: 1, id: "mekmm:scrap_box" }
@@ -108,6 +160,14 @@
 		{
 			dependencies: ["7D777D261669E62C"]
 			id: "50620FC2CCE63785"
+			rewards: [{
+				id: "315368F829005C4C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14560A7BC2C09440"
 				item: { count: 1, id: "mekmm:empty_crystal" }
@@ -122,6 +182,14 @@
 				"2DCF9924D57575C5"
 			]
 			id: "1BC72E740B20B36C"
+			rewards: [{
+				id: "258D30E3F39A9515"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F77125E828ED878"
 				item: { count: 1, id: "mekmm:uu_matter" }
@@ -133,6 +201,14 @@
 		{
 			dependencies: ["3A32DE5882D09C24"]
 			id: "380A9FFA97186521"
+			rewards: [{
+				id: "0867EBCB1494122A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "099E4AB08145DA19"
 				type: "checkmark"
@@ -143,6 +219,14 @@
 		{
 			dependencies: ["380A9FFA97186521"]
 			id: "099CFC27976AEC93"
+			rewards: [{
+				id: "66DE7B66C354C282"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A03C4151BF6E4D0"
 				item: { count: 1, id: "mekanism:solar_neutron_activator" }
@@ -158,6 +242,14 @@
 				"3C24648D65719003"
 			]
 			id: "149CE980BCDE5FFD"
+			rewards: [{
+				id: "6AFA2B573E7AC25E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "79727C06B39E3D58"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
@@ -169,6 +261,14 @@
 		{
 			dependencies: ["149CE980BCDE5FFD"]
 			id: "4F26945C04B38E75"
+			rewards: [{
+				id: "587971D21D1BF5D0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7540ADF73A490F00"
 				item: { count: 1, id: "mekanism:pellet_polonium" }
@@ -180,6 +280,14 @@
 		{
 			dependencies: ["33051267AA478748"]
 			id: "607ADE90EDB07ACD"
+			rewards: [{
+				id: "360B94435F940677"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "37E6151C73478B7D"
 				item: { count: 1, id: "alltheores:fluorite_dust" }
@@ -194,6 +302,14 @@
 				"2F22D9516ABB189B"
 			]
 			id: "2DCF9924D57575C5"
+			rewards: [{
+				id: "33756D42ECEEF49A"
+				item: {
+					count: 1
+					id: "mekanism:pellet_antimatter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F46A5CF3AB5B342"
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
@@ -205,6 +321,14 @@
 		{
 			dependencies: ["149CE980BCDE5FFD"]
 			id: "2F22D9516ABB189B"
+			rewards: [{
+				id: "0763073FA4B66D86"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "396E4A6BA090DB0E"
 				item: { count: 1, id: "mekanism:pellet_plutonium" }
@@ -216,6 +340,14 @@
 		{
 			dependencies: ["380A9FFA97186521"]
 			id: "3C24648D65719003"
+			rewards: [{
+				id: "788E8206767A0FBA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "258C751A3117C3D5"
 				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
@@ -227,6 +359,14 @@
 		{
 			dependencies: ["1BC72E740B20B36C"]
 			id: "0E8BE4C6A61FB9C2"
+			rewards: [{
+				id: "6F41D3B89785A5EF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C77B04DD2234E91"
 				item: { count: 1, id: "mekmm:replicator" }
@@ -238,6 +378,14 @@
 		{
 			dependencies: ["1BC72E740B20B36C"]
 			id: "75B72147773BDB32"
+			rewards: [{
+				id: "23E21102AE9A6617"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33DA569EF93741FD"
 				item: { count: 1, id: "mekmm:fluid_replicator" }
@@ -249,6 +397,14 @@
 		{
 			dependencies: ["1BC72E740B20B36C"]
 			id: "4C2D89C661588B24"
+			rewards: [{
+				id: "6934136EDA9A7E4B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "058A5DFDD62687CE"
 				item: { count: 1, id: "mekmm:chemical_replicator" }
@@ -263,6 +419,14 @@
 				"1BC72E740B20B36C"
 			]
 			id: "2765E775331F1C60"
+			rewards: [{
+				id: "4058EA3AD7BBD6F7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E0FC2BBFB5514ED"
 				item: { count: 1, id: "submerged:essence_of_the_sea" }
@@ -274,6 +438,14 @@
 		{
 			dependencies: ["2DCF9924D57575C5"]
 			id: "5FDA01473E1F6ABA"
+			rewards: [{
+				id: "137CF3F3BE6F608A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "63313165F59B4198"
 				item: { count: 1, id: "minecraft:heart_of_the_sea" }
@@ -285,6 +457,14 @@
 		{
 			dependencies: ["2DCF9924D57575C5"]
 			id: "7249C61886206724"
+			rewards: [{
+				id: "1587236B131B7542"
+				item: {
+					count: 1
+					id: "infinitystorage:empty_infinity_drive"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A468306B1C3B7BE"
 				item: { count: 1, id: "infinitystorage:empty_infinity_drive" }
@@ -299,17 +479,33 @@
 				"5FCE425776F60E87"
 			]
 			id: "7992FB0B330435F7"
+			rewards: [{
+				id: "3DFF1FAE762F9CF0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0188F7B2B9D238A1"
 				item: { count: 1, id: "infinitystorage:infinity_storage_drive" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7249C61886206724"]
 			id: "5FCE425776F60E87"
+			rewards: [{
+				id: "7E96695F29A99A8E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "08F00ACDF6C83C89"
 				item: { count: 1, id: "infinitystorage:infinity_cobblestone_drive" }
@@ -321,14 +517,24 @@
 		{
 			dependencies: ["607ADE90EDB07ACD"]
 			id: "6D2761D542F9C707"
-			rewards: [{
-				id: "6C4FE5D88ACA0FB0"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
+			rewards: [
+				{
+					id: "6C4FE5D88ACA0FB0"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5F605722EE43DB9A"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "32D96FCDA30DEE42"
 				item: { count: 1, id: "resourcefish:infusing_upgrade" }
@@ -340,6 +546,14 @@
 		{
 			dependencies: ["607ADE90EDB07ACD"]
 			id: "6981A5411E206718"
+			rewards: [{
+				id: "6F13E9D12283180A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E1D22AB1C0D36C3"
 				item: { count: 1, id: "resourcefish:metallic_fish_food" }
@@ -351,6 +565,14 @@
 		{
 			dependencies: ["6981A5411E206718"]
 			id: "61B490318EEC440C"
+			rewards: [{
+				id: "05AA3D973B55730B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A1368A99ACF7C89"
 				item: { count: 1, id: "resourcefish:crystal_fish_food" }
@@ -362,6 +584,14 @@
 		{
 			dependencies: ["2D6E284209B7540A"]
 			id: "244C5BD547A20FF1"
+			rewards: [{
+				id: "7AB44992522A480D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4625B8EA8206E030"
 				item: { count: 1, id: "mekanism:ultimate_induction_provider" }
@@ -373,6 +603,14 @@
 		{
 			dependencies: ["2D6E284209B7540A"]
 			id: "0F56BA8CE2B5490C"
+			rewards: [{
+				id: "103EA610C92B785D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "484C05AE411CF8CE"
 				item: { count: 1, id: "mekanism:ultimate_induction_cell" }

@@ -738,5 +738,26 @@
 			x: -1.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["45B8AF674601C420"]
+			id: "1FAA10357C6218E3"
+			optional: true
+			rewards: [{
+				id: "31F6B262CD0C5221"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EC8DD3C9F554D42"
+				item: { components: { "custommachinery:machine": "submerged:mini_pressure_chamber" }, count: 1, id: "custommachinery:custom_machine_item" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
 	]
 }

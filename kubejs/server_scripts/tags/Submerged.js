@@ -26,6 +26,7 @@ ServerEvents.tags('item', event => {
     createResourceTag('uranium', 'alltheores:uranium_nugget', 'alltheores:uranium_ingot', 'alltheores:uranium_block')
     createResourceTag('iridium', 'alltheores:iridium_nugget', 'alltheores:iridium_ingot', 'alltheores:iridium_block')
     createResourceTag('platinum', 'alltheores:platinum_nugget', 'alltheores:platinum_ingot', 'alltheores:platinum_block')
+    createResourceTag('solclipsium', 'submerged:solclipsium_nugget', 'submerged:solclipsium_ingot', 'submerged:solclipsium_block')
 
     function createResourceTag(resource, nugget, ingot, block) {
         event.get(`submerged:resources/${resource}`).add(nugget, ingot, block);

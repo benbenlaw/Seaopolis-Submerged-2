@@ -10,14 +10,111 @@ Do Not Update IceAndFire crashes when opening GUI of forges
 Do Not Update Relics (BETA VERSION) Crashes on startup
 Do Not Update TIAB (Breaks)
 
-SUB - way to make night time
-SUBMERGED - reliquary alkahestry tome change recipes and make UU matter the way to charge it  
+NANO - Asselmbler recipes broken for there own recipes (Working version in Submerged 2 for 
+   testing pending official release)
+ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
+    to decrease to 2 ticks instead of 1 which effectively doubles performace 
+SUB - Square Templates 
+SUB - Move to Nano official
+
+# A10.0
+
+**---Fixes---**
+- World gen now a lot quicker
+- Crashes with some templates
 
 # A9.0
+**---IMPORTANT---**
+- JEI Bookmarks will be wiped 
+
+**---Mods---**
+- Added Toast Control
+- Added AEInfinityBooster
+- Added RSInfinityBooster
+- Added Cable Tiers (RS) (Provides bigger autocrafters)
+- Added Universal Grid (RS)
+- Added Cable Facades
+- Added RFTools Utility
+- Added Comforts
+
+**---Fixes---**
+- Loads of Quest Descriptions tweaks and typos fixed
+- Log spam with ForceCraft
+- Capacitor recipes in AE2 inscriber
+- Fixed ai controller recipe
+- Solclipsium Ingot texture
+- Casting and Refined Storage are now friends, no longer complains when rebuilding 
+    the item stack when the itemstack contained a fluid
+- Ice Block quest now an Ice Ball
+- Casting experience now tagged under c:experience
+- Fluix recipe now uses the right molten fluids
+- Coal dust now unified
+- Iron fish recipe now fixed (again uses white not gray fish now)
+- Ancient Lens recipe can now use Force Logs
+- Removed Dark Steel tool recipes
+- Removed Stamber recipes for AE2
+- Refined Storage upgrades are no longer disabled 
+- NanoMirai recipe in assembler now work correctly 
+- Toxic Gravel recipe now uses the correct amount per tick in its recipe
+
+**---Changes---**
+
+- Removed Amethyst Block to Source Gem Block recipe
+- Mobs should no longer spawn with Osmium Armor or Tools
+- Warden now produce 100mb of Warden Tears from Fluid Exractor
+- Animal Net can now have Unbreaking Modifier added  
+- Added Enderman Head recipe
+- Changed AI Controller recipe
+- Brine in VAT recipe changed
+- Liquid Lithium in VAT recipe changed
+- Golden Leaf now drops in cloch from ancient sapling
+- Diamond and Emerald Ore no longer turn into Stone when extracted from
+- Zombie and Blaze can now be spawned with Summoning Block
+- Shrikeing Key uses Starry Key now
+- Liquid Sunshine and Darkness now make 4000mb per craft
+- Changed Natures Aura Glowstone recipe to use Brilliant Fiber
+- Keys now render the structures in world
+- Added new plate mold recipe
+- Banned all AE2 Presses
+- Banned Circuit Slicer and removed its recipes
+- Empty PCB recipe now make 3 with create
+- Tanks with breeding / infusing upgrades no longer create drops from fish 
+- Added Blaze fish
+- Added Slime and Spider Trial Spheres, Wither Skelton is the next one but NYI
+- Reduce latex amount to 250 from 750 (by default) for the latex processor to produce dry rubber
+- Turtle Master Smithing Template now uses a Netherite Template instead of Heart of the Sea
+- Changed duplicate recipe for Tutle Master Smithing Template, fixes issue where this didn't actually give 2 results
+- Added warning message about Diamond and Emerald Ore
+- Changed Pulsating Photovoltaic Module to use Lapis Block not Coal Dust in its recipe
+- Changed Pulsating Photovoltaic Module and Vibrant Photovoltaic Module to use Glass Blocks not Fused Glass in its recipes
+- Changed CCIII Simply The Best Component reward to be range stuff
+- Added Processor Catalog
+- Added Concurrent Processor recipe following submerged
+- Added some quests for Entro 
+- Added Fluid XP Bottle of Enchanting recipe in Solidifier
+- Removed NanoMirai quest rewards
+- Changed Force Shears recipes to use force/ ancient logs in its recipe
+- Added new secret quests
+- Added Routers and Cable Tiers to Cable Facades
+- Remove Star Forge Custom Machine
+- Added Spoil Bag Opener, opens Spoils Bags for you 
+- Tweaked Alkahestry Tome charging recipes
+- Added Capacitor Catalog, buying and selling EnderIO Capacitors, the bought Capacitors are better   
+- Added Mini Pressure Chamber, this is a mini single block version of the Pressure Chamber. Instead of using
+    buckets in its recipes uses fluid tanks. This makes automation especially for gravel a lot easier and should
+    make Pneumaticraft a more viable option for automation in general during the pack
+- Souls questline finallized, CC completed and rewards done
+- Changed Meet Feeder in Washing Factory recipe to use Aluminium Block until meet feeder is un banned
+
+# A8.1
 **---Mods---**
 **---Fixes---**
 - Server Files and pack zip namiung should now be consistent to Submerged 2 
+- Fixed Casting lithium recipe
 **---Changes---**
+- Added NANO rewards until issues with assembler are fixed
+
+
 # A8.0
 **BACK UP YOUR WORLD**
 **---Mods---**

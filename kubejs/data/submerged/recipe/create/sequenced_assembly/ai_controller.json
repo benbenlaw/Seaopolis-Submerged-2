@@ -17,7 +17,7 @@
           "item": "enderio:mind_killer"
         },
         {
-          "item": "enderio:frank_n_zombie"
+          "item": "enderio:z_logic_controller"
         }
       ],
       "results": [
@@ -65,7 +65,7 @@
           "item": "enderio:mind_killer"
         },
         {
-          "item": "enderio:sentient_ender"
+          "item": "enderio:ender_resonator"
         }
       ],
       "results": [

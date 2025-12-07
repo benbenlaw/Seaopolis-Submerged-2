@@ -159,14 +159,20 @@
 		{
 			dependencies: ["47DCF6A5AF212C81"]
 			id: "22D478D330521CB2"
-			rewards: [{
-				id: "5A69203DA5606492"
-				item: {
-					count: 1
-					id: "mekanism:ultimate_fluid_tank"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56D3BF0B59A444AF"
+					table_id: 4680402054360327650L
+					type: "choice"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "131D9AA6F9EDBAE0"
+					table_id: 2911268557984604611L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L

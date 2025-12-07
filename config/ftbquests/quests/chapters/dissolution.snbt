@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["26CB9C3907B2D830"]
@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["26CB9C3907B2D830"]
@@ -106,7 +106,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7FAA02EEDC6D1384"]
@@ -125,7 +125,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4FC90D3B2F50FBED"]
@@ -144,10 +144,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["6EF8B2BCEB53422D"]
+			dependencies: ["713EB45FA3853148"]
 			id: "4E2DC38E6F273353"
 			rewards: [{
 				id: "5A9A6A252BEFCB15"
@@ -166,7 +166,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4FA0936665F1096F"]
+			dependencies: ["713EB45FA3853148"]
 			id: "762B0710294D8288"
 			rewards: [{
 				id: "1CA23033D63BCA34"
@@ -540,6 +540,127 @@
 			}]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4FA0936665F1096F"
+				"6EF8B2BCEB53422D"
+			]
+			id: "713EB45FA3853148"
+			rewards: [{
+				id: "264A562BB64938D2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "330769785AE3D0B5"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["747EFDBE6FE6A0A8"]
+			id: "01692D685A9F12C7"
+			rewards: [{
+				id: "322119F6A50A7DB5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33C956312DADED8A"
+				item: { count: 1, id: "extendedae:entro_seed" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01692D685A9F12C7"]
+			icon: {
+				id: "extendedae:entro_budding_fully"
+			}
+			id: "25DB7FDDCFDF1A70"
+			rewards: [{
+				id: "6A1DAD7B0D8290E3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C490346F37E093C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "extendedae:entro_budding_fully"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["25DB7FDDCFDF1A70"]
+			id: "1E4ACC17CE7542B5"
+			rewards: [{
+				id: "325E503F22767EF7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC9F8642F8DBEF5"
+				item: { count: 1, id: "extendedae:entro_crystal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E4ACC17CE7542B5"]
+			id: "6146387980130408"
+			rewards: [{
+				id: "6C5176D032F110F3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37972E397315286E"
+				item: { count: 1, id: "extendedae:concurrent_processor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6146387980130408"]
+			id: "31D22E8695DC87BA"
+			rewards: [{
+				id: "7A0E71400F9EDB65"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D461F09605C96D"
+				item: { count: 1, id: "submerged:catalog_processor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
 		}
 	]
 }

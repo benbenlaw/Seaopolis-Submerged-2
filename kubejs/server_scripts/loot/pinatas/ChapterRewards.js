@@ -201,5 +201,84 @@ LootJS.lootTables(event => {
             pool.addEntry(LootEntry.of('opolisutilities:animal_net[opolisutilities:entity_type="minecraft:squid",opolisutilities:entity_data={AbsorptionAmount:0.0f,Air:265s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Brain:{memories:{}},CanPickUpLoot:0b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:10.0f,HurtByTimestamp:0,HurtTime:0s,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],NeoForgeData:{},OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[8314.5d,160.0d,8141.5d],Rotation:[-106.20453f,0.0f],UUID:[I;-1628405233,137969764,-1660208524,-969234771],attributes:[{base:0.7d,id:"minecraft:generic.movement_speed"},{base:0.0d,id:"minecraft:generic.oxygen_bonus"},{base:16.0d,id:"minecraft:generic.follow_range",modifiers:[{amount:-0.06544072384080059d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]}],"neoforge:attachments":{"accessories:inventory_holder":{},"iceandfire:chain_data":{chainedTo:[]},"iceandfire:chicken_data":{timeUntilNextEgg:-1},"iceandfire:misc_data":{loveTicks:0,lungeTicks:0,targetedByScepters:[]},"iceandfire:portal_data":{teleportTick:-1,teleported:0b}},"neoforge:spawn_type":"SPAWN_EGG","warp_pipes:prevent_warp":0b,"warp_pipes:warp_cooldown":0}]').randomChance(0.75))
         })
 
+    //Rewards CCIV
+    event.create('submerged:pinatas/cc4', LootType.CHEST)
+        
+        //Coins
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+            pool.addEntry(LootEntry.of("shops:copper_coin").setCount([3, 4]).randomChance(0.5))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("shops:gold_coin").setCount([4, 5]))
+        })
+
+        //Ore Pieces
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("strainers:osmium_ore_piece").setCount([32, 64]))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("strainers:lead_ore_piece").setCount([32, 64]))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("strainers:uranium_ore_piece").setCount([32, 64]))
+        })
+
+        //Sculmium
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('nanomirai:raw_sculmium').setCount([7, 12]))
+        })
+
+        //UU Matter
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("mekmm:uu_matter").setCount([4, 10]))
+        })
+
+        //Staff of Travelling
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("infinitystorage:empty_infinity_drive"))
+        })
+
+        //Misc (Garanteed)
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("mekanism:pellet_antimatter").setCount([8, 24]))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("mekanism:ultimate_control_circuit").setCount([8, 24]))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("submerged:solclipsium_ingot").setCount([8, 16]))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of("mekanism:dust_lithium").setCount([8, 16]))
+        })
+
+        //Misc (Chance)
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('submerged:solclipsium_nugget').setCount([42, 64]).randomChance(0.75))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('submerged:solclipsium_ingot').setCount([8, 16]).randomChance(0.5))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('submerged:solclipsium_block').setCount([1, 2]).randomChance(0.25))
+        })
+
+        //Animal Net (Chance)
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('opolisutilities:animal_net[opolisutilities:entity_type="minecraft:strider",opolisutilities:entity_data={AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Brain:{memories:{}},CanPickUpLoot:0b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],NeoForgeData:{"naturesaura:time_alive":80},OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[8276.5d,160.0d,8192.5d],Rotation:[-148.50507f,0.0f],Saddle:0b,UUID:[I;-1482136812,-1133230683,-2045904136,-289519438],attributes:[{base:0.17499999701976776d,id:"minecraft:generic.movement_speed"},{base:16.0d,id:"minecraft:generic.follow_range",modifiers:[{amount:0.002727652511452722d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.0d,id:"minecraft:generic.oxygen_bonus"}],"neoforge:attachments":{"accessories:inventory_holder":{},"iceandfire:chain_data":{chainedTo:[]},"iceandfire:chicken_data":{timeUntilNextEgg:-1},"iceandfire:misc_data":{loveTicks:0,lungeTicks:0,targetedByScepters:[]},"iceandfire:portal_data":{teleportTick:-1,teleported:0b}},"neoforge:spawn_type":"SPAWN_EGG","warp_pipes:prevent_warp":0b,"warp_pipes:warp_cooldown":0}]').randomChance(0.75))
+            pool.addEntry(LootEntry.of('opolisutilities:animal_net[opolisutilities:entity_type="minecraft:sniffer",opolisutilities:entity_data={AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Brain:{memories:{}},CanPickUpLoot:0b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:14.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LeftHanded:0b,Motion:[-9.758794300875303E-4d,-0.0784000015258789d,-0.011591978736346173d],NeoForgeData:{droptimer:0.0d,"naturesaura:time_alive":200},OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[8275.25532264867d,160.0d,8188.365522657558d],Rotation:[169.49637f,0.0f],UUID:[I;-397423978,2113161335,-2055044206,846563080],attributes:[{base:0.10000000149011612d,id:"minecraft:generic.movement_speed"},{base:16.0d,id:"minecraft:generic.follow_range",modifiers:[{amount:0.009962429271351199d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.0d,id:"minecraft:generic.oxygen_bonus"}],"neoforge:attachments":{"accessories:inventory_holder":{},"iceandfire:chain_data":{chainedTo:[]},"iceandfire:chicken_data":{timeUntilNextEgg:-1},"iceandfire:misc_data":{loveTicks:0,lungeTicks:0,targetedByScepters:[]},"iceandfire:portal_data":{teleportTick:-1,teleported:0b}},"neoforge:spawn_type":"SPAWN_EGG","warp_pipes:prevent_warp":0b,"warp_pipes:warp_cooldown":0}]').randomChance(0.75))
+        })
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('opolisutilities:animal_net[opolisutilities:entity_type="minecraft:strider",opolisutilities:entity_data={AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Brain:{memories:{}},CanPickUpLoot:0b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],NeoForgeData:{"naturesaura:time_alive":80},OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[8276.5d,160.0d,8192.5d],Rotation:[-148.50507f,0.0f],Saddle:0b,UUID:[I;-1482136812,-1133230683,-2045904136,-289519438],attributes:[{base:0.17499999701976776d,id:"minecraft:generic.movement_speed"},{base:16.0d,id:"minecraft:generic.follow_range",modifiers:[{amount:0.002727652511452722d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.0d,id:"minecraft:generic.oxygen_bonus"}],"neoforge:attachments":{"accessories:inventory_holder":{},"iceandfire:chain_data":{chainedTo:[]},"iceandfire:chicken_data":{timeUntilNextEgg:-1},"iceandfire:misc_data":{loveTicks:0,lungeTicks:0,targetedByScepters:[]},"iceandfire:portal_data":{teleportTick:-1,teleported:0b}},"neoforge:spawn_type":"SPAWN_EGG","warp_pipes:prevent_warp":0b,"warp_pipes:warp_cooldown":0}]').randomChance(0.75))
+            pool.addEntry(LootEntry.of('opolisutilities:animal_net[opolisutilities:entity_type="minecraft:sniffer",opolisutilities:entity_data={AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Brain:{memories:{}},CanPickUpLoot:0b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:14.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LeftHanded:0b,Motion:[-9.758794300875303E-4d,-0.0784000015258789d,-0.011591978736346173d],NeoForgeData:{droptimer:0.0d,"naturesaura:time_alive":200},OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[8275.25532264867d,160.0d,8188.365522657558d],Rotation:[169.49637f,0.0f],UUID:[I;-397423978,2113161335,-2055044206,846563080],attributes:[{base:0.10000000149011612d,id:"minecraft:generic.movement_speed"},{base:16.0d,id:"minecraft:generic.follow_range",modifiers:[{amount:0.009962429271351199d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.0d,id:"minecraft:generic.oxygen_bonus"}],"neoforge:attachments":{"accessories:inventory_holder":{},"iceandfire:chain_data":{chainedTo:[]},"iceandfire:chicken_data":{timeUntilNextEgg:-1},"iceandfire:misc_data":{loveTicks:0,lungeTicks:0,targetedByScepters:[]},"iceandfire:portal_data":{teleportTick:-1,teleported:0b}},"neoforge:spawn_type":"SPAWN_EGG","warp_pipes:prevent_warp":0b,"warp_pipes:warp_cooldown":0}]').randomChance(0.75))
+        })
+
 
 })

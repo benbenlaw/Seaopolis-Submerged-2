@@ -30,8 +30,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'refinedstorage:64k_storage_part'})
     event.remove({id: 'refinedstorage:16k_storage_part'})
     
+    /* Disabling this i have no idea why this was here and banned this was not intended
     event.remove({id: /refinedstorage:.*_upgrade/})
     event.remove({id: /refinedstorage_mekanism_integration:.*_upgrade/})
+    */
 
     //Disks and Drives
 
@@ -173,7 +175,5 @@ ServerEvents.recipes(event => {
         event.remove({id: rsIdChemicalBlock})
 
     }
-
-
 })
     

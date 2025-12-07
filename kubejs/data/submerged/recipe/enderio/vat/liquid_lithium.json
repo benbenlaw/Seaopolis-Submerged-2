@@ -6,7 +6,7 @@
   },
   "left_reagent": "submerged:amethyst_dust",
   "output": {
-    "amount": 100,
+    "amount": 1000,
     "id": "mekanism:lithium"
   },
   "right_reagent": "submerged:sky_dust",

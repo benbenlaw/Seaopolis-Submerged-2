@@ -326,5 +326,16 @@
 			x: 0.5d
 			y: 14.0d
 		}
+		{
+			dependencies: ["5B070A4BFC59803B"]
+			id: "792156560F0A4C61"
+			tasks: [{
+				id: "106A6920646E62BC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
 	]
 }

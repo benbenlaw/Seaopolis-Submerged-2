@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'industrialforegoing:machine_frame_pity'}, 'minecraft:redstone_block', 'submerged:infused_alloy')
     event.replaceInput({id: 'industrialforegoing:ore_laser_base'}, 'industrialforegoing:machine_frame_advanced', 'industrialforegoing:machine_frame_simple')
     event.replaceInput({id: 'industrialforegoing:mob_duplicator'}, 'industrialforegoing:machine_frame_advanced', 'industrialforegoing:machine_frame_supreme')
+    event.replaceInput({id: 'industrialforegoing:washing_factory'}, 'industrialforegoing:meat_feeder', 'alltheores:aluminum_block')
 
     //Remove
     event.remove({id: /industrialforegoing:fluid_extractor\/.*/})
@@ -76,7 +77,7 @@ ServerEvents.recipes(event => {
     addOreLaserBase('industrialforegoing:light_gray_laser_lens', 'minecraft:stone', 1000)
 
     //Warden 
-    addFluidLaserBase('nanomirai:sculk_lens', 'minecraft:warden', 'submerged:warden_tears', 25)
+    addFluidLaserBase('nanomirai:sculk_lens', 'minecraft:warden', 'submerged:warden_tears', 100)
 
     //Ender Dragon
     addFluidLaserBase('industrialforegoing:pink_laser_lens', 'minecraft:ender_dragon', 'submerged:dragons_breath', 50)

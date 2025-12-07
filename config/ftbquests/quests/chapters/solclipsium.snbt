@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "solclipsium"
 	group: "621AB11E96FBBC5F"
+	icon: {
+		id: "submerged:solclipsium_ingot"
+	}
 	id: "5CDD1A10F73F113B"
 	order_index: 1
 	quest_links: [ ]
@@ -10,6 +13,14 @@
 		{
 			dependencies: ["2E14A02F1F3B9A4C"]
 			id: "0C07B03DDDF72BBC"
+			rewards: [{
+				id: "30511D9DF47ABA4D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32391B83B3310766"
 				type: "checkmark"
@@ -20,6 +31,14 @@
 		{
 			dependencies: ["0C07B03DDDF72BBC"]
 			id: "3ABEA7EFA89D62DC"
+			rewards: [{
+				id: "6B679B9D81C71063"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "75D900247F9E4B45"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:ars_nouveau_saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -31,6 +50,24 @@
 		{
 			dependencies: ["511A6ACE86DA65AB"]
 			id: "64488E47AF1093C8"
+			rewards: [
+				{
+					id: "313046E705CF2398"
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
+					type: "item"
+				}
+				{
+					id: "18E5343CBBC3947B"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4E903B5459128954"
 				item: { count: 1, id: "ars_nouveau:source_gem" }
@@ -42,6 +79,14 @@
 		{
 			dependencies: ["3ABEA7EFA89D62DC"]
 			id: "188054A49E567021"
+			rewards: [{
+				id: "5039F1AD94932E53"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73138AF036057474"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -53,6 +98,14 @@
 		{
 			dependencies: ["188054A49E567021"]
 			id: "6E1A43EA427FCC42"
+			rewards: [{
+				id: "28F8386DB1F6951D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0079DB7322B5C579"
 				item: { count: 1, id: "ars_nouveau:archwood_planks" }
@@ -64,6 +117,14 @@
 		{
 			dependencies: ["6E1A43EA427FCC42"]
 			id: "511A6ACE86DA65AB"
+			rewards: [{
+				id: "30E2580191D406A1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2662BBCB47144622"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
@@ -75,6 +136,14 @@
 		{
 			dependencies: ["64488E47AF1093C8"]
 			id: "1C4F7207F56D3D24"
+			rewards: [{
+				id: "126C858FD3534FEC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "53D6C49BD75CC858"
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
@@ -86,6 +155,14 @@
 		{
 			dependencies: ["1C4F7207F56D3D24"]
 			id: "1E02C3EBDEFE9A66"
+			rewards: [{
+				id: "0AEDC1852E83E5EF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "16FCE2A030F05D79"
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
@@ -97,6 +174,14 @@
 		{
 			dependencies: ["1C4F7207F56D3D24"]
 			id: "6BB4F0B9A909C93F"
+			rewards: [{
+				id: "3193F293D7EFDC40"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BF9464700054F01"
 				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
@@ -108,6 +193,14 @@
 		{
 			dependencies: ["6BB4F0B9A909C93F"]
 			id: "3DC0ACA524E2D8E9"
+			rewards: [{
+				id: "17E043DB58A59D7F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "678F3A042E43EE76"
 				item: { count: 1, id: "ars_nouveau:arcane_core" }
@@ -119,6 +212,14 @@
 		{
 			dependencies: ["3AB947DEE06C2EA7"]
 			id: "2ADF1B88DD0F1604"
+			rewards: [{
+				id: "6A2D60F6E50E9C97"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4321210926DB753A"
 				item: { count: 1, id: "nanomirai:nanomachine_assembler" }
@@ -130,6 +231,14 @@
 		{
 			dependencies: ["0C07B03DDDF72BBC"]
 			id: "67B26262057CEDC2"
+			rewards: [{
+				id: "5C3D8BFBDA204EEF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5976240288D35A20"
 				item: { count: 1, id: "nanomirai:laser_engraver" }
@@ -141,6 +250,14 @@
 		{
 			dependencies: ["67B26262057CEDC2"]
 			id: "3AB947DEE06C2EA7"
+			rewards: [{
+				id: "3E55401F35CB4C31"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "485C529DDDEB3F27"
 				item: { count: 1, id: "nanomirai:silicon_wafer" }
@@ -152,6 +269,28 @@
 		{
 			dependencies: ["21E415692839FCB4"]
 			id: "171B3405B0BFFFDB"
+			rewards: [
+				{
+					count: 64
+					id: "3740AD8727850E21"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+						}
+						count: 1
+						id: "nanomirai:synthesize_nano"
+					}
+					type: "item"
+				}
+				{
+					id: "4C60C3DAB5B2F7CB"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "047D13EA0586403C"
 				item: { count: 1, id: "nanomirai:nano_circuit" }
@@ -163,6 +302,28 @@
 		{
 			dependencies: ["2ADF1B88DD0F1604"]
 			id: "0BF184839535B1B6"
+			rewards: [
+				{
+					count: 64
+					id: "65325847DA946111"
+					item: {
+						components: {
+							"minecraft:rarity": "uncommon"
+						}
+						count: 1
+						id: "nanomirai:synthesize_nano"
+					}
+					type: "item"
+				}
+				{
+					id: "612507614CD6AFE7"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4CAD52D89F67D6C3"
 				item: { count: 1, id: "nanomirai:synthesize_nano" }
@@ -175,6 +336,14 @@
 		{
 			dependencies: ["0BF184839535B1B6"]
 			id: "0EEC0CC5586DC7A7"
+			rewards: [{
+				id: "03092A0FD6DDD629"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CDA94921DB77F54"
 				item: { components: { "minecraft:rarity": "uncommon" }, count: 1, id: "nanomirai:synthesize_nano" }
@@ -187,6 +356,14 @@
 		{
 			dependencies: ["0EEC0CC5586DC7A7"]
 			id: "21E415692839FCB4"
+			rewards: [{
+				id: "565FEA29FE8243F9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DF390D18F13D627"
 				item: { count: 1, id: "nanomirai:reinforced_obsidian" }
@@ -198,6 +375,14 @@
 		{
 			dependencies: ["171B3405B0BFFFDB"]
 			id: "46C014BE494270A4"
+			rewards: [{
+				id: "66C7ED08EFA8DDAA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F0919A1DDED2FCD"
 				item: { components: { "minecraft:rarity": "rare" }, count: 1, id: "nanomirai:synthesize_nano" }
@@ -214,6 +399,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "347FBEAFA195B5D0"
+			rewards: [{
+				id: "00906B2930DDC6AB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "16FA8CA0E29A4E57"
 				item: { count: 1, id: "nanomirai:amethyst_lens" }
@@ -228,6 +421,14 @@
 				"14F1C63440E822D9"
 			]
 			id: "3A7200591E849969"
+			rewards: [{
+				id: "52789A2C7F5D798A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A59E8D33671AB85"
 				item: { count: 1, id: "nanomirai:sculk_lens" }
@@ -239,6 +440,14 @@
 		{
 			dependencies: ["58C244A6A32BE737"]
 			id: "14F1C63440E822D9"
+			rewards: [{
+				id: "193CD920FE2F945A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C1C112D2721BE5E"
 				item: { count: 1, id: "nanomirai:graphite" }
@@ -254,6 +463,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "58C244A6A32BE737"
+			rewards: [{
+				id: "18D6D0310E1FCC82"
+				item: {
+					count: 1
+					id: "submerged:quartz_enriched_gold"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "308FE5EBCA009B42"
 				item: { count: 1, id: "submerged:quartz_enriched_gold" }
@@ -265,6 +482,14 @@
 		{
 			dependencies: ["3A7200591E849969"]
 			id: "7CC53D13CB116100"
+			rewards: [{
+				id: "7226F1CC70A3F1EB"
+				item: {
+					count: 1
+					id: "minecraft:sculk"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D92785EC2EC69B2"
 				item: { count: 1, id: "minecraft:sculk" }
@@ -276,6 +501,14 @@
 		{
 			dependencies: ["7CC53D13CB116100"]
 			id: "5815CA7195778818"
+			rewards: [{
+				id: "24A1C03EA3DF5E27"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "63BBB575570B20CB"
 				item: { count: 1, id: "nanomirai:raw_sculmium" }
@@ -287,6 +520,14 @@
 		{
 			dependencies: ["5815CA7195778818"]
 			id: "40D7A06604365794"
+			rewards: [{
+				id: "1A4B79DBFF3926FC"
+				item: {
+					count: 1
+					id: "nanomirai:sculmium_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65D7F4927E4F66C4"
 				item: { count: 1, id: "nanomirai:sculmium_ingot" }
@@ -301,6 +542,14 @@
 				"18155C647B3B57CD"
 			]
 			id: "6B88CC2111A105E5"
+			rewards: [{
+				id: "1C6AABEF57B50B8C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59CF49C080C0B1D8"
 				item: { count: 1, id: "minecraft:sculk_sensor" }
@@ -312,6 +561,15 @@
 		{
 			dependencies: ["3A7200591E849969"]
 			id: "18155C647B3B57CD"
+			rewards: [{
+				count: 4
+				id: "53E7F3CB914351A3"
+				item: {
+					count: 1
+					id: "minecraft:sculk_vein"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BC57EBB25B9588C"
 				item: { count: 1, id: "minecraft:sculk_vein" }
@@ -323,6 +581,14 @@
 		{
 			dependencies: ["40D7A06604365794"]
 			id: "319B384675352C9C"
+			rewards: [{
+				id: "43AE97F9DA733110"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EC824BE7602F3C5"
 				item: { count: 1, id: "submerged:shrieking_sphere" }
@@ -340,6 +606,14 @@
 				id: "minecraft:sculk_shrieker"
 			}
 			id: "733D52E21425D81F"
+			rewards: [{
+				id: "3F1B8A9B32A93BD9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60ACD15EFE9B60FF"
 				observe_type: 0
@@ -353,6 +627,14 @@
 		{
 			dependencies: ["733D52E21425D81F"]
 			id: "6AC936C9166BD437"
+			rewards: [{
+				id: "652A399F55D1D4A2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5474E0FF649ADC33"
 				item: { count: 1, id: "minecraft:sculk_catalyst" }
@@ -365,6 +647,14 @@
 			dependencies: ["6AC936C9166BD437"]
 			id: "566AA0D770887E53"
 			optional: true
+			rewards: [{
+				id: "0A93CC2DFA3151E9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45BBECA1CEB15AEA"
 				item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
@@ -379,12 +669,41 @@
 				id: "submerged:warden_tears_bucket"
 			}
 			id: "6CB2AD0DB043B3D6"
+			rewards: [{
+				id: "7878F59EA93B323D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F9031E7157AA518"
 				type: "checkmark"
 			}]
 			x: 0.5d
 			y: 15.0d
+		}
+		{
+			dependencies: ["64488E47AF1093C8"]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "5559A1CA2744073D"
+			rewards: [{
+				id: "7BE9E2B25882CA2B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C61233862ECCC91"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
 }

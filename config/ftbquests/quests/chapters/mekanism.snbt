@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "621AB11E96FBBC5F"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
 	id: "323791C40AB86271"
 	order_index: 2
 	quest_links: [ ]
@@ -10,6 +13,15 @@
 		{
 			dependencies: ["454C4B72C4BD8B5D"]
 			id: "7CA44780676A3BF9"
+			rewards: [{
+				count: 4
+				id: "21070A02478A0162"
+				item: {
+					count: 1
+					id: "strainers:osmium_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43A59AC2714F0B0F"
 				item: { count: 1, id: "strainers:osmium_ore_piece" }
@@ -21,6 +33,14 @@
 		{
 			dependencies: ["5E577393A44F6AE9"]
 			id: "015A08651D3B542C"
+			rewards: [{
+				id: "365994EF54F2B722"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59E05E919F87D998"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -32,6 +52,14 @@
 		{
 			dependencies: ["015A08651D3B542C"]
 			id: "311CDCBDE6F65094"
+			rewards: [{
+				id: "0121CF1A10B98B69"
+				item: {
+					count: 1
+					id: "alltheores:osmium_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E78368522ECFD2E"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
@@ -43,6 +71,14 @@
 		{
 			dependencies: ["311CDCBDE6F65094"]
 			id: "767E9DAC85F27A99"
+			rewards: [{
+				id: "09B63E4ABB972DDD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65E2EDF01FF814A3"
 				item: { count: 1, id: "mekanism:alloy_infused" }
@@ -54,6 +90,14 @@
 		{
 			dependencies: ["767E9DAC85F27A99"]
 			id: "121DF060CBAA0DE2"
+			rewards: [{
+				id: "7CEF17A2BA825A29"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CC23EA879ED66BA"
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
@@ -65,6 +109,14 @@
 		{
 			dependencies: ["311CDCBDE6F65094"]
 			id: "49C3A248C5D098D0"
+			rewards: [{
+				id: "605402A9410E86E9"
+				item: {
+					count: 1
+					id: "mekanism:basic_control_circuit"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62801FB4C9252952"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
@@ -79,6 +131,14 @@
 				"49C3A248C5D098D0"
 			]
 			id: "6A2C62D3132E4C31"
+			rewards: [{
+				id: "17818724FAFC60FA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DB895E2A2516198"
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
@@ -90,6 +150,14 @@
 		{
 			dependencies: ["6A2C62D3132E4C31"]
 			id: "2FDC97E38C599C16"
+			rewards: [{
+				id: "4475957715AC82E7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "00FEE54A17E007C1"
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
@@ -101,6 +169,14 @@
 		{
 			dependencies: ["7CA44780676A3BF9"]
 			id: "5E577393A44F6AE9"
+			rewards: [{
+				id: "6B6512E0C2BC9A91"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E47465A34738CEC"
 				item: { count: 1, id: "alltheores:osmium_ore" }
@@ -115,6 +191,14 @@
 				"7BC8EE9BCA7F777D"
 			]
 			id: "2D6E284209B7540A"
+			rewards: [{
+				id: "57C304438DAEA074"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F653E89B1CA605A"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
@@ -129,6 +213,14 @@
 				"6216B853D6934F02"
 			]
 			id: "7BC8EE9BCA7F777D"
+			rewards: [{
+				id: "4661F4E1263757B6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "44347A8EB885DB24"
 				item: { count: 1, id: "mekanism:alloy_atomic" }
@@ -140,6 +232,14 @@
 		{
 			dependencies: ["49C3A248C5D098D0"]
 			id: "16CF8FAC5D6304B5"
+			rewards: [{
+				id: "653C4B698F58F400"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "439DA78D10E3683D"
 				item: { count: 1, id: "mekmm:cnc_stamper" }
@@ -151,6 +251,14 @@
 		{
 			dependencies: ["4D164927A49569D4"]
 			id: "2787F04686A57891"
+			rewards: [{
+				id: "079382ECB3D519C1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "051ACB2A96241CC5"
 				item: { count: 1, id: "mekmm:cnc_lathe" }
@@ -162,6 +270,14 @@
 		{
 			dependencies: ["2FDC97E38C599C16"]
 			id: "2B6F1D688DB91CC1"
+			rewards: [{
+				id: "7A06E22D1B0DA938"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CD756F3F548A983"
 				item: { count: 1, id: "mekmm:cnc_rolling_mill" }
@@ -176,6 +292,14 @@
 				"767E9DAC85F27A99"
 			]
 			id: "7851E7E81DDE9B19"
+			rewards: [{
+				id: "7812A1B63179BB50"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5229703C106D81DB"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
@@ -187,6 +311,14 @@
 		{
 			dependencies: ["7851E7E81DDE9B19"]
 			id: "6216B853D6934F02"
+			rewards: [{
+				id: "10BFC4CC894713BC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6003A5CCEA373BE3"
 				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
@@ -198,6 +330,14 @@
 		{
 			dependencies: ["7BC8EE9BCA7F777D"]
 			id: "4D164927A49569D4"
+			rewards: [{
+				id: "194D71AABE257764"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D1EC520B1286B97"
 				item: { count: 1, id: "mekanism:robit" }
@@ -209,6 +349,14 @@
 		{
 			dependencies: ["2787F04686A57891"]
 			id: "0848325A066E464E"
+			rewards: [{
+				id: "2ABB857A9E7C5738"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EE61E718ABF32D7"
 				item: { count: 1, id: "dysoncubeproject:beam" }
@@ -220,6 +368,15 @@
 		{
 			dependencies: ["0848325A066E464E"]
 			id: "414E7B7FF6200C77"
+			rewards: [{
+				count: 2
+				id: "20EA7C95EE6EBD80"
+				item: {
+					count: 1
+					id: "dysoncubeproject:beam_package"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "44EC54687989C867"
 				item: { count: 1, id: "dysoncubeproject:beam_package" }
@@ -231,6 +388,14 @@
 		{
 			dependencies: ["2B6F1D688DB91CC1"]
 			id: "63E8179ADF580C7F"
+			rewards: [{
+				id: "72304009C3033305"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "013DFD9BC8346954"
 				item: { count: 1, id: "dysoncubeproject:solar_sail" }
@@ -242,6 +407,15 @@
 		{
 			dependencies: ["63E8179ADF580C7F"]
 			id: "3182B75B829A99BA"
+			rewards: [{
+				count: 2
+				id: "509587786CDF38A5"
+				item: {
+					count: 1
+					id: "dysoncubeproject:solar_sail_package"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "03DB7737F92409C9"
 				item: { count: 1, id: "dysoncubeproject:solar_sail_package" }
@@ -257,6 +431,14 @@
 				"244C5BD547A20FF1"
 			]
 			id: "420F15159D984FC4"
+			rewards: [{
+				id: "2C4CE8EDDE7B7F8B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "580A68061AAC7B90"
 				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
@@ -272,6 +454,14 @@
 				"0F56BA8CE2B5490C"
 			]
 			id: "3CED81F6D8A203DA"
+			rewards: [{
+				id: "639A981738CFB115"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D5890249DE7CE4B"
 				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
@@ -283,6 +473,15 @@
 		{
 			dependencies: ["454C4B72C4BD8B5D"]
 			id: "26EB0062A463B6F7"
+			rewards: [{
+				count: 4
+				id: "6B272FED3CF9AF1F"
+				item: {
+					count: 1
+					id: "strainers:lead_ore_piece"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0623111EE83C5BE8"
 				item: { count: 1, id: "strainers:lead_ore_piece" }
@@ -294,6 +493,14 @@
 		{
 			dependencies: ["26EB0062A463B6F7"]
 			id: "4E0FB439E586F687"
+			rewards: [{
+				id: "42A25608356524D1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D7F7F127395A6C7"
 				item: { count: 1, id: "alltheores:lead_ore" }
@@ -305,6 +512,14 @@
 		{
 			dependencies: ["4E0FB439E586F687"]
 			id: "67513813BDA00138"
+			rewards: [{
+				id: "56BAB8FB21945E3C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CA8F007A4D7CAE5"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/lead)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -319,6 +534,14 @@
 				"67513813BDA00138"
 			]
 			id: "05A9A98106ECB726"
+			rewards: [{
+				id: "60E65E4A0C56D174"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D72DCF7DB6EE6A4"
 				item: { count: 1, id: "mekanism:hazmat_mask" }
@@ -333,6 +556,14 @@
 				"67513813BDA00138"
 			]
 			id: "236A9FFF9F537BDF"
+			rewards: [{
+				id: "530088F4B659CE31"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C829E9100085321"
 				item: { count: 1, id: "mekanism:hazmat_gown" }
@@ -347,6 +578,14 @@
 				"67513813BDA00138"
 			]
 			id: "468E963876597E0F"
+			rewards: [{
+				id: "70545853C2238815"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DA9667F5996F262"
 				item: { count: 1, id: "mekanism:hazmat_pants" }
@@ -361,6 +600,14 @@
 				"67513813BDA00138"
 			]
 			id: "347C9F004FB27856"
+			rewards: [{
+				id: "49EF6FEEB2791A60"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DFCA19315508EFF"
 				item: { count: 1, id: "mekanism:hazmat_boots" }
@@ -372,6 +619,14 @@
 		{
 			dependencies: ["2FDC97E38C599C16"]
 			id: "177FF565976CEEF2"
+			rewards: [{
+				id: "501221FDDFEE345F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "028C24AF8D5D4845"
 				item: { count: 1, id: "mekanism:combiner" }
@@ -383,14 +638,24 @@
 		{
 			dependencies: ["67513813BDA00138"]
 			id: "2B22D9032F1DFE42"
-			rewards: [{
-				id: "5E12C8EEB3141479"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
+			rewards: [
+				{
+					id: "5E12C8EEB3141479"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "684CEDD1A5FF44E6"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "15B264FD388A3D49"
 				item: { count: 1, id: "aq:turtle_master_crafting_upgrade" }
@@ -402,6 +667,14 @@
 		{
 			dependencies: ["454C4B72C4BD8B5D"]
 			id: "697CCAC6BB19751C"
+			rewards: [{
+				id: "6DA1FE25E537114F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60D3677D244578B0"
 				item: { count: 1, id: "minecraft:echo_shard" }
@@ -414,6 +687,14 @@
 			dependencies: ["697CCAC6BB19751C"]
 			id: "2E62D820CA280E51"
 			optional: true
+			rewards: [{
+				id: "6157C64D7939AD76"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CD7393F0C8CA094"
 				item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
@@ -426,6 +707,14 @@
 			dependencies: ["697CCAC6BB19751C"]
 			id: "444A7FDB649C9FF0"
 			optional: true
+			rewards: [{
+				id: "0723A4A50A99DD9C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AA67857E8FCC26B"
 				item: { count: 1, id: "industrialforegoingsouls:soul_network_pipe" }
@@ -438,6 +727,14 @@
 			dependencies: ["2E62D820CA280E51"]
 			id: "5BBA96114007014D"
 			optional: true
+			rewards: [{
+				id: "33FEB7017754C0E4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5972F80307A18F94"
 				item: { count: 1, id: "routers:soul_upgrade" }

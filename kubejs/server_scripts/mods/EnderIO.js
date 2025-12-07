@@ -17,10 +17,22 @@ ServerEvents.recipes(event => {
     event.remove({id: 'enderio:dark_steel_chestplate'})
     event.remove({id: 'enderio:dark_steel_leggings'})
     event.remove({id: 'enderio:dark_steel_boots'})
+    event.remove({id: 'enderio:dark_steel_pickaxe'})
+    event.remove({id: 'enderio:dark_steel_axe'})
+    event.remove({id: 'enderio:dark_steel_sword'})
 
     //Replace 
     event.replaceInput({id: 'enderio:soul_vial'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
     event.replaceInput({id: 'enderio:double_layer_capacitor'}, '#c:dusts/coal', 'minecraft:lapis_block')
+    event.replaceInput({id: 'enderio:pulsating_photovoltaic_module'}, '#c:dusts/coal', 'minecraft:lapis_block')
+    event.replaceInput({id: 'enderio:pulsating_photovoltaic_module'}, '#c:glass_blocks/enlighted_fused_quartz', '#c:glass_blocks')
+    event.replaceInput({id: 'enderio:vibrant_photovoltaic_module'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
+
+    //Enderman Head
+    event.shaped('enderio:enderman_head', ['AAA', 'ABA', 'AAA'], {
+        A: 'minecraft:ender_pearl',
+        B: '#minecraft:skulls'
+    }).id('submerged:enderio/enderman_head')
 
     //Photovoltaic Composite
     event.shapeless('enderio:photovoltaic_composite', ['#c:gems/lapis', 'minecraft:coal', 'ae2:silicon']).id('submerged:enderio/photovoltaic_composite')

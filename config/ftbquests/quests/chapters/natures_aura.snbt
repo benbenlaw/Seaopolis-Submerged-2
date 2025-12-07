@@ -791,8 +791,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5FE981BD5353FB50"
-				item: { count: 1, id: "minecraft:ice" }
+				id: "24B0B031B1DD238B"
+				item: { count: 1, id: "submerged:ice_ball" }
 				type: "item"
 			}]
 			x: -2.0d

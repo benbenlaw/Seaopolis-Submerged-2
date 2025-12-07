@@ -1,0 +1,9 @@
+{
+	id: "40F420DEE027E5E2"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "22D361C0B6BD4BB8", item: { count: 1, id: "ae2:wireless_access_point" } }
+		{ id: "15B3FCC98B8D86F6", item: { count: 1, id: "refinedstorage:wireless_transmitter" } }
+	]
+}

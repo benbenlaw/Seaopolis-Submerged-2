@@ -11,6 +11,13 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: "pneumaticcraft:uv_light_box"}, "pneumaticcraft:pcb_blueprint", 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
 
+    //Mini Pressure Chamber Recipe
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ['2x pneumaticcraft:pressure_chamber_glass', '2x pneumaticcraft:pressure_chamber_interface', 'pneumaticcraft:pressure_chamber_valve', '21x pneumaticcraft:pressure_chamber_wall'],
+        3.0,
+        ['custommachinery:custom_machine_item[custommachinery:machine="submerged:mini_pressure_chamber"]']
+    ).id('submerged:pneumaticcraft/mini_pressure_chamber')
+
     //Teary Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
         ["8x submerged:ancient_gravel", "submerged:warden_tears_bucket"],
@@ -20,7 +27,7 @@ ServerEvents.recipes(event => {
 
     //Ai Controller
     event.recipes.pneumaticcraft.pressure_chamber(
-        ['enderio:mind_killer', 'enderio:frank_n_zombie', 'enderio:guardian_diode', 'enderio:skeletal_contractor', 'enderio:sentient_ender'],
+        ['enderio:mind_killer', 'enderio:z_logic_controller', 'enderio:guardian_diode', 'enderio:skeletal_contractor', 'enderio:ender_resonator'],
         3.0,
         ['submerged:ai_controller']
     ).id('submerged:pneumaticcraft/ai_controller')

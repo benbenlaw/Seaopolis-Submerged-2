@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "star_power"
 	group: "621AB11E96FBBC5F"
+	icon: {
+		id: "submerged:nether_star_block"
+	}
 	id: "3220729F6DAE9D8C"
 	order_index: 0
 	quest_links: [ ]
@@ -10,6 +13,14 @@
 		{
 			dependencies: ["3FA8B9543700C855"]
 			id: "3BD519303B7F28DA"
+			rewards: [{
+				id: "06C99619304F9AB1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AB633765E4FEA8E"
 				item: { count: 1, id: "industrialforegoing:wither_builder" }
@@ -21,6 +32,14 @@
 		{
 			dependencies: ["3BD519303B7F28DA"]
 			id: "1E2CE04704DD42D7"
+			rewards: [{
+				id: "00C7FC3CAB44C258"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05DFB4BCFE2F93C9"
 				item: { count: 1, id: "submerged:nether_star_block" }
@@ -30,19 +49,16 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3A3313703AA534A4"]
-			id: "205FC386BAE185FB"
-			tasks: [{
-				id: "619B75DBD9E95D00"
-				item: { count: 1, id: "submerged:starry_key" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["1E2CE04704DD42D7"]
 			id: "3A3313703AA534A4"
+			rewards: [{
+				id: "53FB2322D871BFD8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34532F887D0738F3"
 				type: "checkmark"
@@ -53,6 +69,14 @@
 		{
 			dependencies: ["3A3313703AA534A4"]
 			id: "1C456EBF7FB9E457"
+			rewards: [{
+				id: "7B5F3027EE4209BF"
+				item: {
+					count: 1
+					id: "enderio:soularium_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21663FC20212783B"
 				item: { count: 1, id: "enderio:soularium_ingot" }
@@ -64,6 +88,14 @@
 		{
 			dependencies: ["25BCDE7DF3601756"]
 			id: "334E5EE2F71C2968"
+			rewards: [{
+				id: "42A78B0AD5A61671"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1064403E7E7EFA8D"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
@@ -75,6 +107,14 @@
 		{
 			dependencies: ["1C456EBF7FB9E457"]
 			id: "25BCDE7DF3601756"
+			rewards: [{
+				id: "7FDAAB88177EAD6D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D2CAFA2FD72A31D"
 				item: { count: 1, id: "enderio:soul_chain" }
@@ -86,6 +126,14 @@
 		{
 			dependencies: ["334E5EE2F71C2968"]
 			id: "5565D57385D98C99"
+			rewards: [{
+				id: "112B18CF5062BAC1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B6D5F3644DA9FDA"
 				item: { count: 1, id: "enderio:slice_and_splice" }
@@ -97,17 +145,33 @@
 		{
 			dependencies: ["5565D57385D98C99"]
 			id: "2E943CC38971E197"
+			rewards: [{
+				id: "5A6B4B0A41CB7A63"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DA0357BA6DDB1BE"
 				item: { count: 1, id: "enderio:z_logic_controller" }
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5565D57385D98C99"]
 			id: "7DF32C9395F17380"
+			rewards: [{
+				id: "4ABDA9CFF9519F5C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EF4F88B6C805708"
 				item: { count: 1, id: "enderio:guardian_diode" }
@@ -119,6 +183,14 @@
 		{
 			dependencies: ["5565D57385D98C99"]
 			id: "14D513E6A87E6DAE"
+			rewards: [{
+				id: "01D95D00A8CCF470"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66A4D9B05B7564A4"
 				item: { count: 1, id: "enderio:skeletal_contractor" }
@@ -130,17 +202,33 @@
 		{
 			dependencies: ["5565D57385D98C99"]
 			id: "322ED9A226DF2CDC"
+			rewards: [{
+				id: "2AC7F5B1B63CD3D0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BE2613E6B88B5A7"
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5565D57385D98C99"]
 			id: "436BDBD8D99422B5"
+			rewards: [{
+				id: "220676BD3245F542"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DF77ABC5CEE124B"
 				item: { count: 1, id: "enderio:zombie_electrode" }
@@ -150,30 +238,16 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2E943CC38971E197"]
-			id: "4969DCB6A2E0BE91"
-			tasks: [{
-				id: "5B2944C239283847"
-				item: { count: 1, id: "enderio:frank_n_zombie" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["322ED9A226DF2CDC"]
-			id: "63D3001F8C82610D"
-			tasks: [{
-				id: "3CBF09D7937BB144"
-				item: { count: 1, id: "enderio:sentient_ender" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["436BDBD8D99422B5"]
 			id: "107C2FCB14CEAC4F"
+			rewards: [{
+				id: "4AD00B386DB2F7DF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50B60DBB7BF38A40"
 				item: { count: 1, id: "enderio:mind_killer" }
@@ -184,13 +258,21 @@
 		}
 		{
 			dependencies: [
-				"63D3001F8C82610D"
 				"107C2FCB14CEAC4F"
-				"4969DCB6A2E0BE91"
 				"7DF32C9395F17380"
 				"14D513E6A87E6DAE"
+				"2E943CC38971E197"
+				"322ED9A226DF2CDC"
 			]
 			id: "735BC07C8557017F"
+			rewards: [{
+				id: "09516DF82EFE4737"
+				item: {
+					count: 1
+					id: "submerged:ai_controller"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0263B1C8D56B4521"
 				item: { count: 1, id: "submerged:ai_controller" }
@@ -202,6 +284,14 @@
 		{
 			dependencies: ["735BC07C8557017F"]
 			id: "165178C531A77404"
+			rewards: [{
+				id: "5C859A05167827D9"
+				item: {
+					count: 1
+					id: "enderio:void_chassis"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "185335EAAC37E35F"
 				item: { count: 1, id: "enderio:void_chassis" }
@@ -213,6 +303,14 @@
 		{
 			dependencies: ["165178C531A77404"]
 			id: "399473C275A8FD0C"
+			rewards: [{
+				id: "7487BBA4CA2A8F9F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E0C0D6600E81088"
 				item: { count: 1, id: "enderio:vat" }
@@ -227,6 +325,14 @@
 				id: "enderio:liquid_sunshine_bucket"
 			}
 			id: "2FA47EEE8EBB16E1"
+			rewards: [{
+				id: "666EF2E0AAE2B1D3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4479099A535A8435"
 				type: "checkmark"
@@ -240,6 +346,14 @@
 				id: "enderio:liquid_darkness_bucket"
 			}
 			id: "41A32D95D63A1901"
+			rewards: [{
+				id: "04B0F4D82D83ADDA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "166483937B863DD0"
 				type: "checkmark"
@@ -253,9 +367,17 @@
 				"41A32D95D63A1901"
 			]
 			id: "2E14A02F1F3B9A4C"
+			rewards: [{
+				id: "4950A95278259E05"
+				item: {
+					count: 1
+					id: "submerged:solclipsium_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "08F3C2ECE595AAE4"
-				item: { count: 1, id: "submerged:solclipsium_nugget" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/solclipsium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -264,6 +386,14 @@
 		{
 			dependencies: ["4984877524CA1F66"]
 			id: "5EDD763909EE0A92"
+			rewards: [{
+				id: "2E1E2CDFC9BFAE9B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "51FF9EBC7AC80FE8"
 				item: { count: 1, id: "mekanism:dust_lithium" }
@@ -275,6 +405,14 @@
 		{
 			dependencies: ["165178C531A77404"]
 			id: "695B787CF160A2B6"
+			rewards: [{
+				id: "1D8DFF4AE8E935AE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BB278376C06105E"
 				item: { count: 1, id: "enderio:sag_mill" }
@@ -292,6 +430,14 @@
 				id: "mekanism:brine_bucket"
 			}
 			id: "5489D38689D5C759"
+			rewards: [{
+				id: "1EC29A126653E41E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CAC0E378EE8A4FC"
 				type: "checkmark"
@@ -305,12 +451,58 @@
 				id: "mekanism:lithium_bucket"
 			}
 			id: "4984877524CA1F66"
+			rewards: [{
+				id: "52200813A482133E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B6E49C8553D6552"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 10.5d
+		}
+		{
+			dependencies: ["165178C531A77404"]
+			id: "5900C4C227F7AA8D"
+			rewards: [{
+				id: "04E20E685F487C74"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68FE374198F2D1EE"
+				item: { count: 1, id: "opolisutilities:summoning_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["165178C531A77404"]
+			id: "539418A6FC41BDA5"
+			rewards: [{
+				id: "76AE27B5718AF963"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B068ED1AA432502"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 }

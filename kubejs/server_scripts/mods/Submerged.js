@@ -5,6 +5,13 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
  
+    //Spoil Bag Opener
+    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:spoil_bag_opener"]', ['AAA', 'BCB', 'AAA'], {
+        A: 'minecraft:iron_ingot',
+        B: 'forcecraft:spoils_bag',
+        C: 'minecraft:obsidian'
+    }).id('submerged:spoil_bag_opener')
+
     //Iridium Ore
     event.shaped('alltheores:iridium_ore', ['AA', 'AA'], {
         A: 'submerged:iridium_ore_piece'
@@ -62,7 +69,7 @@ ServerEvents.recipes(event => {
     //Shrieking Sphere
     event.shaped('submerged:shrieking_sphere', [' A ', 'ABA', ' A '], {
         A: 'nanomirai:sculmium_ingot',
-        B: 'submerged:netherite_key'
+        B: 'submerged:starry_key'
     }).id('submerged:shrieking_sphere')
 
     //Sculk Shrieker
@@ -136,7 +143,7 @@ ServerEvents.recipes(event => {
 
     //Ancient Lens
     event.shaped('submerged:ancient_lens', ['ABA', 'BCB', 'ABA'], {
-        A: 'naturesaura:ancient_log',
+        A: '#submerged:pity_frame_logs',
         B: 'enderio:grains_of_infinity',
         C: '#c:glass_panes'
     }).id('submerged:ancient_lens')

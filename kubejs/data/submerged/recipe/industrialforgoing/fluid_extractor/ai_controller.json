@@ -8,16 +8,19 @@
   "type": "industrialforegoing:dissolution_chamber",
   "input": [
     {
-      "item": "enderio:frank_n_zombie"
+      "item": "enderio:z_logic_controller"
     },
     {
       "item": "enderio:guardian_diode"
     },
     {
+      "item": "enderio:mind_killer"
+    },
+    {
       "item": "enderio:skeletal_contractor"
     },
     {
-      "item": "enderio:sentient_ender"
+      "item": "enderio:ender_resonator"
     }
   ],
   "inputFluid": {

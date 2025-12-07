@@ -73,7 +73,11 @@
     },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
-        "ars_nouveau:machines/imbuement_chamber"
+        "ars_nouveau:machines/imbuement_chamber",
+        "ars_nouveau:source/agronomic_sourcelink",
+        "ars_nouveau:source/volcanic_sourcelink",
+        "ars_nouveau:source/alchemical_sourcelink",
+        "ars_nouveau:source/vitalic_sourcelink"
       ],
       "bookmarks": [],
       "completedManualQuests": []

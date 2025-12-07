@@ -3,13 +3,15 @@
 StartupEvents.registry('item', (event) => {
 
     //Catalogs
-    event.create('submerged:catalog_catalog').displayName('Catalog: Catalog').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_catalog').displayName('Catalog: Catalog').tag('shops:catalogs').maxStackSize(1).glow(true)
     
-    event.create('submerged:catalog_hats').displayName('Catalog: Hats').maxStackSize(1).glow(true)
-    event.create('submerged:catalog_ducks').displayName('Catalog: Ducks').maxStackSize(1).glow(true)
-    event.create('submerged:catalog_simple_blocks').displayName('Catalog: Simple Blocks').maxStackSize(1).glow(true)
-    event.create('submerged:catalog_flares').displayName('Catalog: Flares').maxStackSize(1).glow(true)
-    event.create('submerged:catalog_relics').displayName('Catalog: Relics').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_hats').displayName('Catalog: Hats').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_ducks').displayName('Catalog: Ducks').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_simple_blocks').displayName('Catalog: Simple Blocks').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_flares').displayName('Catalog: Flares').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_relics').displayName('Catalog: Relics').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_processor').displayName('Catalog: Processors').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('submerged:catalog_capacitor').displayName('Catalog: Capacitors').tag('shops:catalogs').maxStackSize(1).glow(true)
 
     //Items
     event.create('submerged:unloaded_flare')
@@ -271,7 +273,8 @@ StartupEvents.registry('item', (event) => {
         .overrideExistingBlocks(true)
         .tag('submerged:keys/trial_sphere')
 
-    const trialSphere = ["skeleton", "creeper", "pirate", "slime", "spider"]
+    //Zombie is first
+    const trialSphere = ["skeleton", "creeper", "pirate", "slime", "spider", "wither_skeleton"]
 
     trialSphere.forEach(sphere => {
         event.create(`submerged:${sphere}_trial_sphere`, 'roomopolis_key')

@@ -1,0 +1,12 @@
+{
+  "catalog": { 
+    "id": "submerged:catalog_processor" 
+  },
+  "entries": [
+    { "stack": { "id": "submerged:logic_processor", "count": 3 }, "price": 10, "mode": "player_buys"  },
+    { "stack": { "id": "submerged:calculation_processor", "count": 3 }, "price": 10, "mode": "player_buys"  },
+    { "stack": { "id": "submerged:engineering_processor", "count": 3 }, "price": 10, "mode": "player_buys"  },
+    { "stack": { "id": "extendedae:concurrent_processor", "count": 3 }, "price": 20, "mode": "player_buys"  }
+
+  ]
+}
