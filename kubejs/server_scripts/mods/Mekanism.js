@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_engineering_processor'})
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_logic_processor'})
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_calculation_processor'})
+    event.remove({id: 'mekmm:compat/ae2/stamper/printed_silicon'})
 
     //Replace Input 
     event.replaceInput({id: 'mekmm:cnc_rolling_mill'}, 'mekanism:basic_control_circuit', 'mekanism:elite_control_circuit')
@@ -38,7 +39,7 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.combining('mekanism:hazmat_boots', '4x alltheores:lead_ingot', 'mekanismtools:bronze_boots').id('mekanism:hazmat_boots')
     
     //Beam
-    addLatheRecipe('alltheores:steel_block', 1, 'dysoncubeproject:beam')
+    addLatheRecipe('alltheores:steel_ingot', 3, 'dysoncubeproject:beam')
     addLatheRecipe('dysoncubeproject:beam', 4, 'dysoncubeproject:beam_package')
   
     //Sail

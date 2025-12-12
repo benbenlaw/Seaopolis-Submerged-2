@@ -216,5 +216,76 @@
 			x: -3.5d
 			y: -1.0d
 		}
+		{
+			dependencies: [
+				"3ABEA7EFA89D62DC"
+				"1E02C3EBDEFE9A66"
+				"1C4F7207F56D3D24"
+				"188054A49E567021"
+				"511A6ACE86DA65AB"
+				"64488E47AF1093C8"
+				"5559A1CA2744073D"
+				"6BB4F0B9A909C93F"
+				"6E1A43EA427FCC42"
+				"3DC0ACA524E2D8E9"
+			]
+			id: "369917CA12292A38"
+			tasks: [{
+				id: "1DF11C36EE324333"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21E415692839FCB4"
+				"0BF184839535B1B6"
+				"0EEC0CC5586DC7A7"
+				"46C014BE494270A4"
+				"171B3405B0BFFFDB"
+				"3AB947DEE06C2EA7"
+				"2ADF1B88DD0F1604"
+				"67B26262057CEDC2"
+			]
+			id: "7FD5412CF0FDE75B"
+			tasks: [{
+				id: "7839FA5858B982A5"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"733D52E21425D81F"
+				"3A7200591E849969"
+				"566AA0D770887E53"
+				"7CC53D13CB116100"
+				"18155C647B3B57CD"
+				"6CB2AD0DB043B3D6"
+				"5815CA7195778818"
+				"6B88CC2111A105E5"
+				"40D7A06604365794"
+				"14F1C63440E822D9"
+				"319B384675352C9C"
+				"347FBEAFA195B5D0"
+				"58C244A6A32BE737"
+				"6AC936C9166BD437"
+			]
+			id: "0453233CBAC34167"
+			tasks: [{
+				id: "6D53200B93C08855"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
 	]
 }

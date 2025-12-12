@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
 
     //Photovoltaic Composite
     event.shapeless('enderio:photovoltaic_composite', ['#c:gems/lapis', 'minecraft:coal', 'ae2:silicon']).id('submerged:enderio/photovoltaic_composite')
+    event.shapeless('enderio:photovoltaic_composite', ['#c:gems/lapis', 'minecraft:coal', '#ae2:all_quartz']).id('submerged:enderio/photovoltaic_composite_quartz')
 
     //Void Chassis
     event.shaped('enderio:void_chassis', ['ABA', 'BCB', 'ABA'], {

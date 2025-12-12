@@ -1,5 +1,6 @@
 #If set false, no backups are being made.
 enabled = true
+#Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #Defines the backup type.
 #- FULL_BACKUPS - always creates full backups
 #- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup
@@ -12,6 +13,7 @@ saveAll = true
 # Default: 525960
 # Range: 1 ~ 5259600
 fullBackupTimer = 525960
+#Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #The max amount of backup files to keep.
 # Default: 10
 # Range: 1 ~ 32767

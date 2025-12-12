@@ -199,15 +199,42 @@ ServerEvents.recipes(event => {
             ['submerged:unloaded_flare', `submerged:${color}_terracotta_rocks`]).id(`submerged:${color}_starting_flare`)
     
         //Sphere Key
-        event.shaped(`submerged:${color}_sphere_key`, ['AAA', 'ABA', 'AAA'], {
+        event.shaped(`submerged:${color}_sphere_key`, [' A ', 'ABA', ' A '], {
             A: `submerged:${color}_terracotta_rocks`,
             B: 'submerged:stone_key'
         }).id(`submerged:${color}_sphere_key`)
 
-        event.shaped(`submerged:${color}_sphere_key`, ['AAA', 'ABA', 'AAA'], {
+        event.shaped(`submerged:${color}_sphere_key`, [' A ', 'ABA', ' A '], {
             A: `colors:${color}_leaves`,
             B: 'submerged:stone_key'
         }).id(`submerged:${color}_sphere_key_from_leaves`)
+
+        //Cube Key
+        event.shaped(`submerged:${color}_cube_key`, ['A A', ' B ', 'A A'], {
+            A: `submerged:${color}_terracotta_rocks`,
+            B: 'submerged:stone_key'
+        }).id(`submerged:${color}_cube_key`)
+
+        event.shaped(`submerged:${color}_cube_key`, ['A A', ' B ', 'A A'], {
+            A: `colors:${color}_leaves`,
+            B: 'submerged:stone_key'
+        }).id(`submerged:${color}_cube_key_from_leaves`)
+
+        //Deep Cube Key
+        event.shaped(`submerged:${color}_big_cube_key`, ['AAA', 'AAA', 'AAA'], {
+            A: `submerged:${color}_cube_key`
+        }).id(`submerged:${color}_big_cube_key`)
+
+        //Long Cube Key
+        event.shaped(`submerged:${color}_long_cube_key`, ['AA'], {
+            A: `submerged:${color}_cube_key`
+        }).id(`submerged:${color}_long_cube_key`)
+
+        //Deep Cube Key
+        event.shaped(`submerged:${color}_deep_cube_key`, ['A', 'A'], {
+            A: `submerged:${color}_cube_key`
+        }).id(`submerged:${color}_deep_cube_key`)
+
 
     })
 

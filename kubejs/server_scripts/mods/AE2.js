@@ -15,12 +15,23 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ae2:inscriber/engineering_processor_print'})
     event.remove({id: 'ae2:inscriber/calculation_processor_print'})
     event.remove({id: 'ae2:inscriber/logic_processor_print'})
+    event.remove({id: 'ae2:inscriber/silicon_print'})
+    event.remove({id: 'extendedae:assembler/ex_inscriber'})
+    event.remove({id: 'extendedae:smelting/quartz_blend'})
+    event.remove({id: 'extendedae:mek/quartz_blend'})
 
     //Remove
     //event.remove({id: 'ae2:inscriber/engineering_processor_print'})
     //event.remove({id: 'ae2:inscriber/calculation_processor_print'})
     //event.remove({id: 'ae2:inscriber/logic_processor_print'})
     //event.remove({id: 'ae2:inscriber/silicon_print'})
+
+    //Better Inscriber
+    event.shaped('extendedae:ex_inscriber', ['CAC', 'BBB', 'CAC'], {
+        A: 'extendedae:concurrent_processor',
+        B: 'ae2:inscriber',
+        C: 'minecraft:iron_ingot'
+    }).id('submerged:ex_inscriber')
 
     //Tiny TNT
     event.shaped('3x ae2:tiny_tnt', ['ABA', 'BAB', 'ABA'], {
@@ -100,7 +111,7 @@ ServerEvents.recipes(event => {
     addChargerRecipe('submerged:nether_gravel', 'submerged:charged_gravel')
 
     //Concurrent Processor
-    addInscriberRecipe('extendedae:entro_crystal', 'pneumaticcraft:printed_circuit_board', 'minecraft:redstone', '4x extendedae:concurrent_processor_print')
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'extendedae:entro_crystal', '4x extendedae:concurrent_processor_print')
 
     //Logic Circuit
     addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot' , '4x ae2:printed_logic_processor')

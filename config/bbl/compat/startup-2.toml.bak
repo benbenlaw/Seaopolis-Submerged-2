@@ -1,0 +1,4 @@
+#BBL Compat Startup Config
+["BBL Compat"]
+	#Enables the in world conversion of caveopolis to colors blocks, will increase load times and may cause lag
+	"Caveopolis to Colors World Conversion" = false

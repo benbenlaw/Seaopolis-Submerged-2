@@ -31,12 +31,19 @@ ServerEvents.recipes(event => {
     
     event.recipes.casting.melting('minecraft:rotten_flesh', '20x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/rotten_flesh')
     event.recipes.casting.melting('minecraft:bone', '20x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/bone')
+    event.recipes.casting.melting('iceandfire:witherbone', '50x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/witherbone')
     event.recipes.casting.melting('minecraft:gunpowder', '40x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/gunpowder')
     event.recipes.casting.melting('forcecraft:pile_of_gunpowder', '10x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/pile_of_gunpowder')
     event.recipes.casting.melting('minecraft:spider_eye', '50x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/spider_eye')
     event.recipes.casting.melting('#forcecraft:chu_jelly', '25x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/chu_jelly')
     event.recipes.casting.melting('minecraft:slime_ball', '25x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/slime_ball')
     event.recipes.casting.melting('minecraft:arrow', '10x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/arrow')
+    event.recipes.casting.melting('minecraft:skeleton_skull', '250x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/skeleton_skull')
+    event.recipes.casting.melting('minecraft:zombie_head', '250x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/zombie_head')
+    event.recipes.casting.melting('minecraft:creeper_head', '250x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/creeper_head')
+    event.recipes.casting.melting('minecraft:wither_skeleton_skull', '500x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/wither_skeleton_skull')
+    event.recipes.casting.melting('minecraft:dragon_head', '2000x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/dragon_head')
+
     
     event.recipes.casting.melting('submerged:nether_star_block', '500x submerged:molten_star', 1400).id('submerged:melting/nether_star_block')
     event.recipes.casting.melting('submerged:grains_of_time', '500x submerged:time_fluid', 1400).id('submerged:melting/grains_of_time')

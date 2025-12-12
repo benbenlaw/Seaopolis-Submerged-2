@@ -29,4 +29,8 @@ ItemEvents.modifyTooltips(event => {
     event.add('submerged:catalog_relics',[
         Text.of('§bFrom CC Rewards II!'),
     ])
+
+    event.add('minecraft:netherite_upgrade_smithing_template',[
+        Text.of('§bFrom Fortress and Bastion Trial Spheres!'),
+    ])
 })

@@ -18,6 +18,13 @@ ServerEvents.recipes(event => {
         ['custommachinery:custom_machine_item[custommachinery:machine="submerged:mini_pressure_chamber"]']
     ).id('submerged:pneumaticcraft/mini_pressure_chamber')
 
+    //Compressed Iron Gear
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ['4x pneumaticcraft:ingot_iron_compressed', 'casting:gear_mold'],
+        1.5,
+        ['pneumaticcraft:compressed_iron_gear', 'casting:gear_mold']
+    ).id('submerged:pneumaticcraft/compressed_iron_gear')
+
     //Teary Gravel
     event.recipes.pneumaticcraft.pressure_chamber(
         ["8x submerged:ancient_gravel", "submerged:warden_tears_bucket"],

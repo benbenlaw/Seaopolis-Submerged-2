@@ -362,7 +362,7 @@
 				item: { count: 1, id: "dysoncubeproject:beam" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 5.5d
 		}
 		{
@@ -382,7 +382,7 @@
 				item: { count: 1, id: "dysoncubeproject:beam_package" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -401,7 +401,7 @@
 				item: { count: 1, id: "dysoncubeproject:solar_sail" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 5.5d
 		}
 		{
@@ -421,14 +421,14 @@
 				item: { count: 1, id: "dysoncubeproject:solar_sail_package" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: [
 				"414E7B7FF6200C77"
 				"3182B75B829A99BA"
-				"244C5BD547A20FF1"
+				"4A9DD2F25378F0E8"
 			]
 			id: "420F15159D984FC4"
 			rewards: [{
@@ -445,13 +445,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"414E7B7FF6200C77"
 				"3182B75B829A99BA"
-				"0F56BA8CE2B5490C"
+				"197CDB5CAB481681"
 			]
 			id: "3CED81F6D8A203DA"
 			rewards: [{
@@ -468,7 +468,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["454C4B72C4BD8B5D"]
@@ -753,6 +753,46 @@
 			}]
 			x: -0.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["6A2C62D3132E4C31"]
+			hide_dependency_lines: true
+			id: "197CDB5CAB481681"
+			rewards: [{
+				id: "49D0B28A2DAD7325"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DDCDA4616A2CB5E"
+				item: { count: 1, id: "mekanism:advanced_induction_cell" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A2C62D3132E4C31"]
+			hide_dependency_lines: true
+			id: "4A9DD2F25378F0E8"
+			rewards: [{
+				id: "11DD1425EEF0FA49"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17E67404998D7C39"
+				item: { count: 1, id: "mekanism:advanced_induction_provider" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
 		}
 	]
 }

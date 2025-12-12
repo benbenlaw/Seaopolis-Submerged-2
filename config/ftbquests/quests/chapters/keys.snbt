@@ -144,8 +144,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0A72CD890EAA4F42"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/sphere_base)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "28420D0AE447E888"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/standard)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -594,8 +594,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7878F3BF9E12372A"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/deep_sphere)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "61556DC811281012"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/deep)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -613,8 +613,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4C0412EA50C9C515"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/long_sphere)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "511BA0A40B53FA15"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/long)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -638,6 +638,25 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6AAF56C47DDC7F4C"]
+			id: "5B01B31D618B9246"
+			rewards: [{
+				id: "666659741236BBDA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D65102B9940DA72"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:keys/big)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
 		}
 	]
 }

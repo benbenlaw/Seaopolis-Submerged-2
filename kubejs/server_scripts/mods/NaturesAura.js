@@ -6,12 +6,14 @@ ServerEvents.recipes(event => {
     event.remove({id: 'naturesaura:gold_powder'})
     event.remove({id: 'naturesaura:tree_ritual/conversion_catalyst'})
     event.remove({id: 'naturesaura:altar/blaze'})
+    event.remove({id: 'naturesaura:altar/soul_sand_crushing'})
 
     //Replace Input
     event.replaceInput({id: 'naturesaura:bottle_two_the_rebottling'}, '#minecraft:planks', 'naturesaura:ancient_planks')
     
     //Blaze Powder
     event.recipes.naturesaura.altar('6x minecraft:blaze_powder', 'minecraft:blaze_rod', 500).id('submerged:blaze_powder')
+    event.recipes.naturesaura.altar('5x minecraft:bone_meal', 'iceandfire:witherbone', 500).id('submerged:bone_meal_from_witherbone')
 
     //Transmutation
     event.recipes.naturesaura.tree_ritual('naturesaura:conversion_catalyst', ['naturesaura:gold_brick', 'minecraft:wither_skeleton_skull', 'minecraft:brewing_stand', 'naturesaura:tainted_gold', 'minecraft:glowstone', 'naturesaura:infused_stone']).id('submerged:naturesaura/conversion_catalyst')

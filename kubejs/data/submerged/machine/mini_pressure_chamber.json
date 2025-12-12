@@ -26,12 +26,12 @@
       "type": "custommachinery:fluid",
       "mode": "output",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "max_output": 10000,
       "id": "fluidOutput",
@@ -60,12 +60,12 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "id": "output1",
       "mode": "output"
@@ -73,12 +73,12 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "id": "output2",
       "mode": "output"
@@ -95,6 +95,11 @@
       "type": "custommachinery:background",
       "width": 217,
       "height": 166
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 192,
+      "y": 141
     },
     {
       "type": "custommachinery:fluid",

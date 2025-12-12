@@ -7,12 +7,12 @@
 	"Coloring Recipes in Crafting Tables" = true
 	#Enable Void Protection, default = false
 	#If enabled, players will be teleported to their spawn point if they fall into the void
-	"Enable Void Protection" = false
+	"Enable Void Protection" = true
 	#Save the world will try to fix broken world where a block is causing crashes, default = false
 	"Try to Save the world" = false
 	#X coordinate of block to fix (default = 0)
-	x = 8283
+	x = 0
 	#Y coordinate of block to fix (default = 0)
-	y = 114
+	y = 0
 	#Z coordinate of block to fix (default = 0)
-	z = -16
+	z = 0

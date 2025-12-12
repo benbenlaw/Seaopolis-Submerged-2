@@ -494,5 +494,25 @@
 			x: 0.5d
 			y: 11.0d
 		}
+		{
+			dependencies: ["5DCAD7240C6D683E"]
+			id: "4CB1A8B1447EE934"
+			rewards: [{
+				count: 2
+				id: "0B020B1AB12D1A7E"
+				item: {
+					count: 1
+					id: "ae2:speed_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B17F024615DA1BB"
+				item: { count: 1, id: "ae2:speed_card" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
 	]
 }

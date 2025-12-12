@@ -65,8 +65,11 @@ StartupEvents.registry('item', (event) => {
             .saturation(0)
             .alwaysEdible(true)
             .effect("minecraft:bad_omen", 10*20, 0, 1.0)
-    }).displayName('Ominous Drink')
-
+            .eaten(ctx => {
+                ctx.player.give(Item.of("minecraft:glass_bottle", 1))
+            })
+    }).displayName('Ominous Drink').useAnimation('drink')
+    
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
         event.create(`submerged:${color}_dirt_pile`).tag('submerged:dirt_pile')
@@ -120,6 +123,24 @@ StartupEvents.registry('item', (event) => {
         .overrideExistingBlocks(true)
         .tag('submerged:keys/sphere')
 
+    //Colored Cube Keys
+    colors.forEach(color => {
+        event.create(`submerged:${color}_cube_key`, 'roomopolis_key')
+            .templateId(`submerged:cubes/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag(['submerged:keys/cube_base', 'submerged:keys/standard'])
+    })
+    
     //Colored Sphere Keys 
     colors.forEach(color => {
         event.create(`submerged:${color}_sphere_key`, 'roomopolis_key')
@@ -135,7 +156,25 @@ StartupEvents.registry('item', (event) => {
             .removeDoor(true)
             .blocksRequired(false)
             .overrideExistingBlocks(true)
-            .tag('submerged:keys/sphere_base')
+            .tag(['submerged:keys/sphere_base', 'submerged:keys/standard'])
+    })
+
+    //Colored Deep Cube Keys
+    colors.forEach(color => {
+        event.create(`submerged:${color}_deep_cube_key`, 'roomopolis_key')
+            .templateId(`submerged:deep_cubes/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(-7)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag(['submerged:keys/deep', 'submerged:keys/deep_cube'])
     })
 
     //Colored Deep Sphere Keys 
@@ -153,7 +192,25 @@ StartupEvents.registry('item', (event) => {
             .removeDoor(true)
             .blocksRequired(false)
             .overrideExistingBlocks(true)
-            .tag('submerged:keys/deep_sphere')
+            .tag(['submerged:keys/deep', 'submerged:keys/deep_sphere'])
+    })
+
+    //Colored Long Cube Keys
+    colors.forEach(color => {
+        event.create(`submerged:${color}_long_cube_key`, 'roomopolis_key')
+            .templateId(`submerged:long_cubes/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(6)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag(['submerged:keys/long', 'submerged:keys/long_cube'])
     })
 
     //Colored Long Sphere Keys 
@@ -171,7 +228,7 @@ StartupEvents.registry('item', (event) => {
             .removeDoor(true)
             .blocksRequired(false)
             .overrideExistingBlocks(true)
-            .tag('submerged:keys/long_sphere')
+            .tag(['submerged:keys/long', 'submerged:keys/long_sphere'])
     })
 
     //Colored Tunnel Keys 
@@ -192,7 +249,26 @@ StartupEvents.registry('item', (event) => {
             .tag('submerged:keys/tunnel')
     })
 
-    //Colored Big Keys 
+    //Colored Big Cube Keys
+    colors.forEach(color => {
+        event.create(`submerged:${color}_big_cube_key`, 'roomopolis_key')
+            .templateId(`submerged:big_cubes/${color}`)
+            .keyBlock(`#submerged:terracotta_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .maxHeight(130)
+            .tag(['submerged:keys/big', 'submerged:keys/big_cube'])
+    })
+
+    //Colored Big Sphere Keys 
     colors.forEach(color => {
         event.create(`submerged:${color}_big_sphere_key`, 'roomopolis_key')
             .templateId(`submerged:big/${color}`)
@@ -208,7 +284,7 @@ StartupEvents.registry('item', (event) => {
             .blocksRequired(false)
             .overrideExistingBlocks(true)
             .maxHeight(130)
-            .tag('submerged:keys/big_sphere')
+            .tag(['submerged:keys/big', 'submerged:keys/big_sphere'])
     })
 
     event.create(`submerged:3x3_pressure_chamber`, 'roomopolis_key')
@@ -274,12 +350,31 @@ StartupEvents.registry('item', (event) => {
         .tag('submerged:keys/trial_sphere')
 
     //Zombie is first
-    const trialSphere = ["skeleton", "creeper", "pirate", "slime", "spider", "wither_skeleton"]
+    const trialSphereOverworld = ["skeleton", "creeper", "pirate", "slime", "spider"]
 
-    trialSphere.forEach(sphere => {
+    trialSphereOverworld.forEach(sphere => {
         event.create(`submerged:${sphere}_trial_sphere`, 'roomopolis_key')
             .templateId(`submerged:trial_spheres/${sphere}`)
             .keyBlock(`submerged:tuff_brick_lock`)
+            .heightAdjustment(0)
+            .frontAdjustment(-1)
+            .doorLeft(1)
+            .doorRight(1)
+            .doorUp(1)
+            .doorDown(1)
+            .consumeKey(true)
+            .removeDoor(true)
+            .blocksRequired(false)
+            .overrideExistingBlocks(true)
+            .tag('submerged:keys/trial_sphere')
+    })
+
+    const trialSphereNether = ["wither_skeleton", "blaze", "fortress", "bastion"]
+
+    trialSphereNether.forEach(sphere => {
+        event.create(`submerged:${sphere}_trial_sphere`, 'roomopolis_key')
+            .templateId(`submerged:trial_spheres/${sphere}`)
+            .keyBlock(`submerged:nether_brick_lock`)
             .heightAdjustment(0)
             .frontAdjustment(-1)
             .doorLeft(1)

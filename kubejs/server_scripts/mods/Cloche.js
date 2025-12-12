@@ -22,13 +22,7 @@ ServerEvents.recipes(event => {
             ["strainers:mulch"]
         ]
     ).id('submerged:cloche/mulch')
-    
-    //Godlen Leaves
-    event.recipes.cloche.cloche('strainers:mulch', 'strainers:mulch', 1200,
-        [
-            ["strainers:mulch"]
-        ]
-    ).id('submerged:cloche/mulch')
+
 
     //Saplings
     addSaplingRecipe('forcecraft:force_sapling', '#minecraft:dirt', 'forcecraft:force_log', 'forcecraft:force_leaves')

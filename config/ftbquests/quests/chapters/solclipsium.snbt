@@ -31,6 +31,7 @@
 		{
 			dependencies: ["0C07B03DDDF72BBC"]
 			id: "3ABEA7EFA89D62DC"
+			optional: true
 			rewards: [{
 				id: "6B679B9D81C71063"
 				item: {
@@ -50,6 +51,7 @@
 		{
 			dependencies: ["511A6ACE86DA65AB"]
 			id: "64488E47AF1093C8"
+			optional: true
 			rewards: [
 				{
 					id: "313046E705CF2398"
@@ -79,6 +81,7 @@
 		{
 			dependencies: ["3ABEA7EFA89D62DC"]
 			id: "188054A49E567021"
+			optional: true
 			rewards: [{
 				id: "5039F1AD94932E53"
 				item: {
@@ -98,6 +101,7 @@
 		{
 			dependencies: ["188054A49E567021"]
 			id: "6E1A43EA427FCC42"
+			optional: true
 			rewards: [{
 				id: "28F8386DB1F6951D"
 				item: {
@@ -117,6 +121,7 @@
 		{
 			dependencies: ["6E1A43EA427FCC42"]
 			id: "511A6ACE86DA65AB"
+			optional: true
 			rewards: [{
 				id: "30E2580191D406A1"
 				item: {
@@ -136,6 +141,7 @@
 		{
 			dependencies: ["64488E47AF1093C8"]
 			id: "1C4F7207F56D3D24"
+			optional: true
 			rewards: [{
 				id: "126C858FD3534FEC"
 				item: {
@@ -155,6 +161,7 @@
 		{
 			dependencies: ["1C4F7207F56D3D24"]
 			id: "1E02C3EBDEFE9A66"
+			optional: true
 			rewards: [{
 				id: "0AEDC1852E83E5EF"
 				item: {
@@ -174,6 +181,7 @@
 		{
 			dependencies: ["1C4F7207F56D3D24"]
 			id: "6BB4F0B9A909C93F"
+			optional: true
 			rewards: [{
 				id: "3193F293D7EFDC40"
 				item: {
@@ -193,6 +201,7 @@
 		{
 			dependencies: ["6BB4F0B9A909C93F"]
 			id: "3DC0ACA524E2D8E9"
+			optional: true
 			rewards: [{
 				id: "17E043DB58A59D7F"
 				item: {
@@ -212,6 +221,7 @@
 		{
 			dependencies: ["3AB947DEE06C2EA7"]
 			id: "2ADF1B88DD0F1604"
+			optional: true
 			rewards: [{
 				id: "6A2D60F6E50E9C97"
 				item: {
@@ -231,6 +241,7 @@
 		{
 			dependencies: ["0C07B03DDDF72BBC"]
 			id: "67B26262057CEDC2"
+			optional: true
 			rewards: [{
 				id: "5C3D8BFBDA204EEF"
 				item: {
@@ -250,6 +261,7 @@
 		{
 			dependencies: ["67B26262057CEDC2"]
 			id: "3AB947DEE06C2EA7"
+			optional: true
 			rewards: [{
 				id: "3E55401F35CB4C31"
 				item: {
@@ -269,6 +281,7 @@
 		{
 			dependencies: ["21E415692839FCB4"]
 			id: "171B3405B0BFFFDB"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -302,6 +315,7 @@
 		{
 			dependencies: ["2ADF1B88DD0F1604"]
 			id: "0BF184839535B1B6"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -336,6 +350,7 @@
 		{
 			dependencies: ["0BF184839535B1B6"]
 			id: "0EEC0CC5586DC7A7"
+			optional: true
 			rewards: [{
 				id: "03092A0FD6DDD629"
 				item: {
@@ -356,6 +371,7 @@
 		{
 			dependencies: ["0EEC0CC5586DC7A7"]
 			id: "21E415692839FCB4"
+			optional: true
 			rewards: [{
 				id: "565FEA29FE8243F9"
 				item: {
@@ -375,6 +391,7 @@
 		{
 			dependencies: ["171B3405B0BFFFDB"]
 			id: "46C014BE494270A4"
+			optional: true
 			rewards: [{
 				id: "66C7ED08EFA8DDAA"
 				item: {
@@ -690,6 +707,7 @@
 				id: "ars_nouveau:source_gem"
 			}
 			id: "5559A1CA2744073D"
+			optional: true
 			rewards: [{
 				id: "7BE9E2B25882CA2B"
 				item: {

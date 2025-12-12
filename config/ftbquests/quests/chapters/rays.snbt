@@ -71,6 +71,14 @@
 		{
 			dependencies: ["411CC7AB0D039805"]
 			id: "1F088278448F315E"
+			rewards: [{
+				id: "1EE0630EAF923CCE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C43F4B534C5A61A"
 				type: "checkmark"
@@ -92,6 +100,15 @@
 		{
 			dependencies: ["14E072AD06ED8A7C"]
 			id: "33051267AA478748"
+			rewards: [{
+				count: 4
+				id: "0312A960151E91BD"
+				item: {
+					count: 1
+					id: "submerged:toxic_gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E18F13E76C86385"
 				item: { count: 1, id: "submerged:toxic_gravel" }
@@ -517,24 +534,14 @@
 		{
 			dependencies: ["607ADE90EDB07ACD"]
 			id: "6D2761D542F9C707"
-			rewards: [
-				{
-					id: "6C4FE5D88ACA0FB0"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "6C4FE5D88ACA0FB0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "5F605722EE43DB9A"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "32D96FCDA30DEE42"
 				item: { count: 1, id: "resourcefish:infusing_upgrade" }
@@ -582,6 +589,25 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["244C5BD547A20FF1"]
+			id: "411CC7AB0D039805"
+			rewards: [{
+				id: "1CEB42C9ED1DF817"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3073471F66B3F749"
+				item: { count: 1, id: "mekmm:ambient_gas_collector" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
 			dependencies: ["2D6E284209B7540A"]
 			id: "244C5BD547A20FF1"
 			rewards: [{
@@ -594,44 +620,11 @@
 			}]
 			tasks: [{
 				id: "4625B8EA8206E030"
-				item: { count: 1, id: "mekanism:ultimate_induction_provider" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["2D6E284209B7540A"]
-			id: "0F56BA8CE2B5490C"
-			rewards: [{
-				id: "103EA610C92B785D"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "484C05AE411CF8CE"
-				item: { count: 1, id: "mekanism:ultimate_induction_cell" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"0F56BA8CE2B5490C"
-				"244C5BD547A20FF1"
-			]
-			id: "411CC7AB0D039805"
-			tasks: [{
-				id: "3073471F66B3F749"
-				item: { count: 1, id: "mekmm:ambient_gas_collector" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:top_induction_mek)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d
-			y: -7.0d
+			y: -8.0d
 		}
 	]
 }

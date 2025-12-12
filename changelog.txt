@@ -14,14 +14,58 @@ NANO - Asselmbler recipes broken for there own recipes (Working version in Subme
    testing pending official release)
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
-SUB - Square Templates 
 SUB - Move to Nano official
 
+# B1.0
+
+**---Mods---**
+- Updated Mods
+
+**---Fixes---**
+- Added back Compressed Iron Gear recipes
+- Fixed item handlers with Spoil Bag Opener and Mini Pressure 
+- Fixed Cardinal setting for star gravel
+- Ominous Drink now sounds like a drink and retuns an empty glass bottle after drinking 
+- Routers beams no render correctly when exporter is placed facing up (UPDATE ROUTERS)
+- Cloche duplicate recipe removed
+- Fixed some quest that were a choice not being optional
+- Fixed CC IV dependencies 
+- Fixed Shops entites not have translations 
+
+**---Changes---**
+- Updated Yuki Textures
+- Spoil Bag Opener and Mini Pressure Chamber now have side configuration option
+- Added Wither Skeleton, Blaze, Fortress and Bastion Trial Spheres. This spheres can only be opened in the nether 
+- Routers beam colors now better reflext the color of the upgrades making it a little bit easier to see what an exporter is transporting
+- Added tooltip to netherite upgrade smithing template to explain how to get
+- Added addition photovoltaic composite recipe using quartz
+- Changed Extended AE Inscriber recipe to not use AE2 specific things
+- Tweaked VAT speed for recipes
+- Beams now cost 3 steel instead of 1 steam block
+- Added Witherbones and most head melting recipes to Fluid XP
+- Witherbones can be turned into bone meal via Natures Aura
+- Updated Spawn Sphere 
+
 # A10.0
+
+**---Mods---**
+- Updated Mods
 
 **---Fixes---**
 - World gen now a lot quicker
 - Crashes with some templates
+- Left over test recipe for Loot Capacitor
+
+**---Changes---**
+- Added Big Cube, Normal Cube, Long Cube, Deep Cube keys
+- Added Cubes as a starting option
+- Quests updated to reflect these changes 
+
+**---Fixes---**
+- Fixed Printed Concurrent Processor recipe
+- Removed Printed Silicon with press recipe  
+- Removed Soul Soil to Soul Sand recipe in Natures Aura Altar
+- Chaged Dyson Cube Recipes for both controllers 
 
 # A9.0
 **---IMPORTANT---**
@@ -58,7 +102,6 @@ SUB - Move to Nano official
 - Toxic Gravel recipe now uses the correct amount per tick in its recipe
 
 **---Changes---**
-
 - Removed Amethyst Block to Source Gem Block recipe
 - Mobs should no longer spawn with Osmium Armor or Tools
 - Warden now produce 100mb of Warden Tears from Fluid Exractor

@@ -601,5 +601,26 @@
 			x: -5.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["4E6B898816D1F3D6"]
+			id: "53DF09F3BAA39B1D"
+			tasks: [{
+				id: "57045CE0C3D4010E"
+				item: { count: 1, id: "submerged:spider_trial_sphere" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "3BB62114C0CDACD1"
+			tasks: [{
+				id: "2A18FADCC4A6B138"
+				item: { count: 1, id: "submerged:wither_skeleton_trial_sphere" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
 	]
 }

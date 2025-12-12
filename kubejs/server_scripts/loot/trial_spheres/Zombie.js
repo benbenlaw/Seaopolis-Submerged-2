@@ -60,7 +60,6 @@ LootJS.lootTables(event => {
         })
 
     
-    
     //Equipment
     event.create('submerged:equipment/zombie', LootType.EQUIPMENT)
         .createPool(pool => {pool.addEntry('everythingcopper:copper_helmet')})

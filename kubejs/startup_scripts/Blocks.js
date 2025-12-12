@@ -70,7 +70,7 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/shovel')
         .gravelSoundType()
 
-    event.create('submerged:star_gravel', 'cardinal')
+    event.create('submerged:star_gravel')
         .hardness(2)
         .tagBlock('minecraft:mineable/shovel')
         .gravelSoundType()
