@@ -681,27 +681,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["6AC936C9166BD437"]
-			icon: {
-				id: "submerged:warden_tears_bucket"
-			}
-			id: "6CB2AD0DB043B3D6"
-			rewards: [{
-				id: "7878F59EA93B323D"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F9031E7157AA518"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: 15.0d
-		}
-		{
 			dependencies: ["64488E47AF1093C8"]
 			icon: {
 				id: "ars_nouveau:source_gem"
@@ -722,6 +701,28 @@
 			}]
 			x: 2.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["6AC936C9166BD437"]
+			icon: {
+				id: "submerged:warden_tears_bucket"
+			}
+			id: "6CB2AD0DB043B3D6"
+			rewards: [{
+				id: "7878F59EA93B323D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F9031E7157AA518"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 15.0d
 		}
 	]
 }

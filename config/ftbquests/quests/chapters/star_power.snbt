@@ -375,6 +375,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "08F3C2ECE595AAE4"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/solclipsium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

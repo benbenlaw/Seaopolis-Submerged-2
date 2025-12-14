@@ -5,6 +5,13 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
  
+    //Infinity Forge
+    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:infinity_forge"]', ['AAA', 'CBC', 'AAA'], {
+        A: 'starforge:star_ingot',
+        B: 'starforge:star_forge',
+        C: 'starforge:star_gem'
+    }).id('submerged:infinity_forge')
+
     //Spoil Bag Opener
     event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:spoil_bag_opener"]', ['AAA', 'BCB', 'AAA'], {
         A: 'minecraft:iron_ingot',

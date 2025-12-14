@@ -12,15 +12,14 @@
 	quests: [
 		{
 			dependencies: [
-				"59EB0E553332ADBA"
-				"2DF6ADF200A5A8DB"
-				"3E3118FE9CD69202"
+				"1FAA10357C6218E3"
+				"4CADCE6BECDFD4C6"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:chest"
 			}
 			id: "6733F528D38B6E09"
-			min_required_dependencies: 2
 			rewards: [{
 				id: "15ACE04406EDC9AF"
 				item: {
@@ -121,17 +120,27 @@
 				id: "simplehats:presentsstack"
 			}
 			id: "1B2C7E1A23DB9F8A"
-			rewards: [{
-				id: "1650F4ACC4C1ED7B"
-				item: {
-					components: {
-						"shops:pinata_id": "submerged:rewards_ii"
+			rewards: [
+				{
+					id: "1650F4ACC4C1ED7B"
+					item: {
+						components: {
+							"shops:pinata_id": "submerged:rewards_ii"
+						}
+						count: 1
+						id: "shops:pinata_flare"
 					}
-					count: 1
-					id: "shops:pinata_flare"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6AD84C6900EA1079"
+					item: {
+						count: 1
+						id: "hybrid-aquatic:bull_shark_plushie"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "326FC48E2D81D130"
@@ -257,7 +266,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["092C9843B11AA1ED"]
+			dependencies: ["133C8B93F7789357"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -299,7 +308,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7243EC6077298F8D"]
+			dependencies: ["440ED6C58D5098C3"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -392,16 +401,14 @@
 		}
 		{
 			dependencies: [
-				"66C659968F59733F"
-				"66212BAD4E0D8DEE"
-				"3729E735997EB1FD"
+				"45DFA830778035DA"
+				"5183A6641C0915D5"
 			]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:chest"
 			}
 			id: "5D096426F1F05C53"
-			min_required_dependencies: 2
 			rewards: [{
 				id: "3F3481D224DD6829"
 				item: {

@@ -33,7 +33,8 @@ ServerEvents.tags('item', event => {
         'ae2:silicon_press', 
         'ae2:name_press', 
         'extendedae:concurrent_processor_press',
-        'extendedae:circuit_cutter'
+        'extendedae:circuit_cutter',
+        'forcecraft:time_torch'
     ])
 
     //Mimic Loot

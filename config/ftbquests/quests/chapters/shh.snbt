@@ -1,4 +1,5 @@
 {
+	autofocus_id: "61407878B26F51F4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "shh"
@@ -18,14 +19,16 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["1CD08694A5881CAB"]
 			id: "005AB64621DC33C6"
+			invisible: true
 			tasks: [{
 				id: "769AB9486C0B2BF3"
 				item: { count: 1, id: "minecraft:nautilus_shell" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: -1.5d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["46F74A14A57947FA"]
@@ -187,6 +190,14 @@
 			dependencies: ["6885F741761D5E0C"]
 			id: "4E6B898816D1F3D6"
 			invisible: true
+			rewards: [{
+				id: "04C26CB3554B0EAC"
+				item: {
+					count: 1
+					id: "simplehats:slime_cube_dnd"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E2E4F30364F5CA2"
 				item: { count: 1, id: "submerged:slime_trial_sphere" }
@@ -604,6 +615,17 @@
 		{
 			dependencies: ["4E6B898816D1F3D6"]
 			id: "53DF09F3BAA39B1D"
+			rewards: [{
+				id: "2E2C0AC407D068FA"
+				item: {
+					components: {
+						"resourcefish:fish_type": "resourcefish:spider"
+					}
+					count: 1
+					id: "resourcefish:resource_fish_spawn_egg"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57045CE0C3D4010E"
 				item: { count: 1, id: "submerged:spider_trial_sphere" }
@@ -613,7 +635,69 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["53DF09F3BAA39B1D"]
 			id: "3BB62114C0CDACD1"
+			rewards: [{
+				id: "41BCF140F3BC8C6A"
+				item: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									passive: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: { }
+									}
+									withered: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											chance: {
+												initialValue: 0.32784d
+											}
+											time: {
+												initialValue: 2.91892d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					count: 1
+					id: "artifacts:withered_bracelet"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A18FADCC4A6B138"
 				item: { count: 1, id: "submerged:wither_skeleton_trial_sphere" }
@@ -621,6 +705,76 @@
 			}]
 			x: 2.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3BB62114C0CDACD1"]
+			id: "062169330F34AC67"
+			rewards: [{
+				id: "52F43AB4C274F47F"
+				item: {
+					components: {
+						"resourcefish:fish_type": "resourcefish:blaze"
+					}
+					count: 1
+					id: "resourcefish:resource_fish_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D97782E339FE68F"
+				item: { count: 1, id: "submerged:blaze_trial_sphere" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["062169330F34AC67"]
+			id: "77E23CB339793530"
+			rewards: [{
+				id: "3857E255DE2CDD58"
+				item: {
+					count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4892647EB5BA570A"
+				item: { count: 1, id: "submerged:fortress_trial_sphere" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77E23CB339793530"]
+			id: "0E33C96ACDFB9A9A"
+			rewards: [{
+				id: "21D32E848FD1446E"
+				item: {
+					count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C41C1F4A101C887"
+				item: { count: 1, id: "submerged:bastion_trial_sphere" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "1CD08694A5881CAB"
+			tasks: [{
+				id: "6890BE4D87CCDCA0"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.5d
 		}
 	]
 }

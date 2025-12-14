@@ -1,9 +1,9 @@
 #Modpack Configuration Settings
 ["Custom server in multiplayer Screen"]
 	#Name of the server
-	"Server Name" = ""
+	"Server Name" = "Submerged 2 "
 	#IP of the server
-	"Server IP" = ""
+	"Server IP" = "Submerged2.benbenlaw.com"
 
 ["Discord URL use /discord command to get the link"]
 	#Add a URL to link your discord, BBL Discord = https://discord.gg/benbenlaw
@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Submerged 2"
 	#Modpack Version
-	"Modpack Version" = "B1.0"
+	"Modpack Version" = "B1.1"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false

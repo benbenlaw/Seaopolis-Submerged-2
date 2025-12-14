@@ -11,15 +11,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"24BA44F8889A7308"
-				"09F2CD05A368D0D7"
-			]
+			dependencies: ["75EE8E1C409ADF61"]
 			icon: {
 				id: "minecraft:chest"
 			}
 			id: "6B6ABEEF598AF230"
-			min_required_dependencies: 1
 			rewards: [{
 				id: "4A60D0EE9857423F"
 				item: {
@@ -117,7 +113,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1E9B63EA9FA08A4A"]
+			dependencies: ["16D9C95B76D8ED2D"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -216,17 +212,27 @@
 				id: "simplehats:presentsstack"
 			}
 			id: "7001FF8CE9F800BB"
-			rewards: [{
-				id: "586CF418CBDA9BE1"
-				item: {
-					components: {
-						"shops:pinata_id": "submerged:rewards_iii"
+			rewards: [
+				{
+					id: "586CF418CBDA9BE1"
+					item: {
+						components: {
+							"shops:pinata_id": "submerged:rewards_iii"
+						}
+						count: 1
+						id: "shops:pinata_flare"
 					}
-					count: 1
-					id: "shops:pinata_flare"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7F40263D392EA3CB"
+					item: {
+						count: 1
+						id: "hybrid-aquatic:frilled_shark_plushie"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "0C73FBFA6C3A200A"
@@ -236,7 +242,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4DCA4E15279048E5"]
+			dependencies: ["590DA5919D4D18B2"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -324,11 +330,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"3FFABEC4A01A0DB0"
-				"35D86753E5065A98"
-				"5D385621A0300B63"
-			]
+			dependencies: ["3FA8B9543700C855"]
 			icon: {
 				id: "minecraft:chest"
 			}

@@ -3,7 +3,6 @@
 	chapter.02FE9ABD12F5BD8D.title: "Ideas"
 	chapter.092C9843B11AA1ED.title: "Mobster Mash"
 	chapter.0E2CBB174C1E841E.title: "Gold"
-	chapter.1967BCB93EC31C5B.title: "Mods per line"
 	chapter.1AF122F4F516298A.title: "Plastic"
 	chapter.1E9B63EA9FA08A4A.title: "Digital Storage"
 	chapter.1F7AEF9A41AE6F54.title: "CC III"
@@ -11,14 +10,14 @@
 	chapter.323791C40AB86271.title: "Mekanism"
 	chapter.3DE775794F0DE900.title: "CC II"
 	chapter.3E77A3BEE08A4625.title: "Stone"
-	chapter.48A607A602E88F55.title: "Chapter Challenges"
+	chapter.43463B599794F7F2.title: "Infinity Forge"
 	chapter.4DCA4E15279048E5.title: "Dissolution"
 	chapter.4DE9D3E26CC79511.title: "Information"
 	chapter.530CA56928BAC006.title: "Dragon's"
 	chapter.5577046F02F66456.title: "UU Matter"
 	chapter.569B9AD19E082D9A.title: "Shh"
 	chapter.5CDD1A10F73F113B.title: "Solclipsium"
-	chapter.5E3D2C859007DA93.title: "Forge"
+	chapter.5E3D2C859007DA93.title: "Dragon Forge"
 	chapter.5F8F21780228A78A.title: "Keys"
 	chapter.67760D9BDF2AD905.title: "CC V"
 	chapter.689A7DABCF9A14E0.title: "Star Forge"
@@ -28,7 +27,6 @@
 	chapter.720357CCE1FC83FD.title: "Totemic"
 	chapter.7243EC6077298F8D.title: "Bubbles"
 	chapter.7E591E99954B9956.title: "Captured"
-	chapter_group.11C31E5788D38E0E.title: "MISC"
 	chapter_group.1DC99ACF42B51C2F.title: "Automation"
 	chapter_group.27F4CFB05BEDC0B5.title: "Endgame"
 	chapter_group.4612AF3A2F3FA9D5.title: "Submerged"
@@ -74,7 +72,6 @@
 		""
 		"&lAncient Trees&r help to maintain and increase &lAura&r in an area. Caution can break glass. &l&4Using the Big Rooms is recommended&r&r"
 	]
-	quest.0453233CBAC34167.title: "Solclipsium Main"
 	quest.04B51BFD20783E19.quest_desc: ["I'm not salty you are!"]
 	quest.04B51BFD20783E19.title: "Salt"
 	quest.04BDDA20594C6E0F.quest_desc: ["The Heart of &lCreate&r"]
@@ -89,6 +86,7 @@
 		"&lSubmerged 2&r has a &lPublic Server&r."
 		"Join from your multiplayer menu"
 	]
+	quest.062169330F34AC67.quest_desc: ["HOT"]
 	quest.0658C0498D73F76D.quest_desc: ["Passive mobs produce more &lPink Slime&r"]
 	quest.0658C0498D73F76D.title: "Pink Slime Ingots"
 	quest.065989E16779ACEA.quest_desc: ["Made inside the &lInscriber&r"]
@@ -120,7 +118,6 @@
 	quest.0958CAAD8F7321A7.quest_desc: ["Allows the &lCloche&r to harvest &lLeaves&r from &lSaplings&r"]
 	quest.099CFC27976AEC93.quest_desc: ["Used to convert &lNuclear Waste&r into &lPolonium&r"]
 	quest.09C97F3578D079A5.quest_desc: ["Used for the &lForge&r. Use the &lPonder&r button over the &lCore&r to view how to make the structure"]
-	quest.09F2CD05A368D0D7.title: "Plastic Main"
 	quest.0A4CC189B522A195.quest_desc: ["The End?"]
 	quest.0A4CC189B522A195.quest_subtitle: "Shh Secret Quest..."
 	quest.0A4CC189B522A195.title: "Super Big Underground Structure"
@@ -150,6 +147,7 @@
 	quest.0D7A91E84A6CE9CD.title: "Ritual of the Forest"
 	quest.0D82DB8BCC19F8AC.quest_desc: ["A &lSimple Tank&r used for fuel for the &lSimple Controller&r. &lMolten Coal&r is a great source of fuel"]
 	quest.0DB0A6AA4BBC6530.quest_desc: ["Useful to have a lot of these to make a &lMultiblock Controller&r"]
+	quest.0E33C96ACDFB9A9A.quest_desc: ["Thats no &lBastion&r"]
 	quest.0E8BE4C6A61FB9C2.quest_desc: ["Replicates items using &lUU Matter&r"]
 	quest.0EA993CBA711D341.quest_desc: ["Legend speaks of &lTricky Trials&r I wonder if there are some sort of &lTrial Spheres&r"]
 	quest.0EA993CBA711D341.quest_subtitle: "Shh Secret Quest..."
@@ -169,8 +167,7 @@
 	quest.10725128306E3CCB.quest_desc: ["A better mesh "]
 	quest.1075E784003933C1.quest_desc: ["&lDragon Head&r can be obtained when killing the &lEnder Dragon&r using a tool with &lBeheading&r from casting"]
 	quest.107C2FCB14CEAC4F.quest_desc: ["Don't stand too close"]
-	quest.10E23E6481414E79.quest_desc: ["Used to control the &lShifting Sundial &r"]
-	quest.10E23E6481414E79.quest_subtitle: "NEED FORCECRAFT RECIEP"
+	quest.10E23E6481414E79.quest_desc: ["Can be used to craft the &lTime In A Bottle&r"]
 	quest.118B3A02993C9272.quest_desc: ["An &lUltimate Storage Compoment&r"]
 	quest.11A1ACC619FDAED8.quest_desc: ["Ahhhhh"]
 	quest.11D2CCBE4E5C471D.quest_desc: ["&lTerracotta&r can be punched to be broken into &lTerracotta Rocks&r. "]
@@ -178,7 +175,7 @@
 	quest.11D5227DEC624C0B.quest_desc: ["Collected with &lShears&r"]
 	quest.11D5227DEC624C0B.title: "Colored Leaves"
 	quest.121B74AB42FF6E61.quest_desc: ["Made inside the &lStrainer&r"]
-	quest.121DF060CBAA0DE2.quest_desc: ["Made inside the &lMetallugic Infuser&r"]
+	quest.121DF060CBAA0DE2.quest_desc: ["Made inside the &lMetallurgic Infuser&r"]
 	quest.1250A2E0284B610A.quest_desc: ["The &lMixer&r allows for&l Molten materials&r to be mixed. The &lSimple Controller&r auto pushes into adjacent &lMixers&r"]
 	quest.12F09E8E096AB651.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.12F23F16840A8AAC.quest_desc: ["You get a &lKey&r and you get a &lKey&r"]
@@ -266,6 +263,8 @@
 	quest.1C898317035D7B5F.quest_desc: ["Various ways to make this "]
 	quest.1C898317035D7B5F.title: "Quartz Enriched Iron"
 	quest.1CCA8DBA3CB8DC86.quest_desc: ["Can be worn, jump around to make music "]
+	quest.1CD08694A5881CAB.quest_desc: ["&lShe Sells Sea Shells by the Seashore&r"]
+	quest.1CD08694A5881CAB.quest_subtitle: "Shh Secret Quest..."
 	quest.1D3810789B93E6FD.quest_desc: ["Drops from &lLava Resource Fish&r"]
 	quest.1D5F4113AC1B52C7.quest_desc: ["Can be grown in a &lCloche&r"]
 	quest.1D634F8B01E2B16B.quest_desc: ["Made inside the &lStrainer&r"]
@@ -286,6 +285,7 @@
 	quest.1F380688230A73A3.quest_desc: ["Can be used to get various different &lStone Types&r"]
 	quest.1F6EE7917E96E547.quest_desc: ["Molten &lGrains of Time Gone By&r"]
 	quest.1FAA10357C6218E3.quest_desc: ["Like a full size &lPressure Chamber&r but smaller. Uses &lFluids&r instead of &lBuckets of Fluids&r in both inputs and output of recipes allowing for easier automation"]
+	quest.1FE9964D14583124.quest_desc: ["By replacing the &lStar Forge&r with a &lInfinity Forge&r you create the &lInfinity Forge&r. Requires &lTier 5&r caps and a &lRed Star&r"]
 	quest.203799D6E6FBC9DC.quest_desc: ["Made with &lReinforced Stone&r"]
 	quest.207F4FFC4AD976E5.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.2110DC692528877B.quest_desc: ["The power of the &lStars&r in my hands"]
@@ -369,7 +369,7 @@
 	quest.2D18CA28F438692C.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.2D3E4DE0A3948581.quest_desc: ["Used for the &lForge&r"]
 	quest.2D65E7C1E80F3FE1.quest_desc: ["Drops from &lForce Leaves&r. The &lCrook&r can be used to increase its drops. Can also be obtained through &lStrainers&r"]
-	quest.2D6E284209B7540A.quest_desc: ["The circuit"]
+	quest.2D6E284209B7540A.quest_desc: ["Can be &lCrafted&r or made inside the &lMetallurgic Infuser&r"]
 	quest.2D82B1942A15AB01.quest_desc: ["&lDragon&r infused &lGravel&r"]
 	quest.2DCF9924D57575C5.quest_desc: ["A mixture of materials, made in the &lAssembler&r or &lEnchanting Apparatus&r"]
 	quest.2DDF22321E6D65F6.quest_desc: ["Keep going"]
@@ -391,7 +391,7 @@
 	]
 	quest.2FA47EEE8EBB16E1.quest_desc: ["Made inside the &lVAT&r"]
 	quest.2FA47EEE8EBB16E1.title: "Liquid Sunshine"
-	quest.2FDC97E38C599C16.quest_desc: ["Made inside the &lMetallugic Infuser&r"]
+	quest.2FDC97E38C599C16.quest_desc: ["Can be &lCrafted&r or made inside the &lMetallurgic Infuser&r"]
 	quest.3026F8E3C51960F0.quest_desc: ["The &lEnd Portal Frames&r can covered in &lBedrock,&r remove all the &lBedrock&r around the portal to use. &lPortal Frames&r must be filled with &lEyes of Ender&r"]
 	quest.3026F8E3C51960F0.title: "End Portal Frame"
 	quest.3053A88D0EA6D5AB.quest_desc: ["Made inside the &lStamper&r"]
@@ -445,7 +445,6 @@
 	]
 	quest.36791B9A62694AFA.title: "Dreadful Dirt"
 	quest.368192A5697843F8.quest_desc: ["The best &lCapacitor&r"]
-	quest.369917CA12292A38.title: "Ars"
 	quest.373F059241DFE916.quest_desc: ["&lBrains?&r"]
 	quest.374B2CA1A1A76F3B.quest_desc: ["&lTotemic Water&r can be used instead of manually starting the &lInfusion of the Totem&r ceremony"]
 	quest.374B2CA1A1A76F3B.title: "More Totemic Gravel"
@@ -483,6 +482,7 @@
 	]
 	quest.3B694A316CDD67A8.quest_desc: ["&lQuartz Enriched Iron&r is an alloy of &lIron&r, &lCertus&r and &lQuartz&r. Can be made via &lCasting,&r &lCreate&r and &lPneumatic Craft&r"]
 	quest.3B743C16B341B375.quest_desc: ["&lSpawn Eggs&r can be used on a &lMonster Spawner&r to set it "]
+	quest.3BB62114C0CDACD1.quest_desc: ["Spooky"]
 	quest.3BD519303B7F28DA.quest_desc: ["Can summon &lThe Wither&r automatically, you are going to need a lot of &lNether Stars&r"]
 	quest.3BDB27D2F740D427.quest_desc: ["Adding a &lTerracotta Rock&r to a &lUnloaded Flare&r will load it. Right click on the top of a block to fire the &lFlare&r. Maybe try to get to the top of the &lRoom&r before using the &lFlare&r"]
 	quest.3BF80EEE23B6D9D7.quest_desc: ["&lZinc&r and &lIron&r are both very useful time to make a choice. &lPneumaticCraft&r or &lCreate&r. Neither mod is locked depending on choice!"]
@@ -494,7 +494,7 @@
 	quest.3CED81F6D8A203DA.quest_desc: ["Time to harness that big cube of energy in the sky. The &lController&r collects the energy and provides additional information"]
 	quest.3D41F2E88C009A56.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.3D906CE528FBE462.quest_desc: ["When in &lThe Nether&r using a &lCork and Bottle&r you can obtain &lBottled Ghosts&r"]
-	quest.3DC0ACA524E2D8E9.quest_desc: ["Placed below a &lEnchanting Apparatus&r"]
+	quest.3DC0ACA524E2D8E9.quest_desc: ["Placed below an &lEnchanting Apparatus&r"]
 	quest.3DDF1D2DEC7BF8B1.quest_desc: [
 		"Routers can be used to move &lItems, Fluids, Energy, Chemicals, Souls and Source&r"
 		""
@@ -597,7 +597,7 @@
 	quest.487CADD6A2A37D71.title: "Iron"
 	quest.48E7381C1D516967.quest_desc: ["Can be collected with a &lGlass Bottle&r from the floor after the &lDragon&r shoots at you"]
 	quest.4984877524CA1F66.quest_desc: ["&lLiquid Lithium&r can be created in a &lVAT&r using &lBrine,&r &lAmethyst Dust&r and &lSky Stone Dust&r"]
-	quest.49C3A248C5D098D0.quest_desc: ["Made inside the &lMetallugic Infuser&r"]
+	quest.49C3A248C5D098D0.quest_desc: ["Made inside the &lMetallurgic Infuser&r"]
 	quest.49F472B8769F95F6.quest_desc: ["roomopolis for expansions to starting base"]
 	quest.49F472B8769F95F6.title: "sphere"
 	quest.49F58537A8E74821.quest_desc: ["Made in the &lDrying Table&r"]
@@ -635,7 +635,7 @@
 	quest.4E2514A252EDF3E9.quest_desc: ["Smelted &lKelp&r"]
 	quest.4E2A33A420B45C7D.quest_desc: ["Made inside the &lMaterial StoneWork Factory&r"]
 	quest.4E2DC38E6F273353.quest_desc: ["The &lFluid Extractor&r can be used extract &lMolten Diamond&r from &lDiamond Ore&r"]
-	quest.4E6B898816D1F3D6.quest_subtitle: "up to here"
+	quest.4E6B898816D1F3D6.quest_desc: ["Slime Noise"]
 	quest.4E9EABDE303A6760.quest_desc: ["The air above the &lWater&r level is &2&lTOXIC&r.&r Going above the &lWater&r level is very dangerous"]
 	quest.4EEA6E416ABFE440.quest_desc: ["Used with &lPipez&r pipes"]
 	quest.4EF14097D2724EF3.quest_desc: ["Used to create belts"]
@@ -646,7 +646,7 @@
 	quest.501775813AD19915.quest_desc: ["Used on &lSimple Casting Blocks&r to move fluid between them"]
 	quest.5020ADB35E4891F3.quest_desc: ["Less mess"]
 	quest.50620FC2CCE63785.quest_subtitle: "16,384 Cobblestone"
-	quest.507D4776EE6DAB74.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea"]
+	quest.507D4776EE6DAB74.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea. Either &lChestplate&r can be used"]
 	quest.50819594C402FD66.quest_desc: ["Almost there"]
 	quest.50BFF626432F1838.quest_desc: ["&lWater&r and &lLava&r can be mixed into &lMolten Obsidian&r and then &lSolidified&r into &lObsidian Blocks&r"]
 	quest.50F353C6D15C0062.quest_desc: ["Used to create &lUnassembled PCB&r"]
@@ -678,6 +678,7 @@
 	quest.53A1079E58AFB069.title: "Kill The Ender Dragon"
 	quest.53B33F89E03C6CC6.quest_desc: ["Broken &lOre Block&r"]
 	quest.53B33F89E03C6CC6.title: "Lapis"
+	quest.53DF09F3BAA39B1D.quest_desc: ["Spider Noise"]
 	quest.541BEBD9686996FD.quest_desc: ["A &lSoaking Table&r is a waterlogged Drying Table&r"]
 	quest.544A5CE9207979B1.quest_desc: ["Processed &lRaw Ore&r"]
 	quest.544A5CE9207979B1.title: "Platinum"
@@ -837,7 +838,6 @@
 	quest.6550F6927357E819.quest_desc: ["When used on &lMulch&r creates &lPurifying Water&r"]
 	quest.65ADA15C99F20516.quest_desc: ["Processed Ore"]
 	quest.65B25965701EAA49.quest_desc: ["Gas. The &lTask Screen&r will help you here"]
-	quest.66212BAD4E0D8DEE.title: "Gold Main"
 	quest.6636ED1448E42943.quest_desc: ["Planks"]
 	quest.6636ED1448E42943.title: "Planks"
 	quest.6642B6226116D094.quest_desc: ["Level Up!"]
@@ -878,7 +878,7 @@
 	quest.69A723B282099835.quest_desc: ["Obtained from killing &lThe Wither&r"]
 	quest.69E361BDE59A00EA.quest_desc: [""]
 	quest.6A0F60DED55ACD7B.quest_desc: ["When right clicked on a &lDragon&r cycles options like sit and follow"]
-	quest.6A2C62D3132E4C31.quest_desc: ["Made inside the &lMetallugic Infuser&r"]
+	quest.6A2C62D3132E4C31.quest_desc: ["Can be &lCrafted&r or made inside the &lMetallurgic Infuser&r"]
 	quest.6A4265C9F724EEAE.quest_desc: ["The base for &lSolar Energy&r"]
 	quest.6A701407E8948349.quest_desc: ["Can smelt and can accept upgrades"]
 	quest.6A94E9D14675586E.quest_desc: ["The &lWashing Factory&r can be used to turn &lRaw Ores&r into &lRaw Ore Meat&r"]
@@ -886,9 +886,7 @@
 	quest.6AAF56C47DDC7F4C.title: "Basic Room"
 	quest.6AC936C9166BD437.quest_desc: ["Drops from &lThe Warden&r. &lWarden's Smite&r will help"]
 	quest.6ACF9F582C35419D.quest_desc: [
-		"&lChapter Challenges&r are for the ultimate completionist. You will be rewarded for each questline you fully complete. Some &lQuests&r are marked as optional but you must still complete either side of the Quest Line to unlock. Eg all &lCreate&r optional quests or all &lPneumaticcraft&r quests"
-		""
-		"After this new secret quests will be unlocked, Completing these will give you another reward!"
+		"&lChapter Challenges&r are for the ultimate completionist. To unlock the &lChapter Challenges&r for a specific questline you must complete the &lHexagonal Shaped &rquest. You will be rewarded inside the &lChapter Challenges!&r"
 		""
 		"Some challenges will be easier to use a &lFTB Task Screen&r to complete"
 	]
@@ -897,7 +895,7 @@
 	quest.6B6ABEEF598AF230.title: "Chapter I"
 	quest.6B778C2A911A1FF9.quest_desc: ["Can be used on a &lTerracotta Lock&r to create a &lZombie Trial Sphere&r, killing the mobs from the trial spawner will grant loot. It is advised to build these &lTrial Spheres&r away from your main area"]
 	quest.6B88CC2111A105E5.quest_desc: ["It can hear you"]
-	quest.6BB4F0B9A909C93F.quest_desc: ["Another way to create items. Requires a &lArcane Core&r underneath to work"]
+	quest.6BB4F0B9A909C93F.quest_desc: ["Another way to create items. Requires an &lArcane Core&r underneath to work"]
 	quest.6BC6E76718B9571E.quest_desc: ["&lTotemic Infused Water&r will help"]
 	quest.6BC6E76718B9571E.title: "Totemic Gravel"
 	quest.6C02564985E87DE8.quest_desc: ["Replacing the &lWater&r above &lTeary Gravel&r will stop producing resources and start producing &lDragon Scales&r"]
@@ -939,20 +937,6 @@
 	quest.719149B1FE51F56E.quest_desc: ["Pushes mobs"]
 	quest.71BA49846B89E745.quest_desc: ["Made inside the &lStrainer&r. Can also be replicated through the &lReplicator&r"]
 	quest.71BA49846B89E745.title: "Fire Dragon Scales"
-	quest.71ED8FDC8116FA2E.quest_desc: [
-		"Re make starting area with flooded sphere with kelp"
-		"Water, lava and kelp fish should also spawn in there"
-		"RF make breeding and infusing upgrades not default recipes "
-		"Update Strainers to cloche like upgrade system improve jei (use cloche and multiple)"
-		"Strainers should use a cloche like recipe system"
-		"{@pagebreak}"
-		"Remove cobblestone fish spawning and cobblstone fish breeding reciep using same recipe as stone"
-		"Publish resource fish"
-		"add compat support for fish, and all recipes"
-		""
-		"{@pagebreak}"
-		"Selling stuff relics"
-	]
 	quest.7249C61886206724.quest_desc: ["A empty drive that has the ability to create an &lInfinty Storage Drive&r"]
 	quest.72680F59328DB9E5.quest_desc: ["All the &lInfinity Dust&r"]
 	quest.72844E6B5F22DC9D.quest_desc: ["The next tier of &lCapacitor&r"]
@@ -960,7 +944,7 @@
 	quest.729F314FB133558E.quest_desc: ["Right Clicking on a &lCaviar Processor&r with at least 1000mb of &lLava&r inside will give you a &lBucket of Lava&r"]
 	quest.7314F2E1C477A6B7.quest_desc: ["Wow 2 hours!"]
 	quest.7314F2E1C477A6B7.title: "2 Hours Playtime"
-	quest.733D52E21425D81F.quest_desc: ["Placing &lSculk Sensors&r around the &lSculk Shriker&r and creating a lot of noise will summon &lThe Warden&r"]
+	quest.733D52E21425D81F.quest_desc: ["Placing &lSculk Sensors&r around the &lSculk Shrieker&r and creating a lot of noise will summon &lThe Warden&r"]
 	quest.733D52E21425D81F.title: "Sculk Shrieker"
 	quest.735BC07C8557017F.quest_desc: ["Advanced AI "]
 	quest.73AE5CF9E4F3B6CC.quest_desc: ["Its a better Stroghold"]
@@ -987,7 +971,7 @@
 	quest.764A642A6413219C.quest_desc: ["Gotta strain it "]
 	quest.764A642A6413219C.title: "Amethyst"
 	quest.76797EBAFC1C4B0A.quest_desc: ["Smelted &lGreen Planks&r"]
-	quest.767E9DAC85F27A99.quest_desc: ["Made inside the &lMetallugic Infuser&r"]
+	quest.767E9DAC85F27A99.quest_desc: ["Made inside the &lMetallurgic Infuser&r"]
 	quest.76DF4A3E857E3F8B.quest_desc: ["All in One &lCobblestone&r and &lStone Generator&r"]
 	quest.76FD1426381CACB0.quest_desc: ["How To Chain Your Dragon. Right click and then right click on a &lWall&r block like &lCobblestone Wall&r"]
 	quest.7721E9269699E775.quest_desc: ["A simple &lKey&r"]
@@ -998,6 +982,7 @@
 	]
 	quest.778DFD152ED55CD5.quest_desc: ["&lThe End&r is also submerged "]
 	quest.778DFD152ED55CD5.title: "Enter The End"
+	quest.77E23CB339793530.quest_desc: ["Thats no &lFortress&r"]
 	quest.77FC93088FF7ED69.quest_desc: ["Made with &lCreate&r or &lPneumatic Craft&r"]
 	quest.784F309ABC8E183E.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.7851E7E81DDE9B19.quest_desc: ["Infuses items with &lOsmium&r"]
@@ -1021,7 +1006,7 @@
 	quest.7B6703D0DE950CC2.quest_desc: ["Used for the &lForge&r. Use the &lPonder&r button over the &lCore&r to view how to make the structure"]
 	quest.7B6DDB3DBC5D1336.quest_desc: ["From &lSaplings&r, you can use the &lSapling Grower&r"]
 	quest.7B6DDB3DBC5D1336.title: "Colored Logs"
-	quest.7BC8EE9BCA7F777D.quest_desc: ["Made inside the &lMetallugic Infuser&r"]
+	quest.7BC8EE9BCA7F777D.quest_desc: ["Made inside the &lMetallurgic Infuser&r"]
 	quest.7BCF5A38B322D62D.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.7C4A2CEF96F49D3A.quest_desc: ["&lLiving Gravel&r with &lNether Wart&r and &lLava&r will create &lNether Gravel&r with &lCreate&r or &lPneumatic Craft&r"]
 	quest.7C7D8663CE541B54.quest_desc: ["A very simple &lMachine Frame&r used for very basic machines"]
@@ -1067,7 +1052,6 @@
 	quest.7FA03D985029C6E5.quest_desc: ["Made inside the &lStrainer&r from &lEroding Water&r and &lCobblestone&r, higher meshes give a higher chance"]
 	quest.7FAA02EEDC6D1384.quest_desc: ["Made inside the &lStrainer&r&l"]
 	quest.7FD3ABE8D02DA42A.quest_desc: ["Can be used to break &lBedrock&r"]
-	quest.7FD5412CF0FDE75B.title: "Nano"
 	quest.7FF77CD147DD819F.quest_desc: [
 		"&lLiving Mob Matter&r combined with &lLiquid Experience&r fluid will create &lLiving Gravel&r."
 		""
@@ -1089,6 +1073,7 @@
 	task.0632451018DC9FE2.title: "Any #strainers:tier_4_meshes"
 	task.06DFA782028321F9.title: "Any #iceandfire:scales/dragon/lightning"
 	task.079D970DA99D9ECD.title: "Any #strainers:tier_4_meshes"
+	task.07AC1C52482D8EE3.title: "water purifiyer"
 	task.07EC6513357AAB91.title: "Force Craft"
 	task.084D68B83261F841.title: "Any #minecraft:wool"
 	task.086637DC27E85E89.title: "Charging"
@@ -1236,8 +1221,10 @@
 	task.66CBC605A94596AD.title: "Reward IV"
 	task.66EE364285E590B2.title: "Reward I"
 	task.6806F556BF524339.title: "Any #submerged:colored_apples"
+	task.6890BE4D87CCDCA0.title: "Shells"
 	task.69BF8F514CD47F08.title: "Resource Packs"
 	task.6A9C7A848C7D27B1.title: "Symphonies"
+	task.6B6C444F69AFD2D8.title: "Air purifiyer"
 	task.6C211CC4969CD456.title: "Star Forge Planks"
 	task.6C77B779FDFFA39A.title: "Reward III"
 	task.6C8874050F9D2D14.title: "R"

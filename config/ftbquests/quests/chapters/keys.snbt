@@ -516,6 +516,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7FA054FE3CDC0BAE"
 				item: { count: 1, id: "casting:mixer" }

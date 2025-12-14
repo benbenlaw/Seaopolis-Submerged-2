@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7146FFDA00A9C873"]
+			dependencies: ["2418DF38A8E3D919"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -32,7 +32,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3E77A3BEE08A4625"]
+			dependencies: ["1B7B93DE3E0DE467"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -53,7 +53,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["5F8F21780228A78A"]
+			dependencies: ["1250A2E0284B610A"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -74,7 +74,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["720357CCE1FC83FD"]
+			dependencies: ["1BDD330117EFFB47"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -388,17 +388,27 @@
 				id: "simplehats:presentsstack"
 			}
 			id: "7DD8B71FB620626E"
-			rewards: [{
-				id: "50E924EFCD2CB664"
-				item: {
-					components: {
-						"shops:pinata_id": "submerged:rewards_i"
+			rewards: [
+				{
+					id: "50E924EFCD2CB664"
+					item: {
+						components: {
+							"shops:pinata_id": "submerged:rewards_i"
+						}
+						count: 1
+						id: "shops:pinata_flare"
 					}
-					count: 1
-					id: "shops:pinata_flare"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6C259FE2008E97D2"
+					item: {
+						count: 1
+						id: "hybrid-aquatic:basking_shark_plushie"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "7065B414E85AA46D"

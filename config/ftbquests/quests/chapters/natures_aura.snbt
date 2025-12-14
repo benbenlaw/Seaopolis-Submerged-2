@@ -320,6 +320,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "60C9385ABB25C1F5"
 				item: { count: 1, id: "naturesaura:infused_iron" }
@@ -343,6 +344,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "745ACEC89E0C20F0"
 				item: { count: 1, id: "naturesaura:tainted_gold" }

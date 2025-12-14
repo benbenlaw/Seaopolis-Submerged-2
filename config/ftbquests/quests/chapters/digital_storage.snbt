@@ -390,6 +390,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3811C6319CBEBA55"
 				item: { count: 1, id: "ae2:matter_ball" }

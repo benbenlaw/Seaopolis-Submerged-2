@@ -15,22 +15,6 @@ ServerEvents.recipes(event => {
         .requireItem("forcecraft:spoils_bag_t3")
         .lootTableOutput("forcecraft:spoils/tier3")
 
-    //TEST
-    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
-        .requireItem("minecraft:cobblestone")
-        .requireItem("sand")
-        .requireItem("gravel")
-        .requireItem("diamond")
-        .requireFluid("100x casting:molten_obsidian")
-        .requireChemical("100x mekanism:diamond")
-        .requireEnergyPerTick(10000)
-        .requirePressure(5, 25)
-        .requireSU(5, 5)
-        .requireSource(5000)
-
-        .produceItem("emerald")
-        .id('submerged:test')
-
     //Mini Pressure Chamber recipe generator
     addPressureChamberRecipe(2, ["minecraft:iron_block"],["pneumaticcraft:compressed_iron_block"], [], [])
     addPressureChamberRecipe(2, ["submerged:living_gravel", "2x minecraft:nether_wart"],["submerged:nether_gravel"], ["100x casting:molten_blaze"], [])
@@ -86,66 +70,22 @@ ServerEvents.recipes(event => {
         return cmRecipe
     }
 
-    
-    //Enable this to generate Mini Pressure Chamber recipes from PneumaticCraft, export the files to 
-    //data/submerged/recipes/custommachinery and then disable it again to avoid duplicates.
-    //Change recipes that have bucket outputs where needed 
-    /*
-    event.forEachRecipe({ type: "pneumaticcraft:pressure_chamber" }, recipe => {
+    //TEST
+    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
+        .requireItem("minecraft:cobblestone")
+        //.requireItem("sand")
+        //.requireItem("gravel")
+        //.requireItem("diamond")
+        //.requireFluid("100x casting:molten_obsidian")
+        //.requireChemical("100x mekanism:diamond")
+        //.requireEnergyPerTick(10000)
+        //.requirePressure(5, 25)
+        //.requireSU(5, 5)
+        //.requireSource(5000)
+        .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
 
-        const inputs = recipe.json.get("inputs")
-        const results = recipe.json.get("results")
-        const pressure = recipe.json.get("pressure")
+        .produceItem("emerald")
+        .id('submerged:test')
 
-        console.log(`Processing recipe with pressure: ${pressure}`);
 
-        let cmRecipe = event.recipes.custommachinery
-            .custom_machine("submerged:mini_pressure_chamber", 150)
-            .requirePressure(pressure, 25, )
-
-        function elemToString(elem) {
-            if (!elem) return null
-            if (typeof elem === 'string') return elem
-            if (typeof elem.getAsString === 'function') return elem.getAsString()
-            return elem.toString().replace(/^"(.*)"$/, "$1")
-        }
-
-        inputs.forEach(input => {
-            let countElem = input.get("count")
-            let count = countElem && countElem.getAsInt ? countElem.getAsInt() : 1
-
-            if (input.get("item")) {
-                let itemId = elemToString(input.get("item"))
-
-                if (itemId === "minecraft:milk_bucket") {
-                    let fluidAmount = 1000 * count
-                    cmRecipe.requireFluid(`${fluidAmount}x minecraft:milk`)
-                    return
-                }
-
-                if (itemId.endsWith("_bucket") && itemId !== "minecraft:bucket") {
-                    let fluidId = itemId.replace("_bucket", "")
-                    let fluidAmount = 1000 * count
-                    cmRecipe.requireFluid(`${fluidAmount}x ${fluidId}`)
-                    return
-                }
-
-                let ingredientString = `${count}x ${itemId}`
-                cmRecipe.requireItem(ingredientString)
-                return
-            }
-
-            if (input.get("tag")) {
-                let tagId = elemToString(input.get("tag"))
-                let ingredientString = `${count}x #${tagId}`
-                cmRecipe.requireItem(ingredientString)
-                return
-            }
-        })
-
-        results.forEach(result => {
-            cmRecipe.produceItem(result)
-        })
-    })
-        */
 })

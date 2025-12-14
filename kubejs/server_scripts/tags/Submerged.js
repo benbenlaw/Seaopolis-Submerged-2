@@ -83,7 +83,8 @@ ServerEvents.tags('item', event => {
         'aq:turtle_master_boots', 
         'aq:turtle_chestplate', 
         'aq:turtle_leggings', 
-        'aq:turtle_boots'
+        'aq:turtle_boots',
+        'hybrid-aquatic:turtle_chestplate'
     ])
 
     //Hazmat Suit

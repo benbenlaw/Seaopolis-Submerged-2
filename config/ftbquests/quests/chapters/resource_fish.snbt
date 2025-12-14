@@ -60,6 +60,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "45657967A46BE70E"
 				item: { count: 1, id: "minecraft:redstone" }

@@ -155,8 +155,8 @@
 				item: { count: 1, id: "starforge:star_gem" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.0d
+			x: 0.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["318742C0A807A117"]
@@ -312,7 +312,7 @@
 				item: { count: 1, id: "submerged:prime_ingot" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 14.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				item: { count: 1, id: "submerged:prime_alloy_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 14.0d
 		}
 		{

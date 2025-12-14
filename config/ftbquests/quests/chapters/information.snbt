@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "information"
 	group: ""
+	icon: {
+		id: "minecraft:book"
+	}
 	id: "4DE9D3E26CC79511"
 	images: [{
 		height: 3.0d
@@ -15,15 +18,6 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [
-		{
-			id: "71ED8FDC8116FA2E"
-			tasks: [{
-				id: "5051C2CCA54BECFC"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -5.5d
-		}
 		{
 			dependencies: [
 				"6937CBC4E6BAE6FD"
@@ -38,6 +32,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "138872C7733EB8E2"
 				type: "checkmark"
@@ -223,15 +218,6 @@
 			}]
 			x: -2.5d
 			y: -3.0d
-		}
-		{
-			id: "363BCCE1A0AAC3C2"
-			tasks: [{
-				id: "7457F8602FE4F21B"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -6.0d
 		}
 	]
 }

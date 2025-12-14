@@ -242,6 +242,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3CE7725E35D3423D"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/gold)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -351,11 +352,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "08DC94B12D6CA1D5"
-				item: { count: 1, id: "aq:turtle_chestplate" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08DC94B12D6CA1D5"
+					item: { count: 1, id: "aq:turtle_chestplate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "518FA4DC11C0AB4A"
+					item: { count: 1, id: "hybrid-aquatic:turtle_chestplate" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -8.0d
 		}

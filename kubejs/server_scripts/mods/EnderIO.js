@@ -45,4 +45,20 @@ ServerEvents.recipes(event => {
         C: 'submerged:ai_controller'
     }).id('submerged:enderio/void_chassis')
 
+    //Wardens Smite
+    addEnchanterRecipe('minecraft:sculk', 12, 'opolisutilities:wardens_smite', 1)
+
+    //Enchanter 
+    function addEnchanterRecipe(input, inputCount, enchantment, cost_multiplier) {
+        event.custom({
+            "type": "enderio:enchanting",
+            "cost_multiplier": cost_multiplier,
+            "enchantment": enchantment,
+            "input": {
+                "count": inputCount,
+                "item": input
+            }
+        }).id(`submerged:enderio/enchanter/${input.split(':')[1]}_${enchantment.split(':')[1]}`)
+    }
+
 })

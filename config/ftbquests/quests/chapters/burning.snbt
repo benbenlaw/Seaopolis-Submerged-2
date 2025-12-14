@@ -357,6 +357,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "0DBDE57C8BBD9ADB"
 				item: { count: 1, id: "totemic:eagle_bone_whistle" }

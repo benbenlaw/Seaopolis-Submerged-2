@@ -492,6 +492,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "59DCD7487EF188A5"
 				item: { count: 1, id: "minecraft:netherite_scrap" }

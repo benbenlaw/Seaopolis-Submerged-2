@@ -63,11 +63,12 @@
     "entity": true,
     "entity_variant": true
   },
-  "oritech": {
-    "machine_core_controller": true
-  },
   "ftbquests": {
     "barrier": true
+  },
+  "avaritia": {
+    "collector": true,
+    "compressor": true
   },
   "pneumaticcraft": {
     "pneumatic": true,

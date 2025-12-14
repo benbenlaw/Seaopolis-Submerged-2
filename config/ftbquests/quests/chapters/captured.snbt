@@ -325,6 +325,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "5C95D8A67A9EC00B"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }

@@ -391,6 +391,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "777583F27A0AB521"
 				item: { count: 1, id: "minecraft:coal" }

@@ -25,5 +25,23 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			id: "49750BF1F5C0A429"
+			tasks: [{
+				id: "6B6C444F69AFD2D8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "24FAB67D08D67520"
+			tasks: [{
+				id: "07AC1C52482D8EE3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
 	]
 }

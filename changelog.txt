@@ -4,17 +4,34 @@ ENDGAME Mods
 - Project E?
 - Draconic
 - extended crafting
-- avaratia
 
 Do Not Update IceAndFire crashes when opening GUI of forges
 Do Not Update Relics (BETA VERSION) Crashes on startup
-Do Not Update TIAB (Breaks)
 
-NANO - Asselmbler recipes broken for there own recipes (Working version in Submerged 2 for 
-   testing pending official release)
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
-SUB - Move to Nano official
+
+
+# B1.1
+**---Mods---**
+- Updated Mods
+- Updated to latest Time In A Bottle
+
+**---Fixes---**
+- Nether Brick Lock texture fixed
+- Loads more quests typos fixed 
+
+**---Changes---**
+- Banned Time Torches
+- Added ForceCraft recipe for Hand of Time
+- Updated Yuki Textures
+- Updated Chapter Challenges to only require 1 or 2 quests in a questline to unlock marked via a different quest shape
+- Disabled Neo Forge update checker 
+- Changed Hybrid Aquatic Turtle Chestplate recipe, this chestplate can also be used as a 
+    chestplate piece to protect from toxic water
+- Added some plushies to Chapter Challenge Final Rewards
+- Added Infinity Forge recipe
+- Added Public server information
 
 # B1.0
 
@@ -45,6 +62,8 @@ SUB - Move to Nano official
 - Added Witherbones and most head melting recipes to Fluid XP
 - Witherbones can be turned into bone meal via Natures Aura
 - Updated Spawn Sphere 
+- Change alltheweaks logging to 90 from 10 minuites
+- Moved to offical versions of mods LOOOL
 
 # A10.0
 

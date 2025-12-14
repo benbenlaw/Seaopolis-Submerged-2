@@ -439,6 +439,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "580A68061AAC7B90"
 				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
@@ -462,6 +463,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "6D5890249DE7CE4B"
 				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }

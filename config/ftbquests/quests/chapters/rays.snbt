@@ -504,6 +504,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "0188F7B2B9D238A1"
 				item: { count: 1, id: "infinitystorage:infinity_storage_drive" }

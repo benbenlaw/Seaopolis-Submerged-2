@@ -435,6 +435,7 @@
 		{
 			dependencies: ["2928276EDC887172"]
 			id: "75EE8E1C409ADF61"
+			shape: "hexagon"
 			tasks: [{
 				id: "0B0066C35FEB281A"
 				item: { count: 1, id: "ae2:charger" }

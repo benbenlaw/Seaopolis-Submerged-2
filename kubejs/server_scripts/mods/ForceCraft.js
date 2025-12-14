@@ -18,6 +18,9 @@ ServerEvents.recipes(event => {
         A: 'forcecraft:force_planks'
     }).id('forcecraft:force_stick')
 
+    //Clock Hand 
+    addFreezingRecipe('minecraft:nether_star', 'naturesaura:clock_hand')
+
     //Powder Snow Bucket
     addFreezingRecipe('minecraft:milk_bucket', 'minecraft:powder_snow_bucket')
 

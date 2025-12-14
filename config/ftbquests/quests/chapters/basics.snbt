@@ -686,6 +686,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "573691460AD83332"
 				item: { count: 1, id: "strainers:compactor" }
