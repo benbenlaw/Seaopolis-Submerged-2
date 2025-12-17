@@ -5,12 +5,26 @@ ENDGAME Mods
 - Draconic
 - extended crafting
 
-Do Not Update IceAndFire crashes when opening GUI of forges
 Do Not Update Relics (BETA VERSION) Crashes on startup
+Do More Mek
 
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
 
+# B1.3
+**---Mods---**
+- Removed ProbeJS, this fixes some items being mssing on servers including caviar 
+
+# B1.2
+**---Mods---**
+- Added Simple Discord Link Bot
+- Added Showcase Item
+- Added Crash Utilities
+
+**---Fixes---**
+- Disabled Yeti Crabs
+- Fixed servers side JEI not having all items that are different via a data component, 
+    eg caviar, custom machinery and pinatas (Just dont ask how it was fixed)
 
 # B1.1
 **---Mods---**
@@ -32,6 +46,7 @@ ROUTERS - Performace, this is on the back burner, worst case if becomes an issue
 - Added some plushies to Chapter Challenge Final Rewards
 - Added Infinity Forge recipe
 - Added Public server information
+- Disabled Yeti Crab spawns
 
 # B1.0
 

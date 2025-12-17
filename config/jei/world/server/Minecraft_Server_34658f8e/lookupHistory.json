@@ -1,5 +1,16 @@
 [
   {"version":1},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:lime"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:diamond"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:lava"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:nickel"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:glowstone"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:wood"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"submerged:mini_pressure_chamber"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:creeper"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:sand"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:iridium"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:zinc"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"submerged:nether_force_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"casting:multiblock_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:cherry_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"}
