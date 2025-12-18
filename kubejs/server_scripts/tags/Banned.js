@@ -34,7 +34,20 @@ ServerEvents.tags('item', event => {
         'ae2:name_press', 
         'extendedae:concurrent_processor_press',
         'extendedae:circuit_cutter',
-        'forcecraft:time_torch'
+        'forcecraft:time_torch',
+        'everythingcopper:copper_helmet',
+        'everythingcopper:copper_chestplate',
+        'everythingcopper:copper_leggings',
+        'everythingcopper:copper_boots',
+        'hybrid-aquatic:diving_boots',
+        'hybrid-aquatic:diving_leggings',
+        'hybrid-aquatic:diving_suit',
+        'hybrid-aquatic:diving_helmet',
+        'everythingcopper:copper_sword',
+        'everythingcopper:copper_pickaxe',
+        'everythingcopper:copper_hoe',
+        'everythingcopper:copper_shovel',
+        'everythingcopper:copper_axe'
     ])
 
     //Mimic Loot

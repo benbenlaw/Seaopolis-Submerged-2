@@ -109,6 +109,14 @@
 				id: "minecraft:chest"
 			}
 			id: "2C0046E53A11C63E"
+			rewards: [{
+				id: "668EC910F2B14077"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C10FFFD0460B7FD"
 				type: "checkmark"

@@ -25,10 +25,11 @@
 			]
 			id: "6ACF9F582C35419D"
 			rewards: [{
-				id: "7E7817D1878562E7"
+				count: 8
+				id: "6F0D74C8F300F391"
 				item: {
 					count: 1
-					id: "shops:copper_coin"
+					id: "totemic:totem_torch"
 				}
 				type: "item"
 			}]

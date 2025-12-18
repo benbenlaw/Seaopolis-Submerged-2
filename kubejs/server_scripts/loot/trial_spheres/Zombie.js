@@ -8,16 +8,16 @@ LootJS.lootTables(event => {
         })
         
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_helmet')
-            pool.addEntry('everythingcopper:copper_chestplate')
-            pool.addEntry('everythingcopper:copper_leggings')
-            pool.addEntry('everythingcopper:copper_boots')
+            pool.addEntry('iceandfire:armor_copper_metal_helmet')
+            pool.addEntry('iceandfire:armor_copper_metal_chestplate')
+            pool.addEntry('iceandfire:armor_copper_metal_leggings')
+            pool.addEntry('iceandfire:armor_copper_metal_boots')
         })
         
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_sword')
-            pool.addEntry('everythingcopper:copper_sword[casting:equipment_level=1,casting:equipment_experience=0,casting:ignite=1]')
-            pool.addEntry('everythingcopper:copper_sword[casting:equipment_level=1,casting:equipment_experience=0,casting:torch_placing=2]')
+            pool.addEntry('iceandfire:copper_sword')
+            pool.addEntry('iceandfire:copper_sword[casting:equipment_level=1,casting:equipment_experience=0,casting:ignite=1]')
+            pool.addEntry('iceandfire:copper_sword[casting:equipment_level=1,casting:equipment_experience=0,casting:torch_placing=2]')
         })
         
         .createPool(pool => {
@@ -62,12 +62,12 @@ LootJS.lootTables(event => {
     
     //Equipment
     event.create('submerged:equipment/zombie', LootType.EQUIPMENT)
-        .createPool(pool => {pool.addEntry('everythingcopper:copper_helmet')})
-        .createPool(pool => {pool.addEntry('everythingcopper:copper_chestplate')})
-        .createPool(pool => {pool.addEntry('everythingcopper:copper_leggings')})
-        .createPool(pool => {pool.addEntry('everythingcopper:copper_boots')})
+        .createPool(pool => {pool.addEntry('iceandfire:armor_copper_metal_helmet')})
+        .createPool(pool => {pool.addEntry('iceandfire:armor_copper_metal_chestplate')})
+        .createPool(pool => {pool.addEntry('iceandfire:armor_copper_metal_leggings')})
+        .createPool(pool => {pool.addEntry('iceandfire:armor_copper_metal_boots')})
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_sword')
+            pool.addEntry('iceandfire:copper_sword')
             pool.addEntry('minecraft:stone_sword')
     })
 })

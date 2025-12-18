@@ -1,7 +1,7 @@
 #Modpack Configuration Settings
 ["Custom server in multiplayer Screen"]
 	#Name of the server
-	"Server Name" = "Submerged 2 "
+	"Server Name" = "Submerged 2 Official Server"
 	#IP of the server
 	"Server IP" = "Submerged2.benbenlaw.com"
 
@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Submerged 2"
 	#Modpack Version
-	"Modpack Version" = "B1.3"
+	"Modpack Version" = "B2.0"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false

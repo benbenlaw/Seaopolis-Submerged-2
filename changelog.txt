@@ -6,10 +6,33 @@ ENDGAME Mods
 - extended crafting
 
 Do Not Update Relics (BETA VERSION) Crashes on startup
-Do More Mek
+Do Not Update More Mek
 
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
+
+# B3.0 (ADD SUBMERGED 2 TO BISECT)
+**---Mods---**
+- Updated Mods
+
+
+# B2.0
+**---Mods---**
+- Updated Mods
+- Added Bisect Hosting Mod 
+- Added Default World Type, just sets the single player to be Skyblock on creation 
+
+**---Fixes---**
+- Shop now renders the full item tooltips now
+- Crystal Assembler recipes now use Submerged processors 
+
+**---Changes---**
+- Banned Everything is Copper, Copper Armor
+- Banned Everything is Copper, Copper Tools
+- Banned Hybrid Aquatic diving suit
+- Updated Zombie and Skeleton trials to reflect copper changes 
+- Added Enderman Fish and End Stone Fish 
+- Added Totemic Torches as a quest reward in information chapter 
 
 # B1.3
 **---Mods---**

@@ -59,19 +59,19 @@ LootJS.lootTables(event => {
     //Equipment
     event.create('submerged:equipment/skeleton', LootType.EQUIPMENT)
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_helmet')
+            pool.addEntry('iceandfire:armor_copper_metal_helmet')
             pool.addEntry('minecraft:iron_helmet')
         })
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_chestplate')
+            pool.addEntry('iceandfire:armor_copper_metal_chestplate')
             pool.addEntry('minecraft:iron_chestplate')
         })
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_leggings')
+            pool.addEntry('iceandfire:armor_copper_metal_leggings')
             pool.addEntry('minecraft:iron_leggings')
         })
         .createPool(pool => {
-            pool.addEntry('everythingcopper:copper_boots')
+            pool.addEntry('iceandfire:armor_copper_metal_boots')
             pool.addEntry('minecraft:iron_boots')
         })
         .createPool(pool => {
