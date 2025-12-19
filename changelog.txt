@@ -15,6 +15,9 @@ ROUTERS - Performace, this is on the back burner, worst case if becomes an issue
 **---Mods---**
 - Updated Mods
 
+# B2.1
+**---Fixes---**
+- Fixed Blue Cube Key containing water
 
 # B2.0
 **---Mods---**
