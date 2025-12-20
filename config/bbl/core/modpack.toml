@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Submerged 2"
 	#Modpack Version
-	"Modpack Version" = "B2.0"
+	"Modpack Version" = "B3.0"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false

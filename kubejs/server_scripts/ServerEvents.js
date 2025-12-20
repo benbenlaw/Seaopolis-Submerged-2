@@ -28,3 +28,36 @@ PlayerEvents.tick(event => {
         return
     }
 })
+
+// Prevents bats from dying unless killed by a player thanks @Szszabi
+EntityEvents.death(event => { 
+    const entityType = event.entity.type
+    if (entityType === "minecraft:bat") { 
+        if (!event.source.player) { 
+            event.cancel(); 
+        } 
+    } 
+});
+
+//Disable spawning of specific mobs until fixed inside their mods thanks @punnycomixyt
+EntityEvents.spawned(event =>{
+    if (event.entity.type == 'iceandfire:siren') {
+        event.cancel();
+    }
+    if (event.entity.type == 'iceandfire:sea_serpent') {
+        event.cancel();
+    }
+    if (event.entity.type == 'hybrid-aquatic:yeti_crab') {
+        event.cancel();
+    }
+})
+
+PlayerEvents.loggedIn(event => {
+    let player = event.player
+    let server = event.server
+
+    server.runCommandSilent(`kill @e[type=hybrid-aquatic:yeti_crab]`)
+    server.runCommandSilent(`kill @e[type=iceandfire:sea_serpent]`)
+    server.runCommandSilent(`kill @e[type=iceandfire:siren]`)
+
+})

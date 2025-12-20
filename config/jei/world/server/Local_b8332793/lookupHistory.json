@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ftbquests:screen_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbquests:screen_3"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbquests:screen_7"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:peridot"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":"resourcefish:yellow","type":"com.benbenlaw.resourcefish.integration.fish.FishIngredient","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"resourcefish:caviar","components":{"resourcefish:fish_type":"resourcefish:copper"}},"type":"item_stack","bookmarkType":"INGREDIENT"},

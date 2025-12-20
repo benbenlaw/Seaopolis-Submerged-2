@@ -2,9 +2,9 @@
 	#URL for your discord
 	"Discord URL" = "https://discord.gg/benbenlaw"
 	#Modpack name
-	"Modpack name" = "TESTMODPACK"
+	"Modpack name" = "USE /modpack_version instead"
 	#Modpack Version
-	"Modpack Version" = "VERSION"
+	"Modpack Version" = "USE /modpack_version instead"
 	#Mobs basic loot bag drop chance 0.0 = always, 1.0 = never, 0.5 = 50% chance, default = 0.75
 	"Mob Drop Chance" = 1.0
 	#Do wooden buttons make a doorbell sound, default = false

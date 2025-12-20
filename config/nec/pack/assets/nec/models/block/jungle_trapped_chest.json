@@ -1,6 +1,0 @@
-{
-   "parent": "minecraft:block/chest",
-   "textures": {
-        "particle": "nec:entity/chest/chest_trapped_single/jungle"
-    }
-}

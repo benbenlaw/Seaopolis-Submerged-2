@@ -676,5 +676,23 @@
 			x: -2.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["02248B9217CEB138"]
+			id: "6F3149D0B1C7F457"
+			rewards: [{
+				id: "62071F0A38489D5E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47B08AF2D35B9CB7"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
 	]
 }

@@ -705,7 +705,7 @@
 	quest.5597C89668EA9E89.quest_desc: ["Melting &lBlaze Powder&r and processing &lBlaze Rods&r through &lCreate&r or &lPneumatic Craft&r will create infinite &lBlaze&r. The &lTask Screen&r will help you here"]
 	quest.55BE8F1D0B297B3F.quest_desc: ["You did it"]
 	quest.55BED80ACBF62499.quest_desc: ["Its the &lBEST&r"]
-	quest.56449AFC28F7A38B.quest_desc: ["Placed in the bottom face of blocks. Place these one block apart to passively make a small amount of music"]
+	quest.56449AFC28F7A38B.quest_desc: ["Placed in the bottom face of blocks. Place these one block apart to passively make a small amount of music. The more the better"]
 	quest.5666976BFCBC1AF9.quest_desc: ["30% additional profit on strained resources sounds great"]
 	quest.566AA0D770887E53.quest_desc: ["When powered with &lLaser Drills&r will produce &lSoul&r. Requires a &lBlue Lens&r in the &lSoul Base&r. Souls can be used to speed up blocks"]
 	quest.568CC680692389D0.quest_desc: ["&lCoal&r and &lCharcoal&r "]
@@ -764,12 +764,12 @@
 	quest.5D096426F1F05C53.quest_desc: ["You did it"]
 	quest.5D1D465CD595E040.quest_desc: ["An egg that can take on many forms"]
 	quest.5D385621A0300B63.quest_desc: ["Uses RF to charge a &lTime in a Bottle&r"]
-	quest.5DBD3E8914EA56F2.quest_desc: ["The &lRite of Spring&r cermony can be used to covert placed saplings into &lRed Cedar Saplings&r"]
+	quest.5DBD3E8914EA56F2.quest_desc: ["The &lRite of Spring&r cermony can be used to covert placed saplings into &lRed Cedar Saplings&r. The &lRed Cedar Sapling&r requires a lot of verticle space to grow"]
 	quest.5DCAD7240C6D683E.quest_desc: ["&lCharged Certus Quartz, Redstone&r and &lNether Quartz&r can be combined into &lFluix Crystals&r"]
 	quest.5E101E9584E528BD.quest_desc: [
 		"Welcome to &lSubmerged 2&r thanks for downloading."
 		""
-		"Please make sure you create your own &lSphere&r for your team before starting using &l/skyblock create&r or using the &lFull Stop&r button"
+		"Please make sure you create your own &lSphere&r for your team before starting using &l/skyblock gui&r or using the &lFull Stop&r button"
 	]
 	quest.5E50DF743F7E8876.quest_desc: ["When used in a &lForce Furnace&r allows for &lGrinding &rrecipes"]
 	quest.5E577393A44F6AE9.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -922,6 +922,7 @@
 	quest.6EF53DBEA0BF9F54.quest_desc: ["Stand on top to remove &lExperience &rfrom the player"]
 	quest.6EF8B2BCEB53422D.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.6F08F02181B2EC7F.quest_desc: ["&lOrganic Water&r can be used in the &lSolidifier&r with &lPurified Gravel&r to make &lRefined Gravel&r"]
+	quest.6F3149D0B1C7F457.quest_desc: ["&lTotemic&r&l has various &lInstruments&r that can be used to create &lMusic&r for &lCeremonies&r. Each different type of &lInstrument&r has a limit, if you see white particles during a ceremony from an &lInstrument&r it means it will no longer help to fill up the bar"]
 	quest.6F44CAD4EC313436.quest_desc: ["Crafted nuggets"]
 	quest.7001FF8CE9F800BB.quest_desc: ["What could it be?"]
 	quest.702BDA4EBF2C24E3.quest_desc: ["Somewhere in the sphere there will be an &lEmpty Mob Spawner&r. &l&4Don't Break IT!&r&r"]
@@ -1167,6 +1168,7 @@
 	task.457A6952275F6C31.title: "Resource FIsh"
 	task.4625B8EA8206E030.title: "Any #submerged:top_induction_mek"
 	task.4723A9AF61848794.title: "Chapter III"
+	task.47B08AF2D35B9CB7.title: "Instruments"
 	task.493B962D80528AB0.title: "Any #submerged:lightning_dragon_eggs"
 	task.4B4094BCB854E74C.title: "Any #submerged:colored_saplings"
 	task.4B5253909D3EE34C.title: "Add Cute Ducks to quests"

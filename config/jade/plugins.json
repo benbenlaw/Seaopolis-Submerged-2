@@ -66,10 +66,6 @@
   "ftbquests": {
     "barrier": true
   },
-  "avaritia": {
-    "collector": true,
-    "compressor": true
-  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -98,8 +94,10 @@
     "jade_wireless": true
   },
   "iceandfire": {
+    "dragon_egg_entity": true,
     "multipart": true,
-    "dragon": true
+    "dragon": true,
+    "dragon_egg_block": true
   },
   "balm": {
     "jade": true

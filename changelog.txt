@@ -11,13 +11,29 @@ Do Not Update More Mek
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
 
-# B3.0 (ADD SUBMERGED 2 TO BISECT)
+Sea Serpents and siren isalnds and crabs need to be removed
+
+(ADD SUBMERGED 2 TO BISECT - awating BH to add)
+
+
+# B3.0 
 **---Mods---**
 - Updated Mods
 
-# B2.1
 **---Fixes---**
-- Fixed Blue Cube Key containing water
+- Shop now renders the full item tooltips now
+- Disabled Mekanism ores in config
+- Disabled Yeti Crabs spawns, fixes world becoming unplayable due to crabs
+- Disabled Siren and Serpent spawns, these should not have been spawning and it some cases they are 
+- These mobs will be removed from your world when you rejoin
+
+**---Changes---**
+- Added additional information for totemic quests 
+- Buffed all music instruments to give more musical power and higher amount before failing to add to ceremonies  
+- Updated Zombie and Skeleton trials to reflect copper changes 
+- Added Enderman Fish and End Stone Fish 
+- Disabled Trial Spawns in world generation
+
 
 # B2.0
 **---Mods---**

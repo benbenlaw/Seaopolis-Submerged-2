@@ -34,7 +34,7 @@
 	#othermod"])
 	modid_dimension_whitelist = []
 	#list of loot tables which shouldn't be converted (in the format of ["modid:loot_table", "othermodid:other_loot_table"])
-	loot_table_blacklist = []
+	loot_table_blacklist = ["visualworkbench:minecraft/crafting_table", "woodenhopper:wooden_hopper"]
 	#list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 	loot_modid_blacklist = []
 	#list of loot tables whose conversion causes problems (in the same format as `loot_table_blacklist`)
