@@ -15,6 +15,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'create:crushing/emerald_ore'})
     event.remove({id: 'create:crushing/deepslate_emerald_ore'})
 
+    event.remove({id: 'create:mixing/andesite_alloy'})
+
     //Replace Input
     event.replaceInput({id: 'create:crafting/kinetics/deployer'}, 'create:electron_tube', 'minecraft:lapis_lazuli')
     event.replaceInput({id: 'create:crafting/kinetics/goggles'}, '#c:plates/gold', '#c:plates/brass')

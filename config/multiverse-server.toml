@@ -1,0 +1,211 @@
+#Multiverse server-side configuration
+[Rifts]
+	#This is the range that is scanned for existing rifts using points of interest. 
+	# Default: 128
+	# Range: > 0
+	range = 128
+	#This is the factor that is added to the rift color seed. Change to modify all rift colors in the server. 
+	# Default: 0
+	# Range: -9223372036854775808 ~ 9223372036854775807
+	colorSeedOffset = 0
+	#This is the number of ticks that players get slow falling for after exiting a rift. Set to 0 if don't want slow falling. 
+	# Default: 600
+	# Range: > 0
+	slowFalling = 600
+	#This is the chance that a Traveler spawns per random tick for each rift block. 
+	# Default: 1.0E-4
+	# Range: 0.0 ~ 1.0
+	travelerSpawnChance = 1.0E-4
+
+	#Only for artificially placed rifts (Modify configured/placed feature for naturally generated rifts)
+	[Rifts.Size]
+		#This is the minimum width of artificially placed rifts. 
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minRiftWidth = 1.0
+		#This is the maximum width of artificially placed rifts. This should be greater or equal to minRiftWidth. 
+		# Default: 4.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxRiftWidth = 4.0
+		#This is the minimum height of artificially placed rifts. 
+		# Default: 16
+		# Range: > 0
+		minRiftHeight = 16
+		#This is the maximum height of artificially placed rifts. This should be greater or equal to minRiftHeight. 
+		# Default: 48
+		# Range: > 0
+		maxRiftHeight = 48
+
+["Kaleidite Core"]
+	#This is the distance in blocks that the kaleidite core searches for connected rifts to remove. 
+	# Default: 50.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	coreRange = 50.0
+	#This is whether kaleidite cores spawn temporary rifts instead of permanent rifts. 
+	coreTemporary = false
+
+["Prismatic Sword"]
+	#This is the cooldown of the sword's rift spawning in ticks. 
+	# Default: 500
+	# Range: > 0
+	swordCooldown = 500
+	#This is the distance in blocks from the player's eyes in the direction they look in that the center of the rift spawns from the sword. 
+	# Default: 2.5
+	# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	swordSpawnDistance = 2.5
+	#This is the minimum number of ticks that the sword needs to be charged in order to spawn a rift. 
+	# Default: 20
+	# Range: > 0
+	swordMinCharge = 20
+	#This is the initial width of rifts spawned by the sword when charged the minimum charge. 
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	swordMinWidth = 1.0
+	#This is the max width of rifts spawned by the sword. Should be at least swordMinWidth. 
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	swordMaxWidth = 8.0
+	#This is the rate that the width of rifts spawned by the sword grow in blocks per tick charged. 
+	# Default: 0.011666666666666667
+	# Range: 0.0 ~ 1.7976931348623157E308
+	swordWidthRate = 0.011666666666666667
+	#This is the initial height of rifts spawned by the sword when charged the minimum charge. 
+	# Default: 16.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	swordMinHeight = 16.0
+	#This is the max height of rifts spawned by the sword. Should be at least swordMinHeight. 
+	# Default: 64.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	swordMaxHeight = 64.0
+	#This is the rate that the height of rifts spawned by the sword grow in blocks per tick charged. 
+	# Default: 0.08
+	# Range: 0.0 ~ 1.7976931348623157E308
+	swordHeightRate = 0.08
+	#This is whether the sword spawns temporary rifts instead of permanent rifts. 
+	riftSwordTemporary = true
+
+["Kaleidite Crossbow"]
+	#This is the chance that fireworks are spawned when shooting an arrow. 
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	fireworkRate = 0.2
+	#This is the chance that a spawned arrow is on fire. 
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	fireRate = 0.2
+	#This is the minimum distance in blocks that a projectile can spawn from the shooter. 
+	# Default: 4.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	minSpawnRadius = 4.0
+	#This is the maximum distance in blocks that a projectile can spawn from the shooter. This must be at least minSpawnRadius. 
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxSpawnRadius = 10.0
+	#This is the offset that projectiles are spawned relative to the direction they are shot in blocks. 
+	# Default: -2.0
+	# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	spawnOffset = -2.0
+	#This is the period in ticks that projectiles are spawned
+	# Default: 5
+	# Range: > 1
+	spawnPeriod = 5
+	#This is the number of projectiles spawned every time the crossbow is shot. 
+	# Default: 20
+	# Range: > 0
+	spawnCount = 20
+
+["Beacon Chestplate"]
+	#This is the minimum distance in blocks that a doppelganger will spawn from the wearer. 
+	# Default: 1
+	# Range: > 0
+	armorMinOffset = 1
+	#This is the maximum distance in blocks that a doppelganger will spawn from the wearer. This should be at least armorMinOffset. 
+	# Default: 8
+	# Range: > 0
+	armorMaxOffset = 8
+	#This is the maximum number of doppelgangers the wearer can spawn at once. 
+	# Default: 8
+	# Range: > 0
+	armorMaxSpawn = 8
+	#This is the period in ticks that the wearer spawns doppelgangers when in combat. 
+	# Default: 40
+	# Range: > 1
+	armorSpawnPeriod = 40
+	#This is the time in ticks after exiting combat that before doppelgangers despawn. 
+	# Default: 600
+	# Range: > 0
+	doppelTimeout = 600
+
+[Traveler]
+	#This is the minimum distance in blocks that the traveler spawns doppelgangers and teleports when hurt. 
+	# Default: 8
+	# Range: > 0
+	travelerMinRange = 8
+	#This is the maximum distance in blocks that the traveler spawns doppelgangers and teleports when hurt. This should be at least travelerMinRange. 
+	# Default: 16
+	# Range: > 0
+	travelerMaxRange = 16
+	#This is the maximum number of doppelgangers a traveler can spawn at once. 
+	# Default: 10
+	# Range: > 0
+	travelerMaxDoppel = 10
+	#This is the period in ticks that the traveler spawns doppelgangers. 
+	# Default: 20
+	# Range: > 1
+	travelerDoppelPeriod = 20
+	#This is the chance that killing a traveler gives the bounty effect.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	bountyRate = 0.3
+
+[Conqueror]
+	#This is the minimum vertical distance in blocks that a conqueror will spawn a rift above its target. 
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conquerorMinSpawnDist = 8.0
+	#This is the maximum vertical distance in blocks that a conqueror will spawn a rift above its target. Must at least conquerorMinSpawnDist. 
+	# Default: 32.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conquerorMaxSpawnDist = 32.0
+	#This is the maximum horizontal distance in blocks that a conqueror will spawn a rift above its target. 
+	# Default: 32.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conquerorMaxSpawnHDist = 32.0
+	#This is the number of raiders near (within the same raid or within targeting range) the conqueror before it stops spawning rifts. 
+	# Default: 16
+	# Range: > 0
+	conquerorMobThreshold = 16
+	#This is the minimum distance in blocks that the conqueror will summon rifts. 
+	# Default: 6.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conquerorDistanceThreshold = 6.0
+	#This is the time in ticks that it takes for a conqueror to summon a rift. 
+	# Default: 100
+	# Range: > 0
+	conquerorCastTime = 100
+	#This is the cooldown of a conquerors summoning rifts in ticks. 
+	# Default: 100
+	# Range: > 0
+	conquerorCooldown = 100
+	#This is the duration in ticks of the slow falling effect given to raiders spawned by a conqueror. Set to 0 to not give any effect.
+	# Default: 200
+	# Range: > 0
+	conquerorSlowFallingDuration = 200
+	#This is the level of the slow falling effect given to raiders spawned by a conqueror. Set to 0 to not give any effect.
+	# Default: 1
+	# Range: > 0
+	conquerorSlowFallingAmplifier = 1
+	#This is the number of raiders that spawn from every rift the conqueror summons. 
+	# Default: 3
+	# Range: > 0
+	conquerorSpawnCount = 3
+
+[Miscellaneous]
+	#This is the range in blocks that the warp shield item warps projectiles. 
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shieldRange = 3.0
+	#This is the cooldown of the warp ring in ticks. 
+	# Default: 600
+	# Range: > 0
+	warpRingCooldown = 600

@@ -24,8 +24,8 @@
     }
   ],
   "inputFluid": {
-    "amount": 500,
-    "fluid": "industrialforegoing:pink_slime"
+    "amount": 1000,
+    "fluid": "industrialforegoing:latex"
   },
   "output": {
     "count": 1,

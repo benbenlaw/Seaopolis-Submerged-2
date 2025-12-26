@@ -1,0 +1,53 @@
+#Multiverse client-side configuration
+#This is the number of layers to render rifts with
+# Default: 3
+# Range: > 1
+riftLayers = 3
+#This is the offset in blocks for each rift layer to combat Z-fighting. 
+# Default: 5.0E-4
+# Range: 0.0 ~ 1.7976931348623157E308
+riftZOffset = 5.0E-4
+#This is the fraction of the width/height of the rift that the first layer starts. 
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+riftLayerStart = 0.75
+#This is the rate that the distance between rift layer grows using an exponential function. 
+# Default: 0.5
+# Range: 0.0 ~ 1.7976931348623157E308
+riftLayerGrowth = 0.5
+#This is the minimum opacity of a rift's layers as a fraction. 
+# Default: 0.65
+# Range: 0.0 ~ 1.0
+riftMinOpacity = 0.65
+#This is the maximum opacity of a rift's layers as a fraction. Must be at least riftMinOpacity. 
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+riftMaxOpacity = 1.0
+#This is the distance in blocks that rift blocks are rendered. 
+# Default: 256
+# Range: > 0
+riftRenderDistance = 256
+#This is the max distance in blocks that rift explosion particles will spawn from the center. 
+# Default: 4.0
+# Range: 0.0 ~ 1.7976931348623157E308
+riftExplosionParticleRange = 4.0
+#This is the number of rift explosion particles spawned per tick. 
+# Default: 6
+# Range: > 0
+riftExplosionParticles = 6
+#This is the chance that each rift block plays a sound per tick. 
+# Default: 0.005
+# Range: 0.0 ~ 1.0
+riftSoundFrequency = 0.005
+#This is the max distance in blocks from a rift that particles will spawn. 
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+riftParticleMax = 1.0
+#This is the chance that a rift particle spawns per tick for every rift block surface area in. 
+# Default: 0.75
+# Range: 0.0 ~ 1.7976931348623157E308
+riftParticleRate = 0.75
+#This is whether rifts use multiple colors. 
+multicolor = true
+#This is whether only vanilla shaders are used to render. Try setting to true if rifts are invisible due to custom shaders. 
+vanillaOnly = false

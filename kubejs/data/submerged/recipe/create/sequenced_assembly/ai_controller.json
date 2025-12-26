@@ -73,6 +73,24 @@
           "id": "enderio:mind_killer"
         }
       ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "enderio:mind_killer"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "industrialforegoing:latex"
+        }
+      ],
+      "results": [
+        {
+          "id": "enderio:mind_killer"
+        }
+      ]
     }
   ],
   "transitional_item": {

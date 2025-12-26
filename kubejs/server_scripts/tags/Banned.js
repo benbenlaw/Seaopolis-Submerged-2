@@ -26,7 +26,6 @@ ServerEvents.tags('item', event => {
         'extendedae:infinity_cobblestone_cell',
         'relics:jellyfish_necklace',
         'relics:infinity_ham',
-        'industrialforegoing:meat_feeder',
         'ae2:calculation_processor_press', 
         'ae2:engineering_processor_press', 
         'ae2:logic_processor_press', 

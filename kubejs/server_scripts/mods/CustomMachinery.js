@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     addPressureChamberRecipe(2.5, ["4x minecraft:packed_ice"],["minecraft:blue_ice"], [], [])
     addPressureChamberRecipe(2, ["4x minecraft:ice"],["minecraft:packed_ice"], [], [])
     addPressureChamberRecipe(1, ["submerged:totemic_infused_gravel", "minecraft:sand"],["submerged:assembled_gravel"], ["250x submerged:organic_water"], [])
-    addPressureChamberRecipe(3, ['enderio:skeletal_contractor', 'enderio:ender_resonator', 'enderio:guardian_diode', 'enderio:mind_killer', 'enderio:z_logic_controller'],["submerged:ai_controller"], [], [])
+    addPressureChamberRecipe(3, ['enderio:skeletal_contractor', 'enderio:ender_resonator', 'enderio:guardian_diode', 'enderio:mind_killer', 'enderio:z_logic_controller'],["submerged:ai_controller"], ["1000x industrialforegoing:latex"], [])
     addPressureChamberRecipe(1, ['#c:stones'],["pneumaticcraft:compressed_stone"], [], [])
     addPressureChamberRecipe(1, ['2x minecraft:gunpowder', '2x minecraft:rotten_flesh', '2x minecraft:spider_eye'],[], ["pneumaticcraft:plastic"], ["pneumaticcraft:etching_acid"])
     addPressureChamberRecipe(1.5, ['2x minecraft:redstone_torch', '3x #pneumaticcraft:wiring', 'pneumaticcraft:plastic'],['3x pneumaticcraft:empty_pcb'], [], [])

@@ -340,9 +340,9 @@
 			}
 			id: "5BED0687ED3289A2"
 			rewards: [{
-				id: "21001055001A0044"
+				id: "60B152EFB0A51436"
 				type: "xp_levels"
-				xp_levels: 0
+				xp_levels: 30
 			}]
 			tasks: [{
 				entity: "totemic:baykok"

@@ -34,9 +34,9 @@ ServerEvents.recipes(event => {
 
     //Ai Controller
     event.recipes.pneumaticcraft.pressure_chamber(
-        ['enderio:mind_killer', 'enderio:z_logic_controller', 'enderio:guardian_diode', 'enderio:skeletal_contractor', 'enderio:ender_resonator'],
+        ['enderio:mind_killer', 'enderio:z_logic_controller', 'enderio:guardian_diode', 'enderio:skeletal_contractor', 'enderio:ender_resonator', 'industrialforegoing:latex_bucket'],
         3.0,
-        ['submerged:ai_controller']
+        ['submerged:ai_controller', 'minecraft:bucket']
     ).id('submerged:pneumaticcraft/ai_controller')
 
     //Blaze Powder

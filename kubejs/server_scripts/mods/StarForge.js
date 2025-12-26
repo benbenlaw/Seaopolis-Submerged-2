@@ -14,11 +14,30 @@ ServerEvents.recipes(event => {
     event.remove({id: 'starforge:forge/tier_4_star_forge_cap'});
     event.remove({id: 'starforge:forge/tier_5_star_forge_cap'});
     event.remove({id: 'starforge:forge/star_ingot'});
+    event.remove({id: 'starforge:forge/star_gem'});
 
     //Replace Input
     event.replaceInput({id: 'starforge:star_forge'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     event.replaceInput({id: 'starforge:pedestal'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     
+    //Star Gem
+    createStarForgeRecipe('starforge:star_gem', 'submerged:triarchium_gem',
+        [
+            'minecraft:emerald', 
+            'minecraft:lapis_lazuli', 
+            'minecraft:diamond', 
+            'minecraft:quartz', 
+            'minecraft:amethyst_shard', 
+            'minecraft:prismarine_crystals', 
+            'alltheores:fluorite', 
+            'ae2:certus_quartz_crystal', 
+            'ae2:charged_certus_quartz_crystal', 
+            'ae2:fluix_crystal', 
+            'extendedae:entro_crystal', 
+            '#submerged:force_ars_gem'
+        ],
+        5, 16000, 200);
+
     //Blue Star
     createStarForgeRecipe('starforge:blue_star', 'submerged:nether_star_block', 
         [
@@ -197,11 +216,14 @@ ServerEvents.recipes(event => {
 
 
     function createStarForgeRecipe(output, input, extraIngredients, tier, starPower, duration) {
-        const formattedExtras = extraIngredients.map(item => {
-            if (typeof item === 'string') {
-                return { item: item };
+        const formattedExtras = extraIngredients.map(ingredient => {
+            
+            if (typeof ingredient === 'object') return ingredient;            
+            
+            if (typeof ingredient === 'string' && ingredient.startsWith('#')) {
+                return { tag: ingredient.substring(1) };
             }
-            return item; // assume it's already an object with "item" key
+            return { item: ingredient };
         });
 
         event.custom({

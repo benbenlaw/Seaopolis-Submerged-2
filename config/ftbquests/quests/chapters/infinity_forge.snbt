@@ -6,19 +6,30 @@
 	id: "43463B599794F7F2"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"2110DC692528877B"
-			"3B00CB7916FF1C69"
-		]
-		id: "1FE9964D14583124"
-		tasks: [{
-			id: "00B032F60724F014"
-			item: { components: { "custommachinery:machine": "submerged:infinity_forge" }, count: 1, id: "custommachinery:custom_machine_item" }
-			match_components: "strict"
-			type: "item"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"2110DC692528877B"
+				"3B00CB7916FF1C69"
+			]
+			id: "1FE9964D14583124"
+			tasks: [{
+				id: "00B032F60724F014"
+				item: { components: { "custommachinery:machine": "submerged:infinity_forge" }, count: 1, id: "custommachinery:custom_machine_item" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "1C2642FE67F5B048"
+			tasks: [{
+				id: "2A8CE9727519C0CC"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
 }

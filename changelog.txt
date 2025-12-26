@@ -7,14 +7,32 @@ ENDGAME Mods
 
 Do Not Update Relics (BETA VERSION) Crashes on startup
 Do Not Update More Mek
+Do Not Update Extgended AE
 
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
 
-Sea Serpents and siren isalnds and crabs need to be removed
+# B4.0
+**---Mods---**
+- Updated Mods
 
-(ADD SUBMERGED 2 TO BISECT - awating BH to add)
+**---Fixes---**
+- Baykok quest now gives levels 
+- AI Controller recipes are now the same resource requirements across all the mods
 
+**---Changes---**
+- Disabled griefing from Ice and Fire Dragons
+- Removed Mixing recipe for Andesite Alloy
+- Changed Star Gem recipe
+- Enabled Star Gravel recipes
+- Meat Feeder no longer banned
+- Added a bunch of new resource fish
+- Mini Pressure Chamber now has 5 input slots
+- Added Submerged 2 pack id to Bisect Hosting Mod
+
+# B3.1
+**---Changes---**
+- Reverted FTB Teams, FTB Library and FTB Quests to previous version to fix crashing issues on servers
 
 # B3.0 
 **---Mods---**

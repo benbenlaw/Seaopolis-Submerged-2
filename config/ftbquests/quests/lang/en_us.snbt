@@ -285,7 +285,11 @@
 	quest.1F380688230A73A3.quest_desc: ["Can be used to get various different &lStone Types&r"]
 	quest.1F6EE7917E96E547.quest_desc: ["Molten &lGrains of Time Gone By&r"]
 	quest.1FAA10357C6218E3.quest_desc: ["Like a full size &lPressure Chamber&r but smaller. Uses &lFluids&r instead of &lBuckets of Fluids&r in both inputs and output of recipes allowing for easier automation"]
-	quest.1FE9964D14583124.quest_desc: ["By replacing the &lStar Forge&r with a &lInfinity Forge&r you create the &lInfinity Forge&r. Requires &lTier 5&r caps and a &lRed Star&r"]
+	quest.1FE9964D14583124.quest_desc: [
+		"By replacing the &lStar Forge&r with a &lInfinity Forge&r you create the &lInfinity Forge&r. Requires &lTier 5&r caps and a &lRed Star&r."
+		""
+		"The Infinity Forge uses a range of different resource to create items "
+	]
 	quest.203799D6E6FBC9DC.quest_desc: ["Made with &lReinforced Stone&r"]
 	quest.207F4FFC4AD976E5.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.2110DC692528877B.quest_desc: ["The power of the &lStars&r in my hands"]
@@ -753,7 +757,7 @@
 	quest.5B2590D5D45C53A6.quest_desc: ["The next &lTrial Sphere&r"]
 	quest.5B99151FECCA1C27.quest_desc: ["The inscriber is a way of creating circuits"]
 	quest.5BBA96114007014D.quest_desc: ["Allows &lRouters&r to export &lSouls&r to blocks"]
-	quest.5BED0687ED3289A2.quest_desc: ["A powerful boss. Maybe your should make some armor for this. Summoned using the &lTotentanz&r ceremony"]
+	quest.5BED0687ED3289A2.quest_desc: ["A powerful boss. Maybe you should make some armor for this. Summoned using the &lTotentanz&r ceremony"]
 	quest.5BED0687ED3289A2.title: "Kill a Baykok"
 	quest.5C10405E7300D7A5.quest_desc: ["Used for the &lForge&r. Use the &lPonder&r button over the &lCore&r to view how to make the structure"]
 	quest.5C285A5E002913EF.quest_desc: ["&lWater Buckets&r can be used to move &lFish&r around "]
@@ -899,6 +903,7 @@
 	quest.6BC6E76718B9571E.quest_desc: ["&lTotemic Infused Water&r will help"]
 	quest.6BC6E76718B9571E.title: "Totemic Gravel"
 	quest.6C02564985E87DE8.quest_desc: ["Replacing the &lWater&r above &lTeary Gravel&r will stop producing resources and start producing &lDragon Scales&r"]
+	quest.6C02564985E87DE8.title: "New Straining"
 	quest.6C10C6ED74F0B769.quest_desc: ["Increases the width of the &lFan&r"]
 	quest.6C1C19F4F151D303.quest_desc: ["Drops from &lBuffalos&r"]
 	quest.6C8297AF7997580F.quest_desc: ["From the &lFluid Sieving Machine&r"]
@@ -1125,6 +1130,7 @@
 	task.28420D0AE447E888.title: "Any #submerged:keys/standard"
 	task.29DBFAC33C83DBBF.title: "salt water"
 	task.2A03751CABE68197.title: "More Kelp"
+	task.2A8CE9727519C0CC.title: "create/pneumaticcaraft"
 	task.2ADF945CFA667657.title: "Chilly Mobs"
 	task.2BF34BF0EF5AABA9.title: "Chapter I"
 	task.2C972A3BDC9E1039.title: "Chapter III"

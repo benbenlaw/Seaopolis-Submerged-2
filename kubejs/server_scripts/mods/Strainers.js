@@ -107,11 +107,11 @@ ServerEvents.recipes(event => {
         osmium: ['minecraft:water', 'strainers:osmium_ore_piece', 0.05, 0.05, 6, 10],
         lead: ['minecraft:water', 'strainers:lead_ore_piece', 0.05, 0.05, 6, 10],
         uranium: ['minecraft:water', 'strainers:uranium_ore_piece', 0.05, 0.05, 7, 10],
-        fluorite: ['minecraft:water', 'alltheores:fluorite_dust', 0.1, 0.05, 5, 10]
+        fluorite: ['minecraft:water', 'alltheores:fluorite_dust', 0.1, 0.05, 5, 10],
+        iridium: ['minecraft:water', 'submerged:iridium_ore_piece', 0.02, 0.03, 8, 10],
+        platinum: ['minecraft:water', 'strainers:platinum_ore_piece', 0.03, 0.03, 8, 10]
     }
-
-
-
+    
     //Purified Gravel -> Coal Ore Piece
     addStrainerGravelDrop('strainers:purified_gravel', [
         gravelDrops.coal
@@ -220,6 +220,22 @@ ServerEvents.recipes(event => {
         gravelDrops.debris,
         gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead,
         gravelDrops.uranium, gravelDrops.fluorite
+    ]);
+
+    //Star Gravel -> Platinum, Iridium
+    addStrainerGravelDrop('submerged:star_gravel', [
+        gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
+        gravelDrops.diamond, gravelDrops.emerald,
+        gravelDrops.debris,
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead,
+        gravelDrops.uranium, gravelDrops.fluorite,
+        gravelDrops.iridium, gravelDrops.platinum
     ]);
 
     //Tiered Gravel Recipes
