@@ -1,5 +1,6 @@
 ae2:spatial_storage
 ars_nouveau:archwood_forest
+ars_nouveau:jar
 iceandfire:dread_forest
 iceandfire:dread_plain
 minecraft:badlands

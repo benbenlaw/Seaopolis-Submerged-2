@@ -5,7 +5,6 @@
     "maxPathingNodes": 5000,
     "villagersFear": true,
     "animalsFear": true,
-    "": {},
     "generate.skeletons": true,
     "generate.skeletonChance": 0.0033333333333333335,
     "generate.denGoldAmount": 0.25,
@@ -34,7 +33,7 @@
     "dragonFlightSpeedMod": 1.0,
     "maxTamedDragonAge": 32,
     "maxBreathTimeMul": 2.0,
-    "neutralToPlayer": false,
+    "neutralToPlayer": true,
     "enableBrushDragonScales": true,
     "maxBrushScalesDropPerTime": 2,
     "brushTimesMul": 1.0,
@@ -128,7 +127,8 @@
   "ghost": {
     "maxHealth": 30.0,
     "attackDamage": 3.0,
-    "fromPlayerDeaths": true
+    "fromPlayerDeaths": true,
+    "alwaysSpawnFromChest": false
   },
   "tools": {
     "dragonFireAbility": true,
@@ -139,7 +139,6 @@
     "dragonsteelFrozenDuration": 300,
     "dragonBloodFrozenDuration": 100,
     "phantasmalBladeAbility": true,
-    "": {},
     "dragonLightningSearchRange": 10.0,
     "dragonLightningDamageReduction": 0.5,
     "dragonLightningMaxSearchCount": 10
@@ -178,6 +177,5 @@
   "misc": {
     "enableDragonSeeker": true,
     "dreadQueenMaxHealth": 750.0
-  },
-  "version": 3
+  }
 }

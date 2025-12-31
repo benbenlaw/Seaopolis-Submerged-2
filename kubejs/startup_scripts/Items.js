@@ -54,6 +54,12 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:cobblestone_ingot').tag(['c:ingots/cobblestone', 'c:ingots'])
     event.create('submerged:cobblestone_nugget').tag(['c:nuggets/cobblestone', 'c:nuggets'])
 
+    event.create('submerged:certus_ingot').tag(['c:ingots/certus_infused', 'c:ingots'])
+    event.create('submerged:prismarine_ingot').tag(['c:ingots/prismarine_infused', 'c:ingots'])
+    
+    event.create('submerged:create_ingot')
+    event.create('submerged:pneumatic_ingot')
+    
     //Infinity Drives
     event.create("submerged:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")
     event.create("submerged:infinity_gravel_drive", 'infinity_drive').infinityStack("minecraft:gravel")

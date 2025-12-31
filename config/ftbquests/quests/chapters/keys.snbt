@@ -92,7 +92,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["08561F042E6D27B0"]
@@ -111,7 +111,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5EEB852E9079D891"]
@@ -130,7 +130,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7721E9269699E775"]
@@ -149,7 +149,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1B7B93DE3E0DE467"]
@@ -207,7 +207,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6F08F02181B2EC7F"]
@@ -600,7 +600,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6AAF56C47DDC7F4C"]
@@ -619,7 +619,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["08561F042E6D27B0"]
@@ -638,7 +638,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6AAF56C47DDC7F4C"]
@@ -657,7 +657,26 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08561F042E6D27B0"]
+			id: "548069EC653697A5"
+			rewards: [{
+				id: "6761C6C75AAC609B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A8A2557F6BBA3DF"
+				item: { count: 1, id: "casting:equipment_modifier" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 }

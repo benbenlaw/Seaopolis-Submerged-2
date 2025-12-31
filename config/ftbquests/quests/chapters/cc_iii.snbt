@@ -171,7 +171,7 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 3L
+				count: 2L
 				id: "067556E7CF7FCE9E"
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
@@ -188,12 +188,22 @@
 				id: "ars_nouveau:starby_gift"
 			}
 			id: "7E417EC6DDAD2F90"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AE9A894A23069F0"
-				table_id: 2019840144407634539L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AE9A894A23069F0"
+					table_id: 2019840144407634539L
+					type: "choice"
+				}
+				{
+					id: "0ABB397980C17F3E"
+					item: {
+						count: 1
+						id: "ae2:cell_component_256k"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "01F3DBB100B86DDE"
 				type: "checkmark"

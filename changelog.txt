@@ -12,6 +12,56 @@ Do Not Update Extgended AE
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
 
+# B5.1
+** IMPORTANT **
+This update has recipe changes for Printed Calculation Circuit, Printed Engineering Circuit and Printed Concurrent Circuit 
+
+**---Changes---**
+- Added silver ore piece
+
+**---Fixes---**
+- Removed old Prime Ingot recipe
+
+# B5.0
+** IMPORTANT **
+This update has recipe changes for Printed Calculation Circuit, Printed Engineering Circuit and Printed Concurrent Circuit 
+
+**---Mods---**
+- Updated Mods
+
+**---Fixes---**
+- Fixed Routers causing crashes when component is null
+- Ceramic bucket resource fish bucket no longer a null texture
+- Clay Fish recipe changed to avoid clashes with Sand Fish recipe
+- Crushed Raw Uranium, Nickel and Aluminium can now be smelted
+- Added Brass, Diamond and EnderIO alloy valid recipes to the Stamper
+- Concurrent Processor now uses Entro Infused Ingot instead of Entro Crystal, 
+    fixes issues with automation as Entro Crystal is now longer used in 2 different slots
+- Certus Dust should now work in automation correctly using the Inscriber
+- Banned Ice and Fire Sapphire Block, Sapphire block recipe now produces the correct All the Ore Saphhire Block
+- Star Forge Cap tiers can now be mixed eg higher tier caps work on lower tier recipes (UPDATE STAR FORGE)
+- Removed Bark to Paper recipe
+- All The Ores gems no longer produce extra in casting multiblock
+
+**---Changes---**
+- Added Project ID for update checker
+- Added additional information about resource fish
+- Added Equipment Modifier quest
+- Decreased Routers Speed Upgrade 4 to work every 2 ticks instead of every tick, this should improve exporter performance
+- Changed Golden Power Source recipe 
+- Added Evoker summoning block recipe
+- Nickel is now obtainable, quests added
+- Raw Ore Sag Mill recipe no longer has a chance to create a additional resource that is not from that ore
+- Added Certus Ingot replaces Certus Quartz in Printed Calculation Circuit, Made from Molten Certus Quartz
+- Added Prismarine Ingot replaces Prismarine Crystals in Printed Engineering Circuit, 
+    Made From Pressing/Pressure Chamber from Corrupted Prismarine Crystal 
+- Reduced Simply The Best Component requirement to be 2 not 3, added a Simply The Best Component as a reward
+- Added Wither, Warden and Ender Dragon Fish, caviar from these fish produce the fluid for each mob as 
+    well as that mobs loot at a low rate
+- Changed Star Gem and Star Ingot recipes
+- Changed Prime Ingot to use Infintiy Forge 
+- Added Create Ingot and Pneumatic Ingot
+
 # B4.0
 **---Mods---**
 - Updated Mods

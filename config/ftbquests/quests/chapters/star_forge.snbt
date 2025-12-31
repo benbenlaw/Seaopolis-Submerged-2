@@ -130,13 +130,13 @@
 				item: { count: 1, id: "starforge:tier_5_star_forge_cap" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 12.5d
 		}
 		{
 			dependencies: [
-				"5E75863DE9827559"
-				"6E3E131D26508228"
+				"003CCAC11522B62C"
+				"2341096354E7F931"
 			]
 			id: "2110DC692528877B"
 			tasks: [{
@@ -144,19 +144,22 @@
 				item: { count: 1, id: "starforge:star_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 15.5d
+			x: 0.5d
+			y: 13.5d
 		}
 		{
-			dependencies: ["003CCAC11522B62C"]
+			dependencies: [
+				"003CCAC11522B62C"
+				"2341096354E7F931"
+			]
 			id: "3B00CB7916FF1C69"
 			tasks: [{
 				id: "1130DBD1F0AE8520"
 				item: { count: 1, id: "starforge:star_gem" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.0d
+			x: -0.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["318742C0A807A117"]
@@ -202,8 +205,8 @@
 				item: { count: 1, id: "starforge:red_star" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 11.0d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5393DE480016A480"]
@@ -224,7 +227,7 @@
 				item: { count: 1, id: "strainers:platinum_ore_piece" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -235,7 +238,7 @@
 				item: { count: 1, id: "submerged:iridium_ore_piece" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
@@ -246,7 +249,7 @@
 				item: { count: 1, id: "alltheores:platinum_ore" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
@@ -257,7 +260,7 @@
 				item: { count: 1, id: "alltheores:iridium_ore" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -268,7 +271,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/platinum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 11.0d
 		}
 		{
@@ -279,7 +282,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/iridium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 11.0d
 		}
 		{
@@ -290,7 +293,7 @@
 				item: { count: 1, id: "alltheores:raw_platinum" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 10.0d
 		}
 		{
@@ -301,30 +304,8 @@
 				item: { count: 1, id: "alltheores:raw_iridium" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["003CCAC11522B62C"]
-			id: "6E3E131D26508228"
-			tasks: [{
-				id: "3DA69974B4FF592A"
-				item: { count: 1, id: "submerged:prime_ingot" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["003CCAC11522B62C"]
-			id: "5E75863DE9827559"
-			tasks: [{
-				id: "06EAA0A509C848BC"
-				item: { count: 1, id: "submerged:prime_alloy_ingot" }
-				type: "item"
-			}]
 			x: 1.0d
-			y: 14.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5B070A4BFC59803B"]
@@ -336,6 +317,50 @@
 			}]
 			x: 1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["78E585380693F13D"]
+			id: "6D95F692D8167338"
+			tasks: [{
+				id: "2C9158AE585D37FC"
+				item: { count: 1, id: "strainers:nickel_ore_piece" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B817C650D50CBA2"]
+			id: "5DACF0ED457FD654"
+			tasks: [{
+				id: "65F941501C47497C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D95F692D8167338"]
+			id: "0C1376099F25720F"
+			tasks: [{
+				id: "16D20DFE817533C3"
+				item: { count: 1, id: "alltheores:nickel_ore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C1376099F25720F"]
+			id: "4B817C650D50CBA2"
+			tasks: [{
+				id: "53AAC0771F98340B"
+				item: { count: 1, id: "alltheores:raw_nickel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 	]
 }

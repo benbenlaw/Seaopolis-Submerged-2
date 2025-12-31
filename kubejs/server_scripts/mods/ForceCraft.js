@@ -25,7 +25,10 @@ ServerEvents.recipes(event => {
     addFreezingRecipe('minecraft:milk_bucket', 'minecraft:powder_snow_bucket')
 
     //Golden Power Source
-    event.blasting('forcecraft:golden_power_source', '#forcecraft:force_logs').id('submerged:forcecraft/force_ingot_from_gold')
+    event.shaped('4x forcecraft:golden_power_source', [' A ', 'ABA', ' A '], {
+        A: '#forcecraft:force_logs',
+        B: '#minecraft:coals'
+    }).id('forcecraft:golden_power_source')
 
     //Withering Dust
     addGrindingRecipe('minecraft:wither_skeleton_skull', 'enderio:withering_powder')

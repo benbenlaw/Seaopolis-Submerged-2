@@ -1,0 +1,30 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "submerged:ender_dragon"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {
+    "amount": 25,
+    "id": "submerged:dragons_breath"
+  },
+  "results": [
+    {
+      "chance": 0.01,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:dragon_head"
+      }
+    },
+    {
+      "chance": 0.01,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:dragon_egg"
+      }
+    }
+  ]
+}

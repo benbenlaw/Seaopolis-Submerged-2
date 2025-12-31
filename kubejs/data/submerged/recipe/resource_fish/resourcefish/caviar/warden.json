@@ -1,0 +1,23 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "submerged:warden"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {
+    "amount": 25,
+    "id": "submerged:warden_tears"
+  },
+  "results": [
+    {
+      "chance": 0.01,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:sculk_catalyst"
+      }
+    }
+  ]
+}

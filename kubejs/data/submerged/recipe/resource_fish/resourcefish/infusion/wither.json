@@ -1,0 +1,17 @@
+{
+  "type": "resourcefish:fish_infusing",
+  "chance": 1.0,
+  "created_fish": "submerged:wither",
+  "duration": 100,
+  "fish": "resourcefish:soul_sand",
+  "inputs": [
+    {
+      "count": 32,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 1,
+      "item": "industrialforegoing:ether_gas_bucket"
+    }
+  ]
+}

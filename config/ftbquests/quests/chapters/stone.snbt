@@ -167,7 +167,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["51B2B23CA507CF16"]
 			id: "6CEA085FCE1AE11D"
 			rewards: [{
 				id: "24ED18964E89B9E1"
@@ -220,7 +219,8 @@
 								0.0d
 							]
 							NeoForgeData: {
-								"naturesaura:time_alive": 40
+								droptimer: 0.0d
+								"naturesaura:time_alive": 80
 							}
 							OnGround: 1b
 							PersistenceRequired: 0b

@@ -107,8 +107,8 @@
 				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B694A316CDD67A8"]
@@ -126,11 +126,11 @@
 				item: { count: 1, id: "ae2:printed_logic_processor" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["3B694A316CDD67A8"]
+			dependencies: ["2EF93F995F792FFB"]
 			id: "714080375257015A"
 			rewards: [{
 				id: "0DA07C6095D6316F"
@@ -145,11 +145,11 @@
 				item: { count: 1, id: "ae2:printed_calculation_processor" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["3B694A316CDD67A8"]
+			dependencies: ["5812795B0AF80279"]
 			id: "026E0CF5357A1E51"
 			rewards: [{
 				id: "026E3E44DE04EF2E"
@@ -165,7 +165,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["714080375257015A"]
@@ -183,7 +183,7 @@
 				item: { count: 1, id: "submerged:calculation_processor" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -203,7 +203,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4835A611E199F2B5"]
@@ -221,8 +221,8 @@
 				item: { count: 1, id: "submerged:logic_processor" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["40E95BE654D1C3CA"]
@@ -277,8 +277,8 @@
 				id: "4187CE2710651B5E"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -299,8 +299,8 @@
 				item: { count: 1, id: "ae2:condenser" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["40E95BE654D1C3CA"]
@@ -338,8 +338,8 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4520302A6DF7F2B5"]
@@ -357,8 +357,8 @@
 				item: { count: 1, id: "ae2:cell_component_16k" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: 1.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0AC872B23F3FEF2D"]
@@ -376,8 +376,8 @@
 				item: { count: 1, id: "ae2:cell_component_64k" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: 1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["640DD34C04DCC7BD"]
@@ -396,8 +396,8 @@
 				item: { count: 1, id: "ae2:matter_ball" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 11.0d
+			x: -0.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["640DD34C04DCC7BD"]
@@ -415,8 +415,8 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: 0.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["74C2DEC788DB58F4"]
@@ -434,8 +434,8 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5DCAD7240C6D683E"]
@@ -453,8 +453,8 @@
 				item: { count: 1, id: "ae2:fluix_dust" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0ED7FDC5610FE8F9"]
@@ -473,8 +473,8 @@
 				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["118B3A02993C9272"]
@@ -492,8 +492,8 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 11.0d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5DCAD7240C6D683E"]
@@ -512,8 +512,38 @@
 				item: { count: 1, id: "ae2:speed_card" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B694A316CDD67A8"]
+			id: "2EF93F995F792FFB"
+			rewards: [{
+				id: "5B307764260194C8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DA15DBD787DF76D"
+				item: { count: 1, id: "submerged:certus_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B694A316CDD67A8"]
+			id: "5812795B0AF80279"
+			tasks: [{
+				id: "2E622E2B3FC02B83"
+				item: { count: 1, id: "submerged:prismarine_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 }

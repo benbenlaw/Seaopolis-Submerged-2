@@ -22,8 +22,11 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'create:crafting/kinetics/goggles'}, '#c:plates/gold', '#c:plates/brass')
     event.replaceInput({id: 'create:crafting/kinetics/wrench'}, '#c:plates/gold', '#c:plates/brass')
 
+    //Pressing 
+    event.recipes.create.pressing('submerged:prismarine_ingot', 'submerged:corrupted_prismarine_crystal').id('submerged:create/pressing/corrupted_prismarine_to_prismarine_ingot')
+
     //Milling
-    event.recipes.create.milling('2x naturesaura:gold_powder', 'naturesaura:gold_leaf')
+    event.recipes.create.milling('2x naturesaura:gold_powder', 'naturesaura:gold_leaf').id('submerged:create/milling/gold_leaf_to_gold_powder')
 
     //Sandpaper Polishing
     event.recipes.create.sandpaper_polishing('pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]', 'pneumaticcraft:empty_pcb').id('submerged:create/uv_exposed_pcb')

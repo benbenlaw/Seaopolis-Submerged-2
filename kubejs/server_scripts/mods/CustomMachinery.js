@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
     addPressureChamberRecipe(2, ['submerged:living_gravel', 'minecraft:nether_wart'],['submerged:nether_gravel'], ["25x industrialforegoing:pink_slime", '125x industrialforegoing:meat'], [])
     addPressureChamberRecipe(3, ['2x pneumaticcraft:pressure_chamber_glass', '2x pneumaticcraft:pressure_chamber_interface', 'pneumaticcraft:pressure_chamber_valve', '21x pneumaticcraft:pressure_chamber_wall'],['custommachinery:custom_machine_item[custommachinery:machine="submerged:mini_pressure_chamber"]'], [], [])
     addPressureChamberRecipe(1.5, ['4x pneumaticcraft:ingot_iron_compressed', 'casting:gear_mold'],['pneumaticcraft:compressed_iron_gear', 'casting:gear_mold'], [], [])
+    addPressureChamberRecipe(1.5, ['submerged:corrupted_prismarine_crystal'],['submerged:prismarine_ingot'], [], [])
 
     function addPressureChamberRecipe(pressure, inputs, results, fluidInputs, fluidOutputs) {
         let cmRecipe = event.recipes.custommachinery
@@ -70,22 +71,47 @@ ServerEvents.recipes(event => {
         return cmRecipe
     }
 
-    //TEST
+    //Create Ingot
     event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
-        .requireItem("minecraft:cobblestone")
-        //.requireItem("sand")
-        //.requireItem("gravel")
-        //.requireItem("diamond")
-        //.requireFluid("100x casting:molten_obsidian")
-        //.requireChemical("100x mekanism:diamond")
-        //.requireEnergyPerTick(10000)
-        //.requirePressure(5, 25)
-        //.requireSU(5, 5)
-        //.requireSource(5000)
         .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
+        .requireItem("16x create:andesite_alloy")
+        .requireItem("16x create:brass_ingot")
+        .requireItem("16x create:cardboard")
+        .requireItem("16x create:sturdy_sheet")
+        .requireItem("1x submerged:prime_ingot")
+        .requireItem("1x submerged:ai_controller")
+        .requireSU(128, 2)
+        .requireEnergyPerTick(75000)
+        .produceItem("submerged:create_ingot")
+        .id('submerged:infinity_forge/create_ingot')
 
-        .produceItem("emerald")
-        .id('submerged:test')
+    //Pneumatic Ingot
+    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
+        .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
+        .requireItem("16x pneumaticcraft:ingot_iron_compressed")
+        .requireItem("16x pneumaticcraft:advanced_pressure_tube")
+        .requireItem("16x pneumaticcraft:reinforced_pressure_tube")
+        .requireItem("16x pneumaticcraft:upgrade_matrix")
+        .requireItem("1x submerged:prime_ingot")
+        .requireItem("1x submerged:ai_controller")
+        .requirePressure(5, 25)
+        .requireEnergyPerTick(75000)
+        .produceItem("submerged:pneumatic_ingot")
+        .id('submerged:infinity_forge/pneumatic_ingot')
+
+    //Prime Ingot
+    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
+        .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
+        .requireItem("16x submerged:cobblestone_ingot")
+        .requireItem("16x alltheores:lead_ingot")
+        .requireItem("16x alltheores:silver_ingot")
+        .requireItem("16x alltheores:iridium_ingot")
+        .requireItem("16x alltheores:platinum_ingot")
+        .requireItem("16x alltheores:nickel_ingot")
+        .requireFluid("720x submerged:molten_vanillarite")
+        .requireEnergyPerTick(50000)
+        .produceItem ("submerged:prime_ingot")
+        .id('submerged:infinity_forge/prime_ingot')
 
 
 })

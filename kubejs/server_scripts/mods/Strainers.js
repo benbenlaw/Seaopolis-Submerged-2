@@ -106,10 +106,12 @@ ServerEvents.recipes(event => {
         echoShard : ['minecraft:water', 'minecraft:echo_shard', 0.05, 0.05, 7, 10],
         osmium: ['minecraft:water', 'strainers:osmium_ore_piece', 0.05, 0.05, 6, 10],
         lead: ['minecraft:water', 'strainers:lead_ore_piece', 0.05, 0.05, 6, 10],
+        silver: ['minecraft:water', 'strainers:silver_ore_piece', 0.05, 0.05, 6, 10],
         uranium: ['minecraft:water', 'strainers:uranium_ore_piece', 0.05, 0.05, 7, 10],
         fluorite: ['minecraft:water', 'alltheores:fluorite_dust', 0.1, 0.05, 5, 10],
         iridium: ['minecraft:water', 'submerged:iridium_ore_piece', 0.02, 0.03, 8, 10],
-        platinum: ['minecraft:water', 'strainers:platinum_ore_piece', 0.03, 0.03, 8, 10]
+        platinum: ['minecraft:water', 'strainers:platinum_ore_piece', 0.03, 0.03, 8, 10],
+        nickel: ['minecraft:water', 'strainers:nickel_ore_piece', 0.1, 0.05, 5, 10]
     }
     
     //Purified Gravel -> Coal Ore Piece
@@ -204,7 +206,7 @@ ServerEvents.recipes(event => {
         gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
         gravelDrops.diamond, gravelDrops.emerald,
         gravelDrops.debris,
-        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead, gravelDrops.silver
     ]);
 
     //Toxic Gravel -> Uranium
@@ -218,7 +220,7 @@ ServerEvents.recipes(event => {
         gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
         gravelDrops.diamond, gravelDrops.emerald,
         gravelDrops.debris,
-        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead,
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead, gravelDrops.silver,
         gravelDrops.uranium, gravelDrops.fluorite
     ]);
 
@@ -233,9 +235,9 @@ ServerEvents.recipes(event => {
         gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
         gravelDrops.diamond, gravelDrops.emerald,
         gravelDrops.debris,
-        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead,
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead, gravelDrops.silver,
         gravelDrops.uranium, gravelDrops.fluorite,
-        gravelDrops.iridium, gravelDrops.platinum
+        gravelDrops.iridium, gravelDrops.platinum, gravelDrops.nickel
     ]);
 
     //Tiered Gravel Recipes

@@ -8,6 +8,49 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "1C2642FE67F5B048"
+			tasks: [{
+				id: "2A8CE9727519C0CC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BAABE545BE20C51"]
+			id: "6E3E131D26508228"
+			tasks: [{
+				id: "3DA69974B4FF592A"
+				item: { count: 1, id: "submerged:prime_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7A448042EF3B5814"
+				"666692ADAE23E036"
+			]
+			id: "5E75863DE9827559"
+			tasks: [{
+				id: "06EAA0A509C848BC"
+				item: { count: 1, id: "submerged:prime_alloy_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "05D53A1E5ED2061A"
+			tasks: [{
+				id: "250064A2E6779897"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
 			dependencies: [
 				"2110DC692528877B"
 				"3B00CB7916FF1C69"
@@ -19,17 +62,42 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			id: "1C2642FE67F5B048"
+			dependencies: ["1FE9964D14583124"]
+			id: "5BAABE545BE20C51"
 			tasks: [{
-				id: "2A8CE9727519C0CC"
+				id: "3656C9C8BBFFC1D5"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "666692ADAE23E036"
+			optional: true
+			tasks: [{
+				id: "6AD8C89587229FA0"
+				item: { count: 1, id: "submerged:create_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "7A448042EF3B5814"
+			optional: true
+			tasks: [{
+				id: "77A07548073921AF"
+				item: { count: 1, id: "submerged:pneumatic_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 }

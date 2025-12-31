@@ -505,5 +505,24 @@
 			x: 0.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["5900C4C227F7AA8D"]
+			id: "53BDEFBCF6446096"
+			rewards: [{
+				id: "0B2EE4F59EDC6087"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56853BEBDE588E5B"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
 	]
 }

@@ -27,6 +27,7 @@ ServerEvents.tags('item', event => {
     createResourceTag('iridium', 'alltheores:iridium_nugget', 'alltheores:iridium_ingot', 'alltheores:iridium_block')
     createResourceTag('platinum', 'alltheores:platinum_nugget', 'alltheores:platinum_ingot', 'alltheores:platinum_block')
     createResourceTag('solclipsium', 'submerged:solclipsium_nugget', 'submerged:solclipsium_ingot', 'submerged:solclipsium_block')
+    createResourceTag('nickel', 'alltheores:nickel_nugget', 'alltheores:nickel_ingot', 'alltheores:nickel_block')
 
     function createResourceTag(resource, nugget, ingot, block) {
         event.get(`submerged:resources/${resource}`).add(nugget, ingot, block);
@@ -101,6 +102,10 @@ ServerEvents.tags('item', event => {
         'aq:turtle_master_leggings',
         'aq:turtle_master_boots'
     ])
+
+    //Raw Materials 
+    event.get('c:raw_materials').remove(['#c:gems/ruby', '#c:gems/sapphire', '#c:gems/peridot'])
+
 })
 
 ServerEvents.tags('block', event => {

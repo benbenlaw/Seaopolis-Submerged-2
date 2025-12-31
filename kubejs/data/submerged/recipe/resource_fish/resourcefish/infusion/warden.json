@@ -1,0 +1,21 @@
+{
+  "type": "resourcefish:fish_infusing",
+  "chance": 1.0,
+  "created_fish": "submerged:warden",
+  "duration": 100,
+  "fish": "resourcefish:diamond",
+  "inputs": [
+    {
+      "count": 1,
+      "item": "minecraft:sculk_catalyst"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "count": 1,
+      "item": "submerged:warden_tears_bucket"
+    }
+  ]
+}

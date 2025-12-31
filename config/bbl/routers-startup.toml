@@ -91,7 +91,7 @@
 	#The speed multiplier that tier 4 can provide.
 	# Default: 1
 	# Range: > 1
-	"Speed Per Operation 4" = 1
+	"Speed Per Operation 4" = 2
 
 ["Source Upgrades"]
 	#The maximum sources per operation that tier 1 can provide.

@@ -111,16 +111,16 @@ ServerEvents.recipes(event => {
     addChargerRecipe('submerged:nether_gravel', 'submerged:charged_gravel')
 
     //Concurrent Processor
-    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'extendedae:entro_crystal', '4x extendedae:concurrent_processor_print')
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'extendedae:entro_ingot', '4x extendedae:concurrent_processor_print')
 
     //Logic Circuit
     addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot' , '4x ae2:printed_logic_processor')
 
     //Printed Calculation Circuit
-    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'ae2:certus_quartz_crystal' , '4x ae2:printed_calculation_processor')
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'submerged:certus_ingot' , '4x ae2:printed_calculation_processor')
 
     //Printed Engineering Circuit
-    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:prismarine_crystals' , '4x ae2:printed_engineering_processor')
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'submerged:prismarine_ingot' , '4x ae2:printed_engineering_processor')
     
     //Printed Silicon
     addSimpleInscriberRecipe('#c:silicon' , 'ae2:printed_silicon')

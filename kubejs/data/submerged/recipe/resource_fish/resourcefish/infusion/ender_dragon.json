@@ -1,0 +1,17 @@
+{
+  "type": "resourcefish:fish_infusing",
+  "chance": 1.0,
+  "created_fish": "submerged:ender_dragon",
+  "duration": 100,
+  "fish": "resourcefish:ancient",
+  "inputs": [
+    {
+      "count": 1,
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:dragon_breath"
+    }
+  ]
+}

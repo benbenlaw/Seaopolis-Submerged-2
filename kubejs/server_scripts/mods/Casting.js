@@ -75,7 +75,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_energetic_alloy', 'enderio:energized_gear').id('submerged:solidifier/energized_gear')
     event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_vibrant_alloy', 'enderio:vibrant_gear').id('submerged:solidifier/vibrant_gear')
-    event.recipes.casting.solidifier('#c:molds/gear', '360x casting:molten_dark_steel', 'enderio:dark_bimetal_gear').id('submerged:solidifier/dark_bimetal_gear')
     event.recipes.casting.solidifier('#c:molds/dust', '500x submerged:time_fluid', 'submerged:grains_of_time').id('submerged:solidifier/grains_of_time')
     
     event.recipes.casting.solidifier('#c:molds/ingot', '90x submerged:molten_solclipsium', 'submerged:solclipsium_ingot').id('submerged:solidifier/solclipsium_ingot')
@@ -87,12 +86,14 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('minecraft:glass_bottle', '250x mob_grinding_utils:fluid_xp', 'minecraft:experience_bottle').id('submerged:solidifier/experience_bottle')
     
     event.recipes.casting.solidifier('#c:molds/dust', '250x mekanism:lithium', 'mekanism:dust_lithium').id('submerged:solidifier/dust_lithium')
+    event.recipes.casting.solidifier('#c:molds/ingot', '90x casting:molten_certus_quartz', 'submerged:certus_ingot').id('submerged:solidifier/certus_ingot')
 
     //Mixer
     event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x casting:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')
     event.recipes.casting.mixing('360x casting:molten_soularium', ['250x submerged:molten_star', '4000x casting:molten_soul']).id('casting:mixer/soularium')
     event.recipes.casting.mixing('180x submerged:molten_solclipsium', ['1000x enderio:fluid_liquid_sunshine_still', '1000x enderio:fluid_liquid_darkness_still']).id('casting:mixer/solclipsium')
     event.recipes.casting.mixing('90x submerged:molten_triarchium', ['360x casting:molten_sapphire', '360x casting:molten_ruby', '360x casting:molten_peridot']).id('casting:mixer/triarchium')
+    event.recipes.casting.mixing('90x submerged:molten_vanillarite', ['90x casting:molten_iron', '90x casting:molten_gold', '90x casting:molten_copper', '90x casting:molten_netherite']).id('casting:mixer/vanillarite')
 
     //Gear Mold
     event.shaped('casting:gear_mold', [' A ', 'ABA', ' A '], {

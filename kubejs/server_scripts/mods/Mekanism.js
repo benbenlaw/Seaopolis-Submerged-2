@@ -19,6 +19,12 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'mekmm:ambient_gas_collector'}, 'mekanism:steel_casing', '#submerged:top_induction_mek')
     event.replaceInput({id: 'mekmm:recycler'}, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
 
+    //Misc Stamper Recipes
+    addSimpleStamperRecipe('enderio:vibrant_alloy_ingot', 4, 'c:molds/gear', 'enderio:vibrant_gear')
+    addSimpleStamperRecipe('enderio:dark_steel_ingot', 4, 'c:molds/gear', 'enderio:dark_bimetal_gear')
+    addSimpleStamperRecipe('enderio:energetic_alloy_ingot', 4, 'c:molds/gear', 'enderio:energized_gear')
+    addSimpleStamperRecipe('forcecraft:force_ingot', 4, 'c:molds/gear', 'forcecraft:force_gear')
+
     //Cobblestone Ingot
     addSimpleStamperRecipe('compressedblocks:c5_cobblestone', 1, 'c:molds/ingot', 'submerged:cobblestone_ingot')
 
@@ -68,12 +74,22 @@ ServerEvents.recipes(event => {
     addCastingRecipe('lumium')
     addCastingRecipe('enderium')
     addCastingRecipe('iridium')
+    addCastingRecipe('brass')
+
+    addCastingGemRecipe('diamond')
 
     //Casting loves Mekanism Compat
     function addCastingRecipe(type) {
         addStamperRecipe(`c:ingots/${type}`, 4, `c:molds/gear`, AlmostUnified.getTagTargetItem(`c:gears/${type}`))
         addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/rod`, Item.of(AlmostUnified.getTagTargetItem(`c:rods/${type}`), 2))
         addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/plate`, AlmostUnified.getTagTargetItem(`c:plates/${type}`))
+        //addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/dust`, AlmostUnified.getTagTargetItem(`c:dusts/${type}`))
+    }
+
+    function addCastingGemRecipe(type) {
+        addStamperRecipe(`c:gems/${type}`, 4, `c:molds/gear`, AlmostUnified.getTagTargetItem(`c:gears/${type}`))
+        addStamperRecipe(`c:gems/${type}`, 1, `c:molds/rod`, Item.of(AlmostUnified.getTagTargetItem(`c:rods/${type}`), 2))
+        addStamperRecipe(`c:gems/${type}`, 1, `c:molds/plate`, AlmostUnified.getTagTargetItem(`c:plates/${type}`))
         //addStamperRecipe(`c:ingots/${type}`, 1, `c:molds/dust`, AlmostUnified.getTagTargetItem(`c:dusts/${type}`))
     }
 

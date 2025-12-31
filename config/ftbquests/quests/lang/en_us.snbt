@@ -6,7 +6,7 @@
 	chapter.1AF122F4F516298A.title: "Plastic"
 	chapter.1E9B63EA9FA08A4A.title: "Digital Storage"
 	chapter.1F7AEF9A41AE6F54.title: "CC III"
-	chapter.3220729F6DAE9D8C.title: "Star Power"
+	chapter.3220729F6DAE9D8C.title: "Ender IO"
 	chapter.323791C40AB86271.title: "Mekanism"
 	chapter.3DE775794F0DE900.title: "CC II"
 	chapter.3E77A3BEE08A4625.title: "Stone"
@@ -132,6 +132,7 @@
 	quest.0BD995BF839A78ED.quest_desc: ["Drops when mining &lAncient Debris&r"]
 	quest.0BF184839535B1B6.quest_desc: ["A &lMk.1 Synthesized Nano &r. &lSynthesized Nano&r are used to convert blocks in world into different ones"]
 	quest.0C07B03DDDF72BBC.quest_desc: ["&lSolclipsium&r like &lGold&r is a strange alloy with both magical and technogical uses. Another choice to be made &lMekanism&r or &lArs Nouveau&r"]
+	quest.0C1376099F25720F.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.0C2AABFFD28944AA.quest_desc: ["Made inside the &lPressure Chamber&r or &lCreate Mixing&r"]
 	quest.0C2AABFFD28944AA.title: "Etching Acid"
 	quest.0C36C386F76E0565.quest_desc: ["Drops from &lSpiders&r"]
@@ -288,7 +289,7 @@
 	quest.1FE9964D14583124.quest_desc: [
 		"By replacing the &lStar Forge&r with a &lInfinity Forge&r you create the &lInfinity Forge&r. Requires &lTier 5&r caps and a &lRed Star&r."
 		""
-		"The Infinity Forge uses a range of different resource to create items "
+		"Unlike the &lStar Forge&r the &lInfinity Forge&r can use various different resource types"
 	]
 	quest.203799D6E6FBC9DC.quest_desc: ["Made with &lReinforced Stone&r"]
 	quest.207F4FFC4AD976E5.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -387,6 +388,7 @@
 	quest.2E99980DBDED51CC.quest_desc: ["The next tier of &lMachine Frame&r"]
 	quest.2EA1F5D879D8AD5C.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
 	quest.2EF5C929A8D42C3B.quest_desc: ["Processed &lFluix Crystal&r"]
+	quest.2EF93F995F792FFB.quest_desc: ["From &lMolten Certus Quartz&r"]
 	quest.2F22D9516ABB189B.quest_desc: ["&lWater, Plutonium&r and &lFluorite Dust&r can be used to make &lPolonium Pellets&r"]
 	quest.2F79A1FE9DF2242F.quest_desc: [
 		"Quests rewards can contain &lCoins&r these coins will be added to your balance. The top right of your inventory has a &lBalance Icon&r. This can be used to purchase items from the shop."
@@ -478,7 +480,6 @@
 	quest.3ABEA7EFA89D62DC.quest_desc: ["Crafted with &lSaplings,&r &lSolclipsium&r and &lDye&r"]
 	quest.3ABEA7EFA89D62DC.title: "Archwood Saplings"
 	quest.3B00CB7916FF1C69.quest_desc: ["The power of the &lStars&r in my hands"]
-	quest.3B00CB7916FF1C69.quest_subtitle: "RECIPE TO CHANGE NOT SURE OF THE USE"
 	quest.3B3D7B574E31E97C.quest_desc: [
 		"You must complete all &lInfusions&r from the previous tier to unlock the next tier. The guide book will help"
 		""
@@ -599,7 +600,7 @@
 	quest.484882B219622A73.quest_desc: ["The next tier of &lMachine Frame&r"]
 	quest.487CADD6A2A37D71.quest_desc: ["Obtained from &lRaw Ore&r "]
 	quest.487CADD6A2A37D71.title: "Iron"
-	quest.48E7381C1D516967.quest_desc: ["Can be collected with a &lGlass Bottle&r from the floor after the &lDragon&r shoots at you"]
+	quest.48E7381C1D516967.quest_desc: ["Can be collected with a &lGlass Bottle&r from the floor after the &lDragon&r shoots at you. &lEnder Dragon Fish&r can also be made with these"]
 	quest.4984877524CA1F66.quest_desc: ["&lLiquid Lithium&r can be created in a &lVAT&r using &lBrine,&r &lAmethyst Dust&r and &lSky Stone Dust&r"]
 	quest.49C3A248C5D098D0.quest_desc: ["Made inside the &lMetallurgic Infuser&r"]
 	quest.49F472B8769F95F6.quest_desc: ["roomopolis for expansions to starting base"]
@@ -615,6 +616,7 @@
 	quest.4ACD11998ADC9FD7.quest_desc: ["Using the &lTank Upgrade&r in the &lCaviar Processor&r allows for some &lCaviar&r to produce fluids. For example &lWater and Lava Caviar&r require the &lTank Upgrade&r to produce fluids"]
 	quest.4AEC090CC03D33CB.quest_desc: ["Uses &lCoal&r to produce air pressure"]
 	quest.4B16F1D86D10AB83.quest_desc: ["Processed Ore"]
+	quest.4B817C650D50CBA2.quest_desc: ["From &lBroken Ore&r "]
 	quest.4BC02BEE16C2D671.quest_desc: ["Used to speed up &lCloches&r"]
 	quest.4C15A7ABD171F566.quest_desc: ["&lControlling&r your drawers"]
 	quest.4C2D89C661588B24.quest_desc: ["Replicates chemicals using &lUU Matter&r"]
@@ -682,6 +684,7 @@
 	quest.53A1079E58AFB069.title: "Kill The Ender Dragon"
 	quest.53B33F89E03C6CC6.quest_desc: ["Broken &lOre Block&r"]
 	quest.53B33F89E03C6CC6.title: "Lapis"
+	quest.53BDEFBCF6446096.quest_desc: ["&lEvokers&r can be spawned using the &lSummoning Block&r, Use a &lDark Oak Log&r in the left slot and a &lEmerald&r in the middle slot"]
 	quest.53DF09F3BAA39B1D.quest_desc: ["Spider Noise"]
 	quest.541BEBD9686996FD.quest_desc: ["A &lSoaking Table&r is a waterlogged Drying Table&r"]
 	quest.544A5CE9207979B1.quest_desc: ["Processed &lRaw Ore&r"]
@@ -694,6 +697,7 @@
 		"The &lHym of Maturity&r can be used to make baby animals grow up faster"
 	]
 	quest.5468A49A8F8F9382.quest_desc: ["Made inside the &lDragon Forge&r. Makes cool &lTools&r"]
+	quest.548069EC653697A5.quest_desc: ["The &lEquipment Modifier&r can be used to modify your &lTools&r, &lArmors&r and more! For more information on this see the guide book"]
 	quest.5483722820D7B629.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.5489D38689D5C759.quest_desc: ["&lBrine&r can be created in a &lVAT&r using &lWater,&r &lSalt&r and &lSugar&r"]
 	quest.548DDCEA26686733.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
@@ -718,7 +722,7 @@
 	quest.56DC474E41784B1D.quest_desc: ["Let there be light"]
 	quest.5703B5049E3E643D.quest_desc: ["Used inside the &lModular Storage&r to provide &lStorage&r"]
 	quest.57DD8F321E53526F.quest_desc: ["Simple &lFluid Transport&r"]
-	quest.57DF2A7FC2115CBC.quest_desc: ["The &lBreeding Upgrade&r allows the &lTank Controller&r to do &lBreeding Recipes&r"]
+	quest.57DF2A7FC2115CBC.quest_desc: ["The &lBreeding Upgrade&r allows the &lTank Controller&r to do &lBreeding Recipes&r. This upgrade prevents the &lTank&r from create &lCaviar&r when inside!"]
 	quest.57EA71B3C8946BFD.quest_desc: ["From a &lSupply Crate&r"]
 	quest.57EA71B3C8946BFD.title: "Colored Sapling"
 	quest.57F452F179109301.quest_desc: [
@@ -728,6 +732,7 @@
 		""
 		"For each 3 water blocks in the tanks area you will gain an additional slot for fish"
 	]
+	quest.5812795B0AF80279.quest_desc: ["Made inside the &lPressure Chamber&r or through &lPressing&r"]
 	quest.5815CA7195778818.quest_desc: ["Crafted &lSculk&r and &lSolclipsium&r"]
 	quest.5826AA79CCB4EF8D.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.58859AADFDEF8FE2.quest_desc: ["Takes &lWater&r and &lLatex&r to produce &lDry Rubber&r"]
@@ -756,6 +761,8 @@
 	quest.5B070A4BFC59803B.quest_desc: ["When night falls the &lStar&r will collect energy. This energy is then moved to the &lStar Forge&r. Both the &lStar&r and the &lStar Forge&r store &lStar Power&r"]
 	quest.5B2590D5D45C53A6.quest_desc: ["The next &lTrial Sphere&r"]
 	quest.5B99151FECCA1C27.quest_desc: ["The inscriber is a way of creating circuits"]
+	quest.5BAABE545BE20C51.quest_desc: ["Made in the &lController&r from various molten ingots. Used to create &lPrime Ingots&r"]
+	quest.5BAABE545BE20C51.title: "Vanillarite"
 	quest.5BBA96114007014D.quest_desc: ["Allows &lRouters&r to export &lSouls&r to blocks"]
 	quest.5BED0687ED3289A2.quest_desc: ["A powerful boss. Maybe you should make some armor for this. Summoned using the &lTotentanz&r ceremony"]
 	quest.5BED0687ED3289A2.title: "Kill a Baykok"
@@ -768,6 +775,8 @@
 	quest.5D096426F1F05C53.quest_desc: ["You did it"]
 	quest.5D1D465CD595E040.quest_desc: ["An egg that can take on many forms"]
 	quest.5D385621A0300B63.quest_desc: ["Uses RF to charge a &lTime in a Bottle&r"]
+	quest.5DACF0ED457FD654.quest_desc: ["From &lNickel &rOre"]
+	quest.5DACF0ED457FD654.title: "Nickel"
 	quest.5DBD3E8914EA56F2.quest_desc: ["The &lRite of Spring&r cermony can be used to covert placed saplings into &lRed Cedar Saplings&r. The &lRed Cedar Sapling&r requires a lot of verticle space to grow"]
 	quest.5DCAD7240C6D683E.quest_desc: ["&lCharged Certus Quartz, Redstone&r and &lNether Quartz&r can be combined into &lFluix Crystals&r"]
 	quest.5E101E9584E528BD.quest_desc: [
@@ -846,6 +855,7 @@
 	quest.6636ED1448E42943.title: "Planks"
 	quest.6642B6226116D094.quest_desc: ["Level Up!"]
 	quest.665518BCBF63AEE0.quest_desc: ["Who needs &lAE2&r or &lRefined Storage&r"]
+	quest.666692ADAE23E036.quest_desc: ["A &lCreate Ingot&r"]
 	quest.66F69CB45413636C.quest_desc: ["Crafted &lBlack Brick&r"]
 	quest.6716062455BA50CA.quest_desc: ["Made inside the &lCaviar Processor&r"]
 	quest.6733F528D38B6E09.quest_desc: ["The first of many"]
@@ -911,8 +921,9 @@
 	quest.6C8C89386FF0F05D.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.6CB2AD0DB043B3D6.quest_desc: ["When a &lWarden&r is below a &lFluid Laser Base&r will produce &lWarden Tears&r. A low health &lWarden&r will not produce &lTears&r"]
 	quest.6CEA085FCE1AE11D.quest_desc: ["When used on a &lMulch Block&r will create a source block of &lPurifying Water&r. Also can be used to turn &lMulch&r into &lDirt&r"]
-	quest.6D2761D542F9C707.quest_desc: ["The &linfusing Upgrade&r allows the &lTank Controller&r to do &lInfusing Recipes&r"]
+	quest.6D2761D542F9C707.quest_desc: ["The &linfusing Upgrade&r allows the &lTank Controller&r to do &lInfusing Recipes&r. This upgrade prevents the &lTank&r from create &lCaviar&r when inside!"]
 	quest.6D60D4F5300AED78.quest_desc: ["Will open &lNether Fortress&r like &lSphere&r"]
+	quest.6D95F692D8167338.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.6E1A43EA427FCC42.quest_desc: ["From &lArchwood Logs&r"]
 	quest.6E2DEE2B413756E4.quest_desc: [
 		"Using a vanilla &lDragon Egg&r on a &lScale Block&r will create a &lDragon Egg&r"
@@ -921,8 +932,7 @@
 	]
 	quest.6E2DEE2B413756E4.title: "Ice Dragon Eggs"
 	quest.6E3B0B6AA3E54598.quest_desc: ["&lRaw Ore Meat&r through a &lFermentation Station&r will create &lFermented Ore Meat&r. Make sure to check your &lFermentation Station&r settings!"]
-	quest.6E3E131D26508228.quest_desc: ["All the &lIngots&r "]
-	quest.6E3E131D26508228.quest_subtitle: "WIP RECIPES"
+	quest.6E3E131D26508228.quest_desc: ["Made inside the &lInfinity Forge&r "]
 	quest.6E5B41421760C162.quest_desc: ["Used for the &lForge&r"]
 	quest.6EF53DBEA0BF9F54.quest_desc: ["Stand on top to remove &lExperience &rfrom the player"]
 	quest.6EF8B2BCEB53422D.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -1005,6 +1015,8 @@
 	quest.7A136D13050B2E25.quest_desc: ["&lUnbreaking&r 10 makes any valid tool &lUnbreakable&r"]
 	quest.7A136D13050B2E25.title: "Reward I"
 	quest.7A351105AE91FE1E.quest_desc: ["A bigger wheel"]
+	quest.7A448042EF3B5814.quest_desc: ["A &lPneumatic Ingot&r"]
+	quest.7A562C9ADB3E48EA.quest_desc: ["&lEntro Crystal&r, &lGold Ingot&r and &lLapis&r can be dropped into water to create &lEntro Infused Ingot&r"]
 	quest.7A799412015F62DF.quest_desc: ["The power of the sun"]
 	quest.7B0B598D5C319A91.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea"]
 	quest.7B4F60DC95B1A90A.quest_desc: ["Placing &lCobblestone&r inside a &lStrainer&r with &lEroding Water&r on top and a &lMesh&r inside will create &lGravel&r"]
@@ -1125,6 +1137,7 @@
 	task.2209B23822C53417.title: "Routers"
 	task.2295084ED3F8F4EB.title: "Any #submerged:resources/iridium"
 	task.22D17914B80A05E7.title: "Blah Blah"
+	task.250064A2E6779897.title: "Infinity Forge"
 	task.2663BC3B474B8A09.title: "Any #submerged:colored_leaves"
 	task.268BA100465AE6F3.title: "Any #submerged:resources/zinc"
 	task.28420D0AE447E888.title: "Any #submerged:keys/standard"
@@ -1152,6 +1165,7 @@
 	task.34532F887D0738F3.title: "Molten Star"
 	task.34B7678D1FA6577F.title: "Main Totemic"
 	task.34DA1A0FFDEA9C90.title: "Any #minecraft:beds"
+	task.3656C9C8BBFFC1D5.title: "Vanilarite"
 	task.368A6CCF1C361F6E.title: "Reward III"
 	task.36F3809179D33184.title: "Chapter IV"
 	task.373B2021F4C84DC8.title: "Any #create:sandpaper"
@@ -1225,6 +1239,7 @@
 	task.63D5F662C8764B29.title: "Salt Water"
 	task.6469B44ECA1511E5.title: "Colored Flare"
 	task.659718B44F381FCB.title: "Useful Tuips"
+	task.65F941501C47497C.title: "Any #submerged:resources/nickel"
 	task.66A0260326E5EE3D.title: "Any #strainers:tier_5_meshes"
 	task.66CBC605A94596AD.title: "Reward IV"
 	task.66EE364285E590B2.title: "Reward I"

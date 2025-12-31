@@ -35,8 +35,12 @@ ServerEvents.recipes(event => {
     event.remove({id: /refinedstorage_mekanism_integration:.*_upgrade/})
     */
 
-    //Disks and Drives
+    //Smelting 
+    event.smelting('alltheores:uranium_ingot', 'create:crushed_raw_uranium').id('submerged:smelting/uranium_ingot')
+    event.smelting('alltheores:aluminum_ingot', 'create:crushed_raw_aluminum').id('submerged:smelting/aluminum_ingot')
+    event.smelting('alltheores:nickel_ingot', 'create:crushed_raw_nickel').id('submerged:smelting/nickel_ingot')
 
+    //Disks and Drives
     createDriveRecipes('#submerged:basic_storage_components', 
         'ae2:item_storage_cell_1k', 'refinedstorage:1k_storage_disk', 'refinedstorage:1k_storage_block',
         'ae2:fluid_storage_cell_1k', 'refinedstorage:64b_fluid_storage_disk', 'refinedstorage:64b_fluid_storage_block',

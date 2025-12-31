@@ -626,7 +626,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["1E4ACC17CE7542B5"]
+			dependencies: ["7A562C9ADB3E48EA"]
 			id: "6146387980130408"
 			rewards: [{
 				id: "6C5176D032F110F3"
@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6146387980130408"]
@@ -661,7 +661,27 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E4ACC17CE7542B5"]
+			id: "7A562C9ADB3E48EA"
+			rewards: [{
+				count: 4
+				id: "40380BAC5135BFA8"
+				item: {
+					count: 1
+					id: "extendedae:entro_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FEC6E8446028439"
+				item: { count: 1, id: "extendedae:entro_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
 		}
 	]
 }

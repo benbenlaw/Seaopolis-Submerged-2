@@ -21,6 +21,13 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'starforge:pedestal'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     
     //Star Gem
+    createStarForgeRecipe('starforge:star_gem', 'submerged:triarchium_gem', [], 5, 16000, 200);
+
+    //Star Ingot
+    createStarForgeRecipe('starforge:star_ingot', 'submerged:triarchium_ingot', [], 5, 16000, 200);
+
+    //Star Gem - OLD
+    /*
     createStarForgeRecipe('starforge:star_gem', 'submerged:triarchium_gem',
         [
             'minecraft:emerald', 
@@ -37,6 +44,17 @@ ServerEvents.recipes(event => {
             '#submerged:force_ars_gem'
         ],
         5, 16000, 200);
+    */
+
+    //Star Ingot
+    /*
+    createStarForgeRecipe('starforge:star_ingot', 'submerged:prime_alloy_ingot',
+        [
+            'submerged:prime_ingot',
+            'submerged:prime_alloy_ingot'
+        ],
+    5, 16000, 200);
+    */
 
     //Blue Star
     createStarForgeRecipe('starforge:blue_star', 'submerged:nether_star_block', 
@@ -164,7 +182,8 @@ ServerEvents.recipes(event => {
         ],
         4, 1000, 100);
 
-    //Prime Ingot
+    //Prime Ingot (OLD)
+    /*
     createStarForgeRecipe('submerged:prime_ingot', 'submerged:triarchium_ingot',
         [
             "minecraft:iron_ingot",
@@ -183,6 +202,7 @@ ServerEvents.recipes(event => {
             "submerged:cobblestone_ingot"
         ], 
         5, 8000, 200);
+    */
 
     //Prime Alloy Ingot
     createStarForgeRecipe('submerged:prime_alloy_ingot', 'submerged:triarchium_ingot',
@@ -204,13 +224,7 @@ ServerEvents.recipes(event => {
         ],
         5, 8000, 200);
 
-    //Star Ingot
-    createStarForgeRecipe('starforge:star_ingot', 'submerged:prime_alloy_ingot',
-        [
-            'submerged:prime_ingot',
-            'submerged:prime_alloy_ingot'
-        ],
-        5, 16000, 200);
+
             
 
 

@@ -11,6 +11,13 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: "pneumaticcraft:uv_light_box"}, "pneumaticcraft:pcb_blueprint", 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
 
+    //Prismarine Ingot
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ['submerged:corrupted_prismarine_crystal'],
+        1.5,
+        ['submerged:prismarine_ingot']
+    ).id('submerged:pneumaticcraft/prismarine_ingot')
+
     //Mini Pressure Chamber Recipe
     event.recipes.pneumaticcraft.pressure_chamber(
         ['2x pneumaticcraft:pressure_chamber_glass', '2x pneumaticcraft:pressure_chamber_interface', 'pneumaticcraft:pressure_chamber_valve', '21x pneumaticcraft:pressure_chamber_wall'],
