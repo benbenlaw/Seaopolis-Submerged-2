@@ -8,15 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1C2642FE67F5B048"
-			tasks: [{
-				id: "2A8CE9727519C0CC"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["5BAABE545BE20C51"]
 			id: "6E3E131D26508228"
 			tasks: [{
@@ -31,6 +22,11 @@
 			dependencies: [
 				"7A448042EF3B5814"
 				"666692ADAE23E036"
+				"6BF045CE2B809F03"
+				"7F21E66A1D26D77D"
+				"429ACBF47A13D43A"
+				"5F5DF36821C0983F"
+				"2DBFAE2BE248A492"
 			]
 			id: "5E75863DE9827559"
 			tasks: [{
@@ -39,16 +35,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
-		}
-		{
-			id: "05D53A1E5ED2061A"
-			tasks: [{
-				id: "250064A2E6779897"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -84,8 +71,8 @@
 				item: { count: 1, id: "submerged:create_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E3E131D26508228"]
@@ -96,8 +83,128 @@
 				item: { count: 1, id: "submerged:pneumatic_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"02DAF45DC4D31EA4"
+				"13A7F851E3960679"
+				"4ACF824BFD840B4A"
+			]
+			id: "3808AB90DCED14AB"
+			tasks: [{
+				id: "03B544050B851CEB"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "02DAF45DC4D31EA4"
+			tasks: [{
+				id: "49289F52BE159487"
+				item: { count: 1, id: "submerged:bright_dye" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "13A7F851E3960679"
+			tasks: [{
+				id: "595A04E1946DF58E"
+				item: { count: 1, id: "submerged:dark_dye" }
+				type: "item"
+			}]
+			x: 3.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "4ACF824BFD840B4A"
+			tasks: [{
+				id: "32907853B630F8D3"
+				item: { count: 1, id: "submerged:infinity_fish_food" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3808AB90DCED14AB"]
+			id: "6BF045CE2B809F03"
+			tasks: [{
+				id: "40138AE40DB49386"
+				item: { count: 1, id: "submerged:fishium_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "7F21E66A1D26D77D"
+			tasks: [{
+				id: "2A1562D828CF855E"
+				item: { count: 1, id: "submerged:gravel_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "2DBFAE2BE248A492"
+			tasks: [{
+				id: "04A66EA49EFD1435"
+				item: { count: 1, id: "submerged:digital_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "429ACBF47A13D43A"
+			tasks: [{
+				id: "5ECFC2C6488AA996"
+				item: { count: 1, id: "submerged:mekanism_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E3E131D26508228"]
+			id: "5F5DF36821C0983F"
+			tasks: [{
+				id: "2C86B62184BFFE8E"
+				item: { count: 1, id: "submerged:foregoing_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "24FAB67D08D67520"
+			tasks: [{
+				id: "07AC1C52482D8EE3"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "49750BF1F5C0A429"
+			tasks: [{
+				id: "6B6C444F69AFD2D8"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 8.0d
 		}
 	]
 }

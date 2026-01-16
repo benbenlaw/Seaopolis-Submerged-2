@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
         B: '#c:player_workstations/crafting_tables'
     }).id('strainers:compactor')
 
+    //Mushrooms 
+    strainerAuto('strainers:purified_dirt', 'minecraft:water', 'minecraft:brown_mushroom', 0.2, 0.05, 4, 10)
+    strainerAuto('strainers:purified_dirt', 'minecraft:water', 'minecraft:red_mushroom', 0.2, 0.05, 4, 10)
+
     //Force Nuggets
     strainerAuto('forcecraft:force_leaves', 'minecraft:water', 'forcecraft:force_nugget', 0.5, 0.1, 3, 10)
     strainerAuto('forcecraft:force_leaves', 'minecraft:water', '4x forcecraft:force_nugget', 0.1, 0.1, 3, 10)

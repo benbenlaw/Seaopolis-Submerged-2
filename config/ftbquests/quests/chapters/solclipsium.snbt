@@ -175,7 +175,7 @@
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -282,28 +282,14 @@
 			dependencies: ["21E415692839FCB4"]
 			id: "171B3405B0BFFFDB"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "3740AD8727850E21"
-					item: {
-						components: {
-							"minecraft:rarity": "rare"
-						}
-						count: 1
-						id: "nanomirai:synthesize_nano"
-					}
-					type: "item"
+			rewards: [{
+				id: "4C60C3DAB5B2F7CB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "4C60C3DAB5B2F7CB"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "047D13EA0586403C"
 				item: { count: 1, id: "nanomirai:nano_circuit" }
@@ -316,28 +302,14 @@
 			dependencies: ["2ADF1B88DD0F1604"]
 			id: "0BF184839535B1B6"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "65325847DA946111"
-					item: {
-						components: {
-							"minecraft:rarity": "uncommon"
-						}
-						count: 1
-						id: "nanomirai:synthesize_nano"
-					}
-					type: "item"
+			rewards: [{
+				id: "612507614CD6AFE7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
 				}
-				{
-					id: "612507614CD6AFE7"
-					item: {
-						count: 1
-						id: "shops:copper_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CAD52D89F67D6C3"
 				item: { count: 1, id: "nanomirai:synthesize_nano" }
@@ -723,6 +695,30 @@
 			}]
 			x: 0.5d
 			y: 15.0d
+		}
+		{
+			dependencies: [
+				"21E415692839FCB4"
+				"1C4F7207F56D3D24"
+			]
+			id: "61CAD4D8D4321BC3"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 3
+				id: "071F78F8B1C18ACB"
+				item: {
+					count: 1
+					id: "forcecraft:spoils_bag_t3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D6E0A138DE9145"
+				item: { count: 1, id: "forcecraft:spoils_bag_t3" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 }

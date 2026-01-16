@@ -1,0 +1,15 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "submerged:glass"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {
+    "amount": 100,
+    "id": "casting:molten_glass"
+  },
+  "results": []
+}

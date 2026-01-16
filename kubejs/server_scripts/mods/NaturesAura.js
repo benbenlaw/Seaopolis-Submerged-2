@@ -11,6 +11,9 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: 'naturesaura:bottle_two_the_rebottling'}, '#minecraft:planks', 'naturesaura:ancient_planks')
     
+    //Spoils Bag 2
+    event.recipes.naturesaura.altar('forcecraft:spoils_bag_t2', 'forcecraft:spoils_bag', 500).id('submerged:spoils_tag_t2')
+
     //Blaze Powder
     event.recipes.naturesaura.altar('6x minecraft:blaze_powder', 'minecraft:blaze_rod', 500).id('submerged:blaze_powder')
     event.recipes.naturesaura.altar('5x minecraft:bone_meal', 'iceandfire:witherbone', 500).id('submerged:bone_meal_from_witherbone')

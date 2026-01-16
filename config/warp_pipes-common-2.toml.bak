@@ -1,0 +1,82 @@
+[Client]
+	#Disable text rendering on pipes.
+	#§9[Default: false]
+	disable_text = false
+	#Display a warp cooldown message.
+	#§9[Default: false]
+	warp_cooldown_message = true
+	#Display a warp cooldown message with ticks.
+	#§cRequires "Warp Cooldown Message"
+	#§9[Default: false]
+	warp_cooldown_message_with_ticks = false
+
+[Common]
+	#Allow fast travel through Clear Warp Pipes.
+	#§9[Default: true]
+	allow_fast_travel = true
+	#Allow pipes to be unwaxed with an axe.
+	#§9[Default: false]
+	allow_pipe_unwaxing = false
+	#Warping gives the player a brief blindness effect.
+	#§9[Default: true]
+	blindness_effect = true
+	#Allows waxing pipes to disable the Pipe Bubbles button.
+	#§9[Default: true]
+	wax_disables_bubbles = true
+	#Allows waxing pipes to disable the Open/Close button.
+	#§9[Default: true]
+	wax_disables_closing = true
+	#Allows waxing pipes to disable the Rename button.
+	#§9[Default: true]
+	wax_disables_renaming = true
+	#Allows waxing pipes to disable the Water Spout button.
+	#§9[Default: true]
+	wax_disables_water_spouts = true
+	#Require creative to turn bubbles on/off.
+	#§9[Default: false]
+	require_creative_bubbles = false
+	#Require creative to open/close pipes.
+	#§9[Default: false]
+	require_creative_close_pipes = false
+	#Require creative to turn water spouts on/off.
+	#§9[Default: false]
+	require_creative_water_spouts = false
+	#Require creative to link pipes.
+	#§9[Default: false]
+	creative_wrench_pipe_linking = false
+	#Allow mobs to teleport.
+	#§9[Default: true]
+	teleport_mobs = true
+	#Allow non-living entities to teleport.
+	#§9[Default: true]
+	teleport_non_mobs = true
+	#Allow players to teleport.
+	#§9[Default: true]
+	teleport_players = true
+	#Cooldown between teleports in ticks.
+	#§6[20 ticks = 1 second]
+	#§9[Default: 50]§b
+	# Default: 50
+	# Range: 0 ~ 8000
+	warp_cooldown = 50
+	#Allow players to bucket water spouts.
+	#§9[Default: true]
+	water_spouts_bucketable = true
+
+#Warp Pipes Config
+[Debug]
+	#Enable debug selection box for Clear Warp Pipes.
+	#§9[Default: false]
+	debug_selection_box = false
+	#Enable debug selection box for Clear Warp Pipes in Creative.
+	#§cCreative Only
+	#§9[Default: true]
+	debug_selection_box_creative = true
+	#Enable debug selection box for Pipe Bubbles.
+	#§cCreative Only
+	#§9[Default: false]
+	debug_pipe_bubbles_selection_box = false
+	#Enable debug selection box for Water Spouts.
+	#§cCreative Only
+	#§9[Default: false]
+	debug_water_spout_selection_box = false

@@ -6,28 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "forcecraft:force_mitt",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "forcecraft:force_bucket",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "forcecraft:force_gem",
+          "name": "refinedstorage:quartz_enriched_iron",
           "weight": 10
         },
         {
@@ -43,7 +33,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "forcecraft:force_ingot",
+          "name": "minecraft:netherite_scrap",
           "weight": 8
         },
         {
@@ -59,33 +49,33 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "forcecraft:force_ingot",
+          "name": "submerged:grains_of_time",
           "weight": 15
         },
         {
           "type": "minecraft:item",
-          "name": "forcecraft:force_pickaxe",
+          "name": "submerged:time_fluid_bucket",
           "weight": 15
         },
         {
           "type": "minecraft:item",
-          "name": "forcecraft:force_axe",
+          "name": "minecraft:netherite_ingot",
           "weight": 15
         },
         {
           "type": "minecraft:item",
-          "name": "forcecraft:force_sword",
-          "weight": 15
+          "name": "submerged:nether_star_block",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "forcecraft:force_shears",
-          "weight": 15
+          "name": "minecraft:nether_star",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "forcecraft:force_shovel",
-          "weight": 15
+          "name": "submerged:ai_controller",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

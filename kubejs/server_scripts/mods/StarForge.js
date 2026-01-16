@@ -204,31 +204,6 @@ ServerEvents.recipes(event => {
         5, 8000, 200);
     */
 
-    //Prime Alloy Ingot
-    createStarForgeRecipe('submerged:prime_alloy_ingot', 'submerged:triarchium_ingot',
-        [
-            "mekanism:ingot_refined_glowstone",
-            "industrialforegoing:pink_slime_ingot",
-            "alltheores:brass_ingot",
-            "submerged:solclipsium_ingot",
-            "alltheores:electrum_ingot",
-            "alltheores:invar_ingot",
-            "alltheores:steel_ingot",
-            "alltheores:constantan_ingot",
-            "alltheores:enderium_ingot",
-            "enderio:vibrant_alloy_ingot",
-            "submerged:quartz_enriched_gold",
-            "enderio:dark_steel_ingot",
-            "enderio:soularium_ingot",
-            "mekanism:ingot_refined_obsidian"
-        ],
-        5, 8000, 200);
-
-
-            
-
-
-
     function createStarForgeRecipe(output, input, extraIngredients, tier, starPower, duration) {
         const formattedExtras = extraIngredients.map(ingredient => {
             

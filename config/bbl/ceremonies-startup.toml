@@ -1,4 +1,4 @@
 ["Totemic Infusion Ceremony"]
 	#List of infusion mappings in the format: from -> to
 	#Example: minecraft:gravel -> minecraft:diamond_block
-	infuseMappings = ["submerged:refined_gravel -> submerged:totemic_infused_gravel"]
+	infuseMappings = ["minecraft:dirt -> minecraft:clay", "submerged:refined_gravel -> submerged:totemic_infused_gravel"]

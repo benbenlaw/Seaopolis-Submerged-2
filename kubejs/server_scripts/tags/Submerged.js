@@ -28,6 +28,7 @@ ServerEvents.tags('item', event => {
     createResourceTag('platinum', 'alltheores:platinum_nugget', 'alltheores:platinum_ingot', 'alltheores:platinum_block')
     createResourceTag('solclipsium', 'submerged:solclipsium_nugget', 'submerged:solclipsium_ingot', 'submerged:solclipsium_block')
     createResourceTag('nickel', 'alltheores:nickel_nugget', 'alltheores:nickel_ingot', 'alltheores:nickel_block')
+    createResourceTag('silver', 'alltheores:silver_nugget', 'alltheores:silver_ingot', 'alltheores:silver_block')
 
     function createResourceTag(resource, nugget, ingot, block) {
         event.get(`submerged:resources/${resource}`).add(nugget, ingot, block);
@@ -112,6 +113,12 @@ ServerEvents.tags('block', event => {
     colors.forEach(color => {
         event.get(`bblcore:tintable/${color}`).remove(`colors:${color}_log`, `colors:${color}_wood`, `colors:${color}_stripped_log`, `colors:${color}_stripped_wood`)
     })
+
+    //Smart Crafting Table Storage
+    event.get('smartcrafting:whitelisted_storage')
+        .add('@ironchest')
+        .add('@storagedrawers')
+        .add('#c:chests')
 
     //Roomopolis Non Counted Blocks
     event.get('roomopolis:not_needed_for_block_requirements').add(['naturesaura:nature_altar'])

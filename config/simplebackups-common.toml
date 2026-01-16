@@ -3,7 +3,7 @@ enabled = true
 #Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #Defines the backup type.
 #- FULL_BACKUPS - always creates full backups
-#- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup
+#- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup !!! You need to adjust fullBackupTimer properly, otherwise you may lose a lot of your backup (or use the experimental setting) !!!
 #- MODIFIED_SINCE_FULL - saves all files which changed after the last full backup
 #Allowed Values: FULL_BACKUPS, MODIFIED_SINCE_LAST, MODIFIED_SINCE_FULL
 backupType = "FULL_BACKUPS"
@@ -48,6 +48,14 @@ createSubDirs = true
 #Use an internal tick counter instead of the real world time. The value of the timer will be converted to ticks. When the timer is over, the backup will be created.
 #Keep in mind that lagging servers will result in larger gaps between two backups, e.g. 10 FPS in average will result in double the time set between backups.
 useTickCounter = false
+#How many backups should be created after the last player left? Set to 0 to disable.
+# Default: 1
+# Range: > 0
+noPlayerBackupCount = 1
+#The time between two backups when no player is online. 0 means the same as the "timer" setting.
+# Default: 0
+# Range: > 0
+noPlayerBackupTimer = 0
 
 #WARNING This configuration should stay as default if backups are not monitored properly.
 [error_handling]

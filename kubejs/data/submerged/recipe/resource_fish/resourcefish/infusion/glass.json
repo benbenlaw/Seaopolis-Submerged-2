@@ -1,0 +1,13 @@
+{
+  "type": "resourcefish:fish_infusing",
+  "chance": 0.5,
+  "created_fish": "submerged:glass",
+  "duration": 100,
+  "fish": "resourcefish:sand",
+  "inputs": [
+    {
+      "count": 64,
+      "item": "minecraft:glass"
+    }
+  ]
+}

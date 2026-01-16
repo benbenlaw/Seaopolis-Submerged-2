@@ -26,6 +26,10 @@ ambientGasCollector = 100
 # Default: 50
 # Range: 0 ~ 9223372036854775807
 largeRotaryCondensentrator = 50
+#Energy per operation in Joules of: Large Chemical Infuser
+# Default: 100
+# Range: 0 ~ 9223372036854775807
+largeChemicalInfuser = 100
 
 #Settings for configuring Replicator Energy Usage
 [replicator]

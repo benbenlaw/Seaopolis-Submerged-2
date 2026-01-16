@@ -23,8 +23,10 @@
         "BACK": "INPUT",
         "LEFT": "INPUT"
       },
+      "max_output": 0,
+      "mode": "input",
       "id": "chemical",
-      "capacity": 10000
+      "capacity": 100000
     },
     {
       "type": "custommachinery:contraption",

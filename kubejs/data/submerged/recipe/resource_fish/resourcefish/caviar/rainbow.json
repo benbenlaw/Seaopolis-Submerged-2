@@ -1,0 +1,15 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "submerged:rainbow"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {
+    "amount": 25,
+    "id": "submerged:liquid_rainbow"
+  },
+  "results": []
+}

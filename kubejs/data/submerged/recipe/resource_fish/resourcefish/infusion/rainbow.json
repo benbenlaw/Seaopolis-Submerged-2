@@ -1,0 +1,21 @@
+{
+  "type": "resourcefish:fish_infusing",
+  "chance": 1.0,
+  "created_fish": "submerged:rainbow",
+  "duration": 100,
+  "fish": "submerged:glass",
+  "inputs": [
+    {
+      "count": 1,
+      "item": "submerged:infinity_fish_food"
+    },
+    {
+      "count": 1,
+      "item": "submerged:bright_dye"
+    },
+    {
+      "count": 1,
+      "item": "submerged:dark_dye"
+    }
+  ]
+}

@@ -8,6 +8,17 @@ ServerEvents.recipes(event => {
     event.remove({id: 'forcecraft:force_ingot_from_iron'})
     event.remove({id: 'forcecraft:golden_power_source'})
 
+    //Spoils Bag 3
+    event.shaped('forcecraft:spoils_bag_t3', ['AAA', 'ABA', 'AAA'], {
+        A: 'forcecraft:spoils_bag_t2',
+        B: 'nanomirai:reinforced_obsidian'
+    }).id('submerged:spoils_bag_t3_from_nanomirai')
+
+    event.shaped('forcecraft:spoils_bag_t3', ['AAA', 'ABA', 'AAA'], {
+        A: 'forcecraft:spoils_bag_t2',
+        B: 'ars_nouveau:sourcestone'
+    }).id('submerged:spoils_bag_t3_from_ars_nouveau')
+
     //Force Shears
     event.shaped('forcecraft:force_shears', [' A', 'A '], {
         A: '#submerged:pity_frame_logs'
@@ -56,6 +67,9 @@ ServerEvents.recipes(event => {
         A: 'forcecraft:force_gem',
         B: 'minecraft:book'
     }).id('forcecraft:upgrade_tome')
+
+    //Spoils Baf 2
+    addFreezingRecipe('forcecraft:spoils_bag', 'forcecraft:spoils_bag_t2')
 
     //Glowstone Dust
     addGrindingRecipe('forcecraft:force_nugget', 'minecraft:glowstone_dust')

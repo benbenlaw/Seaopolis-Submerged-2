@@ -57,8 +57,17 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:certus_ingot').tag(['c:ingots/certus_infused', 'c:ingots'])
     event.create('submerged:prismarine_ingot').tag(['c:ingots/prismarine_infused', 'c:ingots'])
     
+    //End Game Ingots
     event.create('submerged:create_ingot')
     event.create('submerged:pneumatic_ingot')
+    event.create('submerged:infinity_fish_food')
+    event.create('submerged:bright_dye')
+    event.create('submerged:dark_dye')
+    event.create('submerged:fishium_ingot')
+    event.create('submerged:gravel_ingot')
+    event.create('submerged:digital_ingot')
+    event.create('submerged:mekanism_ingot')
+    event.create('submerged:foregoing_ingot')
     
     //Infinity Drives
     event.create("submerged:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")

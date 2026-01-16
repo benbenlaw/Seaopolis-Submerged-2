@@ -414,7 +414,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["554308CA0151F99D"]
@@ -799,6 +799,29 @@
 			}]
 			x: -2.0d
 			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6A701407E8948349"
+				"05609948CC4023E4"
+			]
+			id: "3B12F9A39B40E431"
+			rewards: [{
+				count: 3
+				id: "5067E64E53318EE9"
+				item: {
+					count: 1
+					id: "forcecraft:spoils_bag_t2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D719039E1B22AA3"
+				item: { count: 1, id: "forcecraft:spoils_bag_t2" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
 		}
 	]
 }

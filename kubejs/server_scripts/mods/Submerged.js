@@ -2,9 +2,18 @@
 
 ServerEvents.recipes(event => {
 
+    //Remove
+    event.shapeless('ars_nouveau:planarium[block_entity_data={id:"ars_nouveau:planarium",key:"ars_nouveau:ca4529e7-c1e9-445f-9feb-51f0e1cb7b26",lastUpdated:13332551L,name:"Dim"}]', 'stick')
+
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
  
+    //Dark Dye
+    event.shapeless('submerged:dark_dye', ['submerged:prime_ingot', 'minecraft:black_dye', 'minecraft:brown_dye', 'minecraft:light_gray_dye', 'minecraft:gray_dye', 'minecraft:green_dye', 'minecraft:cyan_dye', 'minecraft:blue_dye', 'minecraft:red_dye']).id('submerged:dark_dye')
+
+    //Bright Dye
+    event.shapeless('submerged:bright_dye', ['submerged:prime_ingot', 'minecraft:yellow_dye', 'minecraft:lime_dye', 'minecraft:purple_dye', 'minecraft:orange_dye', 'minecraft:pink_dye', 'minecraft:white_dye', 'minecraft:magenta_dye', 'minecraft:light_blue_dye']).id('submerged:bright_dye')
+
     //Infinity Forge
     event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:infinity_forge"]', ['AAA', 'CBC', 'AAA'], {
         A: 'starforge:star_ingot',

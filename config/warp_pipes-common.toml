@@ -80,6 +80,9 @@
 		#Require creative to turn water spouts on/off.
 		#§9[Default: false]
 		require_creative_water_spouts = false
+		#Allow warp pipes to spawn mobs.
+		#§9[Default: true]
+		warp_pipe_spawns_mobs = true
 
 	[common.water_spouts]
 		#Allow players to bucket water spouts.

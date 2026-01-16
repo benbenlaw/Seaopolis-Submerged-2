@@ -24,13 +24,15 @@ ServerEvents.recipes(event => {
     addSimpleStamperRecipe('enderio:dark_steel_ingot', 4, 'c:molds/gear', 'enderio:dark_bimetal_gear')
     addSimpleStamperRecipe('enderio:energetic_alloy_ingot', 4, 'c:molds/gear', 'enderio:energized_gear')
     addSimpleStamperRecipe('forcecraft:force_ingot', 4, 'c:molds/gear', 'forcecraft:force_gear')
+    addSimpleStamperRecipe('ae2:certus_quartz_crystal', 1, 'c:molds/ingot', 'submerged:certus_ingot')
+    addSimpleStamperRecipe('submerged:corrupted_prismarine_crystal', 1, 'c:molds/ingot', 'submerged:prismarine_ingot')
 
     //Cobblestone Ingot
     addSimpleStamperRecipe('compressedblocks:c5_cobblestone', 1, 'c:molds/ingot', 'submerged:cobblestone_ingot')
 
     //Recycler Recipes
-    addRecyclerRecipe('#c:stones', 0.25)
-    addRecyclerRecipe('#c:cobblestones', 0.25)
+    addRecyclerRecipe('#c:stones', 1.0)
+    addRecyclerRecipe('#c:cobblestones', 0.75)
 
     //Nuclear Waste
     addOxidizingRecipe('mekanism:nuclear_waste', 25, 'alltheores:uranium_nugget')

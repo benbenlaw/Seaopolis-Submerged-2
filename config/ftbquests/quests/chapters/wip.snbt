@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip"
+	group: "27F4CFB05BEDC0B5"
+	id: "4F9BE096F3CA2355"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "36D7432117A873B2"
+		tasks: [{
+			id: "203F9BABE6DA2782"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 1.0d
+	}]
+}

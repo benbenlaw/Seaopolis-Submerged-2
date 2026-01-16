@@ -1,4 +1,4 @@
-69 possible biomes found:
+70 possible biomes found:
 - "ars_nouveau:archwood_forest"
 - "minecraft:badlands"
 - "minecraft:bamboo_jungle"
@@ -30,6 +30,7 @@
 - "minecraft:grove"
 - "minecraft:ice_spikes"
 - "minecraft:jagged_peaks"
+- "ars_nouveau:jar"
 - "minecraft:jungle"
 - "minecraft:lukewarm_ocean"
 - "minecraft:lush_caves"

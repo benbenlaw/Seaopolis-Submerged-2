@@ -1,9 +1,11 @@
 ["Smart Crafting Config"]
-	#The range in blocks to check for storage blocks when crafting. Higher valves will take more time, Default is 3.
-	# Default: 3
+	#The range in blocks to check for storage blocks when crafting. Higher valves will take more time, Default is 5.
+	# Default: 5
 	# Range: 1 ~ 64
 	storageRangeCheck = 3
-	#The range in blocks to check for stonecutter blocks when crafting. Higher valves will take more time, Default is 3.
-	# Default: 3
+	#The range in blocks to check for stonecutter blocks when crafting. Higher valves will take more time, Default is 5.
+	# Default: 5
 	# Range: 1 ~ 64
 	stonecutterRangeCheck = 3
+	#List of allowed storage blocks that the smart crafting table can use.
+	"Allowed Storage Blocks" = ["minecraft:chest"]

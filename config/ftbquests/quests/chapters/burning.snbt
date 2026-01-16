@@ -694,5 +694,24 @@
 			x: -5.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["5159C74515CE1A17"]
+			id: "046A3F1DE40791E4"
+			rewards: [{
+				id: "48C99F853CBC364F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09BA091D5AAB620A"
+				item: { count: 1, id: "ftbquests:screen_1" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
 	]
 }

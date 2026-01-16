@@ -776,5 +776,117 @@
 			x: -7.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "315E280FF169EBC6"
+			tasks: [{
+				id: "42FD3FA251D96BE2"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["315E280FF169EBC6"]
+			id: "21CFDB3770C538AE"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "7979BED983B8358D"
+				item: {
+					count: 1
+					id: "forcecraft:spoils_bag_t2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49093F2D588D5C41"
+				item: { count: 1, id: "forcecraft:spoils_bag_t2" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21CFDB3770C538AE"]
+			id: "70B4B443EDE3A251"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "59EDC14F44C85A9A"
+				item: {
+					count: 1
+					id: "forcecraft:spoils_bag_t3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57304AEDC4F72E5C"
+				item: { count: 1, id: "forcecraft:spoils_bag_t3" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70B4B443EDE3A251"]
+			id: "3C6430DB01C849FB"
+			invisible: true
+			rewards: [{
+				id: "4A6417C402DBD7CB"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77F8D8EC8AEBDF2A"
+				item: { count: 1, id: "forcecraft:life_card" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70B4B443EDE3A251"]
+			id: "58DFD830F6DFBBB4"
+			invisible: true
+			rewards: [{
+				id: "308E03B0647317DA"
+				item: {
+					count: 1
+					id: "simplehats:mimic_head_dark"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "092514A22B713935"
+				item: { count: 1, id: "forcecraft:darkness_card" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70B4B443EDE3A251"]
+			id: "465E832BA3B49E68"
+			invisible: true
+			rewards: [{
+				id: "1FC9D8B397758CF8"
+				item: {
+					count: 1
+					id: "reliquary:destruction_catalyst"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65AD05114B090C84"
+				item: { count: 1, id: "forcecraft:undeath_card" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
 	]
 }

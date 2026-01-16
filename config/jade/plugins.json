@@ -74,6 +74,9 @@
     "camo": true,
     "semiblock": true
   },
+  "nanomirai": {
+    "synthesize_display": true
+  },
   "fluiddrawerslegacy": {
     "controller": true,
     "fluiddrawer": true

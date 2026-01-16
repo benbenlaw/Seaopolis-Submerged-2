@@ -12,6 +12,65 @@ Do Not Update Extgended AE
 ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
     to decrease to 2 ticks instead of 1 which effectively doubles performace 
 
+SPOIL BAGS
+
+# B7.0
+- VAT no longer creates infinite fluids when output tank becomes full (Thanks @EnderIO devs, update EnderIO)
+
+
+
+# B6.0
+**---Mods---**
+- Updated Mods
+- Added Spark
+- Added Nerunia
+- Added Emojiful
+- Added Fast IP Ping
+- Added Better Ping Display
+- Added Leaky
+- Added Too Fast
+- Added Chunk Sending
+- Added Alternate Current
+- Added Durability Tooltip
+- Added Disconnect Packet Fix
+- Added Super Factory Manager
+
+**---Fixes---**
+- Mini Pressure Chamber recipe for Infused Tainted Alloy now gives 2 ingots 
+- Removed old prime ingot recipes
+- Nano Assembler now support pipes and hoppers following vanilla furnace (Thanks @BlueSheep2804 )
+- Dragging fluids into exporter from jei now saves the filter
+- Fixed Hmm quest with NanoMirai and Ars Nouveau
+- Fixed Nether Portal Sphere using the wrong glass and not using strucutre void in its file
+- Fixed connected texture resource pack to work with latest colors version
+- Fixed Pedestal and Star Forge not dropping its inventory when broken 
+
+
+**---Changes---**
+- Updated Yuki Textures
+- Disabled world gen for ores on a per mod basis instead of using BBL Compat ore remove, this should increase loading times and prevent some world gen crashes 
+- If there are any ore still spawning in new chunks let me know 
+- Added Glass Fish, produces Molten Glass
+- Added Bright and Dark Dye
+- Added Infinity Fish Food
+- Added Rainbow Fish made with Bright Dye, Dark Dye and Infinity Fish Food, Produces Liquid Rainbow
+- Added Fishium Ingot (END GAME ITEM)
+- Added Digital Ingot (END GAME ITEM)
+- Added Mekanism Ingot (END GAME ITEM)
+- Changed Vanillarite color
+- Added Certus Quartz to Certus Ingor in Stamper
+- Added Corrupted Prismarine Crystal to Prismarine Ingot in Stamper
+- Added Quartz Enriched Iron recipe in Alloy Smelter
+- Recycler recipes now have 100% for stone to scrap and a 75% chance from cobblestone to scrap
+- Changed Flight Block recipe to use Aluminium Ingots, added quest for this
+- Changed Pipe Connector recipe, added quest for this
+- Added Task Screen Quest
+- Red and Brown Mushrooms now obtainable through Purified Dirt straining
+- Smart Crafting Table now works with Storage Drawers and Iron Chests
+- Spoils Bag T2 and T3 now obtainable, loot tables for these change to fit the porgression they are unlocked in
+- Smart Crafting Table now respects FTB Chunks claims (Portable Crafting Table can now be un banned from the server)
+- Added Strainer Setup quest to explain how to use 
+
 # B5.1
 ** IMPORTANT **
 This update has recipe changes for Printed Calculation Circuit, Printed Engineering Circuit and Printed Concurrent Circuit 
@@ -21,6 +80,7 @@ This update has recipe changes for Printed Calculation Circuit, Printed Engineer
 
 **---Fixes---**
 - Removed old Prime Ingot recipe
+- Ender Fish Food shows in JEI (UPDATED RESOURCE FISH)
 
 # B5.0
 ** IMPORTANT **
