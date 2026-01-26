@@ -9,13 +9,44 @@ Do Not Update Relics (BETA VERSION) Crashes on startup
 Do Not Update More Mek
 Do Not Update Extgended AE
 
-ROUTERS - Performace, this is on the back burner, worst case if becomes an issue we can use config 
-    to decrease to 2 ticks instead of 1 which effectively doubles performace 
-
-SPOIL BAGS
+ENDER IO CHANGES TO A LOT OF RESOURCE 
+energetic alloy glowstone removed from recipe maybe ok?
 
 # B7.0
-- VAT no longer creates infinite fluids when output tank becomes full (Thanks @EnderIO devs, update EnderIO)
+**---Mods---**
+- Updated NeoForge to 21.1.218
+- Updated Mods
+- Removed KubeJS enderio 
+- Removed Sophisticated Core
+- Added Atlantis 
+
+**---Fixes---**
+- Lan and Essistials should now work if you choose to use it 
+- VAT no longer creates infinite fluids when output tank becomes full
+- Removed dev testing in world recipe
+- Added Dragons Breath Bucket recipe using 4 dragons breath and a bucket
+- Looting swords no longer prevent head drops from the ender dragon
+- Some issues with Fluid Drawers have been fixed
+- Alloy quartz enriched iron recipe now makes 4 ingots
+- Fixed Silver quest not being finished 
+
+**---Changes---**
+- Updated Yuki Textures
+- Forcecraft spoils bags maybe slightly different as dungeon loot is no longer included 
+- Removed Water Purifier Block and Air Purifier Block
+- Added Water Purifier and Air Purifier 
+- Added Atlantis Key
+- Reduced waiting time for flare emergency item
+- Added information about emergency item
+- Scrap box no longer made inside the osmium compressor now enrichment recipe instead 
+- Infusion recipes that create fish like Iron, Diamond ect now require 2 stacks of the resource instead of 1 and a stack of stone
+- These fish (where possible) now create there ore version not the resource directly eg Iron Fish creates Iron Ore not Iron Ingot
+- This change I think makes more sense as the ore can be processed in different ways depending on the modpack and mods installed
+- More changes to specifically this type of resource fish may come in the future
+- Casting recipes for ender io ingots and alloys have been update to the new recipes from enderio 
+- Changed Infinity Forge working sound
+- More work on the Endgame as always please suggest what you wanna see from the end game at the moment atlantis might be the end of the pack
+
 
 
 

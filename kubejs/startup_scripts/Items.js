@@ -45,6 +45,9 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:prime_ingot').tag(['c:ingots/prime', 'c:ingots'])
     event.create('submerged:prime_alloy_ingot').tag(['c:ingots/prime_alloy', 'c:ingots'])
 
+    event.create('submerged:prime_nugget').tag(['c:nuggets/prime', 'c:nuggets'])
+    event.create('submerged:prime_alloy_nugget').tag(['c:nuggets/prime_alloy', 'c:nuggets'])
+
     event.create('submerged:logic_processor').tag('submerged:logic_processors').texture('ae2:item/logic_processor')
     event.create('submerged:calculation_processor').tag('submerged:calculation_processors').texture('ae2:item/calculation_processor')
     event.create('submerged:engineering_processor').tag('submerged:engineering_processors').texture('ae2:item/engineering_processor')
@@ -56,6 +59,9 @@ StartupEvents.registry('item', (event) => {
 
     event.create('submerged:certus_ingot').tag(['c:ingots/certus_infused', 'c:ingots'])
     event.create('submerged:prismarine_ingot').tag(['c:ingots/prismarine_infused', 'c:ingots'])
+   
+    event.create('submerged:water_purifier')
+    event.create('submerged:air_purifier')
     
     //End Game Ingots
     event.create('submerged:create_ingot')
@@ -89,6 +95,22 @@ StartupEvents.registry('item', (event) => {
         event.create(`submerged:${color}_terracotta_rocks`).tag('submerged:terracotta_rocks')
         event.create(`submerged:${color}_dirt_pile`).tag('submerged:dirt_pile')
     })
+
+    //Atlantis Sphere
+    event.create('submerged:atlantis_sphere', 'roomopolis_key')
+        .templateId('submerged:atlantis')
+        .keyBlock('#submerged:terracotta_lock')
+        .heightAdjustment(0)
+        .frontAdjustment(-1)
+        .doorLeft(1) 
+        .doorRight(1)
+        .doorUp(1)
+        .doorDown(1)
+        .consumeKey(true)
+        .removeDoor(true)
+        .blocksRequired(false)
+        .overrideExistingBlocks(true)
+        .replaceWaterLoggedBlocks(true)
 
     //Nether Brick Sphere
     event.create('submerged:shrieking_sphere', 'roomopolis_key')

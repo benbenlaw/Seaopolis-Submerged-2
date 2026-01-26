@@ -20,6 +20,13 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'starforge:star_forge'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     event.replaceInput({id: 'starforge:pedestal'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     
+    //Drop of Atlantis
+    createStarForgeRecipe('atlantis:drop_of_atlantis', 'starforge:star_gem', [
+        'submerged:essence_of_the_sea',
+        'submerged:prime_alloy_ingot',
+        'submerged:prime_nugget',
+    ], 5, 8000, 100);
+
     //Star Gem
     createStarForgeRecipe('starforge:star_gem', 'submerged:triarchium_gem', [], 5, 16000, 200);
 
@@ -182,27 +189,6 @@ ServerEvents.recipes(event => {
         ],
         4, 1000, 100);
 
-    //Prime Ingot (OLD)
-    /*
-    createStarForgeRecipe('submerged:prime_ingot', 'submerged:triarchium_ingot',
-        [
-            "minecraft:iron_ingot",
-            "minecraft:copper_ingot",
-            "minecraft:gold_ingot",
-            "alltheores:aluminum_ingot",
-            "alltheores:osmium_ingot",
-            "alltheores:lead_ingot",
-            "alltheores:nickel_ingot",
-            "alltheores:silver_ingot",
-            "alltheores:tin_ingot",
-            "alltheores:uranium_ingot",
-            "alltheores:zinc_ingot",
-            "alltheores:iridium_ingot",
-            "alltheores:platinum_ingot",
-            "submerged:cobblestone_ingot"
-        ], 
-        5, 8000, 200);
-    */
 
     function createStarForgeRecipe(output, input, extraIngredients, tier, starPower, duration) {
         const formattedExtras = extraIngredients.map(ingredient => {

@@ -3,10 +3,12 @@
 ServerEvents.recipes(event => {
 
     //Spoil Bag Opener
+
     event.recipes.custommachinery.custom_machine("submerged:spoil_bag_opener", 100)
         .requireItem("forcecraft:spoils_bag")
         .lootTableOutput("forcecraft:spoils/tier1")
 
+        
     event.recipes.custommachinery.custom_machine("submerged:spoil_bag_opener", 100)
         .requireItem("forcecraft:spoils_bag_t2")
         .lootTableOutput("forcecraft:spoils/tier2")
@@ -14,6 +16,7 @@ ServerEvents.recipes(event => {
     event.recipes.custommachinery.custom_machine("submerged:spoil_bag_opener", 100)
         .requireItem("forcecraft:spoils_bag_t3")
         .lootTableOutput("forcecraft:spoils/tier3")
+        
 
     //Mini Pressure Chamber recipe generator
     addPressureChamberRecipe(2, ["minecraft:iron_block"],["pneumaticcraft:compressed_iron_block"], [], [])
@@ -71,6 +74,31 @@ ServerEvents.recipes(event => {
         return cmRecipe
     }
 
+    //Cured 
+    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
+        .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
+        .requireItem("submerged:water_purifier")
+        .requireItem("submerged:air_purifier")
+        .requireItem("submerged:prime_alloy_ingot")
+        .requireItem('64x nanomirai:repair_nano')
+        .requireItem('nanomirai:support_nano[rarity="epic"]')
+        .requireFluid("32000x submerged:salt_water")
+        .requireChemical('32000x mekanism:oxygen')
+        .runCommandOnEnd("tag @p add cured")
+        .id('submerged:infinity_forge/cured_nano')
+
+    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
+        .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
+        .requireItem("submerged:water_purifier")
+        .requireItem("submerged:air_purifier")
+        .requireItem("submerged:prime_alloy_ingot")
+        .requireItem('64x nanomirai:repair_nano') 
+        .requireFluid("32000x submerged:salt_water")
+        .requireChemical('32000x mekanism:oxygen')
+        .requireSource('8000')
+        .runCommandOnEnd("tag @p add cured")
+        .id('submerged:infinity_forge/cured_ars')
+
     //Prime Alloy Ingot
     event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
         .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
@@ -102,6 +130,17 @@ ServerEvents.recipes(event => {
     //Foregoing Ingot
 
     //WIP
+
+    //Foregoing Ingot
+    event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
+        .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
+        .requireItem("64x industrialforegoing:pink_slime_ingot")
+        .requireItem("64x pneumaticcraft:plastic")
+        .requireItem('submerged:prime_ingot')
+        .requireFluid("32000x industrialforegoing:ether_gas")
+        .requireEnergyPerTick(50000)
+        .produceItem("submerged:foregoing_ingot")
+        .id('submerged:infinity_forge/foregoing_ingot')
 
     //Mekanism Ingot
     event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)

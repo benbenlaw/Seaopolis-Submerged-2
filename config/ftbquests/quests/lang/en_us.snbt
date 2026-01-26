@@ -28,7 +28,7 @@
 	chapter.7243EC6077298F8D.title: "Bubbles"
 	chapter.7E591E99954B9956.title: "Captured"
 	chapter_group.1DC99ACF42B51C2F.title: "Automation"
-	chapter_group.27F4CFB05BEDC0B5.title: "Endgame"
+	chapter_group.27F4CFB05BEDC0B5.title: "???"
 	chapter_group.4612AF3A2F3FA9D5.title: "Submerged"
 	chapter_group.621AB11E96FBBC5F.title: "Souls"
 	chapter_group.64828B4E59DB0E48.title: "Expansion"
@@ -251,6 +251,7 @@
 	quest.1A896551F4F1F135.quest_desc: ["industrial forgoing, more create and pnematiccraft, ae2 and rs, more naturesaura a splash, tiab"]
 	quest.1AA8B7DC2F4CFECC.quest_desc: ["&lCertus Quartz Dust&r can be melted in a &lCasting Controller&r into &lMolten Certus Quartz&r then transformed into &lCertus Quartz Crystals&r in the &lSolidifier&r"]
 	quest.1AF8F947F714C57B.quest_desc: ["Can be made in various ways"]
+	quest.1AFB6DF4189A9693.title: "Silver"
 	quest.1B15DCDB622B8B9F.quest_desc: ["Like the &lAnimal Net&r, This can be used inside the &lMob Duplicator&r"]
 	quest.1B2C7E1A23DB9F8A.quest_desc: ["What could it be?"]
 	quest.1B57EAECDC1BB5E4.quest_desc: ["A sword can be used on &lLeaves&r to get &lLeaf Piles&r"]
@@ -320,6 +321,7 @@
 	quest.2341096354E7F931.quest_desc: ["The best &lStar&r"]
 	quest.2368948B16A73C16.quest_desc: ["Block of &lDried Kelp&r"]
 	quest.236A9FFF9F537BDF.quest_desc: ["A full set protects from the &2&lTOXIC&r&r air above the water"]
+	quest.239E2865C21EA86D.quest_desc: ["Finally im cured, &lToxic Water&r and &lToxic Air&r no longer effect me"]
 	quest.23B625DECADD0BD4.quest_desc: ["Made on the &lStar Forge&r"]
 	quest.2401B5B7F6D93BF6.quest_desc: ["A strong key"]
 	quest.2418DF38A8E3D919.quest_desc: ["Compressed 2x2 and 3x3 &lCrafting Recipes&r like &lStone Pebbles&r to &lCobblestone&r"]
@@ -330,6 +332,7 @@
 	quest.24806A84BFB79D8C.title: "1 Hour Playtime"
 	quest.24815AD753E56681.quest_desc: ["The heart of casting"]
 	quest.24D11865C7E087D9.quest_desc: ["&lPurified Sand&r may contain useful loot"]
+	quest.24D70EF42D32C32A.quest_desc: ["A drop of something not of this world..."]
 	quest.24EFBEA5DD8BFFC6.quest_desc: ["Can be used to auto place and break blocks. Enable &lFake Players&r in &lFTB&r"]
 	quest.24EFBEA5DD8BFFC6.title: "Breaking and Placing"
 	quest.250A1F551823F2B1.quest_desc: ["&lSubmerged 2&r can be played with &lShaders&r. Open your&l Video Settings&r and click &lShader Packs&r on the top right!"]
@@ -394,6 +397,7 @@
 	quest.2E8998E7BEA8561E.quest_desc: ["Drops from &lKelp Resource Fish&r"]
 	quest.2E943CC38971E197.quest_desc: ["Made inside the &lSlice'N'Splice&r"]
 	quest.2E99980DBDED51CC.quest_desc: ["The next tier of &lMachine Frame&r"]
+	quest.2E9C62FAA8784420.quest_desc: ["Creates a &lPortal Frame&r for &lAtlantis&r"]
 	quest.2EA1F5D879D8AD5C.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
 	quest.2EF5C929A8D42C3B.quest_desc: ["Processed &lFluix Crystal&r"]
 	quest.2EF93F995F792FFB.quest_desc: ["From &lMolten Certus Quartz&r"]
@@ -470,7 +474,7 @@
 	quest.374B2CA1A1A76F3B.quest_desc: ["&lTotemic Water&r can be used instead of manually starting the &lInfusion of the Totem&r ceremony"]
 	quest.374B2CA1A1A76F3B.title: "More Totemic Gravel"
 	quest.37901ADB320939A4.quest_desc: ["Everyone needs a lot of &lPower&r"]
-	quest.3808AB90DCED14AB.quest_desc: ["An &lInfused&r &lGlass Fish&r"]
+	quest.3808AB90DCED14AB.quest_desc: ["From a &lGlass Fish&r infused with &lBright Dye&r, &lInfinity Fish Food&r and &lDark Dye&r"]
 	quest.380A9FFA97186521.quest_desc: ["&lUranium&r can be converted into &lNuclear Waste&r"]
 	quest.385909B22B2D74E3.quest_desc: ["Crafting &l4 Conecting Glass&r together make the &lClear Glass&r"]
 	quest.38EECA0C035B2432.quest_desc: ["Osmium "]
@@ -557,6 +561,8 @@
 	quest.42692F8642F33844.title: "Terracotta"
 	quest.427A8085194B782A.quest_desc: ["The &lCow Summon Ceremony&r can be used to summon 2 &lCows&r"]
 	quest.429ACBF47A13D43A.quest_desc: ["A &lMekanism Ingot&r"]
+	quest.42AF6989ACCE264A.quest_desc: ["By filling every&l Portal Frame&r with an &lOrb of Atlantis&r a portal will open!"]
+	quest.42AF6989ACCE264A.title: "Enter Atlantis"
 	quest.42BDAF333A0019BB.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.433D889DEFC9E899.quest_desc: ["Its still not finished! Using &lCreate Spout&r recipe is less efficient than &lPneumatic Craft&r &lEtching&r recipe"]
 	quest.434900018C3E84D8.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -589,6 +595,7 @@
 	quest.454C4B72C4BD8B5D.quest_desc: ["Made with &lWarden Tears&r and &lAncient Gravel&r"]
 	quest.4566350060E4C2D2.quest_desc: ["Somewhere in the world you can find a &lBetter Stronghold&r. Locate the portal"]
 	quest.456B94FEDD0BAFE7.quest_desc: ["Obtained through straining"]
+	quest.45A09622D09CC932.quest_desc: ["Pressing \"U\" on the &lWater Purifier&r or the &lAir Purifier&r will show an &lInfinity Forge&r recipe that will cure you! This recipe only cures the player closest to the &lInfinity Forge&r"]
 	quest.45B09F8E3743944D.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.45B8AF674601C420.quest_desc: ["&lImporting&r and &lExporting&r into the &lPressure Chamber&r"]
 	quest.45D8C9F4244DBA51.quest_desc: ["Made from &lDried Kelp Block&r and &lKelp&r"]
@@ -607,6 +614,7 @@
 	quest.46FA3AF899C8ADEF.quest_desc: ["A better &lCap&r replaces previous tier. Allows for &lTier 3 Star Forge&r recipes"]
 	quest.47685A5D46F0CFA2.quest_desc: ["Melting &lRaw Ores&r into there &lMolten&r version, Then use the &lSolidifier&r to create &lCopper&r"]
 	quest.47685A5D46F0CFA2.title: "Copper"
+	quest.47781083FA72198E.quest_desc: ["Used to create the &lAtlantis Sphere Key&r"]
 	quest.478F95B10D884601.quest_desc: ["Placing &lForce Bricks&r in &lThe Nether&r will slowly convert them into &lNether Force Bricks&r"]
 	quest.4791A58937CDFD40.quest_desc: ["Let there be light"]
 	quest.47C8DAEDA3918B23.quest_desc: ["Give the &lBad Omen&r effect, increases difficulty of &lTrial Spawners&r. Defeating a &lTrial Spawner&r with &lBad Omen&r will unlock a new &lTrial Sphere&r"]
@@ -808,6 +816,8 @@
 		"Welcome to &lSubmerged 2&r thanks for downloading."
 		""
 		"Please make sure you create your own &lSphere&r for your team before starting using &l/skyblock gui&r or using the &lFull Stop&r button"
+		""
+		"If you lose your &lFlare&r there is an &lEmergency Items &rbutton at the top right of the &lQuest Book&r that will give you a new one"
 	]
 	quest.5E50DF743F7E8876.quest_desc: ["When used in a &lForce Furnace&r allows for &lGrinding &rrecipes"]
 	quest.5E577393A44F6AE9.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -823,6 +833,7 @@
 	quest.5F18F4FDCF219439.quest_desc: ["A better tier of &lMesh&r "]
 	quest.5F3EF864CF6D33A7.quest_desc: ["Buying those &lFlares,&r give more color options"]
 	quest.5F4460BFEFEE379D.quest_desc: ["Made inside the &lPressure Chamber&r or through &lSequenced Assembly&r"]
+	quest.5F5DF36821C0983F.quest_desc: ["A &lForegoing Ingot&r"]
 	quest.5FC6E9DB090F4FCC.quest_desc: ["There's a bigger &lSingularity Tank?&r"]
 	quest.5FC6E9DB090F4FCC.quest_subtitle: "Shh Secret Quest..."
 	quest.5FCE425776F60E87.quest_desc: ["When placed inside a &lInfinty Storage Drive Bay&r provides an infinite amount of &lCobblestone&r, connect to &lRS&r with &lExternal Storage&r and &lAE2&r with &lME Storage Bus&r. &lRouters,&r &lPipez&r and most mods can extract from this block"]
@@ -869,6 +880,7 @@
 	quest.64488E47AF1093C8.quest_desc: ["Placing &lSolclipsium Ingots&r inside a &lImbuement Chamber&r will create &lSource Gems&r"]
 	quest.645690194ABB48BD.quest_desc: ["From &lNetherrack Caviar&r"]
 	quest.645690194ABB48BD.title: "Netherrack"
+	quest.650143C124B57BAB.quest_desc: ["Used as part of the recipe to cure you from &lToxic Air&r"]
 	quest.653DD2FF64F6A587.quest_desc: ["Crafted &lPrismarine&r"]
 	quest.6550F6927357E819.quest_desc: ["When used on &lMulch&r creates &lPurifying Water&r"]
 	quest.65ADA15C99F20516.quest_desc: ["Processed Ore"]
@@ -943,6 +955,7 @@
 	quest.6BB4F0B9A909C93F.quest_desc: ["Another way to create items. Requires an &lArcane Core&r underneath to work"]
 	quest.6BC6E76718B9571E.quest_desc: ["&lTotemic Infused Water&r will help"]
 	quest.6BC6E76718B9571E.title: "Totemic Gravel"
+	quest.6BF045CE2B809F03.quest_desc: ["A very &lFishy Ingot&r"]
 	quest.6BF045CE2B809F03.quest_subtitle: "Recipe not final"
 	quest.6C02564985E87DE8.quest_desc: ["Replacing the &lWater&r above &lTeary Gravel&r will stop producing resources and start producing &lDragon Scales&r"]
 	quest.6C02564985E87DE8.title: "New Straining"
@@ -1021,6 +1034,7 @@
 	quest.764A642A6413219C.title: "Amethyst"
 	quest.76797EBAFC1C4B0A.quest_desc: ["Smelted &lGreen Planks&r"]
 	quest.767E9DAC85F27A99.quest_desc: ["Made inside the &lMetallurgic Infuser&r"]
+	quest.76AC0049C7D6FB72.quest_desc: ["Used as part of the recipe to cure you from &lToxic Water&r"]
 	quest.76DF4A3E857E3F8B.quest_desc: ["All in One &lCobblestone&r and &lStone Generator&r"]
 	quest.76FD1426381CACB0.quest_desc: ["How To Chain Your Dragon. Right click and then right click on a &lWall&r block like &lCobblestone Wall&r"]
 	quest.7721E9269699E775.quest_desc: ["A simple &lKey&r"]
@@ -1085,6 +1099,7 @@
 	quest.7E417EC6DDAD2F90.quest_desc: ["Will try to keep a stock of items and fluids inside you &lAE2&r or &lRefined Storage&r system"]
 	quest.7E5602F807CAA114.quest_desc: ["This contains, casting, minecraft, strainers, all totemic, pipez"]
 	quest.7E5602F807CAA114.title: "Submerged"
+	quest.7E9EFC49AE482DF3.quest_desc: ["From a &lPrime Alloy Ingot&r"]
 	quest.7ED0615FBB55DF17.quest_desc: ["Processed &lRaw Ore&r"]
 	quest.7ED0615FBB55DF17.title: "Iridium"
 	quest.7ED2175CCB3A787E.quest_desc: ["A block of &lSolid Salt&r"]
@@ -1147,11 +1162,13 @@
 	task.106A6920646E62BC.title: "Any #comforts:hammocks"
 	task.10C7BAF3015071AA.title: "Any #submerged:colored_crafting_tables"
 	task.1214BA696CADD77E.title: "Any #minecraft:leaves"
+	task.1298255DE0DD80DD.title: "project e?????"
 	task.138872C7733EB8E2.title: "Chapter Challenges"
 	task.14093A3069C01F2E.title: "Toxic Air"
 	task.14148E4902DA03F1.title: "Storage"
 	task.141AA1B900F36D13.title: "Any #submerged:terracotta_rocks"
 	task.1421FD9E6219FAD5.title: "time based"
+	task.151354E6EB05221B.title: "new gravel"
 	task.153F3DE61F968747.title: "Any #submerged:resources/uranium"
 	task.15EA66544BCD744F.title: "Chapter II"
 	task.16149135D3D60984.title: "Welcome To Submerged 2"
@@ -1197,6 +1214,7 @@
 	task.306A59BA05868F7D.title: "Power"
 	task.32391B83B3310766.title: "Hmm"
 	task.326FC48E2D81D130.title: "Final Reward"
+	task.32D95445A4685796.title: "The Cure"
 	task.330769785AE3D0B5.title: "Don't Break!"
 	task.335C4FB54288E61C.title: "Any #submerged:colored_dirt"
 	task.34532F887D0738F3.title: "Molten Star"
@@ -1207,6 +1225,7 @@
 	task.36F3809179D33184.title: "Chapter IV"
 	task.373B2021F4C84DC8.title: "Any #create:sandpaper"
 	task.37BDEC8BCFE7C54B.title: "Any #submerged:resources/aluminum"
+	task.3938693D9FA97A0C.title: "Cured"
 	task.3A05E332230BC2A0.title: "HMMMM"
 	task.3BDD28428F767B7E.title: "souls"
 	task.3CC92D85977458D7.title: "Sphere"
@@ -1284,6 +1303,8 @@
 	task.66EE364285E590B2.title: "Reward I"
 	task.6806F556BF524339.title: "Any #submerged:colored_apples"
 	task.6890BE4D87CCDCA0.title: "Shells"
+	task.69156B717B164D67.title: "temple item"
+	task.692217E4D15BC277.title: "Any #submerged:resources/silver"
 	task.69BF8F514CD47F08.title: "Resource Packs"
 	task.6A9C7A848C7D27B1.title: "Symphonies"
 	task.6B6C444F69AFD2D8.title: "Air purifiyer"

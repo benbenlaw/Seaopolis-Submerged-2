@@ -13,11 +13,15 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_logic_processor'})
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_calculation_processor'})
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_silicon'})
+    event.remove({id: 'mekmm:compressing/scrap_box'})
 
     //Replace Input 
     event.replaceInput({id: 'mekmm:cnc_rolling_mill'}, 'mekanism:basic_control_circuit', 'mekanism:elite_control_circuit')
     event.replaceInput({id: 'mekmm:ambient_gas_collector'}, 'mekanism:steel_casing', '#submerged:top_induction_mek')
     event.replaceInput({id: 'mekmm:recycler'}, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
+
+    //Scrap 
+    event.recipes.mekanism.enriching('mekmm:scrap_box', '64x mekmm:scrap').id('submerged:mekanism_scrap_box')
 
     //Misc Stamper Recipes
     addSimpleStamperRecipe('enderio:vibrant_alloy_ingot', 4, 'c:molds/gear', 'enderio:vibrant_gear')

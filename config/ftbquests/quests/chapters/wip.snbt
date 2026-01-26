@@ -6,13 +6,72 @@
 	id: "4F9BE096F3CA2355"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "36D7432117A873B2"
-		tasks: [{
-			id: "203F9BABE6DA2782"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			id: "36D7432117A873B2"
+			tasks: [{
+				id: "203F9BABE6DA2782"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "34A5D097AAF455BA"
+			tasks: [{
+				id: "151354E6EB05221B"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "305B1C3D89C88590"
+			tasks: [{
+				id: "69156B717B164D67"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "234A4AD3B9A9334B"
+			tasks: [{
+				id: "1298255DE0DD80DD"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "593F8530CF7E756E"
+			tasks: [{
+				id: "1F48445A50FD7959"
+				item: { components: { "bucketlib:fluid": { amount: 1000, id: "atlantis:jetstream_water" } }, count: 1, id: "ceramicbucket:ceramic_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "1C06BE8F733CA062"
+			tasks: [{
+				id: "56829FB65BDB1D08"
+				item: { count: 1, id: "atlantis:ancient_cuprum_ore" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "415CC449283A40DE"
+			tasks: [{
+				id: "522C3B962E3B84BF"
+				item: { count: 1, id: "atlantis:aquamarine_ore" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+	]
 }

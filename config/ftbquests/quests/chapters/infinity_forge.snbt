@@ -92,6 +92,12 @@
 				"13A7F851E3960679"
 				"4ACF824BFD840B4A"
 			]
+			icon: {
+				components: {
+					"resourcefish:fish_type": "submerged:rainbow"
+				}
+				id: "resourcefish:resource_fish_spawn_egg"
+			}
 			id: "3808AB90DCED14AB"
 			tasks: [{
 				id: "03B544050B851CEB"
@@ -189,22 +195,104 @@
 			y: 3.5d
 		}
 		{
-			id: "24FAB67D08D67520"
+			dependencies: ["5E75863DE9827559"]
+			id: "76AC0049C7D6FB72"
 			tasks: [{
-				id: "07AC1C52482D8EE3"
+				id: "5A3AB8471E2A5D81"
+				item: { count: 1, id: "submerged:water_purifier" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E75863DE9827559"]
+			id: "650143C124B57BAB"
+			tasks: [{
+				id: "596B9A89A04781B3"
+				item: { count: 1, id: "submerged:air_purifier" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["45A09622D09CC932"]
+			id: "239E2865C21EA86D"
+			tasks: [{
+				id: "3938693D9FA97A0C"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"76AC0049C7D6FB72"
+				"650143C124B57BAB"
+			]
+			id: "45A09622D09CC932"
+			tasks: [{
+				id: "32D95445A4685796"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24D70EF42D32C32A"]
+			id: "47781083FA72198E"
+			tasks: [{
+				id: "35C24927805245BD"
+				item: { count: 1, id: "atlantis:orb_of_atlantis" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E75863DE9827559"]
+			id: "7E9EFC49AE482DF3"
+			tasks: [{
+				id: "65C68A1E40705A05"
+				item: { count: 1, id: "submerged:prime_alloy_nugget" }
+				type: "item"
+			}]
+			x: 1.0d
 			y: 8.0d
 		}
 		{
-			id: "49750BF1F5C0A429"
+			dependencies: ["7E9EFC49AE482DF3"]
+			id: "24D70EF42D32C32A"
 			tasks: [{
-				id: "6B6C444F69AFD2D8"
-				type: "checkmark"
+				id: "0A379F621785C71B"
+				item: { count: 1, id: "atlantis:drop_of_atlantis" }
+				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["47781083FA72198E"]
+			id: "2E9C62FAA8784420"
+			tasks: [{
+				id: "40B25431DF7765E0"
+				item: { count: 1, id: "submerged:atlantis_sphere" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E9C62FAA8784420"]
+			id: "42AF6989ACCE264A"
+			tasks: [{
+				dimension: "atlantis:atlantis"
+				id: "5429F7204F3F16CC"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 12.0d
 		}
 	]
 }

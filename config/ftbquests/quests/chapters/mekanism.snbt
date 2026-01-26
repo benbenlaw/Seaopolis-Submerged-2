@@ -819,6 +819,14 @@
 		{
 			dependencies: ["1290BC411D882D0D"]
 			id: "26403C4AB52E2EAA"
+			rewards: [{
+				id: "77765A85E514E348"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A882557800F88A3"
 				item: { count: 1, id: "alltheores:silver_ore" }
@@ -828,10 +836,19 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["26403C4AB52E2EAA"]
 			id: "1AFB6DF4189A9693"
+			rewards: [{
+				id: "5F0505BC06C041F3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "692217E4D15BC277"
-				item: { count: 1, id: "alltheores:silver_ingot" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:resources/silver)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d

@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'enderio:vibrant_photovoltaic_module'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
 
     //Alloy Smelter
-    event.recipes.enderio.alloy_smelting('refinedstorage:quartz_enriched_iron', ['3x minecraft:iron_ingot', 'ae2:certus_quartz_crystal', 'minecraft:quartz']).id('submerged:enderio/quartz_enriched_iron')
+    //event.recipes.enderio.alloy_smelting('refinedstorage:quartz_enriched_iron', ['3x minecraft:iron_ingot', 'ae2:certus_quartz_crystal', 'minecraft:quartz']).id('submerged:enderio/quartz_enriched_iron')
   
     //Enderman Head
     event.shaped('enderio:enderman_head', ['AAA', 'ABA', 'AAA'], {

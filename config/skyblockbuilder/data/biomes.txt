@@ -1,6 +1,13 @@
 ae2:spatial_storage
 ars_nouveau:archwood_forest
 ars_nouveau:jar
+atlantis:aquariel_jellyfish_fields
+atlantis:atlantean_garden
+atlantis:atlantean_islands_biome
+atlantis:atlantis_biome
+atlantis:coconut_isles
+atlantis:goo_lagoons
+atlantis:volcanic_darksea
 iceandfire:dread_forest
 iceandfire:dread_plain
 minecraft:badlands

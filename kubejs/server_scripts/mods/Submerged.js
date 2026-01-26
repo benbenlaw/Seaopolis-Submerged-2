@@ -2,9 +2,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.shapeless('ars_nouveau:planarium[block_entity_data={id:"ars_nouveau:planarium",key:"ars_nouveau:ca4529e7-c1e9-445f-9feb-51f0e1cb7b26",lastUpdated:13332551L,name:"Dim"}]', 'stick')
-
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
  
@@ -13,6 +10,18 @@ ServerEvents.recipes(event => {
 
     //Bright Dye
     event.shapeless('submerged:bright_dye', ['submerged:prime_ingot', 'minecraft:yellow_dye', 'minecraft:lime_dye', 'minecraft:purple_dye', 'minecraft:orange_dye', 'minecraft:pink_dye', 'minecraft:white_dye', 'minecraft:magenta_dye', 'minecraft:light_blue_dye']).id('submerged:bright_dye')
+
+    //Dragon Breath Bucket
+    event.shaped('submerged:dragons_breath_bucket', [' A ', 'ABA', ' A '], {
+        A: 'minecraft:dragon_breath', 
+        B: 'minecraft:bucket',
+    }).id('submerged:dragons_breath_bucket')
+
+    //Atlantis Sphere
+    event.shaped('submerged:atlantis_sphere', [' A ', 'ABA', ' A '], {
+        A: 'atlantis:orb_of_atlantis',
+        B: 'submerged:iron_key'
+    }).id('submerged:atlantis_sphere')
 
     //Infinity Forge
     event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:infinity_forge"]', ['AAA', 'CBC', 'AAA'], {
@@ -96,6 +105,14 @@ ServerEvents.recipes(event => {
 
     //Solclipsium Block
     event.shapeless('submerged:solclipsium_block', ['9x submerged:solclipsium_ingot']).id('submerged:solclipsium_block_from_ingot')
+
+    //Prime Ingot
+    event.shapeless('9x submerged:prime_nugget', ['submerged:prime_ingot']).id('submerged:prime_ingot_from_nuggets')
+    event.shapeless('submerged:prime_ingot', ['9x submerged:prime_nugget']).id('submerged:prime_nugget_from_ingot')
+
+    //Prime Alloy Ingot
+    event.shapeless('9x submerged:prime_alloy_nugget', ['submerged:prime_alloy_ingot']).id('submerged:prime_alloy_ingot_from_nuggets')
+    event.shapeless('submerged:prime_alloy_ingot', ['9x submerged:prime_alloy_nugget']).id('submerged:prime_alloy_nugget_from_ingot')
 
     //Solclipsium Ingot
     event.shapeless('9x submerged:solclipsium_ingot', ['submerged:solclipsium_block']).id('submerged:solclipsium_ingot_from_block')

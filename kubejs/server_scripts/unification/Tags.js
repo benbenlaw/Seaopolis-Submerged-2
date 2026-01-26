@@ -47,4 +47,7 @@ ServerEvents.tags("block", event => {
 
     //Smart Crafting Table
     event.get('smartcrafting:whitelisted_storage').add()
+
+    //Pickaxe
+    event.get('minecraft:mineable/pickaxe').remove(['mekmm:large_heat_generator', 'mekmm:large_gas_burning_generator'])
 })

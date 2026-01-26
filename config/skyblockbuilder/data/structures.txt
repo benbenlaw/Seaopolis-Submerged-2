@@ -2,6 +2,14 @@ ae2:meteorite
 ars_nouveau:guardian_wilden_den
 ars_nouveau:hunter_wilden_den
 ars_nouveau:stalker_wilden_den
+atlantis:atlantean_village
+atlantis:configured_atlantean_fountain
+atlantis:configured_atlantean_house_1
+atlantis:configured_atlantean_house_3
+atlantis:configured_atlantean_spire
+atlantis:configured_atlantean_temple
+atlantis:configured_atlantean_tower
+atlantis:configured_oyster_structure
 betterstrongholds:stronghold
 iceandfire:cyclops_cave
 iceandfire:fire_dragon_cave

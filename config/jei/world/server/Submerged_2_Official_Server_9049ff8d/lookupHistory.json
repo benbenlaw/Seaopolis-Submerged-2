@@ -1,4 +1,5 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"submerged:bastion_trial_sphere"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

@@ -121,25 +121,6 @@
         "max": 4.0,
         "min": 1.0
       }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:chests/village/village_toolsmith"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:chests/village/village_weaponsmith"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:chests/spawn_bonus_chest"
-        }
-      ],
-      "name": "Other tables",
-      "rolls": 0.0
     }
   ],
   "random_sequence": "forcecraft:spoils/tier1"

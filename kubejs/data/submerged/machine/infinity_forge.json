@@ -5,9 +5,10 @@
     }
   },
   "appearance": {
+    "block": "submerged:machine/infinity_forge",
     "running": {
       "custommachinery:ambient_sound": {
-        "sound": "minecraft:block.anvil.land"
+        "sound": "minecraft:block.smithing_table.use"
       },
       "custommachinery:light": 15
     }

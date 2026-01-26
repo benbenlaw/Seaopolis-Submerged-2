@@ -4,16 +4,18 @@ PlayerEvents.tick(event => {
     let level = player.level
 
     let fullHazmat =
-        player.getFeetArmorItem().hasTag('submerged:hazmat') &&
+        (player.getFeetArmorItem().hasTag('submerged:hazmat') &&
         player.getChestArmorItem().hasTag('submerged:hazmat') &&
         player.getHeadArmorItem().hasTag('submerged:hazmat') &&
-        player.getLegsArmorItem().hasTag('submerged:hazmat');
+        player.getLegsArmorItem().hasTag('submerged:hazmat')) ||
+        player.tags.contains('cured');
 
     let fullDiving =
-        player.getFeetArmorItem().hasTag('submerged:diving_gear') &&
+        (player.getFeetArmorItem().hasTag('submerged:diving_gear') &&
         player.getChestArmorItem().hasTag('submerged:diving_gear') &&
         player.getHeadArmorItem().hasTag('submerged:diving_gear') &&
-        player.getLegsArmorItem().hasTag('submerged:diving_gear');
+        player.getLegsArmorItem().hasTag('submerged:diving_gear')) ||
+        player.tags.contains('cured');
 
     let inWater = player.isInWater() || player.isInRain() || player.isInBubbleColumn();
     let inToxicAir = player.y > 149 || player.getInventory().contains('submerged:toxic_gravel')
