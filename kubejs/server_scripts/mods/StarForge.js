@@ -20,6 +20,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'starforge:star_forge'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     event.replaceInput({id: 'starforge:pedestal'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     
+    //'atlantis:orichalcum_ingot', 'iceandfire:fire_dragon_blood'
+    createStarForgeRecipe('atlantis:orichalcum_ingot', 'atlantis:orichalcum_blend', [], 5, 600, 100);
+
     //Drop of Atlantis
     createStarForgeRecipe('atlantis:drop_of_atlantis', 'starforge:star_gem', [
         'submerged:essence_of_the_sea',

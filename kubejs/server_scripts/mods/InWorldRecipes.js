@@ -8,6 +8,15 @@ ServerEvents.recipes(event => {
         false, true, false, true).outputBlockState('minecraft:air')
     .id('submerged:no_mimic_spawner')
 
+    //Sunken Gravel
+    createInWorldConversion("submerged:star_gravel", "atlantis:sunken_gravel", false, 200, "atlantis:atlantis")
+
+    //Activated Atlantis Portal Frame
+    event.recipes.inworldrecipes.block_interaction(
+        'right', 'submerged:unactive_atlantis_portal_frame', 'atlantis:orb_of_atlantis',
+        false, true, false, true).outputBlockState('submerged:active_atlantis_portal_frame')
+    .id('submerged:active_atlantis_portal_frame')
+
     //Nether Force Bricks
     event.custom({
         "type": "inworldrecipes:block_conversion",
@@ -32,6 +41,15 @@ ServerEvents.recipes(event => {
             false, true, false, true).results([`iceandfire:dragonegg_${color}`])
         .id(`submerged:dragon_egg_${color}`)
     }
+
+    //'pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]'
+    event.custom({
+        'type': 'inworldrecipes:drop_item_in_fluid',
+        'dropped_items':[{'item': 'pneumaticcraft:empty_pcb', "count": 1}],
+        'fluid': 'casting:molten_silicon',
+        'consume_fluid': false,
+        'results': [{'item': {'id': 'pneumaticcraft:empty_pcb', "count": 1, "components": {"pneumaticcraft:uv_exposure": 100}}}]
+    }).id('submerged:fully_exposed_pcb')
 
     //Grass Block
     event.recipes.inworldrecipes.block_interaction(
@@ -81,4 +99,16 @@ ServerEvents.recipes(event => {
         'destroy_items': true
     }).id('submerged:salt_water')
 
+    //In World Conversion Function
+    function createInWorldConversion(blockToConvert, convertedBlock, popItem, duration, dimension) {
+        event.custom({
+        "type": "inworldrecipes:block_conversion",
+        "block_to_convert": blockToConvert,
+        "converted_block": convertedBlock,
+        "pop_block": popItem,
+        "requires_sunlight": false,
+        "duration": duration,
+        "dimension": dimension
+        }).id(`fractured:${convertedBlock.split(':')[1]}_conversion`)
+    }
 })

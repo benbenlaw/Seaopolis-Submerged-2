@@ -27,9 +27,12 @@ ServerEvents.recipes(event => {
 
     //Milling
     event.recipes.create.milling('2x naturesaura:gold_powder', 'naturesaura:gold_leaf').id('submerged:create/milling/gold_leaf_to_gold_powder')
+   
+    //Spout
+    event.recipes.create.filling('pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]', ['pneumaticcraft:empty_pcb', '25x casting:molten_silicon']).id('submerged:create/filling/empty_pcb_with_silicon')
 
-    //Sandpaper Polishing
-    event.recipes.create.sandpaper_polishing('pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]', 'pneumaticcraft:empty_pcb').id('submerged:create/uv_exposed_pcb')
+
+
     //Mixing 
     //These recipes are located in submerged:recipes/create/mixing
 

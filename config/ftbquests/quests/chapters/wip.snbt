@@ -4,7 +4,7 @@
 	filename: "wip"
 	group: "27F4CFB05BEDC0B5"
 	id: "4F9BE096F3CA2355"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,26 +51,6 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -0.5d
-		}
-		{
-			id: "1C06BE8F733CA062"
-			tasks: [{
-				id: "56829FB65BDB1D08"
-				item: { count: 1, id: "atlantis:ancient_cuprum_ore" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			id: "415CC449283A40DE"
-			tasks: [{
-				id: "522C3B962E3B84BF"
-				item: { count: 1, id: "atlantis:aquamarine_ore" }
-				type: "item"
-			}]
-			x: -2.5d
 			y: -0.5d
 		}
 	]

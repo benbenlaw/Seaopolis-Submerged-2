@@ -5,6 +5,7 @@ RecipeViewerEvents.removeCategories((event) => {
     event.remove('opolisutilities:catalogue')
     event.remove('mekmm:planting')
     event.remove('extendedae:circuit_cutter')
+    event.remove('pneumaticcraft:uv_light_box')
 })
 
 

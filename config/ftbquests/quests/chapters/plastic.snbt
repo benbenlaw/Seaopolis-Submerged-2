@@ -263,30 +263,9 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["772E29425FED6697"]
-			id: "4CC34CF73486EB02"
-			optional: true
-			rewards: [{
-				id: "1E81AB59D7AE9B05"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "09BB3C9FC4E10AFC"
-				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
-				type: "item"
-			}]
-			x: -0.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["4CC34CF73486EB02"]
 			icon: {
 				components: {
 					"pneumaticcraft:uv_exposure": 100
@@ -309,8 +288,8 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -328,7 +307,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["772E29425FED6697"]
+			dependencies: ["5CBC0FCC4F12353D"]
 			icon: {
 				id: "pneumaticcraft:etching_acid_bucket"
 			}
@@ -345,14 +324,11 @@
 				id: "2B782F5FAE21B6E9"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"0C2AABFFD28944AA"
-				"5CBC0FCC4F12353D"
-			]
+			dependencies: ["0C2AABFFD28944AA"]
 			id: "50F353C6D15C0062"
 			optional: true
 			rewards: [{
@@ -368,14 +344,11 @@
 				item: { count: 1, id: "pneumaticcraft:etching_tank" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"50F353C6D15C0062"
-				"0C2AABFFD28944AA"
-			]
+			dependencies: ["0C2AABFFD28944AA"]
 			dependency_requirement: "one_completed"
 			id: "433D889DEFC9E899"
 			rewards: [{

@@ -805,6 +805,7 @@
 				"6A701407E8948349"
 				"05609948CC4023E4"
 			]
+			dependency_requirement: "one_completed"
 			id: "3B12F9A39B40E431"
 			rewards: [{
 				count: 3

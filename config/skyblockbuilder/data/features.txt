@@ -94,6 +94,11 @@ colors:yellow_tree
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+draconicevolution:chaos_island
+draconicevolution:end_comet
+draconicevolution:end_draconium_ore
+draconicevolution:nether_draconium_ore
+draconicevolution:overworld_draconium_ore
 farmersdelight:patch_brown_mushroom_colony
 farmersdelight:patch_red_mushroom_colony
 farmersdelight:patch_sandy_shrub

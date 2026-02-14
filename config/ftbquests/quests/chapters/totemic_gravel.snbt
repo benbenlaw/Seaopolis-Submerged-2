@@ -540,6 +540,7 @@
 		{
 			dependencies: ["487CADD6A2A37D71"]
 			id: "4D610B1EA5DE8218"
+			optional: true
 			tasks: [{
 				id: "23AD18227EDB9DCB"
 				item: { count: 1, id: "cloche:cloche" }
@@ -551,6 +552,7 @@
 		{
 			dependencies: ["4D610B1EA5DE8218"]
 			id: "0958CAAD8F7321A7"
+			optional: true
 			tasks: [{
 				id: "7716A63EB0567F4F"
 				item: { count: 1, id: "cloche:shears_upgrade" }
@@ -562,6 +564,7 @@
 		{
 			dependencies: ["39A993D1CDEE8B15"]
 			id: "0BAB7C14CCD2BC21"
+			optional: true
 			rewards: [{
 				id: "666EC7431391B114"
 				item: {
@@ -581,6 +584,7 @@
 		{
 			dependencies: ["480B5C33BC671AB1"]
 			id: "7122BBDACB1B1D5A"
+			optional: true
 			rewards: [{
 				id: "416CC44A542F6FB7"
 				item: {
@@ -600,6 +604,7 @@
 		{
 			dependencies: ["7122BBDACB1B1D5A"]
 			id: "7A351105AE91FE1E"
+			optional: true
 			rewards: [{
 				id: "79C7AC1BBD62AFC0"
 				item: {
@@ -695,6 +700,7 @@
 		{
 			dependencies: ["00A7B243D1EC447B"]
 			id: "466D23B9B67ECCDF"
+			optional: true
 			rewards: [{
 				id: "1654CD8ED0A7DFB0"
 				item: {

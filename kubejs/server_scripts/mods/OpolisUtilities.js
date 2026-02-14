@@ -19,5 +19,6 @@ ServerEvents.recipes(event => {
     event.recipes.opolisutilities.summoning_block('minecraft:rotten_flesh', 'minecraft:stone', 'minecraft:zombie').id('submerged:summoning_block/zombie')
     event.recipes.opolisutilities.summoning_block('minecraft:blaze_rod', 'minecraft:netherrack', 'minecraft:blaze').id('submerged:summoning_block/blaze')
     event.recipes.opolisutilities.summoning_block('minecraft:emerald', 'minecraft:dark_oak_log', 'minecraft:evoker').id('submerged:summoning_block/evoker')
+    event.recipes.opolisutilities.summoning_block('atlantis:ancient_cuprum_ingot', 'atlantis:orichalcum_block', 'iceandfire:dread_lich').id('submerged:summoning_block/dread_lich')
 
 })

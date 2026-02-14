@@ -47,7 +47,8 @@ ServerEvents.tags('item', event => {
         'everythingcopper:copper_hoe',
         'everythingcopper:copper_shovel',
         'everythingcopper:copper_axe',
-        'iceandfire:sapphire_block'
+        'iceandfire:sapphire_block',
+        'pneumaticcraft:uv_light_box'
     ])
 
     //Mimic Loot

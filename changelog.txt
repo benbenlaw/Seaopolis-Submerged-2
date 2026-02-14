@@ -6,11 +6,69 @@ ENDGAME Mods
 - extended crafting
 
 Do Not Update Relics (BETA VERSION) Crashes on startup
-Do Not Update More Mek
-Do Not Update Extgended AE
+Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 
-ENDER IO CHANGES TO A LOT OF RESOURCE 
-energetic alloy glowstone removed from recipe maybe ok?
+# B9.0
+**---Mods---**
+- Updated Mods
+- Added Refined Construction Sticks (Right Click on Controller Block to link to RS)
+- Added Extended Crafting
+- Added Draconic Evolution
+- Added KubeJS Draconic Evolution
+- Added BBL Portals
+
+**---Fixes---**
+- Added missing recipes for Solclipsium Blocks via Casting
+- Fixed replication recipe for Soularium
+- Fix Atlantis Portal always opening at 0,0 (Using BBL Portals)
+
+**---Changes---**
+- Updated Yuki Textures
+- Some mods in the pack are now marked as "locked" this is to prevent these mods from being updated and causing incompatibilities
+- All colored sapling now use a smaller version to prevent players from not being able to grow chosen saplings in starting area
+- Re enabled Brine creation through mekanism, due to resource fish changes now giving ores this allows multiple ore processing set ups to run better
+- Altantis sphere room changed to use Unactivated Altantis Portal Frame
+- Using the Orb of Atlantis will convert these to Activated Portal Frames, once fully active portal can be opened by right clicking the active frames. These changes were to fix issues with the vanilla atlantis portal always spawning at 0, 0
+- Added Aquamarine Ore Piece
+- Added Cuprum Ore Piece
+- Added Sunken Gravel as the next tier of gravel giving Aquamarine and Cuprum
+- Added additional Sunken Gravel recipe
+- Orichalcum Blend recipe
+- Orichalcum Ingot recipe
+
+
+
+
+# B8.0
+**---Mods---**
+- Updated Mods
+- Added Applied Construction Sticks (Can be linked to AE2 via wireless router to place blocks from ae2 instead of inventory)
+- Added BBL Fixes
+
+**---Fixes---**
+- Crashes with compaction drawers and compactor from strainers when over 99 item try to be inserted into multiple slots
+- Some Create quests in the Totemic Gravel Questline are now correctly marked as optional
+- Spoils Bag quests now only require a single quest to be completed 
+- Fixed Molten Debris missing melting recipe in casting
+- Empty Crystal empty quests description 
+- Travel Anchors now work correctly again 
+- Industrial Forgoing GUIS no longer have inventory sorting to fix item lose and other issues inside these blocks, thanks @szszabi for finding the class names
+- Removed test casting recipe
+
+**---Changes---**
+- Made Item, Fluid and Chemical Replicator optional quests
+- Acceleration Card recipe change to use Basic not Advanced card
+- Changed the way to obtain 100% exposed PCB's, Now uses Molten Silicon, either drop pcb into source block or use solidifier / create spout
+- Create Sand paper way and Pneumatic Craft way is now removed
+- Colored Saplings and Colored Planks no longer obtained through the Stonecutter
+- Mekanism Ingot no longer uses UU Matter, now uses Reinforced Alloy
+- Scrap Box now only requires 32 Scrap now 
+- Ambient Gas Collector now collect 10mb instead of 1mb  
+- Quests changed to reflect this
+- Replication Fluids changed to Solclipsium and Soulium instead of Blaze and Obsidian 
+- Unstable Dimensional Gas can now be replicated in the Chemical Replicator
+
+
 
 # B7.0
 **---Mods---**

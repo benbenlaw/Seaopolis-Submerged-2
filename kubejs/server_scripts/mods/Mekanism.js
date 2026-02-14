@@ -7,7 +7,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mekmm:recycler/from_stone'})
     event.remove({id: 'mekmm:recycler/from_dirt'})
     event.remove({id: 'mekanism:evaporating/lithium'})
-    event.remove({id: 'mekanism:evaporating/brine'})
     event.remove({id: 'mekmm:compat/extendedae/stamper/concurrent_processor_print'})
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_engineering_processor'})
     event.remove({id: 'mekmm:compat/ae2/stamper/printed_logic_processor'})
@@ -21,7 +20,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'mekmm:recycler'}, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
 
     //Scrap 
-    event.recipes.mekanism.enriching('mekmm:scrap_box', '64x mekmm:scrap').id('submerged:mekanism_scrap_box')
+    event.recipes.mekanism.enriching('mekmm:scrap_box', '32x mekmm:scrap').id('submerged:mekanism_scrap_box')
 
     //Misc Stamper Recipes
     addSimpleStamperRecipe('enderio:vibrant_alloy_ingot', 4, 'c:molds/gear', 'enderio:vibrant_gear')

@@ -109,6 +109,14 @@ StartupEvents.registry("block", (event) => {
         .tagBlock('minecraft:mineable/pickaxe').tagBlock('c:blocks/solclipsium')
         .soundType('metal')
 
+    event.create('submerged:unactive_atlantis_portal_frame')
+        .hardness(-1)
+        .soundType('metal')
+
+    event.create('submerged:active_atlantis_portal_frame')
+        .hardness(-1)
+        .soundType('metal')
+
     //Terracotta Lock Blocks
     colors.forEach(color => {
         event.create(`submerged:${color}_terracotta_lock`)

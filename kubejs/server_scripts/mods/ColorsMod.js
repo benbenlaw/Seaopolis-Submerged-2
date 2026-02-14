@@ -1,6 +1,13 @@
 //Colors
 ServerEvents.recipes(event => {
         
+
+    //Remove
+    colors.forEach(color => {
+        event.remove({id: `colors:stonecutting/${color}_sapling_from_oak_sapling`})
+        event.remove({id: `colors:stonecutting/${color}_planks_from_oak_planks`})
+    })
+
     //Crafting Tables
     colors.forEach(color => {
         event.shaped(`colors:${color}_crafting_table`, ['AA', 'AA'], {

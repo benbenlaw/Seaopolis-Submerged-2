@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"simplehats:spyzombie"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"storagedrawers:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"storagedrawers:controller_io"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"submerged:bastion_trial_sphere"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

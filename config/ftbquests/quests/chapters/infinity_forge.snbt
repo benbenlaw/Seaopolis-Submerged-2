@@ -284,7 +284,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["2E9C62FAA8784420"]
+			dependencies: ["06C96208F0879E02"]
 			id: "42AF6989ACCE264A"
 			tasks: [{
 				dimension: "atlantis:atlantis"
@@ -292,7 +292,39 @@
 				type: "dimension"
 			}]
 			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E9C62FAA8784420"]
+			id: "6CCB6F2D22D061D6"
+			tasks: [{
+				icon: {
+					id: "submerged:unactive_atlantis_portal_frame"
+				}
+				id: "4AF759589182B601"
+				observe_type: 0
+				timer: 0L
+				to_observe: "submerged:unactive_atlantis_portal_frame"
+				type: "observation"
+			}]
+			x: 1.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["6CCB6F2D22D061D6"]
+			id: "06C96208F0879E02"
+			tasks: [{
+				icon: {
+					id: "submerged:active_atlantis_portal_frame"
+				}
+				id: "7DB7832FCC8056C9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "submerged:active_atlantis_portal_frame"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 13.0d
 		}
 	]
 }

@@ -37,6 +37,8 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:essence_of_the_sea')
     event.create('submerged:ice_ball')
     event.create('submerged:iridium_ore_piece')
+    event.create('submerged:aquamarine_ore_piece')
+    event.create('submerged:cuprum_ore_piece')
     event.create('submerged:amethyst_dust')
 
     event.create('submerged:triarchium_gem').tag(['c:gems/triarchium', 'c:gems'])

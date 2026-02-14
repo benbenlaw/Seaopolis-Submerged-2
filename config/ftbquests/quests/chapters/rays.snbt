@@ -376,6 +376,7 @@
 		{
 			dependencies: ["1BC72E740B20B36C"]
 			id: "0E8BE4C6A61FB9C2"
+			optional: true
 			rewards: [{
 				id: "6F41D3B89785A5EF"
 				item: {
@@ -395,6 +396,7 @@
 		{
 			dependencies: ["1BC72E740B20B36C"]
 			id: "75B72147773BDB32"
+			optional: true
 			rewards: [{
 				id: "23E21102AE9A6617"
 				item: {
@@ -414,6 +416,7 @@
 		{
 			dependencies: ["1BC72E740B20B36C"]
 			id: "4C2D89C661588B24"
+			optional: true
 			rewards: [{
 				id: "6934136EDA9A7E4B"
 				item: {

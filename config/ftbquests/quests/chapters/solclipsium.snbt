@@ -701,6 +701,7 @@
 				"21E415692839FCB4"
 				"1C4F7207F56D3D24"
 			]
+			dependency_requirement: "one_completed"
 			id: "61CAD4D8D4321BC3"
 			min_required_dependencies: 1
 			rewards: [{

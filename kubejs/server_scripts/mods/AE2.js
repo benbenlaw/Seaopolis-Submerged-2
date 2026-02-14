@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#c:silicon')
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
     event.replaceInput({id: 'extendedae:entro_seed'}, 'ae2:sky_dust', 'submerged:grains_of_time')
+    event.replaceInput({id: 'ae2:materials/cardspeed'}, 'ae2:advanced_card', 'ae2:basic_card')
 
     //Remove
     event.remove({id: 'extendedae:quartz_blend'})

@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
         .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
         .requireItem("64x mekanism:ingot_refined_obsidian")
         .requireItem("64x mekanism:ingot_refined_glowstone")
-        .requireItem("64x mekmm:uu_matter")
+        .requireItem("64x mekanism:alloy_reinforced")
         .requireItem('submerged:prime_ingot')
         .requireChemical('50000x mekmm:unstable_dimensional_gas')
         .requireEnergyPerTick(50000)
