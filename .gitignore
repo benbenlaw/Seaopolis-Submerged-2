@@ -20,6 +20,7 @@ local/
 /mods/
 !kubejs/mods/kubejs/server_scripts/mods
 logs/
+debug/
 crash-reports/
 saves/
 journeymap/
@@ -34,3 +35,13 @@ ESM/
 debug/disconnect-2025-07-17_08.33.43-client.txt
 config/ftbchunks-client.snbt
 config/worldedit/worldedit.properties
+config/iris.properties
+mixin.out/
+emojiful/
+fancymenu_data/
+waypoints/
+patchouli_data.json
+servers.dat
+servers.dat_old
+user-prefs.json
+observable_announce
