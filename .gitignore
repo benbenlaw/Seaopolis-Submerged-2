@@ -1,10 +1,10 @@
+# IDE / tools
+.vscode/
+.idea/
+.probe/
+.curseclient/
 
-.vscode
-.probe
-.curseclient
-.idea
-
-vscode/
+# Minecraft folders
 downloads/
 journeymap/
 local/
@@ -14,34 +14,38 @@ saves/
 screenshots/
 shaderpacks/
 simplebackups/
-minecraftinstance.json
-options.txt
-local/
-/mods/
-!kubejs/mods/kubejs/server_scripts/mods
-logs/
+mods/
 debug/
 crash-reports/
-saves/
-journeymap/
 .mixin/
-realms_persistence.json
-.mixin.out/class/net/minecraft/client/gui/screens/worldselection/WorldOpenFlows.class
-usernamecache.json
-usercache.json
-command_history.txt
-kubejs/config/probe-settings.json
-ESM/
-debug/disconnect-2025-07-17_08.33.43-client.txt
-config/ftbchunks-client.snbt
-config/worldedit/worldedit.properties
-config/iris.properties
+.mixin.out/
 mixin.out/
+ESM/
 emojiful/
 fancymenu_data/
 waypoints/
+
+# Files
+minecraftinstance.json
+options.txt
+realms_persistence.json
+usernamecache.json
+usercache.json
+command_history.txt
 patchouli_data.json
 servers.dat
 servers.dat_old
 user-prefs.json
 observable_announce
+
+# Specific configs
+kubejs/config/probe-settings.json
+config/ftbchunks-client.snbt
+config/worldedit/worldedit.properties
+config/iris.properties
+
+# Logs / debug files
+debug/disconnect-*-client.txt
+
+# EXCEPTION: keep this path tracked
+!kubejs/mods/kubejs/server_scripts/mods
