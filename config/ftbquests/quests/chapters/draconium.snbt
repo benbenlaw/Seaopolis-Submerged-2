@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconium"
+	group: "27F4CFB05BEDC0B5"
+	id: "7E9E60135ACE939F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71A89B1795AA15F1"]
+			id: "319E486F5AB8F1D1"
+			tasks: [{
+				id: "08186AF8B0A95A9C"
+				item: { count: 1, id: "draconicevolution:draconium_dust" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["319E486F5AB8F1D1"]
+			id: "20C6823F1E30246B"
+			tasks: [{
+				id: "4BF5C10F0C85D380"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20C6823F1E30246B"]
+			id: "0CF4F4403EC59D4C"
+			tasks: [{
+				id: "2FBD4A93C1A2762A"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CF4F4403EC59D4C"]
+			id: "20AD41DCC25B8340"
+			tasks: [{
+				id: "783293F1943A4A43"
+				item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CF4F4403EC59D4C"]
+			id: "06672574E5244245"
+			tasks: [{
+				id: "2590251DDA284F17"
+				item: { count: 1, id: "draconicevolution:crafting_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"06672574E5244245"
+				"20AD41DCC25B8340"
+			]
+			id: "2A61FF008E6531E3"
+			tasks: [{
+				id: "75B38F8217278F4F"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41A90951A7242E9B"]
+			id: "20CB63EAD12C097B"
+			tasks: [{
+				id: "08AAA03982879E08"
+				item: { count: 1, id: "draconicevolution:draconium_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A61FF008E6531E3"]
+			id: "41A90951A7242E9B"
+			tasks: [{
+				id: "35D6AE69D70E4083"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20CB63EAD12C097B"]
+			id: "5E99C0B110BF1591"
+			tasks: [{
+				id: "648D0DEECCDA98CA"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E99C0B110BF1591"]
+			id: "5ED206BAC6BA898F"
+			tasks: [{
+				id: "2F1B01927996901A"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5ED206BAC6BA898F"]
+			id: "794C1F13E54D26CA"
+			tasks: [{
+				id: "68B98C95BC750038"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["794C1F13E54D26CA"]
+			id: "749C2193CC79255E"
+			tasks: [{
+				id: "486FF73984708DE1"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["575A0D680A313F82"]
+			id: "0EEEFE30CBB86133"
+			tasks: [{
+				id: "7FE80F1690993EF2"
+				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0EEEFE30CBB86133"]
+			id: "74DB3C8654006627"
+			tasks: [{
+				id: "2741964E3A40D123"
+				item: { count: 1, id: "draconicevolution:medium_chaos_frag" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1F6604F2B9DBEBAD"
+				"74DB3C8654006627"
+			]
+			id: "46AB0865E048C018"
+			tasks: [{
+				id: "7B5A897CB0E0CB76"
+				item: { count: 1, id: "draconicevolution:large_chaos_frag" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["46AB0865E048C018"]
+			id: "0E040596AE4DFA19"
+			tasks: [{
+				id: "2135F4E2FBC64B43"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "10C4B16F539408BD"
+			tasks: [{
+				id: "408D291F515B5857"
+				item: { count: 1, id: "draconicevolution:chaotic_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "5D1530AA1E8C8BC7"
+			tasks: [{
+				id: "25053A7A68E3F147"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D1530AA1E8C8BC7"]
+			id: "575A0D680A313F82"
+			tasks: [{
+				id: "1B25DADBAD6EDEAB"
+				item: { count: 1, id: "draconicevolution:infused_obsidian" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D1530AA1E8C8BC7"]
+			id: "1229098DC8F3BAD7"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "22B25F9183BE5A04"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1229098DC8F3BAD7"]
+			id: "1F6604F2B9DBEBAD"
+			tasks: [{
+				id: "2FA1BA6FD2061471"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+	]
+}

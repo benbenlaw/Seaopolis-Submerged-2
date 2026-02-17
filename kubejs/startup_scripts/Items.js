@@ -40,6 +40,7 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:aquamarine_ore_piece')
     event.create('submerged:cuprum_ore_piece')
     event.create('submerged:amethyst_dust')
+    event.create('submerged:dreaded_draconic_compound').displayName('Dreaded-Draconic Compound')
 
     event.create('submerged:triarchium_gem').tag(['c:gems/triarchium', 'c:gems'])
     event.create('submerged:triarchium_ingot').tag(['c:ingots/triarchium', 'c:ingots'])

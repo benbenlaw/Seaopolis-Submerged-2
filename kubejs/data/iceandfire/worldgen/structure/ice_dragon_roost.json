@@ -1,0 +1,7 @@
+{
+  "type": "iceandfire:ice_dragon_roost",
+  "biomes": ["iceandfire:dread_plain", "iceandfire:dread_forest"],
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin"
+}

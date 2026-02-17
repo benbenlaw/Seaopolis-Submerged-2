@@ -11,6 +11,13 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: "pneumaticcraft:uv_light_box"}, "pneumaticcraft:pcb_blueprint", 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
 
+    //Draconic Gravel
+    event.recipes.pneumaticcraft.pressure_chamber(
+        ["atlantis:sunken_gravel", "2x iceandfire:dread_shard", "submerged:dreaded_draconic_compound"],
+        4.0,
+        ["submerged:draconic_gravel"]
+    ).id('submerged:pneumaticcraft/draconic_gravel')
+
     //Prismarine Ingot
     event.recipes.pneumaticcraft.pressure_chamber(
         ['submerged:corrupted_prismarine_crystal'],

@@ -1,0 +1,91 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "atlantis:sunken_gravel"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "submerged:draconic_gravel"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "atlantis:sunken_gravel"
+        }
+      ],
+      "results": [
+        {
+          "id": "submerged:draconic_gravel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "atlantis:sunken_gravel"
+        },
+        {
+          "item": "iceandfire:dread_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "atlantis:sunken_gravel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "atlantis:sunken_gravel"
+        },
+        {
+          "item": "submerged:dreaded_draconic_compound"
+        }
+      ],
+      "results": [
+        {
+          "id": "atlantis:sunken_gravel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "atlantis:sunken_gravel"
+        },
+        {
+          "item": "iceandfire:dread_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "atlantis:sunken_gravel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "atlantis:sunken_gravel"
+        }
+      ],
+      "results": [
+        {
+          "id": "submerged:draconic_gravel"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "atlantis:sunken_gravel"
+  }
+}

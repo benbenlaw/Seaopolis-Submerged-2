@@ -91,8 +91,9 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('#c:molds/dust', '250x mekanism:lithium', 'mekanism:dust_lithium').id('submerged:solidifier/dust_lithium')
     event.recipes.casting.solidifier('#c:molds/ingot', '90x casting:molten_certus_quartz', 'submerged:certus_ingot').id('submerged:solidifier/certus_ingot')
 
-    event.recipes.casting.solidifier('pneumaticcraft:empty_pcb', '25x casting:molten_silicon', 'pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]').id('submerged:solidifier/fully_exposed_pcb')
-
+    //FIX THIS 
+    //event.recipes.casting.solidifier('pneumaticcraft:empty_pcb', '25x casting:molten_silicon', 'pneumaticcraft:empty_pcb[pneumaticcraft:uv_exposure=100]').id('submerged:solidifier/fully_exposed_pcb')
+    
     //Mixer
     event.recipes.casting.mixing('360x casting:molten_quartz_enriched_iron', ['270x casting:molten_iron', '250x casting:molten_quartz', '250x casting:molten_certus_quartz']).id('casting:mixer/molten_quartz_enriched_iron')
     event.recipes.casting.mixing('360x casting:molten_soularium', ['250x submerged:molten_star', '4000x casting:molten_soul']).id('casting:mixer/soularium')

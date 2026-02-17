@@ -18,6 +18,7 @@ LootJS.lootTables(event => {
         .createPool(pool => {
             pool.addEntry(LootEntry.of("minecraft:spider_eye").setCount([4, 12])) 
             pool.addEntry(LootEntry.of("minecraft:string").setCount([4, 12])) 
+            pool.addEntry(LootEntry.of("minecraft:cobweb").setCount([4, 12])) 
         })
     
         .createPool(pool => {

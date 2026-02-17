@@ -8,6 +8,8 @@ ENDGAME Mods
 Do Not Update Relics (BETA VERSION) Crashes on startup
 Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 
+# B10.0
+
 # B9.0
 **---Mods---**
 - Updated Mods
@@ -21,6 +23,7 @@ Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 - Added missing recipes for Solclipsium Blocks via Casting
 - Fixed replication recipe for Soularium
 - Fix Atlantis Portal always opening at 0,0 (Using BBL Portals)
+- Spoils Bag Opener quest now requires the Spoil Bag Opener not other custom machines
 
 **---Changes---**
 - Updated Yuki Textures
@@ -35,8 +38,19 @@ Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 - Added additional Sunken Gravel recipe
 - Orichalcum Blend recipe
 - Orichalcum Ingot recipe
-
-
+- Reduced water level max height in atlanis, this allows for area above the water level to be built on
+- Added Mausoleum structure to atlantis, this spawns on the sea bed need for end game progression
+- Dreadlands is now always dark, beds no longer work
+- Removed Ice Dragon Roost and Caves from Overworld world gen
+- Remvoed Siren Island from Overworld world gen
+- Added all Ice and Fire structures to the Dreadlands
+- Added new secret quests 
+- Added Draconic Gravel
+- Added Dreaded-Draconic Compound
+- Tweaked Star Gravel recipe for duration and star power
+- Added information about using a stick on star forge blocks to view its totals
+- Cobwebs now have a chance to drop from Spider Trials
+- Removed Casting PCB recipe as its not working
 
 
 # B8.0

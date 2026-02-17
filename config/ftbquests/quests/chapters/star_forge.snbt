@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "star_forge"
 	group: "79FA05351D416013"
+	icon: {
+		id: "starforge:star_forge"
+	}
 	id: "689A7DABCF9A14E0"
 	order_index: 2
 	quest_links: [ ]

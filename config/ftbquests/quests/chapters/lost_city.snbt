@@ -68,8 +68,8 @@
 				id: "0DEACDCB1FC3A348"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["424968A339F1180B"]
@@ -167,7 +167,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["538627E920BAE0C8"]
+			dependencies: ["3EA5122B3CFCE707"]
 			id: "17113DA087FDA049"
 			tasks: [{
 				icon: {
@@ -180,7 +180,7 @@
 				type: "observation"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["17113DA087FDA049"]
@@ -191,16 +191,101 @@
 				type: "dimension"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
-			id: "32D41E5874C10F7A"
+			dependencies: ["538627E920BAE0C8"]
+			id: "3EA5122B3CFCE707"
 			tasks: [{
-				id: "58FAB6B63EAFB22B"
-				type: "checkmark"
+				id: "5D2601E33E70FCA3"
+				structure: "iceandfire:mausoleum"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D187733A73465CE"]
+			id: "767EA2466674D15A"
+			tasks: [{
+				id: "4AD0A6D12876700E"
+				item: { count: 1, id: "iceandfire:dread_shard" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D187733A73465CE"]
+			id: "2AA39A04850B3BB1"
+			tasks: [{
+				id: "6B3A8A7A312C6610"
+				item: { count: 1, id: "iceandfire:fire_dragon_heart" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D187733A73465CE"]
+			id: "4D74AB0EFC57AA27"
+			tasks: [{
+				id: "728EB1EDDA090A72"
+				item: { count: 1, id: "iceandfire:ice_dragon_heart" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D187733A73465CE"]
+			id: "7F5B641BCF094E31"
+			tasks: [{
+				id: "3AF5A75BE48A4684"
+				item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
+				type: "item"
 			}]
 			x: 1.5d
-			y: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["767EA2466674D15A"]
+			id: "67E4CEF62A19F64B"
+			tasks: [{
+				id: "3F655FFF45CDDCDF"
+				item: { count: 1, id: "iceandfire:dread_stone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25EABB4275737E38"]
+			id: "71A89B1795AA15F1"
+			tasks: [{
+				id: "3E0A8FF9AEFE0AC5"
+				item: { count: 1, id: "submerged:draconic_gravel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7F5B641BCF094E31"
+				"4D74AB0EFC57AA27"
+				"2AA39A04850B3BB1"
+				"767EA2466674D15A"
+				"67E4CEF62A19F64B"
+			]
+			id: "25EABB4275737E38"
+			tasks: [{
+				id: "3BDAA05771244D4F"
+				item: { count: 1, id: "submerged:dreaded_draconic_compound" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
 		}
 	]
 }

@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "forge_5E3D2C859007DA93"
 	group: "79FA05351D416013"
+	icon: {
+		id: "iceandfire:dragonforge_fire_input"
+	}
 	id: "5E3D2C859007DA93"
 	order_index: 1
 	quest_links: [ ]

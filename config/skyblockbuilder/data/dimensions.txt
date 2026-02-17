@@ -1,7 +1,7 @@
 minecraft:overworld
-minecraft:the_nether
-ars_nouveau:ca4529e7-c1e9-445f-9feb-51f0e1cb7b26
 minecraft:the_end
-atlantis:atlantis
+ars_nouveau:ca4529e7-c1e9-445f-9feb-51f0e1cb7b26
 iceandfire:dread_land
+minecraft:the_nether
+atlantis:atlantis
 ae2:spatial_storage

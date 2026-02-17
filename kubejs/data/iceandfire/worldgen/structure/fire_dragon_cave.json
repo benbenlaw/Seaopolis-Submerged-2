@@ -1,0 +1,6 @@
+{
+  "type": "iceandfire:fire_dragon_cave",
+  "biomes": ["iceandfire:dread_plain", "iceandfire:dread_forest"],
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

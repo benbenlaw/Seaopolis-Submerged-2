@@ -619,6 +619,7 @@
 			tasks: [{
 				id: "3E57626C91C112E1"
 				item: { components: { "custommachinery:machine": "submerged:spoil_bag_opener" }, count: 1, id: "custommachinery:custom_machine_item" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -1.0d

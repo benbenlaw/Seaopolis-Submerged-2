@@ -46,6 +46,7 @@ ServerEvents.recipes(event => {
     addPressureChamberRecipe(3, ['2x pneumaticcraft:pressure_chamber_glass', '2x pneumaticcraft:pressure_chamber_interface', 'pneumaticcraft:pressure_chamber_valve', '21x pneumaticcraft:pressure_chamber_wall'],['custommachinery:custom_machine_item[custommachinery:machine="submerged:mini_pressure_chamber"]'], [], [])
     addPressureChamberRecipe(1.5, ['4x pneumaticcraft:ingot_iron_compressed', 'casting:gear_mold'],['pneumaticcraft:compressed_iron_gear', 'casting:gear_mold'], [], [])
     addPressureChamberRecipe(1.5, ['submerged:corrupted_prismarine_crystal'],['submerged:prismarine_ingot'], [], [])
+    addPressureChamberRecipe(4.0, ["atlantis:sunken_gravel", "2x iceandfire:dread_shard", "submerged:dreaded_draconic_compound"],['submerged:draconic_gravel'], [], [])
 
     function addPressureChamberRecipe(pressure, inputs, results, fluidInputs, fluidOutputs) {
         let cmRecipe = event.recipes.custommachinery

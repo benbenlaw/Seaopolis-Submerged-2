@@ -6,6 +6,19 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ars_nouveau:imbuement_lapis'})
     event.remove({id: 'ars_nouveau:imbuement_amethyst_block'})
 
+    //Gold Enriched Quartz
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'iceandfire:fire_dragon_heart',
+            'iceandfire:lightning_dragon_heart',
+            'iceandfire:ice_dragon_heart',
+            'iceandfire:dread_shard',
+            'iceandfire:dread_shard'
+        ],
+         "iceandfire:dread_stone", "submerged:dreaded_draconic_compound", 1250, true
+    ).id('submerged:enchanting_apparatus/dreaded_draconic_compound')
+
+
     //Antimatter
     event.recipes.ars_nouveau.enchanting_apparatus(
         [

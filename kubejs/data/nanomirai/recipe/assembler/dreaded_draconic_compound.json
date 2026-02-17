@@ -1,0 +1,33 @@
+{
+  "type": "nanomirai:assembler",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "iceandfire:dread_stone"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "iceandfire:fire_dragon_heart"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "iceandfire:lightning_dragon_heart"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "iceandfire:dread_shard"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "submerged:dreaded_draconic_compound"
+  }
+}

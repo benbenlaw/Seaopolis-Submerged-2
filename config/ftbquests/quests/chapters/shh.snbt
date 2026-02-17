@@ -888,5 +888,63 @@
 			x: -9.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["4E3C6E1D1EEE98D7"]
+			id: "3B533FAF45A0C861"
+			tasks: [{
+				id: "42D3E83D06D4D215"
+				item: { count: 1, id: "iceandfire:hydra_heart" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3597D5BD40A0148B"]
+			id: "6385BBB6645EBE8A"
+			tasks: [{
+				id: "04083F383FF1C86F"
+				item: { count: 1, id: "iceandfire:cyclops_eye" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "7903DEB08A9FC3EE"
+			tasks: [{
+				id: "6BBE058FE0E9BAAA"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7903DEB08A9FC3EE"]
+			id: "4E3C6E1D1EEE98D7"
+			invisible: true
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "197C135173A054C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7903DEB08A9FC3EE"]
+			id: "3597D5BD40A0148B"
+			invisible: true
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "27C9A87A9E71C2EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
 	]
 }

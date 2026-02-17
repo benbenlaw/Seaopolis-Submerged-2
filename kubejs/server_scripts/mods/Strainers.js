@@ -117,7 +117,8 @@ ServerEvents.recipes(event => {
         platinum: ['minecraft:water', 'strainers:platinum_ore_piece', 0.03, 0.03, 8, 10],
         nickel: ['minecraft:water', 'strainers:nickel_ore_piece', 0.1, 0.05, 5, 10],
         aquamarine: ['minecraft:water', 'submerged:aquamarine_ore_piece', 0.05, 0.05, 5, 10],
-        cuprum: ['minecraft:water', 'submerged:cuprum_ore_piece', 0.05, 0.05, 5, 10]
+        cuprum: ['minecraft:water', 'submerged:cuprum_ore_piece', 0.05, 0.05, 5, 10],
+        draconium: ['minecraft:water', 'draconicevolution:draconium_dust', 0.05, 0.05, 10, 10]
     }
     
     //Purified Gravel -> Coal Ore Piece
@@ -263,6 +264,23 @@ ServerEvents.recipes(event => {
         gravelDrops.aquamarine, gravelDrops.cuprum
     ]);
 
+    //Draconic Gravel 
+    addStrainerGravelDrop('submerged:draconic_gravel', [
+                gravelDrops.coal,
+        gravelDrops.tin, gravelDrops.copper, gravelDrops.aluminum,
+        gravelDrops.iron, gravelDrops.zinc, gravelDrops.lapis,
+        gravelDrops.prismarine_crystal, gravelDrops.prismarine_shard, gravelDrops.salt,
+        gravelDrops.redstone, gravelDrops.amethyst, gravelDrops.scute,
+        gravelDrops.gold, gravelDrops.blaze,
+        gravelDrops.certrusDust, gravelDrops.quartzDust, gravelDrops.skyDust,
+        gravelDrops.diamond, gravelDrops.emerald,
+        gravelDrops.debris,
+        gravelDrops.echoShard, gravelDrops.osmium, gravelDrops.lead, gravelDrops.silver,
+        gravelDrops.uranium, gravelDrops.fluorite,
+        gravelDrops.iridium, gravelDrops.platinum, gravelDrops.nickel,
+        gravelDrops.aquamarine, gravelDrops.cuprum,
+        gravelDrops.draconium
+    ]);
 
     //Tiered Gravel Recipes
     function addStrainerGravelDrop(input, outputs) {

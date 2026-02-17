@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "forge"
 	group: "79FA05351D416013"
+	icon: {
+		id: "minecraft:dragon_egg"
+	}
 	id: "530CA56928BAC006"
 	order_index: 0
 	quest_links: [ ]
@@ -320,6 +323,17 @@
 			}]
 			x: 4.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["53A1079E58AFB069"]
+			id: "6D854A8CE19B09F2"
+			tasks: [{
+				id: "14DC519C9CE29E02"
+				item: { count: 1, id: "draconicevolution:dragon_heart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
 	]
 }
