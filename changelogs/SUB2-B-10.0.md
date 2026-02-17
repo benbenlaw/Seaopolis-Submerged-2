@@ -12,7 +12,9 @@ Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 
 # Mods
 
-## Added
+<details>
+  <summary>Added (7)</summary>
+
 - Extended Crafting (ExtendedCrafting-1.21.1-7.0.7.jar)
 - BBL Portals (portals-1.21.1-1.0.0.jar)
 - Brandon's Core (BrandonsCore-1.21.1-3.2.1.309.jar)
@@ -21,7 +23,11 @@ Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 - Draconic Evolution (Draconic-Evolution-1.21.1-3.1.4.632.jar)
 - Cucumber Library (Cucumber-1.21.1-8.0.15.jar)
 
-## Updated
+</details>
+
+<details>
+  <summary>Updated (16)</summary>
+
 - Accessories Compatibility Layer: accessories_compat_layer-neoforge-0.1.10+1.21.1.jar → accessories_compat_layer-neoforge-0.1.12+1.21.1.jar
 - Relics: relics-1.21.1-0.10.7.6.jar → relics-1.21.1-0.10.7.8.jar
 - Neruina - Ticking Entity Fixer: neruina-3.1.7+1.21.1-neoforge.jar → neruina-3.2.1+1.21.1-neoforge.jar
@@ -38,3 +44,5 @@ Do Not Update Simple Discord Rich Presence (Forge /  Fabric)
 - Refined Storage: refinedstorage-neoforge-2.0.0.jar → refinedstorage-neoforge-2.0.1.jar
 - Farmer's Delight: FarmersDelight-1.21.1-1.2.9.jar → FarmersDelight-1.21.1-1.2.10.jar
 - Applied Construction Sticks: appliedsticks-1.21.1-1.1.0.jar → appliedsticks-1.21.1-1.1.3.jar
+
+</details>
