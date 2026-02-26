@@ -4,7 +4,7 @@
 	filename: "star_power"
 	group: "621AB11E96FBBC5F"
 	icon: {
-		id: "submerged:nether_star_block"
+		id: "extendedcrafting:nether_star_block"
 	}
 	id: "3220729F6DAE9D8C"
 	order_index: 0
@@ -42,7 +42,7 @@
 			}]
 			tasks: [{
 				id: "05DFB4BCFE2F93C9"
-				item: { count: 1, id: "submerged:nether_star_block" }
+				item: { count: 1, id: "extendedcrafting:nether_star_block" }
 				type: "item"
 			}]
 			x: 1.0d

@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"pneumaticcraft:ingot_iron_compressed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forcecraft:force_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forcecraft:golden_power_source"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

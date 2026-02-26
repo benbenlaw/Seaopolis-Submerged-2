@@ -64,7 +64,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "submerged:nether_star_block",
+          "name": "extendedcrafting:nether_star_block",
           "weight": 1
         },
         {

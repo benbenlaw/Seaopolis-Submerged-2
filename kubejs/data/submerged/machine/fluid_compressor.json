@@ -1,0 +1,109 @@
+{
+  "name": {
+    "text": {
+      "translate": "Quantum Fluid Compressor"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:block.smithing_table.use"
+      },
+      "custommachinery:light": 15
+    },
+    "custommachinery:block": "submerged:machine/fluid_compressor"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "max_output": 10000,
+      "id": "fluid",
+      "capacity": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 7,
+      "y": 56,
+      "width": 20
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 33,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid",
+      "x": 61,
+      "y": 23,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 88,
+      "y": 35,
+      "width": 24,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 123,
+      "y": 34,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 155,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 5,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "Quantum Fluid Compressor"
+        },
+        "color": "dark_gray"
+      }
+    }
+  ]
+}

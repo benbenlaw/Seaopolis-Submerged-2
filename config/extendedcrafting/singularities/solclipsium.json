@@ -1,0 +1,10 @@
+{
+  "name": "Solclipsium",
+  "colors": [
+    "FCFC00",
+    "BF2600"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/solclipsium"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Certus",
+  "colors": [
+    "87BDE8",
+    "99CFFA"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/certus"
+  }
+}

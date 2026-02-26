@@ -1,0 +1,20 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"naturesaura:gold_brick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturesaura:token_anger"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:piston"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturesaura:infused_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:flint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"casting:tank","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"mekanism:advanced_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:osmium_compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:enriched_refined_obsidian"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ultimate_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekmm:cnc_lathe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"dysoncubeproject:em_railejector_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ultimate_induction_provider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:advanced_induction_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedae:ex_inscriber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:rotation_speed_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:purple_laser_lens"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

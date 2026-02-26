@@ -5,11 +5,28 @@ ServerEvents.recipes(event => {
     //Smelting
     event.smelting('minecraft:netherite_scrap', 'submerged:ancient_debris_dust').id(`submerged:netherite_scrap`)
  
+    //Nether Star Block
+    event.shapeless('extendedcrafting:nether_star_block', ['submerged:nether_star_block']).id('submerged:nether_star_block_to_extendedcrafting')
+
     //Dark Dye
     event.shapeless('submerged:dark_dye', ['submerged:prime_ingot', 'minecraft:black_dye', 'minecraft:brown_dye', 'minecraft:light_gray_dye', 'minecraft:gray_dye', 'minecraft:green_dye', 'minecraft:cyan_dye', 'minecraft:blue_dye', 'minecraft:red_dye']).id('submerged:dark_dye')
 
     //Bright Dye
     event.shapeless('submerged:bright_dye', ['submerged:prime_ingot', 'minecraft:yellow_dye', 'minecraft:lime_dye', 'minecraft:purple_dye', 'minecraft:orange_dye', 'minecraft:pink_dye', 'minecraft:white_dye', 'minecraft:magenta_dye', 'minecraft:light_blue_dye']).id('submerged:bright_dye')
+
+    //Fluid Compressor
+    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:fluid_compressor"]', ['AAA', 'BCB', 'AAA'], {
+        A: 'extendedcrafting:black_iron_ingot',
+        B: 'mob_grinding_utils:jumbo_tank',
+        C: 'extendedcrafting:ultimate_catalyst'
+    }).id('submerged:fluid_compressor')
+
+    //Chemical Compressor
+    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:chemical_compressor"]', ['AAA', 'BCB', 'AAA'], {
+        A: 'extendedcrafting:black_iron_ingot',
+        B: 'mekmm:ultimate_max_chemical_tank',
+        C: 'extendedcrafting:ultimate_catalyst'
+    }).id('submerged:chemical_compressor')
 
     //Dragon Breath Bucket
     event.shaped('submerged:dragons_breath_bucket', [' A ', 'ABA', ' A '], {
@@ -120,14 +137,6 @@ ServerEvents.recipes(event => {
 
     //Solclipsium Nugget
     event.shapeless('9x submerged:solclipsium_nugget', ['submerged:solclipsium_ingot']).id('submerged:solclipsium_nugget_from_ingot')
-
-    //Nether Star Block
-    event.shaped('submerged:nether_star_block', ['AAA', 'AAA', 'AAA'], {
-        A: 'minecraft:nether_star'
-    }).id('submerged:nether_star_block')
-
-    //Nether Star
-    event.shapeless('9x minecraft:nether_star', ['submerged:nether_star_block']).id('submerged:nether_star_from_block')
 
     //Wooden Gear
     event.shaped('submerged:wooden_gear', [' A ', 'ABA', ' A '], {

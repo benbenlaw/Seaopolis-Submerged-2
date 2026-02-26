@@ -1,0 +1,10 @@
+{
+  "name": "Cobblestone",
+  "colors": [
+    "929192",
+    "B1B1B1"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/cobblestone"
+  }
+}

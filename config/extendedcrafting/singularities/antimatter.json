@@ -1,0 +1,10 @@
+{
+  "name": "Antimatter",
+  "colors": [
+    "885793",
+    "85568F"
+  ],
+  "ingredient": {
+    "tag": "minecraft:empty"
+  }
+}

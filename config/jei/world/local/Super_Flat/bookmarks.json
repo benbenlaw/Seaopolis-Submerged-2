@@ -1,0 +1,4 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:light","components":{"minecraft:block_state":{"level":"2"}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

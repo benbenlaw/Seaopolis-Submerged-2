@@ -84,6 +84,9 @@ ServerEvents.recipes(event => {
     strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', 'iceandfire:dragonscales_black', 0.4, 0.05, 8, 10);
     strainerAuto('submerged:teary_gravel', 'submerged:dragons_breath', '2x iceandfire:dragonbone', 0.5, 0.05, 6, 10);
 
+    //Tiny Chaos Fragment
+    strainerAuto('draconicevolution:infused_obsidian', 'casting:molten_obsidian', 'draconicevolution:small_chaos_frag', 0.1, 0.01, 10, 10);
+
     //Gravel Drops
     const gravelDrops = {
         coal: ['minecraft:water', 'strainers:coal_ore_piece', 0.2, 0.05, 1, 10],

@@ -1,0 +1,23 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"iceandfire:dragonsteel_lightning_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:spawn_egg_fire_dragon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:spawn_egg_ice_dragon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"warp_pipes:magenta_warp_pipe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:slime_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:slime_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"compressedblocks:c7_slime_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hybrid-aquatic:glowslime"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hybrid-aquatic:glowslime_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"submerged:catalog_simple_blocks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:mini_coal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"lfpirates:pirate_tier_1_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismadditions:baby_creeper_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"submerged:ominous_drink"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"submerged:zombie_trial_sphere"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"submerged:copper_key"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:skeleton_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:skeleton_horse_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oxidized_copper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:ignite"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

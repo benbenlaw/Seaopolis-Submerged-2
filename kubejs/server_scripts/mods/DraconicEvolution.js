@@ -13,6 +13,129 @@ ServerEvents.recipes(event => {
 
     //Replace Input
 
+    //Luminessence
+    event.recipes.draconicevolution.fusion_crafting(
+        "minecraft:glowstone_dust",
+        [
+            "minecraft:glowstone_dust",
+            "alltheores:lumium_dust",
+            "minecraft:gunpowder",
+            ["draconicevolution:draconium_core", false],
+            ["draconicevolution:wyvern_core", false],
+            ["draconicevolution:awakened_core", false],
+            ["draconicevolution:chaotic_core", false],
+        ],
+        "extendedcrafting:luminessence",
+        "chaotic",
+        100000, //energy
+    ).id('submerged:draconicevolution/luminessence')
+
+    //Luminessence Block
+    event.recipes.draconicevolution.fusion_crafting(
+        'compressedblocks:crated_glowstone_dust',
+        [
+            'compressedblocks:crated_glowstone_dust',
+            "alltheores:lumium_block",
+            'compressedblocks:crated_gunpowder',
+            ["draconicevolution:draconium_core", false],
+            ["draconicevolution:wyvern_core", false],
+            ["draconicevolution:awakened_core", false],
+            ["draconicevolution:chaotic_core", false],
+        ],  
+        "extendedcrafting:luminessence_block",
+        "chaotic",
+        900000, //energy
+    ).id('submerged:draconicevolution/luminessence_block')
+
+    //Ender Ingot
+    event.recipes.draconicevolution.fusion_crafting(
+        "enderio:pulsating_alloy_ingot",
+        [
+            "minecraft:ender_pearl",
+            ["draconicevolution:draconium_core", false],
+            ["draconicevolution:wyvern_core", false],
+            ["draconicevolution:awakened_core", false],
+            ["draconicevolution:chaotic_core", false],
+        ],
+        "extendedcrafting:ender_ingot",
+        "chaotic",
+        100000, //energy
+    ).id('submerged:draconicevolution/ender_ingot')
+
+    //Ender Ingot Block
+    event.recipes.draconicevolution.fusion_crafting(
+        "enderio:pulsating_alloy_block",
+        [
+            "compressedblocks:crated_ender_pearl",
+            ["draconicevolution:draconium_core", false],
+            ["draconicevolution:wyvern_core", false],
+            ["draconicevolution:awakened_core", false],
+            ["draconicevolution:chaotic_core", false],
+        ],
+        "extendedcrafting:ender_ingot_block",
+        "chaotic",
+        900000, //energy
+    ).id('submerged:draconicevolution/ender_ingot_block')
+        
+
+    //Redstone Ingot
+    event.recipes.draconicevolution.fusion_crafting(
+        "minecraft:redstone",
+        [
+            "enderio:redstone_alloy_ingot",
+            ["draconicevolution:draconium_core", false], 
+            ["draconicevolution:wyvern_core", false], 
+            ["draconicevolution:awakened_core", false], 
+            ["draconicevolution:chaotic_core", false], 
+        ], 
+        "extendedcrafting:redstone_ingot",
+        "chaotic",
+        100000, //energy
+    ).id('submerged:draconicevolution/redstone_ingot') 
+
+    //Redstone Ingot Block
+    event.recipes.draconicevolution.fusion_crafting(
+        "minecraft:redstone_block",
+        [
+            "enderio:redstone_alloy_block",
+            ["draconicevolution:draconium_core", false],
+            ["draconicevolution:wyvern_core", false],
+            ["draconicevolution:awakened_core", false],
+            ["draconicevolution:chaotic_core", false],
+        ],
+        "extendedcrafting:redstone_ingot_block",  
+        "chaotic",
+        900000, //energy
+    ).id('submerged:draconicevolution/redstone_ingot_block')
+
+    //Black Iron Ingot
+    event.recipes.draconicevolution.fusion_crafting(
+        "minecraft:iron_ingot",
+        [
+            ["draconicevolution:draconium_core", false], 
+            ["draconicevolution:wyvern_core", false], 
+            ["draconicevolution:awakened_core", false], 
+            ["draconicevolution:chaotic_core", false], 
+        ], 
+        "extendedcrafting:black_iron_ingot",
+        "chaotic",
+        100000, //energy
+    ).id('submerged:draconicevolution/black_iron_ingot') 
+
+    //Black Iron Block
+    event.recipes.draconicevolution.fusion_crafting(
+        "minecraft:iron_block",
+        [
+            ["draconicevolution:draconium_core", false], 
+            ["draconicevolution:wyvern_core", false], 
+            ["draconicevolution:awakened_core", false], 
+            ["draconicevolution:chaotic_core", false], 
+        ], 
+        "extendedcrafting:black_iron_block",
+        "chaotic",
+        900000, //energy
+    ).id('submerged:draconicevolution/black_iron_block') 
+
     //Draconium Core
     event.shaped('draconicevolution:draconium_core', ['ABA', 'BCB', 'ABA'], {
         A: 'draconicevolution:draconium_ingot',

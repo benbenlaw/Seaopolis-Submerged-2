@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting('minecraft:wither_skeleton_skull', '500x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/wither_skeleton_skull')
     event.recipes.casting.melting('minecraft:dragon_head', '2000x mob_grinding_utils:fluid_xp', 1000).id('submerged:melting/dragon_head')
 
-    event.recipes.casting.melting('submerged:nether_star_block', '500x submerged:molten_star', 1400).id('submerged:melting/nether_star_block')
+    event.recipes.casting.melting('extendedcrafting:nether_star_block', '500x submerged:molten_star', 1400).id('submerged:melting/nether_star_block')
     event.recipes.casting.melting('submerged:grains_of_time', '500x submerged:time_fluid', 1400).id('submerged:melting/grains_of_time')
 
     event.recipes.casting.melting('forcecraft:force_nugget', '10x submerged:molten_force', 1000).id('submerged:melting/force_nugget')

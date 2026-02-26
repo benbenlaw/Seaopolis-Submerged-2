@@ -1,0 +1,10 @@
+{
+  "name": "Fluid XP",
+  "colors": [
+    "AADC2A",
+    "A6DC2A"
+  ],
+  "ingredient": {
+    "tag": "minecraft:empty"
+  }
+}

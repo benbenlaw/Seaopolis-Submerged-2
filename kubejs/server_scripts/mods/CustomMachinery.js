@@ -2,13 +2,47 @@
 
 ServerEvents.recipes(event => {
 
-    //Spoil Bag Opener
+    //Chemical Compressor
+        event.recipes.custommachinery.custom_machine("submerged:chemical_compressor", 100)
+        .requireChemical("10000x mekanism:antimatter")
+        .requireEnergyPerTick(100000)
+        .produceItem('extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:antimatter"]')
+        .id('submerged:chemical_compressor/antimatter')
 
+    //Fluid Compressor
+    event.recipes.custommachinery.custom_machine("submerged:fluid_compressor", 100)
+        .requireFluid("10000x submerged:liquid_rainbow")
+        .requireEnergyPerTick(100000)
+        .produceItem('extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:rainbow"]')
+        .id('submerged:fluid_compressor/rainbow')
+
+    event.recipes.custommachinery.custom_machine("submerged:fluid_compressor", 100)
+        .requireFluid("25000x mob_grinding_utils:fluid_xp")
+        .requireEnergyPerTick(100000)
+        .produceItem('extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:fluid_xp"]')
+        .id('submerged:fluid_compressor/fluid_xp')
+
+    event.recipes.custommachinery.custom_machine("submerged:fluid_compressor", 100)
+        .requireFluid("1000000x minecraft:lava")
+        .requireEnergyPerTick(100000)
+        .produceItem('extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:lava"]')
+        .id('submerged:fluid_compressor/lava')
+
+    event.recipes.custommachinery.custom_machine("submerged:fluid_compressor", 100)
+        .requireFluid("1000000x minecraft:water")
+        .requireEnergyPerTick(100000)
+        .produceItem('extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:water"]')
+        .id('submerged:fluid_compressor/water')
+
+
+
+
+
+    //Spoil Bag Opener
     event.recipes.custommachinery.custom_machine("submerged:spoil_bag_opener", 100)
         .requireItem("forcecraft:spoils_bag")
         .lootTableOutput("forcecraft:spoils/tier1")
 
-        
     event.recipes.custommachinery.custom_machine("submerged:spoil_bag_opener", 100)
         .requireItem("forcecraft:spoils_bag_t2")
         .lootTableOutput("forcecraft:spoils/tier2")

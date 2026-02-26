@@ -60,8 +60,8 @@ StartupEvents.registry('item', (event) => {
     event.create('submerged:cobblestone_ingot').tag(['c:ingots/cobblestone', 'c:ingots'])
     event.create('submerged:cobblestone_nugget').tag(['c:nuggets/cobblestone', 'c:nuggets'])
 
-    event.create('submerged:certus_ingot').tag(['c:ingots/certus_infused', 'c:ingots'])
-    event.create('submerged:prismarine_ingot').tag(['c:ingots/prismarine_infused', 'c:ingots'])
+    event.create('submerged:certus_ingot').tag(['c:ingots/certus', 'c:ingots'])
+    event.create('submerged:prismarine_ingot').tag(['c:ingots/prismarine', 'c:ingots'])
    
     event.create('submerged:water_purifier')
     event.create('submerged:air_purifier')

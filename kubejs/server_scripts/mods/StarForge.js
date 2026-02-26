@@ -20,6 +20,12 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'starforge:star_forge'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     event.replaceInput({id: 'starforge:pedestal'}, 'minecraft:heavy_weighted_pressure_plate', 'submerged:triarchium_ingot');
     
+    //Ultimate Singularity 
+    createStarForgeRecipe('extendedcrafting:ultimate_singularity', 'draconicevolution:awakened_draconium_block', 
+        ['draconicevolution:dragon_heart'],
+    5, 1000, 100);
+
+
     //Awakened Draconium Block
     createStarForgeRecipe('draconicevolution:awakened_draconium_block', 'draconicevolution:draconium_block', 
         ['draconicevolution:dragon_heart'],

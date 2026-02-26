@@ -10,6 +10,7 @@ atlantis:goo_lagoons
 atlantis:volcanic_darksea
 iceandfire:dread_forest
 iceandfire:dread_plain
+javd:void
 minecraft:badlands
 minecraft:bamboo_jungle
 minecraft:basalt_deltas

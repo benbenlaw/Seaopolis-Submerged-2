@@ -190,16 +190,18 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["0E040596AE4DFA19"]
 			id: "10C4B16F539408BD"
 			tasks: [{
 				id: "408D291F515B5857"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 13.5d
 		}
 		{
+			dependencies: ["749C2193CC79255E"]
 			id: "5D1530AA1E8C8BC7"
 			tasks: [{
 				id: "25053A7A68E3F147"
@@ -240,6 +242,53 @@
 			}]
 			x: 0.0d
 			y: 10.5d
+		}
+		{
+			dependencies: ["0E040596AE4DFA19"]
+			id: "04141134F1B3E49F"
+			tasks: [{
+				id: "284166DF5059981A"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"10C4B16F539408BD"
+				"04141134F1B3E49F"
+			]
+			id: "24DE8A34B114E041"
+			tasks: [{
+				id: "6D5739A1058F4D50"
+				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["24DE8A34B114E041"]
+			id: "083FBD304D13F2B6"
+			tasks: [{
+				id: "52524D47CFA888F5"
+				item: { count: 1, id: "extendedcrafting:black_iron_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["083FBD304D13F2B6"]
+			id: "5E5A07CA9172204E"
+			tasks: [{
+				id: "665065FE1E2987CD"
+				item: { count: 1, id: "extendedcrafting:frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
 		}
 	]
 }

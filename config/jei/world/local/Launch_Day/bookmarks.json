@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"strainers:purified_gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"strainers:coal_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

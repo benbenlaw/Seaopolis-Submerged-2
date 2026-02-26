@@ -1,0 +1,10 @@
+{
+  "name": "Lava",
+  "colors": [
+    "FF6A00",
+    "D35400"
+  ],
+  "ingredient": {
+    "tag": "minecraft:empty"
+  }
+}

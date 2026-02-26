@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"relics:leafy_mantle","components":{"relics:data":{"abilities":{"abilities":{"camouflage":{"extender":{"cooldownCap":0,"cooldown":0,"ticking":false},"points":0,"stats":{"heal":{"initialQuality":1},"absorption":{"initialQuality":10}},"research":{"links":{},"researched":false},"lock":{"breaks":5}},"revival":{"extender":{"cooldownCap":0,"cooldown":0,"ticking":false},"points":0,"stats":{"radius":{"initialQuality":7},"heal":{"initialQuality":5},"damage":{"initialQuality":4},"paralysis":{"initialQuality":7}},"research":{"links":{},"researched":false},"lock":{"breaks":0}}}},"leveling":{},"statistic":{}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

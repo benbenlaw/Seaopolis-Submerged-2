@@ -1,51 +1,20 @@
-# IDE / tools
-.vscode/
-.idea/
-.probe/
-.curseclient/
+*
 
-# Minecraft folders
-downloads/
-journeymap/
-local/
-logs/
-resourcepacks/
-saves/
-screenshots/
-shaderpacks/
-simplebackups/
-mods/
-debug/
-crash-reports/
-.mixin/
-.mixin.out/
-mixin.out/
-ESM/
-emojiful/
-fancymenu_data/
-waypoints/
 
-# Files
-minecraftinstance.json
-options.txt
-realms_persistence.json
-usernamecache.json
-usercache.json
-command_history.txt
-patchouli_data.json
-servers.dat
-servers.dat_old
-user-prefs.json
-observable_announce
+!.gitignore
 
-# Specific configs
-kubejs/config/probe-settings.json
-config/ftbchunks-client.snbt
-config/worldedit/worldedit.properties
-config/iris.properties
+!kubejs/
+!kubejs/**
 
-# Logs / debug files
-debug/disconnect-*-client.txt
+!defaultconfig/
+!defaultconfig/**
 
-# EXCEPTION: keep this path tracked
-!kubejs/mods/kubejs/server_scripts/mods
+!config/
+!config/**
+
+!changelogs/
+!changelogs/**
+
+!README.md
+!LICENSE.md
+!TODO.md

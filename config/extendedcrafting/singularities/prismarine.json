@@ -1,0 +1,10 @@
+{
+  "name": "Prismarine",
+  "colors": [
+    "A5D3C7",
+    "88C6B5"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/prismarine"
+  }
+}

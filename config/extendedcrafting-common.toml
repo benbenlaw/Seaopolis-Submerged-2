@@ -109,7 +109,7 @@
 	#The default amount of items required to create a Singularity.
 	# Default: 10000
 	# Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 4
 	#The default amount of FE required to create a Singularity.
 	# Default: 5000000
 	# Range: > 0

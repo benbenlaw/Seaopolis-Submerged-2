@@ -1,0 +1,10 @@
+{
+  "name": "Triarchium",
+  "colors": [
+    "7A1BA2",
+    "C19BD0"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/triarchium"
+  }
+}

@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"ae2:printed_logic_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:redstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:printed_silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,10 @@
+{
+  "name": "Water",
+  "colors": [
+    "00137F",
+    "0020D8"
+  ],
+  "ingredient": {
+    "tag": "minecraft:empty"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Liquid Rainbow",
+  "colors": [
+    "C648C3",
+    "FF5DFC"
+  ],
+  "ingredient": {
+    "tag": "minecraft:empty"
+  }
+}
