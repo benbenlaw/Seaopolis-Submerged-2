@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
     */
 
     //Blue Star
-    createStarForgeRecipe('starforge:blue_star', 'submerged:nether_star_block', 
+    createStarForgeRecipe('starforge:blue_star', 'extendedcrafting:nether_star_block', 
         [
             'alltheores:sapphire_block', 
             'alltheores:sapphire_block', 
