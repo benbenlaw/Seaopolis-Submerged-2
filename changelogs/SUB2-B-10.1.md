@@ -14,4 +14,4 @@
 - Missing textures from Submerged
 
 # Mods
-<!-- MODS_CHANGELOG -->
+_No mod changes this version._
