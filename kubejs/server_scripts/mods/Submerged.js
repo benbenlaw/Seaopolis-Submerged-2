@@ -14,6 +14,20 @@ ServerEvents.recipes(event => {
     //Bright Dye
     event.shapeless('submerged:bright_dye', ['submerged:prime_ingot', 'minecraft:yellow_dye', 'minecraft:lime_dye', 'minecraft:purple_dye', 'minecraft:orange_dye', 'minecraft:pink_dye', 'minecraft:white_dye', 'minecraft:magenta_dye', 'minecraft:light_blue_dye']).id('submerged:bright_dye')
 
+    //Water Purifier
+    event.shaped('submerged:water_purifier', [' A ', 'BCB', ' A '], {
+        A: 'minecraft:iron_ingot',
+        B: 'submerged:prime_alloy_ingot',
+        C: 'minecraft:heart_of_the_sea'
+    }).id('submerged:water_purifier')
+
+    //Air Purifier
+    event.shaped('submerged:air_purifier', [' A ', 'BCB', ' A '], {
+        A: 'minecraft:iron_ingot',
+        B: 'submerged:prime_alloy_ingot',
+        C: 'minecraft:nether_star'
+    }).id('submerged:air_purifier')
+
     //Fluid Compressor
     event.shaped('custommachinery:custom_machine_item[custommachinery:machine="submerged:fluid_compressor"]', ['AAA', 'BCB', 'AAA'], {
         A: 'extendedcrafting:black_iron_ingot',

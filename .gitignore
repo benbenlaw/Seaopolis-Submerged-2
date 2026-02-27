@@ -1,13 +1,12 @@
 *
 
-
 !.gitignore
 
 !kubejs/
 !kubejs/**
 
-!defaultconfig/
-!defaultconfig/**
+!defaultconfigs/
+!defaultconfigs/**
 
 !config/
 !config/**

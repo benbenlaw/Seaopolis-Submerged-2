@@ -63,3 +63,13 @@ PlayerEvents.loggedIn(event => {
     server.runCommandSilent(`kill @e[type=iceandfire:siren]`)
 
 })
+
+//Player Eaten 
+ItemEvents.foodEaten("minecraft:potion", event => {
+
+    event.player.addEffect('minecraft:poison', 100, 2)
+    event.player.tell(`What did you expect to happen?`)
+    
+    
+
+})

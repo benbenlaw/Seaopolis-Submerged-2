@@ -111,4 +111,91 @@ ServerEvents.recipes(event => {
         "dimension": dimension
         }).id(`fractured:${convertedBlock.split(':')[1]}_conversion`)
     }
+
+    //Drop Item in Fluid
+    event.custom({
+        "type": "inworldrecipes:drop_item_in_fluid",
+        "dropped_items": [
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:antimatter"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:cobblestone"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:living_matter"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:certus"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:prismarine"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:rainbow"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:triarchium"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:solclipsium"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:lava"
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "items": "extendedcrafting:singularity",
+                "components": {
+                    "extendedcrafting:singularity_id": "extendedcrafting:water"
+                },
+                "type": "neoforge:components"
+            },
+        ],
+        "fluid": "minecraft:water",
+        "consume_fluid": true,
+        "results": [
+            {
+            "item": {
+                "count": 1,
+                "id": "extendedcrafting:ultimate_singularity",
+            }
+        }
+        ]
+    })
 })

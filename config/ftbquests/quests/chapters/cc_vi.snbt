@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cc_vi"
+	group: "27F4CFB05BEDC0B5"
+	id: "25F872F5F5361FC0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:chest"
+		}
+		id: "707619EBC9CF44FF"
+		rewards: [{
+			id: "61C6D8A2F349D1B7"
+			item: {
+				count: 1
+				id: "shops:iron_coin"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "7C59E506037AAE32"
+			type: "checkmark"
+		}]
+		x: -6.5d
+		y: -0.5d
+	}]
+}

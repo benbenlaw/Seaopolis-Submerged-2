@@ -55,5 +55,8 @@
   {"ingredient":{"id":"minecraft:crimson_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"enderio:weather_obelisk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:chemical_crystallizer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekmm:ultimate_crystallizing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"mekmm:ultimate_crystallizing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:singularity","components":{"extendedcrafting:singularity_id":"extendedcrafting:antimatter"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:precision_mechanism"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dragon_breath"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

@@ -13,6 +13,14 @@
 		{
 			dependencies: ["5FCE425776F60E87"]
 			id: "2A1F1E03DA03326A"
+			rewards: [{
+				id: "380E7DC171BD9926"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "465A30D2289FC9A5"
 				item: { count: 1, id: "compressedblocks:c5_cobblestone" }
@@ -24,6 +32,14 @@
 		{
 			dependencies: ["2A1F1E03DA03326A"]
 			id: "3053A88D0EA6D5AB"
+			rewards: [{
+				id: "0F687CCDE0D47352"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FFAD6BD67D44440"
 				item: { count: 1, id: "submerged:cobblestone_ingot" }
@@ -35,6 +51,14 @@
 		{
 			dependencies: ["3053A88D0EA6D5AB"]
 			id: "7FD3ABE8D02DA42A"
+			rewards: [{
+				id: "26EE41180104DDBC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60B14FC45D9FBF87"
 				item: { components: { "minecraft:custom_data": { last_layer: 0b, the_end: 0b }, "minecraft:max_damage": 100 }, count: 1, id: "bedrock_breaker:bedrock_breaker" }
@@ -45,7 +69,18 @@
 		}
 		{
 			dependencies: ["7FD3ABE8D02DA42A"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
 			id: "4566350060E4C2D2"
+			rewards: [{
+				id: "1D7A78D4A121C0F6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7453CE3FC799556A"
 				type: "checkmark"
@@ -56,7 +91,18 @@
 		{
 			dependencies: ["4566350060E4C2D2"]
 			id: "3026F8E3C51960F0"
+			rewards: [{
+				id: "16D12E128948ADD9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
 				id: "02C4BB0CB56F4494"
 				observe_type: 0
 				timer: 0L
@@ -69,6 +115,14 @@
 		{
 			dependencies: ["3026F8E3C51960F0"]
 			id: "778DFD152ED55CD5"
+			rewards: [{
+				id: "73BE8F5427684221"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "6E4FFB677153DAEE"
@@ -80,6 +134,14 @@
 		{
 			dependencies: ["778DFD152ED55CD5"]
 			id: "53A1079E58AFB069"
+			rewards: [{
+				id: "006517F37F508CF6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "3DBCC81AB6E69107"
@@ -92,6 +154,14 @@
 		{
 			dependencies: ["53A1079E58AFB069"]
 			id: "5E5CD47AF654EE33"
+			rewards: [{
+				id: "631752FA925EC799"
+				item: {
+					count: 1
+					id: "minecraft:dragon_egg"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "610B6DB62FEAF502"
 				item: { count: 1, id: "minecraft:dragon_egg" }
@@ -103,6 +173,14 @@
 		{
 			dependencies: ["2CEDE0093151D227"]
 			id: "3628AF19074228D8"
+			rewards: [{
+				id: "4B6A1E48F2C0F374"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "493B962D80528AB0"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:lightning_dragon_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -114,6 +192,14 @@
 		{
 			dependencies: ["3654F6EAD94C0B0F"]
 			id: "67508416E28B7B10"
+			rewards: [{
+				id: "4DA1901C03CDEE3F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "79E92B198334CFA2"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:fire_dragon_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -125,6 +211,14 @@
 		{
 			dependencies: ["5CF28EFD4A21F4A8"]
 			id: "6E2DEE2B413756E4"
+			rewards: [{
+				id: "723F6DDB56BD79A0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "01D7B4F6D5108C26"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(submerged:ice_dragon_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -136,6 +230,14 @@
 		{
 			dependencies: ["6C02564985E87DE8"]
 			id: "71BA49846B89E745"
+			rewards: [{
+				id: "13BE2E86B49589A8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "587B7164EAC472A0"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon/fire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -147,6 +249,14 @@
 		{
 			dependencies: ["6C02564985E87DE8"]
 			id: "69035FC798DB8B20"
+			rewards: [{
+				id: "1E137127ABA12A0C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "06DFA782028321F9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon/lightning)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -158,6 +268,14 @@
 		{
 			dependencies: ["6C02564985E87DE8"]
 			id: "7937A1E7EA149493"
+			rewards: [{
+				id: "4F30953B83D8D764"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D2AF28456A5276E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon/ice)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -169,6 +287,14 @@
 		{
 			dependencies: ["71BA49846B89E745"]
 			id: "3654F6EAD94C0B0F"
+			rewards: [{
+				id: "52688BD8706DE762"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F24EF1853749D89"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:storage_blocks/scales/dragon/fire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -180,6 +306,14 @@
 		{
 			dependencies: ["7937A1E7EA149493"]
 			id: "5CF28EFD4A21F4A8"
+			rewards: [{
+				id: "2B404D8CE71F44BD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D84D12B3FB9ED17"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:storage_blocks/scales/dragon/ice)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -191,6 +325,14 @@
 		{
 			dependencies: ["69035FC798DB8B20"]
 			id: "2CEDE0093151D227"
+			rewards: [{
+				id: "6D70C83B7D60C0C7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E9D562A3916A2C2"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:storage_blocks/scales/dragon/lightning)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -205,6 +347,14 @@
 				"1075E784003933C1"
 			]
 			id: "6A0F60DED55ACD7B"
+			rewards: [{
+				id: "6D29275F93E86B27"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2ADA1B4673597562"
 				item: { count: 1, id: "iceandfire:dragon_stick" }
@@ -216,6 +366,14 @@
 		{
 			dependencies: ["4B0318D59CB6DE3F"]
 			id: "4495BFDF5DDE65E4"
+			rewards: [{
+				id: "78462FD54B8015C3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B662FE140A59A42"
 				item: { count: 1, id: "iceandfire:dragon_flute" }
@@ -226,8 +384,19 @@
 		}
 		{
 			dependencies: ["53A1079E58AFB069"]
+			icon: {
+				id: "minecraft:dragon_breath"
+			}
 			id: "4070FF72EABE1FE7"
 			optional: true
+			rewards: [{
+				id: "5A7643F885A0E228"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C0CAE2898C3F180"
 				type: "checkmark"
@@ -242,6 +411,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "48E7381C1D516967"
+			rewards: [{
+				id: "19A3C56C6701B49E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "214A2BE0C52DE2CF"
 				item: { count: 1, id: "minecraft:dragon_breath" }
@@ -256,7 +433,18 @@
 				"4070FF72EABE1FE7"
 			]
 			dependency_requirement: "one_completed"
+			icon: {
+				id: "strainers:wooden_strainer"
+			}
 			id: "6C02564985E87DE8"
+			rewards: [{
+				id: "17E612B6AFBE4AE2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "27E830AAEAB5778A"
 				type: "checkmark"
@@ -267,6 +455,14 @@
 		{
 			dependencies: ["6C02564985E87DE8"]
 			id: "4B0318D59CB6DE3F"
+			rewards: [{
+				id: "0BAF1107A82EAF5D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "67E23703A1BD3636"
 				item: { count: 1, id: "iceandfire:dragonbone" }
@@ -278,6 +474,14 @@
 		{
 			dependencies: ["4B0318D59CB6DE3F"]
 			id: "245248E08A1E87E1"
+			rewards: [{
+				id: "158C7F47FFA221DC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "242889387C68BF65"
 				item: { count: 1, id: "iceandfire:dragon_bone_block" }
@@ -300,6 +504,14 @@
 		{
 			dependencies: ["53A1079E58AFB069"]
 			id: "1075E784003933C1"
+			rewards: [{
+				id: "30CFA2907656E4D8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0ED0F257C7B83699"
 				item: { count: 1, id: "minecraft:dragon_head" }
@@ -316,6 +528,15 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "40578F951A22ABCC"
+			rewards: [{
+				id: "19617F9E3C0769FD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "76DB97844F6B742C"
 				item: { count: 1, id: "iceandfire:dragon_meal" }
@@ -327,6 +548,14 @@
 		{
 			dependencies: ["53A1079E58AFB069"]
 			id: "6D854A8CE19B09F2"
+			rewards: [{
+				id: "60D773769A9EC927"
+				item: {
+					count: 1
+					id: "draconicevolution:dragon_heart"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14DC519C9CE29E02"
 				item: { count: 1, id: "draconicevolution:dragon_heart" }

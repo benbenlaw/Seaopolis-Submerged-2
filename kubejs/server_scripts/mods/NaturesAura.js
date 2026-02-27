@@ -21,6 +21,13 @@ ServerEvents.recipes(event => {
     //Transmutation
     event.recipes.naturesaura.tree_ritual('naturesaura:conversion_catalyst', ['naturesaura:gold_brick', 'minecraft:wither_skeleton_skull', 'minecraft:brewing_stand', 'naturesaura:tainted_gold', 'minecraft:glowstone', 'naturesaura:infused_stone']).id('submerged:naturesaura/conversion_catalyst')
 
+    //Ingot of the Depths
+    event.shaped('naturesaura:depth_ingot', [' A ', 'BCB', ' A '], {
+        A: 'atlantis:ancient_cuprum_ingot',
+        B: 'naturesaura:tainted_gold',
+        C: 'minecraft:netherite_scrap'
+    }).id('submerged:naturesaura/depth_ingot')
+
     //Brilliant Fiber
     event.shaped('4x naturesaura:gold_fiber', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:short_grass',

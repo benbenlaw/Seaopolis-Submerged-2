@@ -393,6 +393,9 @@
 				"285744DC6862CFB7"
 				"75B3B7C61805DC9E"
 			]
+			icon: {
+				id: "simplehats:presentsstack"
+			}
 			id: "0D0D7CD17519A348"
 			rewards: [
 				{

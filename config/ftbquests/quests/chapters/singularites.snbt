@@ -303,5 +303,27 @@
 			x: -3.0d
 			y: 3.0d
 		}
+		{
+			dependencies: [
+				"06DDCDE74285A03F"
+				"1BAFECAFB48CC25E"
+				"3CF885D35737FDBF"
+				"3F65DA09CF92965D"
+				"64543CBDE6BA3DE7"
+				"47A03882D9E864BE"
+				"4A85100C3C4EEE42"
+				"7AB6CD2922653BDF"
+				"3CE305BF21AB19FF"
+				"7E3253A585BC2812"
+			]
+			id: "3A4A6AB1BD4FA96C"
+			tasks: [{
+				id: "52838ED5D0B2CD34"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
 	]
 }

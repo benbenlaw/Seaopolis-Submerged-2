@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 12000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 8,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "output": {
+    "count":4,
+    "id": "extendedcrafting:crystaltine_ingot"
+  }
+}    

@@ -3,17 +3,520 @@
 	default_quest_shape: ""
 	filename: "cc_v"
 	group: "79FA05351D416013"
+	icon: {
+		id: "simplehats:presentsstack"
+	}
 	id: "67760D9BDF2AD905"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "42D9BC5D2DB0D10A"
-		tasks: [{
-			id: "1ED2B601939757B6"
-			item: { count: 1, id: "iceandfire:hippogryph_egg" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["40578F951A22ABCC"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "3EFA3EE211CAEFB1"
+			rewards: [{
+				id: "4D0C13CCB900D404"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "164CEB49F9CF9B0B"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EFA3EE211CAEFB1"]
+			id: "02C111382C97D580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "407EB1FF2053093B"
+				table_id: 7329553934999736280L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "2E3CC2A37A49661B"
+				item: { count: 1, id: "iceandfire:dragonbone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EFA3EE211CAEFB1"]
+			id: "2F2CFE1FC4B80167"
+			rewards: [{
+				id: "0C0DDDF92755B416"
+				item: {
+					count: 1
+					id: "simplehats:dragonhead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "61A7733499898CF6"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2F2CFE1FC4B80167"
+				"02C111382C97D580"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "67102F9934013F90"
+			rewards: [{
+				id: "25238367D93D2856"
+				item: {
+					count: 1
+					id: "iceandfire:hippogryph_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79F4A8E5AD3F8B75"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01D8F18BBBDF0A97"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "63D9ADAAB87BBA1C"
+			rewards: [{
+				id: "6A9C10757BDC46C0"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23A3F19E73E651D0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["63D9ADAAB87BBA1C"]
+			id: "49764B1FBD9C1049"
+			rewards: [{
+				id: "722B467F76D7E649"
+				item: {
+					count: 1
+					id: "simplehats:rgbdragonskull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2BD7B3C2DC53073F"
+				item: { count: 1, id: "submerged:triarchium_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63D9ADAAB87BBA1C"]
+			id: "581B3D6BDD71A8E5"
+			rewards: [{
+				count: 4
+				id: "41D5849FE321D054"
+				item: {
+					count: 1
+					id: "submerged:triarchium_gem"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "1D32D609724B4E7C"
+					item: { count: 1, id: "alltheores:ruby" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "361D92F17649A98E"
+					item: { count: 1, id: "alltheores:sapphire" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "68D48FBBDE7BD4E7"
+					item: { count: 1, id: "alltheores:peridot" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"581B3D6BDD71A8E5"
+				"49764B1FBD9C1049"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "61497C961DD69F9E"
+			rewards: [
+				{
+					count: 32
+					id: "18449B80DA32D686"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_lightning_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "485413B78C51071C"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_fire_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "278CE8FC4B0117AA"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_ice_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E87CADC1AE5ABE9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2110DC692528877B"
+				"3B00CB7916FF1C69"
+			]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "1DE6DAD68286D888"
+			rewards: [{
+				id: "07A304252796F181"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00512C50F295B88C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DE6DAD68286D888"]
+			id: "747554211DC4AD19"
+			rewards: [
+				{
+					count: 4
+					id: "6EE6C18C3B9621E5"
+					item: {
+						count: 1
+						id: "starforge:star_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B24C453866AA45B"
+					item: {
+						count: 1
+						id: "starforge:star_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "29A544C3A68CF292"
+				item: { count: 1, id: "starforge:cosmic_pillar" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DE6DAD68286D888"]
+			id: "64879D4CF0556ACB"
+			rewards: [
+				{
+					id: "411E952D77AF6C7E"
+					item: {
+						count: 1
+						id: "starforge:blue_star"
+					}
+					type: "item"
+				}
+				{
+					id: "048D25CA7B03C1F5"
+					item: {
+						count: 1
+						id: "starforge:white_star"
+					}
+					type: "item"
+				}
+				{
+					id: "428B264F15C39EFE"
+					item: {
+						count: 1
+						id: "starforge:yellow_star"
+					}
+					type: "item"
+				}
+				{
+					id: "5DDBD782681D18D8"
+					item: {
+						count: 1
+						id: "starforge:orange_star"
+					}
+					type: "item"
+				}
+				{
+					id: "6E80313FEA7CFBCB"
+					item: {
+						count: 1
+						id: "starforge:red_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7E0D61C94CEAAE8B"
+				item: { count: 1, id: "starforge:red_star" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"64879D4CF0556ACB"
+				"747554211DC4AD19"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "3D3EDE9C18119A8A"
+			rewards: [
+				{
+					count: 8
+					id: "2B78C0F2156B238C"
+					item: {
+						count: 1
+						id: "starforge:tier_5_star_forge_cap"
+					}
+					type: "item"
+				}
+				{
+					id: "71A8F0D6468D6B14"
+					item: {
+						count: 1
+						id: "starforge:star_forge"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "63420521D7898372"
+					item: {
+						count: 1
+						id: "starforge:pedestal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63332B2E3862CF91"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42AF6989ACCE264A"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "0ED35132A8E93988"
+			rewards: [{
+				id: "5FA782C2BCBC5B38"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50F1E95A2B8CA77B"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ED35132A8E93988"]
+			id: "3677F1F5ED028BE4"
+			rewards: [{
+				count: 2
+				id: "3A584A3383A9F652"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "0FCC23EF49A356A3"
+					item: { count: 1, id: "submerged:water_purifier" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7023F3978024ED63"
+					item: { count: 1, id: "submerged:air_purifier" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0ED35132A8E93988"]
+			id: "7F2A9B5EBB08603C"
+			rewards: [{
+				id: "0DB1CB79B8B09428"
+				item: {
+					components: {
+						"reliquary:entity_name": "lfpirates:primed_barrel_bomb"
+					}
+					count: 1
+					id: "reliquary:mob_charm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "222DBEF76F562EE3"
+				item: { count: 1, id: "submerged:prime_alloy_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7F2A9B5EBB08603C"
+				"3677F1F5ED028BE4"
+			]
+			icon: {
+				id: "ars_nouveau:starby_gift"
+			}
+			id: "7357CB74A4E991D9"
+			rewards: [{
+				id: "3FA376CA1EA5FF3B"
+				item: {
+					components: {
+						"custommachinery:machine": "submerged:infinity_forge"
+					}
+					count: 1
+					id: "custommachinery:custom_machine_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B6204E733DFC8C2"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7357CB74A4E991D9"
+				"61497C961DD69F9E"
+				"67102F9934013F90"
+				"3D3EDE9C18119A8A"
+			]
+			icon: {
+				id: "simplehats:presentsstack"
+			}
+			id: "4FC296BB0306C132"
+			rewards: [
+				{
+					id: "098AA5FE6280BCD3"
+					item: {
+						components: {
+							"shops:pinata_id": "submerged:rewards_v"
+						}
+						count: 1
+						id: "shops:pinata_flare"
+					}
+					type: "item"
+				}
+				{
+					id: "50547DEC984C243F"
+					item: {
+						count: 1
+						id: "hybrid-aquatic:hammerhead_shark_plushie"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0350E79C1D476C97"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 }

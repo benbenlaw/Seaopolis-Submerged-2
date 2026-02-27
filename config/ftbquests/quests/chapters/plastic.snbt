@@ -266,6 +266,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["772E29425FED6697"]
 			icon: {
 				components: {
 					"pneumaticcraft:uv_exposure": 100

@@ -137,10 +137,11 @@ ServerEvents.recipes(event => {
     ).id('submerged:draconicevolution/black_iron_block') 
 
     //Draconium Core
-    event.shaped('draconicevolution:draconium_core', ['ABA', 'BCB', 'ABA'], {
+    event.shaped('draconicevolution:draconium_core', ['ABA', 'DCD', 'ABA'], {
         A: 'draconicevolution:draconium_ingot',
-        B: 'submerged:prime_ingot',
-        C: 'draconicevolution:dragon_heart'
+        B: 'submerged:prime_nugget',
+        C: 'draconicevolution:dragon_heart',
+        D: 'submerged:prime_ingot',
     }).id('submerged:draconicevolution/draconium_core')
     
     //Wyvern Core tier can be (draconium, wyvern, draconic, chaotic)

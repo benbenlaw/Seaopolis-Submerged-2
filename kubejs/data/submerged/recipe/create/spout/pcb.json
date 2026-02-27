@@ -2,7 +2,11 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "pneumaticcraft:empty_pcb"
+      "items": "pneumaticcraft:empty_pcb",
+      "components": {
+          "pneumaticcraft:uv_exposure": 100
+      },
+      "type": "neoforge:components"
     },
     {
       "type": "neoforge:single",
