@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Submerged 2",
-  "version": "B10.1",
+  "version": "B10.2",
   "author": "",
   "files": [
     {
@@ -1095,14 +1095,14 @@
       "isLocked": false
     },
     {
-      "projectID": 957920,
-      "fileID": 5821676,
+      "projectID": 276951,
+      "fileID": 7515858,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 276951,
-      "fileID": 7515858,
+      "projectID": 957920,
+      "fileID": 5821676,
       "required": true,
       "isLocked": false
     },
@@ -1155,14 +1155,14 @@
       "isLocked": false
     },
     {
-      "projectID": 575698,
-      "fileID": 7528185,
+      "projectID": 1306367,
+      "fileID": 7516288,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 1306367,
-      "fileID": 7516288,
+      "projectID": 575698,
+      "fileID": 7528185,
       "required": true,
       "isLocked": false
     },
@@ -1299,14 +1299,14 @@
       "isLocked": false
     },
     {
-      "projectID": 361579,
-      "fileID": 6225208,
+      "projectID": 454802,
+      "fileID": 7272089,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 454802,
-      "fileID": 7272089,
+      "projectID": 361579,
+      "fileID": 6225208,
       "required": true,
       "isLocked": false
     },
@@ -1359,14 +1359,14 @@
       "isLocked": false
     },
     {
-      "projectID": 580181,
-      "fileID": 6090721,
+      "projectID": 1264423,
+      "fileID": 7544787,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 1264423,
-      "fileID": 7544787,
+      "projectID": 580181,
+      "fileID": 6090721,
       "required": true,
       "isLocked": false
     },
@@ -1479,14 +1479,14 @@
       "isLocked": false
     },
     {
-      "projectID": 355418,
-      "fileID": 6862992,
+      "projectID": 272335,
+      "fileID": 7180790,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 272335,
-      "fileID": 7180790,
+      "projectID": 355418,
+      "fileID": 6862992,
       "required": true,
       "isLocked": false
     },

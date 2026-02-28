@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     .id('submerged:no_mimic_spawner')
 
     //Sunken Gravel
-    createInWorldConversion("submerged:star_gravel", "atlantis:sunken_gravel", false, 200, "atlantis:atlantis")
+    createInWorldConversion("submerged:star_gravel", "atlantis:sunken_gravel", false, 100, "atlantis:atlantis")
 
     //Activated Atlantis Portal Frame
     event.recipes.inworldrecipes.block_interaction(
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         "pop_block": false,
         "requires_sunlight": false,
         "dimension": "minecraft:the_nether",
-        "duration": 200
+        "duration": 100
     }).id('submerged:nether_force_bricks')
 
     //Dragon Eggs

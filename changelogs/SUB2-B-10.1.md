@@ -8,10 +8,10 @@
 
 - Fixed submerged nether star block being used in star forge recipes
 
-# Known Issues
+## Known Issues
 
 - Fluid and Chemical Compressor textures not final 
 - Missing textures from Submerged
 
-# Mods
+## Mods
 <!-- MODS_CHANGELOG -->

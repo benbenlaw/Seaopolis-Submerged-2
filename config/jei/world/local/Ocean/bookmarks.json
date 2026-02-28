@@ -58,5 +58,6 @@
   {"ingredient":{"id":"mekmm:ultimate_crystallizing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"extendedcrafting:singularity","components":{"extendedcrafting:singularity_id":"extendedcrafting:antimatter"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:precision_mechanism"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:dragon_breath"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:dragon_breath"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"submerged:star_gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

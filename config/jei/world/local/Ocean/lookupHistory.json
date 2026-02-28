@@ -1,12 +1,17 @@
 [
   {"version":1},
+  {"ingredient":{"id":"pneumaticcraft:empty_pcb","components":{"pneumaticcraft:uv_exposure":100}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"submerged:fluid_compressor"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:singularity","components":{"extendedcrafting:singularity_id":"extendedcrafting:fluid_xp"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forcecraft:force_brick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"atlantis:sunken_gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"submerged:star_gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:thick"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:pellet_polonium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"draconicevolution:basic_crafting_injector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create_connected:control_chip"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"casting:molten_soularium"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pneumaticcraft:empty_pcb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:empty_pcb","components":{"pneumaticcraft:uv_exposure":100}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pneumaticcraft:unassembled_pcb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pneumaticcraft:printed_circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"forcecraft:heat_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -86,7 +91,6 @@
   {"ingredient":{"id":"extendedcrafting:singularity","components":{"extendedcrafting:singularity_id":"extendedcrafting:rainbow"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"extendedcrafting:ultimate_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"extendedcrafting:singularity","components":{"extendedcrafting:singularity_id":"extendedcrafting:triarchium"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"submerged:fluid_compressor"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"extendedcrafting:compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"submerged:chemical_compressor"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekmm:ultimate_max_chemical_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -95,9 +99,5 @@
   {"ingredient":"mekanism:polonium","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:pellet_antimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"submerged:liquid_rainbow"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ars_nouveau:source_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":"mekanism:oxygen","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:chemical_crystallizer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mob_grinding_utils:fluid_xp"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:rotten_flesh"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"ars_nouveau:source_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

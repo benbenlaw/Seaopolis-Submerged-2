@@ -279,7 +279,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["174C09497F7BAFE4"]
