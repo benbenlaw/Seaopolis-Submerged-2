@@ -1,5 +1,7 @@
 [
   {"version":2},
   {"ingredient":{"id":"submerged:ancient_gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:water"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:water"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"strainers:mulch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"strainers:eroding_salt_mulch"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

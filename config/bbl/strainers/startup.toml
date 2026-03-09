@@ -6,7 +6,7 @@
 	#The maximum progress of the strainer, default = 220,
 	# Default: 220
 	# Range: > 1
-	"Strainer Max Progress" = 220
+	"Strainer Max Progress" = 160
 	#The durations of the blocks in the world, default = [], example "minecraft:cherry_leaves=1000"
 	"Block Durations" = []
 	#The speed reduction of the tier 1 upgrade, default = 50

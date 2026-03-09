@@ -2,23 +2,37 @@
 PlayerEvents.tick(event => {
     let player = event.player
     let level = player.level
+       
+    let helmet = player.getHeadArmorItem()
+    let chestplate = player.getChestArmorItem()
+    let leggings = player.getLegsArmorItem()
+    let boots = player.getFeetArmorItem()
 
     let fullHazmat =
-        (player.getFeetArmorItem().hasTag('submerged:hazmat') &&
-        player.getChestArmorItem().hasTag('submerged:hazmat') &&
-        player.getHeadArmorItem().hasTag('submerged:hazmat') &&
-        player.getLegsArmorItem().hasTag('submerged:hazmat')) ||
+        (boots.hasTag('submerged:hazmat') &&
+        chestplate.hasTag('submerged:hazmat') &&
+        helmet.hasTag('submerged:hazmat') &&
+        leggings.hasTag('submerged:hazmat')) ||
         player.tags.contains('cured');
 
     let fullDiving =
-        (player.getFeetArmorItem().hasTag('submerged:diving_gear') &&
-        player.getChestArmorItem().hasTag('submerged:diving_gear') &&
-        player.getHeadArmorItem().hasTag('submerged:diving_gear') &&
-        player.getLegsArmorItem().hasTag('submerged:diving_gear')) ||
+        (boots.hasTag('submerged:diving_gear') &&
+        chestplate.hasTag('submerged:diving_gear') &&
+        helmet.hasTag('submerged:diving_gear') &&
+        leggings.hasTag('submerged:diving_gear')) ||
         player.tags.contains('cured');
 
     let inWater = player.isInWater() || player.isInRain() || player.isInBubbleColumn();
     let inToxicAir = player.y > 149 || player.getInventory().contains('submerged:toxic_gravel')
+
+    if(inWater && event.server.getTickCount() % 40 == 0) {
+        if (helmet.hasTag('submerged:diving_gear')) helmet.setDamageValue(helmet.damageValue + 1)
+        if (chestplate.hasTag('submerged:diving_gear')) chestplate.setDamageValue(chestplate.damageValue + 1)
+        if (leggings.hasTag('submerged:diving_gear')) leggings.setDamageValue(leggings.damageValue + 1)
+        if (boots.hasTag('submerged:diving_gear')) boots.setDamageValue(boots.damageValue + 1)
+
+    }
+
 
     if (inWater && !fullDiving) {
         player.attack(3)
@@ -61,15 +75,5 @@ PlayerEvents.loggedIn(event => {
     server.runCommandSilent(`kill @e[type=hybrid-aquatic:yeti_crab]`)
     server.runCommandSilent(`kill @e[type=iceandfire:sea_serpent]`)
     server.runCommandSilent(`kill @e[type=iceandfire:siren]`)
-
-})
-
-//Player Eaten 
-ItemEvents.foodEaten("minecraft:potion", event => {
-
-    event.player.addEffect('minecraft:poison', 100, 2)
-    event.player.tell(`What did you expect to happen?`)
-    
-    
 
 })

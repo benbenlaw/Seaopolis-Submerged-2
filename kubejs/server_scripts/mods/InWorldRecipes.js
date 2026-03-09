@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
             {
                 "items": "extendedcrafting:singularity",
                 "components": {
-                    "extendedcrafting:singularity_id": "extendedcrafting:living_matter"
+                    "extendedcrafting:singularity_id": "extendedcrafting:fluid_xp"
                 },
                 "type": "neoforge:components"
             },

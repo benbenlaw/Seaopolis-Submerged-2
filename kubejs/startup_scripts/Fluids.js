@@ -16,6 +16,7 @@ StartupEvents.registry("fluid", (event) => {
     event.create('submerged:molten_triarchium', "thick").tint(0xB200FF)
     event.create('submerged:molten_vanillarite', "thick").tint(0xFFFAAD)
     event.create('submerged:liquid_rainbow', "thin").tint(0xFF5EFC)
+    event.create('submerged:liquid_fissile_fuel', "thin").tint(0x2D322E)
 
 })
 

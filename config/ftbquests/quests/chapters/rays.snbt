@@ -172,7 +172,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7D777D261669E62C"]
@@ -191,7 +191,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -213,7 +213,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3A32DE5882D09C24"]
@@ -292,7 +292,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["33051267AA478748"]
@@ -333,7 +333,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["149CE980BCDE5FFD"]
@@ -352,7 +352,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["380A9FFA97186521"]
@@ -391,7 +391,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1BC72E740B20B36C"]
@@ -411,7 +411,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1BC72E740B20B36C"]
@@ -431,7 +431,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -453,7 +453,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2DCF9924D57575C5"]
@@ -472,7 +472,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2DCF9924D57575C5"]
@@ -491,7 +491,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -514,7 +514,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7249C61886206724"]
@@ -533,7 +533,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["607ADE90EDB07ACD"]
@@ -629,6 +629,17 @@
 			}]
 			x: 3.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["2F22D9516ABB189B"]
+			id: "49F793B9D3780313"
+			tasks: [{
+				id: "53F5CCB297AF96ED"
+				item: { count: 1, id: "mekanism:reprocessed_fissile_fragment" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
 		}
 	]
 }

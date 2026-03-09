@@ -145,6 +145,7 @@
 		{
 			dependencies: ["575A0D680A313F82"]
 			id: "0EEEFE30CBB86133"
+			optional: true
 			tasks: [{
 				id: "7FE80F1690993EF2"
 				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
@@ -156,6 +157,7 @@
 		{
 			dependencies: ["0EEEFE30CBB86133"]
 			id: "74DB3C8654006627"
+			optional: true
 			tasks: [{
 				id: "2741964E3A40D123"
 				item: { count: 1, id: "draconicevolution:medium_chaos_frag" }
@@ -213,6 +215,7 @@
 		{
 			dependencies: ["5D1530AA1E8C8BC7"]
 			id: "575A0D680A313F82"
+			optional: true
 			tasks: [{
 				id: "1B25DADBAD6EDEAB"
 				item: { count: 1, id: "draconicevolution:infused_obsidian" }
@@ -224,6 +227,7 @@
 		{
 			dependencies: ["5D1530AA1E8C8BC7"]
 			id: "1229098DC8F3BAD7"
+			optional: true
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
 				id: "22B25F9183BE5A04"
@@ -236,6 +240,7 @@
 		{
 			dependencies: ["1229098DC8F3BAD7"]
 			id: "1F6604F2B9DBEBAD"
+			optional: true
 			tasks: [{
 				id: "2FA1BA6FD2061471"
 				type: "checkmark"

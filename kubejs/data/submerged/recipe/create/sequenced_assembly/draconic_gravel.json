@@ -49,6 +49,7 @@
           "item": "submerged:dreaded_draconic_compound"
         }
       ],
+      "keep_held_item": true,
       "results": [
         {
           "id": "atlantis:sunken_gravel"

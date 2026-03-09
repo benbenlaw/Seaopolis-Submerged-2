@@ -193,4 +193,25 @@ ServerEvents.recipes(event => {
         }).id(`submerged:mekanism_injecting/${output.replace(':', '_')}`)
     }
 
+    //Liquid Fissile Fuel
+    event.custom({
+        "type":"mekanism:rotary",
+        "chemical_input":{
+            "amount":1,
+            "chemical":"mekanism:fissile_fuel"
+        },
+        "chemical_output":{
+            "amount":1,
+            "id":"mekanism:fissile_fuel"
+        },
+        "fluid_input":{
+            "amount":10,
+            "tag":"submerged:liquid_fissile_fuel"
+        },
+        "fluid_output":{
+            "amount":10,
+            "id":"submerged:liquid_fissile_fuel"
+        }
+    })
+
 })

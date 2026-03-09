@@ -25,6 +25,10 @@ LootJS.lootTables(event => {
         })
         
         .createPool(pool => {
+            pool.addEntry(LootEntry.of('hybrid-aquatic:coconut_crab_claw').setCount([3, 7])) 
+        })
+        
+        .createPool(pool => {
             pool.addEntry(LootEntry.of("submerged:ominous_drink")) 
         })
         

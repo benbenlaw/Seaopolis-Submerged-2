@@ -18,6 +18,10 @@ LootJS.lootTables(event => {
         .createPool(pool => {
             pool.addEntry(LootEntry.of("shops:iron_coin").setCount([1, 2])) 
         })
+
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('hybrid-aquatic:ghost_crab_claw').setCount([3, 7])) 
+        })
     
         .createPool(pool => {
             pool.addEntry(LootEntry.of("submerged:ominous_drink")) 

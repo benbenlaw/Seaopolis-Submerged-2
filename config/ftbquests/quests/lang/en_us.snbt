@@ -240,13 +240,18 @@
 	quest.16D9C95B76D8ED2D.quest_desc: ["Made inside the &lMatter Condenser&r"]
 	quest.170A4247974C1FAB.quest_desc: ["&lPlanks&r from &lLogs&r again...."]
 	quest.17113DA087FDA049.quest_desc: ["Deep inside the &lMausoleum&r there will be a strange looking portal... "]
+	quest.171B046D2011DEC8.quest_desc: ["Holding this in your off hand and casting a &lFishing Rod&r may catch something bigger than a fish"]
 	quest.171B3405B0BFFFDB.quest_desc: ["A advanced circuit to create better &lSynthesized Nano &r"]
 	quest.1731145B318CB588.quest_desc: ["Made inside the &lPressure Chamber&r or &lCreate Mixing&r"]
 	quest.17470B72F99B356B.quest_desc: ["You did it"]
 	quest.174C09497F7BAFE4.quest_desc: ["Used for the &lQuantum Compressor&r"]
 	quest.177486449790C2F3.quest_desc: ["Allows the &lSolidifier&r to make &lGears&r, A &lWooden Gear&r can be used to make this"]
 	quest.177FF565976CEEF2.quest_desc: ["Combines items, mostly into ores"]
-	quest.179A1677750174F3.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea"]
+	quest.179A1677750174F3.quest_desc: [
+		"A full suit of &lTurtle Armor&r protects you from the sea"
+		""
+		"Armor will lose a durability for every 2 seconds in water!"
+	]
 	quest.17C92075AF3E7685.quest_desc: ["Processed Ore"]
 	quest.17DB22880BE2B921.quest_desc: [
 		"Now you can travel into the Ocean you can find Resource Fish. These can be collected in &lIron Buckets&r, &lCeramic Bucket&r or &lAnimal Nets&r. "
@@ -326,18 +331,6 @@
 	quest.1F6604F2B9DBEBAD.quest_desc: ["After destorying the &lChaos Guardian&r below the center will be an &lObsidian&r shell inside there will be the &lChaos Shard&r. Breaking this will obtain the &lLarge Chaos Fragment&r"]
 	quest.1F6EE7917E96E547.quest_desc: ["Molten &lGrains of Time Gone By&r"]
 	quest.1FAA10357C6218E3.quest_desc: ["Like a full size &lPressure Chamber&r but smaller. Uses &lFluids&r instead of &lBuckets of Fluids&r in both inputs and output of recipes allowing for easier automation"]
-	quest.1FC0D6ABC99F6EC0.quest_desc: [
-		"atlatis, "
-		"find mausoleum, need to kill a dread lich"
-		"go to dread lands"
-		"obtain draconium"
-		"summon draconic dragon 1"
-		"do stuff "
-		"summon draconic dragon 2"
-		"final chaos shard"
-		"creative items "
-		"cc should be really hard"
-	]
 	quest.1FE9964D14583124.quest_desc: [
 		"By replacing the &lStar Forge&r with a &lInfinity Forge&r you create the &lInfinity Forge&r. Requires &lTier 5&r caps and a &lRed Star&r."
 		""
@@ -610,7 +603,11 @@
 	quest.3FA8B9543700C855.quest_desc: ["The final tier of &lIndustrial Foregoing&r machine fram"]
 	quest.3FF8CCC69D6FDC76.quest_desc: ["Used inside the &lModular Storage&r to provide 500 stack of storage"]
 	quest.3FFABEC4A01A0DB0.quest_desc: ["Duplicates mobs inside the &lMob Imprisonment Tool&r using RF and &lEssence&r"]
-	quest.3FFDACC16BD545E5.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea"]
+	quest.3FFDACC16BD545E5.quest_desc: [
+		"A full suit of &lTurtle Armor&r protects you from the sea"
+		""
+		"Armor will lose a durability for every 2 seconds in water!"
+	]
 	quest.40578F951A22ABCC.quest_desc: ["Can be used to age &lDragons&r faster"]
 	quest.406AB1F16C28F754.quest_desc: ["A &lSoul Sand Fish&r can be created by breeding a &lSand Fish&r and a&l Lava Fish&r in a Tank Controller with a &lBreeding Upgrade&r and &lNether Fish Food&r. &lBreeding Recipes&r have a low sucess rate"]
 	quest.4070FF72EABE1FE7.quest_desc: ["An &lEnder Dragon&r can be put under a &lFluid Laser Base&r to generate &lDragon's Breath&r fluid. This can be turned into &lDragon Breath&r bottles through the &lSolidifier&r"]
@@ -766,7 +763,11 @@
 	quest.501775813AD19915.quest_desc: ["Used on &lSimple Casting Blocks&r to move fluid between them"]
 	quest.5020ADB35E4891F3.quest_desc: ["Less mess"]
 	quest.50620FC2CCE63785.quest_desc: ["Made inside the &lPressure Reaction Chamber&r"]
-	quest.507D4776EE6DAB74.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea. Either &lChestplate&r can be used"]
+	quest.507D4776EE6DAB74.quest_desc: [
+		"A full suit of &lTurtle Armor&r protects you from the sea. Either &lChestplate&r can be used"
+		""
+		"Armor will lose a durability for every 2 seconds in water!"
+	]
 	quest.50819594C402FD66.quest_desc: ["Almost there"]
 	quest.50BFF626432F1838.quest_desc: ["&lWater&r and &lLava&r can be mixed into &lMolten Obsidian&r and then &lSolidified&r into &lObsidian Blocks&r"]
 	quest.50F353C6D15C0062.quest_desc: ["Used to create &lUnassembled PCB&r with &lPneumatic Craft&r"]
@@ -804,6 +805,11 @@
 	quest.53DF09F3BAA39B1D.quest_desc: ["Spider Noise"]
 	quest.5408E73D0B8AE712.quest_desc: ["Used to power the &lEnder Crafter&r"]
 	quest.541BEBD9686996FD.quest_desc: ["A &lSoaking Table&r is a waterlogged Drying Table&r"]
+	quest.543E6C439E43A940.quest_desc: [
+		"Rummors speak of a &lGiant Crab&r that can be found in the &lSeas&r"
+		""
+		"Something to do with an &lOmnious Hook&r..."
+	]
 	quest.544A5CE9207979B1.quest_desc: ["Processed &lRaw Ore&r"]
 	quest.544A5CE9207979B1.title: "Platinum"
 	quest.54541BE73464F5CE.quest_desc: [
@@ -890,11 +896,16 @@
 		"&lStars&r must be able to see the &lSky to Charge&r its internal buffer"
 	]
 	quest.5B2590D5D45C53A6.quest_desc: ["The next &lTrial Sphere&r"]
+	quest.5B3B0F20E755CDE7.quest_desc: ["Big Crab"]
 	quest.5B99151FECCA1C27.quest_desc: ["The inscriber is a way of creating circuits"]
 	quest.5BAABE545BE20C51.quest_desc: ["Made in the &lController&r from various molten ingots. Used to create &lPrime Ingots&r"]
 	quest.5BAABE545BE20C51.title: "Vanillarite"
 	quest.5BBA96114007014D.quest_desc: ["Allows &lRouters&r to export &lSouls&r to blocks"]
-	quest.5BED0687ED3289A2.quest_desc: ["A powerful boss. Maybe you should make some armor for this. Summoned using the &lTotentanz&r ceremony"]
+	quest.5BED0687ED3289A2.quest_desc: [
+		"A powerful boss. Maybe you should make some armor for this. Summoned using the &lTotentanz&r ceremony"
+		""
+		"The &lBaykok&r will always spawn above you on the surface!"
+	]
 	quest.5BED0687ED3289A2.title: "Kill a Baykok"
 	quest.5C10405E7300D7A5.quest_desc: ["Used for the &lForge&r. Use the &lPonder&r button over the &lCore&r to view how to make the structure"]
 	quest.5C285A5E002913EF.quest_desc: ["&lWater Buckets&r can be used to move &lFish&r around "]
@@ -906,7 +917,7 @@
 	quest.5D1530AA1E8C8BC7.quest_desc: [
 		"Chaos Shards are a very hard to obtain resource. They can be found when destorying a &lChaos Guardian&r in &lThe End&r"
 		""
-		"The &lChaos Gaurdian&r can be found every 10000 by 10000 block in the end eg x:1000, z:1000. This boss is extremely difficult"
+		"The &lChaos Gaurdian&r can be found every 10000 by 10000 block in the end eg x:10000, z:10000. This boss is extremely difficult"
 		""
 		"Alternatively they can be obtained at a low chance through &lStraining&r"
 	]
@@ -970,6 +981,8 @@
 		"&lBrilliant Fiber&r can be used on &lLeaves&r in world to convert them into &lGolden Leaves&r.  "
 		""
 		"After a while when the &lLeaf&r has turned completely gold it can be broken into &lGold Leaf&r"
+		""
+		"This will also slowly convert adjacent leaves around it into &lGolden Leaves&r"
 	]
 	quest.628C9F109EC033ED.quest_desc: ["Killing those skeletons "]
 	quest.62E16AFDAD696318.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -1201,7 +1214,11 @@
 	quest.7A562C9ADB3E48EA.quest_desc: ["&lEntro Crystal&r, &lGold Ingot&r and &lLapis&r can be dropped into water to create &lEntro Infused Ingot&r"]
 	quest.7A799412015F62DF.quest_desc: ["The power of the sun"]
 	quest.7AB6CD2922653BDF.quest_desc: ["Made inside the &lCompressor&r"]
-	quest.7B0B598D5C319A91.quest_desc: ["A full suit of &lTurtle Armor&r protects you from the sea"]
+	quest.7B0B598D5C319A91.quest_desc: [
+		"A full suit of &lTurtle Armor&r protects you from the sea"
+		""
+		"Armor will lose a durability for every 2 seconds in water!"
+	]
 	quest.7B4F60DC95B1A90A.quest_desc: ["Placing &lCobblestone&r inside a &lStrainer&r with &lEroding Water&r on top and a &lMesh&r inside will create &lGravel&r"]
 	quest.7B5643707552150B.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.7B6703D0DE950CC2.quest_desc: ["Used for the &lForge&r. Use the &lPonder&r button over the &lCore&r to view how to make the structure"]
@@ -1344,6 +1361,7 @@
 	task.25053A7A68E3F147.title: "Hmm"
 	task.2663BC3B474B8A09.title: "Any #submerged:colored_leaves"
 	task.268BA100465AE6F3.title: "Any #submerged:resources/zinc"
+	task.271101A6EA37701B.title: "Mr Crabs"
 	task.27C9A87A9E71C2EF.title: "Cyclops"
 	task.28420D0AE447E888.title: "Any #submerged:keys/standard"
 	task.29DBFAC33C83DBBF.title: "salt water"
@@ -1353,6 +1371,7 @@
 	task.2B6204E733DFC8C2.title: "Reward IV"
 	task.2BF34BF0EF5AABA9.title: "Chapter I"
 	task.2C972A3BDC9E1039.title: "Chapter III"
+	task.2C9BD4800E522664.title: "Mt Crabs"
 	task.2CAC0E378EE8A4FC.title: "Brine"
 	task.2CC7C736FEE47D46.title: "SUbmerged"
 	task.2D9C30341D2B3E8B.title: "Any #minecraft:coals"
@@ -1507,6 +1526,7 @@
 	task.7D1158A249E82F29.title: "Shaders"
 	task.7D891F7F6E1B417C.title: "Chapter II"
 	task.7DB7832FCC8056C9.title: "Active Atlanis Portal Frame"
+	task.7DD1B2ECBB4DA732.title: "Karkinos"
 	task.7ED628435CE48830.title: "Any #submerged:colored_planks"
 	task.7EF6A0EA559008A3.title: "Any #submerged:resources/tin"
 }

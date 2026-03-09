@@ -24,6 +24,10 @@ LootJS.lootTables(event => {
         .createPool(pool => {
             pool.addEntry(LootEntry.of("submerged:ominous_drink")) 
         })
+
+        .createPool(pool => {
+            pool.addEntry(LootEntry.of('hybrid-aquatic:spider_crab_claw').setCount([3, 7])) 
+        })
         
     //Ominous
     event.create('submerged:trial_spheres/ominous_spider', LootType.CHEST)

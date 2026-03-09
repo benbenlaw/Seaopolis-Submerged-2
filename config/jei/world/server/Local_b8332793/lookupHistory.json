@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"strainers:mulch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_acacia_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftbquests:screen_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftbquests:screen_3"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftbquests:screen_7"},"type":"item_stack","bookmarkType":"INGREDIENT"},

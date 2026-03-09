@@ -474,6 +474,14 @@
 			dependencies: ["1981EF8AD2465D02"]
 			id: "28F4B6DD5C0CB5E3"
 			invisible: true
+			rewards: [{
+				id: "7D69BAA87BAD7DE5"
+				item: {
+					count: 1
+					id: "shops:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F18B724C1E7A416"
 				item: { count: 1, id: "artifacts:eternal_steak" }
@@ -891,6 +899,14 @@
 		{
 			dependencies: ["4E3C6E1D1EEE98D7"]
 			id: "3B533FAF45A0C861"
+			rewards: [{
+				id: "1B597539B236AD34"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "42D3E83D06D4D215"
 				item: { count: 1, id: "iceandfire:hydra_heart" }
@@ -902,6 +918,14 @@
 		{
 			dependencies: ["3597D5BD40A0148B"]
 			id: "6385BBB6645EBE8A"
+			rewards: [{
+				id: "36D8B76D52085BC2"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "04083F383FF1C86F"
 				item: { count: 1, id: "iceandfire:cyclops_eye" }
@@ -924,6 +948,14 @@
 			dependencies: ["7903DEB08A9FC3EE"]
 			id: "4E3C6E1D1EEE98D7"
 			invisible: true
+			rewards: [{
+				id: "497B236D2D9A20CC"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "iceandfire:hydra"
 				id: "197C135173A054C2"
@@ -937,6 +969,14 @@
 			dependencies: ["7903DEB08A9FC3EE"]
 			id: "3597D5BD40A0148B"
 			invisible: true
+			rewards: [{
+				id: "2E3A7CD25D4EB4D4"
+				item: {
+					count: 1
+					id: "shops:iron_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "iceandfire:cyclops"
 				id: "27C9A87A9E71C2EF"
@@ -945,6 +985,55 @@
 			}]
 			x: -10.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "543E6C439E43A940"
+			tasks: [{
+				id: "271101A6EA37701B"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["171B046D2011DEC8"]
+			id: "5B3B0F20E755CDE7"
+			rewards: [{
+				id: "0205E5EBF76BE3EE"
+				item: {
+					count: 1
+					id: "simplehats:fishonhead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "hybrid-aquatic:karkinos"
+				id: "7DD1B2ECBB4DA732"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["543E6C439E43A940"]
+			id: "171B046D2011DEC8"
+			rewards: [{
+				id: "3D2F9AE4E563777E"
+				item: {
+					count: 1
+					id: "simplehats:crabonhead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C21159C46B0CA43"
+				item: { count: 1, id: "hybrid-aquatic:ominous_hook" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
 		}
 	]
 }

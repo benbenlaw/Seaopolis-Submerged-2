@@ -22,14 +22,15 @@ ServerEvents.recipes(event => {
 
     //Orichalcum Blend
     event.shapeless('atlantis:orichalcum_blend', [
-        'submerged:raw_ancient_debris', 
-        'nanomirai:raw_sculmium', 
-        'alltheores:raw_lead', 
-        'alltheores:raw_nickel',
+        'minecraft:netherite_ingot', 
+        'nanomirai:sculmium_ingot', 
+        '#c:ingots/lead', 
+        '#c:ingots/nickel',
         'atlantis:aquamarine_gem', 
-        'alltheores:raw_zinc', 
-        'alltheores:raw_uranium', 
-        'alltheores:raw_iridium', 'atlantis:raw_ancient_cuprum']
+        '#c:ingots/zinc', 
+        '#c:ingots/uranium', 
+        '#c:ingots/iridium', 
+        'atlantis:ancient_cuprum_ingot']
     ).id('submerged:orichalcum_blend')
 
 

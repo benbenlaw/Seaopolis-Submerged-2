@@ -8,19 +8,25 @@
       }
     },
     {
-      "count": 1,
+      "count": 2,
       "ingredient": {
         "item": "iceandfire:fire_dragon_heart"
       }
     },
     {
-      "count": 1,
+      "count": 2,
       "ingredient": {
         "item": "iceandfire:lightning_dragon_heart"
       }
     },
     {
       "count": 2,
+      "ingredient": {
+        "item": "iceandfire:ice_dragon_heart"
+      }
+    },
+    {
+      "count": 4,
       "ingredient": {
         "item": "iceandfire:dread_shard"
       }

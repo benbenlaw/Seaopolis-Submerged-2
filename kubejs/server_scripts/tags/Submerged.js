@@ -131,3 +131,8 @@ ServerEvents.tags('block', event => {
     //event.get('better_beacons:beacon_transparent').add('#minecraft:logs')
     //event.get('better_beacons:beacon_transparency').add('#minecraft:logs')
 })
+
+ServerEvents.tags('fluid', event => {
+    //Liquids
+    event.get('submerged:liquid_fissile_fuel').add('submerged:liquid_fissile_fuel')
+})

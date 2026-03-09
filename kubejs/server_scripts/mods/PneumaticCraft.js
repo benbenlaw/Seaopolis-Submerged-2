@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     event.recipes.pneumaticcraft.pressure_chamber(
         ["atlantis:sunken_gravel", "2x iceandfire:dread_shard", "submerged:dreaded_draconic_compound"],
         4.0,
-        ["submerged:draconic_gravel"]
+        ["submerged:draconic_gravel", "submerged:dreaded_draconic_compound"]
     ).id('submerged:pneumaticcraft/draconic_gravel')
 
     //Prismarine Ingot

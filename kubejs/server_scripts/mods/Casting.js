@@ -101,6 +101,9 @@ ServerEvents.recipes(event => {
     event.recipes.casting.mixing('90x submerged:molten_triarchium', ['360x casting:molten_sapphire', '360x casting:molten_ruby', '360x casting:molten_peridot']).id('casting:mixer/triarchium')
     event.recipes.casting.mixing('90x submerged:molten_vanillarite', ['90x casting:molten_iron', '90x casting:molten_gold', '90x casting:molten_copper', '90x casting:molten_netherite']).id('casting:mixer/vanillarite')
 
+    //Fuels
+    event.recipes.casting.fuel('1x submerged:liquid_fissile_fuel', 2000, 10).id('submerged:fuel/liquid_fissile_fuel')
+
     //Gear Mold
     event.shaped('casting:gear_mold', [' A ', 'ABA', ' A '], {
         A: 'casting:black_brick',

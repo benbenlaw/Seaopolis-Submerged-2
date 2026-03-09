@@ -10,8 +10,13 @@ ServerEvents.recipes(event => {
     event.recipes.ars_nouveau.enchanting_apparatus(
         [
             'iceandfire:fire_dragon_heart',
+            'iceandfire:fire_dragon_heart',
+            'iceandfire:lightning_dragon_heart',
             'iceandfire:lightning_dragon_heart',
             'iceandfire:ice_dragon_heart',
+            'iceandfire:ice_dragon_heart',
+            'iceandfire:dread_shard',
+            'iceandfire:dread_shard',
             'iceandfire:dread_shard',
             'iceandfire:dread_shard'
         ],

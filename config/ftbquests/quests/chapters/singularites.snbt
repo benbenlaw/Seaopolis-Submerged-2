@@ -251,8 +251,8 @@
 			dependencies: ["1B9DFB22D751C5CF"]
 			id: "7AB6CD2922653BDF"
 			tasks: [{
-				id: "7458A3B4C84FD857"
-				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:living_matter" }, count: 1, id: "extendedcrafting:singularity" }
+				id: "24E90963C1393BE5"
+				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:fluid_xp" }, count: 1, id: "extendedcrafting:singularity" }
 				type: "item"
 			}]
 			x: 4.0d

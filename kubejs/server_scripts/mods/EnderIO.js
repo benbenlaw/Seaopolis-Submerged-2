@@ -28,6 +28,12 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'enderio:pulsating_photovoltaic_module'}, '#c:glass_blocks/enlighted_fused_quartz', '#c:glass_blocks')
     event.replaceInput({id: 'enderio:vibrant_photovoltaic_module'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
 
+    //Suspicious Seed
+    event.shaped('enderio:suspicious_seed', [' A ', 'ABA', ' A '], {
+        A: 'minecraft:suspicious_stew',
+        B: '#c:seeds'
+    }).id('submerged:enderio/suspicious_seed')
+
     //Alloy Smelter
     //event.recipes.enderio.alloy_smelting('refinedstorage:quartz_enriched_iron', ['3x minecraft:iron_ingot', 'ae2:certus_quartz_crystal', 'minecraft:quartz']).id('submerged:enderio/quartz_enriched_iron')
   

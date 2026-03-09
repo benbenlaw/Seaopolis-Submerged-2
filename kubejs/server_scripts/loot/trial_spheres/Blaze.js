@@ -16,6 +16,10 @@ LootJS.lootTables(event => {
         })
 
         .createPool(pool => {
+            pool.addEntry(LootEntry.of('hybrid-aquatic:yeti_crab_claw').setCount([3, 7])) 
+        })
+
+        .createPool(pool => {
             pool.addEntry(LootEntry.of("minecraft:blaze_rod").setCount([4, 6])) 
             pool.addEntry(LootEntry.of("minecraft:blaze_powder").setCount([4, 12])) 
         })

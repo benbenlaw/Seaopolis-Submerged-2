@@ -418,11 +418,10 @@
 			]
 			id: "17DB22880BE2B921"
 			rewards: [{
-				count: 4
-				id: "5AD0DE41CB6E53E6"
+				id: "3B2B4DF949EF73F5"
 				item: {
 					count: 1
-					id: "resourcefish:nest"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
