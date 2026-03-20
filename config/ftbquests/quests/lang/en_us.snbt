@@ -221,12 +221,14 @@
 	quest.14328A824FB836AE.title: "Ai Controller"
 	quest.1449978D85CA074E.quest_desc: ["Up to 8 of these will be needed "]
 	quest.146CD5D3B7DA2955.quest_desc: ["The import for &lPressure&r"]
+	quest.147532D95FF2188E.quest_desc: ["They are the best"]
 	quest.149CE980BCDE5FFD.quest_desc: ["Causing reactions"]
 	quest.14AF040645F38C7D.quest_desc: ["Will auto build the &lOverworld Altar&r providing you have the blocks. Use on the top of an Altar one block above the floor level!"]
 	quest.14D513E6A87E6DAE.quest_desc: ["Made inside the &lSlice'N'Splice&r"]
 	quest.14E072AD06ED8A7C.quest_desc: ["Injects items with &lChemicals&r "]
 	quest.14F1C63440E822D9.quest_desc: ["Made with &lSynthesized Nano&r or &lEnchanting Apparatus&r"]
 	quest.15035FB623808756.quest_desc: ["Made inside the &lStrainer&r"]
+	quest.152FD59C416E8718.quest_desc: ["Yummy?"]
 	quest.158641ADBB04096F.quest_desc: ["Crafted from &lDirt Piles &rfrom a &lCrate&r"]
 	quest.158641ADBB04096F.title: "Colored Dirt"
 	quest.15A2CEE0B41AA0C6.quest_desc: ["&lLasers&r need to be fired into bases to produce resources"]
@@ -284,6 +286,8 @@
 	quest.1A622AC289DE07F1.quest_desc: ["&lQuartz Dust&r can be melted in a &lCasting Controller&r into &lMolten Quartz&r then transformed into &lQuartz&r in the &lSolidifier&r"]
 	quest.1A896551F4F1F135.quest_desc: ["industrial forgoing, more create and pnematiccraft, ae2 and rs, more naturesaura a splash, tiab"]
 	quest.1AA8B7DC2F4CFECC.quest_desc: ["&lCertus Quartz Dust&r can be melted in a &lCasting Controller&r into &lMolten Certus Quartz&r then transformed into &lCertus Quartz Crystals&r in the &lSolidifier&r"]
+	quest.1ADA21C3F761E3A6.quest_desc: ["Alloy"]
+	quest.1ADA21C3F761E3A6.title: "Crystaltine Ingots"
 	quest.1AF8F947F714C57B.quest_desc: ["Can be made in various ways"]
 	quest.1AFB6DF4189A9693.title: "Silver"
 	quest.1B15DCDB622B8B9F.quest_desc: ["Like the &lAnimal Net&r, This can be used inside the &lMob Duplicator&r"]
@@ -396,6 +400,8 @@
 	quest.273FB2D7287CA829.title: "Cold Chicken"
 	quest.2765E775331F1C60.quest_desc: ["I love the SEA"]
 	quest.2787F04686A57891.quest_desc: ["Used to create &lBeams&r"]
+	quest.27A4BD5B6C57C9CC.quest_desc: ["They say money can't by &lHapiness&r but i'm sure some catalogs might sell it "]
+	quest.27A4BD5B6C57C9CC.quest_subtitle: "Shh Secret Quest..."
 	quest.27DBC76291B84F4A.quest_desc: ["Almost there"]
 	quest.285744DC6862CFB7.quest_desc: ["Better than &lRouters&r?"]
 	quest.28EC63CB8324668A.quest_desc: ["Component"]
@@ -451,6 +457,7 @@
 	quest.2EA1F5D879D8AD5C.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
 	quest.2EF5C929A8D42C3B.quest_desc: ["Processed &lFluix Crystal&r"]
 	quest.2EF93F995F792FFB.quest_desc: ["From &lMolten Certus Quartz&r"]
+	quest.2F161676A8DBDB14.quest_desc: ["Your so close"]
 	quest.2F22D9516ABB189B.quest_desc: ["&lWater, Plutonium&r and &lFluorite Dust&r can be used to make &lPolonium Pellets&r"]
 	quest.2F2CFE1FC4B80167.quest_desc: ["You can't imagine the scale of this"]
 	quest.2F2CFE1FC4B80167.title: "Scales"
@@ -498,6 +505,7 @@
 	quest.347FBEAFA195B5D0.quest_desc: ["Made with &lSynthesized Nano&r or &lEnchanting Apparatus&r"]
 	quest.34858FC6AB49B00E.quest_desc: ["Right click on a &lTotem Base&r for information. Left click to cancel ceremonies"]
 	quest.34D8E0C2C75EE0D5.quest_desc: ["Carving &lLogs&r into &lTotems&r. Use &lSHIFT&r and scroll to chose a type of &lTotem&r to carve. The first carve needs to be a &lTotem Base&r"]
+	quest.352F196F21AF6552.quest_desc: ["You did it"]
 	quest.356B0DCCAA28ABF2.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.358252A3A9498C3F.quest_desc: ["Processed Ore"]
 	quest.3597D5BD40A0148B.quest_desc: ["&lWhere's Storm?&r I want that eye"]
@@ -688,6 +696,7 @@
 	quest.46F74A14A57947FA.quest_desc: ["&lChests&r are like &lPokemon&r gotta craft em all"]
 	quest.46F74A14A57947FA.quest_subtitle: "Shh Secret Quest..."
 	quest.46FA3AF899C8ADEF.quest_desc: ["A better &lCap&r replaces previous tier. Allows for &lTier 3 Star Forge&r recipes"]
+	quest.47417E62E264CB4B.quest_desc: ["See told you"]
 	quest.47685A5D46F0CFA2.quest_desc: ["Melting &lRaw Ores&r into there &lMolten&r version, Then use the &lSolidifier&r to create &lCopper&r"]
 	quest.47685A5D46F0CFA2.title: "Copper"
 	quest.47781083FA72198E.quest_desc: ["Used to create the &lAtlantis Sphere Key&r"]
@@ -718,6 +727,7 @@
 	quest.4A5997EEADDC7CB6.quest_desc: ["This is produced from a &lWither Boss&r underneath the &lFluid Laser Base&r with a &lPurple Lens&r"]
 	quest.4A653B3173A078D2.quest_desc: ["From &lBroken Ore&r "]
 	quest.4A85100C3C4EEE42.quest_desc: ["Made inside the &lCompressor&r"]
+	quest.4A9A7A977B8C0731.quest_desc: ["Keep going"]
 	quest.4A9DD2F25378F0E8.quest_desc: ["Used for &lEM Rail Ejector Controller&r"]
 	quest.4AA005B34310FA4A.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.4ABD8B0B39579374.quest_desc: ["What a waste of &lResources&r"]
@@ -753,6 +763,7 @@
 	quest.4E3C6E1D1EEE98D7.quest_desc: ["&lHail Hyrdra!&r. Does it have a heart?"]
 	quest.4E6B898816D1F3D6.quest_desc: ["Slime Noise"]
 	quest.4E9EABDE303A6760.quest_desc: ["The air above the &lWater&r level is &2&lTOXIC&r.&r Going above the &lWater&r level is very dangerous"]
+	quest.4ED4F0AACE3B9706.quest_desc: ["It's not real!"]
 	quest.4EEA6E416ABFE440.quest_desc: ["Used with &lPipez&r pipes"]
 	quest.4EF14097D2724EF3.quest_desc: ["Used to create belts"]
 	quest.4F26945C04B38E75.quest_desc: ["&lWater, Polonium&r and &lFluorite Dust&r can be used to make &lPolonium Pellets&r"]
@@ -794,6 +805,8 @@
 	quest.52D8806D5B4C9B26.quest_desc: ["Some &lStar Forge&r recipes require additional items, these are placed on &lPedestals&r ontop of the base of the forge"]
 	quest.532E2DA7ACCF42C2.quest_desc: ["Can be use to create a sphere containing the &lNether Portal Frame&r. The &lPortal&r can be lit with a &lFlint and Steel&r"]
 	quest.5367DDAEEFB40E44.quest_desc: ["Crafted &lOre Piece&r"]
+	quest.537C454C36F27186.quest_desc: ["Still now amazon"]
+	quest.537C454C36F27186.title: "Prime Alloy Ingots"
 	quest.538627E920BAE0C8.quest_desc: ["Drops from the &lDread Lich&r"]
 	quest.5393DE480016A480.quest_desc: ["A better &lCap&r replaces previous tier. Allows for &lTier 4 Star Forge&r recipes"]
 	quest.539418A6FC41BDA5.quest_desc: ["Makes alloy crafting a bit easier"]
@@ -824,6 +837,8 @@
 	quest.5483722820D7B629.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.5489D38689D5C759.quest_desc: ["&lBrine&r can be created in a &lVAT&r using &lWater,&r &lSalt&r and &lSugar&r"]
 	quest.548DDCEA26686733.quest_desc: ["Made inside the &lStrainer&r using &lPurifying Water&r"]
+	quest.5493640CFF5B4514.quest_desc: ["Thats not so bad "]
+	quest.5493640CFF5B4514.title: "Black Iron Ingots"
 	quest.54D4C8B3C0933A20.quest_desc: ["A &lBasic Capacitor&r used to make some machines "]
 	quest.554308CA0151F99D.quest_desc: ["&lGold&r is a strange resource with both magical and technological uses. A choice is to be made &lForce Craft&r or &lNatures Aura&r"]
 	quest.554D9C55B752BD03.quest_desc: ["The &lTank Upgrade&r allows the &lCaviar Processor&r to produce fluids"]
@@ -927,6 +942,7 @@
 	quest.5DACF0ED457FD654.title: "Nickel"
 	quest.5DBD3E8914EA56F2.quest_desc: ["The &lRite of Spring&r cermony can be used to covert placed saplings into &lRed Cedar Saplings&r. The &lRed Cedar Sapling&r requires a lot of verticle space to grow"]
 	quest.5DCAD7240C6D683E.quest_desc: ["&lCharged Certus Quartz, Redstone&r and &lNether Quartz&r can be combined into &lFluix Crystals&r"]
+	quest.5E0A9101A27E0518.quest_desc: ["Your so so close"]
 	quest.5E101E9584E528BD.quest_desc: [
 		"Welcome to &lSubmerged 2&r thanks for downloading."
 		""
@@ -1045,6 +1061,8 @@
 	quest.67ABF6BA123753B8.title: "Warden Tears"
 	quest.67B26262057CEDC2.quest_desc: ["Engraving those items"]
 	quest.67E4CEF62A19F64B.quest_desc: ["Dreadstone makes up most of this dimension"]
+	quest.6820AC4BB6D51B1A.quest_desc: ["So many Ores"]
+	quest.6820AC4BB6D51B1A.title: "Orichalcum Ingots"
 	quest.6843139F1E00308A.quest_desc: ["From &lGreen Planks&r"]
 	quest.6874D44A0FBA0F2D.quest_desc: ["Used to dry items, when waterlogged becomes the &lSoaking Table&r"]
 	quest.687DB89CA4CEB04E.quest_desc: ["You could make a book with all that"]
@@ -1063,6 +1081,8 @@
 	quest.697CCAC6BB19751C.quest_subtitle: "Probably needs more usages"
 	quest.6981A5411E206718.quest_desc: ["A better &lFish Food&r which can be used to create various &lResource Fish&r"]
 	quest.69A723B282099835.quest_desc: ["Obtained from killing &lThe Wither&r"]
+	quest.69CF5E51395C802D.quest_desc: ["The Void is a dimension between all dimensions. I hope all the messing around does make the universe become... &l&0Fractured&r&r"]
+	quest.69CF5E51395C802D.title: "The Void"
 	quest.69E361BDE59A00EA.quest_desc: [""]
 	quest.6A0F60DED55ACD7B.quest_desc: ["When right clicked on a &lDragon&r cycles options like sit and follow"]
 	quest.6A2C62D3132E4C31.quest_desc: ["Can be &lCrafted&r or made inside the &lMetallurgic Infuser&r"]
@@ -1119,6 +1139,8 @@
 	quest.6F268DDFA355437C.quest_desc: ["A blend of rare raw materials"]
 	quest.6F3149D0B1C7F457.quest_desc: ["&lTotemic&r&l has various &lInstruments&r that can be used to create &lMusic&r for &lCeremonies&r. Each different type of &lInstrument&r has a limit, if you see white particles during a ceremony from an &lInstrument&r it means it will no longer help to fill up the bar"]
 	quest.6F44CAD4EC313436.quest_desc: ["Crafted nuggets"]
+	quest.6F9730BCEC910841.quest_desc: ["Alloy"]
+	quest.6F9730BCEC910841.title: "Enhanced Ender Ingots"
 	quest.7001FF8CE9F800BB.quest_desc: ["What could it be?"]
 	quest.702BDA4EBF2C24E3.quest_desc: ["Somewhere in the sphere there will be an &lEmpty Mob Spawner&r. &l&4Don't Break IT!&r&r"]
 	quest.702BDA4EBF2C24E3.title: "Spawner Hunter"
@@ -1150,6 +1172,7 @@
 	quest.735BC07C8557017F.quest_desc: ["Advanced AI "]
 	quest.73AE5CF9E4F3B6CC.quest_desc: ["Its a better Stroghold"]
 	quest.73AE5CF9E4F3B6CC.title: "Locate: Better Stronghold"
+	quest.73E78DF6C46B0B46.quest_desc: ["Pure Chaos"]
 	quest.7459D3F20B64BD41.quest_desc: ["Broken down &lCoal&r"]
 	quest.747554211DC4AD19.quest_desc: ["Is is from Space?"]
 	quest.747554211DC4AD19.title: "Cosmic Pillar"
@@ -1190,6 +1213,8 @@
 	]
 	quest.778DFD152ED55CD5.quest_desc: ["&lThe End&r is also submerged "]
 	quest.778DFD152ED55CD5.title: "Enter The End"
+	quest.77A6CA552807FF0B.quest_desc: ["Dread fully good"]
+	quest.77A6CA552807FF0B.title: "Dread Shards"
 	quest.77E23CB339793530.quest_desc: ["Thats no &lFortress&r"]
 	quest.77FC93088FF7ED69.quest_desc: ["Made with &lCreate&r or &lPneumatic Craft&r"]
 	quest.784F309ABC8E183E.quest_desc: ["Crafted &lOre Pieces&r"]
@@ -1212,6 +1237,7 @@
 	quest.7A351105AE91FE1E.quest_desc: ["A bigger wheel"]
 	quest.7A448042EF3B5814.quest_desc: ["A &lPneumatic Ingot&r"]
 	quest.7A562C9ADB3E48EA.quest_desc: ["&lEntro Crystal&r, &lGold Ingot&r and &lLapis&r can be dropped into water to create &lEntro Infused Ingot&r"]
+	quest.7A70D61A638C6FBA.quest_desc: ["Almost there"]
 	quest.7A799412015F62DF.quest_desc: ["The power of the sun"]
 	quest.7AB6CD2922653BDF.quest_desc: ["Made inside the &lCompressor&r"]
 	quest.7B0B598D5C319A91.quest_desc: [
@@ -1291,6 +1317,7 @@
 	reward_table.6F71628574E661FA.title: "SpeedDigitalStroage"
 	task.001DA8E88C4D7F5B.title: "Chapter I"
 	task.00512C50F295B88C.title: "Reward III"
+	task.01724FD1FF8555FB.title: "Reward III"
 	task.01D7B4F6D5108C26.title: "Any #submerged:ice_dragon_eggs"
 	task.01F3DBB100B86DDE.title: "Reward II"
 	task.02C4BB0CB56F4494.title: "End Portal Frame"
@@ -1298,6 +1325,7 @@
 	task.03B544050B851CEB.title: "Rainbow Fish"
 	task.03B92F37CFFAB803.title: "Infinity Drives"
 	task.04EE4437D44182A7.title: "Quests"
+	task.050DE9544AF516CC.title: "The Final Final Reward"
 	task.05153BC108C01541.title: "Reward II"
 	task.05771BD55E54243D.title: "Suquenced Crafting"
 	task.0632451018DC9FE2.title: "Any #strainers:tier_4_meshes"
@@ -1317,6 +1345,7 @@
 	task.0CE17CA550679354.title: "Any #submerged:terracotta_rocks"
 	task.0D58F263F8EACF72.title: "Reward II"
 	task.0DEACDCB1FC3A348.title: "End game"
+	task.0EF85537587CAC03.title: "Reward IV"
 	task.0F9031E7157AA518.title: "Warden Tears"
 	task.0F905D9D1C7FC65F.title: "Any #minecraft:planks"
 	task.0FDF4021C7E68141.title: "Shop"
@@ -1359,6 +1388,7 @@
 	task.22D17914B80A05E7.title: "Blah Blah"
 	task.250064A2E6779897.title: "Infinity Forge"
 	task.25053A7A68E3F147.title: "Hmm"
+	task.2510EE1B0835764E.title: "Chapter II"
 	task.2663BC3B474B8A09.title: "Any #submerged:colored_leaves"
 	task.268BA100465AE6F3.title: "Any #submerged:resources/zinc"
 	task.271101A6EA37701B.title: "Mr Crabs"
@@ -1378,12 +1408,14 @@
 	task.2DA0DAF078C9FD50.title: "Additional Dirt"
 	task.2E4F0A08219B2DC4.title: "Time Fluid"
 	task.2E6B6C175A4E2949.title: "Final Reward"
+	task.2EDAB999A134CD4D.title: "Reward IV"
 	task.2EF98DCADEFBDCE1.title: "Some sort of gold and quartz allow"
 	task.2F675DD675ADF782.title: "Reward I"
 	task.2FA1BA6FD2061471.title: "Locating the Chaos Shard"
 	task.2FEF9D7FD1F946CF.title: "salt"
 	task.30652DD8817ED7AF.title: "mini spher"
 	task.306A59BA05868F7D.title: "Power"
+	task.30C44640F16F5A86.title: "Reward I"
 	task.32391B83B3310766.title: "Hmm"
 	task.326FC48E2D81D130.title: "Final Reward"
 	task.32D95445A4685796.title: "The Cure"
@@ -1401,6 +1433,7 @@
 	task.3938693D9FA97A0C.title: "Cured"
 	task.3A05E332230BC2A0.title: "HMMMM"
 	task.3BDD28428F767B7E.title: "souls"
+	task.3C8FC7CA3B8A537B.title: "Reward II"
 	task.3CC92D85977458D7.title: "Sphere"
 	task.3CE7725E35D3423D.title: "Any #submerged:resources/gold"
 	task.3DC5FA7BBF0D5512.title: "Reward"
@@ -1420,8 +1453,10 @@
 	task.457A6952275F6C31.title: "Resource FIsh"
 	task.4625B8EA8206E030.title: "Any #submerged:top_induction_mek"
 	task.4723A9AF61848794.title: "Chapter III"
+	task.4776CEBBB3724EFD.title: "Reward III"
 	task.47B08AF2D35B9CB7.title: "Instruments"
 	task.493B962D80528AB0.title: "Any #submerged:lightning_dragon_eggs"
+	task.4A2BDB0A1919BA30.title: "The Ultimate Ingot"
 	task.4AF759589182B601.title: "Unactivated Atlanis Portal Frame"
 	task.4B4094BCB854E74C.title: "Any #submerged:colored_saplings"
 	task.4B5253909D3EE34C.title: "Add Cute Ducks to quests"
@@ -1488,6 +1523,7 @@
 	task.69156B717B164D67.title: "temple item"
 	task.692217E4D15BC277.title: "Any #submerged:resources/silver"
 	task.69BF8F514CD47F08.title: "Resource Packs"
+	task.6A03B4E8F46500A4.title: "Money Money Money"
 	task.6A9C7A848C7D27B1.title: "Symphonies"
 	task.6AFA1598E910AEBB.title: "Dread Lich"
 	task.6B6C444F69AFD2D8.title: "Air purifiyer"

@@ -4,6 +4,7 @@
   },
   "entries": [
     { "stack": { "id": "submerged:catalog_hats", "count": 1 }, "price": 5, "mode": "player_buys" },
-    { "stack": { "id": "submerged:catalog_ducks", "count": 1 }, "price": 5, "mode": "player_buys" }
+    { "stack": { "id": "submerged:catalog_ducks", "count": 1 }, "price": 5, "mode": "player_buys" },
+    { "stack": { "id": "simplehats:paperbag", "count": 1, "components": {"custom_name": "Happiness"} }, "price": 2000, "mode": "player_buys" }
   ]
 }

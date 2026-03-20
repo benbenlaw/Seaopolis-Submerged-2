@@ -443,6 +443,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 8L
 				id: "222DBEF76F562EE3"
 				item: { count: 1, id: "submerged:prime_alloy_ingot" }

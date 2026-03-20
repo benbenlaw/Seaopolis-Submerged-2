@@ -1,0 +1,15 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:lava"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {
+    "amount": 100,
+    "id": "minecraft:lava"
+  },
+  "results": []
+}

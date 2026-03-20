@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "escape"
 	group: "27F4CFB05BEDC0B5"
+	icon: {
+		id: "javd:portal_block"
+	}
 	id: "6CABC3D8513710EA"
 	order_index: 3
 	quest_links: [ ]
@@ -127,11 +130,22 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5AB73FDE43EA1634"]
+			dependencies: ["69CF5E51395C802D"]
 			id: "10D23BFE15E68C42"
 			tasks: [{
 				id: "3596E7C3F3AF604F"
 				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AB73FDE43EA1634"]
+			id: "69CF5E51395C802D"
+			tasks: [{
+				dimension: "javd:void"
+				id: "577DAE564498690B"
+				type: "dimension"
 			}]
 			x: -1.5d
 			y: -0.5d

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/zinc"
+      }
+    }
+  ],
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:zinc"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.75,
+      "ingredient": {
+        "count": 1,
+        "tag": "c:ores/zinc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:wood"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:stick"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:oak_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:spruce_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:birch_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:jungle_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:acacia_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:dark_oak_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:cherry_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:mangrove_log"
+      }
+    }
+  ]
+}

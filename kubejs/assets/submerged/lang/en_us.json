@@ -6,6 +6,8 @@
     "item.iceandfire.fire_dragon_blood": "Fire Dragon Breath",
     "item.iceandfire.lightning_dragon_blood": "Lightning Dragon Breath",
 
+	"tooltip.routers.mod_filter_empty": "Right Click to open, allows filtering by Mod",
+	"tooltip.routers.tag_filter_empty": "Right Click to open, allows filtering by Tag",
 
     "item.shops.crate_flare.starting/blue": "§1Supply Crate: Blue Starting Materials",
     "item.shops.crate_flare.starting/green": "§2Supply Crate: Green Starting Materials",

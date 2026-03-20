@@ -1035,5 +1035,34 @@
 			x: -10.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["61407878B26F51F4"]
+			id: "27A4BD5B6C57C9CC"
+			tasks: [{
+				id: "6A03B4E8F46500A4"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27A4BD5B6C57C9CC"]
+			id: "47417E62E264CB4B"
+			rewards: [{
+				id: "2D55B1F9C6666B9B"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15FB6B24602B8B55"
+				item: { components: { "minecraft:custom_name": "\"Happiness\"" }, count: 1, id: "simplehats:paperbag" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
 	]
 }

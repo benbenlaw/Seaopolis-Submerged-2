@@ -1,0 +1,41 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:zombie"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.4,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "chance": 0.1,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:potato"
+      }
+    },
+    {
+      "chance": 0.1,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:carrot"
+      }
+    },
+    {
+      "chance": 0.01,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:zombie_head"
+      }
+    }
+  ]
+}

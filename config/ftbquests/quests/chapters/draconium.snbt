@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "draconium"
 	group: "27F4CFB05BEDC0B5"
+	icon: {
+		id: "draconicevolution:draconium_ingot"
+	}
 	id: "7E9E60135ACE939F"
 	order_index: 1
 	quest_links: [ ]

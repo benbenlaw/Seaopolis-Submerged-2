@@ -34,15 +34,17 @@
 		}
 		{
 			dependencies: [
+				"429ACBF47A13D43A"
+				"2DBFAE2BE248A492"
+				"7F21E66A1D26D77D"
 				"7A448042EF3B5814"
 				"666692ADAE23E036"
-				"6BF045CE2B809F03"
-				"7F21E66A1D26D77D"
-				"429ACBF47A13D43A"
 				"5F5DF36821C0983F"
-				"2DBFAE2BE248A492"
+				"6BF045CE2B809F03"
 			]
+			dependency_requirement: "all_started"
 			id: "5E75863DE9827559"
+			min_required_dependencies: 6
 			rewards: [{
 				id: "684E778A6D83FE8B"
 				item: {

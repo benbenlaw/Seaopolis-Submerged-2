@@ -4,3 +4,7 @@
 	"Enable Storage Drawers fix" = true
 	#Enable Strainers for stacks over 99 with compactor, requires Strainers mod, default = false
 	"Enable Strainers fix" = true
+	#Fixed Portal JS crashes when player uses flint and steel by making my mixin run first, requires PortalJS mod, default = false
+	"Enable PortalJS fix" = false
+	#Prevent Block Breaker from breaking bedrock and other unbreakable blocks, requires Opolis Utilities mod, default = false
+	"Enable Block Breaker fix" = false

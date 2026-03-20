@@ -1,0 +1,34 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:ice"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.75,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:ice"
+      }
+    },
+    {
+      "chance": 0.4,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:packed_ice"
+      }
+    },
+    {
+      "chance": 0.1,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:blue_ice"
+      }
+    }
+  ]
+}

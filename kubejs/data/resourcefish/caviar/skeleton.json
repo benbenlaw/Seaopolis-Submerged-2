@@ -1,0 +1,27 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:skeleton"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.45,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "chance": 0.01,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:skeleton_skull"
+      }
+    }
+  ]
+}

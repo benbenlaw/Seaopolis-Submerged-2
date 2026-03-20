@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "singularites"
 	group: "27F4CFB05BEDC0B5"
+	icon: {
+		id: "extendedcrafting:ultimate_singularity"
+	}
 	id: "3BE9CE6FA18C5362"
 	order_index: 2
 	quest_links: [ ]

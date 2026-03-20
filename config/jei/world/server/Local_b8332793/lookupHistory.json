@@ -1,5 +1,12 @@
 [
   {"version":1},
+  {"ingredient":{"id":"enderstorage:ender_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderrf:ender_battery"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bedrock_breaker:bedrock_breaker","components":{"minecraft:max_damage":100,"minecraft:custom_data":{"last_layer":0,"the_end":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"torchmaster:dreadlamp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"torchmaster:feral_flare_lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"torchmaster:frozen_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"strainers:mulch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:stripped_acacia_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftbquests:screen_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},

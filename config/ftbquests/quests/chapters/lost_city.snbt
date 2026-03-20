@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "lost_city"
 	group: "27F4CFB05BEDC0B5"
+	icon: {
+		id: "submerged:dreaded_draconic_compound"
+	}
 	id: "438CDE39570B8343"
 	order_index: 0
 	quest_links: [ ]

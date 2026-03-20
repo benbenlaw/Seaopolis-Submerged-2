@@ -1,0 +1,34 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:chicken"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.5,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:chicken"
+      }
+    },
+    {
+      "chance": 0.5,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "chance": 0.2,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:egg"
+      }
+    }
+  ]
+}

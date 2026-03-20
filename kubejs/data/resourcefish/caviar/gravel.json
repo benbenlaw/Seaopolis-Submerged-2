@@ -1,0 +1,27 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:gravel"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 1.0,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.3,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:flint"
+      }
+    }
+  ]
+}

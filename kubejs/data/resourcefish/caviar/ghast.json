@@ -1,0 +1,27 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "resourcefish:ghast"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {},
+  "results": [
+    {
+      "chance": 0.4,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "chance": 0.1,
+      "ingredient": {
+        "count": 1,
+        "item": "minecraft:gunpowder"
+      }
+    }
+  ]
+}
