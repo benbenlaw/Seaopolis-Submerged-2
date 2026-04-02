@@ -13,6 +13,14 @@
 		{
 			dependencies: ["174C09497F7BAFE4"]
 			id: "662C59FF97814D0A"
+			rewards: [{
+				id: "3947E69525A0FE95"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "016B2497001DAFBD"
 				item: { count: 1, id: "extendedcrafting:compressor" }
@@ -24,6 +32,14 @@
 		{
 			dependencies: ["20B504590EF3BA2F"]
 			id: "0A7174FA54D9EB95"
+			rewards: [{
+				id: "467D09504C609234"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "07660B598EE86E4D"
 				item: { count: 1, id: "extendedcrafting:flux_alternator" }
@@ -38,6 +54,14 @@
 				"10C4B16F539408BD"
 			]
 			id: "20B504590EF3BA2F"
+			rewards: [{
+				id: "79B16F6ADB7CB616"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "26427643CF3F0769"
 				item: { count: 1, id: "extendedcrafting:redstone_ingot" }
@@ -49,6 +73,14 @@
 		{
 			dependencies: ["0A7174FA54D9EB95"]
 			id: "6EC0D6FC4E608E12"
+			rewards: [{
+				id: "4F60E6AE1363B489"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4044BE30A63142E9"
 				item: { count: 1, id: "extendedcrafting:flux_crafter" }
@@ -60,6 +92,14 @@
 		{
 			dependencies: ["6EC0D6FC4E608E12"]
 			id: "5EB84E84458A310C"
+			rewards: [{
+				id: "66AEB4F261B024C7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DDFAC09DBDE820D"
 				item: { count: 1, id: "extendedcrafting:flux_star" }
@@ -74,6 +114,14 @@
 				"10C4B16F539408BD"
 			]
 			id: "2AA5F2468A37E8FD"
+			rewards: [{
+				id: "4A3D32BEC4430E1D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F82C5CC0DCE1847"
 				item: { count: 1, id: "extendedcrafting:ender_ingot" }
@@ -85,6 +133,14 @@
 		{
 			dependencies: ["2AA5F2468A37E8FD"]
 			id: "5408E73D0B8AE712"
+			rewards: [{
+				id: "32FDAFF53D77C2A8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60F73BB491ED0C4A"
 				item: { count: 1, id: "extendedcrafting:ender_alternator" }
@@ -96,6 +152,14 @@
 		{
 			dependencies: ["5408E73D0B8AE712"]
 			id: "36F46010846736C3"
+			rewards: [{
+				id: "092E79E2F5F7EBCF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F6D32EA0D129935"
 				item: { count: 1, id: "extendedcrafting:ender_crafter" }
@@ -107,6 +171,14 @@
 		{
 			dependencies: ["36F46010846736C3"]
 			id: "51E4FB5E55B6994B"
+			rewards: [{
+				id: "566465467D836F8C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "64984A74139BBE74"
 				item: { count: 1, id: "extendedcrafting:ender_star" }
@@ -121,6 +193,14 @@
 				"10C4B16F539408BD"
 			]
 			id: "29F1EE24418C2935"
+			rewards: [{
+				id: "1B2CDA3BEA9EFF93"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50E51503AEB6573C"
 				item: { count: 1, id: "extendedcrafting:luminessence" }
@@ -132,6 +212,14 @@
 		{
 			dependencies: ["29F1EE24418C2935"]
 			id: "7E5E19D8C11060B5"
+			rewards: [{
+				id: "1B95351ED33011A1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FDC17D0B268F98E"
 				item: { count: 1, id: "extendedcrafting:luminessence_block" }
@@ -143,6 +231,14 @@
 		{
 			dependencies: ["761373809A8C1C62"]
 			id: "174C09497F7BAFE4"
+			rewards: [{
+				id: "6FD0C1CDB12C49D5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "761FDE69E0901B1D"
 				item: { count: 1, id: "extendedcrafting:ultimate_catalyst" }
@@ -158,6 +254,14 @@
 				"51E4FB5E55B6994B"
 			]
 			id: "761373809A8C1C62"
+			rewards: [{
+				id: "59EBE9CA8B66ABA1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CEAEDBC3DDDFA2C"
 				item: { count: 1, id: "extendedcrafting:ultimate_component" }
@@ -169,6 +273,14 @@
 		{
 			dependencies: ["662C59FF97814D0A"]
 			id: "1BAFECAFB48CC25E"
+			rewards: [{
+				id: "26D2FE0F83675E08"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "310C53B4CFEE882E"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:certus" }, count: 1, id: "extendedcrafting:singularity" }
@@ -181,6 +293,14 @@
 		{
 			dependencies: ["662C59FF97814D0A"]
 			id: "4A85100C3C4EEE42"
+			rewards: [{
+				id: "3FE794131181701F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "78F81AAEE659A539"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:cobblestone" }, count: 1, id: "extendedcrafting:singularity" }
@@ -193,6 +313,14 @@
 		{
 			dependencies: ["662C59FF97814D0A"]
 			id: "3CE305BF21AB19FF"
+			rewards: [{
+				id: "2BDD50D9789DA023"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "298F416CDF945353"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:prismarine" }, count: 1, id: "extendedcrafting:singularity" }
@@ -205,6 +333,14 @@
 		{
 			dependencies: ["662C59FF97814D0A"]
 			id: "64543CBDE6BA3DE7"
+			rewards: [{
+				id: "044A5DE3FADB05E9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "22FFCC31EC1DB522"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:triarchium" }, count: 1, id: "extendedcrafting:singularity" }
@@ -217,6 +353,14 @@
 		{
 			dependencies: ["662C59FF97814D0A"]
 			id: "06DDCDE74285A03F"
+			rewards: [{
+				id: "68E9540C6F1FF736"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "508A6F2B1F1330AE"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:solclipsium" }, count: 1, id: "extendedcrafting:singularity" }
@@ -229,6 +373,14 @@
 		{
 			dependencies: ["1B9DFB22D751C5CF"]
 			id: "7E3253A585BC2812"
+			rewards: [{
+				id: "6A0BBC421CF4A1B8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "436CA03D35B4B063"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:water" }, count: 1, id: "extendedcrafting:singularity" }
@@ -241,6 +393,14 @@
 		{
 			dependencies: ["1B9DFB22D751C5CF"]
 			id: "3F65DA09CF92965D"
+			rewards: [{
+				id: "097A96B3FDDA6B28"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1558E9F3D1C4BFD5"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:lava" }, count: 1, id: "extendedcrafting:singularity" }
@@ -253,6 +413,14 @@
 		{
 			dependencies: ["1B9DFB22D751C5CF"]
 			id: "7AB6CD2922653BDF"
+			rewards: [{
+				id: "5E0E906D13E0BD24"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "24E90963C1393BE5"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:fluid_xp" }, count: 1, id: "extendedcrafting:singularity" }
@@ -264,6 +432,14 @@
 		{
 			dependencies: ["1B9DFB22D751C5CF"]
 			id: "47A03882D9E864BE"
+			rewards: [{
+				id: "7699C4B70849DD1A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D95708EEB556F39"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:rainbow" }, count: 1, id: "extendedcrafting:singularity" }
@@ -275,6 +451,14 @@
 		{
 			dependencies: ["174C09497F7BAFE4"]
 			id: "1B9DFB22D751C5CF"
+			rewards: [{
+				id: "72937611106C762F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "244DACA7CBF31CBE"
 				item: { components: { "custommachinery:machine": "submerged:fluid_compressor" }, count: 1, id: "custommachinery:custom_machine_item" }
@@ -287,9 +471,18 @@
 		{
 			dependencies: ["174C09497F7BAFE4"]
 			id: "6AC6746BD4A05CC9"
+			rewards: [{
+				id: "5DB41A3BEC5D6885"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "00B7C453E9A2B3EB"
 				item: { components: { "custommachinery:machine": "submerged:chemical_compressor" }, count: 1, id: "custommachinery:custom_machine_item" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -3.0d
@@ -298,6 +491,14 @@
 		{
 			dependencies: ["6AC6746BD4A05CC9"]
 			id: "3CF885D35737FDBF"
+			rewards: [{
+				id: "7C6DADD5CD7E3F7E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1647B0EBF78E83AC"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:antimatter" }, count: 1, id: "extendedcrafting:singularity" }
@@ -320,6 +521,14 @@
 				"7E3253A585BC2812"
 			]
 			id: "3A4A6AB1BD4FA96C"
+			rewards: [{
+				id: "164CAFC118536DF2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "52838ED5D0B2CD34"
 				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }

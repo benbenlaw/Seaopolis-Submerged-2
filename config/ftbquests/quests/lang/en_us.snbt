@@ -301,6 +301,7 @@
 	quest.1BC72E740B20B36C.quest_desc: ["&lUU Matter&r can be used to duplicate certain &lItems&r, &lFluids&r and &lChemicals&r"]
 	quest.1BDD330117EFFB47.quest_desc: ["The final &lInstrument&r "]
 	quest.1BE1D8281A3695D7.quest_desc: ["Almost there"]
+	quest.1BE1D8281A3695D7.title: "Chapter III"
 	quest.1C06BE8F733CA062.quest_desc: ["Crafted &lOre Pieces&r"]
 	quest.1C2951B213F693C6.quest_desc: ["Crafted &lOre Piece&r"]
 	quest.1C2A65B01045D504.quest_desc: ["Various different items can be recycled into &lScrap&r at a chance"]
@@ -506,6 +507,7 @@
 	quest.34858FC6AB49B00E.quest_desc: ["Right click on a &lTotem Base&r for information. Left click to cancel ceremonies"]
 	quest.34D8E0C2C75EE0D5.quest_desc: ["Carving &lLogs&r into &lTotems&r. Use &lSHIFT&r and scroll to chose a type of &lTotem&r to carve. The first carve needs to be a &lTotem Base&r"]
 	quest.352F196F21AF6552.quest_desc: ["You did it"]
+	quest.352F196F21AF6552.title: "Chapter IV"
 	quest.356B0DCCAA28ABF2.quest_desc: ["Made inside the &lStrainer&r"]
 	quest.358252A3A9498C3F.quest_desc: ["Processed Ore"]
 	quest.3597D5BD40A0148B.quest_desc: ["&lWhere's Storm?&r I want that eye"]
@@ -1081,7 +1083,7 @@
 	quest.697CCAC6BB19751C.quest_subtitle: "Probably needs more usages"
 	quest.6981A5411E206718.quest_desc: ["A better &lFish Food&r which can be used to create various &lResource Fish&r"]
 	quest.69A723B282099835.quest_desc: ["Obtained from killing &lThe Wither&r"]
-	quest.69CF5E51395C802D.quest_desc: ["The Void is a dimension between all dimensions. I hope all the messing around does make the universe become... &l&0Fractured&r&r"]
+	quest.69CF5E51395C802D.quest_desc: ["&lThe Void&r is a dimension between all dimensions. I hope all the messing around doesn't make the universe become... &l&0Fractured&r&r"]
 	quest.69CF5E51395C802D.title: "The Void"
 	quest.69E361BDE59A00EA.quest_desc: [""]
 	quest.6A0F60DED55ACD7B.quest_desc: ["When right clicked on a &lDragon&r cycles options like sit and follow"]
@@ -1091,6 +1093,7 @@
 	quest.6A94E9D14675586E.quest_desc: ["The &lWashing Factory&r can be used to turn &lRaw Ores&r into &lRaw Ore Meat&r"]
 	quest.6AAF56C47DDC7F4C.quest_desc: ["When used on a &lLock Block&r will create a new &lSphere&r. Caution these keys will override all blocks in the area"]
 	quest.6AAF56C47DDC7F4C.title: "Basic Room"
+	quest.6AC6746BD4A05CC9.quest_desc: ["Singularities could be a way out of here "]
 	quest.6AC936C9166BD437.quest_desc: ["Drops from &lThe Warden&r. &lWarden's Smite&r will help"]
 	quest.6ACF9F582C35419D.quest_desc: [
 		"&lChapter Challenges&r are for the ultimate completionist. To unlock the &lChapter Challenges&r for a specific questline you must complete the &lHexagonal Shaped &rquest. You will be rewarded inside the &lChapter Challenges!&r"
@@ -1236,8 +1239,9 @@
 	quest.7A136D13050B2E25.title: "Reward I"
 	quest.7A351105AE91FE1E.quest_desc: ["A bigger wheel"]
 	quest.7A448042EF3B5814.quest_desc: ["A &lPneumatic Ingot&r"]
-	quest.7A562C9ADB3E48EA.quest_desc: ["&lEntro Crystal&r, &lGold Ingot&r and &lLapis&r can be dropped into water to create &lEntro Infused Ingot&r"]
+	quest.7A562C9ADB3E48EA.quest_desc: ["&lEntro Dust&r, &lGold Ingot&r and &lLapis&r can be dropped into water to create &lEntro Infused Ingot&r"]
 	quest.7A70D61A638C6FBA.quest_desc: ["Almost there"]
+	quest.7A70D61A638C6FBA.title: "Chapter III"
 	quest.7A799412015F62DF.quest_desc: ["The power of the sun"]
 	quest.7AB6CD2922653BDF.quest_desc: ["Made inside the &lCompressor&r"]
 	quest.7B0B598D5C319A91.quest_desc: [

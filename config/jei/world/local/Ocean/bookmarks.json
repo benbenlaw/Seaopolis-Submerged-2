@@ -9,5 +9,9 @@
   {"ingredient":{"id":"hybrid-aquatic:vampire_crab_claw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hybrid-aquatic:dungeness_crab_claw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hybrid-aquatic:lightfoot_crab_claw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"extendedcrafting:enhanced_ender_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"extendedcrafting:enhanced_ender_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:sugar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forcecraft:force_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forcecraft:golden_power_source"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"forcecraft:force_legs"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

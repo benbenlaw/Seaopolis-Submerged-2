@@ -22,3 +22,5 @@ z_fighting = ["ae2:cable_bus"]
 hidden_when_facaded = []
 #Whether the facade should be consumed when placed.
 consumeFacade = true
+#List of blocks that need a slight scale-up when facaded (e.g. Create mod blocks). Supports '*' as a wildcard.
+scale_up_blocks = ["*create*"]

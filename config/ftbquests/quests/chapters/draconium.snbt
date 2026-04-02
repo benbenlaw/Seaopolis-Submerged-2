@@ -13,6 +13,14 @@
 		{
 			dependencies: ["71A89B1795AA15F1"]
 			id: "319E486F5AB8F1D1"
+			rewards: [{
+				id: "30C1C734459C36F8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "08186AF8B0A95A9C"
 				item: { count: 1, id: "draconicevolution:draconium_dust" }
@@ -24,6 +32,14 @@
 		{
 			dependencies: ["319E486F5AB8F1D1"]
 			id: "20C6823F1E30246B"
+			rewards: [{
+				id: "582324926F87B44C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4BF5C10F0C85D380"
 				item: { count: 1, id: "draconicevolution:draconium_ingot" }
@@ -35,6 +51,14 @@
 		{
 			dependencies: ["20C6823F1E30246B"]
 			id: "0CF4F4403EC59D4C"
+			rewards: [{
+				id: "04884FAF892903E0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FBD4A93C1A2762A"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
@@ -46,6 +70,14 @@
 		{
 			dependencies: ["0CF4F4403EC59D4C"]
 			id: "20AD41DCC25B8340"
+			rewards: [{
+				id: "589A3ADADF564526"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "783293F1943A4A43"
 				item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
@@ -57,6 +89,14 @@
 		{
 			dependencies: ["0CF4F4403EC59D4C"]
 			id: "06672574E5244245"
+			rewards: [{
+				id: "7A4E3839D0B0EAD9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2590251DDA284F17"
 				item: { count: 1, id: "draconicevolution:crafting_core" }
@@ -71,6 +111,14 @@
 				"20AD41DCC25B8340"
 			]
 			id: "2A61FF008E6531E3"
+			rewards: [{
+				id: "77E0855F2B9C603E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "75B38F8217278F4F"
 				item: { count: 1, id: "draconicevolution:wyvern_core" }
@@ -82,6 +130,14 @@
 		{
 			dependencies: ["41A90951A7242E9B"]
 			id: "20CB63EAD12C097B"
+			rewards: [{
+				id: "54A94771048CBCFB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "08AAA03982879E08"
 				item: { count: 1, id: "draconicevolution:draconium_block" }
@@ -93,6 +149,14 @@
 		{
 			dependencies: ["2A61FF008E6531E3"]
 			id: "41A90951A7242E9B"
+			rewards: [{
+				id: "6A69AD8318DFCFB0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "35D6AE69D70E4083"
 				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
@@ -104,6 +168,14 @@
 		{
 			dependencies: ["20CB63EAD12C097B"]
 			id: "5E99C0B110BF1591"
+			rewards: [{
+				id: "0E81654E0E96E4B3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "648D0DEECCDA98CA"
 				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
@@ -115,6 +187,14 @@
 		{
 			dependencies: ["5E99C0B110BF1591"]
 			id: "5ED206BAC6BA898F"
+			rewards: [{
+				id: "26BE1F706DF38AB1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F1B01927996901A"
 				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
@@ -126,6 +206,14 @@
 		{
 			dependencies: ["5ED206BAC6BA898F"]
 			id: "794C1F13E54D26CA"
+			rewards: [{
+				id: "250BB4A43D733263"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68B98C95BC750038"
 				item: { count: 1, id: "draconicevolution:awakened_core" }
@@ -137,6 +225,14 @@
 		{
 			dependencies: ["794C1F13E54D26CA"]
 			id: "749C2193CC79255E"
+			rewards: [{
+				id: "4B35C898F276940A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "486FF73984708DE1"
 				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
@@ -149,6 +245,14 @@
 			dependencies: ["575A0D680A313F82"]
 			id: "0EEEFE30CBB86133"
 			optional: true
+			rewards: [{
+				id: "4327B02E75D3CF9B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FE80F1690993EF2"
 				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
@@ -161,6 +265,14 @@
 			dependencies: ["0EEEFE30CBB86133"]
 			id: "74DB3C8654006627"
 			optional: true
+			rewards: [{
+				id: "095A353621642D1C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2741964E3A40D123"
 				item: { count: 1, id: "draconicevolution:medium_chaos_frag" }
@@ -174,7 +286,16 @@
 				"1F6604F2B9DBEBAD"
 				"74DB3C8654006627"
 			]
+			dependency_requirement: "one_completed"
 			id: "46AB0865E048C018"
+			rewards: [{
+				id: "1E3B88A2C7D7E894"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B5A897CB0E0CB76"
 				item: { count: 1, id: "draconicevolution:large_chaos_frag" }
@@ -186,6 +307,14 @@
 		{
 			dependencies: ["46AB0865E048C018"]
 			id: "0E040596AE4DFA19"
+			rewards: [{
+				id: "0D80886EEE6AD410"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2135F4E2FBC64B43"
 				item: { count: 1, id: "draconicevolution:chaos_shard" }
@@ -197,6 +326,14 @@
 		{
 			dependencies: ["0E040596AE4DFA19"]
 			id: "10C4B16F539408BD"
+			rewards: [{
+				id: "496F5A6632724C7A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "408D291F515B5857"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
@@ -208,6 +345,14 @@
 		{
 			dependencies: ["749C2193CC79255E"]
 			id: "5D1530AA1E8C8BC7"
+			rewards: [{
+				id: "5376B0EAD5108669"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25053A7A68E3F147"
 				type: "checkmark"
@@ -219,6 +364,14 @@
 			dependencies: ["5D1530AA1E8C8BC7"]
 			id: "575A0D680A313F82"
 			optional: true
+			rewards: [{
+				id: "2DB5A8F41693581A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B25DADBAD6EDEAB"
 				item: { count: 1, id: "draconicevolution:infused_obsidian" }
@@ -231,6 +384,14 @@
 			dependencies: ["5D1530AA1E8C8BC7"]
 			id: "1229098DC8F3BAD7"
 			optional: true
+			rewards: [{
+				id: "681AFED0F049D446"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
 				id: "22B25F9183BE5A04"
@@ -244,6 +405,14 @@
 			dependencies: ["1229098DC8F3BAD7"]
 			id: "1F6604F2B9DBEBAD"
 			optional: true
+			rewards: [{
+				id: "583E273912049D25"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FA1BA6FD2061471"
 				type: "checkmark"
@@ -254,6 +423,14 @@
 		{
 			dependencies: ["0E040596AE4DFA19"]
 			id: "04141134F1B3E49F"
+			rewards: [{
+				id: "388D3723A1B518BE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "284166DF5059981A"
 				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
@@ -268,6 +445,14 @@
 				"04141134F1B3E49F"
 			]
 			id: "24DE8A34B114E041"
+			rewards: [{
+				id: "1E3C33A50118D6FC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D5739A1058F4D50"
 				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
@@ -279,6 +464,14 @@
 		{
 			dependencies: ["24DE8A34B114E041"]
 			id: "083FBD304D13F2B6"
+			rewards: [{
+				id: "10D26384FC59FC05"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "52524D47CFA888F5"
 				item: { count: 1, id: "extendedcrafting:black_iron_block" }
@@ -290,6 +483,14 @@
 		{
 			dependencies: ["083FBD304D13F2B6"]
 			id: "5E5A07CA9172204E"
+			rewards: [{
+				id: "74943E0EA80BB55B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "665065FE1E2987CD"
 				item: { count: 1, id: "extendedcrafting:frame" }

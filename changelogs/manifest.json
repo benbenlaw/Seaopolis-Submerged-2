@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Submerged 2",
-  "version": "1.0",
+  "version": "2.0",
   "author": "",
   "files": [
     {
@@ -35,6 +35,12 @@
     {
       "projectID": 895919,
       "fileID": 7555622,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 532169,
+      "fileID": 7714899,
       "required": true,
       "isLocked": false
     },
@@ -118,7 +124,7 @@
     },
     {
       "projectID": 248787,
-      "fileID": 7517379,
+      "fileID": 7854442,
       "required": true,
       "isLocked": false
     },
@@ -148,7 +154,7 @@
     },
     {
       "projectID": 454382,
-      "fileID": 7277758,
+      "fileID": 7851205,
       "required": true,
       "isLocked": false
     },
@@ -231,6 +237,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1086142,
+      "fileID": 6288756,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 1100379,
       "fileID": 6879980,
       "required": true,
@@ -280,7 +292,7 @@
     },
     {
       "projectID": 32274,
-      "fileID": 7757006,
+      "fileID": 7854356,
       "required": true,
       "isLocked": false
     },
@@ -298,7 +310,7 @@
     },
     {
       "projectID": 405593,
-      "fileID": 7027340,
+      "fileID": 7825464,
       "required": true,
       "isLocked": false
     },
@@ -341,6 +353,12 @@
     {
       "projectID": 635427,
       "fileID": 5444189,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1254143,
+      "fileID": 7824548,
       "required": true,
       "isLocked": false
     },
@@ -435,6 +453,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1217518,
+      "fileID": 7069047,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 638508,
       "fileID": 5491721,
       "required": true,
@@ -442,7 +466,13 @@
     },
     {
       "projectID": 1072209,
-      "fileID": 6487994,
+      "fileID": 7801278,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 583345,
+      "fileID": 6315149,
       "required": true,
       "isLocked": false
     },
@@ -490,7 +520,7 @@
     },
     {
       "projectID": 541320,
-      "fileID": 7297900,
+      "fileID": 7810964,
       "required": true,
       "isLocked": false
     },
@@ -574,7 +604,7 @@
     },
     {
       "projectID": 536160,
-      "fileID": 7312375,
+      "fileID": 7851814,
       "required": true,
       "isLocked": false
     },
@@ -646,7 +676,7 @@
     },
     {
       "projectID": 237749,
-      "fileID": 5622966,
+      "fileID": 7796187,
       "required": true,
       "isLocked": false
     },
@@ -683,6 +713,12 @@
     {
       "projectID": 306935,
       "fileID": 7736527,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 525447,
+      "fileID": 6508946,
       "required": true,
       "isLocked": false
     },
@@ -766,7 +802,7 @@
     },
     {
       "projectID": 867099,
-      "fileID": 7301675,
+      "fileID": 7810753,
       "required": true,
       "isLocked": false
     },
@@ -886,7 +922,7 @@
     },
     {
       "projectID": 688367,
-      "fileID": 6935673,
+      "fileID": 7844592,
       "required": true,
       "isLocked": false
     },
@@ -904,13 +940,19 @@
     },
     {
       "projectID": 281849,
-      "fileID": 7755211,
+      "fileID": 7830507,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 834427,
       "fileID": 7694018,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 961856,
+      "fileID": 7622554,
       "required": true,
       "isLocked": false
     },
@@ -982,7 +1024,7 @@
     },
     {
       "projectID": 907975,
-      "fileID": 7445185,
+      "fileID": 7844134,
       "required": true,
       "isLocked": false
     },
@@ -1054,7 +1096,7 @@
     },
     {
       "projectID": 64578,
-      "fileID": 7721683,
+      "fileID": 7847616,
       "required": true,
       "isLocked": false
     },
@@ -1101,20 +1143,20 @@
       "isLocked": false
     },
     {
-      "projectID": 276951,
-      "fileID": 7515858,
-      "required": true,
-      "isLocked": false
-    },
-    {
       "projectID": 957920,
       "fileID": 5821676,
       "required": true,
       "isLocked": false
     },
     {
+      "projectID": 276951,
+      "fileID": 7515858,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 936015,
-      "fileID": 7731887,
+      "fileID": 7832789,
       "required": true,
       "isLocked": false
     },
@@ -1138,7 +1180,7 @@
     },
     {
       "projectID": 583228,
-      "fileID": 7451435,
+      "fileID": 7801078,
       "required": true,
       "isLocked": false
     },
@@ -1161,14 +1203,14 @@
       "isLocked": false
     },
     {
-      "projectID": 1306367,
-      "fileID": 7516288,
+      "projectID": 575698,
+      "fileID": 7528185,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 575698,
-      "fileID": 7528185,
+      "projectID": 1306367,
+      "fileID": 7516288,
       "required": true,
       "isLocked": false
     },
@@ -1264,7 +1306,7 @@
     },
     {
       "projectID": 1140577,
-      "fileID": 7400019,
+      "fileID": 7845316,
       "required": true,
       "isLocked": false
     },
@@ -1311,14 +1353,14 @@
       "isLocked": false
     },
     {
-      "projectID": 454802,
-      "fileID": 7272089,
+      "projectID": 361579,
+      "fileID": 6225208,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 361579,
-      "fileID": 6225208,
+      "projectID": 454802,
+      "fileID": 7272089,
       "required": true,
       "isLocked": false
     },
@@ -1371,14 +1413,14 @@
       "isLocked": false
     },
     {
-      "projectID": 1264423,
-      "fileID": 7544787,
+      "projectID": 580181,
+      "fileID": 6090721,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 580181,
-      "fileID": 6090721,
+      "projectID": 1264423,
+      "fileID": 7544787,
       "required": true,
       "isLocked": false
     },
@@ -1462,7 +1504,7 @@
     },
     {
       "projectID": 398521,
-      "fileID": 7596366,
+      "fileID": 7801529,
       "required": true,
       "isLocked": false
     },
@@ -1491,14 +1533,14 @@
       "isLocked": false
     },
     {
-      "projectID": 272335,
-      "fileID": 7180790,
+      "projectID": 355418,
+      "fileID": 6862992,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 355418,
-      "fileID": 6862992,
+      "projectID": 272335,
+      "fileID": 7180790,
       "required": true,
       "isLocked": false
     },

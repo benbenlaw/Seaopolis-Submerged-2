@@ -13,6 +13,14 @@
 		{
 			dependencies: ["42AF6989ACCE264A"]
 			id: "424968A339F1180B"
+			rewards: [{
+				id: "1F2DC127DB242411"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D06768B612117A0"
 				item: { count: 1, id: "atlantis:sunken_gravel" }
@@ -24,6 +32,14 @@
 		{
 			dependencies: ["59A593231DB40861"]
 			id: "1C06BE8F733CA062"
+			rewards: [{
+				id: "54FE1EC2E37730A0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "56829FB65BDB1D08"
 				item: { count: 1, id: "atlantis:ancient_cuprum_ore" }
@@ -35,6 +51,14 @@
 		{
 			dependencies: ["15035FB623808756"]
 			id: "415CC449283A40DE"
+			rewards: [{
+				id: "39C7943B5819D946"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "522C3B962E3B84BF"
 				item: { count: 1, id: "atlantis:aquamarine_ore" }
@@ -46,6 +70,14 @@
 		{
 			dependencies: ["415CC449283A40DE"]
 			id: "616605CC14EE4DA7"
+			rewards: [{
+				id: "1FD85533E297A9FE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "439ACC766759A41A"
 				item: { count: 1, id: "atlantis:aquamarine_gem" }
@@ -57,6 +89,14 @@
 		{
 			dependencies: ["4C7CFA54EB6E8430"]
 			id: "0A52127C2AD15CA9"
+			rewards: [{
+				id: "1D35DA12BA342374"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B2F36BB8EE0B9FE"
 				item: { count: 1, id: "atlantis:ancient_cuprum_ingot" }
@@ -68,6 +108,14 @@
 		{
 			dependencies: ["424968A339F1180B"]
 			id: "15035FB623808756"
+			rewards: [{
+				id: "6575080C22731BDF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "565D8C7A0B3FE20F"
 				item: { count: 1, id: "submerged:aquamarine_ore_piece" }
@@ -79,6 +127,14 @@
 		{
 			dependencies: ["424968A339F1180B"]
 			id: "59A593231DB40861"
+			rewards: [{
+				id: "3342A3E54DB423B4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "79DE5297ECA12720"
 				item: { count: 1, id: "submerged:cuprum_ore_piece" }
@@ -90,6 +146,14 @@
 		{
 			dependencies: ["1C06BE8F733CA062"]
 			id: "4C7CFA54EB6E8430"
+			rewards: [{
+				id: "0E81479436D1F019"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "261DB3A5F0222451"
 				item: { count: 1, id: "atlantis:raw_ancient_cuprum" }
@@ -104,6 +168,14 @@
 				"0A52127C2AD15CA9"
 			]
 			id: "6F268DDFA355437C"
+			rewards: [{
+				id: "5489A93CD1DAFE92"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B34A9934246F544"
 				item: { count: 1, id: "atlantis:orichalcum_blend" }
@@ -115,6 +187,14 @@
 		{
 			dependencies: ["6F268DDFA355437C"]
 			id: "0B7781AAD210F2A9"
+			rewards: [{
+				id: "5B4D179E652A9137"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "71C245D8AE594DA6"
 				item: { count: 1, id: "atlantis:orichalcum_ingot" }
@@ -126,6 +206,14 @@
 		{
 			dependencies: ["0B7781AAD210F2A9"]
 			id: "3A7919B21B88105D"
+			rewards: [{
+				id: "149324A3A13660C4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C56AFDF0B5A3381"
 				item: { count: 1, id: "atlantis:orichalcum_block" }
@@ -140,6 +228,14 @@
 				"3A7919B21B88105D"
 			]
 			id: "0D125EFF1A2DC5F3"
+			rewards: [{
+				id: "45EE9C6B0244A8DD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "iceandfire:dread_lich"
 				id: "6AFA1598E910AEBB"
@@ -152,6 +248,14 @@
 		{
 			dependencies: ["0D125EFF1A2DC5F3"]
 			id: "538627E920BAE0C8"
+			rewards: [{
+				id: "24FD82235C2CC6AB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D8A2926A8B890B5"
 				item: { count: 1, id: "iceandfire:dread_key" }
@@ -163,6 +267,14 @@
 		{
 			dependencies: ["3EA5122B3CFCE707"]
 			id: "17113DA087FDA049"
+			rewards: [{
+				id: "3B4D050CA7B3EFB2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "iceandfire:dread_portal"
@@ -179,6 +291,14 @@
 		{
 			dependencies: ["17113DA087FDA049"]
 			id: "6D187733A73465CE"
+			rewards: [{
+				id: "1AF2E86D15960943"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "iceandfire:dread_land"
 				id: "54DC1674DE439116"
@@ -190,6 +310,14 @@
 		{
 			dependencies: ["538627E920BAE0C8"]
 			id: "3EA5122B3CFCE707"
+			rewards: [{
+				id: "1888A15B22EDBAE5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D2601E33E70FCA3"
 				structure: "iceandfire:mausoleum"
@@ -201,6 +329,14 @@
 		{
 			dependencies: ["6D187733A73465CE"]
 			id: "767EA2466674D15A"
+			rewards: [{
+				id: "259AC70CC7FD0FB8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AD0A6D12876700E"
 				item: { count: 1, id: "iceandfire:dread_shard" }
@@ -212,6 +348,14 @@
 		{
 			dependencies: ["6D187733A73465CE"]
 			id: "2AA39A04850B3BB1"
+			rewards: [{
+				id: "0D210041DC49E3AD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B3A8A7A312C6610"
 				item: { count: 1, id: "iceandfire:fire_dragon_heart" }
@@ -223,6 +367,14 @@
 		{
 			dependencies: ["6D187733A73465CE"]
 			id: "4D74AB0EFC57AA27"
+			rewards: [{
+				id: "5F3E7C55AC74038A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "728EB1EDDA090A72"
 				item: { count: 1, id: "iceandfire:ice_dragon_heart" }
@@ -234,6 +386,14 @@
 		{
 			dependencies: ["6D187733A73465CE"]
 			id: "7F5B641BCF094E31"
+			rewards: [{
+				id: "11BA97DE8BDFB2CA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AF5A75BE48A4684"
 				item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
@@ -245,6 +405,14 @@
 		{
 			dependencies: ["767EA2466674D15A"]
 			id: "67E4CEF62A19F64B"
+			rewards: [{
+				id: "5A7CA7FE0EC8DEB1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F655FFF45CDDCDF"
 				item: { count: 1, id: "iceandfire:dread_stone" }
@@ -256,6 +424,14 @@
 		{
 			dependencies: ["25EABB4275737E38"]
 			id: "71A89B1795AA15F1"
+			rewards: [{
+				id: "638626701CFE1FCF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E0A8FF9AEFE0AC5"
 				item: { count: 1, id: "submerged:draconic_gravel" }
@@ -273,6 +449,14 @@
 				"67E4CEF62A19F64B"
 			]
 			id: "25EABB4275737E38"
+			rewards: [{
+				id: "7DD39D1DDB91DADF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BDAA05771244D4F"
 				item: { count: 1, id: "submerged:dreaded_draconic_compound" }
