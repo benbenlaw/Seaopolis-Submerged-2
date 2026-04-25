@@ -49,6 +49,9 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.combining('mekanism:hazmat_pants', '7x alltheores:lead_ingot', 'mekanismtools:bronze_leggings').id('mekanism:hazmat_pants')
     event.recipes.mekanism.combining('mekanism:hazmat_boots', '4x alltheores:lead_ingot', 'mekanismtools:bronze_boots').id('mekanism:hazmat_boots')
     
+    //Shulker Shell
+    event.recipes.mekanism.nucleosynthesizing('minecraft:shulker_shell', 'minecraft:turtle_scute', 'mekanism:antimatter', 500, false).id('submerged:shulker_shell')
+
     //Beam
     addLatheRecipe('alltheores:steel_ingot', 3, 'dysoncubeproject:beam')
     addLatheRecipe('dysoncubeproject:beam', 4, 'dysoncubeproject:beam_package')

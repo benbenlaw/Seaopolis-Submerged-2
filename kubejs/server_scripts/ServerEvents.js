@@ -25,7 +25,7 @@ PlayerEvents.tick(event => {
     let inWater = player.isInWater() || player.isInRain() || player.isInBubbleColumn();
     let inToxicAir = player.y > 149 || player.getInventory().contains('submerged:toxic_gravel')
 
-    if(inWater && event.server.getTickCount() % 40 == 0) {
+    if(inWater && event.server.getTickCount() % 40 == 0 && !fullDiving) {
         if (helmet.hasTag('submerged:diving_gear')) helmet.setDamageValue(helmet.damageValue + 1)
         if (chestplate.hasTag('submerged:diving_gear')) chestplate.setDamageValue(chestplate.damageValue + 1)
         if (leggings.hasTag('submerged:diving_gear')) leggings.setDamageValue(leggings.damageValue + 1)

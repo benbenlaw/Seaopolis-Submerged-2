@@ -1,5 +1,5 @@
 #Disables File Watcher. Used to automatically update config if its file has been modified.
-disableConfigWatcher = false
+disableConfigWatcher = true
 #Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.
 earlyWindowControl = true
 #Max threads for early initialization parallelism,  -1 is based on processor count
