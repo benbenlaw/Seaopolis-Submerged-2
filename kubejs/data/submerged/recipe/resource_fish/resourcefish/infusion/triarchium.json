@@ -1,0 +1,13 @@
+{
+  "type": "resourcefish:fish_infusing",
+  "chance": 1.0,
+  "created_fish": "submerged:triarchium",
+  "duration": 100,
+  "fish": "submerged:glass",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "submerged:triarchium_ingot"
+    }
+  ]
+}

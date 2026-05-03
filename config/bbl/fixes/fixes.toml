@@ -8,3 +8,5 @@
 	"Enable PortalJS fix" = false
 	#Prevent Block Breaker from breaking bedrock and other unbreakable blocks, requires Opolis Utilities mod, default = false
 	"Enable Block Breaker fix" = false
+	#Prevent vanilla buckets obtaining a purity tag when collected in world with Thirst Was Taken Mod, requires Thirst Was Taken, default = false
+	"Enable bucket fix" = false

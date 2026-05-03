@@ -1,0 +1,23 @@
+{
+  "drop_interval": 600,
+  "drop_items": [
+    {
+      "item": {
+        "components": {
+          "resourcefish:fish_type": "submerged:triarchium"
+        },
+        "count": 1,
+        "id": "resourcefish:caviar"
+      }
+    }
+  ],
+  "main_color": "#FF5C0085",
+  "models": [
+    "large"
+  ],
+  "pattern_color": "#FF9700D9",
+  "patterns": [
+    "large_6",
+    "large_2"
+  ]
+}

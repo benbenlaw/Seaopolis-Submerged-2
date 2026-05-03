@@ -28,6 +28,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'enderio:pulsating_photovoltaic_module'}, '#c:glass_blocks/enlighted_fused_quartz', '#c:glass_blocks')
     event.replaceInput({id: 'enderio:vibrant_photovoltaic_module'}, '#c:glass_blocks/dark_fused_quartz', '#c:glass_blocks')
 
+    //Cuprum Ore
+    addOreSagMill('atlantis:ancient_cuprum_ore', 'atlantis:raw_ancient_cuprum')
+
     //Suspicious Seed
     event.shaped('enderio:suspicious_seed', [' A ', 'ABA', ' A '], {
         A: 'minecraft:suspicious_stew',
@@ -68,6 +71,39 @@ ServerEvents.recipes(event => {
                 "item": input
             }
         }).id(`submerged:enderio/enchanter/${input.split(':')[1]}_${enchantment.split(':')[1]}`)
+    }
+
+    //Ore Sag Mill
+    function addOreSagMill(input, output) {
+        event.custom({
+        "type": "enderio:sag_milling",
+        "energy": 2400,
+        "input": {
+            "item": input
+        },
+        "outputs": [
+            {
+            "item": {
+                "count": 1,
+                "id": output
+            }
+            },
+            {
+            "chance": 0.33,
+            "item": {
+                "count": 1,
+                "id": output
+            }
+            },
+            {
+            "chance": 0.15,
+            "item": {
+                "count": 1,
+                "id": "minecraft:cobblestone"
+            }
+            }
+        ]
+        }).id(`submerged:enderio/sag_milling/${output.split(':')[1]}`)
     }
 
 })

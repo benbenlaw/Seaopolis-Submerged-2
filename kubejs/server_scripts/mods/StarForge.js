@@ -27,6 +27,15 @@ ServerEvents.recipes(event => {
 
     //Orichalcum Ingot
     createStarForgeRecipe('atlantis:orichalcum_ingot', 'atlantis:orichalcum_blend', [], 5, 600, 100);
+    createStarForgeRecipe('2x atlantis:orichalcum_block', 'atlantis:orichalcum_blend', [
+        'atlantis:orichalcum_blend',
+        'atlantis:orichalcum_blend',
+        'atlantis:orichalcum_blend',
+        'atlantis:orichalcum_blend',
+        'atlantis:orichalcum_blend',
+        'atlantis:orichalcum_blend',
+        'atlantis:orichalcum_blend'
+    ], 5, 600, 100);
 
     //Drop of Atlantis
     createStarForgeRecipe('atlantis:drop_of_atlantis', 'starforge:star_gem', [

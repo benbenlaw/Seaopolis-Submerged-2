@@ -54,9 +54,6 @@ ServerEvents.recipes(event => {
     event.recipes.casting.melting('submerged:solclipsium_block', '810x submerged:molten_solclipsium', 1400).id('submerged:melting/solclipsium_block')
     event.recipes.casting.melting('submerged:solclipsium_ingot', '90x submerged:molten_solclipsium', 1400).id('submerged:melting/solclipsium_ingot')
     event.recipes.casting.melting('submerged:solclipsium_nugget', '10x submerged:molten_solclipsium', 1400).id('submerged:melting/solclipsium_nugget')
-   
-    event.recipes.casting.melting('minecraft:ancient_debris', '90x casting:molten_debris', 100).id('submerged:melting/ancient_debris')
-
 
     //Solidifier
     event.recipes.casting.solidifier('strainers:purified_gravel', '100x submerged:organic_water', 'submerged:refined_gravel').id('submerged:solidifier/refined_gravel')

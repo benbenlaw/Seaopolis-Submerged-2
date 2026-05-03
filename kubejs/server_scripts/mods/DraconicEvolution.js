@@ -11,7 +11,11 @@ ServerEvents.recipes(event => {
     event.remove({id: 'draconicevolution:awakened_draconium_block'})
     event.remove({id: 'draconicevolution:machines/reactor_core'})
 
-    //Replace Input
+    //Draconium Ingot
+    event.shaped('8x draconicevolution:draconium_ingot', ['AAA', 'ABA', 'AAA'], {
+        A: 'draconicevolution:draconium_dust',
+        B: 'atlantis:orichalcum_ingot'
+    }).id('submerged:draconicevolution/draconium_ingot')
 
     //Luminessence
     event.recipes.draconicevolution.fusion_crafting(
@@ -150,10 +154,6 @@ ServerEvents.recipes(event => {
         [
             "draconicevolution:draconium_ingot", 
             "draconicevolution:draconium_ingot", 
-            "draconicevolution:draconium_ingot", 
-            "draconicevolution:draconium_ingot", 
-            "minecraft:nether_star", 
-            "minecraft:nether_star", 
             "minecraft:nether_star", 
             "minecraft:nether_star", 
             ["iceandfire:lightning_dragon_heart", false], 

@@ -35,8 +35,14 @@ LootJS.modifiers(event => {
     )
     
     //Ancient Debris
-    event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addLoot('submerged:raw_ancient_debris')
-
+    event.addBlockModifier('minecraft:ancient_debris').removeLoot('*').addAlternativesLoot(
+        LootEntry.of('minecraft:ancient_debris').when(c =>
+            c.matchTool(ItemFilter.anyOf(ItemFilter.hasEnchantment("minecraft:silk_touch")))), 
+    
+        LootEntry.of('submerged:raw_ancient_debris').setCount([1, 3]).applyOreBonus("minecraft:fortune").when(c =>
+            c.matchTool(ItemFilter.not(ItemFilter.hasEnchantment("minecraft:silk_touch"))))
+        )
+    
     //Entity Tweaks
     event.addEntityModifier('minecraft:witch').removeLoot('minecraft:redstone').removeLoot('minecraft:glass_bottle').removeLoot('minecraft:glowstone_dust')
     event.addEntityModifier('minecraft:skeleton').removeLoot('minecraft:bow')

@@ -14,11 +14,6 @@ ServerEvents.recipes(event => {
     //Replace Input
     event.replaceInput({id: 'iceandfire:dragon_stick'}, '#c:skulls', 'minecraft:dragon_head')
 
-    //Draconium Ingot
-    addDragonForgeRecipe('fire', 'draconicevolution:draconium_dust', 'atlantis:orichalcum_ingot', 'draconicevolution:draconium_ingot', 260)
-    addDragonForgeRecipe('ice', 'draconicevolution:draconium_dust', 'atlantis:orichalcum_ingot', 'draconicevolution:draconium_ingot', 260)
-    addDragonForgeRecipe('lightning', 'draconicevolution:draconium_dust', 'atlantis:orichalcum_ingot', 'draconicevolution:draconium_ingot', 260)
-
     //Orichalcum Ingot
     addDragonForgeRecipe('fire', 'atlantis:orichalcum_blend', 'iceandfire:fire_dragon_blood', 'atlantis:orichalcum_ingot', 260)
     addDragonForgeRecipe('ice', 'atlantis:orichalcum_blend', 'iceandfire:ice_dragon_blood', 'atlantis:orichalcum_ingot', 260)

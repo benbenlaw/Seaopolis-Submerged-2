@@ -1,0 +1,6 @@
+#BBL Fixes Startup Config
+["BBL Fixes"]
+	#Enable Storage Drawers for stacks over 99, requires Storage Drawers mod, default = false
+	"Enable Storage Drawers fix" = true
+	#Enable Strainers for stacks over 99 with compactor, requires Strainers mod, default = false
+	"Enable Strainers fix" = true

@@ -13,5 +13,10 @@
   {"ingredient":{"id":"minecraft:sugar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"forcecraft:force_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"forcecraft:golden_power_source"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"forcecraft:force_legs"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"forcecraft:force_legs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"atlantis:raw_ancient_cuprum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:gold_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refinedstorage:quartz_enriched_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nanomirai:synthesize_nano","components":{"minecraft:rarity":"epic"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nanomirai:synthesize_nano","components":{"minecraft:rarity":"rare"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

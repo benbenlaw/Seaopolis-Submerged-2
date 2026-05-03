@@ -17,14 +17,14 @@ ServerEvents.recipes(event => {
     //Water Purifier
     event.shaped('submerged:water_purifier', [' A ', 'BCB', ' A '], {
         A: 'minecraft:iron_ingot',
-        B: 'submerged:prime_alloy_ingot',
+        B: 'submerged:prime_alloy_nugget',
         C: 'minecraft:heart_of_the_sea'
     }).id('submerged:water_purifier')
 
     //Air Purifier
     event.shaped('submerged:air_purifier', [' A ', 'BCB', ' A '], {
         A: 'minecraft:iron_ingot',
-        B: 'submerged:prime_alloy_ingot',
+        B: 'submerged:prime_alloy_nugget',
         C: 'minecraft:nether_star'
     }).id('submerged:air_purifier')
 

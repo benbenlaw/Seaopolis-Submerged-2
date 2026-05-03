@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
     event.recipes.custommachinery.custom_machine("submerged:infinity_forge", 200)
         .requireStructure([["a     a"," bbbbb "," bbbbb "," bb bb "," bbbbb "," bbbbb ","a     a"],["a     a","       ","       ","   m   ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["a     a","       ","       ","       ","       ","       ","a     a"],["c     c","       ","       ","       ","       ","       ","c     c"],["       ","       ","       ","   d   ","       ","       ","       "]], {"a":"starforge:cosmic_pillar[axis=y]","b":"starforge:cosmic_planks","c":"starforge:tier_5_star_forge_cap","d":"starforge:red_star"})
         .requireItem("16x minecraft:heart_of_the_sea")
-        .requireItem("16x submerged:essence_of_the_sea")
+        .requireItem("64x resourcefish:caviar")
         .requireItem("1x submerged:prime_ingot")
         .requireItem('reliquary:emperor_chalice')
         .requireEnergyPerTick(50000)

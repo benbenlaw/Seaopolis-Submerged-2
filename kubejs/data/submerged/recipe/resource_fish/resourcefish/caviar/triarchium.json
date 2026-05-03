@@ -1,0 +1,44 @@
+{
+  "type": "resourcefish:caviar_processor",
+  "caviar": {
+    "components": {
+      "resourcefish:fish_type": "submerged:triarchium"
+    },
+    "count": 1,
+    "id": "resourcefish:caviar"
+  },
+  "output_fluid": {
+    "amount": 100,
+    "id": "submerged:molten_triarchium"
+  },
+  "results": [
+    {
+      "chance": 0.1,
+      "ingredient": {
+        "count": 1,
+        "item": "submerged:triarchium_gem"
+      }
+    },
+    {
+      "chance": 0.25,
+      "ingredient": {
+        "count": 1,
+        "item": "alltheores:ruby"
+      }
+    },
+    {
+      "chance": 0.25,
+      "ingredient": {
+        "count": 1,
+        "item": "alltheores:sapphire"
+      }
+    },
+    {
+      "chance": 0.25,
+      "ingredient": {
+        "count": 1,
+        "item": "alltheores:peridot"
+      }
+    }
+  ]
+}
