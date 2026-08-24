@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Find the modpack version! Use /modpack in game",
+  "text": {"translate": "tip.submerged.modpack_version"},
   "color": "white"
 }

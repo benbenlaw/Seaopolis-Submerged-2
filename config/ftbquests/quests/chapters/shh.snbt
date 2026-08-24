@@ -1126,7 +1126,7 @@
 			}]
 			tasks: [{
 				id: "15FB6B24602B8B55"
-				item: { components: { "minecraft:custom_name": "\"Happiness\"" }, count: 1, id: "simplehats:paperbag" }
+				item: { components: { "minecraft:custom_name": "{\"translate\":\"name.submerged.happiness\"}" }, count: 1, id: "simplehats:paperbag" }
 				type: "item"
 			}]
 			x: -10.5d

@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Strainers have upgrades speed and chance",
+  "text": {"translate": "tip.submerged.strainers"},
   "color": "white"
 }

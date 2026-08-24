@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Infinity Forge"
+      "translate": "machine.submerged.infinity_forge"
     }
   },
   "appearance": {
@@ -216,7 +216,7 @@
       "y": 5,
       "text": {
         "text": {
-          "translate": "Infinity Forge"
+          "translate": "machine.submerged.infinity_forge"
         },
         "color": "dark_gray"
       }

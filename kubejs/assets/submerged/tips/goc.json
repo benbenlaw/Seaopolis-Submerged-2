@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Gaming on/in Caffeine is not required but highly recommended!",
+  "text": {"translate": "tip.submerged.goc"},
   "color": "white"
 }

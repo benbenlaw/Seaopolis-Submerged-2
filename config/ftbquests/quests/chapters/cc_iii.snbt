@@ -372,7 +372,7 @@
 						"casting:equipment_level": 4
 						"casting:looting": 3
 						"casting:sharpness": 5
-						"minecraft:custom_name": "\"Sword of Justice\""
+						"minecraft:custom_name": "{\"translate\":\"name.submerged.sword.of.justice\"}"
 					}
 					count: 1
 					id: "minecraft:diamond_sword"

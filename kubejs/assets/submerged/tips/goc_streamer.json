@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Gaming on Caffeine is a great streamer, regularity of said streams is not guaranteed",
+  "text": {"translate": "tip.submerged.goc_streamer"},
   "color": "white"
 }

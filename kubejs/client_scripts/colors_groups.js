@@ -19,24 +19,26 @@ const stoneRoots = [
 ];
 
 const typeGroups = {
-    "dirt": "Dirt",
-    "grass_block": "Grass Blocks",
-    "crafting_table": "Crafting Tables",
-    "tall_grass": "Tall Grass",
-    "short_grass": "Short Grass",
-    "poppy": "Poppies",
-    "dandelion": "Dandelions",
-    "leaves": "Leaves",
-    "sapling": "Saplings",
-    "apple": "Apples",
-    "spray_can": "Spray Cans"
+    "dirt": "dirt",
+    "grass_block": "grass_block",
+    "crafting_table": "crafting_table",
+    "tall_grass": "tall_grass",
+    "short_grass": "short_grass",
+    "poppy": "poppy",
+    "dandelion": "dandelion",
+    "leaves": "leaves",
+    "sapling": "sapling",
+    "apple": "apple",
+    "spray_can": "spray_can"
 };
 
+/*
 function formatName(str) {
     return str.split('_')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
 }
+*/
 
 RecipeViewerEvents.groupEntries('item', event => {
 
@@ -46,17 +48,29 @@ RecipeViewerEvents.groupEntries('item', event => {
         let woodFilters = woodRoots.map(root => {
             return { itemNamespace: 'colors', itemPathStartsWith: `${color}_${root}` };
         });
-        event.group(woodFilters, `contained:colors_${color}_wood`, `Colors: ${formatName(color)} Wood`);
+        event.group(
+            woodFilters, 
+            `contained:colors_${color}_wood`, 
+            Text.translate('group.colors.format', Text.translate(`color.minecraft.${color}`), Text.translate('group.colors.material.wood'))
+        );
 
         let bambooFilters = bambooRoots.map(root => {
             return { itemNamespace: 'colors', itemPathStartsWith: `${color}_${root}` };
         });
-        event.group(bambooFilters, `contained:colors_${color}_bamboo`, `Colors: ${formatName(color)} Bamboo`);
+        event.group(
+            bambooFilters, 
+            `contained:colors_${color}_bamboo`, 
+            Text.translate('group.colors.format', Text.translate(`color.minecraft.${color}`), Text.translate('group.colors.material.bamboo'))
+        );
 
         let stoneFilters = stoneRoots.map(root => {
             return { itemNamespace: 'colors', itemPathStartsWith: `${color}_${root}` };
         });
-        event.group(stoneFilters, `contained:colors_${color}_stone`, `Colors: ${formatName(color)} Stone`);
+        event.group(
+            stoneFilters, 
+            `contained:colors_${color}_stone`, 
+            Text.translate('group.colors.format', Text.translate(`color.minecraft.${color}`), Text.translate('group.colors.material.stone'))
+        );
 
     });
 
@@ -67,7 +81,7 @@ RecipeViewerEvents.groupEntries('item', event => {
 
             `contained:colors_type_${typeSuffix}`,
 
-            `Colors: ${typeGroups[typeSuffix]}`
+            Text.translate(`group.colors.type.${typeGroups[typeSuffix]}`)
         );
     });
 

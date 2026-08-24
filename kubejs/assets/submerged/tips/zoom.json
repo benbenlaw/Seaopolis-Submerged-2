@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Press Z to zoom in!",
+  "text": {"translate": "tip.submerged.zoom"},
   "color": "white"
 }

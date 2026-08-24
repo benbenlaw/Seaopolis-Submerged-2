@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Have you tried Fractured? The world is broken come fix it!",
+  "text": {"translate": "tip.submerged.fractured"},
   "color": "white"
 }

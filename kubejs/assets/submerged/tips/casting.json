@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Have you tried Castings multiblocks? Highly efficient processing machine!",
+  "text": {"translate": "tip.submerged.casting"},
   "color": "white"
 }

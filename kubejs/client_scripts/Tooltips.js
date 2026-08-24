@@ -2,13 +2,13 @@
 ItemEvents.modifyTooltips(event => {
 
     event.add('#submerged:duck_skins',[
-        Text.of('§bChange the appearance of your duck! Use on Tamed Ducks.'),
-        Text.of('§bDucks can be tamed with Seeds.')
+        Text.translate('tooltip.submerged.duck_skins_1'),
+        Text.translate('tooltip.submerged.duck_skins_2')
     ])
 
     event.add('cute_companions_ducks:duck_spawn_egg',[
-        Text.of('§bUse Skins from the Shop to change the appearance of your duck!'),
-        Text.of('§bDucks can be tamed with Seeds.')
+        Text.translate('tooltip.submerged.duck_spawn_egg_1'),
+        Text.translate('tooltip.submerged.duck_spawn_egg_2')
     ])
 
     event.modify('ars_nouveau:source_gem', tooltip => {
@@ -19,18 +19,18 @@ ItemEvents.modifyTooltips(event => {
 
     
     event.add('opolisutilities:resource_generator',[
-        Text.of('§bFrom CC Rewards II!'),
+        Text.translate('tooltip.submerged.resource_generator_1'),
     ])
     
     event.add('opolisutilities:fluid_generator',[
-        Text.of('§bFrom CC Rewards II!'),
+        Text.translate('tooltip.submerged.fluid_generator_1'),
     ])
 
     event.add('submerged:catalog_relics',[
-        Text.of('§bFrom CC Rewards II!'),
+        Text.translate('tooltip.submerged.catalog_relics_1'),
     ])
 
     event.add('minecraft:netherite_upgrade_smithing_template',[
-        Text.of('§bFrom Fortress and Bastion Trial Spheres!'),
+        Text.translate('tooltip.submerged.netherite_upgrade_smithing_template_1'),
     ])
 })

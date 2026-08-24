@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Join the discord! Use /discord in game",
+  "text": {"translate": "tip.submerged.ben"},
   "color": "white"
 }

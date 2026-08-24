@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Spoil Bag Opener"
+    "text": "machine.submerged.spoil_bag_opener"
   },
   "appearance": {
     "custommachinery:block": "industrialforegoing:machine_frame_supreme",
@@ -231,7 +231,7 @@
       "x": 4,
       "y": 5,
       "text": {
-        "text": "Spoil Bag Opener"
+        "translate": "machine.submerged.spoil_bag_opener"
       }
     }
   ]

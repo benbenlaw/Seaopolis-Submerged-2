@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Submerged 2 has Shaders, options -> video setting -> shader packs!",
+  "text": {"translate": "tip.submerged.shaders"},
   "color": "white"
 }

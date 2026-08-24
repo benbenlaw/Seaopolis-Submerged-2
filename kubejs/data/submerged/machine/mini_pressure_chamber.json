@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Mini Pressure Chamber"
+      "translate": "machine.submerged.mini_pressure_chamber"
     }
   },
   "appearance": {
@@ -191,7 +191,7 @@
       "y": 5,
       "text": {
         "text": {
-          "translate": "Mini Pressure Chamber"
+          "translate": "machine.submerged.mini_pressure_chamber"
         }
       }
     }

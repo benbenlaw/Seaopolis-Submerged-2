@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Quantum Fluid Compressor"
+      "translate": "machine.submerged.fluid_compressor"
     }
   },
   "appearance": {
@@ -100,7 +100,7 @@
       "y": 5,
       "text": {
         "text": {
-          "translate": "Quantum Fluid Compressor"
+          "translate": "machine.submerged.fluid_compressor"
         },
         "color": "dark_gray"
       }

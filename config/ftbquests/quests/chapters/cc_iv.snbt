@@ -42,7 +42,7 @@
 						"casting:equipment_experience": 0
 						"casting:equipment_level": 1
 						"casting:excavation": 3
-						"minecraft:custom_name": "\"The Salty Shovel\""
+						"minecraft:custom_name": "{\"translate\":\"name.submerged.the.salty.shovel\"}"
 					}
 					count: 1
 					id: "minecraft:diamond_shovel"

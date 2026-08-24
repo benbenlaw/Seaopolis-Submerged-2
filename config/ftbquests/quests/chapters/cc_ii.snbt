@@ -96,7 +96,7 @@
 						"casting:equipment_level": 3
 						"casting:fortune": 5
 						"casting:unbreaking": 3
-						"minecraft:custom_name": "\"Paxel of Luck\""
+						"minecraft:custom_name": "{\"translate\":\"name.submerged.paxel.of.luck\"}"
 					}
 					count: 1
 					id: "mekanismtools:lapis_lazuli_paxel"

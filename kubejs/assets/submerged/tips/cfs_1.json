@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Miles get in the Jacuzzi",
+  "text": {"translate": "tip.submerged.cfs_1"},
   "color": "white"
 }
