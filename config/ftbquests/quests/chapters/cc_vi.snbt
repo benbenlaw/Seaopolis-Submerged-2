@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6D187733A73465CE"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -90,6 +91,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["0E040596AE4DFA19"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -178,6 +180,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["3A4A6AB1BD4FA96C"]
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -266,6 +269,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["0582A23B0F359E52"]
 			icon: {
 				id: "minecraft:chest"
 			}

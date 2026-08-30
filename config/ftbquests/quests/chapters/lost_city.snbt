@@ -301,6 +301,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				dimension: "iceandfire:dread_land"
 				id: "54DC1674DE439116"

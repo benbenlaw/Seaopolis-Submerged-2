@@ -16,7 +16,16 @@
 	       ...
 	   ]
 	*/
-	"buttons": [],
+	"buttons": [
+		{
+			"label": "Join our Discord!",
+			"url": "https://discord.gg/benbenlaw"
+		},
+		{
+			"label": "CurseForge Page",
+			"url": "https://www.curseforge.com/minecraft/modpacks/submerged-2"
+		}
+	],
 	// If set to false, it disables the build-in clientJoinEvent, which is used to tell when the player joins a world and changing Dimension.
 	"enableUpdateDimensionPresence": true,
 	/* Dimensions can be setup to update the Rich Presence when the player is in them.

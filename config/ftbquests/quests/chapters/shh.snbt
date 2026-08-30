@@ -4,12 +4,14 @@
 	default_quest_shape: ""
 	filename: "shh"
 	group: "78F23D9761C5A35B"
+	hide_quest_until_deps_complete: true
 	id: "569B9AD19E082D9A"
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4DE9D3E26CC79511"]
 			id: "61407878B26F51F4"
 			size: 2.0d
 			tasks: [{
@@ -408,10 +410,10 @@
 		{
 			dep_control_pts: {
 				39336A301C26E621: [
-					2.0d
-					-5.5d
-					0.9642857142857082d
-					-7.142857142857139d
+					2.285714285714292d
+					-5.446428571428569d
+					1.9642857142857224d
+					-7.053571428571427d
 				]
 			}
 			dependencies: ["39336A301C26E621"]
@@ -438,10 +440,10 @@
 		{
 			dep_control_pts: {
 				0A79EA157A8F7A83: [
-					4.0d
-					-7.0d
-					9.821428571428562d
-					-7.035714285714288d
+					6.928571428571438d
+					-6.160714285714288d
+					0.2500000000000142d
+					-2.3035714285714306d
 				]
 			}
 			dependencies: ["0A79EA157A8F7A83"]
@@ -463,7 +465,7 @@
 				value: 12096000
 			}]
 			x: 5.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["61407878B26F51F4"]

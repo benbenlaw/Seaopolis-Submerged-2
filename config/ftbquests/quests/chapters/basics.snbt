@@ -504,6 +504,7 @@
 		{
 			dependencies: ["4DE9D3E26CC79511"]
 			id: "7F4A52E1774ED5E2"
+			progression_mode: "linear"
 			rewards: [{
 				id: "78D83C492A323786"
 				item: {

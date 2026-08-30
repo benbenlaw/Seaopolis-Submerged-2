@@ -6,7 +6,19 @@
   },
   "enabled": true,
   "filter": {
-    "type": "item",
-    "tag": "relics:relic"
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"relics:blazing_flask\",\"components\":{\"relics:data\":{\"abilities\":{\"abilities\":{\"bonfire\":{\"lock\":{\"breaks\":5},\"extender\":{\"cooldownCap\":0,\"cooldown\":0,\"ticking\":false},\"points\":0,\"stats\":{\"step\":{\"initialValue\":1.68069},\"speed\":{\"initialValue\":0.02351},\"height\":{\"initialValue\":4.6181}},\"research\":{\"links\":{},\"researched\":false}}}},\"leveling\":{\"level\":0,\"experience\":0,\"points\":0,\"luck\":0}}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"relics:leafy_ring\",\"components\":{\"relics:data\":{\"abilities\":{\"abilities\":{\"hide\":{\"lock\":{\"breaks\":5},\"extender\":{\"cooldownCap\":0,\"cooldown\":0,\"ticking\":false},\"points\":0,\"stats\":{\"speed\":{\"initialValue\":0.19355}},\"research\":{\"links\":{},\"researched\":false}}}},\"leveling\":{\"level\":0,\"experience\":0,\"points\":0,\"luck\":0}}}}"
+      },
+      {
+        "type": "item",
+        "tag": "relics:relic"
+      }
+    ]
   }
 }

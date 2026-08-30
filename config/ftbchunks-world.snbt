@@ -147,7 +147,7 @@
 		# Default of 0 means no automatic loss of forceloading.
 		# Default: 0.0
 		# Range: 0.0 ~ 3650.0
-		max_idle_days_before_unforce: 0.5d
+		max_idle_days_before_unforce: 0.0d
 	}
 	team_prop_defaults: {
 		# Default explosion protection for claimed chunks

@@ -316,6 +316,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "2135F4E2FBC64B43"
 				item: { count: 1, id: "draconicevolution:chaos_shard" }
@@ -492,6 +493,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "665065FE1E2987CD"
 				item: { count: 1, id: "extendedcrafting:frame" }

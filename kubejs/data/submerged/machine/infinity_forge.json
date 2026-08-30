@@ -5,13 +5,13 @@
     }
   },
   "appearance": {
-    "block": "submerged:machine/infinity_forge",
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "minecraft:block.smithing_table.use"
       },
       "custommachinery:light": 15
-    }
+    },
+    "custommachinery:block": "submerged:machine/infinity_forge"
   },
   "components": [
     {
@@ -103,6 +103,7 @@
     },
     {
       "type": "custommachinery:source",
+      "id": "source",
       "capacity": 100000,
       "max_input": 10000,
       "max_output": 10000
@@ -201,6 +202,7 @@
     },
     {
       "type": "custommachinery:source",
+      "id": "source",
       "x": 120,
       "y": 69,
       "width": 18
@@ -214,12 +216,7 @@
       "type": "custommachinery:text",
       "x": 5,
       "y": 5,
-      "text": {
-        "text": {
-          "translate": "machine.submerged.infinity_forge"
-        },
-        "color": "dark_gray"
-      }
+      "text": "machine.submerged.infinity_forge"
     }
   ]
 }

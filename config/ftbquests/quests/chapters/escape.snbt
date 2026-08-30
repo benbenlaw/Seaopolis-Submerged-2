@@ -50,6 +50,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3A0C7AC19F1DE5AC"
 				item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }

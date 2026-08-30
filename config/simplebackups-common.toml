@@ -12,12 +12,12 @@ saveAll = true
 #How often should a full backup be created if only modified files should be saved? This creates a full backup when x minutes are over and the next backup needs to be done. Once a year is default.
 # Default: 525960
 # Range: 1 ~ 5259600
-fullBackupTimer = 525960
+fullBackupTimer = 1440
 #Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #The max amount of backup files to keep.
 # Default: 10
 # Range: 1 ~ 32767
-backupsToKeep = 10
+backupsToKeep = 2
 #The time between two backups in minutes
 #5 = each 5 minutes
 #60 = each hour
@@ -37,7 +37,7 @@ sendMessages = true
 #The max size of storage the backup folder. If it takes more storage, old files will be deleted.
 #Needs to be written as <number><space><storage type>
 #Valid storage types: B, KB, MB, GB, TB
-maxDiskSize = "25 GB"
+maxDiskSize = "30 GB"
 #Used to define the output path.
 outputPath = "simplebackups"
 #Create backups, even if nobody is online

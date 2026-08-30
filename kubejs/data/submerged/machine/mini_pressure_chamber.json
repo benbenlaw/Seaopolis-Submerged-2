@@ -189,11 +189,7 @@
       "type": "custommachinery:text",
       "x": 4,
       "y": 5,
-      "text": {
-        "text": {
-          "translate": "machine.submerged.mini_pressure_chamber"
-        }
-      }
+      "text": "machine.submerged.mini_pressure_chamber"
     }
   ]
 }

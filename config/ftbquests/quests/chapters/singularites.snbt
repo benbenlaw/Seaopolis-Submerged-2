@@ -530,6 +530,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "52838ED5D0B2CD34"
 				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }

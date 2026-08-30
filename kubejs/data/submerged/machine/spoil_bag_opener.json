@@ -228,11 +228,9 @@
     },
     {
       "type": "custommachinery:text",
-      "x": 4,
+      "x": 5,
       "y": 5,
-      "text": {
-        "translate": "machine.submerged.spoil_bag_opener"
-      }
+      "text": "machine.submerged.spoil_bag_opener"
     }
   ]
 }

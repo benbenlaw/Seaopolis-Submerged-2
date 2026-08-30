@@ -8,8 +8,8 @@ ServerEvents.tags('item', event => {
         'nautec:cast_iron_rod',
         'nautec:gear',
         'nautec:whisk',
-        'refinedstorage:raw_basic_processor', 
-        'refinedstorage:raw_advanced_processor', 
+        'refinedstorage:raw_basic_processor',
+        'refinedstorage:raw_advanced_processor',
         'refinedstorage:raw_improved_processor',
         'opolisutilities:cloche',
         'opolisutilities:catalogue',
@@ -26,11 +26,11 @@ ServerEvents.tags('item', event => {
         'extendedae:infinity_cobblestone_cell',
         'relics:jellyfish_necklace',
         'relics:infinity_ham',
-        'ae2:calculation_processor_press', 
-        'ae2:engineering_processor_press', 
-        'ae2:logic_processor_press', 
-        'ae2:silicon_press', 
-        'ae2:name_press', 
+        'ae2:calculation_processor_press',
+        'ae2:engineering_processor_press',
+        'ae2:logic_processor_press',
+        'ae2:silicon_press',
+        'ae2:name_press',
         'extendedae:concurrent_processor_press',
         'extendedae:circuit_cutter',
         'forcecraft:time_torch',
@@ -51,6 +51,8 @@ ServerEvents.tags('item', event => {
         'pneumaticcraft:uv_light_box',
         'draconicevolution:reactor_core',
         'submerged:nether_star_block',
+        'storagedrawers:personal_key_cofh',
+        'routers:dimensional_upgrade'
     ])
 
     //Mimic Loot

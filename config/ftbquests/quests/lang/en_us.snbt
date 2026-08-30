@@ -788,11 +788,7 @@
 	quest.50819594C402FD66.quest_desc: ["Almost there"]
 	quest.50BFF626432F1838.quest_desc: ["&lWater&r and &lLava&r can be mixed into &lMolten Obsidian&r and then &lSolidified&r into &lObsidian Blocks&r"]
 	quest.50F353C6D15C0062.quest_desc: ["Used to create &lUnassembled PCB&r with &lPneumatic Craft&r"]
-	quest.51002D41A35D8D40.quest_desc: [
-		"Follow the &lQuest Book&r, it will help you progress through the modpack. "
-		""
-		"New &lQuests&r only show when you have copmpleted the previous ones!"
-	]
+	quest.51002D41A35D8D40.quest_desc: ["Follow the &lQuest Book&r, it will help you progress through the modpack. "]
 	quest.5114AF94FDBAECC8.quest_desc: ["Allows the &lSolidifier&r to create &lBlocks&r. &lKelp&r, &lBone&r or &lCharcoal Blocks&r are probably the best way to craft this"]
 	quest.511A6ACE86DA65AB.quest_desc: ["Coverts items into other items using &lSource&r"]
 	quest.5157C8485FB04C97.quest_desc: ["Obtained from &lRaw Ore&r "]

@@ -98,12 +98,7 @@
       "type": "custommachinery:text",
       "x": 5,
       "y": 5,
-      "text": {
-        "text": {
-          "translate": "machine.submerged.chemical_compressor"
-        },
-        "color": "dark_gray"
-      }
+      "text": "machine.submerged.chemical_compressor"
     }
   ]
 }
