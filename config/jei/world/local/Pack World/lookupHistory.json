@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"universalgrid:creative_wireless_universal_grid"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"universalgrid:wireless_universal_grid"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:sand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"strainers:purifying_salt_mulch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"custommachinery:custom_machine_item","components":"{\"custommachinery:machine\":\"submerged:infinity_forge\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
