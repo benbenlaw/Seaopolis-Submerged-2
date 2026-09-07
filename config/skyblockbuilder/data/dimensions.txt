@@ -1,7 +1,7 @@
 minecraft:overworld
 iceandfire:dread_land
-atlantis:atlantis
-minecraft:the_end
 javd:void
 minecraft:the_nether
+atlantis:atlantis
+minecraft:the_end
 ae2:spatial_storage

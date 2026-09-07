@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/szsza/AppData/Roaming/PrismLauncher/instances/Seaopolis Submerged 2/minecraft/saves/Pack World
+  is_server = true
+  world = localhost:25565
 }
 

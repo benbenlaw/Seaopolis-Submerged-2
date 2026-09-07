@@ -51,13 +51,13 @@ ServerEvents.recipes(event => {
         event.recipes.create.pressing('submerged:draconic_gravel', 'atlantis:sunken_gravel')
     ]).transitionalItem('atlantis:sunken_gravel').loops(1).id('submerged:create/sequenced_assembly/draconic_gravel')
 
-    event.recipes.create.sequenced_assembly(['3x pneumaticcraft:empty_pcb'], 'industrialforegoing:plastic', [
-        event.recipes.create.deploying('industrialforegoing:plastic', ['industrialforegoing:plastic', Ingredient.of('#pneumaticcraft:wiring')]),
-        event.recipes.create.deploying('industrialforegoing:plastic', ['industrialforegoing:plastic', Ingredient.of('#pneumaticcraft:wiring')]),
-        event.recipes.create.deploying('industrialforegoing:plastic', ['industrialforegoing:plastic', Ingredient.of('#pneumaticcraft:wiring')]),
-        event.recipes.create.deploying('industrialforegoing:plastic', ['industrialforegoing:plastic', 'minecraft:redstone_torch']),
-        event.recipes.create.deploying('industrialforegoing:plastic', ['industrialforegoing:plastic', 'minecraft:redstone_torch'])
-    ]).transitionalItem('industrialforegoing:plastic').loops(1).id('submerged:create/sequenced_assembly/empty_pcb')
+    event.recipes.create.sequenced_assembly(['3x pneumaticcraft:empty_pcb'], Item.of('pneumaticcraft:plastic'), [
+        event.recipes.create.deploying(Item.of('pneumaticcraft:plastic'), [Item.of('pneumaticcraft:plastic'), Ingredient.of('#pneumaticcraft:wiring')]),
+        event.recipes.create.deploying(Item.of('pneumaticcraft:plastic'), [Item.of('pneumaticcraft:plastic'), Ingredient.of('#pneumaticcraft:wiring')]),
+        event.recipes.create.deploying(Item.of('pneumaticcraft:plastic'), [Item.of('pneumaticcraft:plastic'), Ingredient.of('#pneumaticcraft:wiring')]),
+        event.recipes.create.deploying(Item.of('pneumaticcraft:plastic'), [Item.of('pneumaticcraft:plastic'), 'minecraft:redstone_torch']),
+        event.recipes.create.deploying(Item.of('pneumaticcraft:plastic'), [Item.of('pneumaticcraft:plastic'), 'minecraft:redstone_torch'])
+    ]).transitionalItem(Item.of('pneumaticcraft:plastic')).loops(1).id('submerged:create/sequenced_assembly/empty_pcb')
 
     event.recipes.create.sequenced_assembly(['submerged:living_gravel'], 'submerged:assembled_gravel', [
         event.recipes.create.deploying('submerged:assembled_gravel', ['submerged:assembled_gravel', 'opolisutilities:ender_pearl_fragment']),

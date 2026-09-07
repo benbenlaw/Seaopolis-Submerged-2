@@ -34,5 +34,7 @@
   {"ingredient":{"id":"nanomirai:repair_nano"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"submerged:salt_water"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":"mekanism:oxygen","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"amount":8000,"perTick":false},"type":"es.degrassi.custommachineryars.client.integration.jei.source.Source","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"amount":8000,"perTick":false},"type":"es.degrassi.custommachineryars.client.integration.jei.source.Source","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:empty_pcb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_silicon"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
 ]
