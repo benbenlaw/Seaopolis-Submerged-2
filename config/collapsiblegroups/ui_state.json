@@ -2,6 +2,9 @@
   "show_builtin": true,
   "show_kubejs": true,
   "hide_used": true,
-  "manager_source_filter": "all",
-  "manager_sort_mode": "priority"
+  "manager_source_filter": "user",
+  "manager_sort_mode": "priority",
+  "manager_show_empty": false,
+  "manager_category_filter": "all",
+  "manager_sidebar_open": true
 }

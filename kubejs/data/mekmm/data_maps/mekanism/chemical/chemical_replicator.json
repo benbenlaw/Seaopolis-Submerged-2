@@ -1,0 +1,6 @@
+{
+  "replace": true,
+  "values": {
+    "mekmm:unstable_dimensional_gas": { "input_amount": 1, "uu_amount": 5, "output_amount": 1 }
+  }
+}

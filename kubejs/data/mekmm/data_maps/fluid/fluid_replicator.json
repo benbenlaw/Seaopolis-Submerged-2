@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": {
+    "submerged:molten_solclipsium": { "input_amount": 1, "uu_amount": 1, "output_amount": 1 },
+    "casting:molten_soularium": { "input_amount": 1, "uu_amount": 1, "output_amount": 1 }
+  }
+}

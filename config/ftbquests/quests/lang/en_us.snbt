@@ -463,7 +463,7 @@
 	quest.2EF5C929A8D42C3B.quest_desc: ["Processed &lFluix Crystal&r"]
 	quest.2EF93F995F792FFB.quest_desc: ["From &lMolten Certus Quartz&r"]
 	quest.2F161676A8DBDB14.quest_desc: ["Your so close"]
-	quest.2F22D9516ABB189B.quest_desc: ["&lWater, Plutonium&r and &lFluorite Dust&r can be used to make &lPolonium Pellets&r"]
+	quest.2F22D9516ABB189B.quest_desc: ["&lWater, Plutonium&r and &lFluorite Dust&r can be used to make &lPlutonium Pellets&r"]
 	quest.2F2CFE1FC4B80167.quest_desc: ["You can't imagine the scale of this"]
 	quest.2F2CFE1FC4B80167.title: "Scales"
 	quest.2F79A1FE9DF2242F.quest_desc: [
@@ -1051,7 +1051,7 @@
 	quest.67508416E28B7B10.quest_desc: [
 		"Using a vanilla &lDragon Egg&r on a &lScale Block&r will create a &lDragon Egg&r"
 		""
-		"&lFire Dragon Eggs&r must be ontop of a block thats on &lFire&r to hatch"
+		"&lFire Dragon Eggs&r must be on top of a block thats on &lFire&r to hatch"
 	]
 	quest.67508416E28B7B10.title: "Fire Dragon Eggs"
 	quest.67513813BDA00138.quest_desc: ["Processed &lLead&r"]

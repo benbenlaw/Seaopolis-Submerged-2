@@ -1,25 +1,25 @@
 //Applied Energistics 2 && Extended AE
 ServerEvents.recipes(event => {
- 
+
     //Replace Input
-    event.replaceInput({id: 'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#c:silicon')
-    event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
-    event.replaceInput({id: 'extendedae:entro_seed'}, 'ae2:sky_dust', 'submerged:grains_of_time')
-    event.replaceInput({id: 'ae2:materials/cardspeed'}, 'ae2:advanced_card', 'ae2:basic_card')
+    event.replaceInput({ id: 'ae2:network/blocks/inscribers' }, 'minecraft:copper_ingot', '#c:silicon')
+    event.replaceInput({ id: 'ae2:network/blocks/crystal_processing_charger' }, 'minecraft:copper_ingot', 'pneumaticcraft:printed_circuit_board')
+    event.replaceInput({ id: 'extendedae:entro_seed' }, 'ae2:sky_dust', 'submerged:grains_of_time')
+    event.replaceInput({ id: 'ae2:materials/cardspeed' }, 'ae2:advanced_card', 'ae2:basic_card')
 
     //Remove
-    event.remove({id: 'extendedae:quartz_blend'})
-    event.remove({id: 'extendedae:quartz_blend_alt'})
-    event.remove({id: 'extendedae:blasting/quartz_blend'})
-    event.remove({id: 'ae2:network/cells/item_storage_components_cell_256k_part'})
-    event.remove({id: 'extendedae:inscriber/concurrent_print'})
-    event.remove({id: 'ae2:inscriber/engineering_processor_print'})
-    event.remove({id: 'ae2:inscriber/calculation_processor_print'})
-    event.remove({id: 'ae2:inscriber/logic_processor_print'})
-    event.remove({id: 'ae2:inscriber/silicon_print'})
-    event.remove({id: 'extendedae:assembler/ex_inscriber'})
-    event.remove({id: 'extendedae:smelting/quartz_blend'})
-    event.remove({id: 'extendedae:mek/quartz_blend'})
+    event.remove({ id: 'extendedae:quartz_blend' })
+    event.remove({ id: 'extendedae:quartz_blend_alt' })
+    event.remove({ id: 'extendedae:blasting/quartz_blend' })
+    event.remove({ id: 'ae2:network/cells/item_storage_components_cell_256k_part' })
+    event.remove({ id: 'extendedae:inscriber/concurrent_print' })
+    event.remove({ id: 'ae2:inscriber/engineering_processor_print' })
+    event.remove({ id: 'ae2:inscriber/calculation_processor_print' })
+    event.remove({ id: 'ae2:inscriber/logic_processor_print' })
+    event.remove({ id: 'ae2:inscriber/silicon_print' })
+    event.remove({ id: 'extendedae:assembler/ex_inscriber' })
+    event.remove({ id: 'extendedae:smelting/quartz_blend' })
+    event.remove({ id: 'extendedae:mek/quartz_blend' })
 
     //Remove
     //event.remove({id: 'ae2:inscriber/engineering_processor_print'})
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         A: 'minecraft:coal',
         B: 'minecraft:sand'
     }).id('ae2:tiny_tnt')
-    
+
     //Matter Condenser
     event.shaped('ae2:condenser', ['AAA', 'BCB', 'AAA'], {
         A: 'minecraft:iron_ingot',
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
     addInscriberRecipe('enderio:photovoltaic_composite', '#c:plates/tin', 'enderio:photovoltaic_composite', 'enderio:photovoltaic_plate')
 
     //Basic Capacitor
-    addInscriberRecipe('#c:ingots/aluminum', 'minecraft:copper_ingot', 'pneumaticcraft:capacitor',  'enderio:basic_capacitor')
+    addInscriberRecipe('#c:ingots/aluminum', 'minecraft:copper_ingot', 'pneumaticcraft:capacitor', 'enderio:basic_capacitor')
 
     //Transistor
     addInscriberRecipe('#pneumaticcraft:wiring', 'minecraft:redstone', 'pneumaticcraft:plastic', 'pneumaticcraft:transistor')
@@ -115,16 +115,16 @@ ServerEvents.recipes(event => {
     addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'extendedae:entro_ingot', '4x extendedae:concurrent_processor_print')
 
     //Logic Circuit
-    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot' , '4x ae2:printed_logic_processor')
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'minecraft:gold_ingot', '4x ae2:printed_logic_processor')
 
     //Printed Calculation Circuit
-    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'submerged:certus_ingot' , '4x ae2:printed_calculation_processor')
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'submerged:certus_ingot', '4x ae2:printed_calculation_processor')
 
     //Printed Engineering Circuit
-    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'submerged:prismarine_ingot' , '4x ae2:printed_engineering_processor')
-    
+    addInscriberRecipe('refinedstorage:quartz_enriched_iron', 'pneumaticcraft:printed_circuit_board', 'submerged:prismarine_ingot', '4x ae2:printed_engineering_processor')
+
     //Printed Silicon
-    addSimpleInscriberRecipe('#c:silicon' , 'ae2:printed_silicon')
+    addSimpleInscriberRecipe('#c:silicon', 'ae2:printed_silicon')
 
     //Inscriber Function
     function addInscriberRecipe(bottom, middle, top, result) {

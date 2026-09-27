@@ -52,7 +52,8 @@ ServerEvents.tags('item', event => {
         'draconicevolution:reactor_core',
         'submerged:nether_star_block',
         'storagedrawers:personal_key_cofh',
-        'routers:dimensional_upgrade'
+        'routers:dimensional_upgrade',
+        'extendedae:quartz_blend',
     ])
 
     //Mimic Loot

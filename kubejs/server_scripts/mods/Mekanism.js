@@ -3,21 +3,21 @@
 ServerEvents.recipes(event => {
 
     //Remove
-    event.remove({id: 'mekmm:recycler/from_substrate'})
-    event.remove({id: 'mekmm:recycler/from_stone'})
-    event.remove({id: 'mekmm:recycler/from_dirt'})
-    event.remove({id: 'mekanism:evaporating/lithium'})
-    event.remove({id: 'mekmm:compat/extendedae/stamper/concurrent_processor_print'})
-    event.remove({id: 'mekmm:compat/ae2/stamper/printed_engineering_processor'})
-    event.remove({id: 'mekmm:compat/ae2/stamper/printed_logic_processor'})
-    event.remove({id: 'mekmm:compat/ae2/stamper/printed_calculation_processor'})
-    event.remove({id: 'mekmm:compat/ae2/stamper/printed_silicon'})
-    event.remove({id: 'mekmm:compressing/scrap_box'})
+    event.remove({ id: 'mekmm:recycler/from_substrate' })
+    event.remove({ id: 'mekmm:recycler/from_stone' })
+    event.remove({ id: 'mekmm:recycler/from_dirt' })
+    event.remove({ id: 'mekanism:evaporating/lithium' })
+    event.remove({ id: 'mekmm:compat/extendedae/stamper/concurrent_processor_print' })
+    event.remove({ id: 'mekmm:compat/ae2/stamper/printed_engineering_processor' })
+    event.remove({ id: 'mekmm:compat/ae2/stamper/printed_logic_processor' })
+    event.remove({ id: 'mekmm:compat/ae2/stamper/printed_calculation_processor' })
+    event.remove({ id: 'mekmm:compat/ae2/stamper/printed_silicon' })
+    event.remove({ id: 'mekmm:compressing/scrap_box' })
 
     //Replace Input 
-    event.replaceInput({id: 'mekmm:cnc_rolling_mill'}, 'mekanism:basic_control_circuit', 'mekanism:elite_control_circuit')
-    event.replaceInput({id: 'mekmm:ambient_gas_collector'}, 'mekanism:steel_casing', '#submerged:top_induction_mek')
-    event.replaceInput({id: 'mekmm:recycler'}, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
+    event.replaceInput({ id: 'mekmm:cnc_rolling_mill' }, 'mekanism:basic_control_circuit', 'mekanism:elite_control_circuit')
+    event.replaceInput({ id: 'mekmm:ambient_gas_collector' }, 'mekanism:steel_casing', '#submerged:top_induction_mek')
+    event.replaceInput({ id: 'mekmm:recycler' }, 'alltheores:osmium_ingot', 'alltheores:uranium_ingot')
 
     //Scrap 
     event.recipes.mekanism.enriching('mekmm:scrap_box', '32x mekmm:scrap').id('submerged:mekanism_scrap_box')
@@ -48,14 +48,14 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.combining('mekanism:hazmat_gown', '8x alltheores:lead_ingot', 'mekanismtools:bronze_chestplate').id('mekanism:hazmat_gown')
     event.recipes.mekanism.combining('mekanism:hazmat_pants', '7x alltheores:lead_ingot', 'mekanismtools:bronze_leggings').id('mekanism:hazmat_pants')
     event.recipes.mekanism.combining('mekanism:hazmat_boots', '4x alltheores:lead_ingot', 'mekanismtools:bronze_boots').id('mekanism:hazmat_boots')
-    
+
     //Shulker Shell
     event.recipes.mekanism.nucleosynthesizing('minecraft:shulker_shell', 'minecraft:turtle_scute', 'mekanism:antimatter', 500, false).id('submerged:shulker_shell')
 
     //Beam
     addLatheRecipe('alltheores:steel_ingot', 3, 'dysoncubeproject:beam')
     addLatheRecipe('dysoncubeproject:beam', 4, 'dysoncubeproject:beam_package')
-  
+
     //Sail
     addRollingRecipe('enderio:photovoltaic_plate', 1, 'dysoncubeproject:solar_sail')
     addRollingRecipe('dysoncubeproject:solar_sail', 8, 'dysoncubeproject:solar_sail_package')
@@ -168,16 +168,16 @@ ServerEvents.recipes(event => {
                 "id": "mekmm:scrap"
             }
         }).id(`submerged:mekanism_recycler/${input.replace(':', '_').replace('#', '')}`)
-    } 
+    }
 
     //Oxidizing Function
     function addOxidizingRecipe(output, outputAmount, input) {
         event.custom({
-            "type":"mekanism:oxidizing",
-            "input":Ingredient.of(input).toJson(),
-            "output":{
-                "amount":outputAmount,
-                "id":output
+            "type": "mekanism:oxidizing",
+            "input": Ingredient.of(input).toJson(),
+            "output": {
+                "amount": outputAmount,
+                "id": output
             }
         }).id(`submerged:mekanism_oxidizing/${output.replace(':', '_')}`)
     }
@@ -185,35 +185,35 @@ ServerEvents.recipes(event => {
     //Injecting Function
     function addInjectingRecipe(output, input, gas, gasAmount) {
         event.custom({
-            "type":"mekanism:injecting",
-            "chemical_input":{
-                "amount":gasAmount,
-                "chemical":gas
+            "type": "mekanism:injecting",
+            "chemical_input": {
+                "amount": gasAmount,
+                "chemical": gas
             },
-            "item_input":Ingredient.of(input).toJson(),
-            "output":Item.of(output).toJson(),
-            "per_tick_usage":true
+            "item_input": Ingredient.of(input).toJson(),
+            "output": Item.of(output).toJson(),
+            "per_tick_usage": true
         }).id(`submerged:mekanism_injecting/${output.replace(':', '_')}`)
     }
 
     //Liquid Fissile Fuel
     event.custom({
-        "type":"mekanism:rotary",
-        "chemical_input":{
-            "amount":1,
-            "chemical":"mekanism:fissile_fuel"
+        "type": "mekanism:rotary",
+        "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:fissile_fuel"
         },
-        "chemical_output":{
-            "amount":1,
-            "id":"mekanism:fissile_fuel"
+        "chemical_output": {
+            "amount": 1,
+            "id": "mekanism:fissile_fuel"
         },
-        "fluid_input":{
-            "amount":10,
-            "tag":"submerged:liquid_fissile_fuel"
+        "fluid_input": {
+            "amount": 10,
+            "tag": "submerged:liquid_fissile_fuel"
         },
-        "fluid_output":{
-            "amount":10,
-            "id":"submerged:liquid_fissile_fuel"
+        "fluid_output": {
+            "amount": 10,
+            "id": "submerged:liquid_fissile_fuel"
         }
     })
 

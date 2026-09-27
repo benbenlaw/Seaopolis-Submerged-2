@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"submerged:air_purifier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:water"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"simplehats:spyzombie"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"storagedrawers:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},

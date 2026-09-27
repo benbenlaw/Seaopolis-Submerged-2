@@ -5,416 +5,12 @@
     "fallback": "Iron Buckets"
   },
   "enabled": true,
+  "icon": [
+    "minecraft:bucket",
+    "minecraft:water_bucket"
+  ],
   "filter": {
     "any": [
-      {
-        "type": "item",
-        "id": "bigreactors:steam_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:yellorium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:cyanite_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:blutonium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:magentite_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:verderium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:rossinite_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:cryomisi_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:tangerium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "bigreactors:redfrigium_bucket"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:awkward\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:mundane\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:fire_resistance\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_fire_resistance\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:glowing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:long_glowing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:harming\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_harming\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:healing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_healing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:infested\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:invisibility\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_invisibility\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:leaping\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_leaping\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_leaping\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:luck\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:night_vision\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_night_vision\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:oozing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:poison\"}}}"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:herbicide_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:concrete_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:high_power_biodiesel_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:biodiesel_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:ethanol_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:plantoil_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:creosote_bucket"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:thick\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_turtle_master\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_turtle_master\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:turtle_master\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:wind_charged\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:weaving\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_weakness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:weakness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_water_breathing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:water_breathing\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_swiftness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_swiftness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:swiftness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_strength\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_strength\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strength\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:strong_sporadic_silence\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:long_sporadic_silence\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"projectvibrantjourneys:sporadic_silence\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_slowness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_slowness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:slowness\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_slow_falling\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:slow_falling\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_regeneration\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_regeneration\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:regeneration\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_poison\"}}}"
-      },
-      {
-        "type": "item",
-        "stack": "{\"id\":\"immersiveengineering:potion_bucket\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_poison\"}}}"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:redstone_acid_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:acetaldehyde_bucket"
-      },
-      {
-        "type": "item",
-        "id": "immersiveengineering:phenolic_resin_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:hydrogen_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:oxygen_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:chlorine_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:sulfur_dioxide_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:sulfur_trioxide_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:sulfuric_acid_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:hydrogen_chloride_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:hydrofluoric_acid_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:uranium_oxide_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:uranium_hexafluoride_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:ethene_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:sodium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:superheated_sodium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:brine_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:lithium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:steam_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:heavy_water_bucket"
-      },
-      {
-        "type": "item",
-        "id": "mekanism:nutritional_paste_bucket"
-      },
-      {
-        "type": "item",
-        "id": "stellaris:fuel_bucket"
-      },
-      {
-        "type": "item",
-        "id": "stellaris:oil_bucket"
-      },
-      {
-        "type": "item",
-        "id": "stellaris:hydrogen_bucket"
-      },
-      {
-        "type": "item",
-        "id": "stellaris:diesel_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:hot_water_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:molten_mob_essence_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:liquid_nitrogen_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:molten_cheese_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:oil_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:molten_ender_fuel_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:ender_ethanol_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:chocolate_bucket"
-      },
-      {
-        "type": "item",
-        "id": "techopolis:liquid_matter_bucket"
-      },
-      {
-        "type": "item",
-        "id": "utilitarian:slime_bucket"
-      },
       {
         "type": "item",
         "id": "enderio:nutrient_distillation_bucket"
@@ -509,91 +105,47 @@
       },
       {
         "type": "item",
-        "id": "mob_grinding_utils:fluid_xp_bucket"
+        "id": "mekanism:hydrogen_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:biodiesel_bucket"
+        "id": "mekanism:oxygen_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:plastic_bucket"
+        "id": "mekanism:chlorine_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:oil_bucket"
+        "id": "mekanism:sulfur_dioxide_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:diesel_bucket"
+        "id": "mekanism:sulfur_trioxide_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:etching_acid_bucket"
+        "id": "mekanism:sulfuric_acid_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:ethanol_bucket"
+        "id": "mekanism:hydrogen_chloride_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:gasoline_bucket"
+        "id": "mekanism:hydrofluoric_acid_bucket"
       },
       {
         "type": "item",
-        "id": "pneumaticcraft:kerosene_bucket"
-      },
-      {
-        "type": "item",
-        "id": "pneumaticcraft:lubricant_bucket"
-      },
-      {
-        "type": "item",
-        "id": "pneumaticcraft:memory_essence_bucket"
-      },
-      {
-        "type": "item",
-        "id": "pneumaticcraft:vegetable_oil_bucket"
-      },
-      {
-        "type": "item",
-        "id": "pneumaticcraft:yeast_culture_bucket"
-      },
-      {
-        "type": "item",
-        "id": "reliquary:xp_bucket"
-      },
-      {
-        "type": "item",
-        "id": "pneumaticcraft:lpg_bucket"
-      },
-      {
-        "type": "item",
-        "id": "submerged:organic_water_bucket"
-      },
-      {
-        "type": "item",
-        "id": "submerged:totemic_infused_water_bucket"
-      },
-      {
-        "type": "item",
-        "id": "submerged:salt_water_bucket"
-      },
-      {
-        "type": "item",
-        "id": "submerged:molten_force_bucket"
-      },
-      {
-        "type": "item",
-        "id": "submerged:molten_solclipsium_bucket"
-      },
-      {
-        "type": "item",
-        "id": "submerged:dragons_breath_bucket"
+        "id": "mekanism:uranium_oxide_bucket"
       },
       {
         "type": "item",
         "id": "submerged:molten_triarchium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "submerged:dragons_breath_bucket"
       },
       {
         "type": "item",
@@ -605,7 +157,23 @@
       },
       {
         "type": "item",
+        "id": "submerged:molten_solclipsium_bucket"
+      },
+      {
+        "type": "item",
         "id": "submerged:molten_star_bucket"
+      },
+      {
+        "type": "item",
+        "id": "submerged:molten_force_bucket"
+      },
+      {
+        "type": "item",
+        "id": "submerged:salt_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "submerged:totemic_infused_water_bucket"
       },
       {
         "type": "item",
@@ -613,7 +181,107 @@
       },
       {
         "type": "item",
-        "id": "submerged:liquid_fissile_fuel_bucket"
+        "id": "submerged:organic_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "reliquary:xp_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:yeast_culture_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:vegetable_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:memory_essence_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:lubricant_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:lpg_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:kerosene_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:gasoline_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:ethanol_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:etching_acid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:diesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:plastic_bucket"
+      },
+      {
+        "type": "item",
+        "id": "pneumaticcraft:biodiesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mob_grinding_utils:fluid_xp_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:nutritional_paste_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:heavy_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:steam_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:lithium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:brine_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:superheated_sodium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:sodium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:ethene_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mekanism:uranium_hexafluoride_bucket"
+      },
+      {
+        "type": "item",
+        "id": "submerged:molten_vanillarite_bucket"
       },
       {
         "type": "item",
@@ -621,7 +289,7 @@
       },
       {
         "type": "item",
-        "id": "submerged:molten_vanillarite_bucket"
+        "id": "submerged:liquid_fissile_fuel_bucket"
       },
       {
         "type": "item",

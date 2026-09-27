@@ -1,0 +1,10 @@
+[upgrade]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	insertUpgradeEnergyUsage = 4
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	exportUpgradeEnergyUsage = 4
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	blockPickerUpgradeEnergyUsage = 4

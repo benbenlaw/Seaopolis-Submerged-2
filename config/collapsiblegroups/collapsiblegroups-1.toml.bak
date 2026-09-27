@@ -38,6 +38,9 @@
 		#Whether to load built-in Iron's Spellbooks scroll groups (one group per spell).
 		#Has no effect if Iron's Spellbooks is not installed.
 		loadIronsSpellbooks = true
+		#Whether to load built-in Iron's Apothic gem groups (one group per gem type).
+		#Has no effect if Iron's Apothic is not installed.
+		loadIronsApothic = true
 
 [ui]
 	#Whether to show the group manager button in the JEI ingredient list overlay.

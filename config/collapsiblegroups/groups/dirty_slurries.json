@@ -9,50 +9,6 @@
     "any": [
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_anglesite_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_iridium_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_neptunium_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_desh_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_ostrum_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_cheesium_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_quartz_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_black_quartz_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_replica_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_ender_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_zinc_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
         "id": "alltheores:dirty_aluminum"
       },
       {
@@ -105,27 +61,7 @@
       },
       {
         "type": "mekanism:chemical",
-        "id": "mekanism:dirty_iron"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "mekanism:dirty_gold"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "mekanism:dirty_osmium"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "mekanism:dirty_copper"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "mekanism:dirty_tin"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "mekanism:dirty_lead"
+        "id": "mekmm:dirty_silver"
       },
       {
         "type": "mekanism:chemical",
@@ -133,67 +69,27 @@
       },
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_coal_slurry"
+        "id": "mekanism:dirty_lead"
       },
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_iron_slurry"
+        "id": "mekanism:dirty_tin"
       },
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_gold_slurry"
+        "id": "mekanism:dirty_copper"
       },
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_copper_slurry"
+        "id": "mekanism:dirty_osmium"
       },
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_tin_slurry"
+        "id": "mekanism:dirty_gold"
       },
       {
         "type": "mekanism:chemical",
-        "id": "techopolis:dirty_diamond_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_emerald_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_redstone_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_lapis_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_aluminum_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_lead_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_nickel_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_osmium_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_platinum_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_silver_slurry"
-      },
-      {
-        "type": "mekanism:chemical",
-        "id": "techopolis:dirty_uranium_slurry"
+        "id": "mekanism:dirty_iron"
       }
     ]
   }
